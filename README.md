@@ -11,14 +11,20 @@ The Douey Rheims Challoner Bible with markup that allows for multiple styles of 
 * https://www.gutenberg.org/ebooks/1581
   * https://www.gutenberg.org/cache/epub/1581/pg1581-images.html
   * https://www.gutenberg.org/files/1581/
+  * https://www.gutenberg.org/cache/epub/1581/
 
 ### Project Gutenberg -- 8300
 
 * https://www.gutenberg.org/ebooks/8300
+  * https://www.gutenberg.org/cache/epub/8300/
 
 ## Book Names:
 
 * https://simple.wikipedia.org/wiki/Books_of_the_Bible
+
+# Addon
+
+* https://haydockcommentary.com/
 
 # Audit against scans
 
