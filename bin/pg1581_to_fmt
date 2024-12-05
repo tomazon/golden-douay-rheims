@@ -80,7 +80,7 @@ for my $line (read_file($in_file)) {
         }
         my ($book_tag, $book_title) = ($1, $2);
         $book_id = $tag_map->{$book_tag}->{USFM_ID};
-        $out_file = "$out_dir/$book_id.yaml";
+        $out_file = "$out_dir/$book_id.fmt";
         print ">>> $book_id\n";
         out_spc('B.ID', $book_id);
         out_spc('B.TAG', $book_tag);
