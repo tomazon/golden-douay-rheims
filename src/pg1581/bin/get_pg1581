@@ -1,0 +1,12 @@
+
+
+
+
+curl -o - https://www.gutenberg.org/cache/epub/1581/pg1581-images.html \
+    | perl -pe 's/<section [^>]+>//ig;  s{</section>}{}ig' \
+    | tidy --utf8 --indent --wrap 0 \
+    > pg1581-images.html
+
+wc pg1581-images.html
+ls -l pg1581-images.html
+

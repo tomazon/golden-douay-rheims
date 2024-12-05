@@ -20,7 +20,14 @@ The Douey Rheims Challoner Bible with markup that allows for multiple styles of 
 
 ## Book Names:
 
+We use the three character abreviations accoording to:
+
+* https://ubsicap.github.io/usfm/identification/books.html
+
+Other sources of names:
+
 * https://simple.wikipedia.org/wiki/Books_of_the_Bible
+* https://en.wikipedia.org/wiki/Books_of_the_Vulgate
 
 # Addon
 
