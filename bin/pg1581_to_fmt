@@ -6,12 +6,13 @@ use warnings;
 use File::Slurp;
 use YAML;
 
-my $usage = "Usage: $0 -o dir html_file\n";
+my $usage = "Usage: $0 -o out_dir -e etc_dir html_file\n";
 
-my ($opt, $dir, $in_file) = @ARGV;
+my ($o_opt, $out_dir, $e_opt, $etc_dir, $in_file) = @ARGV;
 
-die $usage if $opt ne '-o';
-die "Not a directory: $dir\n$usage" if ! -d $dir;
+die $usage if $o_opt ne '-o' || $e_opt ne '-e';
+die "Not a directory: $out_dir\n$usage" if ! -d $out_dir;
+die "Not a directory: $etc_dir\n$usage" if ! -d $etc_dir;
 die "Not named *.html: $in_file\n$usage" if $in_file !~ /\.html$/;
 die "No such file: $in_file\n$usage" if ! -f $in_file;
 
@@ -19,9 +20,16 @@ die "No such file: $in_file\n$usage" if ! -f $in_file;
 my $line_no = 0;
 my $level = 0;
 
+my $bump_hnum=0;
+
 for my $line (read_file($in_file)) {
     $line_no++;
     $line =~ s/\s+$//;
+    $bump_hnum = -1 if $line =~ m{id="ADDITIONAL_BOOKS"};
+
+    if ($bump_hnum) {
+        $line =~ s/<h(\d)/"<h". ($1 + $bump_hnum)/e;
+    }
 
     if ($line =~ /<h(\d)/) {
         $level = $1;

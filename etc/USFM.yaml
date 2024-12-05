@@ -1,0 +1,816 @@
+# 3-character book identifiers used by the Unified Standard Format Markers (USFM)
+# from table on https://ubsicap.github.io/usfm/identification/books.html
+# extracted on 2024-12-05 
+# using wiki source at https://ubsicap.github.io/usfm/_sources/identification/books.rst.txt
+
+
+---
+by_id:
+  1CH:
+    id: 1CH
+    name: 1 Chronicles
+    notes: 1 Paralipomenon in Orthodox Bibles
+    num: 13
+  1CO:
+    id: 1CO
+    name: 1 Corinthians
+    notes: The First Letter of Paul to the Corinthians
+    num: 47
+  1ES:
+    id: 1ES
+    name: 1 Esdras (Greek)
+    notes: "The 9 chapter book of Greek Ezra in the LXX, called '2 Esdras' in Russian Bibles, and called '3 Esdras' in the Vulgate; when Ezra-Nehemiah is one book use EZR"
+    num: 82
+  1JN:
+    id: 1JN
+    name: 1 John
+    notes: The First Letter of John
+    num: 63
+  1KI:
+    id: 1KI
+    name: 1 Kings
+    notes: 3 Kings or Kingdoms in Orthodox Bibles
+    num: 11
+  1MA:
+    id: 1MA
+    name: 1 Maccabees
+    notes: "Called '3 Maccabees' in some traditions, printed in Catholic and Orthodox Bibles"
+    num: 78
+  1MQ:
+    id: 1MQ
+    name: 1 Meqabyan/Mekabis
+    notes: Book of Mekabis of Benjamin in the Ethiopian Bible
+    num: B8
+  1PE:
+    id: 1PE
+    name: 1 Peter
+    notes: The First Letter of Peter
+    num: 61
+  1SA:
+    id: 1SA
+    name: 1 Samuel
+    notes: 1 Kings or Kingdoms in Orthodox Bibles; do not confuse this abbreviation with ISA for Isaiah
+    num: 09
+  1TH:
+    id: 1TH
+    name: 1 Thessalonians
+    notes: The First Letter of Paul to the Thessalonians
+    num: 53
+  1TI:
+    id: 1TI
+    name: 1 Timothy
+    notes: The First Letter of Paul to Timothy
+    num: 55
+  2BA:
+    id: 2BA
+    name: 2 Baruch (Apocalypse)
+    notes: The Apocalypse of Baruch in Syriac Bibles
+    num: B4
+  2CH:
+    id: 2CH
+    name: 2 Chronicles
+    notes: 2 Paralipomenon in Orthodox Bibles
+    num: 14
+  2CO:
+    id: 2CO
+    name: 2 Corinthians
+    notes: The Second Letter of Paul to the Corinthians
+    num: 48
+  2ES:
+    id: 2ES
+    name: 2 Esdras (Latin)
+    notes: The 16 chapter book of Latin Esdras called '3 Esdras' in Russian Bibles and called '4 Esdras' in the Vulgate; for the 12 chapter Apocalypse of Ezra use EZA
+    num: 83
+  2JN:
+    id: 2JN
+    name: 2 John
+    notes: The Second Letter of John
+    num: 64
+  2KI:
+    id: 2KI
+    name: 2 Kings
+    notes: 4 Kings or Kingdoms in Orthodox Bibles
+    num: 12
+  2MA:
+    id: 2MA
+    name: 2 Maccabees
+    notes: "Called '1 Maccabees' in some traditions, printed in Catholic and Orthodox Bibles"
+    num: 79
+  2MQ:
+    id: 2MQ
+    name: 2 Meqabyan/Mekabis
+    notes: Book of Mekabis of Moab in the Ethiopian Bible
+    num: B9
+  2PE:
+    id: 2PE
+    name: 2 Peter
+    notes: The Second Letter of Peter
+    num: 62
+  2SA:
+    id: 2SA
+    name: 2 Samuel
+    notes: 2 Kings or Kingdoms in Orthodox Bibles
+    num: 10
+  2TH:
+    id: 2TH
+    name: 2 Thessalonians
+    notes: The Second Letter of Paul to the Thessalonians
+    num: 54
+  2TI:
+    id: 2TI
+    name: 2 Timothy
+    notes: The Second Letter of Paul to Timothy
+    num: 56
+  3JN:
+    id: 3JN
+    name: 3 John
+    notes: The Third Letter of John
+    num: 65
+  3MA:
+    id: 3MA
+    name: 3 Maccabees
+    notes: "Called '2 Maccabees' in some traditions, printed in Orthodox Bibles"
+    num: 80
+  3MQ:
+    id: 3MQ
+    name: 3 Meqabyan/Mekabis
+    notes: Book of Meqabyan in the Ethiopian Bible
+    num: C0
+  4BA:
+    id: 4BA
+    name: 4 Baruch
+    notes: "Paralipomenon of Jeremiah, called 'Rest of the Words of Baruch' in Ethiopia; may include or exclude the Letter of Jeremiah as chapter 1, used in the Ethiopian Bible"
+    num: C2
+  4MA:
+    id: 4MA
+    name: 4 Maccabees
+    notes: In an appendix to the Greek Bible and in the Georgian Bible
+    num: 81
+  5EZ:
+    id: 5EZ
+    name: 5 Ezra
+    notes: 2 chapter Latin preface to Ezra Apocalypse; formerly called 5ES
+    num: A5
+  6EZ:
+    id: 6EZ
+    name: 6 Ezra
+    notes: 2 chapter Latin conclusion to Ezra Apocalypse; formerly called 6ES
+    num: A6
+  ACT:
+    id: ACT
+    name: Acts
+    notes: The Acts of the Apostles
+    num: 45
+  AMO:
+    id: AMO
+    name: Amos
+    notes: ''
+    num: 30
+  BAK:
+    id: BAK
+    name: Back Matter
+    notes: ~
+    num: A1
+  BAR:
+    id: BAR
+    name: Baruch
+    notes: 5 chapters in Orthodox Bibles (LJE is separate); 6 chapters in Catholic Bibles (includes LJE); called 1 Baruch in Syriac Bibles
+    num: 73
+  BEL:
+    id: BEL
+    name: Bel and the Dragon
+    notes: Sometimes included in Greek Daniel; called 'Rest of Daniel' in Ethiopia
+    num: 77
+  CNC:
+    id: CNC
+    name: Concordance
+    notes: ~
+    num: A8
+  COL:
+    id: COL
+    name: Colossians
+    notes: The Letter of Paul to the Colossians
+    num: 52
+  DAG:
+    id: DAG
+    name: Daniel Greek
+    notes: The 14 chapter version of Daniel from the Septuagint including Greek additions
+    num: B2
+  DAN:
+    id: DAN
+    name: Daniel (Hebrew)
+    notes: This is for Hebrew Daniel; for the longer Greek LXX Daniel use DAG
+    num: 27
+  DEU:
+    id: DEU
+    name: Deuteronomy
+    notes: "'5 Moses' in some Bibles"
+    num: 05
+  ECC:
+    id: ECC
+    name: Ecclesiastes
+    notes: Qoholeth in Catholic Bibles; for Ecclesiasticus use SIR
+    num: 21
+  ENO:
+    id: ENO
+    name: Enoch
+    notes: Sometimes called '1 Enoch'; ancient Hebrew book in the Ethiopian Bible
+    num: B7
+  EPH:
+    id: EPH
+    name: Ephesians
+    notes: The Letter of Paul to the Ephesians
+    num: 50
+  ESG:
+    id: ESG
+    name: Esther Greek
+    notes: ''
+    num: 70
+  EST:
+    id: EST
+    name: Esther (Hebrew)
+    notes: This is for Hebrew Esther; for the longer Greek LXX Esther use ESG
+    num: 17
+  EXO:
+    id: EXO
+    name: Exodus
+    notes: "'2 Moses' in some Bibles"
+    num: 02
+  EZA:
+    id: EZA
+    name: Ezra Apocalypse
+    notes: "12 chapter book of Ezra Apocalypse; called '3 Ezra' in the Armenian Bible, called 'Ezra Shealtiel' in the Ethiopian Bible; formerly called 4ES; called '2 Esdras' when it includes 5 Ezra and 6 Ezra"
+    num: A4
+  EZK:
+    id: EZK
+    name: Ezekiel
+    notes: ''
+    num: 26
+  EZR:
+    id: EZR
+    name: Ezra
+    notes: 'This is for Hebrew Ezra, sometimes called 1 Ezra or 1 Esdras; also for Ezra-Nehemiah when one book'
+    num: 15
+  FRT:
+    id: FRT
+    name: Front Matter
+    notes: ~
+    num: A0
+  GAL:
+    id: GAL
+    name: Galatians
+    notes: The Letter of Paul to the Galatians
+    num: 49
+  GEN:
+    id: GEN
+    name: Genesis
+    notes: "'1 Moses' in some Bibles"
+    num: 01
+  GLO:
+    id: GLO
+    name: Glossary / Wordlist
+    notes: ~
+    num: A9
+  HAB:
+    id: HAB
+    name: Habakkuk
+    notes: ''
+    num: 35
+  HAG:
+    id: HAG
+    name: Haggai
+    notes: ''
+    num: 37
+  HEB:
+    id: HEB
+    name: Hebrews
+    notes: The Letter to the Hebrews
+    num: 59
+  HOS:
+    id: HOS
+    name: Hosea
+    notes: ''
+    num: 28
+  INT:
+    id: INT
+    name: Introduction Matter
+    notes: ~
+    num: A7
+  ISA:
+    id: ISA
+    name: Isaiah
+    notes: Do not confuse this abbreviation with 1SA for 1 Samuel
+    num: 23
+  JAS:
+    id: JAS
+    name: James
+    notes: The Letter of James
+    num: 60
+  JDG:
+    id: JDG
+    name: Judges
+    notes: ''
+    num: 07
+  JDT:
+    id: JDT
+    name: Judith
+    notes: ''
+    num: 69
+  JER:
+    id: JER
+    name: Jeremiah
+    notes: The Book of Jeremiah; for the Letter of Jeremiah use LJE
+    num: 24
+  JHN:
+    id: JHN
+    name: John
+    notes: The Gospel according to John
+    num: 44
+  JOB:
+    id: JOB
+    name: Job
+    notes: ''
+    num: 18
+  JOL:
+    id: JOL
+    name: Joel
+    notes: ''
+    num: 29
+  JON:
+    id: JON
+    name: Jonah
+    notes: Do not confuse this abbreviation with JHN for John
+    num: 32
+  JOS:
+    id: JOS
+    name: Joshua
+    notes: ''
+    num: 06
+  JUB:
+    id: JUB
+    name: Jubilees
+    notes: Ancient Hebrew book used in the Ethiopian Bible
+    num: B6
+  JUD:
+    id: JUD
+    name: Jude
+    notes: 'The Letter of Jude; do not confuse this abbreviation with JDG for Judges, or JDT for Judith'
+    num: 66
+  LAM:
+    id: LAM
+    name: Lamentations
+    notes: The Lamentations of Jeremiah
+    num: 25
+  LAO:
+    id: LAO
+    name: Letter to the Laodiceans
+    notes: 'A Latin Vulgate book, found in the Vulgate and some medieval Catholic translations'
+    num: C3
+  LBA:
+    id: LBA
+    name: Letter of Baruch
+    notes: Sometimes appended to 2 Baruch; sometimes separate in Syriac Bibles
+    num: B5
+  LEV:
+    id: LEV
+    name: Leviticus
+    notes: "'3 Moses' in some Bibles"
+    num: 03
+  LJE:
+    id: LJE
+    name: Letter of Jeremiah
+    notes: Sometimes included in Baruch; called 'Rest of Jeremiah' in Ethiopia
+    num: 74
+  LUK:
+    id: LUK
+    name: Luke
+    notes: The Gospel according to Luke
+    num: 43
+  MAL:
+    id: MAL
+    name: Malachi
+    notes: ''
+    num: 39
+  MAN:
+    id: MAN
+    name: Prayer of Manasseh
+    notes: 'Sometimes appended to 2 Chronicles, included in Orthodox Bibles'
+    num: 84
+  MAT:
+    id: MAT
+    name: Matthew
+    notes: The Gospel according to Matthew
+    num: 41
+  MIC:
+    id: MIC
+    name: Micah
+    notes: ''
+    num: 33
+  MRK:
+    id: MRK
+    name: Mark
+    notes: The Gospel according to Mark
+    num: 42
+  NAM:
+    id: NAM
+    name: Nahum
+    notes: ''
+    num: 34
+  NDX:
+    id: NDX
+    name: Names Index
+    notes: ~
+    num: B1
+  NEH:
+    id: NEH
+    name: Nehemiah
+    notes: Sometimes appended to Ezra; called 2 Esdras in the Vulgate
+    num: 16
+  NUM:
+    id: NUM
+    name: Numbers
+    notes: "'4 Moses' in some Bibles"
+    num: 04
+  OBA:
+    id: OBA
+    name: Obadiah
+    notes: ''
+    num: 31
+  ODA:
+    id: ODA
+    name: Odae/Odes
+    notes: 'A book in some editions of the Septuagint; Odes has different contents in Greek, Russian, and Syriac traditions'
+    num: 86
+  OTH:
+    id: OTH
+    name: Other Matter
+    notes: ~
+    num: A2
+  PHM:
+    id: PHM
+    name: Philemon
+    notes: The Letter of Paul to Philemon
+    num: 58
+  PHP:
+    id: PHP
+    name: Philippians
+    notes: The Letter of Paul to the Philippians
+    num: 51
+  PRO:
+    id: PRO
+    name: Proverbs
+    notes: '31 Proverbs, but 24 Proverbs in the Ethiopian Bible'
+    num: 20
+  PS2:
+    id: PS2
+    name: Psalm 151
+    notes: 'An additional Psalm in the Septuagint, appended to Psalms in Orthodox Bibles'
+    num: 85
+  PS3:
+    id: PS3
+    name: Psalms 152-155
+    notes: Additional Psalms 152-155 found in West Syriac manuscripts
+    num: B3
+  PSA:
+    id: PSA
+    name: Psalms
+    notes: '150 Psalms in Hebrew, 151 Psalms in Orthodox Bibles, 155 Psalms in West Syriac Bibles, if you put Psalm 151 separately in an Apocrypha use PS2, for Psalms 152-155 use PS3'
+    num: 19
+  PSS:
+    id: PSS
+    name: Psalms of Solomon
+    notes: 'A book in some editions of the Septuagint, but not printed in modern Bibles'
+    num: 87
+  REP:
+    id: REP
+    name: Reproof
+    notes: 'Proverbs part 2: Used in the Ethiopian Bible'
+    num: C1
+  REV:
+    id: REV
+    name: Revelation
+    notes: The Revelation to John; called Apocalypse in Catholic Bibles
+    num: 67
+  ROM:
+    id: ROM
+    name: Romans
+    notes: The Letter of Paul to the Romans
+    num: 46
+  RUT:
+    id: RUT
+    name: Ruth
+    notes: ''
+    num: 08
+  S3Y:
+    id: S3Y
+    name: Song of the 3 Young Men
+    notes: Includes the Prayer of Azariah; sometimes included in Greek Daniel
+    num: 75
+  SIR:
+    id: SIR
+    name: Sirach
+    notes: Ecclesiasticus or Jesus son of Sirach
+    num: 72
+  SNG:
+    id: SNG
+    name: Song of Songs
+    notes: 'Song of Solomon, or Canticles of Canticles in Catholic Bibles'
+    num: 22
+  SUS:
+    id: SUS
+    name: Susanna
+    notes: Sometimes included in Greek Daniel
+    num: 76
+  TDX:
+    id: TDX
+    name: Topical Index
+    notes: ~
+    num: B0
+  TIT:
+    id: TIT
+    name: Titus
+    notes: The Letter of Paul to Titus
+    num: 57
+  TOB:
+    id: TOB
+    name: Tobit
+    notes: ''
+    num: 68
+  WIS:
+    id: WIS
+    name: Wisdom of Solomon
+    notes: ''
+    num: 71
+  XXA:
+    id: XXA
+    name: Extra material
+    notes: ~
+    num: 94
+  XXB:
+    id: XXB
+    name: Extra material
+    notes: ~
+    num: 95
+  XXC:
+    id: XXC
+    name: Extra material
+    notes: ~
+    num: 96
+  XXD:
+    id: XXD
+    name: Extra material
+    notes: ~
+    num: 97
+  XXE:
+    id: XXE
+    name: Extra material
+    notes: ~
+    num: 98
+  XXF:
+    id: XXF
+    name: Extra material
+    notes: ~
+    num: 99
+  XXG:
+    id: XXG
+    name: Extra material
+    notes: ~
+    num: 100
+  ZEC:
+    id: ZEC
+    name: Zechariah
+    notes: ''
+    num: 38
+  ZEP:
+    id: ZEP
+    name: Zephaniah
+    notes: ''
+    num: 36
+name_to_id:
+  1chronicles: 1CH
+  1corinthians: 1CO
+  1esdras(greek): 1ES
+  1john: 1JN
+  1kings: 1KI
+  1maccabees: 1MA
+  1meqabyan/mekabis: 1MQ
+  1peter: 1PE
+  1samuel: 1SA
+  1thessalonians: 1TH
+  1timothy: 1TI
+  2baruch(apocalypse): 2BA
+  2chronicles: 2CH
+  2corinthians: 2CO
+  2esdras(latin): 2ES
+  2john: 2JN
+  2kings: 2KI
+  2maccabees: 2MA
+  2meqabyan/mekabis: 2MQ
+  2peter: 2PE
+  2samuel: 2SA
+  2thessalonians: 2TH
+  2timothy: 2TI
+  3john: 3JN
+  3maccabees: 3MA
+  3meqabyan/mekabis: 3MQ
+  4baruch: 4BA
+  4maccabees: 4MA
+  5ezra: 5EZ
+  6ezra: 6EZ
+  acts: ACT
+  amos: AMO
+  backmatter: BAK
+  baruch: BAR
+  belandthedragon: BEL
+  colossians: COL
+  concordance: CNC
+  daniel(hebrew): DAN
+  danielgreek: DAG
+  deuteronomy: DEU
+  ecclesiastes: ECC
+  enoch: ENO
+  ephesians: EPH
+  esther(hebrew): EST
+  esthergreek: ESG
+  exodus: EXO
+  extramaterial: XXG
+  ezekiel: EZK
+  ezra: EZR
+  ezraapocalypse: EZA
+  frontmatter: FRT
+  galatians: GAL
+  genesis: GEN
+  glossary/wordlist: GLO
+  habakkuk: HAB
+  haggai: HAG
+  hebrews: HEB
+  hosea: HOS
+  introductionmatter: INT
+  isaiah: ISA
+  james: JAS
+  jeremiah: JER
+  job: JOB
+  joel: JOL
+  john: JHN
+  jonah: JON
+  joshua: JOS
+  jubilees: JUB
+  jude: JUD
+  judges: JDG
+  judith: JDT
+  lamentations: LAM
+  letterofbaruch: LBA
+  letterofjeremiah: LJE
+  lettertothelaodiceans: LAO
+  leviticus: LEV
+  luke: LUK
+  malachi: MAL
+  mark: MRK
+  matthew: MAT
+  micah: MIC
+  nahum: NAM
+  namesindex: NDX
+  nehemiah: NEH
+  numbers: NUM
+  obadiah: OBA
+  odae/odes: ODA
+  othermatter: OTH
+  philemon: PHM
+  philippians: PHP
+  prayerofmanasseh: MAN
+  proverbs: PRO
+  psalm151: PS2
+  psalms: PSA
+  psalms152-155: PS3
+  psalmsofsolomon: PSS
+  reproof: REP
+  revelation: REV
+  romans: ROM
+  ruth: RUT
+  sirach: SIR
+  songofsongs: SNG
+  songofthe3youngmen: S3Y
+  susanna: SUS
+  titus: TIT
+  tobit: TOB
+  topicalindex: TDX
+  wisdomofsolomon: WIS
+  zechariah: ZEC
+  zephaniah: ZEP
+num_to_id:
+  01: GEN
+  02: EXO
+  03: LEV
+  04: NUM
+  05: DEU
+  06: JOS
+  07: JDG
+  08: RUT
+  09: 1SA
+  10: 2SA
+  100: XXG
+  11: 1KI
+  12: 2KI
+  13: 1CH
+  14: 2CH
+  15: EZR
+  16: NEH
+  17: EST
+  18: JOB
+  19: PSA
+  20: PRO
+  21: ECC
+  22: SNG
+  23: ISA
+  24: JER
+  25: LAM
+  26: EZK
+  27: DAN
+  28: HOS
+  29: JOL
+  30: AMO
+  31: OBA
+  32: JON
+  33: MIC
+  34: NAM
+  35: HAB
+  36: ZEP
+  37: HAG
+  38: ZEC
+  39: MAL
+  41: MAT
+  42: MRK
+  43: LUK
+  44: JHN
+  45: ACT
+  46: ROM
+  47: 1CO
+  48: 2CO
+  49: GAL
+  50: EPH
+  51: PHP
+  52: COL
+  53: 1TH
+  54: 2TH
+  55: 1TI
+  56: 2TI
+  57: TIT
+  58: PHM
+  59: HEB
+  60: JAS
+  61: 1PE
+  62: 2PE
+  63: 1JN
+  64: 2JN
+  65: 3JN
+  66: JUD
+  67: REV
+  68: TOB
+  69: JDT
+  70: ESG
+  71: WIS
+  72: SIR
+  73: BAR
+  74: LJE
+  75: S3Y
+  76: SUS
+  77: BEL
+  78: 1MA
+  79: 2MA
+  80: 3MA
+  81: 4MA
+  82: 1ES
+  83: 2ES
+  84: MAN
+  85: PS2
+  86: ODA
+  87: PSS
+  94: XXA
+  95: XXB
+  96: XXC
+  97: XXD
+  98: XXE
+  99: XXF
+  A0: FRT
+  A1: BAK
+  A2: OTH
+  A4: EZA
+  A5: 5EZ
+  A6: 6EZ
+  A7: INT
+  A8: CNC
+  A9: GLO
+  B0: TDX
+  B1: NDX
+  B2: DAG
+  B3: PS3
+  B4: 2BA
+  B5: LBA
+  B6: JUB
+  B7: ENO
+  B8: 1MQ
+  B9: 2MQ
+  C0: 3MQ
+  C1: REP
+  C2: 4BA
+  C3: LAO
