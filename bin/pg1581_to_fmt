@@ -5,6 +5,7 @@ use warnings;
 
 use File::Slurp;
 use YAML;
+use JSON;
 
 my $usage = "Usage: $0 -o out_dir -e etc_dir html_file\n";
 
@@ -17,26 +18,133 @@ die "Not named *.html: $in_file\n$usage" if $in_file !~ /\.html$/;
 die "No such file: $in_file\n$usage" if ! -f $in_file;
 
 
+my $tag_map = YAML::LoadFile("$etc_dir/src_pg1581.yaml");
+
+sub rom_to_dec {
+    my ($in) = @_;
+
+    my %rom_to_dec = (
+        'I' => 1,
+        'II' => 2,
+        'III' => 3,
+        'IIII' => 4,
+        'V' => 5,
+        'VI' => 6,
+        'VII' => 7,
+        'VIII' => 8,
+        'IX' => 9,
+        'X' => 10,
+        'XI' => 11,
+        'XII' => 12,
+        'XIII' => 13,
+        'XIIII' => 14,
+        'XV' => 15,
+        'XVI' => 16,
+    );
+
+    return $rom_to_dec{$in};
+}
+
 my $line_no = 0;
 my $level = 0;
 
 my $bump_hnum=0;
+
+my $out_file = '';
+my $book_id = '';
+my $chap_num = '';
+my $verse_num = 0;
+my $out = '';
+my $state = '';
 
 for my $line (read_file($in_file)) {
     $line_no++;
     $line =~ s/\s+$//;
     $bump_hnum = -1 if $line =~ m{id="ADDITIONAL_BOOKS"};
 
+    last if $line =~ /FINIS\./;
+    next if $line =~ /<div class="section">/;
+    next if $line =~ /<div class="chapter">/;
+    next if $line =~ /<hr class="chap x-ebookmaker-drop">/;
+    next if $line =~ m{^\s*</div>\s*$};
+
+
     if ($bump_hnum) {
         $line =~ s/<h(\d)/"<h". ($1 + $bump_hnum)/e;
     }
 
-    if ($line =~ /<h(\d)/) {
-        $level = $1;
-        print "  "x$level ."$line\n";
-    } elsif ($line =~ m{<p class="sp2">}) {
-        print "  "x($level + 2) ."$line\n";
+    if ($line =~ m{<h3 class="nobreak" id="(\w+)">([^<]+)</h\d}) {
+        if ($out) {
+            write_file($out_file, $out);
+            $out = '';
+        }
+        my ($book_tag, $book_title) = ($1, $2);
+        $book_id = $tag_map->{$book_tag}->{USFM_ID};
+        $out_file = "$out_dir/$book_id.yaml";
+        print ">>> $book_id\n";
+        out_spc('B.ID', $book_id);
+        out_spc('B.TAG', $book_tag);
+        out_spc('B.TITLE', $book_title);
+        $state = 'in_book';
+        next;
+    } elsif ($line =~ m{<h4>([^<]+)</h\d>}) {
+        my $tmp = $1;
+        if ($tmp eq 'PREFACE') {
+            $chap_num = 0;
+        } elsif ($tmp =~ m{([\w ]+) Chapter (\d+)$}) {
+            $chap_num = $2;
+        } elsif ($tmp =~ m{^CHAP\. ([IVX]+)\.$}) {
+            $chap_num = rom_to_dec($1);
+        } else {
+            die "ODD: $tmp\n";
+        }
+        #  $level = $1;
+        #  print "  "x$level ."$line\n";
+        print "    >>>> $chap_num\n";
+        out_spc('C.NUM', $chap_num);
+        $state = 'in_chapter';
+    } elsif ($line =~ m{<p class="sp2">([^<]+)</p>}) {
+        my $text = $1;
+        if ($state eq 'in_book') {
+            out_spc("B.INTRO", $text);
+        } elsif ($state eq 'in_chapter') {
+            out_spc("C.INTRO", $text);
+        } else {
+            print "  "x($level + 2) ."$line\n";
+        }
+    } elsif ($line =~ m{<p>(\d+):(\d+)\. ?([^<]+)</p>}) {
+        my ($c, $v, $text) = ($1, $2, $3);
+        $verse_num = $v;
+        # TODO: Add checks.
+        out_verse($c,$v,$text);
+    } elsif ($line =~ m{<p class="expl">([^<]+)</p>}) {
+        my $text = $1;
+        out_footnote($book_id, $chap_num, $verse_num, $text);
+    } else {
+        print "$line\n";
     }
+
 }
 
+sub out_footnote {
+    my ($book_id, $chap_num, $verse_num, $text) = @_;
+    my %temp = (
+        book => $book_id,
+        chap => $chap_num,
+        ver  => $verse_num,
+        text => $text,
+    );
+    my $inst = 1;
+    $temp{inst} = $inst;
 
+    $out .= "%V.NOTE.$chap_num.$verse_num.$inst: ". to_json(\%temp) ."\n";
+
+}
+sub out_verse {
+    my ($c, $v, $text) = @_;
+    $out .= "${c}:${v}. $text\n";
+}
+
+sub out_spc {
+    $out .= "%$_[0]\: $_[1]\n";
+}
