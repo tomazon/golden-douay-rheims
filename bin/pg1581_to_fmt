@@ -95,6 +95,7 @@ for my $line (read_file($in_file)) {
             $chap_num = $2;
         } elsif ($tmp =~ m{^CHAP\. ([IVX]+)\.$}) {
             $chap_num = rom_to_dec($1);
+            $verse_num = 0;
         } else {
             die "ODD: $tmp\n";
         }
@@ -120,6 +121,13 @@ for my $line (read_file($in_file)) {
     } elsif ($line =~ m{<p class="expl">([^<]+)</p>}) {
         my $text = $1;
         out_footnote($book_id, $chap_num, $verse_num, $text);
+    } elsif (($book_id eq 'MAN' || $book_id =~ /^[12]ES$/) && $line =~ m{<p>([^<]+)</p>}) {
+        my $text = $1;
+        $verse_num++;
+        print "]]]] $verse_num";
+        out_verse($chap_num,$verse_num,$text);
+    # } elsif ($book_id eq 'MAN' || $book_id =~ /^[12]ES$/)  {
+    #     next;
     } else {
         print "$line\n";
     }
@@ -137,7 +145,7 @@ sub out_footnote {
     my $inst = 1;
     $temp{inst} = $inst;
 
-    $out .= "%V.NOTE.$chap_num.$verse_num.$inst: ". to_json(\%temp) ."\n";
+    $out .= "%V.NOTE.$chap_num.$verse_num.$inst: ". to_json(\%temp, {canonical=>1}) ."\n";
 
 }
 sub out_verse {
