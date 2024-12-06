@@ -118,6 +118,10 @@ for my $line (read_file($in_file)) {
         $verse_num = $v;
         # TODO: Add checks.
         out_verse($c,$v,$text);
+    } elsif ($line =~ m{<p>9a:(\d+)\. ?([^<]+)</p>}) {  # Psalm 9a
+        my ($v, $text) = ($1, $2);
+        $verse_num = $v + 21;
+        out_verse(9,$verse_num,$text);
     } elsif ($line =~ m{<p class="expl">([^<]+)</p>}) {
         my $text = $1;
         out_footnote($book_id, $chap_num, $verse_num, $text);
