@@ -106,9 +106,7 @@ while (my $line = shift(@lines)) {
     }
 
     if ($line =~ m{<h3 class="nobreak" id="(\w+)">([^<]+)</h\d}) {
-        #if ($out->{book_id} ne "") {
         if ($out->{book_id}) {
-            #write_file($out_file, $out);
             print_book_file();
             $out = {};
         }
@@ -118,12 +116,7 @@ while (my $line = shift(@lines)) {
         $out->{book_tag} = $new_book_tag;
         $out->{book_title} = $new_book_title;
 
-        #$out_file = "$out_dir/$book_id.yaml";
         print "BOOK: $out->{book_id} ($out->{book_title})\n";
-        # out_spc('B.ID', $book_id);
-        # out_spc('B.TAG', $book_tag);
-        # out_spc('B.TITLE', $book_title);
-        #$out->{book}->{ID}
         $state = 'in_book';
         next;
     } elsif ($line =~ m{<h4>([^<]+)</h\d>}) {
@@ -287,27 +280,6 @@ sub out_footnote {
     }
 }
 
-sub OLD_SEMI_WORKING_out_footnote {
-    my ($book_id, $chap_num, $verse_num, $text) = @_;
-
-    #q$out->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{raw} = $text;
-    for my $part (split(/\s+[^\s]+Ibid.\s+/, $text)) {
-        my $tmp = {};
-        #$tmp->{raw} = {raw => $part};
-        if ($part =~ /^(.+), etc\.\.\.\. (.+)$/) {
-            my ($quote, $note) = ($1, $2);
-            $tmp->{quote} = $quote;
-            $tmp->{note} = $note;
-            $tmp->{quote_has_etc} = 1;
-        }elsif ($part =~ /^(.+)\.\.\.\. (.+)$/) {
-            my ($quote, $note) = ($1, $2);
-            $tmp->{quote} = $quote;
-            $tmp->{note} = $note;
-        }
-
-        push(@{$out->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{instances}}, $tmp);
-    }
-}
 sub out_verse {
     my ($c, $v, $text) = @_;
     #$out .= "${c}:${v}. $text\n";
