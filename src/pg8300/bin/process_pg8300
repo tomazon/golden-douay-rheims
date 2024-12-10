@@ -36,8 +36,13 @@ my $bookid_map = YAML::Safe::LoadFile("$etc_dir/pg8300_book_ids.yaml");
 my %short_title = ();
 my $state = '';
 my $out = {};
+my $chap_num = 0;
 for my $line (read_file($in_file, { binmode => ':utf8' })) {
     $line =~ s/\s+$//;
+
+    $line =~ s{<p>THE BOOK OF TOBIAS</p>}{<h2>THE BOOK OF TOBIAS</h2>};
+    $line =~ s{<p>6;1. }{<p>6:1. }; # EXO 6:1
+    $line =~ s{<p>4:1 }{<p>4:1. }; # RUT 4:1
 
     # <p><a href="#Book01" class="pginternal">Book 01 &nbsp;&nbsp;&nbsp;&nbsp; Genesis</a></p>
     if ($line =~ m{^<p><a href="#(Book\d\d)".+; (\w[\w ]+)</a>}) {
@@ -56,10 +61,70 @@ for my $line (read_file($in_file, { binmode => ':utf8' })) {
         next if $title =~ /THE HOLY BIBLE/;
         next if $title =~ /</;
         $out->{long_title} = $title;
-    }
+    } elsif ($line =~ m{<p>(([\w1-9][\w1-9 ]+\w) Chapter (\d+))</p>}) {
+        (my $chap_title, my $this_title, $chap_num) = ($1,$2,$3);
+        warn "Book title missmatch: $out->{book_short_title} != $line\n" if $out->{book_short_title} ne $this_title;
+        $out->{chapter}->[$chap_num]->{chapter_number} = $chap_num;
+        $out->{chapter}->[$chap_num]->{chapter_title} = $chap_title;
+        if ($out->{book_id} eq 'PSA') {
+            $state = 'in_psalm_chapter';
+        } else {
+            $state = 'in_chapter';
+        }
+    } elsif ($line =~ m{<p>(\d+):(\d+)\. (\S.*\S)\s*</p>}) {
+        my ($c,$v,$text) = ($1,$2,$3);
+        $state = 'in_verses';
+    } elsif ($line =~ m{<p>(.+)</p>}) {
+        my $text = $1;
+        if ($state eq 'in_book') {
+            if ($text eq "THE PROLOGUE") {
+                $state = 'in_prolog';
+            } elsif (! defined($out->{intro})) {
+                $out->{intro} = $text;
+            } else {
+                die "Already has intro:\n  OLD: $out->{intro}\n  NEW: $text\nStopped ";
+            }
+        } elsif ($state eq 'in_prolog') {
+            if (! defined($out->{prolog})) {
+                $out->{prolog} = $text;
+            } else {
+                die "Already has intro:\n  OLD: $out->{prolog}\n  NEW: $text\nStopped ";
+            }
+            $state = 'in_book';
+        } elsif ($state eq 'in_chapter') {
+            die "Chapter $chap_num intro starts with number: $text\n" if $text =~ /^\d/;
+            if ($text =~ /\.\.\./) {
+                add_footnote($out->{chapter}->[$chap_num], $text);
+            } else {
+                push(@{$out->{chapter}->[$chap_num]->{intro}}, $text);
+            }
+        }
+    } 
+
+        # } elsif ($state eq 'in_chapter') {
+        #     if (! defined($out->{chapter}->[$chap_num]->{intro})) {
+        #         $out->{chapter}->[$chap_num]->{intro} = $text;
+        #     } else {
+        #         die "Chapter $chap_num already has intro:\n  OLD: $out->{chapter}->[$chap_num]->{intro}\n  NEW: $text\nStopped ";
+        #     }
+        # } elsif ($state eq 'in_psalm_chapter') {
+        #     push(@{$out->{chapter}->[$chap_num]->{psalm_intro}}, $text);
+        #     #  if (! defined($out->{chapter}->[$chap_num]->{latin_label})) {
+        #     #     $out->{chapter}->[$chap_num]->{latin_label} = $text;
+        #     # } else {
+        #     #     die "Chapter $chap_num already has intro:\n  OLD: $out->{chapter}->[$chap_num]->{latin_label}\n  NEW: $text\nStopped ";
+        #     # }           
+        #     #$state = 'in_chapter';
+        # }
+        # #die "Umm: $line\n"
 
 }
 print_book_file() if defined($out->{book_id});
+
+sub add_footnote {
+    my ($where, $raw) = @_;
+    $where->{footnotes}->{raw} = $raw;
+}
 
 sub print_book_file {
     my $book_id = $out->{book_id};
