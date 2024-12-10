@@ -1,0 +1,62 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use File::Slurp;
+use open ':encoding(utf8)';
+use open ':std';
+use Yaml::Safe;
+
+my $usage = "$0 <dir>\n";
+
+my $dir = shift() || die "$usage";
+
+
+for my $book_id (get_book_list()) {
+    gen_book_report($book_id);
+}
+
+
+
+sub gen_book_report {
+    my ($book_id) = @_;
+    my $file = "$dir/$book_id.yaml";
+
+    #print "B: $book_id -- $file\n";
+
+    my $info = YAML::Safe::LoadFile($file);
+    for my $chap (@{$info->{chapter}}) {
+        next unless my $chap_num = $chap->{chapter_number};
+        #print "$book_id $chap_num\n";
+        my $verse_num = -1;
+        for my $verse (@{$info->{chapter}->[$chap_num]->{verses}}) {
+            $verse_num++;
+            next unless my $text = $chap->{verses}->[$verse_num];
+            print "V:${book_id}:${chap_num}:${verse_num} $text\n";
+        }
+        for my $verse_num (sort {$a<=>$b} (keys %{$info->{chapter}->[$chap_num]->{footnotes}})) {
+            my $index = 0;
+            for my $instance (@{$info->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{instances}}) {
+                my $quote = $instance->{quote};
+                my $note = $instance->{note};
+                $quote = '' if $quote eq 'NO_QUOTE';
+                print "FN:${book_id}:${chap_num}:${verse_num}:$index $quote | $note\n";
+                $index++;
+            }
+        }
+    }
+}
+
+sub get_book_list {
+    my @out = ();
+    my $book_order = YAML::Safe::LoadFile('etc/book_order.yaml');
+
+    for my $sec (qw( OT NT AP )) {
+        for my $book  (@{$book_order->{$sec}}) {
+            push(@out, $book);
+        }
+    }
+
+    @out;
+}
