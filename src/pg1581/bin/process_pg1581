@@ -3,41 +3,29 @@
 use strict;
 use warnings;
 
+use Cwd qw(getcwd);
 use File::Slurp;
 use utf8;
 use Encode;
 use YAML::Safe;
 use open ':encoding(utf8)';
 use open ':std';
-#use JSON;
 
-#use open qw( :std :encoding(UTF-8) );
-
-my $usage = "Usage: ./bin/process_pg1581\nMust be in the directory: src/pg1581\n";
-my $out_dir = './out';
+my $src = 'pg1581';
+my $should_cwd = "src/$src";
+my $usage = "Usage: ./bin/process_$src\n";
+my $out_dir = './out_new';
 my $etc_dir = './etc';
-my $in_file = './downloaded/pg1581-images.html.utf8';
+my $in_file = "./downloaded/$src-images.html.utf8";
 
+
+print "CWD: ". getcwd() ."\n";
+die "Not in directory $should_cwd\n$usage" if getcwd() !~ m{/$should_cwd$};
 die "No such file: $in_file\n$usage" if ! -f $in_file;
-die "Not a directory: $out_dir\n$usage" if ! -d $out_dir;
-die "Not a directory: $etc_dir\n$usage" if ! -d $etc_dir;
-my $yaml = YAML::Safe->new->nonstrict->encoding("utf8");
+die "No such directory: $out_dir\n$usage" if ! -d $out_dir;
+die "No such directory: $etc_dir\n$usage" if ! -d $etc_dir;
 
 my $tag_map = YAML::Safe::LoadFile("$etc_dir/src_pg1581.yaml");
-#my $tag_map = $yaml->SafeLoadFile("$etc_dir/src_pg1581.yaml");
-#$tag_map = load_yaml_file("$etc_dir/src_pg1581.yaml");
-
-sub load_yaml_file {
-    my ($file) = @_;
-    my $content = read_file($file, {binmode => ':utf8'});
-    return YAML::Safe::Load($content);
-}
-
-sub dump_yaml_file {
-    my ($file, $content) = @_;
-    write_file($file, {binmode => ':utf8'}, YAML::SafeDump($content));
-}
-
 
 sub rom_to_dec {
     my ($in) = @_;
@@ -64,7 +52,6 @@ sub rom_to_dec {
     return $rom_to_dec{$in};
 }
 
-my $line_no = 0;
 my $level = 0;
 
 my $bump_hnum=0;
@@ -76,8 +63,9 @@ my $verse_num = 0;
 my $out = {};
 my $state = '';
 
+my $line_no = 0;
 for my $line (read_file($in_file, { binmode => ':utf8' })) {
-#for my $line (read_file($in_file)) {
+    $line_no++;
 
     $line =~ s{<p class="expl">(The words of Job are ended.)</p>}{<p>($1)</p>};
     $line =~ s{<p class="expl">(Psalm 10 according to the Hebrews.)</p>}{<p>($1)</p>};
@@ -88,7 +76,11 @@ for my $line (read_file($in_file, { binmode => ':utf8' })) {
     $line =~ s{<p class="expl">(A copy of the epistle that Jeremias sent to.+)</p>}{<chapter_note>$1</p>};
  
 
-
+    # <p>12:11. He that tilleth his land shall be satisfied with bread: but he that pursueth idleness is very foolish.</p>
+    # <p>12:12. He that is delighted in passing his time over wine, leaveth a reproach in his strong holds.</p>
+    if ($out->{book_id} eq 'PRO' && $chap_num == 12) {
+        1;
+    }
 
     $line_no++;
     $line =~ s/\s+$//;
@@ -134,15 +126,11 @@ for my $line (read_file($in_file, { binmode => ':utf8' })) {
             $chap_num = $2;
         } elsif ($tmp =~ m{^CHAP\. ([IVX]+)\.$}) {
             $chap_num = rom_to_dec($1);
-            $verse_num = 0;
         } else {
             die "ODD: $tmp\n";
         }
-        #  $level = $1;
-        #  print "  "x$level ."$line\n";
-        #print "    >>>> $chap_num\n ";
-        #out_spc('C.NUM', $chap_num);
         $out->{chapter}->[$chap_num]->{chapter_number} = $chap_num;
+        $verse_num = 0;
         $state = 'in_chapter';
     } elsif ($line =~ m{<p class="sp2">([^<]+)</p>}) {
         my $text = $1;
@@ -168,7 +156,20 @@ for my $line (read_file($in_file, { binmode => ':utf8' })) {
         }
     } elsif ($line =~ m{<p>(\d+):(\d+)\. ?([^<]+)</p>}) {
         my ($c, $v, $text) = ($1, $2, $3);
-        $verse_num = $v;
+        $verse_num++;
+        if ($out->{book_id} eq 'PSA') {
+            if ($chap_num eq 113) {
+                $v = $verse_num;
+            } elsif ($chap_num eq 115 || $chap_num eq 147) {
+                # chapter continues verse numbers from prior chapter
+                $verse_num = $v;
+            }
+        }
+        if ($c != $chap_num) {
+            die "[$line_no] $out->{book_id} Chapter mismatch: $c != $chap_num\n";
+        } elsif ($v != $verse_num) {
+            die "[$line_no] $out->{book_id} Verse hopped:  $v != $verse_num\n    $line\n";
+        }
         # TODO: Add checks.
         out_verse($c,$v,$text);
     } elsif ($line =~ m{<p>9a:(\d+)\. ?([^<]+)</p>}) {  # Psalm 9a
@@ -208,9 +209,7 @@ sub print_book_file {
     my $out_file = "$out_dir/$book_id.yaml";
 
     print "    Writing: $out_file\n";
-
-    #YAML::Safe::DumpFile($out_file, $out);
-    $yaml->SafeDumpFile($out_file, $out);
+    YAML::Safe::DumpFile($out_file, $out);
     $out = {};
 }
 
