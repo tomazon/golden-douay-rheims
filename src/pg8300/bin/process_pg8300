@@ -1,0 +1,43 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use Cwd qw(getcwd);
+use File::Slurp;
+use utf8;
+use Encode;
+use YAML::Safe;
+use open ':encoding(utf8)';
+use open ':std';
+#use JSON;
+
+#use open qw( :std :encoding(UTF-8));
+
+
+my $src = 'pg8300';
+my $should_cwd = "src/$src";
+my $usage = "Usage: ./bin/process_$src\n  Must be in the directory: $should_cwd\n";
+my $out_dir = './out';
+my $etc_dir = './etc';
+my $in_file = "./downloaded/$src-images.html.utf8";
+
+
+print "CWD: ". getcwd() ."\n";
+die "Not in directory $should_cwd\n$usage" if getcwd() !~ m{/$should_cwd$};
+die "No such file: $in_file\n$usage" if ! -f $in_file;
+die "Not a directory: $out_dir\n$usage" if ! -d $out_dir;
+die "Not a directory: $etc_dir\n$usage" if ! -d $etc_dir;
+
+#my $yaml = YAML::Safe->new->nonstrict->encoding("utf8");
+
+my $tag_map = YAML::Safe::LoadFile("$etc_dir/pg8300_book_ids.yaml");
+
+for my $line (read_file($in_file, { binmode => ':utf8' })) {
+    $line =~ s/\s+$//;
+
+    if ($line =~ m{<a id="(Book\d\d)">}) {
+        print "$line\n";
+    }
+
+}
