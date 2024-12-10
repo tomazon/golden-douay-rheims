@@ -1,0 +1,18 @@
+
+
+PG_NUM=1610
+PG_DOC="pg${PG_NUM}-images.html.utf8";
+URL="https://www.gutenberg.org/cache/epub/${PG_NUM}/${PG_DOC}"
+OUT_FILE="src/pg${PG_NUM}/cache/${PG_DOC}"
+
+rm $OUT_FILE
+echo "Fetching: $URL"
+echo ""
+curl -o -  "$URL" \
+    | tidy --wrap 0 \
+    | cat > $OUT_FILE
+
+wc $OUT_FILE
+ls -l $OUT_FILE
+
+#    | perl -pe 's/<section [^>]+>//ig;  s{</section>}{}ig' \

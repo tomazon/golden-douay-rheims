@@ -1,0 +1,289 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use File::Slurp;
+use utf8;
+use Encode;
+use YAML::Safe;
+use open ':encoding(utf8)';
+use open ':std';
+#use JSON;
+
+#use open qw( :std :encoding(UTF-8) );
+
+my $usage = "Usage: ./bin/process_pg1581\nMust be in the directory: src/pg1581\n";
+my $out_dir = './out';
+my $etc_dir = './etc';
+my $in_file = './downloaded/pg1581-images.html.utf8';
+
+die "No such file: $in_file\n$usage" if ! -f $in_file;
+die "Not a directory: $out_dir\n$usage" if ! -d $out_dir;
+die "Not a directory: $etc_dir\n$usage" if ! -d $etc_dir;
+my $yaml = YAML::Safe->new->nonstrict->encoding("utf8");
+
+my $tag_map = YAML::Safe::LoadFile("$etc_dir/src_pg1581.yaml");
+#my $tag_map = $yaml->SafeLoadFile("$etc_dir/src_pg1581.yaml");
+#$tag_map = load_yaml_file("$etc_dir/src_pg1581.yaml");
+
+sub load_yaml_file {
+    my ($file) = @_;
+    my $content = read_file($file, {binmode => ':utf8'});
+    return YAML::Safe::Load($content);
+}
+
+sub dump_yaml_file {
+    my ($file, $content) = @_;
+    write_file($file, {binmode => ':utf8'}, YAML::SafeDump($content));
+}
+
+
+sub rom_to_dec {
+    my ($in) = @_;
+
+    my %rom_to_dec = (
+        'I' => 1,
+        'II' => 2,
+        'III' => 3,
+        'IIII' => 4,
+        'V' => 5,
+        'VI' => 6,
+        'VII' => 7,
+        'VIII' => 8,
+        'IX' => 9,
+        'X' => 10,
+        'XI' => 11,
+        'XII' => 12,
+        'XIII' => 13,
+        'XIIII' => 14,
+        'XV' => 15,
+        'XVI' => 16,
+    );
+
+    return $rom_to_dec{$in};
+}
+
+my $line_no = 0;
+my $level = 0;
+
+my $bump_hnum=0;
+
+my $out_file = '';
+my $book_id = '';
+my $chap_num = '';
+my $verse_num = 0;
+my $out = {};
+my $state = '';
+
+for my $line (read_file($in_file, { binmode => ':utf8' })) {
+#for my $line (read_file($in_file)) {
+
+    $line =~ s{<p class="expl">(The words of Job are ended.)</p>}{<p>$1</p>};
+
+    $line_no++;
+    $line =~ s/\s+$//;
+    $bump_hnum = -1 if $line =~ m{id="ADDITIONAL_BOOKS"};
+
+    last if $line =~ /FINIS\./;
+    next if $line =~ /<div class="section">/;
+    next if $line =~ /<div class="chapter">/;
+    next if $line =~ /<hr class="chap x-ebookmaker-drop">/;
+    next if $line =~ m{^\s*</div>\s*$};
+
+
+    if ($bump_hnum) {
+        $line =~ s/<h(\d)/"<h". ($1 + $bump_hnum)/e;
+    }
+
+    if ($line =~ m{<h3 class="nobreak" id="(\w+)">([^<]+)</h\d}) {
+        #if ($out->{book_id} ne "") {
+        if ($out->{book_id}) {
+            #write_file($out_file, $out);
+            print_book_file();
+            $out = {};
+        }
+        my ($new_book_tag, $new_book_title) = ($1, $2);
+
+        $out->{book_id} = $tag_map->{$new_book_tag}->{USFM_ID};
+        $out->{book_tag} = $new_book_tag;
+        $out->{book_title} = $new_book_title;
+
+        #$out_file = "$out_dir/$book_id.yaml";
+        print "BOOK: $out->{book_id} ($out->{book_title})\n";
+        # out_spc('B.ID', $book_id);
+        # out_spc('B.TAG', $book_tag);
+        # out_spc('B.TITLE', $book_title);
+        #$out->{book}->{ID}
+        $state = 'in_book';
+        next;
+    } elsif ($line =~ m{<h4>([^<]+)</h\d>}) {
+        my $tmp = $1;
+        if ($tmp eq 'PREFACE') {
+            $chap_num = 0;
+        } elsif ($tmp =~ m{([\w ]+) Chapter (\d+)$}) {
+            $chap_num = $2;
+        } elsif ($tmp =~ m{^CHAP\. ([IVX]+)\.$}) {
+            $chap_num = rom_to_dec($1);
+            $verse_num = 0;
+        } else {
+            die "ODD: $tmp\n";
+        }
+        #  $level = $1;
+        #  print "  "x$level ."$line\n";
+        #print "    >>>> $chap_num\n ";
+        #out_spc('C.NUM', $chap_num);
+        $out->{chapter}->[$chap_num]->{chapter_number} = $chap_num;
+        $state = 'in_chapter';
+    } elsif ($line =~ m{<p class="sp2">([^<]+)</p>}) {
+        my $text = $1;
+        if ($out->{book_id} eq 'MAN') {
+            $text =~ s/\s+\[(\d+)\]\s+/|$1 /g;
+            $verse_num = 0;
+            $chap_num = 1;
+            for my $verse (split(/\|/, $text)) {
+                my $sep = $&;
+                $verse_num++;
+                if ($verse =~ s/^$verse_num // || $verse_num == 1) {
+                    out_verse($chap_num,$verse_num, $verse);
+                } else {
+                    die "Mismatch $verse_num !~ $verse, Stopped ";
+                }
+            }
+        } elsif ($state eq 'in_book') {
+            $out->{book_intro} = $text;
+        } elsif ($state eq 'in_chapter') {
+            $out->{chapter}->[$chap_num]->{chapter_intro} = $text;
+        } else {
+            print "  "x($level + 2) ."$line\n";
+        }
+    } elsif ($line =~ m{<p>(\d+):(\d+)\. ?([^<]+)</p>}) {
+        my ($c, $v, $text) = ($1, $2, $3);
+        $verse_num = $v;
+        # TODO: Add checks.
+        out_verse($c,$v,$text);
+    } elsif ($line =~ m{<p>9a:(\d+)\. ?([^<]+)</p>}) {  # Psalm 9a
+        my ($v, $text) = ($1, $2);
+        $verse_num = $v + 21;
+        out_verse(9,$verse_num,$text);
+    } elsif ($line =~ m{<p>\((.+)\)</p>}) {
+        $out->{chapter}->[$chap_num]->{comment_after_verse}->{$verse_num} = $1;
+    } elsif ($line =~ m{<p class="expl">([^<]+)</p>}) {
+        my $text = $1;
+        out_footnote($book_id, $chap_num, $verse_num, $text);
+    } elsif (($state && $out->{book_id} =~ /^[12]ES$/) && $line =~ m{<p>([^<]+)</p>}) {
+        my $text = $1;
+        $text =~ s/([\.\?\:\;\,\)\]])\s(\d+)\s/$1|$2 /g;
+        $text =~ s/of this temple 25 no tribute,/of this temple|25 no tribute,/;
+        for my $verse (split(/\|/, $text)) {
+            my $sep = $&;
+            $verse_num++;
+            if ($verse =~ s/^$verse_num // || $verse_num == 1) {
+                out_verse($chap_num,$verse_num,$verse);
+            } else {
+                die "Mismatch $verse_num !~ $verse, Stopped ";
+            }
+        }
+    } elsif ($line =~ /^<a href=/) {
+        1;
+    } else {
+        print "$line\n";
+    }
+
+}
+print_book_file();
+
+
+sub print_book_file {
+    my $book_id = $out->{book_id};
+    my $out_file = "$out_dir/$book_id.yaml";
+
+    print "    Writing: $out_file\n";
+
+    #YAML::Safe::DumpFile($out_file, $out);
+    $yaml->SafeDumpFile($out_file, $out);
+    $out = {};
+}
+
+
+sub out_footnote {
+    my ($book_id, $chap_num, $verse_num, $text) = @_;
+
+    $out->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{raw} = $text;
+
+    if ($text =~ s/,\s?\.\.\./..../g) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [A]\n"}
+    if ($text =~ s/ \.\.\. / .... /g) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [B]\n"}
+ 
+    if ($text =~ s/^(Of slime). (Bituminis)..../$1.... Bituminis./) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/^(Thou shalt not take, etc). /$1, etc, .... /) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/^(Concubine). (She was his lawful wife)/$1.... $2/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/^(Upon the wall),/$1..../) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/^(St. Augustine considers a great mystery)/NO_QUOTE.... $1/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [NQ]\n"}
+    if ($text =~ s/^(This shows how sinful it is to intermarry)/NO_QUOTE.... $1/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [NQ]\n"}
+    if ($text =~ s/^Ver. 25, 26, and 27 (shew Job’s explicit belief in his Redeemer)/NO_QUOTE.... $1/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [NQ]\n"}
+    if ($text =~ s/^(The Lord). (That is, an angel)/$1.... $2/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+
+    $text =~ s/(\.) (\w[\w ]+\w\.\.\.\.) /$1|$2 /g;
+    $out->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{split} = $text;
+
+    for my $part (split(/\|/, $text)) {
+        my $tmp = {};
+        $tmp->{raw} = {raw => $part};
+        if ($part =~ /^(.+)\.\.\.\. (.+)$/) {
+            my ($quote, $note) = ($1, $2);
+            if ($quote =~ s/, etc$//) {
+                $tmp->{quote_ends_in_etc} = 'true';
+            }
+            if ($note =~ s/\s+\S+Ibid\.//) {
+                $tmp->{note_ends_in_etc} = 'true';
+            }
+            $tmp->{quote} = $quote;
+            $tmp->{note} = $note;
+            if ($note =~ /^This shows how sinful it is to intermarry/) {
+                $tmp->{multiple_verses} = '1,2';
+            } elsif ($note =~ /^shew Job’s explicit belief in his Redeemer/){
+                $tmp->{multiple_verses} = '25,26, and 27';
+            }
+            push(@{$out->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{instances}}, $tmp);
+        } else {
+            die "${chap_num}:$verse_num -- No .... in footnote: $text";
+        }
+    }
+}
+
+sub OLD_SEMI_WORKING_out_footnote {
+    my ($book_id, $chap_num, $verse_num, $text) = @_;
+
+    $out->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{raw} = $text;
+    for my $part (split(/\s+[^\s]+Ibid.\s+/, $text)) {
+        my $tmp = {};
+        #$tmp->{raw} = {raw => $part};
+        if ($part =~ /^(.+), etc\.\.\.\. (.+)$/) {
+            my ($quote, $note) = ($1, $2);
+            $tmp->{quote} = $quote;
+            $tmp->{note} = $note;
+            $tmp->{quote_has_etc} = 1;
+        }elsif ($part =~ /^(.+)\.\.\.\. (.+)$/) {
+            my ($quote, $note) = ($1, $2);
+            $tmp->{quote} = $quote;
+            $tmp->{note} = $note;
+        }
+
+        push(@{$out->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{instances}}, $tmp);
+    }
+}
+sub out_verse {
+    my ($c, $v, $text) = @_;
+    #$out .= "${c}:${v}. $text\n";
+    #print "VRS: $out->{book_id} $book_id ${c}:$v $text\n";
+    if ($out->{book_id} eq 'MAN' || $out->{book_id} =~ /^[12]ES$/) {
+        $text =~ s{(\S+)\s*\(([^)]+\d)\)(\s*)}{$1<cross_ref>$2</cross_ref>$3}g;
+    }
+    $out->{chapter}->[$c]->{verses}->[$v] = $text;
+}
+
+sub out_spc {
+    $out .= "%$_[0]\: $_[1]\n";
+}
+
+

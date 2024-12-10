@@ -130,6 +130,8 @@ for my $line (read_file($in_file)) {
         $verse_num++;
         print "]]]] $verse_num";
         out_verse($chap_num,$verse_num,$text);
+    # } elsif ($book_id eq 'MAN' || $book_id =~ /^[12]ES$/)  {
+    #     next;
     } else {
         print "$line\n";
     }
