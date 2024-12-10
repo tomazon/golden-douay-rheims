@@ -315,7 +315,7 @@ sub out_verse {
     if ($out->{book_id} eq 'MAN' || $out->{book_id} =~ /^[12]ES$/) {
         $text =~ s{(\S+)\s*\(([^)]+\d)\)(\s*)}{$1<cross_ref>$2</cross_ref>$3}g;
     }
-    $out->{chapter}->[$c]->{verses}->[$v] = $text;
+    $out->{chapter}->[$c]->{verse}->[$v] = $text;
 }
 
 sub out_spc {
