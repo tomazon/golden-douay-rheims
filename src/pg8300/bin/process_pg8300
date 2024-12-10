@@ -31,13 +31,15 @@ die "Not a directory: $etc_dir\n$usage" if ! -d $etc_dir;
 
 #my $yaml = YAML::Safe->new->nonstrict->encoding("utf8");
 
-my $tag_map = YAML::Safe::LoadFile("$etc_dir/pg8300_book_ids.yaml");
+my $bookid_map = YAML::Safe::LoadFile("$etc_dir/pg8300_book_ids.yaml");
+
 
 for my $line (read_file($in_file, { binmode => ':utf8' })) {
     $line =~ s/\s+$//;
 
     if ($line =~ m{<a id="(Book\d\d)">}) {
-        print "$line\n";
+        my $book_id = $bookid_map->{$1} || die "Can't map from $1, Stopped ";
+        print "IN_BOOK: $book_id\n";
     }
 
 }
