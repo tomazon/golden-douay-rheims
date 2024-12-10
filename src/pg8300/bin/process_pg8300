@@ -43,6 +43,7 @@ for my $line (read_file($in_file, { binmode => ':utf8' })) {
     $line =~ s{<p>THE BOOK OF TOBIAS</p>}{<h2>THE BOOK OF TOBIAS</h2>};
     $line =~ s{<p>6;1. }{<p>6:1. }; # EXO 6:1
     $line =~ s{<p>4:1 }{<p>4:1. }; # RUT 4:1
+    $line =~ s{<p>145:1 }{<p>145:1. }; # PSA 145:1
 
     # <p><a href="#Book01" class="pginternal">Book 01 &nbsp;&nbsp;&nbsp;&nbsp; Genesis</a></p>
     if ($line =~ m{^<p><a href="#(Book\d\d)".+; (\w[\w ]+)</a>}) {
@@ -63,14 +64,10 @@ for my $line (read_file($in_file, { binmode => ':utf8' })) {
         $out->{long_title} = $title;
     } elsif ($line =~ m{<p>(([\w1-9][\w1-9 ]+\w) Chapter (\d+))</p>}) {
         (my $chap_title, my $this_title, $chap_num) = ($1,$2,$3);
-        warn "Book title missmatch: $out->{book_short_title} != $line\n" if $out->{book_short_title} ne $this_title;
+        #warn "Book title missmatch: $out->{book_short_title} != $line\n" if $out->{book_short_title} ne $this_title;
         $out->{chapter}->[$chap_num]->{chapter_number} = $chap_num;
         $out->{chapter}->[$chap_num]->{chapter_title} = $chap_title;
-        if ($out->{book_id} eq 'PSA') {
-            $state = 'in_psalm_chapter';
-        } else {
-            $state = 'in_chapter';
-        }
+        $state = 'in_chapter';
     } elsif ($line =~ m{<p>(\d+):(\d+)\. (\S.*\S)\s*</p>}) {
         my ($c,$v,$text) = ($1,$2,$3);
         $state = 'in_verses';
@@ -96,27 +93,20 @@ for my $line (read_file($in_file, { binmode => ':utf8' })) {
             if ($text =~ /\.\.\./) {
                 add_footnote($out->{chapter}->[$chap_num], $text);
             } else {
+                if ($out->{book_id} eq "DAG" && $chap_num == 13){
+                    if (defined($out->{chapter}->[$chap_num]->{intro})) {
+                        add_footnote($out->{chapter}->[$chap_num], $text);
+                        next;
+                    }
+                }
                 push(@{$out->{chapter}->[$chap_num]->{intro}}, $text);
+                my $size = int(@{$out->{chapter}->[$chap_num]->{intro}});
+                if ($size > 1) {
+                    print "INTRO_SIZE: $out->{book_id}:${chap_num} $size\n";
+                }
             }
         }
     } 
-
-        # } elsif ($state eq 'in_chapter') {
-        #     if (! defined($out->{chapter}->[$chap_num]->{intro})) {
-        #         $out->{chapter}->[$chap_num]->{intro} = $text;
-        #     } else {
-        #         die "Chapter $chap_num already has intro:\n  OLD: $out->{chapter}->[$chap_num]->{intro}\n  NEW: $text\nStopped ";
-        #     }
-        # } elsif ($state eq 'in_psalm_chapter') {
-        #     push(@{$out->{chapter}->[$chap_num]->{psalm_intro}}, $text);
-        #     #  if (! defined($out->{chapter}->[$chap_num]->{latin_label})) {
-        #     #     $out->{chapter}->[$chap_num]->{latin_label} = $text;
-        #     # } else {
-        #     #     die "Chapter $chap_num already has intro:\n  OLD: $out->{chapter}->[$chap_num]->{latin_label}\n  NEW: $text\nStopped ";
-        #     # }           
-        #     #$state = 'in_chapter';
-        # }
-        # #die "Umm: $line\n"
 
 }
 print_book_file() if defined($out->{book_id});
