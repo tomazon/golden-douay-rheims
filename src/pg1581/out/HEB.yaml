@@ -18,11 +18,10 @@ chapter:
     footnotes:
       '3':
         instances:
+          - note: that is, the express image, and most perfect resemblance.
+            quote: 'The figure '
           - note: That is, having purged away our sins by his passion.
-            quote: The figure ... that is, the express image, and most perfect resemblance.
-              Making purgation
-        raw: The figure ... that is, the express image, and most perfect resemblance.
-          Making purgation.... That is, having purged away our sins by his passion.
+            quote: Making purgation
     verses:
       - ~
       - God, who, at sundry times and in divers manners, spoke in times past to the
@@ -64,16 +63,12 @@ chapter:
           - note: By suffering, Christ was to enter into his glory, Luke 24.26, which
               the apostle here calls being made perfect.
             quote: Perfect by his passion
-        raw: Perfect by his passion.... By suffering, Christ was to enter into his
-          glory, Luke 24.26, which the apostle here calls being made perfect.
       '16':
         instances:
           - note: That is, he never took upon him the nature of angels, but that of
               the seed of Abraham.
             quote: No where doth he
-            quote_has_etc: 1
-        raw: No where doth he, etc.... That is, he never took upon him the nature
-          of angels, but that of the seed of Abraham.
+            quote_ends_in_etc: 'true'
     verses:
       - ~
       - Therefore ought we more diligently to observe the things which we have heard
@@ -159,7 +154,6 @@ chapter:
         instances:
           - note: Josue, who in Greek is called Jesus.
             quote: Jesus
-        raw: Jesus.... Josue, who in Greek is called Jesus.
     verses:
       - ~
       - Let us fear therefore lest, the promise being left of entering into his rest,
@@ -238,7 +232,6 @@ chapter:
         instances:
           - note: The first rudiments of the Christian doctrine.
             quote: The word of the beginning
-        raw: The word of the beginning.... The first rudiments of the Christian doctrine.
       '4':
         instances:
           - note: The meaning is, that it is impossible for such as have fallen after
@@ -246,11 +239,7 @@ chapter:
               from the faith, after having received many graces, to return again to
               the happy state from which they fell.
             quote: It is impossible
-            quote_has_etc: 1
-        raw: It is impossible, etc.... The meaning is, that it is impossible for such
-          as have fallen after baptism, to be again baptized; and very hard for such
-          as have apostatized from the faith, after having received many graces, to
-          return again to the happy state from which they fell.
+            quote_ends_in_etc: 'true'
     verses:
       - ~
       - 'Wherefore, leaving the word of the beginning of Christ, let us go on to things
@@ -308,31 +297,18 @@ chapter:
               offer that absolute sacrifice of everlasting redemption, which our one
               high priest Jesus Christ has offered once, and for ever.
             quote: Many priests
-            quote_has_etc: 1
-        raw: Many priests, etc.... The apostle notes this difference between the high
-          priests of the law, and our high priest Jesus Christ; that they being removed
-          by death, made way for their successors; whereas our Lord Jesus is a priest
-          for ever, and hath no successor; but liveth and concurreth for ever with
-          his ministers, the priests of the new testament, in all their functions.
-          Also, that no one priest of the law, nor all of them together, could offer
-          that absolute sacrifice of everlasting redemption, which our one high priest
-          Jesus Christ has offered once, and for ever.
+            quote_ends_in_etc: 'true'
       '25':
         instances:
           - note: Christ, as man, continually maketh intercession for us, by representing
               his passion to his Father.
             quote: Make intercession
-        raw: Make intercession.... Christ, as man, continually maketh intercession
-          for us, by representing his passion to his Father.
       '3':
         instances:
           - note: Not that he had no father, etc., but that neither his father, nor
               his pedigree, nor his birth, nor his death, are set down in scripture.
             quote: Without father
-            quote_has_etc: 1
-        raw: Without father, etc.... Not that he had no father, etc., but that neither
-          his father, nor his pedigree, nor his birth, nor his death, are set down
-          in scripture.
+            quote_ends_in_etc: 'true'
     verses:
       - ~
       - 'For this Melchisedech was king of Salem, priest of the most high God, who
@@ -401,20 +377,15 @@ chapter:
               shall not be necessary to inculcate to the faithful the belief and knowledge
               of the true God, for they shall all know him.
             quote: They shall not teach
-            quote_has_etc: 1
-        raw: They shall not teach, etc.... So great shall be light and grace of the
-          new testament, that it shall not be necessary to inculcate to the faithful
-          the belief and knowledge of the true God, for they shall all know him.
+            quote_ends_in_etc: 'true'
       '13':
         instances:
           - note: Supply ‘covenant’.
             quote: A new
-        raw: A new.... Supply ‘covenant’.
       '2':
         instances:
           - note: That is, the sanctuary.
             quote: The holies
-        raw: The holies.... That is, the sanctuary.
       '4':
         instances:
           - note: That is, if he were not of a higher condition than the Levitical
@@ -422,21 +393,14 @@ chapter:
               he should be excluded by them from the priesthood, and its functions,
               which by the law were appropriated to their tribe.
             quote: If then he were on earth
-            quote_has_etc: 1
-        raw: If then he were on earth, etc.... That is, if he were not of a higher
-          condition than the Levitical order of earthly priests, and had not another
-          kind of sacrifice to offer, he should be excluded by them from the priesthood,
-          and its functions, which by the law were appropriated to their tribe.
+            quote_ends_in_etc: 'true'
       '5':
         instances:
           - note: The priesthood of the law and its functions were a kind of an example
               and shadow of what is done by Christ in his church militant and triumphant,
               of which the tabernacle was a pattern.
             quote: Who serve unto
-            quote_has_etc: 1
-        raw: Who serve unto, etc.... The priesthood of the law and its functions were
-          a kind of an example and shadow of what is done by Christ in his church
-          militant and triumphant, of which the tabernacle was a pattern.
+            quote_ends_in_etc: 'true'
     verses:
       - ~
       - 'Now of the things which we have spoken, this is the sum: We have such an
@@ -477,16 +441,12 @@ chapter:
         instances:
           - note: Viz., when Christ should correct and settle all things.
             quote: Of correction
-        raw: Of correction.... Viz., when Christ should correct and settle all things.
       '12':
         instances:
           - note: 'By that one sacrifice of his blood, once offered on the cross,
               Christ our Lord paid and exhibited, once for all, the general price
               and ransom of all mankind: which no other priest could do.'
             quote: Eternal redemption
-        raw: 'Eternal redemption.... By that one sacrifice of his blood, once offered
-          on the cross, Christ our Lord paid and exhibited, once for all, the general
-          price and ransom of all mankind: which no other priest could do.'
       '25':
         instances:
           - note: 'Christ shall never more offer himself in sacrifice, in that violent,
@@ -497,20 +457,11 @@ chapter:
               manner, for the daily application of that one sacrifice of redemption
               to our souls.'
             quote: Offer himself often
-        raw: 'Offer himself often.... Christ shall never more offer himself in sacrifice,
-          in that violent, painful, and bloody manner, nor can there be any occasion
-          for it: since by that one sacrifice upon the cross, he has furnished the
-          full ransom, redemption, and remedy for all the sins of the world. But this
-          hinders not that he may offer himself daily in the sacred mysteries in an
-          unbloody manner, for the daily application of that one sacrifice of redemption
-          to our souls.'
       '28':
         instances:
           - note: That is, to empty, or draw out to the very bottom, by a plentiful
               and perfect redemption.
             quote: To exhaust
-        raw: To exhaust.... That is, to empty, or draw out to the very bottom, by
-          a plentiful and perfect redemption.
     verses:
       - ~
       - The former indeed had also justifications of divine service and a worldly
@@ -585,10 +536,6 @@ chapter:
               remitted; and as for sins committed afterwards, they can only be remitted
               in virtue of the one oblation of Christ’s death.
             quote: There is no more an oblation for sin
-        raw: There is no more an oblation for sin.... Where there is a full remission
-          of sins, as in baptism, there is no more occasion for a sin offering to
-          be made for such sins already remitted; and as for sins committed afterwards,
-          they can only be remitted in virtue of the one oblation of Christ’s death.
       '2':
         instances:
           - note: 'If they had been of themselves perfect to all the intents of redemption
@@ -596,10 +543,6 @@ chapter:
               of so often repeating them: as there is no occasion for Christ’s dying
               any more for our sins.'
             quote: They would have ceased
-        raw: 'They would have ceased.... If they had been of themselves perfect to
-          all the intents of redemption and remission, as Christ’s death is there
-          would have been no occasion of so often repeating them: as there is no occasion
-          for Christ’s dying any more for our sins.'
       '26':
         instances:
           - note: 'He speaks of the sin of wilful apostasy from the known truth; after
@@ -610,13 +553,6 @@ chapter:
               apostates from the known truth, seldom or never have the grace to return
               to it.'
             quote: If we sin wilfully
-        raw: 'If we sin wilfully.... He speaks of the sin of wilful apostasy from
-          the known truth; after which, as we can not be baptized again, we can not
-          expect to have that abundant remission of sins, which Christ purchased by
-          his death, applied to our souls in that ample manner as it is in baptism:
-          but we have rather all manner of reason to look for a dreadful judgment;
-          the more because apostates from the known truth, seldom or never have the
-          grace to return to it.'
     verses:
       - ~
       - For the law, having a shadow of the good things to come, not the very image
@@ -700,8 +636,6 @@ chapter:
         instances:
           - note: That is, as a figure of Christ, slain and coming to life again.
             quote: For a parable
-        raw: For a parable.... That is, as a figure of Christ, slain and coming to
-          life again.
       '21':
         instances:
           - note: The apostle here follows the ancient Greek Bible of the seventy
@@ -715,20 +649,10 @@ chapter:
               of Jacob’s faith, or worthy the being thus particularly taken notice
               of by the Holy Ghost.
             quote: Adored the top of his rod
-        raw: Adored the top of his rod.... The apostle here follows the ancient Greek
-          Bible of the seventy interpreters, (which translates in this manner, Gen.
-          47. 31.,) and alleges this fact of Jacob, in paying a relative honour and
-          veneration to the top of the rod or sceptre of Joseph, as to a figure of
-          Christ’s sceptre and kingdom, as an instance and argument of his faith.
-          But some translators, who are no friends to this relative honour, have corrupted
-          the text, by translating it, he worshipped, leaning upon the top of his
-          staff; as if this circumstance of leaning upon his staff were any argument
-          of Jacob’s faith, or worthy the being thus particularly taken notice of
-          by the Holy Ghost.
       '8':
         instances:
-          - {}
-        raw: He that is called Abraham ... or, Abraham being called.
+          - note: or, Abraham being called.
+            quote: 'He that is called Abraham '
     verses:
       - ~
       - Now, faith is the substance of things to be hoped for, the evidence of things
@@ -825,10 +749,7 @@ chapter:
               his mind, with relation to his having given the blessing to his younger
               brother Jacob.
             quote: He found
-            quote_has_etc: 1
-        raw: He found, etc.... That is, he found no way to bring his father to repent,
-          or change his mind, with relation to his having given the blessing to his
-          younger brother Jacob.
+            quote_ends_in_etc: 'true'
     verses:
       - ~
       - 'And therefore we also having so great a cloud of witnesses over our head,
@@ -900,10 +821,6 @@ chapter:
               they desire to partake of the benefit of his suffering for man’s redemption.
             quote: Let us go forth therefore to him without the camp, bearing his
               reproach
-        raw: Let us go forth therefore to him without the camp, bearing his reproach....
-          That is, bearing his cross. It is an exhortation to them to be willing to
-          suffer with Christ, reproaches, persecutions, and even death, if they desire
-          to partake of the benefit of his suffering for man’s redemption.
       '4':
         instances:
           - note: 'That is, in all things belonging to the marriage state. This is
@@ -916,15 +833,6 @@ chapter:
               God to lead a single life, should they attempt to marry, they would
               incur their own damnation. 1 Tim. 5. 12.'
             quote: Or, Let marriage be honourable in all
-        raw: 'Or, Let marriage be honourable in all.... That is, in all things belonging
-          to the marriage state. This is a warning to married people, not to abuse
-          the sanctity of their state, by any liberties or irregularities contrary
-          thereunto. Now it does not follow from this text that all persons are obliged
-          to marry, even if the word omnibus were rendered, in all persons, instead
-          of in all things: for if it was a precept, St. Paul himself would have transgressed
-          it, as he never married. Moreover, those who have already made a vow to
-          God to lead a single life, should they attempt to marry, they would incur
-          their own damnation. 1 Tim. 5. 12.'
     verses:
       - ~
       - Let the charity of the brotherhood abide in you.

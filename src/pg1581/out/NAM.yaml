@@ -18,36 +18,26 @@ chapter:
               the people seems to have been prior to the prophecy of Nahum, we may
               better understand it of Holofernes.
             quote: Shall come forth one
-            quote_has_etc: 1
-        raw: Shall come forth one, etc.... Some understand this of Sennacherib. But
-          as his attempt against the people seems to have been prior to the prophecy
-          of Nahum, we may better understand it of Holofernes.
+            quote_ends_in_etc: 'true'
       '12':
         instances:
           - note: That is, however strong or numerous their forces may be, they shall
               be cut off; and their prince or leader shall pass away and disappear.
             quote: Though they were perfect
-            quote_has_etc: 1
-        raw: Though they were perfect, etc.... That is, however strong or numerous
-          their forces may be, they shall be cut off; and their prince or leader shall
-          pass away and disappear.
+            quote_ends_in_etc: 'true'
       '14':
         instances:
           - note: That is, a decree, concerning thee, O king of Ninive, thy seed shall
               fail, etc.
             quote: Will give a commandment
-        raw: Will give a commandment.... That is, a decree, concerning thee, O king
-          of Ninive, thy seed shall fail, etc.
       '15':
         instances:
           - note: The wicked one, viz., the Assyrian.
             quote: Belial
-        raw: Belial.... The wicked one, viz., the Assyrian.
       '8':
         instances:
           - note: Viz., of Ninive.
             quote: Of the place thereof
-        raw: Of the place thereof.... Viz., of Ninive.
     verses:
       - ~
       - The burden of Ninive. The book of the vision of Nahum, the Elcesite.
@@ -94,27 +84,20 @@ chapter:
               not expect to escape. Or else, rendering the pride of Jacob means rewarding,
               that is, punishing Ninive for the pride they exercised against Jacob.
             quote: Hath rendered the pride of Jacob
-            quote_has_etc: 1
-        raw: Hath rendered the pride of Jacob, etc.... He hath punished Jacob for
-          his pride; and therefore Ninive must not expect to escape. Or else, rendering
-          the pride of Jacob means rewarding, that is, punishing Ninive for the pride
-          they exercised against Jacob.
+            quote_ends_in_etc: 'true'
       '3':
         instances:
           - note: He speaks of the Chaldeans and Medes sent to destroy
+            note_ends_in_etc: 'true'
             quote: Of his mighty men
-            quote_has_etc: 1
+            quote_ends_in_etc: 'true'
           - note: consopiti. That is, they drive on furiously like men intoxicated
               with wine.
             quote: Stupefied
-        raw: Of his mighty men, etc.... He speaks of the Chaldeans and Medes sent
-          to destroy Ninive.—Ibid. Stupefied.... consopiti. That is, they drive on
-          furiously like men intoxicated with wine.
       '5':
         instances:
           - note: By running hastily on.
             quote: Stumble in their march
-        raw: Stumble in their march.... By running hastily on.
     verses:
       - ~
       - 'He is come up that shall destroy before thy face, that shall keep the siege:
@@ -155,16 +138,12 @@ chapter:
         instances:
           - note: The young locusts.
             quote: Locusts of locusts
-        raw: Locusts of locusts.... The young locusts.
       '8':
         instances:
           - note: No-Ammon. A populous city of Egypt destroyed by the Chaldeans, and
               afterwards rebuilt by Alexander, and called Alexandria. Others suppose
               No-Ammon to be the same as Diospolis.
             quote: Populous Alexandria
-        raw: Populous Alexandria.... No-Ammon. A populous city of Egypt destroyed
-          by the Chaldeans, and afterwards rebuilt by Alexander, and called Alexandria.
-          Others suppose No-Ammon to be the same as Diospolis.
     verses:
       - ~
       - 'Woe to thee, O city of blood, all full of lies and violence: rapine shall

@@ -19,45 +19,34 @@ chapter:
         instances:
           - note: A part of the city so called.
             quote: The Second
-        raw: The Second.... A part of the city so called.
       '11':
         instances:
+          - note: Maktesh. A valley in or near Jerusalem. Ibid.
+            quote: The Morter
           - note: So he calls the Jews, from their following the wicked ways of the
               Chanaanites.
-            quote: The Morter.... Maktesh. A valley in or near Jerusalem. Ibid. The
-              people of Chanaan
-        raw: The Morter.... Maktesh. A valley in or near Jerusalem. Ibid. The people
-          of Chanaan.... So he calls the Jews, from their following the wicked ways
-          of the Chanaanites.
+            quote: The people of Chanaan
       '12':
         instances:
           - note: That is, the wealthy, and such as live at their ease, resting upon
               their riches, like wine upon the lees.
             quote: Settled on their lees
-        raw: Settled on their lees.... That is, the wealthy, and such as live at their
-          ease, resting upon their riches, like wine upon the lees.
       '2':
         instances:
           - note: That is, I will assuredly take away, and wholly consume, either
               by captivity, or death, both men and beasts out of this land.
             quote: Gathering, I will gather
-            quote_has_etc: 1
-        raw: Gathering, I will gather, etc.... That is, I will assuredly take away,
-          and wholly consume, either by captivity, or death, both men and beasts out
-          of this land.
+            quote_ends_in_etc: 'true'
       '4':
         instances:
           - note: Viz., of the temples of the idols. AEdituos, in Hebrew, the Chemarims,
               that is, such as kindle the fires, or burn incense.
             quote: The wardens
-            quote_has_etc: 1
-        raw: The wardens, etc.... Viz., of the temples of the idols. AEdituos, in
-          Hebrew, the Chemarims, that is, such as kindle the fires, or burn incense.
+            quote_ends_in_etc: 'true'
       '5':
         instances:
           - note: The idol of the Ammonites.
             quote: Melchom
-        raw: Melchom.... The idol of the Ammonites.
     verses:
       - ~
       - The word of the Lord that came to Sophonias the son of Chusi, the son of Godolias,
@@ -116,8 +105,6 @@ chapter:
           - note: Ninive, which was destroyed soon after this, viz., in the sixteenth
               year of the reign of Josias.
             quote: The beautiful city, viz
-        raw: The beautiful city, viz.... Ninive, which was destroyed soon after this,
-          viz., in the sixteenth year of the reign of Josias.
     verses:
       - ~
       - 'Assemble yourselves together, be gathered together, O nation not worthy to

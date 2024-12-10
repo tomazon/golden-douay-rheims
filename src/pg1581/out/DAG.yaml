@@ -24,20 +24,16 @@ chapter:
         instances:
           - note: That is, pease, beans, and such like.
             quote: Pulse
-        raw: Pulse.... That is, pease, beans, and such like.
       '2':
         instances:
           - note: Bel or Belus, the principal idol of the Chaldeans.
             quote: His god
-        raw: His god.... Bel or Belus, the principal idol of the Chaldeans.
       '8':
         instances:
           - note: Viz., either by eating meat forbidden by the law, or which had before
               been offered to idols.
             quote: Be defiled
-            quote_has_etc: 1
-        raw: Be defiled, etc.... Viz., either by eating meat forbidden by the law,
-          or which had before been offered to idols.
+            quote_ends_in_etc: 'true'
     verses:
       - ~
       - In the third year of the reign of Joakim, king of Juda, Nabuchodonosor, king
@@ -99,37 +95,27 @@ chapter:
           - note: Viz., from the death of his father Nabopolassar; for he had reigned
               before as partner with his father in the empire.
             quote: The second year
-        raw: The second year.... Viz., from the death of his father Nabopolassar;
-          for he had reigned before as partner with his father in the empire.
       '2':
         instances:
           - note: That is, the astrologers, that pretended to divine by stars.
             quote: The Chaldeeans
-        raw: The Chaldeeans.... That is, the astrologers, that pretended to divine
-          by stars.
       '39':
         instances:
+          - note: Viz., that of the Medes and Persians. Ibid.
+            quote: Another kingdom
           - note: Viz., that of Alexander the Great.
-            quote: Another kingdom.... Viz., that of the Medes and Persians. Ibid.
-              Third kingdom
-        raw: Another kingdom.... Viz., that of the Medes and Persians. Ibid. Third
-          kingdom.... Viz., that of Alexander the Great.
+            quote: Third kingdom
       '40':
         instances:
           - note: Some understand this of the successors of Alexander, the kings of
               Syria and Egypt, others of the Roman empire, and its civil wars.
             quote: The fourth kingdom
-            quote_has_etc: 1
-        raw: The fourth kingdom, etc.... Some understand this of the successors of
-          Alexander, the kings of Syria and Egypt, others of the Roman empire, and
-          its civil wars.
+            quote_ends_in_etc: 'true'
       '44':
         instances:
           - note: Viz., the kingdom of Christ in the Catholic Church which cannot
               be destroyed.
             quote: A kingdom
-        raw: A kingdom.... Viz., the kingdom of Christ in the Catholic Church which
-          cannot be destroyed.
     verses:
       - ~
       - In the second year of the reign of Nabuchodonosor, Nabuchodonosor had a dream,
@@ -276,23 +262,13 @@ chapter:
               is, and has been of old, received by the church, and read as canonical
               scripture in her liturgy, and divine offices.'
             quote: And they walked
-            quote_has_etc: 1
-        raw: 'And they walked, etc.... Here St. Jerome takes notice, that from this
-          verse, to ver. 91, was not in the Hebrew in his time. But as it was in all
-          the Greek Bibles, (which were originally translated from the Hebrew,) it
-          is more than probable that it had been formerly in the Hebrew or rather
-          in the Chaldaic, in which the book of Daniel was written. But this is certain:
-          that it is, and has been of old, received by the church, and read as canonical
-          scripture in her liturgy, and divine offices.'
+            quote_ends_in_etc: 'true'
       '98':
         instances:
           - note: These last three verses are a kind of preface to the following chapter,
               which is written in the style of an epistle from the king.
             quote: Nabuchodonosor
-            quote_has_etc: 1
-        raw: Nabuchodonosor, etc.... These last three verses are a kind of preface
-          to the following chapter, which is written in the style of an epistle from
-          the king.
+            quote_ends_in_etc: 'true'
     verses:
       - ~
       - King Nabuchodonosor made a statue of gold, of sixty cubits high, and six cubits
@@ -529,7 +505,6 @@ chapter:
         instances:
           - note: A vigilant angel, perhaps the guardian of Israel.
             quote: A watcher
-        raw: A watcher.... A vigilant angel, perhaps the guardian of Israel.
       '13':
         instances:
           - note: It does not appear by scripture that Nabuchodonosor was changed
@@ -539,30 +514,18 @@ chapter:
               grew in such manner as to resemble the feathers of eagles, and his nails
               to be like birds’ claws.
             quote: Let his heart be changed
-            quote_has_etc: 1
-        raw: Let his heart be changed, etc.... It does not appear by scripture that
-          Nabuchodonosor was changed from human shape; much less that he was changed
-          into an ox; but only that he lost his reason, and became mad; and in this
-          condition remained abroad in the company of beasts, eating grass like an
-          ox, till his hair grew in such manner as to resemble the feathers of eagles,
-          and his nails to be like birds’ claws.
+            quote_ends_in_etc: 'true'
       '34':
         instances:
           - note: From this place some commentators infer that this king became a
               true convert, and dying not long after, was probably saved.
             quote: I, Nabuchodonosor, do now
-            quote_has_etc: 1
-        raw: I, Nabuchodonosor, do now, etc.... From this place some commentators
-          infer that this king became a true convert, and dying not long after, was
-          probably saved.
+            quote_ends_in_etc: 'true'
       '5':
         instances:
           - note: He says this, because the name of Baltassar, or Belteshazzar, is
               derived from the name of Bel, the chief god of the Babylonians.
             quote: Baltassar, according to the name of my god
-        raw: Baltassar, according to the name of my god.... He says this, because
-          the name of Baltassar, or Belteshazzar, is derived from the name of Bel,
-          the chief god of the Babylonians.
     verses:
       - ~
       - 'I, Nabuchodonosor, was at rest in my house, and flourishing in my palace:'
@@ -677,22 +640,15 @@ chapter:
               etc., according to the style of the scriptures, because he was a descendant
               from him.
             quote: Baltasar
-        raw: Baltasar.... He is believed to be the same as Nabonydus, the last of
-          the Chaldean kings, grandson to Nabuchodonosor. He is called his son, ver.
-          2, 11, etc., according to the style of the scriptures, because he was a
-          descendant from him.
       '10':
         instances:
           - note: Not the wife, but the mother of the king.
             quote: The queen
-        raw: The queen.... Not the wife, but the mother of the king.
       '31':
         instances:
           - note: He is called Cyaxares by the historians; and was the son of Astyages,
               and uncle to Cyrus.
             quote: Darius
-        raw: Darius.... He is called Cyaxares by the historians; and was the son of
-          Astyages, and uncle to Cyrus.
     verses:
       - ~
       - 'Baltasar, the king, made a great feast for a thousand of his nobles: and
@@ -871,19 +827,12 @@ chapter:
           - note: That is, three years and a half; which is supposed to be the length
               of the duration of the persecution of Antichrist.
             quote: A time, and times, and half a time
-        raw: A time, and times, and half a time.... That is, three years and a half;
-          which is supposed to be the length of the duration of the persecution of
-          Antichrist.
       '3':
         instances:
           - note: Viz., the Chaldean, Persian, Grecian, and Roman empires. But some
               rather choose to understand the fourth beast of the successors of Alexander
               the Great, more especially of them that reigned in Asia and Syria.
             quote: Four great beasts
-        raw: Four great beasts.... Viz., the Chaldean, Persian, Grecian, and Roman
-          empires. But some rather choose to understand the fourth beast of the successors
-          of Alexander the Great, more especially of them that reigned in Asia and
-          Syria.
       '7':
         instances:
           - note: That is, ten kingdoms, (as Apoc. 17.12,) among which the empire
@@ -891,18 +840,11 @@ chapter:
               the successors of Alexander; as figures of such as shall be about the
               time of Antichrist.
             quote: Ten horns
-        raw: Ten horns.... That is, ten kingdoms, (as Apoc. 17.12,) among which the
-          empire of the fourth beast shall be parcelled. Or ten kings of the number
-          of the successors of Alexander; as figures of such as shall be about the
-          time of Antichrist.
       '8':
         instances:
           - note: This is commonly understood of Antichrist. It may also be applied
               to that great persecutor Antiochus Epiphanes, as a figure of Antichrist.
             quote: Another little horn
-        raw: Another little horn.... This is commonly understood of Antichrist. It
-          may also be applied to that great persecutor Antiochus Epiphanes, as a figure
-          of Antichrist.
     verses:
       - ~
       - 'In the first year of Baltasar, king of Babylon, Daniel saw a dream: and the
@@ -991,40 +933,30 @@ chapter:
           - note: or, against the strength of heaven. So are here called the army
               of the Jews, the people of God.
             quote: Unto the strength of heaven
-        raw: Unto the strength of heaven.... or, against the strength of heaven. So
-          are here called the army of the Jews, the people of God.
       '14':
         instances:
           - note: 'That is, six years and almost four months: which was the whole
               time from the beginning of the persecution of Antiochus till his death.'
             quote: Unto evening and morning two thousand three hundred days
-        raw: 'Unto evening and morning two thousand three hundred days.... That is,
-          six years and almost four months: which was the whole time from the beginning
-          of the persecution of Antiochus till his death.'
       '3':
         instances:
           - note: The empire of the Medes and Persians.
             quote: A ram
-        raw: A ram.... The empire of the Medes and Persians.
       '5':
         instances:
+          - note: The empire of the Greeks, or Macedonians. Ibid.
+            quote: A he goat
           - note: He conquered all before him, with so much rapidity, that he seemed
               rather to fly, than to walk upon the
-            quote: A he goat.... The empire of the Greeks, or Macedonians. Ibid. He
-              touched not the ground
+            note_ends_in_etc: 'true'
+            quote: He touched not the ground
           - note: Alexander the Great.
             quote: A notable horn
-        raw: A he goat.... The empire of the Greeks, or Macedonians. Ibid. He touched
-          not the ground.... He conquered all before him, with so much rapidity, that
-          he seemed rather to fly, than to walk upon the earth.—Ibid. A notable horn....
-          Alexander the Great.
       '8':
         instances:
           - note: Seleucus, Antigonus, Philip, and Ptolemeus, the successors of Alexander,
               who divided his empire among them.
             quote: Four horns
-        raw: Four horns.... Seleucus, Antigonus, Philip, and Ptolemeus, the successors
-          of Alexander, who divided his empire among them.
       '9':
         instances:
           - note: 'Antiochus Epiphanes, a descendant of Seleucus. He grew against
@@ -1032,10 +964,6 @@ chapter:
               Armenia: and against the strength, that is, against Jerusalem and the
               people of God.'
             quote: A little horn
-        raw: 'A little horn.... Antiochus Epiphanes, a descendant of Seleucus. He
-          grew against the south, and the east, by his victories over the kings of
-          Egypt and Armenia: and against the strength, that is, against Jerusalem
-          and the people of God.'
     verses:
       - ~
       - In the third year of the reign of king Baltasar, a vision appeared to me.
@@ -1111,49 +1039,37 @@ chapter:
         instances:
           - note: The angel Gabriel in the shape of a man.
             quote: The man Gabriel
-        raw: The man Gabriel.... The angel Gabriel in the shape of a man.
       '23':
         instances:
           - note: that is, ardently praying for the Jews then in captivity.
             quote: Man of desires
-        raw: Man of desires.... that is, ardently praying for the Jews then in captivity.
       '24':
         instances:
           - note: Viz., of years, (or seventy times seven, that is, 490 years,) are
               shortened; that is, fixed and determined, so that the time shall be
               no longer.
             quote: Seventy weeks
-        raw: Seventy weeks.... Viz., of years, (or seventy times seven, that is, 490
-          years,) are shortened; that is, fixed and determined, so that the time shall
-          be no longer.
       '25':
         instances:
-          - note: That is, from the twentieth year of king Artaxerxes, when by his
-              commandment Nehemias rebuilt the walls of Jerusalem, 2 Esd. 2. From
-              which time, according to the best chronology, there were just sixty-nine
-              weeks of years, that is, 483 years to the baptism of Christ, when he
-              first began to preach and execute the office of
-            quote: From the going forth of the word
-            quote_has_etc: 1
-          - {}
-        raw: 'From the going forth of the word, etc.... That is, from the twentieth
-          year of king Artaxerxes, when by his commandment Nehemias rebuilt the walls
-          of Jerusalem, 2 Esd. 2. From which time, according to the best chronology,
-          there were just sixty-nine weeks of years, that is, 483 years to the baptism
-          of Christ, when he first began to preach and execute the office of Messias.—Ibid.
-          In straitness of times ... angustia temporum: which may allude both to the
-          difficulties and opposition they met with in building: and to the shortness
-          of the time in which they finished the wall, viz., fifty-two days.'
+          - note: 'angustia temporum: which may allude both to the difficulties and
+              opposition they met with in building: and to the shortness of the time
+              in which they finished the wall, viz., fifty-two days.'
+            quote: 'From the going forth of the word, etc.... That is, from the twentieth
+              year of king Artaxerxes, when by his commandment Nehemias rebuilt the
+              walls of Jerusalem, 2 Esd. 2. From which time, according to the best
+              chronology, there were just sixty-nine weeks of years, that is, 483
+              years to the baptism of Christ, when he first began to preach and execute
+              the office of Messias.—Ibid. In straitness of times '
       '26':
         instances:
           - note: The Romans under Titus.
             quote: A people with their leader
-        raw: A people with their leader.... The Romans under Titus.
       '27':
         instances:
           - note: 'or, in the middle of the week, etc. Because Christ preached three
               years and a half: and then by his sacrifice upon the cross abolished
               all the sacrifices of the'
+            note_ends_in_etc: 'true'
             quote: In the half of the week
           - note: 'Some understand this of the profanation of the temple by the crimes
               of the Jews, and by the bloody faction of the zealots. Others of the
@@ -1163,16 +1079,6 @@ chapter:
               the last near the end of the world under Antichrist. To all which, as
               they suppose, this prophecy may have a relation.'
             quote: The abomination of desolation
-        raw: 'In the half of the week.... or, in the middle of the week, etc. Because
-          Christ preached three years and a half: and then by his sacrifice upon the
-          cross abolished all the sacrifices of the law.—Ibid. The abomination of
-          desolation.... Some understand this of the profanation of the temple by
-          the crimes of the Jews, and by the bloody faction of the zealots. Others
-          of the bringing in thither the ensigns and standard of the pagan Romans.
-          Others, in fine, distinguish three different times of desolation: viz.,
-          that under Antiochus; that when the temple was destroyed by the Romans;
-          and the last near the end of the world under Antichrist. To all which, as
-          they suppose, this prophecy may have a relation.'
     verses:
       - ~
       - 'In the first year of Darius, the son of Assuerus, of the seed of the Medes,
@@ -1269,15 +1175,11 @@ chapter:
               seeking the spiritual good of the Persians was desirous that many of
               the Jews should remain among them.'
             quote: The prince
-            quote_has_etc: 1
-        raw: 'The prince, etc.... That is, the angel guardian of Persia: who according
-          to his office, seeking the spiritual good of the Persians was desirous that
-          many of the Jews should remain among them.'
+            quote_ends_in_etc: 'true'
       '21':
         instances:
           - note: The guardian general of the church of God.
             quote: Michael your prince
-        raw: Michael your prince.... The guardian general of the church of God.
     verses:
       - ~
       - 'In the third year of Cyrus, king of the Persians, a word was revealed to
@@ -1340,134 +1242,104 @@ chapter:
       '10':
         instances:
           - note: Seleucus Ceraunius, and Antiochus the Great, the sons of
+            note_ends_in_etc: 'true'
             quote: His sons
           - note: Viz., Antiochus the Great.
             quote: He shall come
-        raw: His sons.... Seleucus Ceraunius, and Antiochus the Great, the sons of
-          Callinicus.—Ibid. He shall come.... Viz., Antiochus the Great.
       '11':
         instances:
           - note: Ptolemeus Philopator, son of Evergetes.
             quote: The king of the south
-        raw: The king of the south.... Ptolemeus Philopator, son of Evergetes.
       '16':
         instances:
           - note: Viz., Antiochus shall come upon the king of the
+            note_ends_in_etc: 'true'
             quote: He shall come upon him
           - note: Judea.
             quote: The glorious land
-        raw: He shall come upon him.... Viz., Antiochus shall come upon the king of
-          the south.—Ibid. The glorious land.... Judea.
       '17':
         instances:
           - note: Viz., all the kingdom of Ptolemeus Epiphanes, son of
+            note_ends_in_etc: 'true'
             quote: All his kingdom
           - note: That is, a most beautiful woman, viz., his daughter
+            note_ends_in_etc: 'true'
             quote: A daughter of women
           - note: 'Viz., the kingdom of Epiphanes: but his policy shall not succeed;
               for Cleopatra shall take more to heart the interest of her husband,
               than that of her father.'
             quote: To overthrow it
-        raw: 'All his kingdom.... Viz., all the kingdom of Ptolemeus Epiphanes, son
-          of Philopator.—Ibid. A daughter of women.... That is, a most beautiful woman,
-          viz., his daughter Cleopatra.—Ibid. To overthrow it.... Viz., the kingdom
-          of Epiphanes: but his policy shall not succeed; for Cleopatra shall take
-          more to heart the interest of her husband, than that of her father.'
       '18':
         instances:
           - note: Seipio the Roman general, called the prince of his reproach, because
               he overthrew Antiochus, and obliged him to submit to very dishonourable
               terms, before he would cease from the war.
             quote: The prince of his reproach
-        raw: The prince of his reproach.... Seipio the Roman general, called the prince
-          of his reproach, because he overthrew Antiochus, and obliged him to submit
-          to very dishonourable terms, before he would cease from the war.
       '2':
         instances:
           - note: Viz., Cambyses, Smerdes Magus, and Darius, the son of
+            note_ends_in_etc: 'true'
             quote: Three kings
           - note: Xerxes.
             quote: The fourth
-        raw: Three kings.... Viz., Cambyses, Smerdes Magus, and Darius, the son of
-          Hystaspes.—Ibid. The fourth.... Xerxes.
       '20':
         instances:
           - note: 'Seleucus Philopator, who sent Heliodorus to plunder the temple:
               and was shortly after slain by the same Heliodorus.'
             quote: One most vile
-        raw: 'One most vile.... Seleucus Philopator, who sent Heliodorus to plunder
-          the temple: and was shortly after slain by the same Heliodorus.'
       '21':
         instances:
           - note: Viz., Antiochus Epiphanes, who at first was despised and not received
               for king. What is here said of this prince, is accommodated by St. Jerome
               and others to Antichrist; of whom this Antiochus was a figure.
             quote: One despised
-        raw: One despised.... Viz., Antiochus Epiphanes, who at first was despised
-          and not received for king. What is here said of this prince, is accommodated
-          by St. Jerome and others to Antichrist; of whom this Antiochus was a figure.
       '22':
         instances:
           - note: That is, of them that shall oppose him, and shall fight against
+            note_ends_in_etc: 'true'
             quote: Of the fighter
           - note: 'or, of the league. The chief of them that conspired against him:
               or the king of Egypt his most powerful adversary.'
             quote: The prince of the covenant
-        raw: 'Of the fighter.... That is, of them that shall oppose him, and shall
-          fight against him.—Ibid. The prince of the covenant.... or, of the league.
-          The chief of them that conspired against him: or the king of Egypt his most
-          powerful adversary.'
       '25':
         instances:
           - note: Ptolemeus Philometor.
             quote: The king
-        raw: The king.... Ptolemeus Philometor.
       '3':
         instances:
           - note: Alexander.
             quote: A strong king
-        raw: A strong king.... Alexander.
       '30':
         instances:
           - note: Popilius, and the other Roman ambassadors, who came in galleys,
               and obliged him to depart from Egypt.
             quote: The galleys and the Romans
-        raw: The galleys and the Romans.... Popilius, and the other Roman ambassadors,
-          who came in galleys, and obliged him to depart from Egypt.
       '31':
         instances:
           - note: 'The idol of Jupiter Olympius, which Antiochus ordered to be set
               up in the sanctuary of the temple: which is here called the sanctuary
               of strength, from the Almighty that was worshipped there.'
             quote: They shall place there the abomination
-            quote_has_etc: 1
-        raw: 'They shall place there the abomination, etc.... The idol of Jupiter
-          Olympius, which Antiochus ordered to be set up in the sanctuary of the temple:
-          which is here called the sanctuary of strength, from the Almighty that was
-          worshipped there.'
+            quote_ends_in_etc: 'true'
       '38':
         instances:
           - note: That is, the god of forces or strong holds.
             quote: The god Maozim
-        raw: The god Maozim.... That is, the god of forces or strong holds.
       '39':
         instances:
           - note: He shall bestow honours, riches and lands, upon them that shall
               worship his god.
             quote: And he shall increase glory
-            quote_has_etc: 1
-        raw: And he shall increase glory, etc.... He shall bestow honours, riches
-          and lands, upon them that shall worship his god.
+            quote_ends_in_etc: 'true'
       '45':
         instances:
           - note: 'Some take it for the proper name of a place: others, from the Hebrew,
               translate it his palace.'
             quote: Apadno
-        raw: 'Apadno.... Some take it for the proper name of a place: others, from
-          the Hebrew, translate it his palace.'
       '5':
         instances:
           - note: Ptolemeus the son of Lagus, king of Egypt, which lies south of
+            note_ends_in_etc: 'true'
             quote: The king of the south
           - note: 'that is, one of Alexander’s princes, shall prevail over him: that
               is, shall be stronger than the king of Egypt. He speaks of Seleucus
@@ -1475,31 +1347,20 @@ chapter:
               kings of the north, because their dominions lay to the north in respect
               to Jerusalem.'
             quote: One of his princes
-        raw: 'The king of the south.... Ptolemeus the son of Lagus, king of Egypt,
-          which lies south of Jerusalem.—Ibid. One of his princes.... that is, one
-          of Alexander’s princes, shall prevail over him: that is, shall be stronger
-          than the king of Egypt. He speaks of Seleucus Nicator, king of Asia and
-          Syria, whose successors are here called the kings of the north, because
-          their dominions lay to the north in respect to Jerusalem.'
       '6':
         instances:
           - note: Viz., Berenice, daughter of Ptolemeus Philadelphus, given in marriage
               to Antiochus Theos, grandson of Seleucus.
             quote: The daughter of the king of the south
-        raw: The daughter of the king of the south.... Viz., Berenice, daughter of
-          Ptolemeus Philadelphus, given in marriage to Antiochus Theos, grandson of
-          Seleucus.
       '7':
         instances:
           - note: Ptolemeus Evergetes, the son of Philadelphus.
             quote: A plant
-            quote_has_etc: 1
-        raw: A plant, etc.... Ptolemeus Evergetes, the son of Philadelphus.
+            quote_ends_in_etc: 'true'
       '8':
         instances:
           - note: Seleucus Callinicus.
             quote: The king of the north
-        raw: The king of the north.... Seleucus Callinicus.
     verses:
       - ~
       - And from the first year of Darius, the Mede, I stood up, that he might be
@@ -1639,8 +1500,6 @@ chapter:
           - note: Viz., in the law of God and true wisdom, which consists in knowing
               and loving God.
             quote: Learned
-        raw: Learned.... Viz., in the law of God and true wisdom, which consists in
-          knowing and loving God.
     verses:
       - ~
       - 'But at that time shall Michael rise up, the great prince, who standeth for
@@ -1830,9 +1689,6 @@ chapter:
               the son and successor of Nabuchodonosor, and a great favourer of the
               Jews.
             quote: The king’s guest
-        raw: The king’s guest.... It seems most probable, that the king here spoken
-          of was Evilmerodach, the son and successor of Nabuchodonosor, and a great
-          favourer of the Jews.
       '30':
         instances:
           - note: 'Daniel was twice cast into the den of lions; one under Darius the
@@ -1841,18 +1697,11 @@ chapter:
               people. This time he remained six days in the lions’ den; the other
               time only one night.'
             quote: The den of lions
-        raw: 'The den of lions.... Daniel was twice cast into the den of lions; one
-          under Darius the Mede, because he had transgressed the king’s edict, by
-          praying three times a day: and another time under Evilmerodach by a sedition
-          of the people. This time he remained six days in the lions’ den; the other
-          time only one night.'
       '32':
         instances:
           - note: The same, as some think whose prophecy is found among the lesser
               prophets but others believe him to be different.
             quote: Habacuc
-        raw: Habacuc.... The same, as some think whose prophecy is found among the
-          lesser prophets but others believe him to be different.
     verses:
       - ~
       - And Daniel was the king’s guest, and was honoured above all his friends.

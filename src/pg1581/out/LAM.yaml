@@ -18,10 +18,7 @@ chapter:
               interpreters, to give the reader to understand upon what occasion the
               Lamentations were published.
             quote: And it came to pass
-            quote_has_etc: 1
-        raw: And it came to pass, etc.... This preface was not written by Jeremias,
-          but was added by the seventy interpreters, to give the reader to understand
-          upon what occasion the Lamentations were published.
+            quote_ends_in_etc: 'true'
   - chapter_number: 1
     verses:
       - ~
@@ -98,8 +95,6 @@ chapter:
           - note: That is, he permitted his sanctuary to be destroyed, as if it had
               not been consecrated, but execrable.
             quote: He hath cursed his sanctuary
-        raw: He hath cursed his sanctuary.... That is, he permitted his sanctuary
-          to be destroyed, as if it had not been consecrated, but execrable.
     verses:
       - ~
       - Aleph. How hath the Lord covered with obscurity the daughter of Sion in his
@@ -272,14 +267,7 @@ chapter:
               the Christ, that is, the Anointed of the Lord. But it also relates,
               in the spiritual sense, to Christ our Lord, suffering for our sins.
             quote: Christ
-            quote_has_etc: 1
-        raw: Christ, etc.... This, according to the letter, is spoken of their king,
-          who is called the Christ, that is, the Anointed of the Lord. But it also
-          relates, in the spiritual sense, to Christ our Lord, suffering for our sins.
-      '22':
-        instances:
-          - {}
-        raw: THE PRAYER OF JEREMIAS THE PROPHET
+            quote_ends_in_etc: 'true'
     verses:
       - ~
       - Aleph. How is the gold become dim, the finest colour is changed, the stones

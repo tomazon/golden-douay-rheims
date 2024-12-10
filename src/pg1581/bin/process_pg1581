@@ -79,7 +79,16 @@ my $state = '';
 for my $line (read_file($in_file, { binmode => ':utf8' })) {
 #for my $line (read_file($in_file)) {
 
-    $line =~ s{<p class="expl">(The words of Job are ended.)</p>}{<p>$1</p>};
+    $line =~ s{<p class="expl">(The words of Job are ended.)</p>}{<p>($1)</p>};
+    $line =~ s{<p class="expl">(Psalm 10 according to the Hebrews.)</p>}{<p>($1)</p>};
+    $line =~ s{<p class="expl">(THE PARABLES OF SOLOMON)</p>}{<comment_before_chapter>$1</p>};
+    $line =~ s{<p class="expl">(THE PRAYER OF JEREMIAS THE PROPHET)</p>}{<comment_before_chapter>$1</p>};
+    $line =~ s{<p class="expl">(THE PROLOGUE)\.</p>}{<prolog_header>$1</p>};
+    $line =~ s{<p class="expl">(The knowledge of many and great things hath been shewn.+)</p>}{<prolog>$1</p>};
+    $line =~ s{<p class="expl">(A copy of the epistle that Jeremias sent to.+)</p>}{<chapter_note>$1</p>};
+ 
+
+
 
     $line_no++;
     $line =~ s/\s+$//;
@@ -209,7 +218,7 @@ sub print_book_file {
 sub out_footnote {
     my ($book_id, $chap_num, $verse_num, $text) = @_;
 
-    $out->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{raw} = $text;
+    #$out->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{raw} = $text;
 
     if ($text =~ s/,\s?\.\.\./..../g) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [A]\n"}
     if ($text =~ s/ \.\.\. / .... /g) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [B]\n"}
@@ -218,17 +227,37 @@ sub out_footnote {
     if ($text =~ s/^(Thou shalt not take, etc). /$1, etc, .... /) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
     if ($text =~ s/^(Concubine). (She was his lawful wife)/$1.... $2/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
     if ($text =~ s/^(Upon the wall),/$1..../) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/^(The Lord). (That is, an angel)/$1.... $2/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/^(If you sleep among the midst of lots) \((intermedios cleros), etc.\).../$1.... $2/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/^(The voice of my beloved): (that is, the preaching)/$1.... $2/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/^(As Salmana), (king of the Midianites)/$1.... $2/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/^(One of the Pharisees): (that is, Simon.)/$1.... $2/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/^(See the annotation of St. Matt. 26. 11.)$/For the poor.... $1/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/^(City). (Urbem)..../$1.... $2/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/^(The delights of a day): (that is, the short delights)/$1.... $2/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+
+
+    #Or....|no temptation hath taken hold of you.... or come upon you as yet, but what is human, or incident to man.|Issue.... or a way to escape.
+    #Or.... no temptation hath taken hold of you.... or come upon you as yet, but what is human, or incident to man. Issue.... or a way to escape.
+    if ($text =~ s/^Or.... no temptation/Let no temptation take hold on you.... Or, no temptation hath taken hold of you,/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/(hath taken hold of you)\.\.\.\./$1,/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    #print "AAA $text\n" if $text =~ /No temptation/i;
+
+
     if ($text =~ s/^(St. Augustine considers a great mystery)/NO_QUOTE.... $1/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [NQ]\n"}
     if ($text =~ s/^(This shows how sinful it is to intermarry)/NO_QUOTE.... $1/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [NQ]\n"}
     if ($text =~ s/^Ver. 25, 26, and 27 (shew Job’s explicit belief in his Redeemer)/NO_QUOTE.... $1/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [NQ]\n"}
-    if ($text =~ s/^(The Lord). (That is, an angel)/$1.... $2/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [S]\n"}
+    if ($text =~ s/^(Here the late Hebrew doctors divide this psalm into two)/NO_QUOTE.... $1/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [NQ]\n"}
+    if ($text =~ s/^(God only is essentially true.+)$/NO_QUOTE.... $1/) { print "    $out->{book_id} ${chap_num}:$verse_num CORRECT FOOTNOTE [NQ]\n"}
+
+
 
     $text =~ s/(\.) (\w[\w ]+\w\.\.\.\.) /$1|$2 /g;
-    $out->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{split} = $text;
+    #$out->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{split} = $text;
 
     for my $part (split(/\|/, $text)) {
         my $tmp = {};
-        $tmp->{raw} = {raw => $part};
+        #$tmp->{raw} = {raw => $part};
         if ($part =~ /^(.+)\.\.\.\. (.+)$/) {
             my ($quote, $note) = ($1, $2);
             if ($quote =~ s/, etc$//) {
@@ -254,7 +283,7 @@ sub out_footnote {
 sub OLD_SEMI_WORKING_out_footnote {
     my ($book_id, $chap_num, $verse_num, $text) = @_;
 
-    $out->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{raw} = $text;
+    #q$out->{chapter}->[$chap_num]->{footnotes}->{$verse_num}->{raw} = $text;
     for my $part (split(/\s+[^\s]+Ibid.\s+/, $text)) {
         my $tmp = {};
         #$tmp->{raw} = {raw => $part};

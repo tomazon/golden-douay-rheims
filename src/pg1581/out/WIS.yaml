@@ -477,52 +477,42 @@ chapter:
         instances:
           - note: Jacob.
             quote: The just
-        raw: The just.... Jacob.
       '12':
         instances:
           - note: Viz., with the angel.
             quote: Conflict
-        raw: Conflict.... Viz., with the angel.
       '13':
         instances:
           - note: Viz., Joseph.
             quote: The just when he was sold
-        raw: The just when he was sold.... Viz., Joseph.
       '16':
         instances:
           - note: Viz., Moses.
             quote: The servant of God
-        raw: The servant of God.... Viz., Moses.
       '3':
         instances:
           - note: Cain.
             quote: The unjust
-        raw: The unjust.... Cain.
       '4':
         instances:
           - note: Viz., for the wickedness of the race of
+            note_ends_in_etc: 'true'
             quote: For whose cause
           - note: Noe.
             quote: The just
-        raw: For whose cause.... Viz., for the wickedness of the race of Cain.—Ibid.
-          The just.... Noe.
       '5':
         instances:
           - note: Gave him strength to stand firm against the efforts of his natural
               tenderness, when he was ordered to sacrifice his son.
             quote: She knew the just.... She found out and approved Abraham. Ibid.
               And kept him strong
-            quote_has_etc: 1
-        raw: She knew the just.... She found out and approved Abraham. Ibid. And kept
-          him strong, etc.... Gave him strength to stand firm against the efforts
-          of his natural tenderness, when he was ordered to sacrifice his son.
+            quote_ends_in_etc: 'true'
       '6':
         instances:
-          - {}
+          - note: Lot.—Ibid.
+            quote: The just man
           - note: The land of the five cities, Sodom, Gomorrha, etc.
             quote: Pentapolis
-        raw: The just man.... Lot.—Ibid. Pentapolis.... The land of the five cities,
-          Sodom, Gomorrha, etc.
     verses:
       - ~
       - She preserved him, that was first formed by God, the father of the world,
@@ -579,25 +569,20 @@ chapter:
         instances:
           - note: Moses.
             quote: The holy prophet
-        raw: The holy prophet.... Moses.
       '14':
         instances:
           - note: That is, that the Israelites had been benefited and miraculously
               favoured in the same kind, in which they had been punished.
             quote: By their punishments
-            quote_has_etc: 1
-        raw: By their punishments, etc.... That is, that the Israelites had been benefited
-          and miraculously favoured in the same kind, in which they had been punished.
+            quote_ends_in_etc: 'true'
       '16':
         instances:
           - note: Viz., frogs, sciniphs, flies, and locusts.
             quote: Dumb beasts
-        raw: Dumb beasts.... Viz., frogs, sciniphs, flies, and locusts.
       '3':
         instances:
           - note: The Amalecites.
             quote: Their enemies
-        raw: Their enemies.... The Amalecites.
       '5':
         instances:
           - note: The meaning is, that God, who wrought a miracle to punish the Egyptians
@@ -606,12 +591,7 @@ chapter:
               wrought another miracle in favour of his own people in their thirst,
               by giving them water out of the rock.
             quote: By what things
-            quote_has_etc: 1
-        raw: By what things, etc.... The meaning is, that God, who wrought a miracle
-          to punish the Egyptians by thirst, when he turned all their waters into
-          blood, (at which time the Israelites, who were exempt from those plagues,
-          had plenty of water,) wrought another miracle in favour of his own people
-          in their thirst, by giving them water out of the rock.
+            quote_ends_in_etc: 'true'
     verses:
       - ~
       - She prospered their works in the hands of the holy prophet.
@@ -675,9 +655,6 @@ chapter:
           - note: Literally, sacrament. That is, the land sacred to thee, in which
               thy temple was to be established, and man’s redemption to be wrought.
             quote: From the midst of thy consecration
-        raw: From the midst of thy consecration.... Literally, sacrament. That is,
-          the land sacred to thee, in which thy temple was to be established, and
-          man’s redemption to be wrought.
     verses:
       - ~
       - O how good and sweet is thy Spirit, O Lord, in all things!
@@ -920,26 +897,20 @@ chapter:
           - note: Viz., when the fire and hail mingled together laid waste the land
               of Egypt. Ex. 9.
             quote: The fire had more force
-        raw: The fire had more force.... Viz., when the fire and hail mingled together
-          laid waste the land of Egypt. Ex. 9.
       '3':
         instances:
           - note: He means the Egyptians; who were restrained even from that food
               which was necessary, by the frogs and the flies that were sent amongst
               them, and spoiled all their
+            note_ends_in_etc: 'true'
             quote: They indeed desiring food
-            quote_has_etc: 1
+            quote_ends_in_etc: 'true'
           - note: Viz., the Israelites.
             quote: But these
-        raw: They indeed desiring food, etc.... He means the Egyptians; who were restrained
-          even from that food which was necessary, by the frogs and the flies that
-          were sent amongst them, and spoiled all their meats.—Ibid. But these....
-          Viz., the Israelites.
       '6':
         instances:
           - note: The brazen serpent, an emblem of Christ our Saviour.
             quote: Sign of salvation
-        raw: Sign of salvation.... The brazen serpent, an emblem of Christ our Saviour.
     verses:
       - ~
       - For these things, and by the like things to these, they were worthily punished,
@@ -1074,19 +1045,15 @@ chapter:
         instances:
           - note: That is, the firstborn.
             quote: The noblest offspring
-        raw: The noblest offspring.... That is, the firstborn.
       '3':
         instances:
           - note: A light that should not hurt or molest them; but that should be
               an agreeable guest to them.
             quote: A harmless sun
-        raw: A harmless sun.... A light that should not hurt or molest them; but that
-          should be an agreeable guest to them.
       '5':
         instances:
           - note: Viz., Moses.
             quote: One child
-        raw: One child.... Viz., Moses.
       '9':
         instances:
           - note: Viz., of the patriarchs. Their children, the Israelites, offered
@@ -1094,10 +1061,6 @@ chapter:
               they were to do in their journey, when that last and most dreadful plague
               was coming upon their enemies.
             quote: Of good men
-        raw: Of good men.... Viz., of the patriarchs. Their children, the Israelites,
-          offered in private the sacrifice of the paschal lamb; and were regulating
-          what they were to do in their journey, when that last and most dreadful
-          plague was coming upon their enemies.
     verses:
       - ~
       - 'But thy saints had a very great light, and they heard their voice indeed,
@@ -1169,15 +1132,11 @@ chapter:
               by miracles in favour of his people, they still kept their harmony by
               obeying his will.
             quote: Elements are changed
-            quote_has_etc: 1
-        raw: Elements are changed, etc.... The meaning is, that whatever changes God
-          wrought in the elements by miracles in favour of his people, they still
-          kept their harmony by obeying his will.
+            quote_ends_in_etc: 'true'
       '20':
         instances:
           - note: The manna.
             quote: That good food
-        raw: That good food.... The manna.
     verses:
       - ~
       - 'But as to the wicked, even to the end there came upon them wrath without

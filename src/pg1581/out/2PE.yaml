@@ -28,15 +28,6 @@ chapter:
               may do so, but they do it always with a submission to the judgment of
               the Church, and not otherwise.'
             quote: No prophecy of scripture is made by private interpretation
-        raw: 'No prophecy of scripture is made by private interpretation.... This
-          shows plainly that the scriptures are not to be expounded by any one’s private
-          judgment or private spirit, because every part of the holy scriptures were
-          written by men inspired by the Holy Ghost, and declared as such by the Church;
-          therefore they are not to be interpreted but by the Spirit of God, which
-          he hath left, and promised to remain with his Church to guide her in all
-          truth to the end of the world. Some may tell us, that many of our divines
-          interpret the scriptures: they may do so, but they do it always with a submission
-          to the judgment of the Church, and not otherwise.'
     verses:
       - ~
       - 'Simon Peter, servant and apostle of Jesus Christ: to them that have obtained
@@ -92,21 +83,17 @@ chapter:
         instances:
           - note: That is, heresies destructive of salvation.
             quote: Seeds of perdition
-        raw: Seeds of perdition.... That is, heresies destructive of salvation.
       '11':
         instances:
           - note: That is, they use no railing, nor cursing sentence; not even in
               their conflicts with the evil angels. See St. Jude, ver. 9.
             quote: Bring not a railing judgment
-            quote_has_etc: 1
-        raw: Bring not a railing judgment, etc.... That is, they use no railing, nor
-          cursing sentence; not even in their conflicts with the evil angels. See
-          St. Jude, ver. 9.
+            quote_ends_in_etc: 'true'
       '13':
         instances:
-          - {}
-        raw: 'The delights of a day: that is, the short delights of this world, in
-          which they place all their happiness.'
+          - note: that is, the short delights of this world, in which they place all
+              their happiness.
+            quote: The delights of a day
     verses:
       - ~
       - 'But there were also false prophets among the people, even as there shall
