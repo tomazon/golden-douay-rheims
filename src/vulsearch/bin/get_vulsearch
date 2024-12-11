@@ -1,0 +1,28 @@
+#! /bin/bash
+
+
+trap 'set +x ; echo "FATAL ERROR" >&2 ; exit 2' ERR
+
+
+bail() {
+    set +x
+    echo "FATAL ERROR: $1" >&2
+    exit 1
+}
+
+set -x # turn on verboseness
+OUTDIR="./downloaded"
+URL="https://bitbucket.org/clementinetextproject/text.git"
+
+git clone "$URL" "$OUTDIR" || bail "Error git cloning $URL"
+cd $OUTDIR
+if [ -d .git ] ; then
+  git log > git.log || bail "Error grabbing git log"
+  rm -r .git 
+else
+  bail "No .git directory in $OUTDIR"
+fi
+set +x
+echo "---"
+echo "For version info, see $OUTDIR/git.log"
+echo "DONE."
