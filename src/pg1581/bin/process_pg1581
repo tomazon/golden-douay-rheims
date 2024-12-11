@@ -4,12 +4,15 @@ use strict;
 use warnings;
 
 use Cwd qw(getcwd);
-use File::Slurp;
-use utf8;
 use Encode;
-use YAML::Safe;
+use File::Slurp;
+use File::stat;
 use open ':encoding(utf8)';
 use open ':std';
+use POSIX qw(strftime);
+use utf8;
+use YAML::Safe;
+
 
 my $src = 'pg1581';
 my $should_cwd = "src/$src";
@@ -60,13 +63,20 @@ my $out_file = '';
 my $book_id = '';
 my $chap_num = '';
 my $verse_num = 0;
-my $out = {};
 my $state = '';
+my $download_info={src => $src, src_file => $in_file};
 
-my $line_no = 0;
+my $stat = stat($in_file) or die "Can't read $in_file: $!";
+$download_info->{'src_file_mtime'} = $stat->mtime;
+$download_info->{'src_file_mtime_iso8601'} = strftime('%Y-%m-%dT%H:%M:%SZ', gmtime($stat->mtime));
+
+
 my @lines = (read_file($in_file, { binmode => ':utf8' }));
 print "LINES: $#lines\n";
-#for my $line (read_file($in_file, { binmode => ':utf8' })) {
+
+
+my $out = {download_info => $download_info};
+my $line_no = 0;
 while (my $line = shift(@lines)) {
     $line_no++;
 
@@ -95,20 +105,44 @@ while (my $line = shift(@lines)) {
     $bump_hnum = -1 if $line =~ m{id="ADDITIONAL_BOOKS"};
 
     last if $line =~ /FINIS\./;
-    next if $line =~ /<div class="section">/;
-    next if $line =~ /<div class="chapter">/;
     next if $line =~ /<hr class="chap x-ebookmaker-drop">/;
     next if $line =~ m{^\s*</div>\s*$};
+    next if $line =~ /^<div[ >]/;
+    next if $line =~ /^<meta /;
+    next if $line =~ /^<link /;
+    next if $line =~ /^<br>/;
+    next if $line =~ /^<hr>/;
 
 
     if ($bump_hnum) {
         $line =~ s/<h(\d)/"<h". ($1 + $bump_hnum)/e;
     }
 
-    if ($line =~ m{<h3 class="nobreak" id="(\w+)">([^<]+)</h\d}) {
+    if ($line =~ m{^<style>}) {
+        $state = 'in_style';
+        next;
+    } elsif ($state eq 'in_style') {
+        $state = '' if $line =~ m{^</style>};
+        next;
+    } elsif ($line =~ m{^<section class="pg-boilerplate pgheader"}) {
+        $state='in_pgheader';
+        next;
+    } elsif ($state eq 'in_pgheader') {
+        if ($line =~ m{</section>}) {
+            $state = '';
+            next;
+        }
+        $line =~ s{<[^>]+>}{}g;
+
+        if (my($key,$val) = split(/:\s*/, $line, 2)) {
+            next unless $val;
+            $download_info->{$key} = $val;
+        }
+        next;
+    } elsif ($line =~ m{<h3 class="nobreak" id="(\w+)">([^<]+)</h\d}) {
         if ($out->{book_id}) {
             print_book_file();
-            $out = {};
+            $out = {download_info => $download_info};
         }
         my ($new_book_tag, $new_book_title) = ($1, $2);
 
