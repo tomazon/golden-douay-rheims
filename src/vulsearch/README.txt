@@ -1,9 +1,9 @@
 
 To fetch the newest Clemintine Project Text:
 
-11164  git clone https://bitbucket.org/clementinetextproject/text.git  downloaded_source
-11167  (cd downloaded_source && git log | tee git.log)
-11169  (cd downloaded_source && rm -rf .git)
+    git clone https://bitbucket.org/clementinetextproject/text.git  downloaded
+    (cd downloaded && git log | tee git.log)
+    (cd downloaded && rm -rf .git)
 
 # Very out of date sources of the file to be avoided
 #
