@@ -85,14 +85,17 @@ There are many options for the publisher of a bible to make:
 I can sit comfortably while reading my 1941 Douay-Rheims Bible
 or while reading my reprint[^1] of a 1909 Clemintine Vulgate in latin.
 
-As I try to improve my latin, I find it unweildy to side with both open on my lap.
+As I try to improve my latin, I find it unweildy to sit with both open on my lap.
 Baronius Press[^2] publishes a marvilious parallel bible.
 
 But I'm looking for something more portable.
 
-A parallel latin english bible that I can read while lounging in a comfortable a chair.
-One that I can easily take with me as I go to the park, library, or coffee shop.
-A parallel bible with Challoner's notes that I can keep in my bag and pull out when I find a free moment.
+A parallel Latin / Douay-Rheims bible that:
+* Has Challoner's notes
+* I can read while lounging in a comfortable a chair.
+* I can easily take with me as I go to the park, library, or coffee shop.
+* I can keep in my bag and pull out when I find a free moment.
+* Feels "right" in term of typeface and formatting
 
 Inspired to create a English/Latin parallel bible where:
   * A pamphlet with a single book of the bible (i.e just The book of Genesis) to make it easy to keep with me as I'm out and about
@@ -127,7 +130,7 @@ The Knox bible should be copyright free in 1927.
 Hopefully we'll get permission to use an existing eText are a starting place 
 rather than needing to scan and OCR a paper copy.
 
-# Still worth buying a paper Douay-Rheims bible:
+# Still worth having a published Douay-Rheims bible:
 
 It's not practical for an individual to print a full complete bible.
 
@@ -138,7 +141,7 @@ You can find affordable vintage Douay-Rheims bible on ebay.com or in thrift stor
 ## Publishers of Douay-Rheims Bibles:
 
 Several publishers sell Douay-Rheims bibles.  
-If possible, I recommend that you buy one of these to support their continued effort to publish this invaluable bible. 
+If possible, I recommend that you buy one of theme to support their continued effort to publish this invaluable bible. 
 
 ### Baronis Press
 https://www.baronius.com/
