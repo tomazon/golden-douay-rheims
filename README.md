@@ -4,10 +4,10 @@ The Douey Rheims Challoner Bible with markup that allows for multiple styles of 
 ## Why
 
 I can sit comfortably while reading my 1941 Douay-Rheims Bible
-or while reading my reprint of a 1909 Clemintine Vulgate in latin [https://www.churchlatin.com/].
+or while reading my reprint[^1] of a 1909 Clemintine Vulgate in latin.
 
 As I try to improve my latin, I find it unweildy to side with both open on my lap.
-Baronius Press [https://www.baronius.com/] publishes a marvilious parallel bible.
+Baronius Press[^2] publishes a marvilious parallel bible.
 
 But I'm looking for something more portable.
 
@@ -23,11 +23,11 @@ Inspired to create a English/Latin parallel bible where:
   * Challoner footnotes
   * feels reverent classic (to me - very mush a personal preference):
     * A classic typeface (EB Garamond or Minister)
-    * Dropcaps (maybe Lombardic or Lasance Initials [^1], but EB Garamond are still great)
+    * Dropcaps (maybe Lombardic or Lasance Initials [^3], but EB Garamond are still great)
     * Printed on a tan/cream paper
 
-I learn a lot and keep inline with the Catholic teaching by reading the commentary
-a reprint of a Haydock Douay-Rheims Bible [https://loretopubs.org/].
+I learn a lot and keep inline with the Catholic teaching by reading the Haydock 
+commentary a reprint[^4] of a Haydock Douay-Rheims Bible.
 At 8&half;x 11 inches and 5&frac23; pounds (about 22 x 28 cm and 89&frac23; kilograms)
 and with a tiny typeface.  It's impractical to take it with me.
 
@@ -209,6 +209,7 @@ Rheims Version of the Holy Bible.  [...]
 
 
 ===
-
-[^1]: https://www.liturgicalartsjournal.com/2017/11/lasances-initials-tradition-in-american.html
-
+[^1]: https://www.churchlatin.com/
+[^2]: https://www.baronius.com/
+[^3]: https://www.liturgicalartsjournal.com/2017/11/lasances-initials-tradition-in-american.html / https://www.ancillapress.com/Fonts.html
+[^4]: https://loretopubs.org/haydock-douay-rheims-bible.html
