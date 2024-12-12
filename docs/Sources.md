@@ -6,14 +6,61 @@
 
 | ID             | Year | Publisher | City      | URL |
 | ---            | ---  | ---       |           | ---  |
-| 1750-Challoner | 1750 |           |           | https://archive.org/details/ChallonerDrvBibleOf1750 |
-| 1789-Wogan     | 1789 | Wogan     | Liverpool | https://archive.org/details/Challoner-blythNewTestament1789 |
-| 1846-Benzinger | 1846 | Benzinger | New York  | https://archive.org/details/holybibletransla00denv |
-| 1870-Sadlier   | 1870 | Sadlier   | New York  | https://archive.org/details/holybible00chal |
-| 1885-Sadlier   | 1885 | Sadlier   | New York  | https://archive.org/details/holybibletransla0000chal |
-| 1914-Kenedy-A  | 1914 | Kenedy    | New York  | https://archive.org/details/TheHolyBible1914 |
-| 1914-Kenedy-B  | 1914 | Kenedy    | New York  | https://archive.org/details/ENGCPDV_DBS_HS |
-| 1914-Murphy    | 1914 | Murphy    | Baltimore | https://archive.org/details/holybibletransl00balt/page/n5/mode/2up |
+
+
+### 1750-Challoner
+
+Year: 1750
+URL:  https://archive.org/details/ChallonerDrvBibleOf1750 |
+
+
+### 1789-Wogan
+Year: 1789
+Publisher: Wogan
+City: Liverpool
+URL: https://archive.org/details/Challoner-blythNewTestament1789
+
+
+### 846-Benzinger
+Year: 1846
+Publisher: Benzinger
+City: New York
+URL: https://archive.org/details/holybibletransla00denv
+
+
+### 1870-Sadlier
+Year: 1870
+Publisher: Sadlier
+City: New York
+URL: https://archive.org/details/holybible00chal
+
+
+### 1885-Sadlier
+Year: 1885
+Publisher: Sadlier
+City: New York
+URL: https://archive.org/details/holybibletransla0000chal
+
+
+### 1914-Kenedy-A
+Year: 1914
+Publisher: Kenedy
+City: New York
+https://archive.org/details/TheHolyBible1914
+
+
+### 1914-Kenedy-B
+Year: 1914
+Publisher: Kenedy
+City: New York
+URL: https://archive.org/details/ENGCPDV_DBS_HS
+
+
+### 1914-Murphy
+Year: 1914
+Publisherr: Murphy
+City: Baltimore
+URL: https://archive.org/details/holybibletransl00balt/page/n5/mode/2up |
 
 
 
