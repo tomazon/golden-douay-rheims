@@ -6,7 +6,6 @@ The Douey Rheims Challoner Bible with markup that allows for multiple styles of 
 I can sit comfortably while reading my 1941 Douay-Rheims Bible
 or while reading my reprint of a 1909 Clemintine Vulgate in latin [https://www.churchlatin.com/].
 
-
 As I try to improve my latin, I find it unweildy to side with both open on my lap.
 Baronius Press [https://www.baronius.com/] publishes a marvilious parallel bible.
 
@@ -22,7 +21,10 @@ Inspired to create a English/Latin parallel bible where:
   * Challoner infro to the book of the bible
   * Challoner intro to each chapter
   * Challoner footnotes
-  * feels right with 
+  * feels reverent classic (to me - very mush a personal preference):
+    * A classic typeface (EB Garamond or Minister)
+    * Dropcaps (maybe Lombardic or Lasance Initials [^1], but EB Garamond are still great)
+    * Printed on a tan/cream paper
 
 I learn a lot and keep inline with the Catholic teaching by reading the commentary
 a reprint of a Haydock Douay-Rheims Bible [https://loretopubs.org/].
@@ -32,11 +34,19 @@ and with a tiny typeface.  It's impractical to take it with me.
 If I can find a clean and copyright free copy of Haydock's comentary, 
 I'd like to print Haydocks commentary:
   * 1 pamphlet for a single book of the bible (i.e. just The Gospel of Luke)
-  * Only Haydock's commentary for the book and seach chapter (not the bible text itself)
+  * Only Haydock's commentary for the book and each chapter (not the bible text itself)
 
 
 ### Potential options for creators of bibles to make
 
+But why generate a text for a single use?
+
+There are many options for the publisher of a bible to make:
+
+* media:
+  * Paper book
+  * Web page
+  * eBook (epub3, mobi, etc)
 * number of columns per page
   * 1
   * 2
@@ -196,3 +206,8 @@ Rheims Version of the Holy Bible.  [...]
   * https://web.archive.org/web/20140531175312/https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html
 
   * https://ronconte.com/2021/09/18/how-the-bishops-voted-at-vatican-ii/ 
+
+
+====
+[^1] https://www.liturgicalartsjournal.com/2017/11/lasances-initials-tradition-in-american.html
+
