@@ -208,6 +208,7 @@ Rheims Version of the Holy Bible.  [...]
   * https://ronconte.com/2021/09/18/how-the-bishops-voted-at-vatican-ii/ 
 
 
-====
+===
+
 [^1]: https://www.liturgicalartsjournal.com/2017/11/lasances-initials-tradition-in-american.html
 
