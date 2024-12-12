@@ -14,19 +14,23 @@ Using a common source that is:
 # Goals
 
   * All sources must be copyright free
-  * All edits of should be visable (change control through github)
-  * All edits of bible text, and commentary/notes/footsnote placed within bibal text:
-    * Minimal -- heavy weight to editing the bible:
+  * The edit history must be available (change control)
+  * All edits to biblical text, and commentary/notes/footsnote placed within bibal text:
+    * Must be kept minimal -- heavy weight to editing the bible:
       * limit to fixing mispellings, missing/extra words, punctuation
-      * Must be traceable to a source with an Imprimatur.
-    * The reason for the desision with citations to authorative sources must be preserved
+      * Must be traceable to multiple sources each with an Imprimatur.
+    * Must be auditable:
+      * The reason for the desision must be preserved
+        * with citations to authorative sources
   * Changes to markup/format (linebreak/paragraph marking, etc) that are trivilaly removed by a computer program
       * are not considered to be protected biblical text.
-      * Do NOT need to be traceable to a source with an Imprimatur.
-      * Do NOT need to be documents as to reason for decision.
+        * Do NOT need to be traceable to a source with an Imprimatur.
+        * Do NOT need to be documents as to reason for decision.
+      * should be clean enough to allow human reading/review of the marked up text
   * The format should be
     * Well documented
     * Easily parsable by a computer program
+    * Readable by humans to aid in editing
   * sample programs sould be provided using several computer languages
 
 # Potential usages
@@ -81,14 +85,17 @@ There are many options for the publisher of a bible to make:
 I can sit comfortably while reading my 1941 Douay-Rheims Bible
 or while reading my reprint[^1] of a 1909 Clemintine Vulgate in latin.
 
-As I try to improve my latin, I find it unweildy to side with both open on my lap.
+As I try to improve my latin, I find it unweildy to sit with both open on my lap.
 Baronius Press[^2] publishes a marvilious parallel bible.
 
 But I'm looking for something more portable.
 
-A parallel latin english bible that I can read while lounging in a comfortable a chair.
-One that I can easily take with me as I go to the park, library, or coffee shop.
-A parallel bible with Challoner's notes that I can keep in my bag and pull out when I find a free moment.
+A parallel Latin / Douay-Rheims bible that:
+* Has Challoner's notes
+* I can read while lounging in a comfortable a chair.
+* I can easily take with me as I go to the park, library, or coffee shop.
+* I can keep in my bag and pull out when I find a free moment.
+* Feels "right" in term of typeface and formatting
 
 Inspired to create a English/Latin parallel bible where:
   * A pamphlet with a single book of the bible (i.e just The book of Genesis) to make it easy to keep with me as I'm out and about
@@ -101,7 +108,9 @@ Inspired to create a English/Latin parallel bible where:
     * Dropcaps (maybe Lombardic or Lasance Initials [^3], but EB Garamond is still great)
     * Printed on a tan/cream paper
 
-# Extra
+## Would eventually like:
+
+### Haydock phamphlets
 
 I learn a lot and keep inline with the Catholic teaching by reading the Haydock 
 commentary using a reprint[^4] of a Haydock Douay-Rheims Bible.
@@ -113,7 +122,15 @@ I'd like to print Haydocks commentary:
   * 1 pamphlet for a single book of the bible (i.e. just The Gospel of Luke)
   * Only Haydock's commentary for the book and each chapter (not the bible text itself)
 
-# Still worth buying a paper Douay-Rheims bible:
+### Douay-Rheims / Knox parallel translation pamphlets
+
+Keeping comentary from both.
+
+The Knox bible should be copyright free in 1927.
+Hopefully we'll get permission to use an existing eText are a starting place 
+rather than needing to scan and OCR a paper copy.
+
+# Still worth having a published Douay-Rheims bible:
 
 It's not practical for an individual to print a full complete bible.
 
@@ -124,7 +141,7 @@ You can find affordable vintage Douay-Rheims bible on ebay.com or in thrift stor
 ## Publishers of Douay-Rheims Bibles:
 
 Several publishers sell Douay-Rheims bibles.  
-If possible, I recommend that you buy one of these to support their continued effort to spead the Gospel. 
+If possible, I recommend that you buy one of theme to support their continued effort to publish this invaluable bible. 
 
 ### Baronis Press
 https://www.baronius.com/
