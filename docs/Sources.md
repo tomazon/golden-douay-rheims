@@ -2,6 +2,27 @@
 
 # Sources
 
+## Scanned Sources
+
+| ID             | Year | Publisher | City      | URL |
+| ---            | ---  | ---       |           | ---  |
+| 1750-Challoner | 1750 |           |           | https://archive.org/details/ChallonerDrvBibleOf1750 |
+| 1789-Wogan     | 1789 | Wogan     | Liverpool | https://archive.org/details/Challoner-blythNewTestament1789 |
+| 1846-Benzinger | 1846 | Benzinger | New York  | https://archive.org/details/holybibletransla00denv |
+| 1870-Sadlier   | 1870 | Sadlier   | New York  | https://archive.org/details/holybible00chal |
+| 1885-Sadlier   | 1885 | Sadlier   | New York  | https://archive.org/details/holybibletransla0000chal |
+| 1914-Kenedy-A  | 1914 | Kenedy    | New York  | https://archive.org/details/TheHolyBible1914 |
+| 1914-Kenedy-B  | 1914 | Kenedy    | New York  | https://archive.org/details/ENGCPDV_DBS_HS |
+| 1914-Murphy    | 1914 | Murphy    | Baltimore | https://archive.org/details/holybibletransl00balt/page/n5/mode/2up |
+
+
+
+
+
+
+===============
+
+
 ## Text and notes
 
 ### Project Gutenberg -- 1581
