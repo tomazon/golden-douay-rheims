@@ -209,5 +209,5 @@ Rheims Version of the Holy Bible.  [...]
 
 
 ====
-[^1] https://www.liturgicalartsjournal.com/2017/11/lasances-initials-tradition-in-american.html
+[^1]: https://www.liturgicalartsjournal.com/2017/11/lasances-initials-tradition-in-american.html
 
