@@ -2,65 +2,80 @@
 
 # Sources
 
-## Scanned Sources
-
-| ID             | Year | Publisher | City      | URL |
-| ---            | ---  | ---       |           | ---  |
+## Books
 
 
 ### 1750-Challoner
-
-Year: 1750
-URL:  https://archive.org/details/ChallonerDrvBibleOf1750 |
+* Printed: in the year 1750
+* Approbations:
+  * of the University of Doway, multiple Professors
+  * multiple additional
+* URL:  https://archive.org/details/ChallonerDrvBibleOf1750 (2530 pages)
 
 
 ### 1789-Wogan
-Year: 1789
-Publisher: Wogan
-City: Liverpool
-URL: https://archive.org/details/Challoner-blythNewTestament1789
+* New Testiment
+* Printed and Sold by: P. Wogan, Liverpool, MDCCLXXXIX [1789]
+* Approbation:
+  * Censure and Approbation of the University of Rheims
+  * Approbation of the University of Doway
+* URL: https://archive.org/details/Challoner-blythNewTestament1789 (474 pages)
 
 
-### 846-Benzinger
-Year: 1846
-Publisher: Benzinger
-City: New York
-URL: https://archive.org/details/holybibletransla00denv
+### 1846-Benzinger
+* Publishers: 
+  * Benzinger Brothers, New York, Printers to the Holy Apostolic Sea
+  * M. H. Gill * Son, Dublin
+* Approbation: Dr [Cornelius] Denvir, Bishop of Down and Connor [Ireland], at 18th Match 1946
+* URL: https://archive.org/details/holybibletransla00denv (978 pages)
 
 
-### 1870-Sadlier
-Year: 1870
-Publisher: Sadlier
-City: New York
-URL: https://archive.org/details/holybible00chal
+### 1871-Sadlier
+* Publisher: J & D Sadlier, New York, 1870
+* Approbation: John [Cardinal McCloskey?], Archbishop of New York, Janurary 1871
+* URL: https://archive.org/details/holybible00chal (1589 pages)
 
 
 ### 1885-Sadlier
-Year: 1885
-Publisher: Sadlier
-City: New York
-URL: https://archive.org/details/holybibletransla0000chal
+* Publisher: J & D Sadlier, New York, 1885
+* Copyright: Entered according to Act of Congress in the year 1871
+* Approbation: John [Cardinal McCloskey?], Archbishop of New York, Janurary 1871
+* URL: https://archive.org/details/holybibletransla0000chal (1548 pages)
 
 
-### 1914-Kenedy-A
-Year: 1914
-Publisher: Kenedy
-City: New York
-https://archive.org/details/TheHolyBible1914
+### 1899-TAN
+* Reproduced: Photographically reproduced from the 1899 edition of the John Murray Company, Baltimore Maryland
+* Reproduced by: TAN Books and Publishers Inc, Rockford Illinois, 1971
+* Approbation: James Cardinal Gibbons, Archbishop of Baltimore, Sept 1st 1899
 
 
-### 1914-Kenedy-B
-Year: 1914
-Publisher: Kenedy
-City: New York
-URL: https://archive.org/details/ENGCPDV_DBS_HS
+### 1914-Kenedy
+* Publisher: P. J. Kenedy & Sons, New York, Printers to the Holy Sea
+* Copywrite: 1914 John Murray Company
+* Approbation:
+  * James Cardinal Gibbons, Archbishop of Baltimore
+  * James Cardinal Farley, Archbishop od New York
+  * William Cardinal O'Connell, Archbishop od Boston
+* URLs: 
+  * Copy A -- https://archive.org/details/ENGCPDV_DBS_HS (1431 pages)
+  * Copy B -- https://archive.org/details/TheHolyBible1914 (1421 pages)
 
 
 ### 1914-Murphy
-Year: 1914
-Publisherr: Murphy
-City: Baltimore
-URL: https://archive.org/details/holybibletransl00balt/page/n5/mode/2up |
+* Publisher: John Murphy Company, Baltimore Maryland -- Printers to the Holy Sea
+* Copywrite: 1914 John Murray Company
+* Approbation:
+  * James Cardinal Gibbons, Archbishop of Baltimore
+  * James Cardinal Farley, Archbishop od New York
+  * William Cardinal O'Connell, Archbishop od Boston
+* URL: https://archive.org/details/holybibletransl00balt (1418 pages)
+
+
+### 1941-Daleiton
+* Publisher: John P. Daleiden, Chicago
+* Copyright: 1941 Douay Bible House
+* Imprimentor: Francis J Spellman, DD, Archbishop of New York, Feb 3rd 1941
+
 
 
 
