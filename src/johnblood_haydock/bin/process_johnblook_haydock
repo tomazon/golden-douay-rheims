@@ -90,9 +90,7 @@ sub store_chapter {
     my %seen = ();
     my $state = '';
 
-
-    #return if $chapter_num > 1;
-    print "    C: $chapter_num $file - \n";
+    #print "    C: $chapter_num $file - \n";
     $book->{chapter}->[$chapter_num] = {};
     my $chap = \$book->{chapter}->[$chapter_num];
     my $chap_tag = "$book->{book_id}:$chapter_num";
@@ -105,7 +103,6 @@ sub store_chapter {
         $book->{last_chapter} = 1;
     }
 
-    print YAML::Safe::Dump($book) if $book->{book_id} eq 'DAN';
     my $contents = read_html_file("$dir/$file");
     my @lines = split(/\n/, $contents);
     my $last_vers=0;
@@ -134,12 +131,9 @@ sub store_chapter {
                 $tmp_full_title =~ s/ EPISTLE ST. PETER / PETER /;
                 $tmp_full_title =~ s/ EPISTLE ST. JOHN / JOHN /;
 
- 
                 $tmp_full_title =~ s/\.$//;
                 $tmp_full_title =~ s/ THE APOSTLE TO THE / /;
                 $tmp_full_title =~ s/ THE APOSTLE TO / /;
-
-        
 
                 $tmp_title =~ s/ OF / /g;
 
@@ -187,7 +181,7 @@ sub store_chapter {
                 $text =~ s/^\s+//;
                 $text =~ s/\s+$//;
 
-                next if $text =~ m{<!--"''"-->};
+                next if $text =~ m{<!--["' ]+-->};
                 next unless $text =~ /\S/;
                 $text =~ s{<span [^>]+>}{}ig;
                 $text =~ s{</span>}{}ig;
@@ -227,23 +221,9 @@ sub store_chapter {
                               . "$line\n";
                         }
 
-                        add_commentary($chap, $chap_tag, $ver, $range, $text);
-
-                        # if ($$chap->{commentary}->{verse}->[$ver]) {
-                        #     #$$chap->[$ver] = '<JOIN_2>';
-                        #     append_commentary($chap, $ver, $text);
-                        # } else {
-                        #     # $$chap->[$ver] = "$chap_tag:$ver | $ver";
-                        #     # $$chap->[$ver] .= "-$range" if $range;
-                        #     # $$chap->[$ver] .= " | ";
-                        #     add_commentary($chap, $chap_tag, $ver, $range, $text);
-                        # }
-                        #$$chap->[$ver] .= $text;
+                        add_item('commentary', $chap, $chap_tag, $ver, $range, $text);
                     }
                     $last_vers = $ver;
-
-
-
                 } else {
                     next if $text =~ m{<strong>Bible Text & Cross-references:</strong>};
                     next if $text =~ m{<strong>Bible Text and Cross-references:</strong>};
@@ -252,16 +232,13 @@ sub store_chapter {
                     if ($text !~ /^Vera putant/ && $text =~ /^ver/i) {
                         #print "        VER: $text\n";
                         if (defined($$chap->[$last_vers]) && $$chap->[$last_vers] ne '') {
-                            append_commentary($chap, $chap_tag, $last_vers, $text);
-                            # $$chap->{comentary}->{verse}->[$last_vers]->[$inst] .= '<JOIN>';
-                            # $$chap->{comentary}->{verse}->[$last_vers]->[$inst] .= $text;
-                            #print "        $chap_tag ($file) JOIN\n";
+                            append_item('commentary', $chap, $chap_tag, $last_vers, $text);
                         } else {
                             die "        $chap_tag ($file) ANTI-DUP\n";
                         }
                     } else {
-                        #print "        JOIN: $chap_tag:$last_vers ($file) $text\n";
-                        append_commentary($chap, $chap_tag, $last_vers, $text);
+                        #print "APPEND: $text\n";
+                        append_item('commentary', $chap, $chap_tag, $last_vers, $text);
                     }
                 }
                 # $last_vers = $ver;
@@ -286,67 +263,69 @@ sub store_chapter {
 
 }
 
-sub add_commentary {
-    my ($chap, $chap_tag, $ver, $range, $text) = @_;
+sub add_item {
+    my ($section, $chap, $chap_tag, $ver, $range, $text) = @_;
     my $index = sprintf("v:%03d", $ver);
     my $tag =  $ver;
-    if ($range eq 'title') {
-        $tag = 'Title';
-    } elsif ($range eq 'preface') {
-        $tag = 'Preface';
-    } elsif ($range eq 'chapter') {
-        $tag = '';
-    } elsif ($range eq 'etc') {
-        $tag = "1, &c";
-    } elsif ($range) {
-        $tag .= "-$range";
+    if ($section eq 'commentary') {
+        if ($range eq 'title') {
+            $tag = 'Title';
+        } elsif ($range eq 'preface') {
+            $tag = 'Preface';
+        } elsif ($range eq 'chapter') {
+            $tag = '';
+        } elsif ($range eq 'etc') {
+            $tag = "1, &c";
+        } elsif ($range) {
+            $tag .= "-$range";
+        }
     }
 
-    if (!defined($$chap->{commentary}->{$index})) {
-        $$chap->{commentary}->{$index} = [];
+    #print "HAHA_ADD: ".join('|', @_)."\n";
+
+    if (!defined($$chap->{$section}->{$index})) {
+        $$chap->{$section}->{$index} = [];
     }
 
-    my @tmp = @{$$chap->{commentary}->{$index}};
+    my @tmp = @{$$chap->{$section}->{$index}};
     my $inst = $#tmp + 1;
 
     $text =~ s{^\s+}{};
     $text =~ s{\s+$}{};
 
-    $$chap->{commentary}->{$index}->[$inst] = "${chap_tag}:$ver | $ver | $tag | $text";
+    $$chap->{$section}->{$index}->[$inst] = "${chap_tag}:$ver | $ver | $tag | $text";
 
 }
 
-sub append_commentary {
-    my ($chap, $chap_tag, $ver, $text) = @_;
+sub append_item {
+    my ($section, $chap, $chap_tag, $ver, $text) = @_;
+    #print "HAHA_APPEND: ".join('|', @_)."\n";
     my $index = sprintf("v:%03d", $ver);
 
-    #print "INDEX: $index\n". Dumper($$chap);
-    #print Dumper($$chap->{commentary}->{$index});
-    if ($text =~ s{^\[?<b>\[?Title\.?\]?</b>\]?\s*}{}) {
-        #print "TITLE\n";
-        add_commentary($chap, $chap_tag, 0, 'title', $text);
-        return;
-    } elsif ($text =~ s{^\[?<b>\[?Preface\.?\]?</b>\]?\s*}{}) {
-        #print "PREFACE\n";
-        add_commentary($chap, $chap_tag, 0, 'preface', $text);
-        return;
-    } elsif ($ver == 0 && (grep(/^$chap_tag$/, qw( DAG:13 MAT:26 1CO:11 1CO:13 1CO:14 1CO:15 2CO:10 REV:18 REV:21 )))) {
-        #print "CHAPTER\n";
-        add_commentary($chap, $chap_tag, 0, 'chapter', $text);
-        return;
-    #} elsif (($chap_tag eq 'JHN:8' || $chap_tag eq 'JHN:10' || $chap_tag eq 'ROM:11' || $chap_tag eq 'ROM:15') && $ver == 0) {
-    } elsif ($ver == 0 && (grep(/^$chap_tag$/,qw( JHN:8 JHN:10 ROM:11 ROM:15 1CO:9 GAL:1 )))) {
-        #print "ETC\n";
-        $text =~ s{^<b>Ver. 1, &c.</b>}{};
-        $text =~ s{^<b>Ver. 1. &c.</b>}{};
+    if ($section eq 'commentary') {
+        if ($text =~ s/^\[?<b>\[?Title\.?\]?<\/b>\]?\s*//) {
+            add_item('commentary', $chap, $chap_tag, 0, 'title', $text);
+            return;
+        } elsif ($text =~ s/^\[?<b>\[?Preface\.?\]?<\/b>\]?\s*//) {
+            add_item('commentary', $chap, $chap_tag, 0, 'preface', $text);
+            return;
+        } elsif ($ver == 0 && (grep(/^$chap_tag$/, qw( DAG:13 MAT:26 1CO:11 1CO:13 1CO:14 1CO:15 2CO:10 REV:18 REV:21 )))) {
+            add_item('commentary', $chap, $chap_tag, 0, 'chapter', $text);
+            return;
+        } elsif ($ver == 0 && (grep(/^$chap_tag$/,qw( JHN:8 JHN:10 ROM:11 ROM:15 1CO:9 GAL:1 )))) {
+            $text =~ s{^<b>Ver. 1, &c.</b>}{};
+            $text =~ s{^<b>Ver. 1. &c.</b>}{};
 
-        add_commentary($chap, $chap_tag, 0, 'etc', $text);
-        return;
+            add_item('commentary', $chap, $chap_tag, 0, 'etc', $text);
+            return;
+        }
     }
-    my @tmp = @{$$chap->{commentary}->{$index}};
+
+
+    my @tmp = @{$$chap->{$section}->{$index}};
     my $inst = $#tmp;
 
-    $$chap->{commentary}->{$index}->[$inst] .= "<JOIN>$text";
+    $$chap->{section}->{$index}->[$inst] .= "<JOIN>$text";
 }
 
 sub store_book_intro {
