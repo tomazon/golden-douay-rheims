@@ -1,0 +1,17 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use utf8;
+use YAML::Safe;
+
+
+my $book_order_file = '../../etc/book_order.yaml';
+my $book_order = Yaml::Safe::LoadFile($book_order_file);
+
+# for my $p (qw( OT NT )) {
+#     my $book_id (@{$book_order-{$part}}) {
+#         print "$H"
+#     }
+# }

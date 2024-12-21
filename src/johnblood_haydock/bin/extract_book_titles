@@ -1,0 +1,88 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use Encode qw(encode decode from_to);
+use File::Slurp;
+# use Symbol qw( gensym );
+use IPC::Run3;
+use YAML::Safe;
+
+my $input_encoding = 'iso-8859-1';
+
+my $dir = './downloaded';
+
+#my $lines = get_lines ("$dir/id143.html");
+
+for my $part (qw( OT NT )) {
+    my $index_file = "$dir/${part}_index.html";
+    my $content = get_lines($index_file);
+    $content =~ s{<a }{\n<a }gi;
+
+    for my $line (split(/\n/, $content)) {
+        if ($line =~ m{<strong>([^<]+)</strong}) {
+            my $name = $1;
+            $name =~ s{&nbsp;}{}ig;
+            $name =~ s{, alias.+}{}ig;
+            $name =~ s{1PETER}{1 PETER}ig;
+            $name =~ s{ of }{ OF }ig;
+            $name =~ s/\s*$//g;
+
+
+
+            next if $name =~ /^\d+$/;
+            next if $name =~ /Haydock/;
+            next if $name =~ /TESTAMENT$/;
+
+            print "$name\n";
+        }
+    }
+}
+
+exit;
+
+sub make_utf8 {
+    my ($content) = @_;
+    #$content = encode($content,':encoding(UTF-8)');
+    from_to($content, $input_encoding, "UTF-8");
+    $content;
+}
+
+sub tidy {
+    my ($content) = @_;
+    my $out = '';
+    my $err = 'HI';
+    my @cmd = ('tidy', '-w', '0', '-q');
+    #open($err, '>/tmp/haha');
+
+    #run (\@cmd, \$content, $out, (my $pipe = gensym), timeout(10));
+       #|| die "Can't run tidy: $?  / $!\n";
+
+    run3 (\@cmd, \$content, \$out, \$err)
+       || die "Error running `tidy`: $?  / $!\n";
+    if ($? == 0) {
+        die "ERROR: $err\n$?, Stopped ";
+    }
+
+    #print "$out\n";
+
+    return($out);
+
+
+}
+
+
+sub get_lines {
+    my ($file) = @_;
+
+    #my $content = read_file($file, {binmode=>":encoding($input_encoding))"});
+    #my $content = "Hi\n";
+    my $content = read_file($file, {binmode=>":raw"});
+    $content = make_utf8($content);
+    $content = tidy($content);
+    $content =~ s{<font [^>]+>}{}ig;
+    $content =~ s{</font>}{}ig;
+
+    $content;
+}
