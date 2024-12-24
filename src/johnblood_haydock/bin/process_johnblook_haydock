@@ -16,6 +16,8 @@ my $dir = './downloaded';
 my $out_dir = './out';
 my $bookmap_file = './etc/bookmap.yaml';
 my $bookmap = YAML::Safe::LoadFile($bookmap_file);
+my $blockquote_level = 0;
+
 
 
 my $book={};
@@ -108,6 +110,9 @@ sub store_chapter {
     my $last_vers=0;
     for my $line (@lines) {
         next if $line =~ /Previous Chapter/;
+        $blockquote_level++ if $line =~ /<BLOCKQUOTE>/i;
+        $blockquote_level-- if $line =~ /<\/BLOCKQUOTE>/i;
+
         $line =~ s{</strong><strong>}{}ig;
         if ($line =~ m{<title>\s*(.+)\s*</title>}) {
             my $title = $1;
@@ -199,8 +204,6 @@ sub store_chapter {
 
                 if ($book->{book_id} eq 'PSA') {
                     $text =~ s{^\[Ver\.?\s+(\d+)\.\]\s+}{Ver. $1. }i;
-                        # my $ver = $1;
-                        # add_item('commentary_notes', $chap, $chap_tag, $ver, 'A', $text);
                     if ($text =~ s/^Ver. (\d+)\. ([A-Z<"])/$2/) {
                         my $ver = $1;
                         add_item('commentary', $chap, $chap_tag, $ver, "", $text);
@@ -240,7 +243,6 @@ sub store_chapter {
                         $last_vers = 0;
                     } else {
                         $text =~ s/^\s+//;
-                        #print "T: $chap_tag:? -- $last_vers -- $text\n";
                         append_item('commentary', $chap, $chap_tag, $last_vers, $text);
                     }
                 } elsif ($text =~ s{^Ver\. ([\d\[\]\-\.\? ]+) }{}) {
@@ -288,7 +290,6 @@ sub store_chapter {
                             die "        $chap_tag ($file) ANTI-DUP\n";
                         }
                     } else {
-                        #print "APPEND: $text\n";
                         append_item('commentary', $chap, $chap_tag, $last_vers, $text);
                     }
                 }
@@ -323,6 +324,7 @@ sub add_item {
     my ($section, $chap, $chap_tag, $ver, $range, $text) = @_;
     my $index = sprintf("v:%03d", $ver);
     my $tag =  $ver;
+    $blockquote_level=0;
     if ($section eq 'commentary') {
         if ($range eq 'title') {
             $tag = 'Title';
@@ -357,9 +359,8 @@ sub add_item {
 
 sub append_item {
     my ($section, $chap, $chap_tag, $ver, $text) = @_;
-    #print "HAHA_APPEND: ".join('|', @_)."\n";
+    #print "HAHA_APPEND: ".join('|', @_)."\n" if $chap_tag eq 'PSA:17';
     my $index = sprintf("v:%03d", $ver);
-    #print "INDEX: $index\n";
 
     if ($section eq 'commentary') {
         if ($text =~ s/^\[?<b>\[?Title\.?\]?<\/b>\]?\s*//) {
@@ -382,12 +383,13 @@ sub append_item {
 
     $text =~ s/^\s+//;
 
-    #print Dumper($chap);
-
     my @tmp = @{$$chap->{$section}->{$index}};
     my $inst = $#tmp;
 
-    $$chap->{section}->{$index}->[$inst] .= "<JOIN>$text";
+    my $bq_tag='';
+    $bq_tag = "{BQ:$blockquote_level}" if $blockquote_level;
+
+    $$chap->{$section}->{$index}->[$inst] .= "{JOIN}${bq_tag}$text";
 }
 
 sub store_book_intro {
@@ -492,6 +494,16 @@ sub read_html_file {
     $content =~ s{<p style="[^"]+">}{<p>}ig;
     $content =~ s{&amp;}{&}ig;
     $content =~ s{&nbsp;}{ }ig;
+
+    $content =~ s{<p }{\n<p }ig;
+    $content =~ s{<p>}{\n<p>}ig;
+    $content =~ s{</p>}{</p>\n}ig;
+
+    $content =~ s{<b [^>]+>}{<b>}ig;
+
+    $content =~ s{<blockquote [^>]+>}{<BLOCKQUOTE>}ig;
+    $content =~ s{<blockquote>}{\n<BLOCKQUOTE>\n}ig;
+    $content =~ s{</blockquote>}{\n</BLOCKQUOTE>\n}ig;
 
     if ($file =~ m{id1109.html$}) {
         $content =~ s{<strong>Bible Text & Cross-references:</strong>}{<strong>Notes & Commentary:</strong}i;
