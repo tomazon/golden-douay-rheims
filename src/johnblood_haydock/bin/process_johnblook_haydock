@@ -405,6 +405,7 @@ sub append_item {
     $$chap->{$section}->{$index}->[$inst] .= "{JOIN}${bq_tag}$text";
 }
 
+
 sub store_book_intro {
     my ($file) = @_;
     print "    I: $file\n";
@@ -414,15 +415,7 @@ sub store_book_intro {
     $book->{book_title} = 'THE PROPHECY OF DANIEL.' if $file eq 'id309.html';
     $book->{book_title} = 'THE PROPHECY OF NAHUM.' if $file eq 'id489.html';
     $book->{book_title} = 'THE PROPHECY OF HABACUC.' if $file eq 'id560.html';
-    $book->{book_title} = 'THE EPISTLE OF ST. PAUL, THE APOSTLE, TO THE ROMANS.' if $file eq 'id144.html';
-    $book->{book_title} = 'THE SECOND EPISTLE OF ST. PAUL, THE APOSTLE, TO TIMOTHY.' if $file eq 'id233.html';
-    $book->{book_title} = 'THE EPISTLE OF ST. PAUL, THE APOSTLE, TO TITUS.' if $file eq 'id238.html';
-    $book->{book_title} = 'THE EPISTLE OF ST. PAUL, THE APOSTLE, TO PHILEMON.' if $file eq 'id242.html';
-    $book->{book_title} = 'THE EPISTLE OF ST. PAUL, THE APOSTLE, TO THE HEBREWS.' if $file eq 'id244.html';
-    $book->{book_title} = 'THE CATHOLIC EPISTLE OF ST. JAMES, THE APOSTLE.' if $file eq 'id258.html';
-
-
-    $book->{intro_source_file} = $file;
+    $book->{book_title} = 'THE PROPHECY OF ISAIAS.' if $file eq 'id1220.html';
 
     print $contents if $file =~ /id144.html/;
 
@@ -454,6 +447,16 @@ sub store_book_intro {
                 $book->{book_title} .= ' ' if $book->{book_title};
                 $book->{book_title} .= $text;
                 $book->{book_title} =~ s{^(ST. MATTHEW) - INTRODUCTION (.+)}{THE HOLY GOSPEL OF JESUS CHRIST, ACCORDING TO $1.};
+                $book->{book_title} =~ s/\. THE EPISTLE OF ST\..*$//;
+                $book->{book_title} =~ s/\. ON THE CATHOLIC EPISTLES\..*//; #  if $file eq 'id258.html';
+                $book->{book_title} =~ s/^TOBIAS THE/THE/;
+                $book->{book_title} =~ s/^EPISTLE OF ST. PAUL/THE EPISTLE OF ST. PAUL/;
+                $book->{book_title} =~ s/called the\s+SECOND/called the, SECOND/;
+                $book->{book_title} =~ s/ISAIAS. ISAIAS/ISAIAS./;
+                $book->{book_title} =~ s/, THE APOSTLE$/, THE APOSTLE./;
+
+
+
             } elsif ($line =~ m{<p align="center"><em>(.+)</em>}) {
                 push(@{$book->{intro}}, $1);
             } else {
@@ -467,13 +470,15 @@ sub store_book_intro {
             $text =~ s{^\s*&nbsp;\s*$}{};
             next unless $text =~ /\S/;
 
-            if ($book->{book_name} eq 'ISAIAS' && !$seen{"ISAIAS_INRO_-_ON_THE_PROPHETS"}) {
+            if ($book->{book_name} eq 'ISAIAS' && !$seen{"ISAIAS_INTRO_-_ON_THE_PROPHETS"}) {
                 write_file("$out_dir/intro_-_on_the_prophets.html_body", {binmode=>':utf8'}, $text);
-                $seen{"ISAIAS_INRO_-_ON_THE_PROPHETS"}++;
-
-            } elsif ($book->{book_name} eq 'TOBIAS' && !$seen{"TOBIAS_INRO_-_APOCRYPHA"}) {
+                $seen{"ISAIAS_INTRO_-_ON_THE_PROPHETS"}++;
+            } elsif ($book->{book_name} eq 'TOBIAS' && !$seen{"TOBIAS_INTRO_-_APOCRYPHA"}) {
                 write_file("$out_dir/intro_-_apocrypha.html_body", {binmode=>':utf8'}, $text);
-                $seen{"ISAIAS_INRO_-_APOCRYPHA"}++;
+                $seen{"ISAIAS_INTRO_-_APOCRYPHA"}++;
+            } elsif ($book->{book_name} eq 'JAMES' && !$seen{"JAMES_INTRO_-_CATHOLIC_EPISTLES"}) {
+                write_file("$out_dir/intro_-_catholic_epistles.html_body", {binmode=>':utf8'}, $text);
+                $seen{"JAMES_INTRO_-_CATHOLIC_EPISTLES"}++;
             } else {
                 push(@{$book->{intro}}, $text);
             }
@@ -493,9 +498,9 @@ sub write_book_file {
 
 
 sub make_utf8 {
-    my ($content) = @_;
+    my ($content, $code_page) = @_;
     #$content = encode($content,':encoding(UTF-8)');
-    from_to($content, $input_encoding, "UTF-8");
+    from_to($content, $code_page, "UTF-8");
     $content;
 }
 
@@ -563,26 +568,29 @@ sub read_html_file {
     # );
 
     my %is_a_utf8_file = (
-        'XX-id48.html' => 1,
+        #'id48.html' => 1,
     );
 
 
     if ($is_a_utf8_file{$file}) {
+        print "UTF8 File: $file\n";
         $content = read_file($file, {binmode=>":raw"});
         $content = tidy('-utf8', $content);
+        $content = make_utf8($content, 'utf-8');
+        $content = decode_entities($content);
 
     } else {
         $content = read_file($file, {binmode=>":raw"});
         $content = tidy('-win1252', $content);
         $content =~ s{&nbsp;}{ }ig;
-        $content = make_utf8($content);
+        $content = make_utf8($content, 'cp-1252');
         $content = decode_entities($content);
     }
 
 
     # $content =~ s/&Atilde;&Dot;/&egrave;/ig;
     # $content =~ s/&Atilde;&brvbar;/&aelig;/ig;
-    #$content = make_utf8($content); 
+    #$content = make_utf8($content);
     #$content = decode_entities($content);
 
     #$content = tidy($content);
