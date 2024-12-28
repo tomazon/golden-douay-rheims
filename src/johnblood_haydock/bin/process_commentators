@@ -1,0 +1,197 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use Data::Dumper;
+use Encode qw(encode decode from_to);
+use File::Slurp;
+use File::stat;
+use IPC::Run3;
+use POSIX qw(strftime);
+use YAML::Safe;
+
+
+my $in_file = "./downloaded/Commentators.html";
+my $out_file = "./out/Commentators.yaml";
+my $input_encoding = 'cp-1252';
+my $source_url = 'https://johnblood.gitlab.io/haydock/id533.html';
+
+
+my $out = {};
+$out->{title} = "A LIST OF THE PRINCIPAL COMMENTATORS, &c.,";
+$out->{sub_title} = "WITH THE YEAR OF THEIR DEATH.";
+$out->{note} = "Those who have a Cross, \x{2020}, prefixed to their Names, have been "
+             . "perhaps Men of Learning, but they have "
+             . "<em>erred from the Faith which was once delivered to the Saints,</em> "
+             . "and can therefore be consulted only as Critics, or to be refuted.)";
+$out->{by_initial} = {};
+$out->{provenance} = gen_provenance($source_url, $in_file);
+
+my $contents = read_html_file($in_file, $input_encoding);
+#print $contents;
+$contents =~ s/\n+/\n/gm;
+
+my @lines = split(/\n/, $contents);
+my $initial='';
+while (@lines) {
+
+    my $line = shift(@lines);
+   # print "LINE: $line\n";
+    $line =~ s/^\s+//;
+    $line =~ s/\s+$//;
+
+    next unless $line =~ /\S/;
+    # next if $line =~ /^<p>\s*<\/p>$/;
+
+    if ($line =~ /^<p>(.*)<\/p>$/) {
+        my $c = $1;
+        next unless $c =~ /\S/;
+        #if ($c =~ )
+        if ($c =~ m/^<b>([A-Z])<\/b>$/) {
+            $initial= $1;
+            $out->{by_initial}->{$initial}=[];
+        } else {
+            $c =~ s/{char:dagger1}/\x{2020}/g;
+            my $tmp = {
+                name => '',
+                post_year_note => '',
+                pre_year_note => '',
+                year => '',
+                raw => $c,
+            };
+            if ($c =~ /^Septuagint/ 
+            || $c =~ /^Sant. Pagnin/
+            || $c =~ /^Vatable/) {
+                my $next_line = shift(@lines);
+                $next_line =~ s/<\/?p>//ig;
+                $c .= $next_line;
+                $tmp->{raw} .= "<br>$c";
+            }
+
+
+            #if ($c =~ /^([^\(]+])\(([^\)]+)\)(.*)$/) {
+            if ($c =~ /^([^\()]+)\(([^\)]+)\)(.*)$/) {
+                my ($name, $year, $post_year_note) = ($1, $2, $3);
+                print "LINE: $c\n";
+                #print "$name\n";
+                #if ($name =~ s/^{char:dagger1}\s*//) {
+                if ($name =~ s/^\x{2020}\s*//) {
+                    $tmp->{cross_prefix} = "\x{2020}";
+                } else {
+                    $tmp->{cross_prefix} = '';
+                }
+        
+                if ($name =~ s/^(\s*[^-]+)(-.*)$/$1/) {
+                    $tmp->{pre_year_note} = $2;
+                } elsif ($name =~ s/^(.*)\s*(, or .+)$/$1/){
+                    $tmp->{pre_year_note} = $2;
+                }
+                print "PRE: $tmp->{pre_year_note}\n" if $tmp->{pre_year_note};
+                $name =~ s/\s+$//;
+                print "NAME: $name\t\t\t\t| $tmp->{pre_year_note}\n";
+                $tmp->{name} = $name;
+                $tmp->{year} = $year;
+                $tmp->{post_year_note} = $post_year_note if $post_year_note;
+                #print "P:  $post_year\n" if $post_year;
+            } else {
+                die "NO_YEAR: $c\n";
+            }
+
+            push(@{$out->{by_initial}->{$initial}}, $tmp);
+
+        }
+    } else {
+        #print "IGNORE: $line\n";
+    }
+}
+
+write_as_yaml_file($out_file, $out);
+
+sub write_as_yaml_file {
+    my ($file, $data) = @_;
+    print "Writing: $file\n";
+    YAML::Safe::DumpFile($file, $data);
+}
+
+
+sub make_utf8 {
+    my ($content, $input_encoding) = @_;
+    #$content = encode($content,':encoding(UTF-8)');
+    print qq{DOING:  from_to(____, "$input_encoding", "UTF-8");\n};
+    from_to($content, "$input_encoding", "UTF-8");
+    $content;
+}
+
+sub tidy {
+    my ($content) = @_;
+    my $out = '';
+    my $err = 'HI';
+    my @cmd = ('tidy', '-w', '0', '-q');
+
+    run3 (\@cmd, \$content, \$out, \$err)
+       || die "Error running `tidy`: $?  / $!\n";
+    if ($? == 0) {
+        die "ERROR: $err\n$?, Stopped ";
+    }
+    return($out);
+}
+
+
+sub read_html_file {
+    my ($file, $input_encoding) = @_;
+
+    my $content = read_file($file, {binmode=>":raw"});
+
+    $content =~ s/&#8224;/{char:dagger1}/g;
+    #$content =~ s/&#8224;/"\x{2020}"/eg;
+
+    # $content =~ s/\x{8224}/<char:dagger2>/g;
+
+    $content = make_utf8($content, $input_encoding);
+    $content = tidy($content);
+    $content =~ s{<font [^>]+>}{}ig;
+    $content =~ s{</font>}{}ig;
+    $content =~ s{<p style="[^"]+">}{<p>}ig;
+    $content =~ s{&amp;}{&}ig;
+    $content =~ s{&nbsp;}{ }ig;
+
+    $content =~ s{<p }{\n<p }ig;
+    $content =~ s{<p>}{\n<p>}ig;
+    $content =~ s{</p>}{</p>\n}ig;
+
+    $content =~ s{<b [^>]+>}{<b>}ig;
+
+    $content =~ s{<blockquote [^>]+>}{<BLOCKQUOTE>}ig;
+    $content =~ s{<blockquote>}{\n<BLOCKQUOTE>\n}ig;
+    $content =~ s{</blockquote>}{\n</BLOCKQUOTE>\n}ig;
+
+    # $content =~ s/&#8224;/<char:dagger3/g;
+    # $content =~ s/\x{8224}/<char:dagger4>/g;
+
+    $content;
+}
+
+sub time2iso {
+    my ($time) = @_;
+
+    strftime('%Y-%m-%dT%H:%M:%SZ', gmtime($time));
+}
+
+sub file_mtime {
+    my ($file) = @_;
+    my $st = stat($file) or die "No $file: $!";
+    $st->mtime;
+}
+
+sub gen_provenance {
+    my ($url, $file) = @_;
+    my @out = ();
+    my $file_time = time2iso(file_mtime($file));
+    my $now_time = time2iso(time());
+
+    push(@out, "$file_time - Downloaded from $url");
+    push(@out, "$now_time - Extracted by program $0");
+
+    \@out;
+}
