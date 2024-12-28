@@ -5,6 +5,7 @@ use warnings;
 
 use Data::Dumper;
 use Encode qw(encode decode from_to);
+use File::Basename;
 use File::Slurp;
 use File::stat;
 use HTML::Entities;
@@ -29,7 +30,7 @@ my $blockquote_level = 0;
 
 my $book={};
 
-for my $part (qw( NT OT )) {
+for my $part (qw( OT NT )) {
     my $index_file = "$dir/${part}_index.html";
     my $content = read_html_file($index_file);
 
@@ -601,39 +602,84 @@ sub read_html_file {
     #     '&#8230;' => '{char:mldr}',
     # );
 
-    my %is_a_utf8_file = (
-        #'id48.html' => 1,
+    my %file_has_odd_chars = (
+        'id32.html' => 1,
+        'id33.html' => 1,
+        'id34.html' => 1,
+        'id35.html' => 1,
+        'id36.html' => 1,
+        'id37.html' => 1,
+        'id38.html' => 1,
+        'id39.html' => 1,
+        'id40.html' => 1,
+        'id41.html' => 1,
+        'id42.html' => 1,
+        'id43.html' => 1,
+        'id44.html' => 1,
+        'id45.html' => 1,
+        'id46.html' => 1,
+        'id47.html' => 1,
+        'id48.html' => 1,
+        'id50.html' => 1,
+        'id54.html' => 1,
+        'id55.html' => 1,
+        'id57.html' => 1,
+        'id58.html' => 1,
+        'id59.html' => 1,
+        'id60.html' => 1,
+        'id61.html' => 1,
+        'id62.html' => 1,
+        'id63.html' => 1,
+        'id64.html' => 1,
+        'id66.html' => 1,
+        'id67.html' => 1,
+        'id68.html' => 1,
+        'id69.html' => 1,
+        'id75.html' => 1,
+        'id77.html' => 1,
+        'id80.html' => 1,
+        'id86.html' => 1,
+        'id87.html' => 1,
+        'id88.html' => 1,
+        'id136.html' => 1,
+        'id1731.html' => 1,
     );
 
+    my $basename = basename($file);
 
-    if ($is_a_utf8_file{$file}) {
-        print "UTF8 File: $file\n";
+    if ($file_has_odd_chars{$basename}) {
+        print "ODD CHARS FILE: $file\n";
         $content = read_file($file, {binmode=>":raw"});
-        $content = tidy('-utf8', $content);
+        $content = tidy('-win1252', $content);
+
+        $content =~ s/&Atilde;&Dot;/&egrave;/ig;
+        $content =~ s/&Atilde;&brvbar;/&aelig;/ig;
+        $content =~ s/&Auml;&permil;/&aelig;/ig;
+        $content =~ s/&Atilde;&sup2;/&ograve;/ig;
+        $content =~ s/&Auml;&TRADE;/&aelig;/ig;
+        $content =~ s/&Atilde;&cent;/&acirc;/ig;
+        $content =~ s/&Atilde;&dagger;/&AElig/ig;
+        $content =~ s/&Atilde;&not;/&igrave;/ig;
+        $content =~ s/&Acirc;&frac12;/&frac12/ig;
+        $content =~ s/&Aring;&dagger;/n/ig;
+        $content =~ s/&Aring;&lsquor;/&ugrave;/ig;
+        $content =~ s/&Acirc;&pound;/&pound;/ig;
+
         $content = make_utf8($content, 'utf-8');
+        $content =~ s/&nbsp;/ /gi;
         $content = decode_entities($content);
 
     } else {
         $content = read_file($file, {binmode=>":raw"});
         $content = tidy('-win1252', $content);
-        $content =~ s{&nbsp;}{ }ig;
         $content = make_utf8($content, 'cp-1252');
+        $content =~ s/&nbsp;/ /gi;
         $content = decode_entities($content);
     }
 
-
-    # $content =~ s/&Atilde;&Dot;/&egrave;/ig;
-    # $content =~ s/&Atilde;&brvbar;/&aelig;/ig;
-    #$content = make_utf8($content);
-    #$content = decode_entities($content);
-
-    #$content = tidy($content);
-    #$content = htmlent_to_charcode(\%html_ents, $content);
-    #$content = make_utf8($content);
-    #$content = charcode_to_utf8(\%html_ents, $content);
-    #$content = tidy($content);
-    #$content = charcode_to_utf8(\%html_ents, $content);
-
+    $content =~ s/&OpenCurlyQuote;/\x{2018}/gi;
+    $content =~ s/&CloseCurlyQuote;/\x{2019}/gi;
+    $content =~ s/ab infim\xc3.* plebe/ab infim\x{00e2} plebe/;
 
     $content =~ s{ class="c\d+"}{}ig;
     $content =~ s{<span [^>]+>}{}ig;

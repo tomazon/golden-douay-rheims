@@ -40,6 +40,11 @@ while (@lines) {
    # print "LINE: $line\n";
     $line =~ s/^\s+//;
     $line =~ s/\s+$//;
+    $line =~ s/Ã/AE/;
+    $line =~ s/\xc3\xa6/\x{00e6}/gi;
+    #$line =~ s/\xc2/AE/gi;
+    #$line =~ s/\xa6/AE/gi;
+    #$line =~ s/AEAE/\x{00e6}/gi;
 
     next unless $line =~ /\S/;
     # next if $line =~ /^<p>\s*<\/p>$/;
