@@ -6,8 +6,10 @@ use warnings;
 use Data::Dumper;
 use Encode qw(encode decode from_to);
 use File::Slurp;
+use File::stat;
 use HTML::Entities;
 use IPC::Run3;
+use POSIX qw(strftime);
 use utf8;
 use YAML::Safe;
 
@@ -101,7 +103,10 @@ sub store_chapter {
     my %seen = ();
     my $state = '';
 
+    my $chap_o_num = sprintf("%03d", $chapter_num);
+
     print "    C: $chapter_num $file - \n";
+
     $book->{chapter}->[$chapter_num] = {};
     ##$book->{chapter}->{chapter_source_file} = $file;
     my $chap = \$book->{chapter}->[$chapter_num];
@@ -114,6 +119,8 @@ sub store_chapter {
         die "First chapter isn't #1\n" if $chapter_num != 1;
         $book->{last_chapter} = 1;
     }
+
+    $book->{provenance}->{"chapter:$chap_o_num"} = gen_provenance($dir, $file);
 
     my $contents = read_html_file("$dir/$file");
     my @lines = split(/\n/, $contents);
@@ -405,6 +412,29 @@ sub append_item {
     $$chap->{$section}->{$index}->[$inst] .= "{JOIN}${bq_tag}$text";
 }
 
+sub time2iso {
+    my ($time) = @_;
+
+    strftime('%Y-%m-%dT%H:%M:%SZ', gmtime($time));
+}
+
+sub file_mtime {
+    my ($file) = @_;
+    my $st = stat($file) or die "No $file: $!";
+    $st->mtime;
+}
+
+sub gen_provenance {
+    my ($dir, $file) = @_;
+    my @out = ();
+    my $file_time = time2iso(file_mtime("$dir/$file"));
+    my $now_time = time2iso(time());
+
+    push(@out, "$file_time - Downloaded from https://johnblood.gitlab.io/haydock/$file");
+    push(@out, "$now_time - Extracted by program $0");
+
+    \@out;
+}
 
 sub store_book_intro {
     my ($file) = @_;
@@ -418,6 +448,10 @@ sub store_book_intro {
     $book->{book_title} = 'THE PROPHECY OF ISAIAS.' if $file eq 'id1220.html';
 
     print $contents if $file =~ /id144.html/;
+
+    $book->{provenance} = {
+        'intro' => gen_provenance($dir, $file),
+    };
 
     for my $line (@lines) {
         if ($line =~ m{>([1234A-Z\. ]+) - Introduction}) {
