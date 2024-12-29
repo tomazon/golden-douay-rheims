@@ -707,5 +707,130 @@ sub read_html_file {
 
     $content =~ s/Gradus templorum [\w ]+ completi erant/Gradus templorum ab infim\x{00e2} plebe completi erant/;
 
+    $content = detranscode_greek($content);
+
     $content;
+}
+
+
+sub detranscode_greek {
+    my ($text) = @_;
+
+    # Based on th "Transcriber's Notes" at https://johnblood.gitlab.io/haydock/id16.html
+
+    # The original text not infrequently includes Greek expressions spelled out in Greek letters.
+    # In this transcription, because Greek letters are not included in the available webpage fonts,
+    # those expressions have been transliterated into the English alphabet and put in italics and
+    # underlined or prefaced by the expression, "Greek:"  The following substitution scheme has
+    # been used:
+    #    A for Alpha; B for Beta; G for Gamma; D for Delta; E for Epsilon; Z for Zeta;
+    #    E for Eta; Th for Theta; I for Iota; K for Kappa; L for Lamda; M for Mu; N for Nu;
+    #    X for Xi; O for Omicron; P for Pi; R for Rho; S for Sigma; T for Tau; U for Upsilon;
+    #    Ph for Phi; Ch for Chi; Ps for Psi; O for Omega.
+    # For example, where the name, Jesus, appeared spelled out in the original text in Greek
+    # letters, Iota-eta-sigma-omicron-upsilon-sigma, it is transliterated in this transcription as,
+    # Iesous or Greek: Iesous.
+
+    sub markup_greek {
+        my ($roman, $punc) = @_;
+        my $greek = transcribe_roman_2_greek($roman);
+
+        "{GREEK:START $roman}${greek}{GREEK:END}$punc"
+    }
+
+    # transcode greek "put in italics and underlined"
+    $text =~ s/<i><u>([^<]+)<\/u>(.*?)<\/i>/markup_greek($1,$2)/ge;
+
+    # prefaced by the expression, "Greek:"
+    $text =~ s/<i>Greek:\s+(.+?)<\/i>/markup_greek($1,'')/gie;
+
+    $text
+}
+
+
+
+sub transcribe_roman_2_greek {
+    my ($text) = @_;
+
+
+    # based on rules stated in https://johnblood.gitlab.io/haydock/id16.html
+    #     The following substitution scheme has been used: 
+    #     A for Alpha; B for Beta; G for Gamma; D for Delta; E for Epsilon; 
+    #     Z for Zeta; E for Eta; Th for Theta; I for Iota; K for Kappa; 
+    #     L for Lamda; M for Mu; N for Nu; X for Xi; O for Omicron; P for Pi; 
+    #     R for Rho; S for Sigma; T for Tau; U for Upsilon; Ph for Phi; 
+    #     Ch for Chi; Ps for Psi; O for Omega.
+    # Note that 'O' has been used to encode both Omicron and Omega.
+
+    # TODO:  Audit O or Om => Omicron or Omega
+
+    my %lookup = (
+        'A'  => "\x{0391}", # Α Alpha
+        'a'  => "\x{03B1}", # α alpha
+        'B'  => "\x{0392}", # Β Beta
+        'b'  => "\x{03B2}", # β beta
+        'G'  => "\x{0393}", # Γ Gamma
+        'g'  => "\x{03B3}", # γ gamma
+        'D'  => "\x{0394}", # Δ Delta
+        'd'  => "\x{03B4}", # δ delta
+        'E'  => "\x{0395}", # Ε Epsilon
+        'e'  => "\x{03B5}", # ε epsilon
+        'Z'  => "\x{0396}", # Ζ Zeta
+        'z'  => "\x{03B6}", # ζ zeta
+        'E'  => "\x{0397}", # Η Eta
+        'e'  => "\x{03B7}", # η eta
+        'Th' => "\x{0398}", # Θ Theta
+        'th' => "\x{03B8}", # θ theta
+        'I'  => "\x{0399}", # Ι Iota
+        'i'  => "\x{03B9}", # ι iota
+        'K'  => "\x{039A}", # Κ Kappa
+        'k'  => "\x{03BA}", # κ kappa
+        'L'  => "\x{039B}", # Λ Lambda
+        'l'  => "\x{03BB}", # λ lambda
+        'M'  => "\x{039C}", # Μ Mu
+        'm'  => "\x{03BC}", # μ mu
+        'N'  => "\x{039D}", # Ν Nu
+        'n'  => "\x{03BD}", # ν nu
+        'X'  => "\x{039E}", # Ξ Xi
+        'x'  => "\x{03BE}", # ξ xi
+        'O' => "\x{039F}", # Ο Omicron
+        'o' => "\x{03BF}", # ο omicron
+        'P'  => "\x{03A0}", # Π Pi
+        'p'  => "\x{03C0}", # π pi
+        'R'  => "\x{03A1}", # Ρ Rho
+        'r'  => "\x{03C1}", # ρ rho
+        'S'  => "\x{03A3}", # Σ Sigma
+        's'  => "\x{03C3}", # σ sigma
+        'T'  => "\x{03A4}", # Τ Tau
+        't'  => "\x{03C4}", # τ tau
+        'U'  => "\x{03A5}", # Υ Upsilon
+        'u'  => "\x{03C5}", # υ upsilon
+        'Ph' => "\x{03A6}", # Φ Phi
+        'ph' => "\x{03C6}", # φ phi
+        'Ch' => "\x{03A7}", # Χ Chi
+        'ch' => "\x{03C7}", # χ chi
+        'Ps' => "\x{03A8}", # Ψ Psi
+        'ps' => "\x{03C8}", # ψ psi
+        'Om' => "\x{03A9}", # Ω Omega
+        'om' => "\x{03C9}", # ω omega
+    );
+
+    sub _by_greek_letters {
+        my $A = length($a);
+        my $B = length($b);
+
+        # multi char matches before single char matches
+        # ie. "Ps" is Psi not Pi-sigma
+
+        return ($B <=> $A) if $A != $B;
+        $a cmp $b;
+    }
+
+
+    for my $k (sort _by_greek_letters keys %lookup) {
+        my $v = $lookup{$k};
+        $text =~ s/$k/$v/g;
+    }
+
+    $text;
 }
