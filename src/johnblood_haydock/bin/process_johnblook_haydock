@@ -27,7 +27,7 @@ my $book={};
 
 for my $part (qw( OT NT )) {
     my $index_file = "$dir/${part}_index.html";
-    my $content = read_html_file($index_file);
+    my $content = read_html_file($index_file, "Contents");
 
     $content =~ s{<a }{\n<a }gi;
 
@@ -122,7 +122,7 @@ sub store_chapter {
 
     $book->{provenance}->{$chap_index} = gen_provenance($dir, $file);
 
-    my $contents = read_html_file("$dir/$file");
+    my $contents = read_html_file("$dir/$file", "$chap_tag");
     my @lines = split(/\n/, $contents);
     my $last_vers=0;
     for my $line (@lines) {
@@ -189,7 +189,7 @@ sub store_chapter {
             }
         }
 
-        if ($state eq 'in_commentary') {
+        if ($state eq 'in_commentary' || $state eq 'in_commentary_footnotes') {
             #print "        IN_C: $line\n";
             if ($line =~ m{Bible Text.+Cross-references:}i || $line =~ m{Bible Text.+Commentary:}i) {
                 #print "IS_T: $line\n";
@@ -279,10 +279,12 @@ sub store_chapter {
                             $range .= "-". ($ver - 1) if $range != ($ver - 1);
                             #print "        SKIP: $chap_tag ($file)  $range\n";
                         }
-                        if ($$chap->{commentary}->{verse}->[$ver]) {
-                            die "        $chap_tag ($file) DUP ver=$ver \n"
-                              . YAML::Safe::Dump($book) ."\n"
-                              . "$line\n";
+                        if ($$chap->{commentary}->{"v:". num_to_3digits($ver)}) {
+                            # die "        $chap_tag ($file) DUP ver=$ver \n"
+                            #   . YAML::Safe::Dump($book) ."\n"
+                            #   . "$line\n";
+                            print "!!! $chap_tag ($file) -- DUP ver=$ver\n";
+                            $ver++;
                         }
 
                         add_item('commentary', $chap, $chap_tag, $ver, $range, $text);
@@ -301,7 +303,16 @@ sub store_chapter {
                             die "        $chap_tag ($file) ANTI-DUP\n";
                         }
                     } else {
-                        append_item('commentary', $chap, $chap_tag, $last_vers, $text);
+                        if ($text =~ s/^\[(\d+)\]\s+//) {
+                            my $note_number = $1;
+                            $state = 'in_commentary_footnotes';
+                            add_item('commentary_footnotes', $chap, $chap_tag, $note_number, '', $text);
+                            $last_vers = $note_number;
+                        } elsif ($state eq 'in_commentary_footnotes') {
+                            append_item('commentary_footnotes', $chap, $chap_tag, $last_vers, $text);
+                        } else {
+                            append_item('commentary', $chap, $chap_tag, $last_vers, $text);
+                        }
                     }
                 }
             }
@@ -330,11 +341,11 @@ sub store_chapter {
 
 sub add_item {
     my ($section, $chap, $chap_tag, $ver, $range, $text) = @_;
-    #my $index = sprintf("v:%03d", $ver);
-    my $index = "v:". num_to_3digits($ver);
+    my $index = num_to_3digits($ver);
     my $tag =  $ver;
     $blockquote_level=0;
     if ($section eq 'commentary') {
+        $index = "v:". num_to_3digits($ver);
         if ($range eq 'title') {
             $tag = 'Title';
         } elsif ($range eq 'preface') {
@@ -365,10 +376,11 @@ sub add_item {
 
 sub append_item {
     my ($section, $chap, $chap_tag, $ver, $text) = @_;
-    #print "HAHA_APPEND: ".join('|', @_)."\n" if $chap_tag eq 'PSA:17';
-    my $index = sprintf("v:%03d", $ver);
+    #print "HAHA_APPEND: ".join('|', @_)."\n" if $chap_tag eq 'MAT:2';
+    my $index = num_to_3digits($ver);
 
     if ($section eq 'commentary') {
+        $index = "v:". num_to_3digits($ver);
         if ($text =~ s/^\[?<b>\[?Title\.?\]?<\/b>\]?\s*//) {
             add_item('commentary', $chap, $chap_tag, 0, 'title', $text);
             return;
@@ -425,7 +437,7 @@ sub gen_provenance {
 sub store_book_intro {
     my ($file) = @_;
     #print "    I: $file\n";
-    my $contents = read_html_file("$dir/$file");
+    my $contents = read_html_file("$dir/$file", "$book->{book_id}:intro");
     my @lines = split(/\n/, $contents);
     my %seen = ();
     $book->{book_title} = 'THE PROPHECY OF DANIEL.' if $file eq 'id309.html';
@@ -533,7 +545,7 @@ sub tidy {
 }
 
 sub read_html_file {
-    my ($file) = @_;
+    my ($file, $tag) = @_;
     my $content = '';
 
     #: $file\n";
