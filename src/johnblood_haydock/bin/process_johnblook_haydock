@@ -679,7 +679,6 @@ sub read_html_file {
 
     $content =~ s/&OpenCurlyQuote;/\x{2018}/gi;
     $content =~ s/&CloseCurlyQuote;/\x{2019}/gi;
-    $content =~ s/ab infim\xc3.* plebe/ab infim\x{00e2} plebe/;
 
     $content =~ s{ class="c\d+"}{}ig;
     $content =~ s{<span [^>]+>}{}ig;
@@ -705,6 +704,8 @@ sub read_html_file {
     if ($file =~ m{id1109.html$}) {
         $content =~ s{<strong>Bible Text & Cross-references:</strong>}{<strong>Notes & Commentary:</strong}i;
     }
+
+    $content =~ s/Gradus templorum [\w ]+ completi erant/Gradus templorum ab infim\x{00e2} plebe completi erant/;
 
     $content;
 }
