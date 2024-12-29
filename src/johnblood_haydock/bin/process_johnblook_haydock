@@ -14,9 +14,6 @@ use POSIX qw(strftime);
 use utf8;
 use YAML::Safe;
 
-# binmode(STDOUT, ":utf8");
-# binmode(STDIN, ":utf8");
-
 my $input_encoding = 'iso-8859-1';
 $input_encoding = 'cp-1252';
 
@@ -25,8 +22,6 @@ my $out_dir = './out';
 my $bookmap_file = './etc/bookmap.yaml';
 my $bookmap = YAML::Safe::LoadFile($bookmap_file);
 my $blockquote_level = 0;
-
-
 
 my $book={};
 
@@ -71,12 +66,9 @@ for my $part (qw( OT NT )) {
             $book->{book_name} = $name;
 
         } elsif ($line =~ /<a /i) {
-            print "???: $line\n";
-            #next; ## TMP
             if ($line =~ m{<a class="NavBar" }) {
                 #print "NAVBAR: $line\n";
             } elsif ($line =~ m{<a href="(id\d+\.html)">([^<]+)</a>}) {
-                print "XXX: $line\n";
                 my ($file, $anchor) = ($1, $2);
                 next if $anchor eq ']'; # Second entry for psalm 108
                 if ($anchor eq 'Introduction') {
@@ -106,7 +98,7 @@ sub store_chapter {
 
     my $chap_o_num = sprintf("%03d", $chapter_num);
 
-    print "    C: $chapter_num $file - \n";
+    #print "    C: $chapter_num $file - \n";
 
     $book->{chapter}->[$chapter_num] = {};
     ##$book->{chapter}->{chapter_source_file} = $file;
@@ -137,11 +129,8 @@ sub store_chapter {
             $title =~ s{\.$}{};
             $title =~ s{ III$}{ 3};
             if ($title =~ m{^([A-Z0-4\. ]+) - Chapter (\d+)$}) {
-                print "TIT:1: $title\n";
                 my ($tmp_title, $tmp_num) = ($1,$2);
-                print "TIT:2: |$tmp_title|$tmp_num|\n";
                 my $tmp_full_title = $book->{book_title};
-                print "TIT:3: $tmp_full_title\n";
                 $tmp_full_title =~ s/ FIRST / 1 /g;
                 $tmp_full_title =~ s/ SECOND / 2 /g;
                 $tmp_full_title =~ s/ THIRD / 3 /g;
@@ -191,13 +180,7 @@ sub store_chapter {
             } else {
                 die "Title in $file: $title\n";
             }
-
-
         }
-        #print "| $line\n";
-
-        #print "COM: $line\n" if $line =~ m{Commentary};
-
 
         if ($state eq 'in_commentary') {
             #print "        IN_C: $line\n";
@@ -314,9 +297,6 @@ sub store_chapter {
                         append_item('commentary', $chap, $chap_tag, $last_vers, $text);
                     }
                 }
-                # $last_vers = $ver;
-
-
             }
         } elsif ($state eq 'in_text') {
             #print "IN_T: $line\n";
@@ -360,9 +340,6 @@ sub add_item {
         }
     }
     $text =~ s/^\s+//;
-
-
-    #print "HAHA_ADD: ".join('|', @_)."\n";
 
     if (!defined($$chap->{$section}->{$index})) {
         $$chap->{$section}->{$index} = [];
@@ -439,7 +416,7 @@ sub gen_provenance {
 
 sub store_book_intro {
     my ($file) = @_;
-    print "    I: $file\n";
+    #print "    I: $file\n";
     my $contents = read_html_file("$dir/$file");
     my @lines = split(/\n/, $contents);
     my %seen = ();
@@ -465,8 +442,6 @@ sub store_book_intro {
         } elsif ($line =~ /<p align="center">/) {
             $line =~ s{<strong>}{<b>}gi;
             $line =~ s{</strong>}{</b>}gi;
-            # $line =~ s{<em>}{}gi;
-            # $line =~ s{</em>}{}gi;
 
             # print "P        PC: $line\n";
 
@@ -489,8 +464,6 @@ sub store_book_intro {
                 $book->{book_title} =~ s/called the\s+SECOND/called the, SECOND/;
                 $book->{book_title} =~ s/ISAIAS. ISAIAS/ISAIAS./;
                 $book->{book_title} =~ s/, THE APOSTLE$/, THE APOSTLE./;
-
-
 
             } elsif ($line =~ m{<p align="center"><em>(.+)</em>}) {
                 push(@{$book->{intro}}, $1);
@@ -522,7 +495,6 @@ sub store_book_intro {
     #exit;
 }
 
-
 sub write_book_file {
     my $book_id = $book->{book_id};
     my $file = "$out_dir/${book_id}.yaml";
@@ -530,7 +502,6 @@ sub write_book_file {
     YAML::Safe::DumpFile($file, $book);
     $book = {};
 }
-
 
 sub make_utf8 {
     my ($content, $code_page) = @_;
@@ -543,16 +514,9 @@ sub tidy {
     my ($mode, $content) = @_;
     my $out = '';
     my $err = 'HI';
-    #my @cmd = ('tidy', '-w', '0', '-raw', '-q');
-    #my @cmd = ('tidy', '-w', '0', '-q');
-    #my @cmd = ('tidy', '-w', '0', '-win1252', '-q');
     my @cmd = ('tidy', '-w', '0', $mode , '-q');
 
-# binmode($content, ":utf8");
-# binmode($out, ":utf8");
-# binmode($err, ":utf8");
-
-    print "RUNNING: ". join(' ', @cmd) ."\n";
+    #print "RUNNING: ". join(' ', @cmd) ."\n";
 
     run3 (\@cmd, \$content, \$out, \$err)
        || die "Error running `tidy`: $?  / $!\n";
@@ -562,45 +526,11 @@ sub tidy {
     return($out);
 }
 
-# sub htmlent_to_charcode {
-#     my ($html_ents, $content) = @_;
-
-#     for my $ent (keys %{$html_ents}) {
-#         my $code = $html_ents->{$ent};
-#         $content =~ s/$ent/$code/g;
-#     }
-#     $content;
-# }
-
-# sub charcode_to_utf8 {
-#     my ($html_ents, $content) = @_;
-
-#     for my $ent (keys %{$html_ents}) {
-#         my $code = $html_ents->{$ent};
-#         my $char = $ent;
-#         if ($char =~ s/&#(\d+);/$1/) {
-#             $char = chr $char;
-#         }
-#         $content =~ s/$code/$char/g;
-#     }
-#     $content;
-# }
-
-
 sub read_html_file {
     my ($file) = @_;
     my $content = '';
 
-    print "    Reading: $file\n";
-    # my %html_ents = (
-    #     '&#338;'  => '{char:OElig}',
-    #     '&#339;'  => '{char:oelig}',
-    #     '&#8212;' => '{char:mdash}',
-    #     '&#8216;' => '{char:OpenCurlyQuote}',
-    #     '&#8217;' => '{char:CloseCurlyQuote}',
-    #     '&#8224;' => '{char:dagger}',
-    #     '&#8230;' => '{char:mldr}',
-    # );
+    #: $file\n";
 
     my %file_has_odd_chars = (
         'id32.html' => 1,
@@ -712,7 +642,6 @@ sub read_html_file {
     $content;
 }
 
-
 sub detranscode_greek {
     my ($text) = @_;
 
@@ -747,11 +676,8 @@ sub detranscode_greek {
     $text
 }
 
-
-
 sub transcribe_roman_2_greek {
     my ($text) = @_;
-
 
     # based on rules stated in https://johnblood.gitlab.io/haydock/id16.html
     #     The following substitution scheme has been used: 
@@ -793,8 +719,8 @@ sub transcribe_roman_2_greek {
         'n'  => "\x{03BD}", # ν nu
         'X'  => "\x{039E}", # Ξ Xi
         'x'  => "\x{03BE}", # ξ xi
-        'O' => "\x{039F}", # Ο Omicron
-        'o' => "\x{03BF}", # ο omicron
+        'O'  => "\x{039F}", # Ο Omicron
+        'o'  => "\x{03BF}", # ο omicron
         'P'  => "\x{03A0}", # Π Pi
         'p'  => "\x{03C0}", # π pi
         'R'  => "\x{03A1}", # Ρ Rho
@@ -825,7 +751,6 @@ sub transcribe_roman_2_greek {
         return ($B <=> $A) if $A != $B;
         $a cmp $b;
     }
-
 
     for my $k (sort _by_greek_letters keys %lookup) {
         my $v = $lookup{$k};
