@@ -38,8 +38,6 @@ for my $part (qw( OT NT )) {
             $line =~ s{&nbsp;}{};
             if ($line =~ m{<a href="(id\d+\.html)"><strong>(\d+)</strong>\s*\[([\d& ab]+)\]?\s*</a>}) {
                 my ($file, $chap_num, $alt_num) = ($1,$2,$3);
-                # TODO: HERE
-                print "WWW: $file, $chap_num, $alt_num\n";
                 store_chapter($file, $chap_num, $alt_num);
             } else {
                 die "Bad Psalm chap line: $line\n";
@@ -91,19 +89,28 @@ write_book_file() if defined($book->{book_id});
 
 exit;
 
+sub num_to_3digits {
+    sprintf("%03d", $_[0]);
+}
+
 sub store_chapter {
     my ($file, $chapter_num, $alt_num) = @_;
     my %seen = ();
     my $state = '';
 
-    my $chap_o_num = sprintf("%03d", $chapter_num);
+    my $chap_index = "c:". num_to_3digits($chapter_num);
 
     #print "    C: $chapter_num $file - \n";
 
-    $book->{chapter}->[$chapter_num] = {};
+    $book->{chapter}->{$chap_index} = {};
     ##$book->{chapter}->{chapter_source_file} = $file;
-    my $chap = \$book->{chapter}->[$chapter_num];
+    my $chap = \$book->{chapter}->{$chap_index};
     my $chap_tag = "$book->{book_id}:$chapter_num";
+
+    if ($book->{book_id} eq 'PSA') {
+        $$chap->{hebrew_psalm_number} = "$alt_num";
+        $$chap->{greek_psalm_number} = "$chapter_num";
+    }
 
     if (defined($book->{last_chapter})) {
         die "Chapter Hopping\n" if $chapter_num != ($book->{last_chapter} + 1);
@@ -113,7 +120,7 @@ sub store_chapter {
         $book->{last_chapter} = 1;
     }
 
-    $book->{provenance}->{"chapter:$chap_o_num"} = gen_provenance($dir, $file);
+    $book->{provenance}->{$chap_index} = gen_provenance($dir, $file);
 
     my $contents = read_html_file("$dir/$file");
     my @lines = split(/\n/, $contents);
@@ -323,7 +330,8 @@ sub store_chapter {
 
 sub add_item {
     my ($section, $chap, $chap_tag, $ver, $range, $text) = @_;
-    my $index = sprintf("v:%03d", $ver);
+    #my $index = sprintf("v:%03d", $ver);
+    my $index = "v:". num_to_3digits($ver);
     my $tag =  $ver;
     $blockquote_level=0;
     if ($section eq 'commentary') {
@@ -424,8 +432,6 @@ sub store_book_intro {
     $book->{book_title} = 'THE PROPHECY OF NAHUM.' if $file eq 'id489.html';
     $book->{book_title} = 'THE PROPHECY OF HABACUC.' if $file eq 'id560.html';
     $book->{book_title} = 'THE PROPHECY OF ISAIAS.' if $file eq 'id1220.html';
-
-    print $contents if $file =~ /id144.html/;
 
     $book->{provenance} = {
         'intro' => gen_provenance($dir, $file),
@@ -578,7 +584,7 @@ sub read_html_file {
     my $basename = basename($file);
 
     if ($file_has_odd_chars{$basename}) {
-        print "ODD CHARS FILE: $file\n";
+        #print "ODD CHARS FILE: $file\n";
         $content = read_file($file, {binmode=>":raw"});
         $content = tidy('-win1252', $content);
 
