@@ -14,6 +14,8 @@ use POSIX qw(strftime);
 use utf8;
 use YAML::Safe;
 
+
+# TODO:  Find intent of out/SIR.yaml [7849] / id1210.html[79] -- (<u style="font-style: italic; ">aischunteros</u><i>.</i>; 
 my $input_encoding = 'iso-8859-1';
 $input_encoding = 'cp-1252';
 
@@ -63,8 +65,8 @@ for my $part (qw( OT NT )) {
             $book->{book_id} = $book_id;
             $book->{book_name} = $name;
 
-        } elsif ($book->{book_id} ne 'PSA') {
-            1; # TMP SKIP
+        # } elsif ($book->{book_id} ne 'PSA') {
+        #     1; # TMP SKIP
         } elsif ($line =~ /<a /i) {
             if ($line =~ m{<a class="NavBar" }) {
                 #print "NAVBAR: $line\n";
@@ -131,7 +133,7 @@ sub store_chapter {
         $book->{last_chapter} = 1;
     }
 
-    $book->{provenance}->{$chap_index} = gen_provenance($dir, $file);
+    $$chap->{provenance} = gen_provenance($dir, $file);
 
     my $contents = read_html_file("$dir/$file", "$chap_tag");
     my @lines = split(/\n/, $contents);
@@ -275,7 +277,7 @@ sub store_chapter {
                         $text =~ s/^\s+//;
                         append_item('commentary', $chap, $chap_tag, $last_vers, $text);
                     }
-                } elsif ($text =~ s/^Ver\. ([\d\[\]\-\.\? ]+) }//) {
+                } elsif ($text =~ s/^Ver\. ([\d\[\]\-\.\? ]+) //) {
                     my $ver = $1;
                     my $range = '';
                     my $was = '';
@@ -315,8 +317,8 @@ sub store_chapter {
                     next unless $text =~ /\S/;
                     my $inst = 0;
                     if ($text !~ /^Vera putant/ && $text =~ /^ver/i) {
-                        #print "        VER: $text\n";
-                        if (defined($$chap->[$last_vers]) && $$chap->[$last_vers] ne '') {
+                        my $last_vers_index = "v:". num_to_3digits($last_vers);
+                        if (defined($$chap->{verses}->{$last_vers_index}) && $$chap->{verses}->{$last_vers_index} ne '') {
                             append_item('commentary', $chap, $chap_tag, $last_vers, $text);
                         } else {
                             die "        $chap_tag ($file) ANTI-DUP\n";
