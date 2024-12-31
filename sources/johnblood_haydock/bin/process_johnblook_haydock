@@ -93,6 +93,20 @@ write_book_file() if defined($book->{book_id});
 
 exit;
 
+sub make_footnote_anchers {
+    my ($text) = @_;
+    $text =~ s/(\*+)/stars_to_vfn_ref($1)/ge;
+    return($text);
+
+    sub stars_to_vfn_ref {
+        my ($stars) = @_;
+        my $count = length($stars);
+        my $index = $count - 1;
+
+        "{VERSE_FOOTNOTE_INDEX_REF $index}";
+    }
+}
+
 sub num_to_3digits {
     sprintf("%03d", $_[0]);
 }
@@ -266,13 +280,13 @@ sub store_chapter {
                         add_item('commentary', $chap, $chap_tag, $ver, "", $text);
                         $last_vers = $ver;
                     } elsif ($chap_tag eq 'PSA:2' && $text =~ /^This psalm has no title/){
-                        add_item('commentary', $chap, $chap_tag, 0, "", $text);
+                        add_item('commentary', $chap, $chap_tag, 0, 'chapter', $text);
                         $last_vers = 0;
                     } elsif ($chap_tag eq 'PSA:3' && $text =~ /^Hebrew and Septuagint have literally/){
-                        add_item('commentary', $chap, $chap_tag, 0, "", $text);
+                        add_item('commentary', $chap, $chap_tag, 0, 'chapter', $text);
                         $last_vers = 0;
                     } elsif ($chap_tag eq 'PSA:46' && $text =~ /^This psalm appears to be a sequel/){
-                        add_item('commentary', $chap, $chap_tag, 0, "", $text);
+                        add_item('commentary', $chap, $chap_tag, 0, 'chapter', $text);
                         $last_vers = 0;
                     } else {
                         $text =~ s/^\s+//;
@@ -346,6 +360,7 @@ sub store_chapter {
                 $text =~ s/^\s*<b>\s*(.*)\s*<\/b>\s*$/$1/ig;
                 my $display = '';
 
+                $text = make_footnote_anchers($text);
 
                 if ($chap_tag eq 'WIS:6') {
                     $text .= ' answer.' if $text =~ /shall find what to$/;
@@ -361,16 +376,24 @@ sub store_chapter {
                     }
                 }
 
+
                 $text =~ s/34And so taking/34 And so taking/ if $chap_tag eq 'GEN:25';
                 $text =~ s/9: The chief butler/9 The chief butler/ if $chap_tag eq 'GEN:40';
                 $text =~ s/7: For the vineyard of the Lord/7 For the vineyard of the Lord/ if $chap_tag eq 'ISA:5';
-                $text =~ s/2\* The lust of an eunuch/2 *The lust of an eunuch/ if $chap_tag eq 'SIR:20';
+                #$text =~ s/2\{ The lust of an eunuch/2 *The lust of an eunuch/ if $chap_tag eq 'SIR:20';
                 #$text =~ s/// if $chap_tag eq '';
 
+                $text =~ s/^(\d+)\{VERSE_/$1 {VERSE_/;
+
+                if ($text =~ s/(.)\.______+$/$1/) {
+                    $state = 'in_text_footnotes';
+                }
 
                 if ($text =~ /^\.?_____+$/ || $text eq '*' || $text =~ /<.+>_____+<\/.*>$/) {
                     $state = 'in_text_footnotes';
                     $last_vers = '';
+                } elsif ($text =~ /_____+/) {
+                    print "BAR: $chap_tag:$last_vers |$text|\n";
                 } elsif ($text eq '*' || $text =~ /^\s*<!--["' ]+-->\s*$/) {
                     1;
                 } elsif ($text !~ /\S/) {
@@ -456,7 +479,9 @@ sub add_item {
         } elsif ($range eq 'preface') {
             $tag = 'Preface';
         } elsif ($range eq 'chapter') {
-            $tag = '';
+            $$chap->{intro} = $text;
+            #$tag = '';
+            return();
         } elsif ($range eq 'etc') {
             $tag = "1, &c";
         } elsif ($range) {
@@ -493,13 +518,14 @@ sub append_item {
             add_item('commentary', $chap, $chap_tag, 0, 'preface', $text);
             return;
         } elsif ($ver == 0 && (grep(/^$chap_tag$/, qw( DAG:13 MAT:26 1CO:11 1CO:13 1CO:14 1CO:15 2CO:10 REV:18 REV:21 )))) {
+            print "CHAPTER_INTRO: $chap_tag\n";
             add_item('commentary', $chap, $chap_tag, 0, 'chapter', $text);
             return;
         } elsif ($ver == 0 && (grep(/^$chap_tag$/,qw( JHN:8 JHN:10 ROM:11 ROM:15 1CO:9 GAL:1 )))) {
             $text =~ s{^<b>Ver. 1, &c.</b>}{};
             $text =~ s{^<b>Ver. 1. &c.</b>}{};
 
-            add_item('commentary', $chap, $chap_tag, 0, 'etc', $text);
+            add_item('commentary', $chap, $chap_tag, 1, 'etc', $text);
             return;
         }
     }
@@ -754,7 +780,7 @@ sub read_html_file {
     $content =~ s{<blockquote>}{\n<BLOCKQUOTE>\n}ig;
     $content =~ s{</blockquote>}{\n</BLOCKQUOTE>\n}ig;
 
-    $content =~ s{_________+}{}g;
+    #$content =~ s{_________+}{}g;
     $content =~ s{<!--["' ]+-->}{}gi;
     $content =~ s{<i [^>]+>}{<i>}gi;
 
