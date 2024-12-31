@@ -355,7 +355,10 @@ sub store_chapter {
             }
         } elsif ($state eq 'in_text' && $line =~ /\S/) {
 
-            if ($line =~ /^<p>(.+)<\/p>\s*$/) {
+            if ($line =~ /^<p align="center"[^>]*>(.+)<\/p>\s*$/) {
+                my $text = $1;
+                $$chap->{intro} .= $text;
+            } elsif ($line =~ /^<p[^>]*>(.+)<\/p>\s*$/) {
                 my $text = $1;
                 $text =~ s/^\s*<i>\s*(.*)\s*<\/i>\s*$/$1/ig;
                 $text =~ s/^\s*<b>\s*(.*)\s*<\/b>\s*$/$1/ig;
@@ -638,7 +641,7 @@ sub store_book_intro {
             } else {
                 1;print "CENTER-P: $line\n";
             }
-        } elsif ($line =~ m{<p align="left">(.+)</p>}) {
+        } elsif ($line =~ m{<p align="left">([^\d].+)</p>}) {
             push(@{$book->{intro}}, $1);
         } elsif ($line =~ m{<p>(.+)</p>}) {
             my $text = $1;
@@ -808,6 +811,10 @@ sub read_html_file {
     }
 
     $content =~ s/Gradus templorum [\w ]+ completi erant/Gradus templorum ab infim\x{00e2} plebe completi erant/;
+
+    $content =~ s{great stones. 32 Which being}{great stones.</p>\n<p>32 Which being} if $file =~ /id1420\.html/;
+    $content =~ s{and just. 9 And they}{and just.</p>\n<p>9 And they} if $file =~ /id1027\.html/;
+    #TODO: More of the ^^ based on audits of "Unexpected verse_num sequence:"
 
     $content = detranscode_greek($content);
 
