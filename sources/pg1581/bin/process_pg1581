@@ -194,7 +194,7 @@ while (my $line = shift(@lines)) {
                 my $sep = $&;
                 $verse_num++;
                 if ($verse =~ s/^$verse_num // || $verse_num == 1) {
-                    out_verse($chap_num,$verse_num, $verse);
+                    out_verse($chap_num,$verse_num,0,$verse);
                 } else {
                     die "Mismatch $verse_num !~ $verse, Stopped ";
                 }
@@ -209,12 +209,27 @@ while (my $line = shift(@lines)) {
     } elsif ($line =~ m{<p>(\d+):(\d+)\. ?([^<]+)</p>}) {
         my ($c, $v, $text) = ($1, $2, $3);
         $verse_num++;
+        my $display_v = 0;
         if ($out->{book_id} eq 'PSA') {
             if ($chap_num eq 113) {
-                $v = $verse_num;
-            } elsif ($chap_num eq 115 || $chap_num eq 147) {
+                # chapter combines 2 chapters from hebrew psalms
+                # TODO: check sources & document
+                if ($v != $verse_num) {
+                    $display_v = sprintf("\{AVN:START %d\}%d\{AVN:END\}", $v, $verse_num);
+                    $v = $verse_num;
+                }
+            } elsif ($chap_num eq 147) {
                 # chapter continues verse numbers from prior chapter
-                $verse_num = $v;
+                # We reset to 1 to match vulgate.
+                # TODO: check sources & document
+                $display_v = sprintf("\{AVN:START %d\}%d\{AVN:END\}", $v, ($v-11));
+                $v = ($v - 11);
+            } elsif ($chap_num eq 115) {
+                # chapter continues verse numbers from prior chapter
+                # We reset to 1 to match vulgate.
+                # TODO: check sources & document
+                $display_v = sprintf("\{AVN:START %d\}%d\{AVN:END\}", $v, ($v-9));
+                $v = ($v - 9);
             }
         }
         if ($c != $chap_num) {
@@ -223,11 +238,11 @@ while (my $line = shift(@lines)) {
             die "[$line_no] $out->{book_id} Verse hopped:  $v != $verse_num\n    $line\n";
         }
         # TODO: Add checks.
-        out_verse($c,$v,$text);
+        out_verse($c,$v,$display_v,$text);
     } elsif ($line =~ m{<p>9a:(\d+)\. ?([^<]+)</p>}) {  # Psalm 9a
         my ($v, $text) = ($1, $2);
         $verse_num = $v + 21;
-        out_verse(9,$verse_num,$text);
+        out_verse(9,$verse_num,0,$text);
     } elsif ($line =~ m{<p>\((.+)\)</p>}) {
         $out->{chapters}->{"c:".num_to_3digits($chap_num)}->{comment_after_verse}->{$verse_num} = $1;
     } elsif ($line =~ m{<p class="expl">([^<]+)</p>}) {
@@ -241,7 +256,7 @@ while (my $line = shift(@lines)) {
             my $sep = $&;
             $verse_num++;
             if ($verse =~ s/^$verse_num // || $verse_num == 1) {
-                out_verse($chap_num,$verse_num,$verse);
+                out_verse($chap_num,$verse_num,0,$verse);
             } else {
                 die "Mismatch $verse_num !~ $verse, Stopped ";
             }
@@ -344,15 +359,16 @@ sub out_footnote {
 }
 
 sub out_verse {
-    my ($c, $v, $text) = @_;
+    my ($c, $v, $display_v, $text) = @_;
     #$out .= "${c}:${v}. $text\n";
     #print "VRS: $out->{book_id} $book_id ${c}:$v $text\n";
     if ($out->{book_id} eq 'MAN' || $out->{book_id} =~ /^[12]ES$/) {
         $text =~ s{(\S+)\s*\(([^)]+\d)\)(\s*)}{$1<cross_ref>$2</cross_ref>$3}g;
     }
+    $display_v ||= $v;
     my $c_index = "c:".num_to_3digits($chap_num);
     my $v_index = "v:".num_to_3digits($v);
-    my $entry = "$out->{book_id}:$chap_num:$v | $v | $v | $text";
+    my $entry = "$out->{book_id}:$chap_num:$v | $v | $display_v | $text";
     $out->{chapters}->{$c_index}->{verses}->{$v_index} = $entry;
 }
 
