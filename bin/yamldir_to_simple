@@ -25,14 +25,22 @@ for my $sec (split(/\s+/, chomp_chomp($sections))) {
             print "   $chap_index\n";
             my $chap = $book->{chapters}->{$chap_index};
             for my $index (sort {$a cmp $b} keys %{$chap->{$category}} ) {
-                my $e_num = -1;
-                for my $entry (@{$chap->{$category}->{$index}}) {
-                    $e_num++;
+                if ($category eq 'verses') {
+                    my $entry = $chap->{$category}->{$index};
                     my ($loc_code, $num, $display_num, $text) = split(/\s*\|\s*/, $entry);
                     $text = strip_text($text);
+                    print join(' | ', $category, $loc_code, $num, '~', "$display_num: $text") ."\n";
 
-                    print join(' | ', $category, $loc_code, $num, $e_num, "$display_num: $text") ."\n";
-                };
+                } else {
+                    my $e_num = -1;
+                    for my $entry (@{$chap->{$category}->{$index}}) {
+                        $e_num++;
+                        my ($loc_code, $num, $display_num, $text) = split(/\s*\|\s*/, $entry);
+                        $text = strip_text($text);
+
+                        print join(' | ', $category, $loc_code, $num, $e_num, "$display_num: $text") ."\n";
+                    };
+                }
                 # print "        $index -- $entry\n";
                 # print Dumper($entry);
             }
@@ -54,7 +62,12 @@ sub strip_text {
 
     $text =~ s/\{[^}]+}/ /g;
     $text =~ s/\<[^>]+>/ /g;
+    #$text =~ s/\s+/ /g;
+
+    $text =~ s/[\.\,\:\;\-\?\!]+/ /g;
     $text =~ s/\s+/ /g;
+
+
     $text = chomp_chomp($text);
 
     $text;

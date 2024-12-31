@@ -1,0 +1,273 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use Data::Dumper;
+use YAML::Safe;
+
+my $book_order_file = "./etc/book_order.yaml";
+my $sections = 'OT NT AP';
+my $category = 'verses';
+
+binmode *STDOUT, ':utf8';
+
+my $dir = shift();
+
+my %color = (
+    red          => "\e[0;31m",
+    green        => "\e[0;32m",
+    yellow       => "\e[0;33m",
+    blue         => "\e[0;34m",
+    bright_red   => "\e[1;31m",
+    bright_green => "\e[1;32m",
+    on_red       => "\e[1;41m",
+    on_green     => "\e[1;42m",
+    reset        => "\e[0m",
+);
+
+my $fields = {
+    book => {
+        book_id => {
+            req => 1,
+            type => 'string',
+            empty_ok => 0,
+        },
+        book_title => {
+            req => 1,
+            type => 'string',
+            empty_ok => 0,
+        },
+        chapters => {
+            req => 1,
+            type => 'hash',
+            empty_ok => 0,
+        },
+        first_chapter => {
+            req => 1,
+            type => 'int',
+            empty_ok => 0,
+        },
+        last_chapter => {
+            req => 1,
+            type => 'int',
+            empty_ok => 0,
+        },
+        has_chapter_zero => {
+            req => 1,
+            type => 'int',
+            empty_ok => 0,
+        },
+    },
+    chapter => {
+        chapter_number => {
+            req => 1,
+            type => 'int',
+            empty_ok => 0,
+        },
+        verses => {
+            req => 1,
+            type => 'hash',
+            empty_ok => 0,
+        },
+        intro => {
+            req => 0,
+            type => 'int',
+            empty_ok => 1,
+        },
+        footnotes => {
+            req => 0,
+            type => 'hash',
+            empty_ok => 1,
+        },
+    },
+};
+
+
+
+my $book_order = YAML::Safe::LoadFile($book_order_file);
+my @err_messages = ();
+my @warn_messages = ();
+my @info_messages = ();
+
+for my $sec (split(/\s+/, chomp_chomp($sections))) {
+    for my $book_id  (@{$book_order->{$sec}}) {
+        if (! -f "$dir/$book_id.yaml") {
+            if ($sec eq 'AP') {
+                reg_warn($book_id, "Missing Bookfile: $dir/$book_id.yaml");
+            } else {
+                reg_err($book_id, "Missing Bookfile: $dir/$book_id.yaml");
+            }
+            next;
+        }
+
+        my $book = YAML::Safe::LoadFile("$dir/$book_id.yaml");
+
+        my $chap_count = 0;
+        my $last_chap_num = 0;
+        for my $chap_index (sort keys %{$book->{chapters}}) {
+            if ($chap_index =~ /^c:(\d\d\d)$/) {
+                my $chap_num = sprintf("%d", $1);
+                my $chap_code = "$book_id:$chap_num";
+                if ($chap_index eq 'c:000') {
+                    reg_info($book_id, "has a chapter 0")
+                } elsif ($chap_num != $last_chap_num + 1) {
+                    reg_err($book_id, "Unexpected chap_num sequence: $last_chap_num -> $chap_num");
+                }
+                my $chap = $book->{chapters}->{$chap_index};
+
+                my $last_verse_num = 0;
+                my $verse_count = 0;
+                # $last_verse_num = 9 if $book_id eq 'PSA' and $chap_num == 115;
+                # $last_verse_num = 11 if $book_id eq 'PSA' and $chap_num == 145;
+                for my $verse_index (sort keys %{$chap->{verses}}) {
+                    if ($chap_code eq 'LUK:1') {
+                        print "$chap_code $verse_index : $chap->{verses}->{$verse_index}\n";
+                    }
+                    if ($verse_index =~ /^v:(\d\d\d)$/) {
+                        my $verse_num = sprintf("%d", $1);
+                        my $verse_code = "$chap_code:$verse_num";
+                        if ($verse_index eq "v:000") {
+                            reg_info($chap_code, "Has a verse 0");
+                        } elsif ($chap_code eq 'PSA:115' && $last_verse_num == 0) {
+                            reg_err($chap_code, "Doesn't start with verse 10") if $verse_num != 10;
+                        } elsif ($chap_code eq 'PSA:147' && $last_verse_num == 0) {
+                            reg_err($chap_code, "Doesn't start with verse 12") if $verse_num != 12;
+                        } elsif ($verse_num != $last_verse_num + 1) {
+                            reg_err($chap_code, "Unexpected verse_num sequence: $last_verse_num -> $verse_num");
+                            if ($book_id eq 'LUK') {
+                                print "!!! $chap_code $verse_index ::". Dumper($chap->{verses}->{$verse_index})
+                            }
+                        }
+                        my $entry = $chap->{verses}->{$verse_index};
+                        my ($tag, $v, $display, $text) = split(/\s*\|\s*/, $entry);
+                        my $simple = strip_text($text);
+                        reg_err("$verse_code", "No text") unless $simple =~ /[A-Za-z]/;
+
+
+                        $last_verse_num = $verse_num;
+                        $verse_count++ unless $verse_num == 0;
+                    } else {
+                        reg_err($book_id, "$chap_index: Odd Verse Index: $verse_index");
+                    }
+                }
+                #print "$book_id $chap_index verse_count: $verse_count\n";
+
+                #print "$book_id $chap_index verse_count: \n";
+                $last_chap_num = $chap_num;
+                $chap_count++ unless $chap_num == 0;
+            } else {
+                reg_err($book_id, "Odd Chapter Index: $chap_index");
+            }
+        }
+        print "$book_id Chapter_count: $chap_count\n";
+    }
+}
+
+for my $m (@info_messages) {
+    print _blue($m) ."\n";
+}
+for my $m (@warn_messages) {
+    print _yellow($m) ."\n";
+}
+for my $m (@err_messages) {
+    print _red($m) ."\n";
+}
+
+#######################################################
+
+sub _red   {$color{red}   . $_[0] . $color{reset}}
+sub _yellow {$color{yellow} . $_[0] . $color{reset}}
+sub _blue {$color{blue} . $_[0] . $color{reset}}
+
+sub reg_err {
+    my ($book_id, $message) = @_;
+    push(@err_messages, "ERROR: $book_id: $message")
+}
+
+sub reg_warn {
+    my ($book_id, $message) = @_;
+    push(@warn_messages, "WARN: $book_id: $message")
+}
+
+sub reg_info {
+    my ($book_id, $message) = @_;
+    push(@info_messages, "INFO: $book_id: $message")
+}
+
+sub chomp_chomp {
+    my ($text) = @_;
+    $text =~ s/^\s+//;
+    $text =~ s/\s+$//;
+
+    $text;
+}
+
+sub strip_text {
+    my ($text) = @_;
+
+    $text =~ s/\{[^}]+}/ /g;
+    $text =~ s/\<[^>]+>/ /g;
+    #$text =~ s/\s+/ /g;
+
+    $text =~ s/[\.\,\:\;\-\?\!]+/ /g;
+    $text =~ s/\s+/ /g;
+
+
+    $text = chomp_chomp($text);
+
+    $text;
+}
+
+__END__
+        for my $chap_index (sort {$a cmp $b} keys %{$book->{chapters}}) {
+            print "   $chap_index\n";
+            my $chap = $book->{chapters}->{$chap_index};
+            for my $index (sort {$a cmp $b} keys %{$chap->{$category}} ) {
+                if ($category eq 'verses') {
+                    my $entry = $chap->{$category}->{$index};
+                    my ($loc_code, $num, $display_num, $text) = split(/\s*\|\s*/, $entry);
+                    $text = strip_text($text);
+                    print join(' | ', $category, $loc_code, $num, '~', "$display_num: $text") ."\n";
+
+                } else {
+                    my $e_num = -1;
+                    for my $entry (@{$chap->{$category}->{$index}}) {
+                        $e_num++;
+                        my ($loc_code, $num, $display_num, $text) = split(/\s*\|\s*/, $entry);
+                        $text = strip_text($text);
+
+                        print join(' | ', $category, $loc_code, $num, $e_num, "$display_num: $text") ."\n";
+                    };
+                }
+                # print "        $index -- $entry\n";
+                # print Dumper($entry);
+            }
+        }
+    }
+}
+
+
+sub chomp_chomp {
+    my ($text) = @_;
+    $text =~ s/^\s+//;
+    $text =~ s/\s+$//;
+
+    $text;
+}
+
+sub strip_text {
+    my ($text) = @_;
+
+    $text =~ s/\{[^}]+}/ /g;
+    $text =~ s/\<[^>]+>/ /g;
+    #$text =~ s/\s+/ /g;
+
+    $text =~ s/[\.\,\:\;\-\?\!]+/ /g;
+    $text =~ s/\s+/ /g;
+
+
+    $text = chomp_chomp($text);
+
+    $text;
+}
