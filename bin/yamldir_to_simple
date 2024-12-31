@@ -1,0 +1,61 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use Data::Dumper;
+use YAML::Safe;
+
+my $book_order_file = "./etc/book_order.yaml";
+my $sections = 'OT NT';
+my $category = 'verses';
+
+binmode *STDOUT, ':utf8';
+
+my $dir = shift();
+
+my $book_order = YAML::Safe::LoadFile($book_order_file);
+
+
+for my $sec (split(/\s+/, chomp_chomp($sections))) {
+    for my $book_id  (@{$book_order->{$sec}}) {
+        print "$book_id\n";
+        my $book = YAML::Safe::LoadFile("$dir/$book_id.yaml");
+        for my $chap_index (sort {$a cmp $b} keys %{$book->{chapters}}) {
+            print "   $chap_index\n";
+            my $chap = $book->{chapters}->{$chap_index};
+            for my $index (sort {$a cmp $b} keys %{$chap->{$category}} ) {
+                my $e_num = -1;
+                for my $entry (@{$chap->{$category}->{$index}}) {
+                    $e_num++;
+                    my ($loc_code, $num, $display_num, $text) = split(/\s*\|\s*/, $entry);
+                    $text = strip_text($text);
+
+                    print join(' | ', $category, $loc_code, $num, $e_num, "$display_num: $text") ."\n";
+                };
+                # print "        $index -- $entry\n";
+                # print Dumper($entry);
+            }
+        }
+    }
+}
+
+
+sub chomp_chomp {
+    my ($text) = @_;
+    $text =~ s/^\s+//;
+    $text =~ s/\s+$//;
+
+    $text;
+}
+
+sub strip_text {
+    my ($text) = @_;
+
+    $text =~ s/\{[^}]+}/ /g;
+    $text =~ s/\<[^>]+>/ /g;
+    $text =~ s/\s+/ /g;
+    $text = chomp_chomp($text);
+
+    $text;
+}
