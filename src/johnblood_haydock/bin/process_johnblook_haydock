@@ -216,6 +216,7 @@ sub store_chapter {
                 $text =~ s/\s+$//;
 
                 next if $text =~ m{<!--["' ]+-->};
+                next if $text =~ m{____________};
                 next unless $text =~ /\S/;
                 $text =~ s{<span [^>]+>}{}ig;
                 $text =~ s{</span>}{}ig;
@@ -370,7 +371,7 @@ sub store_chapter {
                 if ($text =~ /^\.?_____+$/ || $text eq '*' || $text =~ /<.+>_____+<\/.*>$/) {
                     $state = 'in_text_footnotes';
                     $last_vers = '';
-                } elsif ($text eq '*' || $text =~ /^\s*<!--"''"-->\s*$/) {
+                } elsif ($text eq '*' || $text =~ /^\s*<!--["' ]+-->\s*$/) {
                     1;
                 } elsif ($text !~ /\S/) {
                     1;
@@ -411,9 +412,11 @@ sub store_chapter {
                 if ($text =~ s/^(\d+)[:\.]\s//) {
                     my $ref_no = $1;
                     add_item('verse_footnotes', $chap, $chap_tag, $ref_no, $display, $text);
-                } elsif ($text eq '*' || $text =~ /^\s*<!--"''"-->\s*$/) {
+                } elsif ($text eq '*' || $text =~ /^\s*<!--["' ]+-->\s*$/) {
                     1;
                 } elsif ($text !~ /\S/) {
+                    1;
+                } elsif ($text =~ /^_______+\.?\s*$/) {
                     1;
                 } else {
                     print "IN_T_FN: $chap_tag | $last_vers | $text\n";
@@ -594,7 +597,7 @@ sub store_book_intro {
             push(@{$book->{intro}}, $1);
         } elsif ($line =~ m{<p>(.+)</p>}) {
             my $text = $1;
-            $text =~ s{&nbsp; <!--"''"-->}{};
+            $text =~ s{&nbsp; <!--["' ]+-->}{};
             $text =~ s{^\s*&nbsp;\s*$}{};
             next unless $text =~ /\S/;
 
@@ -750,6 +753,10 @@ sub read_html_file {
     $content =~ s{<blockquote [^>]+>}{<BLOCKQUOTE>}ig;
     $content =~ s{<blockquote>}{\n<BLOCKQUOTE>\n}ig;
     $content =~ s{</blockquote>}{\n</BLOCKQUOTE>\n}ig;
+
+    $content =~ s{_________+}{}g;
+    $content =~ s{<!--["' ]+-->}{}gi;
+    $content =~ s{<i [^>]+>}{<i>}gi;
 
     if ($file =~ m{id1109.html$}) {
         $content =~ s{<strong>Bible Text & Cross-references:</strong>}{<strong>Notes & Commentary:</strong}i;
