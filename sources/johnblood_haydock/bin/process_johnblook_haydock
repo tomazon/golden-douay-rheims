@@ -115,6 +115,7 @@ sub store_chapter {
     my ($file, $chapter_num, $alt_num) = @_;
     my %seen = ();
     my $state = '';
+    my %verse_map = ();
 
     my $chap_index = "c:". num_to_3digits($chapter_num);
 
@@ -366,13 +367,16 @@ sub store_chapter {
                     $text .= ' answer.' if $text =~ /shall find what to$/;
                     $text =~ s/^answer\.$//;
                 }
-                if ($chap_tag eq 'PSA:9' || $chap_tag eq 'PSA:113') {
+                if ($chap_tag eq 'PSA:9' || $chap_tag eq 'PSA:113' || $chap_tag eq 'PSA:147') {
                     if ($text =~ s/^(\d+)\((\d+)\) /$2 /) {
-                        $display = "${2}[$1]";
+                        my ($alt_v, $our_v) = ($1, $2);
+                        $display = "\{ALT_VERSE_NUM:START $alt_v\}$our_v\{ALT_VERSE_NUM:END\}";
+                        $verse_map{$alt_v} = $our_v;
+                        # TODO: apply %verse_map to commentary and footnotes. (second pass?)
                     }
                 } elsif ($chap_tag eq 'PSA:115') {
                     if ($text =~ s/^(\d+)\((\d+)\) /$1 /) {
-                        $display = "${1}[$2]";
+                        $display = "\{ALT_VERSE_NUM:START $2\}$1\{ALT_VERSE_NUM:END\}";
                     }
                 }
 
@@ -380,7 +384,9 @@ sub store_chapter {
                 $text =~ s/34And so taking/34 And so taking/ if $chap_tag eq 'GEN:25';
                 $text =~ s/9: The chief butler/9 The chief butler/ if $chap_tag eq 'GEN:40';
                 $text =~ s/7: For the vineyard of the Lord/7 For the vineyard of the Lord/ if $chap_tag eq 'ISA:5';
-                #$text =~ s/2\{ The lust of an eunuch/2 *The lust of an eunuch/ if $chap_tag eq 'SIR:20';
+                $text =~ s/^16 He saw rest that it was good/15 He saw rest that it was good/ if $chap_tag eq 'GEN:49';
+                $text =~ s/^26 The God of thy father/25 The God of thy father/ if $chap_tag eq 'GEN:49';
+                $text =~ s/^26 The second cherub/25 The second cherub/ if $chap_tag eq '1KI:6';
                 #$text =~ s/// if $chap_tag eq '';
 
                 $text =~ s/^(\d+)\{VERSE_/$1 {VERSE_/;
@@ -487,20 +493,28 @@ sub add_item {
         } elsif ($range) {
             $tag .= "-$range";
         }
+    } elsif ($section eq 'verses') {
+        $tag = $range if $range;
     }
     $text =~ s/^\s+//;
 
-    if (!defined($$chap->{$section}->{$index})) {
-        $$chap->{$section}->{$index} = [];
+    if ($section eq 'verses') {
+        $index = "v:".num_to_3digits($ver);
+        die "DUP_VERSE:  ${chap_tag}:$ver $text  Stopped \n" if defined($$chap->{$section}->{$index});
+        $$chap->{$section}->{$index} = "${chap_tag}:$ver | $ver | $tag | $text";
+    } else {
+        if (!defined($$chap->{$section}->{$index})) {
+            $$chap->{$section}->{$index} = [];
+        }
+
+        my @tmp = @{$$chap->{$section}->{$index}};
+        my $inst = $#tmp + 1;
+
+        $text =~ s{^\s+}{};
+        $text =~ s{\s+$}{};
+
+        $$chap->{$section}->{$index}->[$inst] = "${chap_tag}:$ver | $ver | $tag | $text";
     }
-
-    my @tmp = @{$$chap->{$section}->{$index}};
-    my $inst = $#tmp + 1;
-
-    $text =~ s{^\s+}{};
-    $text =~ s{\s+$}{};
-
-    $$chap->{$section}->{$index}->[$inst] = "${chap_tag}:$ver | $ver | $tag | $text";
 
 }
 
@@ -531,14 +545,19 @@ sub append_item {
     }
 
     $text =~ s/^\s+//;
-
-    my @tmp = @{$$chap->{$section}->{$index}};
-    my $inst = $#tmp;
-
     my $bq_tag='';
     $bq_tag = "{BQ:$blockquote_level}" if $blockquote_level;
 
-    $$chap->{$section}->{$index}->[$inst] .= "{JOIN}${bq_tag}$text";
+    if ($section eq 'verses') {
+        $index = "v:".num_to_3digits($ver);
+        die "APPEND TO EMPTY VERSE: ${chap_tag}:$ver , Stopped " unless $$chap->{$section}->{$index} ne "";
+        $$chap->{$section}->{$index} .= "{JOIN}${bq_tag}$text";
+    } else {
+        my @tmp = @{$$chap->{$section}->{$index}};
+        my $inst = $#tmp;
+
+        $$chap->{$section}->{$index}->[$inst] .= "{JOIN}${bq_tag}$text";
+    }
 }
 
 sub time2iso {
