@@ -205,21 +205,24 @@ $`\texttt{+ This {\color{green}was} Courier font.}`$
 \texttt{+ This {\color{green}was} Courier font.}
 
 ```
-Foo
-
-```math
-\begin{gather}
-    a + b = c \\ 
-    a = c - b \\
-\texttt{+ This {\color{green}was} Courier font.}\\
-\texttt{+ This {\color{green}was} Courier font.}
-\end{gather}
-```
 
 $$$$
 This is a test \sqrt{\$4}`
 $$$$
 
+
+Foo
+
+```math
+\begin{gather}
+\begin{flalign}
+    a + b = c \\ 
+    a = c - b \\
+\texttt{+ This {\color{red}is} Courier font.}\\
+\texttt{+ This {\color{green}was} Courier font.}
+\end{flalign}
+\end{gather}
+```
 [^1]: From https://www.churchlatin.com/ ,  A photographic facsimile of a 1909 Descelle "Biblia Sacra" vulgate -- beautifully typeset and illustrated Clementine version of the Latin Vulgate Bible (see https://www.churchlatin.com/the-vulgate)
 [^2]: https://www.baronius.com/
 [^3]: https://www.liturgicalartsjournal.com/2017/11/lasances-initials-tradition-in-american.html / https://www.ancillapress.com/Fonts.html
