@@ -208,12 +208,11 @@ $`\texttt{+ This {\color{green}was} Courier font.}`$
 Foo
 
 ```math
-\begin{flalign}
+\setlength{\mathindent}{0pt}
 \begin{gather}
     a + b = c \\ 
     a = c - b
 \end{gather}
-\end{flalign}
 ```
 
 $$$$
