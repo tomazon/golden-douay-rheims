@@ -208,10 +208,11 @@ $`\texttt{+ This {\color{green}was} Courier font.}`$
 Foo
 
 ```math
-\setlength{\mathindent}{0pt}
 \begin{gather}
     a + b = c \\ 
-    a = c - b
+    a = c - b \\
+\texttt{+ This {\color{green}was} Courier font.}\\
+\texttt{+ This {\color{green}was} Courier font.}
 \end{gather}
 ```
 
