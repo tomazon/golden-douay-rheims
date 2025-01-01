@@ -215,12 +215,12 @@ Foo
 
 ```math
 \begin{gather}
-\begin{flalign}
+\[
     a + b = c \\ 
     a = c - b \\
 \texttt{+ This {\color{red}is} Courier font.}\\
 \texttt{+ This {\color{green}was} Courier font.}
-\end{flalign}
+\]
 \end{gather}
 ```
 [^1]: From https://www.churchlatin.com/ ,  A photographic facsimile of a 1909 Descelle "Biblia Sacra" vulgate -- beautifully typeset and illustrated Clementine version of the Latin Vulgate Bible (see https://www.churchlatin.com/the-vulgate)
