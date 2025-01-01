@@ -224,6 +224,23 @@ Foo
 \end{gather}
 \]
 ```
+$$
+\begin{align}
+\mbox{Union: } & A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
+\mbox{Concatenation: } & A\circ B  = \{xy\mid x\in A \mbox{ and } y\in B\} \\
+\mbox{Star: } & A^\star  = \{x_1x_2\ldots x_k \mid  k\geq 0 \mbox{ and each } x_i\in A\} \\
+\end{align}
+$$
+
+$$
+\begin{align*} 
+2x - 5y &=  8 \\ 
+3x + 9y &=  -12
+\end{align*}
+$$
+
+
+
 [^1]: From https://www.churchlatin.com/ ,  A photographic facsimile of a 1909 Descelle "Biblia Sacra" vulgate -- beautifully typeset and illustrated Clementine version of the Latin Vulgate Bible (see https://www.churchlatin.com/the-vulgate)
 [^2]: https://www.baronius.com/
 [^3]: https://www.liturgicalartsjournal.com/2017/11/lasances-initials-tradition-in-american.html / https://www.ancillapress.com/Fonts.html
