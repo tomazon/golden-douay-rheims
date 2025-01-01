@@ -189,7 +189,13 @@ Douay-Rheims offerings:
       * John Cardinal Farley, Archbishop of New York
       * William Cardinal O’Conner, Archbishop of Boston
 
+Test 1:
 
+Hi there $`\sqrt{\$4}`$  Wee
+
+$$$$
+This is a test \sqrt{\$4}`
+$$$$
 
 [^1]: From https://www.churchlatin.com/ ,  A photographic facsimile of a 1909 Descelle "Biblia Sacra" vulgate -- beautifully typeset and illustrated Clementine version of the Latin Vulgate Bible (see https://www.churchlatin.com/the-vulgate)
 [^2]: https://www.baronius.com/
