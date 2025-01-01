@@ -191,7 +191,8 @@ Douay-Rheims offerings:
 
 
 $\texttt{+ This {\color{red}is} Courier font.}$  
-$\texttt{+ This {\color{green}was} Courier font.}$ 
+$\texttt{+ This {\color{green}was} Courier font.}$  
+$foo \colorbox{blue!30}{blue} bar$  
 
 
 [^1]: From https://www.churchlatin.com/ ,  A photographic facsimile of a 1909 Descelle "Biblia Sacra" vulgate -- beautifully typeset and illustrated Clementine version of the Latin Vulgate Bible (see https://www.churchlatin.com/the-vulgate)
