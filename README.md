@@ -214,6 +214,7 @@ $$$$
 Foo
 
 ```math
+\usepackage{amsmath} 
 \[
 \begin{gather}
     a + b = c \\ 
