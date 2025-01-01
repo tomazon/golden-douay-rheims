@@ -204,7 +204,10 @@ $`\texttt{+ This {\color{green}was} Courier font.}`$
 
 \texttt{+ This {\color{green}was} Courier font.}
 
+```
+Foo
 
+```math
 \begin{gather}
     a + b = c \\ 
     a = c - b
