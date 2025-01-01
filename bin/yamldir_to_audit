@@ -118,26 +118,18 @@ for my $sec (split(/\s+/, chomp_chomp($sections))) {
 
                 my $last_verse_num = 0;
                 my $verse_count = 0;
-                # $last_verse_num = 9 if $book_id eq 'PSA' and $chap_num == 115;
-                # $last_verse_num = 11 if $book_id eq 'PSA' and $chap_num == 145;
                 for my $verse_index (sort keys %{$chap->{verses}}) {
-                    if ($chap_code eq 'LUK:1') {
-                        print "$chap_code $verse_index : $chap->{verses}->{$verse_index}\n";
-                    }
                     if ($verse_index =~ /^v:(\d\d\d)$/) {
                         my $verse_num = sprintf("%d", $1);
                         my $verse_code = "$chap_code:$verse_num";
                         if ($verse_index eq "v:000") {
                             reg_info($chap_code, "Has a verse 0");
-                        } elsif ($chap_code eq 'PSA:115' && $last_verse_num == 0) {
-                            reg_err($chap_code, "Doesn't start with verse 10") if $verse_num != 10;
-                        } elsif ($chap_code eq 'PSA:147' && $last_verse_num == 0) {
-                            reg_err($chap_code, "Doesn't start with verse 12") if $verse_num != 12;
+                        # } elsif ($chap_code eq 'PSA:115' && $last_verse_num == 0) {
+                        #     reg_err($chap_code, "Doesn't start with verse 10") if $verse_num != 10;
+                        # } elsif ($chap_code eq 'PSA:147' && $last_verse_num == 0) {
+                        #     reg_err($chap_code, "Doesn't start with verse 12") if $verse_num != 12;
                         } elsif ($verse_num != $last_verse_num + 1) {
                             reg_err($chap_code, "Unexpected verse_num sequence: $last_verse_num -> $verse_num");
-                            if ($book_id eq 'LUK') {
-                                print "!!! $chap_code $verse_index ::". Dumper($chap->{verses}->{$verse_index})
-                            }
                         }
                         my $entry = $chap->{verses}->{$verse_index};
                         my ($tag, $v, $display, $text) = split(/\s*\|\s*/, $entry);
@@ -151,16 +143,14 @@ for my $sec (split(/\s+/, chomp_chomp($sections))) {
                         reg_err($book_id, "$chap_index: Odd Verse Index: $verse_index");
                     }
                 }
-                #print "$book_id $chap_index verse_count: $verse_count\n";
-
-                #print "$book_id $chap_index verse_count: \n";
+                print "$chap_code verse_count: $verse_count\n";
                 $last_chap_num = $chap_num;
                 $chap_count++ unless $chap_num == 0;
             } else {
                 reg_err($book_id, "Odd Chapter Index: $chap_index");
             }
         }
-        print "$book_id Chapter_count: $chap_count\n";
+        print "$book_id chapter_count: $chap_count\n";
     }
 }
 
