@@ -191,7 +191,7 @@ Douay-Rheims offerings:
 
 Test 1:
 
-$$
+_ $$
 \begin{aligned}
 &sin⁡(α) = {opposite \over hypotenuse} = {h0 \over c} = {h2 \over b} \\
 &cos(α) = {adjacent \over hypotenuse} = {b \over c} = {d \over b} \\
