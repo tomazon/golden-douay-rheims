@@ -203,6 +203,12 @@ $`\texttt{+ This {\color{green}was} Courier font.}`$
 \texttt{+ This {\color{green}was} Courier font.}\newline
 
 \texttt{+ This {\color{green}was} Courier font.}
+
+
+\begin{gather}
+    a + b = c \\ 
+    a = c - b
+\end{gather}
 ```
 
 $$$$
