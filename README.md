@@ -193,11 +193,11 @@ Test 1:
 
 Hi there $`\sqrt{\$4}`$  Wee
 
-
+```
 $`\texttt{- This {\color{red}is} Courier font.}`$
 
 $`\texttt{+ This {\color{green}was} Courier font.}`$
-
+```
 
 $$$$
 This is a test \sqrt{\$4}`
