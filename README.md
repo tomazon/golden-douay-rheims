@@ -191,7 +191,7 @@ Douay-Rheims offerings:
 
 
 $\texttt{+ This {\color{red}is} Courier font.}$  
-$\tt{+ This {\color{green}was} Courier font.}$  
+$\texttt{+ This {\color{green}was} Courier font.}$  
 $foo \bgcolor{blue}{blue} bar$  
 ${\texttt + This {\color{red}is} Courier font.}$  
 ${\tt + This {\color{red}is} Courier font.}$ 
