@@ -198,7 +198,9 @@ $`\texttt{- This {\color{red}is} Courier font.}`$
 
 $`\texttt{+ This {\color{green}was} Courier font.}`$
 
-\texttt{- This {\color{red}is} Courier font.}
+\texttt{- This {\color{red}is} Courier font.}\\
+
+\texttt{+ This {\color{green}was} Courier font.}\newline
 
 \texttt{+ This {\color{green}was} Courier font.}
 ```
