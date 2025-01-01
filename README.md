@@ -193,7 +193,7 @@ Test 1:
 
 Hi there $`\sqrt{\$4}`$  Wee
 
-```
+``` latex
 $`\texttt{- This {\color{red}is} Courier font.}`$
 
 $`\texttt{+ This {\color{green}was} Courier font.}`$
