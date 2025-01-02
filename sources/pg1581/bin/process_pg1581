@@ -14,6 +14,8 @@ use String::Diff qw( diff );
 use utf8;
 use YAML::Safe;
 
+
+
 my %color = (
     red          => "\e[0;31m",
     green        => "\e[0;32m",
@@ -365,9 +367,13 @@ sub out_verse {
     if ($out->{book_id} eq 'MAN' || $out->{book_id} =~ /^[12]ES$/) {
         $text =~ s{(\S+)\s*\(([^)]+\d)\)(\s*)}{$1<cross_ref>$2</cross_ref>$3}g;
     }
+
     $display_v ||= $v;
     my $c_index = "c:".num_to_3digits($chap_num);
     my $v_index = "v:".num_to_3digits($v);
+
+    $text = our_fixes("$chap_num:$v", $text);
+
     my $entry = "$out->{book_id}:$chap_num:$v | $v | $display_v | $text";
     $out->{chapters}->{$c_index}->{verses}->{$v_index} = $entry;
 }
@@ -380,3 +386,16 @@ sub num_to_3digits {
     sprintf("%03d", $_[0]);
 }
 
+sub our_fixes {
+    my ($tag, $text) = @_;
+
+    my ($b, $c, $v) = split(/:/, $tag);
+    my $chap_tag = "$b:$c";
+
+    $text =~ s/\x{2019}/'/g;  # Right Single Quotation Mark
+    # TODO: Read changes from a diff file
+    #$text =~ s/ And / and /g;
+    $text =~ s/ For / for /g;
+
+    $text
+}
