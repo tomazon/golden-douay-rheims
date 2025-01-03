@@ -1,0 +1,170 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use Data::Dumper;
+use File::Slurp;
+use Getopt::Long;
+use IPC::Run3;
+use String::Diff qw( diff );
+use String::ShellQuote;
+use YAML::Safe;
+use utf8;
+
+    #   my $data   = "file.dat";
+    #   my $length = 24;
+    #   my $verbose;
+
+use feature 'say';
+
+#binmode *STDOUT, ':utf8';
+
+my $book_order_file = './etc/book_order.yaml';
+my $out_dir = './library/golden-douay-rheims';
+
+my %in_dir = (
+    'johnblood_haydock' => './sources/johnblood_haydock/out',
+    'pg1581'            => './sources/pg1581/out',
+    'drbo'              => './sources/drbo/out',
+    'cbol'              => './sources/cbol_douay-rheims/out',
+    'vulsearch_vulgate' => './sources/vulsearch_vulgate/out',
+);
+
+
+my $dir_a = $in_dir{drbo};
+my $dir_b = $in_dir{pg1581};
+
+my @books = book_list($book_order_file);
+
+for my $book_id (@books) {
+    my $out_file = "$out_dir/$book_id.yaml";
+    my $book = {
+        book_id => $book_id,
+        book_titles => {},
+        chapters => {},
+    };
+
+    build_verses($book, $dir_a, $dir_b, $book_id);
+    YAML::Safe::DumpFile($out_file, $book);
+}
+
+###########################################################################
+
+sub book_list {
+    my ($book_order_file, @list) = @_;
+    my @out = ();
+
+    my $book_order = YAML::Safe::LoadFile($book_order_file);
+    for my $sec (qw( OT NT )) {
+        for my $id (@{$book_order->{$sec}}) {
+            push(@out, $id);
+        }
+    }
+
+    @out;
+}
+
+sub build_verses {
+    my ($book, $dir_a, $dir_b, $book_id) = @_;
+    my $file_a = "$dir_a/$book_id.yaml";
+    my $file_b = "$dir_b/$book_id.yaml";
+
+    say "Processing: $book_id";
+
+    die "No such directory: $dir_a" unless -d $dir_a;
+    die "No such directory: $dir_b" unless -d $dir_b;
+    die "No_such_file: $file_a\n" unless -f $file_a;
+    die "No_such_file: $file_b\n" unless -f $file_b;
+
+    my $data_a = YAML::Safe::LoadFile($file_a);
+    my $data_b = YAML::Safe::LoadFile($file_b);
+
+    #$book->{chapters} = {};
+    for my $c_index (combined_keys($data_a->{chapters}, $data_b->{chapters})) {
+        my $c_tag = num_to_tag('c', $book_id, $c_index);
+
+        my $chap_a = $data_a->{chapters}->{$c_index};
+        my $chap_b = $data_b->{chapters}->{$c_index};
+
+        $book->{chapters}->{$c_index} = { 'verses' => {} };
+        for my $v_index (combined_keys($chap_a->{verses}, $chap_b->{verses})) {
+            my $v_num = tag_to_num($v_index);
+            my $v_tag = num_to_tag('v', $c_tag, $v_num);
+            my $vers_a = $chap_a->{verses}->{$v_index};
+            my $vers_b = $chap_b->{verses}->{$v_index};
+
+            if (!defined($vers_a) || $vers_a eq '') {
+                warn "Only in $file_b: $v_tag\n";
+                next;
+            }
+            if (!defined($vers_b) || $vers_b eq '') {
+                warn "Only in $file_a: $v_tag\n";
+                next;
+            }
+
+            my ($tag_a, $v_a, $dis_a, $text_a) = split(/\s*\|\s*/, $vers_a);
+            my ($tag_b, $v_b, $dis_b, $text_b) = split(/\s*\|\s*/, $vers_b);
+
+            #$tag_a =~ s/:0/:/g;
+
+            die "Error: tag_a & v_tag don't match: '$tag_a' != '$v_tag'\n" if $tag_a ne $v_tag;
+            die "Error: tag_b & v_tag don't match: '$tag_b' != '$v_tag'\n" if $tag_b ne $v_tag;
+            die "Error: v_a & v_num don't match: '$v_a' != '$v_num'\n" if $v_a ne $v_num;
+            die "Error: v_b & v_num don't match: '$v_b' != '$v_num'\n" if $v_b ne $v_num;
+
+            my $display_v = choose_display_v($v_tag, $v_num, $dis_a, $dis_b);
+            my $text = choose_verse_text($v_tag, $text_a, $text_b);
+
+            my $entry = join(' | ', $v_tag, $v_num, $display_v, $text);
+            print "c_i: $c_index   v_i: $v_index\n";
+            $book->{chapters}->{$c_index}->{verses}->{$v_index} = $entry;
+        }
+    }
+}
+
+sub choose_display_v {
+    my ($v_tag, $v_num, $dis_a, $dis_b) = @_;
+    #TODO: use some logic
+
+    $dis_b;
+}
+
+sub choose_verse_text {
+    my ($v_tag, $text_a, $text_b) = @_;
+    #TODO: use some logic
+
+    $text_b;
+}
+
+sub combined_keys {
+    my ($a, $b) = @_;
+    my %seen = ();
+
+    for my $key (keys %{$a}) {
+        $seen{$key}++;
+    }
+    for my $key (keys %{$b}) {
+        $seen{$key}++;
+    }
+
+    sort keys %seen;
+}
+
+sub num_to_tag {
+    my ($type, $prefix, $num) = @_;
+    #$num =~ s/^[vc]:0*//g;
+    $num =~ s/^[vc]://;
+    $num =~ s/^0+//;
+
+    "$prefix:$num"
+}
+
+sub tag_to_num {
+    my ($tag) = @_;
+    $tag =~ s/^.+://;
+    $tag =~ s/^0+//;
+
+    $tag
+}
+
