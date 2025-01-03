@@ -6,25 +6,31 @@ use warnings;
 use Data::Dumper;
 use File::Slurp;
 use Getopt::Long;
+use IPC::Run3;
 use String::Diff qw( diff );
+use String::ShellQuote;
 use YAML::Safe;
 use utf8;
 
-      my $data   = "file.dat";
-      my $length = 24;
-      my $verbose;
+    #   my $data   = "file.dat";
+    #   my $length = 24;
+    #   my $verbose;
 
 use feature 'say';
 
-binmode *STDOUT, ':utf8';
+#binmode *STDOUT, ':utf8';
 
 my $book_order_file = './etc/book_order.yaml';
-
+my $output_store = '';
 my $args = {
     do_verses => 1, 
     hilite => 'ansi-colors',
     strip_punc => 1,
     squish => 1,
+    squish_keep_size => 15,
+    output_as => '',
+    header => 'Differences between two online Douay-Rheims [Challoner] Bibles',
+    title => '',
 };
 
 GetOptions (
@@ -32,15 +38,41 @@ GetOptions (
     "strip-punc!" => sub{$args->{strip_punc} = $_[1]},
     "squish!"     => sub{$args->{squish} = $_[1]},
     "hilite=s"    => sub{$args->{hilite} = $_[1]},
+    "output-as=s" => sub{$args->{output_as} = $_[1]},
+    "title=s"     => sub{$args->{output_as} = $_[1]},
 ) || die("Error in command line arguments\n");
 
+if ($args->{output_as} =~ /^pdf/) {
+    $args->{hilite} = 'enscript-colors';
+} elsif ($args->{output_as} eq 'diff-sheet') {
+    $args->{hilite} = 'none';
+    $args->{squish_keep_size} = '15';
+}
 
 
 my $dir_a = shift();
 my $dir_b = shift();
 #my $book = shift();
 
+if (!$args->{title}) {
+    my $a = $dir_a;
+    my $b = $dir_b;
 
+    $a =~ s{/$}{};
+    $b =~ s{/$}{};
+
+    $a =~ s{/out$}{};
+    $b =~ s{/out$}{};
+
+    $a =~ s{^.+/}{};
+    $b =~ s{^.+/}{};
+
+    $args->{title} = "$a / $b";
+
+    if ($args->{strip_punc}) {
+        $args->{title} .= "  (Ignoring punctuation)";
+    }
+}
 
 my @books = book_list($book_order_file);
 
@@ -48,6 +80,9 @@ for my $book (@books) {
     do_diff ($args, $dir_a, $dir_b, $book);
 }
 
+print_output_store();
+
+###########################################################################
 
 sub book_list {
     my ($book_order_file, @list) = @_;
@@ -75,19 +110,15 @@ sub do_diff {
 
     $errors .= "!!! ". _on_red("No_such_file: $file_a") ."\n" unless -f $file_a;
     $errors .= "!!! ". _on_red("No_such_file: $file_b") ."\n" unless -f $file_b;
-    if ($errors) {
-        print "$errors";
-        return(2);
-    }
-
+    die "$errors" if $errors;
 
     my $data_a = YAML::Safe::LoadFile($file_a);
     my $data_b = YAML::Safe::LoadFile($file_b);
 
-    say _header("==========================================================");
-    say "@ < $data_a->{book_title}";
-    say "@ > $data_b->{book_title}";
-    say "";
+    output (_header("=========================================================="));
+    output ("@ < $data_a->{book_title}");
+    output ("@ > $data_b->{book_title}");
+    output ("");
 
     for my $c_num (combined_keys($data_a->{chapters}, $data_b->{chapters})) {
         my $c_tag = num_to_tag('c', $book, $c_num);
@@ -102,11 +133,11 @@ sub do_diff {
                 my $vers_b = $chap_b->{verses}->{$v_num};
 
                 if (!defined($vers_a) || $vers_a eq '') {
-                    say "> $v_tag | ". _on_red("Only in $file_b");
+                    output("> $v_tag | ". _on_red("Only in $file_b"));
                     next;
                 }
                 if (!defined($vers_b) || $vers_b eq '') {
-                    say"< $v_tag | ". _on_red("Only in $file_a");
+                    output("< $v_tag | ". _on_red("Only in $file_a"));
                     next;
                 }
 
@@ -115,9 +146,17 @@ sub do_diff {
 
                 my ($diff_a, $diff_b) = diff_text($args, $v_tag, $text_a, $text_b);
                 if ($diff_a || $diff_b) {
-                    say "- $v_tag $diff_a" if $diff_a;
-                    say "+ $v_tag $diff_b" if $diff_b;
-                    say "";
+                    if ($args->{output_as} eq 'diff-sheet') {
+                        $diff_a =~ s/^... //;
+                        $diff_b =~ s/^... //;
+                        $diff_a =~ s/ ...$//;
+                        $diff_b =~ s/ ...$//;
+                        output("$v_tag |a| $diff_a |b| $diff_b |r|\n")
+                    } else {
+                        output("- $v_tag $diff_a") if $diff_a;
+                        output("+ $v_tag $diff_b") if $diff_b;
+                        output("");
+                    }
                 }
 
             }
@@ -168,7 +207,10 @@ sub diff_text {
         $diff_b = squish_diff($args, $diff_b);
     }
 
-    if ($args->{hilite} eq 'ansi-colors') {
+    if ($args->{hilite} eq 'none') {
+        $diff_a = none_colors_to_diff($diff_a);
+        $diff_b = none_colors_to_diff($diff_b);
+    } elsif ($args->{hilite} eq 'ansi-colors') {
         $diff_a = ansi_colors_to_diff($diff_a);
         $diff_b = ansi_colors_to_diff($diff_b);
     } elsif ($args->{hilite} eq 'enscript-colors') {
@@ -183,7 +225,7 @@ sub diff_text {
 sub squish_diff {
     my ($args, $text) = @_;
 
-    my $size = 15;
+    my $size = $args->{squish_keep_size};
     # $text =~ s/^.+(.{10}\{APPEND_OPEN\})/... $1/g;
     # $text =~ s/(\{APPEND_CLOSE\}.{10})[^\{\}]$/$1 .../g;
 
@@ -217,6 +259,17 @@ sub enscript_colors_to_diff {
     $text =~ s/{REMOVE_CLOSE}/~bgcolor{1 1 1}/g;
     $text =~ s/{APPEND_OPEN}/~bgcolor{0.5 1 0.5}/g;
     $text =~ s/{APPEND_CLOSE}/~bgcolor{1 1 1}/g;
+
+    $text
+}
+
+sub none_colors_to_diff {
+    my ($text) = @_;
+
+    $text =~ s/{REMOVE_OPEN}//g;
+    $text =~ s/{REMOVE_CLOSE}//g;
+    $text =~ s/{APPEND_OPEN}//g;
+    $text =~ s/{APPEND_CLOSE}//g;
 
     $text
 }
@@ -277,7 +330,9 @@ sub color_code {
     $ansi{header}     = $ansi{yellow};
     $enscript{header} = $enscript{on_yellow};
 
-    if ($args->{hilite} eq 'ansi-colors') {
+    if ($args->{hilite} eq 'none') {
+        return('');
+    } elsif ($args->{hilite} eq 'ansi-colors') {
         return $ansi{$color};
     } elsif ($args->{hilite} eq 'enscript-colors') {
         return $enscript{$color};
@@ -306,4 +361,72 @@ sub color {
     } elsif ($args->{hilite} eq 'ansi-colors') {
         return("ENSCRIPT $text");
     }
+}
+
+sub output {
+    my ($text) = @_;
+
+    if ($args->{output_as}) {
+        $output_store .= "$text\n";
+        return;
+    }
+    print "$text\n";
+}
+
+sub print_output_store {
+    return if !$output_store;
+
+    if ($args->{output_as} eq 'raw') {
+        print $output_store;
+    } elsif ($args->{output_as} eq 'uc') {
+        print uc($output_store);
+    } elsif ($args->{output_as} eq 'pdf') {
+        my @enscript_cmd=(
+            'enscript',
+            '-e~',
+            '-p' => '-',
+            '-G',
+            '--header' => $args->{header},
+            '--title'  => $args->{title},
+        );
+        my @ps2pdf_cmd = ('ps2pdf', '-', '-');
+
+        #$output_store = "Hi There!!\n";
+
+        my $ps = run_in_out({}, $output_store, @enscript_cmd);
+        print run_in_out({}, $ps, @ps2pdf_cmd);
+    } elsif ($args->{output_as} eq 'pdf_2up') {
+        my @enscript_cmd=(
+            'enscript',
+            '-e~',
+            '-p' => '-',
+            '-2rG',
+            '--header' => $args->{header},
+            '--title'  => $args->{title},
+        );
+        my @ps2pdf_cmd = ('ps2pdf', '-', '-');
+
+        #$output_store = "Hi There!!\n";
+
+        my $ps = run_in_out({}, $output_store, @enscript_cmd);
+        print run_in_out({}, $ps, @ps2pdf_cmd);
+    } elsif ($args->{output_as} eq 'diff-sheet') {
+        print $output_store;
+    }
+}
+
+sub run_in_out {
+    my ($args, $input, @cmd) = @_;
+    my $out = '';
+    my $err = 'HI';
+    my $cmd_str = shell_quote(@cmd);
+
+    print STDERR "Running $cmd_str\n";
+    run3 (\@cmd, \$input, \$out, \$err)
+       || die "Error running `$cmd_str: $?  / $!\n";
+    if ($? == 0) {
+        #"ERROR: $err\n$?, Stopped ";
+    }
+    print STDERR "$err\n" if $err;
+    return($out);
 }
