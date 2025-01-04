@@ -92,7 +92,6 @@ $download_info->{'src_file_mtime_iso8601'} = strftime('%Y-%m-%dT%H:%M:%SZ', gmti
 my @lines = (read_file($in_file, { binmode => ':utf8' }));
 print _blue("LINES: $#lines\n");
 
-
 my $out = {download_info => $download_info};
 my $line_no = 0;
 while (my $line = shift(@lines)) {
@@ -105,7 +104,7 @@ while (my $line = shift(@lines)) {
     $line =~ s{<p class="expl">(THE PROLOGUE)\.</p>}{<prolog_header>$1</p>};
     $line =~ s{<p class="expl">(The knowledge of many and great things hath been shewn.+)</p>}{<prolog>$1</p>};
     $line =~ s{<p class="expl">(A copy of the epistle that Jeremias sent to.+)</p>}{<chapter_note>$1</p>};
- 
+
 
     if (defined($out->{book_id}) && $out->{book_id} eq 'PRO' && $chap_num == 12) {
         # combine 2 lines into one with a linebreak marker ('/')
@@ -307,7 +306,7 @@ sub fix_footnotes {
 
     $text =~ s/^(St. Augustine considers a great mystery)/NO_QUOTE.... $1/;
     $text =~ s/^(This shows how sinful it is to intermarry)/NO_QUOTE.... $1/;
-    $text =~ s/^Ver. 25, 26, and 27 (shew Job’s explicit belief in his Redeemer)/NO_QUOTE.... $1/;
+    $text =~ s/^Ver. 25, 26, and 27 (shew Job\x{2019}s explicit belief in his Redeemer)/NO_QUOTE.... $1/;
     $text =~ s/^(Here the late Hebrew doctors divide this psalm into two)/NO_QUOTE.... $1/;
     $text =~ s/^(God only is essentially true.+)$/NO_QUOTE.... $1/;
 
@@ -350,7 +349,7 @@ sub out_footnote {
             $tmp->{note} = $note;
             if ($note =~ /^This shows how sinful it is to intermarry/) {
                 $tmp->{multiple_verses} = '1,2';
-            } elsif ($note =~ /^shew Job’s explicit belief in his Redeemer/){
+            } elsif ($note =~ /^shew Job\x{2019}s explicit belief in his Redeemer/){ #mod 
                 $tmp->{multiple_verses} = '25,26, and 27';
             }
             push(@{$out->{chapters}->{"c:".num_to_3digits($chap_num)}->{footnotes}->{$verse_num}}, $tmp);

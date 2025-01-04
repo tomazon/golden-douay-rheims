@@ -292,7 +292,12 @@ sub strip_text {
         $text =~ s/[\.\,\:\;\-\?\!]+/ /g;
     }
 
-    $text =~ s/\x{2019}/'/g;  # Right Single Quotation Mark
+    $text =~ s/\x{2014}/-/g; # em-dash
+    $text =~ s/\x{2018}/'/g; # Left Single Quotation Mark
+    $text =~ s/\x{2019}/'/g; # Right Single Quotation Mark
+    $text =~ s/\x{201C}/"/g; # Left Double Quotation Mark
+    $text =~ s/\x{201D}/"/g; # Right Double Quotation Mark
+
 
     $text =~ s/\s+/ /g;
     $text =~ s/^\s+//;
