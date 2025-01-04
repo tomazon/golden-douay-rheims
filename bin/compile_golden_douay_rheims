@@ -4,6 +4,7 @@ use strict;
 use warnings;
 
 use Data::Dumper;
+use File::Copy;
 use File::Slurp;
 use Getopt::Long;
 use IPC::Run3;
@@ -26,7 +27,7 @@ my %source_dirs = (
     'pg1581'            => './sources/pg1581/out',
     'drbo'              => './sources/drbo/out',
     'cbol'              => './sources/cbol_douay-rheims/out',
-    'vulsearch' => './sources/vulsearch_vulgate/out',
+    'vulsearch'         => './sources/vulsearch_vulgate/out',
     'pg8300_info'       => './sources/pg8300/etc/by_id.yaml',
 );
 
@@ -51,7 +52,7 @@ for my $book_id (@books) {
     YAML::DumpFile($out_file, $book);
 }
 
-copy_vuesearsh_files($source_dirs{'vuesearch'});
+copy_vulsearsh_files($source_dirs{'vulsearch'}, "$out_dir/vulsearch_vulgate");
 
 ###########################################################################
 
@@ -132,9 +133,16 @@ sub choose_verse_text {
     $text_b;
 }
 
-sub copy_vuesearsh_files {
-    my ($in_dir) = @_;
-
+sub copy_vulsearsh_files {
+    my ($in_dir, $out_dir) = @_;
+    print "Copying VulSearch (Vulgate) files:\n";
+    for my $file (read_dir($in_dir)) {
+        my $from_file = "$in_dir/$file";
+        my $to_file = "$out_dir/$file";
+        print "  CP $from_file  $to_file\n";
+        copy($from_file, $to_file);
+    }
+    print "\n";
 }
 
 sub tag_to_num {

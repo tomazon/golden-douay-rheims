@@ -10,7 +10,7 @@ use warnings;
 
 use Encode qw(encode decode from_to);
 use File::Slurp;
-use YAML::Safe;
+use YAML;
 use utf8;
 
 use feature 'say';
@@ -72,10 +72,13 @@ for my $book_id (@books) {
                    . "  $orig_base_url\n"
                    . "  $orig_file_url\n\n"
                    . "This was not done to improve it.\n\n"
-                   . "Michaele Tvveedale's original format is easy to hand edit and capable of being formatted:\n"
-                   . "  https://www.wilbourhall.org/pdfs/vulgate.pdf\n"
-                   . "  https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam\n"
-                   . "as well as being used by the Vulsearch search engine.\n\n"
+                   . "Michaele Tvveedale's original format is quite eligant:\n"
+                   . "  * easy to ready by eye.  even for non-technical people\n"
+                   . "  * easy to hand edit\n"
+                   . "  * capable of being formatted:\n"
+                   . "    * https://www.wilbourhall.org/pdfs/vulgate.pdf\n"
+                   . "    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam\n"
+                   . "  * capable of being used by the Vulsearch search engine.\n\n"
                    . "This reformatting was done to make it compatable with the routines used to read our other files.\n";
     write_book_file($out_dir, $book, $add_header);
 
