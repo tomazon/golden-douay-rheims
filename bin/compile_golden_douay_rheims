@@ -20,7 +20,8 @@ use feature 'say';
 require "./sources/lib/perl5/shared.pl";
 
 my $book_order_file = './etc/book_order.yaml';
-my $out_dir = './library/golden-douay-rheims';
+my $top_out_dir = "./library";
+my $golden_out_dir = "$top_out_dir/golden-douay-rheims";
 
 my %source_dirs = (
     'johnblood' => './sources/johnblood_haydock/out',
@@ -38,7 +39,7 @@ my $pg1581_dir = $source_dirs{pg1581};
 my @books = book_list($book_order_file, qw( OT NT ));
 
 for my $book_id (@books) {
-    my $out_file = "$out_dir/$book_id.yaml";
+    my $out_file = "$golden_out_dir/$book_id.yaml";
     my $book = {
         book_id => $book_id,
         titles => {},
@@ -52,7 +53,7 @@ for my $book_id (@books) {
     YAML::DumpFile($out_file, $book);
 }
 
-copy_vulsearsh_files($source_dirs{'vulsearch'}, "$out_dir/vulsearch_vulgate");
+copy_vulsearsh_files($source_dirs{'vulsearch'}, "$top_out_dir/vulsearch_vulgate");
 
 ###########################################################################
 
