@@ -9,6 +9,7 @@ use Getopt::Long;
 use IPC::Run3;
 use String::Diff qw( diff );
 use String::ShellQuote;
+use Text::Capitalize;
 use YAML::Safe;
 use utf8;
 
@@ -23,40 +24,51 @@ use feature 'say';
 my $book_order_file = './etc/book_order.yaml';
 my $out_dir = './library/golden-douay-rheims';
 
-my %in_dir = (
-    'johnblood_haydock' => './sources/johnblood_haydock/out',
+my %source_dirs = (
+    'johnblood' => './sources/johnblood_haydock/out',
     'pg1581'            => './sources/pg1581/out',
     'drbo'              => './sources/drbo/out',
     'cbol'              => './sources/cbol_douay-rheims/out',
-    'vulsearch_vulgate' => './sources/vulsearch_vulgate/out',
+    'vulsearch' => './sources/vulsearch_vulgate/out',
+    'pg8300_info'       => './sources/pg8300/etc/by_id.yaml',
 );
 
 
-my $dir_a = $in_dir{drbo};
-my $dir_b = $in_dir{pg1581};
+my $drbo_dir = $source_dirs{drbo};
+my $pg1581_dir = $source_dirs{pg1581};
 
-my @books = book_list($book_order_file);
+my @books = book_list($book_order_file, qw( OT NT ));
 
 for my $book_id (@books) {
     my $out_file = "$out_dir/$book_id.yaml";
     my $book = {
         book_id => $book_id,
-        book_titles => {},
+        titles => {},
         chapters => {},
+        intro => "",
     };
+    build_chapters($book, $drbo_dir, $pg1581_dir, $book_id);
+    $book->{intro} = fetch_book_field($pg1581_dir, $book_id, 'book_intro');
+    $book->{titles} = get_titles(\%source_dirs, $book_id);
 
-    build_verses($book, $dir_a, $dir_b, $book_id);
     YAML::Safe::DumpFile($out_file, $book);
 }
 
+copy_vuesearsh_files($source_dirs{'vuesearch'});
+
 ###########################################################################
 
+sub book_yaml_file {
+    my ($dir, $book_id) = @_;
+    "$dir/$book_id.yaml";
+}
+
 sub book_list {
-    my ($book_order_file, @list) = @_;
+    my ($book_order_file, @sec_list) = @_;
     my @out = ();
 
     my $book_order = YAML::Safe::LoadFile($book_order_file);
-    for my $sec (qw( OT NT )) {
+    for my $sec (@sec_list) {
         for my $id (@{$book_order->{$sec}}) {
             push(@out, $id);
         }
@@ -65,7 +77,8 @@ sub book_list {
     @out;
 }
 
-sub build_verses {
+
+sub build_chapters {
     my ($book, $dir_a, $dir_b, $book_id) = @_;
     my $file_a = "$dir_a/$book_id.yaml";
     my $file_b = "$dir_b/$book_id.yaml";
@@ -80,7 +93,6 @@ sub build_verses {
     my $data_a = YAML::Safe::LoadFile($file_a);
     my $data_b = YAML::Safe::LoadFile($file_b);
 
-    #$book->{chapters} = {};
     for my $c_index (combined_keys($data_a->{chapters}, $data_b->{chapters})) {
         my $c_tag = num_to_tag('c', $book_id, $c_index);
 
@@ -88,6 +100,10 @@ sub build_verses {
         my $chap_b = $data_b->{chapters}->{$c_index};
 
         $book->{chapters}->{$c_index} = { 'verses' => {} };
+        my $chap_out = $book->{chapters}->{$c_index};
+
+        $chap_out->{intro} = $chap_b->{intro};
+
         for my $v_index (combined_keys($chap_a->{verses}, $chap_b->{verses})) {
             my $v_num = tag_to_num($v_index);
             my $v_tag = num_to_tag('v', $c_tag, $v_num);
@@ -106,8 +122,6 @@ sub build_verses {
             my ($tag_a, $v_a, $dis_a, $text_a) = split(/\s*\|\s*/, $vers_a);
             my ($tag_b, $v_b, $dis_b, $text_b) = split(/\s*\|\s*/, $vers_b);
 
-            #$tag_a =~ s/:0/:/g;
-
             die "Error: tag_a & v_tag don't match: '$tag_a' != '$v_tag'\n" if $tag_a ne $v_tag;
             die "Error: tag_b & v_tag don't match: '$tag_b' != '$v_tag'\n" if $tag_b ne $v_tag;
             die "Error: v_a & v_num don't match: '$v_a' != '$v_num'\n" if $v_a ne $v_num;
@@ -117,8 +131,9 @@ sub build_verses {
             my $text = choose_verse_text($v_tag, $text_a, $text_b);
 
             my $entry = join(' | ', $v_tag, $v_num, $display_v, $text);
-            print "c_i: $c_index   v_i: $v_index\n";
-            $book->{chapters}->{$c_index}->{verses}->{$v_index} = $entry;
+            #print "c_i: $c_index   v_i: $v_index\n";
+            #$book->{chapters}->{$c_index}->{verses}->{$v_index} = $entry;
+            $chap_out->{verses}->{$v_index} = $entry;
         }
     }
 }
@@ -151,9 +166,14 @@ sub combined_keys {
     sort keys %seen;
 }
 
+sub copy_vuesearsh_files {
+    my ($in_dir) = @_;
+
+}
+
+
 sub num_to_tag {
     my ($type, $prefix, $num) = @_;
-    #$num =~ s/^[vc]:0*//g;
     $num =~ s/^[vc]://;
     $num =~ s/^0+//;
 
@@ -166,5 +186,35 @@ sub tag_to_num {
     $tag =~ s/^0+//;
 
     $tag
+}
+
+sub get_titles {
+    my ($source_dirs, $book_id) = @_;
+    my $titles = {};
+    my $names = {};
+
+    for my $src (qw( cbol drbo pg1581 johnblood )) {
+        my $title = fetch_book_field($source_dirs->{$src}, $book_id, 'book_title');
+        if ($src eq 'pg1581' || $src eq 'johnblood') {
+            $title = capitalize_title($title);
+        }
+        $titles->{$src} = $title;
+    }
+    {
+        my $pg8300 = YAML::Safe::LoadFile($source_dirs->{'pg8300_info'});
+        $titles->{pg8300} = $pg8300->{$book_id}->{title};
+        $titles->{'pg8300_short'} = $pg8300->{$book_id}->{short};
+    }
+    $titles->{'cbol_abv'} = fetch_book_field($source_dirs->{'cbol'}, $book_id, 'book_abv');
+
+    $titles
+}
+
+sub fetch_book_field {
+    my ($dir, $book_id, $field) = @_;
+
+    my $file_name = book_yaml_file($dir, $book_id);
+    my $data = YAML::Safe::LoadFile($file_name);
+    $data->{$field};
 }
 
