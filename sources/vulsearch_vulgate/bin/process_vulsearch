@@ -1,0 +1,129 @@
+#! /usr/bin/env perl
+
+# see:  
+#    ~/Projects/Parallel_Bible/downloads/vulsearch/
+#    ~/Projects/Parallel_Bible/downloads/vulsearch/vulsearch_2_vulgate_2
+#    ./Notes_-_decoding_the_source_files.txt
+
+use strict;
+use warnings;
+
+use Encode qw(encode decode from_to);
+use File::Slurp;
+use YAML::Safe;
+use utf8;
+
+use feature 'say';
+
+require "../lib/perl5/shared.pl";
+
+$::args = {
+    hilite => 'ansi-colors',
+};
+
+#require "../lib/perl5/shared.pl";
+
+
+my $book_info_file = './etc/by_USFMcode.yaml';
+my $book_order_file = '../../etc/book_order.yaml';
+
+my $in_dir = './downloaded';
+my $out_dir = './out';
+
+my $book_info = YAML::Safe::LoadFile($book_info_file);
+
+my @books = book_list($book_order_file, qw( OT NT ));
+
+
+for my $book_id (@books) {
+    my $in_file = "$book_info->{$book_id}->{vulsearch_file}.lat";
+    my $in_path = "$in_dir/$in_file";
+
+    say "PROCESSING: $book_id ($in_path)";
+    my $book = {
+        book_id => $book_id,
+        book_title => $book_info->{$book_id}->{vulsearch_title},
+        chapters => {},
+    };
+
+    my $line_num = 0;
+    for my $line (read_file($in_path, {binmode => ':raw'})) {
+        from_to($line, "cp-1252", "UTF-8");
+        $line =~ s/\s+$//;
+        if ($line =~ /^(\d+):(\d+)\s+(.+)$/) {
+            my ($c, $v, $text) = ($1, $2, $3);
+            my $c_index = "c:". num_to_3digits($c);
+            my $v_index = "v:". num_to_3digits($v);
+            my $tag = "$book_id:$c:$v";
+            $text = reformat_vulsearch_text($tag, $text);
+
+            my $entry = join(' | ', $tag, $v, $v, $text);
+            $book->{chapters}->{$c_index}->{verses}->{$v_index} = $entry;
+            #say $entry;
+        } else {
+            die "$in_path [$line_num]: ODD_LINE: $line\n";
+        }
+
+    }
+
+    my $orig_base_url = "https://bitbucket.org/clementinetextproject";
+    my $orig_file_url = "$orig_base_url/text/src/master/$in_file";
+    my $add_header = "\nThis is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')\n"
+                   . "  $orig_base_url\n"
+                   . "  $orig_file_url\n\n"
+                   . "This was not done to improve it.\n\n"
+                   . "Michaele Tvveedale's original format is easy to hand edit and capable of being formatted:\n"
+                   . "  https://www.wilbourhall.org/pdfs/vulgate.pdf\n"
+                   . "  https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam\n"
+                   . "as well as being used by the Vulsearch search engine.\n\n"
+                   . "This reformatting was done to make it compatable with the routines used to read our other files.\n";
+    write_book_file($out_dir, $book, $add_header);
+
+}
+
+sub reformat_vulsearch_text {
+    my ($tag, $text) = @_;
+    my ($book_id, $c, $v) = split(/:/, $tag);
+
+    $text =~ s/\[/{VERSE:BEGIN}/gs;
+    $text =~ s/\]/{VERSE:END}/gs;
+
+    $text =~ s/\\/{VS:P}/gs;
+    $text =~ s/\//{VS:BR}/gs;
+
+    $text =~ s/<Prologus>(.+)\{VERSE:BEGIN}/{PROLOG:$book_id:BEGIN}$1\{PROLOG:$book_id:END}{VS:P}/;
+
+    #return $text;
+
+    if ($book_id eq 'BAR') {
+        $text = ltgt($text, "PROLOG:$book_id");
+        #$text =~ s/\{PREFACE:END}/{PREFACE:END}{VS:P} /;
+    } elsif ($book_id eq 'LAM') {
+        if ($c == 5) {
+            $text = ltgt($text, 'SPEAKER');
+        } else {
+            $text = ltgt($text, 'HEBREW_LETTER');
+        }
+    } elsif ($book_id eq 'PSA') {
+        $text = ltgt($text, 'HEBREW_LETTER');
+    } elsif ($book_id eq 'SNG') {
+        $text = ltgt($text, 'SPEAKER');
+    }
+
+    #$text = uc($text);
+
+    $text;
+}
+
+
+sub ltgt {
+    my ($text, $type) = @_;
+
+    $text =~ s/</{$type:START}/gs;
+    $text =~ s/>/{$type:END}/gs;
+
+    $text
+}
+
+
+####################
