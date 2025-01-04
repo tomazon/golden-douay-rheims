@@ -3,12 +3,11 @@
 use strict;
 use warnings;
 
-use Encode::Detect::Detector;
+#use Encode::Detect::Detector;
 use File::Slurp;
 use utf8;
 use YAML::Safe;
-use YAML;
-
+#use YAML;
 
 use feature 'say';
 
@@ -95,11 +94,19 @@ sub num_to_3digits {
     sprintf("%03d", $_[0]);
 }
 
-sub num_to_tag {
+sub OLD_num_to_tag {
     my ($type, $prefix, $num) = @_;
     $num =~ s/^[vc]:0?// || die "Invalid ${$type}_num: $num\n";
 
     "$prefix:$num";
+}
+
+sub num_to_tag {
+    my ($type, $prefix, $num) = @_;
+    $num =~ s/^[vc]://;
+    $num =~ s/^0+//;
+
+    "$prefix:$num"
 }
 
 sub run_in_out {

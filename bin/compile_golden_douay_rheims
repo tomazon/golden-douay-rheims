@@ -10,16 +10,13 @@ use IPC::Run3;
 use String::Diff qw( diff );
 use String::ShellQuote;
 use Text::Capitalize;
+use YAML;
 use YAML::Safe;
 use utf8;
 
-    #   my $data   = "file.dat";
-    #   my $length = 24;
-    #   my $verbose;
-
 use feature 'say';
 
-#binmode *STDOUT, ':utf8';
+require "./sources/lib/perl5/shared.pl";
 
 my $book_order_file = './etc/book_order.yaml';
 my $out_dir = './library/golden-douay-rheims';
@@ -51,7 +48,7 @@ for my $book_id (@books) {
     $book->{intro} = fetch_book_field($pg1581_dir, $book_id, 'book_intro');
     $book->{titles} = get_titles(\%source_dirs, $book_id);
 
-    YAML::Safe::DumpFile($out_file, $book);
+    YAML::DumpFile($out_file, $book);
 }
 
 copy_vuesearsh_files($source_dirs{'vuesearch'});
@@ -62,21 +59,6 @@ sub book_yaml_file {
     my ($dir, $book_id) = @_;
     "$dir/$book_id.yaml";
 }
-
-sub book_list {
-    my ($book_order_file, @sec_list) = @_;
-    my @out = ();
-
-    my $book_order = YAML::Safe::LoadFile($book_order_file);
-    for my $sec (@sec_list) {
-        for my $id (@{$book_order->{$sec}}) {
-            push(@out, $id);
-        }
-    }
-
-    @out;
-}
-
 
 sub build_chapters {
     my ($book, $dir_a, $dir_b, $book_id) = @_;
@@ -131,8 +113,6 @@ sub build_chapters {
             my $text = choose_verse_text($v_tag, $text_a, $text_b);
 
             my $entry = join(' | ', $v_tag, $v_num, $display_v, $text);
-            #print "c_i: $c_index   v_i: $v_index\n";
-            #$book->{chapters}->{$c_index}->{verses}->{$v_index} = $entry;
             $chap_out->{verses}->{$v_index} = $entry;
         }
     }
@@ -152,32 +132,9 @@ sub choose_verse_text {
     $text_b;
 }
 
-sub combined_keys {
-    my ($a, $b) = @_;
-    my %seen = ();
-
-    for my $key (keys %{$a}) {
-        $seen{$key}++;
-    }
-    for my $key (keys %{$b}) {
-        $seen{$key}++;
-    }
-
-    sort keys %seen;
-}
-
 sub copy_vuesearsh_files {
     my ($in_dir) = @_;
 
-}
-
-
-sub num_to_tag {
-    my ($type, $prefix, $num) = @_;
-    $num =~ s/^[vc]://;
-    $num =~ s/^0+//;
-
-    "$prefix:$num"
 }
 
 sub tag_to_num {
