@@ -12,13 +12,7 @@ use String::ShellQuote;
 use YAML;
 use utf8;
 
-    #   my $data   = "file.dat";
-    #   my $length = 24;
-    #   my $verbose;
-
 use feature 'say';
-
-#binmode *STDOUT, ':utf8';
 
 my $book_order_file = './etc/book_order.yaml';
 my $output_store = '';
@@ -27,7 +21,7 @@ my $args = {
     hilite => 'ansi-colors',
     strip_punc => 1,
     squish => 1,
-    squish_keep_size => 15,
+    squish_keep_size => 20,
     output_as => '',
     header => 'Differences between two online Douay-Rheims [Challoner] Bibles',
     title => '',
@@ -47,11 +41,14 @@ if ($args->{output_as} =~ /^pdf/) {
 } elsif ($args->{output_as} eq 'diff-sheet') {
     $args->{hilite} = 'none';
     $args->{squish_keep_size} = '15';
+    $args->{strip_punc} = 0;
 }
 
+my %diff_sheets = ();
 
 my $dir_a = shift();
 my $dir_b = shift();
+my $limit = shift();
 #my $book = shift();
 
 if (!$args->{title}) {
@@ -77,6 +74,7 @@ if (!$args->{title}) {
 my @books = book_list($book_order_file);
 
 for my $book (@books) {
+    next if $limit and $book ne $limit;
     do_diff ($args, $dir_a, $dir_b, $book);
 }
 
@@ -151,7 +149,12 @@ sub do_diff {
                         $diff_b =~ s/^... //;
                         $diff_a =~ s/ ...$//;
                         $diff_b =~ s/ ...$//;
-                        output("$v_tag |a| $diff_a |b| $diff_b |r|\n")
+                        #output("$v_tag || $diff_a || $diff_b ||\n")
+                        my ($book_id) = split(/:/, $v_tag);
+                        #$diff_sheets{$book_id} .= join(' | ', $v_tag, $diff_a, $diff_b)." |\n";
+                        $diff_sheets{$book_id} .= "$v_tag | A: drbo   | $diff_a |\n"
+                                                . "$v_tag | B: pg1581 | $diff_b |\n"
+                                                . "$v_tag | which     | 1941-DouayHouse:_ | 1971-Tan:_ | 2024-Loreto:_ |\n\n";
                     } else {
                         output("- $v_tag $diff_a") if $diff_a;
                         output("+ $v_tag $diff_b") if $diff_b;
@@ -187,11 +190,6 @@ sub diff_text {
 
     return("","") if $text_a eq $text_b;
 
-        # remove_open  => color_code('on_red'),
-        # remove_close => color_code('reset'),
-        # append_open  => color_code('on_green'),
-        # append_close => color_code('reset'),
-
     my $diff = String::Diff::diff(($text_a,$text_b),
         remove_open  => '{REMOVE_OPEN}',
         remove_close => '{REMOVE_CLOSE}',
@@ -226,8 +224,6 @@ sub squish_diff {
     my ($args, $text) = @_;
 
     my $size = $args->{squish_keep_size};
-    # $text =~ s/^.+(.{10}\{APPEND_OPEN\})/... $1/g;
-    # $text =~ s/(\{APPEND_CLOSE\}.{10})[^\{\}]$/$1 .../g;
 
     $text =~ s/^[^{}]+([^{}]{$size}\{)/... $1/g;
     $text =~ s/(\}[^{}]{$size})[^{}]+$/$1 .../g;
@@ -416,7 +412,12 @@ sub print_output_store {
         my $ps = run_in_out({}, $output_store, @enscript_cmd);
         print run_in_out({}, $ps, @ps2pdf_cmd);
     } elsif ($args->{output_as} eq 'diff-sheet') {
-        print $output_store;
+        for my $key (sort keys %diff_sheets) {
+            my $file = "diff_sheets/drbo_pg1581/$key.dif";
+            say "Saving: $file";
+            write_file($file, $diff_sheets{$key});
+        }
+        #print $output_store;
     }
 }
 
