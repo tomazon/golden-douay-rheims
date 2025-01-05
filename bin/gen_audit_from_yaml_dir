@@ -6,7 +6,7 @@ use warnings;
 use File::Slurp;
 use open ':encoding(utf8)';
 use open ':std';
-use Yaml::Safe;
+use YAML;
 
 my $usage = "$0 <dir>\n";
 
@@ -25,7 +25,7 @@ sub gen_book_report {
 
     #print "B: $book_id -- $file\n";
 
-    my $info = YAML::Safe::LoadFile($file);
+    my $info = YAML::LoadFile($file);
     for my $chap (@{$info->{chapter}}) {
         next unless my $chap_num = $chap->{chapter_number};
         #print "$book_id $chap_num\n";
@@ -50,7 +50,7 @@ sub gen_book_report {
 
 sub get_book_list {
     my @out = ();
-    my $book_order = YAML::Safe::LoadFile('etc/book_order.yaml');
+    my $book_order = YAML::LoadFile('etc/book_order.yaml');
 
     for my $sec (qw( OT NT AP )) {
         for my $book  (@{$book_order->{$sec}}) {

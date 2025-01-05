@@ -7,7 +7,6 @@ use Encode qw(encode decode from_to);
 use File::Slurp;
 # use Symbol qw( gensym );
 use IPC::Run3;
-use YAML::Safe;
 
 my $input_encoding = 'iso-8859-1';
 

@@ -9,7 +9,7 @@ use Getopt::Long;
 use IPC::Run3;
 use String::Diff qw( diff );
 use String::ShellQuote;
-use YAML::Safe;
+use YAML;
 use utf8;
 
     #   my $data   = "file.dat";
@@ -88,7 +88,7 @@ sub book_list {
     my ($book_order_file, @list) = @_;
     my @out = ();
 
-    my $book_order = YAML::Safe::LoadFile($book_order_file);
+    my $book_order = YAML::LoadFile($book_order_file);
     for my $sec (qw( OT NT )) {
         for my $id (@{$book_order->{$sec}}) {
             push(@out, $id);
@@ -112,8 +112,8 @@ sub do_diff {
     $errors .= "!!! ". _on_red("No_such_file: $file_b") ."\n" unless -f $file_b;
     die "$errors" if $errors;
 
-    my $data_a = YAML::Safe::LoadFile($file_a);
-    my $data_b = YAML::Safe::LoadFile($file_b);
+    my $data_a = YAML::LoadFile($file_a);
+    my $data_b = YAML::LoadFile($file_b);
 
     output (_header("=========================================================="));
     output ("@ < $data_a->{book_title}");

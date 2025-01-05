@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use Data::Dumper;
-use YAML::Safe;
+use YAML;
 
 my $book_order_file = "./etc/book_order.yaml";
 my $sections = 'OT NT AP';
@@ -85,7 +85,7 @@ my $fields = {
 
 
 
-my $book_order = YAML::Safe::LoadFile($book_order_file);
+my $book_order = YAML::LoadFile($book_order_file);
 my @err_messages = ();
 my @warn_messages = ();
 my @info_messages = ();
@@ -101,7 +101,7 @@ for my $sec (split(/\s+/, chomp_chomp($sections))) {
             next;
         }
 
-        my $book = YAML::Safe::LoadFile("$dir/$book_id.yaml");
+        my $book = YAML::LoadFile("$dir/$book_id.yaml");
 
         my $chap_count = 0;
         my $last_chap_num = 0;

@@ -9,7 +9,7 @@ use File::Slurp;
 use File::stat;
 use IPC::Run3;
 use POSIX qw(strftime);
-use YAML::Safe;
+use YAML;
 
 
 my $in_file = "./downloaded/Commentators.html";
@@ -116,7 +116,7 @@ write_as_yaml_file($out_file, $out);
 sub write_as_yaml_file {
     my ($file, $data) = @_;
     print "Writing: $file\n";
-    YAML::Safe::DumpFile($file, $data);
+    YAML::DumpFile($file, $data);
 }
 
 

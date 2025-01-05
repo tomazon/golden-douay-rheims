@@ -30,7 +30,7 @@ my $book_order_file = '../../etc/book_order.yaml';
 my $in_dir = './downloaded';
 my $out_dir = './out';
 
-my $book_info = YAML::Safe::LoadFile($book_info_file);
+my $book_info = YAML::LoadFile($book_info_file);
 
 my @books = book_list($book_order_file, qw( OT NT ));
 

@@ -12,7 +12,7 @@ use HTML::Entities;
 use IPC::Run3;
 use POSIX qw(strftime);
 use utf8;
-use YAML::Safe;
+use YAML;
 
 
 # TODO:  Find intent of out/SIR.yaml [7849] / id1210.html[79] -- (<u style="font-style: italic; ">aischunteros</u><i>.</i>; 
@@ -22,7 +22,7 @@ $input_encoding = 'cp-1252';
 my $dir = './downloaded';
 my $out_dir = './out';
 my $bookmap_file = './etc/bookmap.yaml';
-my $bookmap = YAML::Safe::LoadFile($bookmap_file);
+my $bookmap = YAML::LoadFile($bookmap_file);
 my $blockquote_level = 0;
 
 my $book={};
@@ -314,12 +314,8 @@ sub store_chapter {
                         if ($ver > ($last_vers + 1)) {
                             my $range = ($last_vers + 1);
                             $range .= "-". ($ver - 1) if $range != ($ver - 1);
-                            #print "        SKIP: $chap_tag ($file)  $range\n";
                         }
                         if ($$chap->{commentary}->{"v:". num_to_3digits($ver)}) {
-                            # die "        $chap_tag ($file) DUP ver=$ver \n"
-                            #   . YAML::Safe::Dump($book) ."\n"
-                            #   . "$line\n";
                             print "!!! $chap_tag ($file) -- DUP ver=$ver\n";
                             $ver++;
                         }
@@ -670,7 +666,7 @@ sub write_book_file {
     my $book_id = $book->{book_id};
     my $file = "$out_dir/${book_id}.yaml";
     print "    Writing: $file\n";
-    YAML::Safe::DumpFile($file, $book);
+    YAML::DumpFile($file, $book);
     $book = {};
 }
 

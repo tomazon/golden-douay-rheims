@@ -6,8 +6,7 @@ use warnings;
 #use Encode::Detect::Detector;
 use File::Slurp;
 use utf8;
-use YAML::Safe;
-#use YAML;
+use YAML;
 
 use feature 'say';
 
@@ -15,7 +14,7 @@ sub book_list {
     my ($book_order_file, @sec_list) = @_;
     my @out = ();
 
-    my $book_order = YAML::Safe::LoadFile($book_order_file);
+    my $book_order = YAML::LoadFile($book_order_file);
     for my $sec (@sec_list) {
         for my $id (@{$book_order->{$sec}}) {
             push(@out, $id);
@@ -135,8 +134,6 @@ sub write_book_file {
     my $std_header = "From the Golden Douay Rheims Project\n"
                    . "https://github.com/tomazon/douay-rheims\n";
 
-    #my $yh = YAML::Safe->new->encoding("utf8");
-
     say "    ". _blue("Writing: $out_file");
     #YAML::DumpFile ($out_file, $book);
 
@@ -151,7 +148,6 @@ sub write_book_file {
     #write_file($out_file, $yaml);
 
     #write_file($out_file, {binmode => ':utf8'}, $yaml);
-    #$yh->SafeDumpFile($out_file, $book);
     #say $yaml;
 
 

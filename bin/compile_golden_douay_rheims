@@ -12,7 +12,6 @@ use String::Diff qw( diff );
 use String::ShellQuote;
 use Text::Capitalize;
 use YAML;
-use YAML::Safe;
 use utf8;
 
 use feature 'say';
@@ -74,8 +73,8 @@ sub build_chapters {
     die "No_such_file: $file_a\n" unless -f $file_a;
     die "No_such_file: $file_b\n" unless -f $file_b;
 
-    my $data_a = YAML::Safe::LoadFile($file_a);
-    my $data_b = YAML::Safe::LoadFile($file_b);
+    my $data_a = YAML::LoadFile($file_a);
+    my $data_b = YAML::LoadFile($file_b);
 
     for my $c_index (combined_keys($data_a->{chapters}, $data_b->{chapters})) {
         my $c_tag = num_to_tag('c', $book_id, $c_index);
@@ -167,7 +166,7 @@ sub get_titles {
         $titles->{$src} = $title;
     }
     {
-        my $pg8300 = YAML::Safe::LoadFile($source_dirs->{'pg8300_info'});
+        my $pg8300 = YAML::LoadFile($source_dirs->{'pg8300_info'});
         $titles->{pg8300} = $pg8300->{$book_id}->{title};
         $titles->{'pg8300_short'} = $pg8300->{$book_id}->{short};
     }
@@ -180,7 +179,8 @@ sub fetch_book_field {
     my ($dir, $book_id, $field) = @_;
 
     my $file_name = book_yaml_file($dir, $book_id);
-    my $data = YAML::Safe::LoadFile($file_name);
+    #say "LOADING: $file_name FIELD: $field\n";
+    my $data = YAML::LoadFile($file_name);
     $data->{$field};
 }
 
