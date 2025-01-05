@@ -29,6 +29,7 @@ my %source_dirs = (
     'cbol'              => './sources/cbol_douay-rheims/out',
     'vulsearch'         => './sources/vulsearch_vulgate/out',
     'pg8300_info'       => './sources/pg8300/etc/by_id.yaml',
+    'vscodes_count'     => './sources/vulsearch_vulgate/out_vscode_counts',
 );
 
 
@@ -65,6 +66,7 @@ sub build_chapters {
     my ($book, $dir_a, $dir_b, $book_id) = @_;
     my $file_a = "$dir_a/$book_id.yaml";
     my $file_b = "$dir_b/$book_id.yaml";
+    my $vscodes_count_file = "$source_dirs{vscodes_count}/$book_id.yaml";
 
     say "Processing: $book_id";
 
@@ -75,6 +77,7 @@ sub build_chapters {
 
     my $data_a = YAML::LoadFile($file_a);
     my $data_b = YAML::LoadFile($file_b);
+    my $vscodes_count = YAML::LoadFile($vscodes_count_file);
 
     for my $c_index (combined_keys($data_a->{chapters}, $data_b->{chapters})) {
         my $c_tag = num_to_tag('c', $book_id, $c_index);
@@ -113,10 +116,29 @@ sub build_chapters {
             my $display_v = choose_display_v($v_tag, $v_num, $dis_a, $dis_b);
             my $text = choose_verse_text($v_tag, $text_a, $text_b);
 
+            $text = apply_vscodes($text, $vscodes_count, $c_index, $v_index);
+
             my $entry = join(' | ', $v_tag, $v_num, $display_v, $text);
             $chap_out->{verses}->{$v_index} = $entry;
         }
     }
+}
+
+sub apply_vscodes {
+    my ($text, $vscodes_count, $c_index, $v_index) = @_;
+    my $counts = $vscodes_count->{chapters}->{$c_index}->{verses}->{$v_index};
+    if (defined $counts) {
+        #print Dumper($counts);
+        $text .= '{VS:P}'  if $counts->{ending_p};
+        $text .= '{VS:BR}' if $counts->{ending_br};
+        $text .= '{VS:VERSE:END}' if $counts->{ending_verseend};
+        $text .= '{VS:VERSE:END}{VS:P}' if $counts->{ending_verseend_p};
+
+        $text = "{VS:VERSE:BEGIN}$text" if $counts->{beginning_versebegin};
+    }
+
+    $text
+
 }
 
 sub choose_display_v {

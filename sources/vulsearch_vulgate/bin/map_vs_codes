@@ -1,0 +1,220 @@
+#! /usr/bin/env perl
+
+# see:  
+#    ~/Projects/Parallel_Bible/downloads/vulsearch/
+#    ~/Projects/Parallel_Bible/downloads/vulsearch/vulsearch_2_vulgate_2
+#    ./Notes_-_decoding_the_source_files.txt
+
+use strict;
+use warnings;
+
+use Encode qw(encode decode from_to);
+use File::Slurp;
+use YAML;
+use utf8;
+
+use feature 'say';
+
+require "../lib/perl5/shared.pl";
+
+$::args = {
+    hilite => 'ansi-colors',
+};
+
+my $limit = shift();
+
+
+my $book_info_file = './etc/by_USFMcode.yaml';
+my $book_order_file = '../../etc/book_order.yaml';
+
+my $in_dir = './out';
+my $out_dir = './out_vscode_counts';
+
+my $book_info = YAML::LoadFile($book_info_file);
+
+my @books = book_list($book_order_file, qw( OT NT ));
+
+
+for my $book_id (@books) {
+    next if $limit && $limit ne $book_id;
+    my $in_file = "$in_dir/$book_id.yaml";
+    my $out_file = "$out_dir/$book_id.yaml";
+
+    say "Processing $book_id";
+    
+    my $data = YAML::LoadFile($in_file);
+    my $out = {
+        book_id => $book_id,
+    };
+    for my $c_index (sort keys %{$data->{chapters}}) {
+        my $chap = $data->{chapters}->{$c_index};
+        for my $v_index (sort keys %{$chap->{verses}}) {
+            my $entry = $chap->{verses}->{$v_index};
+            my (undef, undef, undef, $text) = split(/\s*\|\s*/, $entry);
+
+            my $e = {};
+
+            if (1) {
+                $e->{beginning_versebegin}++ if $text =~ /^\{VS:VERSE:BEGIN}/;
+
+                $e->{ending_verseend}++ if $text =~ /\{VS:VERSE:END}$/;
+
+                if ($text =~ /\{VS:VERSE:END}\{VS:P}$/) {
+                    $e->{ending_verseend_p}++;
+                } elsif ($text =~ /\{VS:VERSE:END}\{VS:BR}$/) {
+                    $e->{ending_verseend_br}++;
+                } elsif ($text =~ /\{VS:P}$/) {
+                    $e->{ending_p}++;
+                } elsif ($text =~ /\{VS:BR}$/) {
+                    $e->{ending_br}++;
+                }
+            }
+
+
+            if (my $tmp = () = $text =~ /\S\s*\{VS:P}\s*\S/g) {
+                $e->{interier_p} = $tmp;
+            }
+            if (my $tmp = () = $text =~ /\S\s*\{VS:BR}\s*\S/g) {
+                $e->{interier_br} = $tmp;
+            }
+            if (my $tmp = () = $text =~ /\S\s*\{VS:VERSE:BEGIN}\s*\S/g) {
+                $e->{interier_versebegin} = $tmp;
+            }
+            if (my $tmp = () = $text =~ /\S\s*\{VS:VERSE:END}\s*\S/g) {
+                $e->{interier_verseend} = $tmp;
+            }
+
+
+            $out->{chapters}->{$c_index}->{verses}->{$v_index} = $e if %{$e};
+
+
+        }
+
+
+    }
+    YAML::DumpFile($out_file, $out)
+}
+
+__END__
+    my $in_path = "$in_dir/$in_file";
+
+    next unless $book_id eq 'BAR';
+
+    say "PROCESSING: $book_id ($in_path)";
+    my $book = {
+        book_id => $book_id,
+    };
+
+    my $line_num = 0;
+    for my $line (read_file($in_path, {binmode => ':raw'})) {
+        from_to($line, "cp-1252", "UTF-8");
+        $line =~ s/\s+$//;
+        if ($line =~ /^(\d+):(\d+)\s+(.+)$/) {
+            my ($c, $v, $text) = ($1, $2, $3);
+            my $c_index = "c:". num_to_3digits($c);
+            my $v_index = "v:". num_to_3digits($v);
+            my $tag = "$book_id:$c:$v";
+            #$text = reformat_vulsearch_text($tag, $text);
+            my $entry = {};
+            $text =~ s/\s+$//;
+            $text =~ s/^\s+//;
+
+            if (0) {
+                $entry->{begining_vb}++ if $text =~ /^\[/;
+
+                $entry->{ending_ve}++ if $text =~ /\]$/;
+                if ($text =~ /\{VS:VERSE:END}\{VS:P}$/) {
+                    $entry->{ending_ve_p}++;
+                } elsif ($text =~ /\{VS:VERSE:END}\{VS:BR}$/) {
+                    $entry->{ending_ve_br}++;
+                } elsif ($text =~ /\{VS:P}$/) {
+                    $entry->{ending_p}++;
+                } elsif ($text =~ /\{VS:BR}$/) {
+                    $entry->{ending_br}++;
+                }
+            }
+
+            # if (my $tmp = () = $text =~ /.\{VS:P}./g) {
+            #     $entry->{interier_p} = $tmp;
+            # }
+            # if (my $tmp = () = $text =~ /.\{VS:BR}./g) {
+            #     $entry->{interier_br} = $tmp;
+            # }
+            print ">> $text\n";
+            if ($text =~ /VS/g) {
+                print "$text\n";
+                $entry->{interier_br} = 1;
+            }
+            # if (my $tmp = () = $text =~ /..\{VS:VERSE:BEGIN}../g) {
+            #     $entry->{interier_vb} = $tmp;
+            # }
+            # if (my $tmp = () = $text =~ /..\{VS:VERSE:END}../g) {
+            #     $entry->{interier_ve} = $tmp;
+            # }
+
+            # $entry->{interier_p} = () = $line =~ /.\\./;
+            # $entry->{interier_b} = () = $line =~ /.\/./;
+            # $entry->{interier_vb} = () = $line =~ /.\[./;
+            # $entry->{interier_ve} = () = $line =~ /.\]\\?./;
+
+            #my $entry = join(' | ', $tag, $v, $v, $text);
+            $book->{chapters}->{$c_index}->{verses}->{$v_index} = $entry if %{$entry};
+            #say $entry;
+        } else {
+            die "$in_path [$line_num]: ODD_LINE: $line\n";
+        }
+
+    }
+
+    say YAML::Dump($book);
+    exit;
+    #write_book_file($out_dir, $book, $add_header);
+
+}
+
+sub reformat_vulsearch_text {
+    my ($tag, $text) = @_;
+    my ($book_id, $c, $v) = split(/:/, $tag);
+
+    $text =~ s/\[/{VS:VERSE:BEGIN}/gs;
+    $text =~ s/\]/{VS:VERSE:END}/gs;
+
+    $text =~ s/\\/{VS:P}/gs;
+    $text =~ s/\//{VS:BR}/gs;
+
+    $text =~ s/<Prologus>(.+)\{VS:VERSE:BEGIN}/{PROLOG:$book_id:BEGIN}$1\{PROLOG:$book_id:END}{VS:P}/;
+
+    #return $text;
+
+    if ($book_id eq 'BAR') {
+        $text = ltgt($text, "PROLOG:$book_id");
+        #$text =~ s/\{PREFACE:END}/{PREFACE:END}{VS:P} /;
+    } elsif ($book_id eq 'LAM') {
+        if ($c == 5) {
+            $text = ltgt($text, 'SPEAKER');
+        } else {
+            $text = ltgt($text, 'HEBREW_LETTER');
+        }
+    } elsif ($book_id eq 'PSA') {
+        $text = ltgt($text, 'HEBREW_LETTER');
+    } elsif ($book_id eq 'SNG') {
+        $text = ltgt($text, 'SPEAKER');
+    }
+
+    #$text = uc($text);
+
+    $text;
+}
+
+
+sub ltgt {
+    my ($text, $type) = @_;
+
+    $text =~ s/</{$type:BEGIN}/gs;
+    $text =~ s/>/{$type:END}/gs;
+
+    $text
+}
+
+
+####################

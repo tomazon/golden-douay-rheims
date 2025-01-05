@@ -1,0 +1,71 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use Data::Dumper;
+use File::Slurp;
+use utf8;
+use YAML;
+
+require "./sources/lib/perl5/shared.pl";
+
+my $file = shift();
+
+my $data = diff_sheet_to_yaml($file);
+
+print YAML::Dump($data);
+
+sub diff_sheet_to_yaml {
+    my ($file) = @_;
+    my $out = {};
+
+    my $line_num=0;
+    my $last_tag;
+    my ($entry, $book_id, $c, $v) = ({varients=>{}}, '', 0, 0);
+    for my $line (read_file($file)) {
+        $line_num++;
+        $line =~ s/\s*$//;
+
+        if ($line !~ /\S/) {
+            process_entry($out, $book_id, $c, $v, $entry);
+            ($entry, $book_id, $c, $v) = ({varients=>{}}, '', 0, 0);
+        } else {
+            my ($tag, $verb, @cols) = split(/\s*\|\s*/, $line);
+            if ($tag =~ m/^([A-Z1-4][A-Z]{2}):0*(\d+):0*(\d+)$/) {
+                ($book_id, $c, $v) = ($1,$2,$3);
+            } else {
+                die "$file [$line_num] ODD_TAG: $line\n";
+            }
+            if ($verb =~ s/^([A-F]):\s*//) {
+                my $varient_index = $1;
+                #print "AAA: $varient_index === $cols[0]\n";
+                $entry->{varients}->{$varient_index} = $cols[0];
+                $verb =~ s/\s+$//;
+                if ($verb) {
+                    $entry->{source_of_varient}->{$varient_index} = $verb;
+                }
+                #print Dumper($entry);
+            } elsif ($verb eq 'which' || $verb eq 'which ___') {
+                for my $col (@cols) {
+                    if ($col =~ /^(\d\d\d\d-\S+):(\S)/) {
+                        $entry->{matches}->{$1} = $2;
+                    }
+                }
+            } else {
+                die "$file [$line_num] Unknown verb: $verb : $line\n";
+            }
+        }
+    }
+    $out;
+}
+
+sub process_entry {
+    my ($out, $book_id, $c, $v, $entry) = @_;
+
+    return unless %{$entry->{varients}};
+    my $c_index = "c:". num_to_3digits($c);
+    my $v_index = "v:". num_to_3digits($v);
+
+    push(@{$out->{$c_index}->{$v_index}}, $entry);
+}
