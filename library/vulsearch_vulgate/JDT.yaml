@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Jdt.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: JDT
 book_title: Judith
@@ -371,7 +350,7 @@ chapters:
   c:016:
     verses:
       v:001: 'JDT:16:1 | 1 | 1 | Tunc cantavit canticum hoc Domino Judith, dicens :'
-      v:002: 'JDT:16:2 | 2 | 2 | {VERSE:BEGIN}Incipite Domino in tympanis ;{VS:BR} cantate Domino in cymbalis ;{VS:BR} modulamini illi psalmum novum :{VS:BR} exaltate, et invocate nomen ejus.{VS:BR}'
+      v:002: 'JDT:16:2 | 2 | 2 | {VS:VERSE:BEGIN}Incipite Domino in tympanis ;{VS:BR} cantate Domino in cymbalis ;{VS:BR} modulamini illi psalmum novum :{VS:BR} exaltate, et invocate nomen ejus.{VS:BR}'
       v:003: 'JDT:16:3 | 3 | 3 | Dominus conterens bella,{VS:BR} Dominus nomen est illi.{VS:BR}'
       v:004: 'JDT:16:4 | 4 | 4 | Qui posuit castra sua in medio populi sui,{VS:BR} ut eriperet nos de manu omnium inimicorum nostrorum.{VS:BR}'
       v:005: 'JDT:16:5 | 5 | 5 | Venit Assur ex montibus ab aquilone{VS:BR} in multitudine fortitudinis suæ :{VS:BR} cujus multitudo obturavit torrentes,{VS:BR} et equi eorum cooperuerunt valles.{VS:BR}'
@@ -390,7 +369,7 @@ chapters:
       v:018: 'JDT:16:18 | 18 | 18 | Montes a fundamentis movebuntur cum aquis ;{VS:BR} petræ, sicut cera, liquescent ante faciem tuam.{VS:BR}'
       v:019: 'JDT:16:19 | 19 | 19 | Qui autem timent te,{VS:BR} magni erunt apud te per omnia.{VS:BR}'
       v:020: 'JDT:16:20 | 20 | 20 | Væ genti insurgenti super genus meum :{VS:BR} Dominus enim omnipotens vindicabit in eis ;{VS:BR} in die judicii visitabit illos.{VS:BR}'
-      v:021: 'JDT:16:21 | 21 | 21 | Dabit enim ignem et vermes in carnes eorum,{VS:BR} ut urantur et sentiant usque in sempiternum.{VERSE:END}{VS:P}'
+      v:021: 'JDT:16:21 | 21 | 21 | Dabit enim ignem et vermes in carnes eorum,{VS:BR} ut urantur et sentiant usque in sempiternum.{VS:VERSE:END}{VS:P}'
       v:022: 'JDT:16:22 | 22 | 22 | Et factum est post hæc, omnis populus post victoriam venit in Jerusalem adorare Dominum : et mox ut purificati sunt, obtulerunt omnes holocausta, et vota, et repromissiones suas.'
       v:023: 'JDT:16:23 | 23 | 23 | Porro Judith universa vasa bellica Holofernis, quæ dedit illi populus, et conopeum quod ipsa sustulerat de cubili ipsius, obtulit in anathema oblivionis.'
       v:024: 'JDT:16:24 | 24 | 24 | Erat autem populus jucundus secundum faciem sanctorum : et per tres menses gaudium hujus victoriæ celebratum est cum Judith.'

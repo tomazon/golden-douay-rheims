@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Gn.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: GEN
 book_title: Genesis
@@ -98,8 +77,8 @@ chapters:
       v:011: 'GEN:3:11 | 11 | 11 | Cui dixit : Quis enim indicavit tibi quod nudus esses, nisi quod ex ligno de quo præceperam tibi ne comederes, comedisti ?'
       v:012: 'GEN:3:12 | 12 | 12 | Dixitque Adam : Mulier, quam dedisti mihi sociam, dedit mihi de ligno, et comedi.'
       v:013: 'GEN:3:13 | 13 | 13 | Et dixit Dominus Deus ad mulierem : Quare hoc fecisti ? Quæ respondit : Serpens decepit me, et comedi.{VS:P}'
-      v:014: 'GEN:3:14 | 14 | 14 | Et ait Dominus Deus ad serpentem : {VERSE:BEGIN}Quia fecisti hoc,{VS:BR} maledictus es inter omnia animantia, et bestias terræ :{VS:BR} super pectus tuum gradieris, et terram comedes cunctis diebus vitæ tuæ.{VS:BR}'
-      v:015: 'GEN:3:15 | 15 | 15 | Inimicitias ponam inter te et mulierem,{VS:BR} et semen tuum et semen illius :{VS:BR} ipsa conteret caput tuum,{VS:BR} et tu insidiaberis calcaneo ejus.{VERSE:END}'
+      v:014: 'GEN:3:14 | 14 | 14 | Et ait Dominus Deus ad serpentem : {VS:VERSE:BEGIN}Quia fecisti hoc,{VS:BR} maledictus es inter omnia animantia, et bestias terræ :{VS:BR} super pectus tuum gradieris, et terram comedes cunctis diebus vitæ tuæ.{VS:BR}'
+      v:015: 'GEN:3:15 | 15 | 15 | Inimicitias ponam inter te et mulierem,{VS:BR} et semen tuum et semen illius :{VS:BR} ipsa conteret caput tuum,{VS:BR} et tu insidiaberis calcaneo ejus.{VS:VERSE:END}'
       v:016: 'GEN:3:16 | 16 | 16 | Mulieri quoque dixit : Multiplicabo ærumnas tuas, et conceptus tuos : in dolore paries filios, et sub viri potestate eris, et ipse dominabitur tui.'
       v:017: 'GEN:3:17 | 17 | 17 | Adæ vero dixit : Quia audisti vocem uxoris tuæ, et comedisti de ligno, ex quo præceperam tibi ne comederes, maledicta terra in opere tuo : in laboribus comedes ex ea cunctis diebus vitæ tuæ.'
       v:018: 'GEN:3:18 | 18 | 18 | Spinas et tribulos germinabit tibi, et comedes herbam terræ.'
@@ -133,8 +112,8 @@ chapters:
       v:020: 'GEN:4:20 | 20 | 20 | Genuitque Ada Jabel, qui fuit pater habitantium in tentoriis, atque pastorum.'
       v:021: 'GEN:4:21 | 21 | 21 | Et nomen fratris ejus Jubal : ipse fuit pater canentium cithara et organo.'
       v:022: 'GEN:4:22 | 22 | 22 | Sella quoque genuit Tubalcain, qui fuit malleator et faber in cuncta opera æris et ferri. Soror vero Tubalcain, Noëma.'
-      v:023: 'GEN:4:23 | 23 | 23 | Dixitque Lamech uxoribus suis Adæ et Sellæ : {VERSE:BEGIN}Audite vocem meam, uxores Lamech ;{VS:BR} auscultate sermonem meum :{VS:BR} quoniam occidi virum in vulnus meum,{VS:BR} et adolescentulum in livorem meum.{VS:BR}'
-      v:024: 'GEN:4:24 | 24 | 24 | Septuplum ultio dabitur de Cain :{VS:BR} de Lamech vero septuagies septies.{VERSE:END}{VS:P}'
+      v:023: 'GEN:4:23 | 23 | 23 | Dixitque Lamech uxoribus suis Adæ et Sellæ : {VS:VERSE:BEGIN}Audite vocem meam, uxores Lamech ;{VS:BR} auscultate sermonem meum :{VS:BR} quoniam occidi virum in vulnus meum,{VS:BR} et adolescentulum in livorem meum.{VS:BR}'
+      v:024: 'GEN:4:24 | 24 | 24 | Septuplum ultio dabitur de Cain :{VS:BR} de Lamech vero septuagies septies.{VS:VERSE:END}{VS:P}'
       v:025: 'GEN:4:25 | 25 | 25 | Cognovit quoque adhuc Adam uxorem suam : et peperit filium, vocavitque nomen ejus Seth, dicens : Posuit mihi Deus semen aliud pro Abel, quem occidit Cain.'
       v:026: 'GEN:4:26 | 26 | 26 | Sed et Seth natus est filius, quem vocavit Enos : iste cœpit invocare nomen Domini.'
   c:005:
@@ -270,9 +249,9 @@ chapters:
       v:022: 'GEN:9:22 | 22 | 22 | Quod cum vidisset Cham, pater Chanaan, verenda scilicet patris sui esse nudata, nuntiavit duobus fratribus suis foras.'
       v:023: 'GEN:9:23 | 23 | 23 | At vero Sem et Japheth pallium imposuerunt humeris suis, et incedentes retrorsum, operuerunt verenda patris sui : faciesque eorum aversæ erant, et patris virilia non viderunt.'
       v:024: 'GEN:9:24 | 24 | 24 | Evigilans autem Noë ex vino, cum didicisset quæ fecerat ei filius suus minor,'
-      v:025: 'GEN:9:25 | 25 | 25 | ait : {VERSE:BEGIN}Maledictus Chanaan,{VS:BR} servus servorum erit fratribus suis.{VERSE:END}'
-      v:026: 'GEN:9:26 | 26 | 26 | Dixitque : {VERSE:BEGIN}Benedictus Dominus Deus Sem,{VS:BR} sit Chanaan servus ejus.{VS:BR}'
-      v:027: 'GEN:9:27 | 27 | 27 | Dilatet Deus Japheth, et habitet in tabernaculis Sem,{VS:BR} sitque Chanaan servus ejus.{VERSE:END}'
+      v:025: 'GEN:9:25 | 25 | 25 | ait : {VS:VERSE:BEGIN}Maledictus Chanaan,{VS:BR} servus servorum erit fratribus suis.{VS:VERSE:END}'
+      v:026: 'GEN:9:26 | 26 | 26 | Dixitque : {VS:VERSE:BEGIN}Benedictus Dominus Deus Sem,{VS:BR} sit Chanaan servus ejus.{VS:BR}'
+      v:027: 'GEN:9:27 | 27 | 27 | Dilatet Deus Japheth, et habitet in tabernaculis Sem,{VS:BR} sitque Chanaan servus ejus.{VS:VERSE:END}'
       v:028: GEN:9:28 | 28 | 28 | Vixit autem Noë post diluvium trecentis quinquaginta annis.
       v:029: 'GEN:9:29 | 29 | 29 | Et impleti sunt omnes dies ejus nongentorum quinquaginta annorum : et mortuus est.'
   c:010:
@@ -753,7 +732,7 @@ chapters:
       v:020: 'GEN:25:20 | 20 | 20 | qui cum quadraginta esset annorum, duxit uxorem Rebeccam filiam Bathuelis Syri de Mesopotamia, sororem Laban.'
       v:021: 'GEN:25:21 | 21 | 21 | Deprecatusque est Isaac Dominum pro uxore sua, eo quod esset sterilis : qui exaudivit eum, et dedit conceptum Rebeccæ.'
       v:022: 'GEN:25:22 | 22 | 22 | Sed collidebantur in utero ejus parvuli ; quæ ait : Si sic mihi futurum erat, quid necesse fuit concipere ? perrexitque ut consuleret Dominum.'
-      v:023: 'GEN:25:23 | 23 | 23 | Qui respondens ait : {VERSE:BEGIN}Duæ gentes sunt in utero tuo,{VS:BR} et duo populi ex ventre tuo dividentur,{VS:BR} populusque populum superabit,{VS:BR} et major serviet minori.{VERSE:END}'
+      v:023: 'GEN:25:23 | 23 | 23 | Qui respondens ait : {VS:VERSE:BEGIN}Duæ gentes sunt in utero tuo,{VS:BR} et duo populi ex ventre tuo dividentur,{VS:BR} populusque populum superabit,{VS:BR} et major serviet minori.{VS:VERSE:END}'
       v:024: 'GEN:25:24 | 24 | 24 | Jam tempus pariendi advenerat, et ecce gemini in utero ejus reperti sunt.'
       v:025: 'GEN:25:25 | 25 | 25 | Qui prior egressus est, rufus erat, et totus in morem pellis hispidus : vocatumque est nomen ejus Esau. Protinus alter egrediens, plantam fratris tenebat manu : et idcirco appellavit eum Jacob.'
       v:026: GEN:25:26 | 26 | 26 | Sexagenarius erat Isaac quando nati sunt ei parvuli.
@@ -830,9 +809,9 @@ chapters:
       v:024: 'GEN:27:24 | 24 | 24 | ait : Tu es filius meus Esau ? Respondit : Ego sum.'
       v:025: 'GEN:27:25 | 25 | 25 | At ille : Affer mihi, inquit, cibos de venatione tua, fili mi, ut benedicat tibi anima mea. Quos cum oblatos comedisset, obtulit ei etiam vinum. Quo hausto,'
       v:026: 'GEN:27:26 | 26 | 26 | dixit ad eum : Accede ad me, et da mihi osculum, fili mi.'
-      v:027: 'GEN:27:27 | 27 | 27 | Accessit, et osculatus est eum. Statimque ut sensit vestimentorum illius fragrantiam, benedicens illi, ait : {VERSE:BEGIN}Ecce odor filii mei{VS:BR} sicut odor agri pleni,{VS:BR} cui benedixit Dominus.{VS:BR}'
+      v:027: 'GEN:27:27 | 27 | 27 | Accessit, et osculatus est eum. Statimque ut sensit vestimentorum illius fragrantiam, benedicens illi, ait : {VS:VERSE:BEGIN}Ecce odor filii mei{VS:BR} sicut odor agri pleni,{VS:BR} cui benedixit Dominus.{VS:BR}'
       v:028: 'GEN:27:28 | 28 | 28 | Det tibi Deus de rore cæli{VS:BR} et de pinguedine terræ{VS:BR} abundantiam frumenti et vini.{VS:BR}'
-      v:029: 'GEN:27:29 | 29 | 29 | Et serviant tibi populi,{VS:BR} et adorent te tribus :{VS:BR} esto dominus fratrum tuorum,{VS:BR} et incurventur ante te filii matris tuæ :{VS:BR} qui maledixerit tibi, sit ille maledictus,{VS:BR} et qui benedixerit tibi, benedictionibus repleatur.{VERSE:END}{VS:P}'
+      v:029: 'GEN:27:29 | 29 | 29 | Et serviant tibi populi,{VS:BR} et adorent te tribus :{VS:BR} esto dominus fratrum tuorum,{VS:BR} et incurventur ante te filii matris tuæ :{VS:BR} qui maledixerit tibi, sit ille maledictus,{VS:BR} et qui benedixerit tibi, benedictionibus repleatur.{VS:VERSE:END}{VS:P}'
       v:030: 'GEN:27:30 | 30 | 30 | Vix Isaac sermonem impleverat, et egresso Jacob foras, venit Esau,'
       v:031: 'GEN:27:31 | 31 | 31 | coctosque de venatione cibos intulit patri, dicens : Surge, pater mi, et comede de venatione filii tui, ut benedicat mihi anima tua.'
       v:032: 'GEN:27:32 | 32 | 32 | Dixitque illi Isaac : Quis enim es tu ? Qui respondit : Ego sum filius tuus primogenitus Esau.'
@@ -842,8 +821,8 @@ chapters:
       v:036: 'GEN:27:36 | 36 | 36 | At ille subjunxit : Juste vocatum est nomen ejus Jacob : supplantavit enim me en altera vice : primogenita mea ante tulit, et nunc secundo surripuit benedictionem meam. Rursumque ad patrem : Numquid non reservasti, ait, et mihi benedictionem ?'
       v:037: 'GEN:27:37 | 37 | 37 | Respondit Isaac : Dominum tuum illum constitui, et omnes fratres ejus servituti illius subjugavi ; frumento et vino stabilivi eum : et tibi post hæc, fili mi, ultra quid faciam ?'
       v:038: 'GEN:27:38 | 38 | 38 | Cui Esau : Num unam, inquit, tantum benedictionem habes, pater ? mihi quoque obsecro ut benedicas. Cumque ejulatu magno fleret,'
-      v:039: 'GEN:27:39 | 39 | 39 | motus Isaac, dixit ad eum : {VERSE:BEGIN}In pinguedine terræ,{VS:BR} et in rore cæli desuper,'
-      v:040: 'GEN:27:40 | 40 | 40 | erit benedictio tua.{VS:BR} Vives in gladio, et fratri tuo servies :{VS:BR} tempusque veniet, cum excutias et solvas jugum ejus de cervicibus tuis.{VERSE:END}{VS:P}'
+      v:039: 'GEN:27:39 | 39 | 39 | motus Isaac, dixit ad eum : {VS:VERSE:BEGIN}In pinguedine terræ,{VS:BR} et in rore cæli desuper,'
+      v:040: 'GEN:27:40 | 40 | 40 | erit benedictio tua.{VS:BR} Vives in gladio, et fratri tuo servies :{VS:BR} tempusque veniet, cum excutias et solvas jugum ejus de cervicibus tuis.{VS:VERSE:END}{VS:P}'
       v:041: 'GEN:27:41 | 41 | 41 | Oderat ergo semper Esau Jacob pro benedictione qua benedixerat ei pater : dixitque in corde suo : Venient dies luctus patris mei, et occidam Jacob fratrem meum.'
       v:042: 'GEN:27:42 | 42 | 42 | Nuntiata sunt hæc Rebeccæ : quæ mittens et vocans Jacob filium suum, dixit ad eum : Ecce Esau frater tuus minatur ut occidat te.'
       v:043: 'GEN:27:43 | 43 | 43 | Nunc ergo, fili mi, audi vocem meam, et consurgens fuge ad Laban fratrem meum in Haran :'
@@ -1595,7 +1574,7 @@ chapters:
   c:049:
     verses:
       v:001: 'GEN:49:1 | 1 | 1 | Vocavit autem Jacob filios suos, et ait eis : Congregamini, ut annuntiem quæ ventura sunt vobis in diebus novissimis.'
-      v:002: 'GEN:49:2 | 2 | 2 | {VERSE:BEGIN}Congregamini, et audite, filii Jacob,{VS:BR} audite Israël patrem vestrum :{VS:BR}'
+      v:002: 'GEN:49:2 | 2 | 2 | {VS:VERSE:BEGIN}Congregamini, et audite, filii Jacob,{VS:BR} audite Israël patrem vestrum :{VS:BR}'
       v:003: 'GEN:49:3 | 3 | 3 | Ruben, primogenitus meus,{VS:BR} tu fortitudo mea, et principium doloris mei ;{VS:BR} prior in donis, major in imperio.{VS:BR}'
       v:004: 'GEN:49:4 | 4 | 4 | Effusus es sicut aqua, non crescas : quia ascendisti cubile patris tui,{VS:BR} et maculasti stratum ejus.{VS:BR}'
       v:005: 'GEN:49:5 | 5 | 5 | Simeon et Levi fratres{VS:BR} vasa iniquitatis bellantia.{VS:BR}'
@@ -1620,7 +1599,7 @@ chapters:
       v:024: 'GEN:49:24 | 24 | 24 | Sedit in forti arcus ejus,{VS:BR} et dissoluta sunt vincula brachiorum et manuum illius{VS:BR} per manus potentis Jacob :{VS:BR} inde pastor egressus est, lapis Israël.{VS:BR}'
       v:025: 'GEN:49:25 | 25 | 25 | Deus patris tui erit adjutor tuus,{VS:BR} et omnipotens benedicet tibi{VS:BR} benedictionibus cæli desuper, benedictionibus abyssi jacentis deorsum,{VS:BR} benedictionibus uberum et vulvæ.{VS:BR}'
       v:026: 'GEN:49:26 | 26 | 26 | Benedictiones patris tui confortatæ sunt benedictionibus patrum ejus,{VS:BR} donec veniret desiderium collium æternorum :{VS:BR} fiant in capite Joseph,{VS:BR} et in vertice Nazaræi inter fratres suos.{VS:BR}'
-      v:027: 'GEN:49:27 | 27 | 27 | Benjamin lupus rapax,{VS:BR} mane comedat prædam,{VS:BR} et vespere dividet spolia.{VERSE:END}'
+      v:027: 'GEN:49:27 | 27 | 27 | Benjamin lupus rapax,{VS:BR} mane comedat prædam,{VS:BR} et vespere dividet spolia.{VS:VERSE:END}'
       v:028: 'GEN:49:28 | 28 | 28 | Omnes hi in tribubus Israël duodecim : hæc locutus est eis pater suus, benedixitque singulis benedictionibus propriis.{VS:P}'
       v:029: 'GEN:49:29 | 29 | 29 | Et præcepit eis, dicens : Ego congregor ad populum meum : sepelite me cum patribus meis in spelunca duplici quæ est in agro Ephron Hethæi,'
       v:030: 'GEN:49:30 | 30 | 30 | contra Mambre in terra Chanaan, quam emit Abraham cum agro ab Ephron Hethæo in possessionem sepulchri.'

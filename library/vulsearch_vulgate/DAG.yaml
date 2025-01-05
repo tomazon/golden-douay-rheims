@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Dn.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: DAG
 book_title: Daniel
@@ -124,7 +103,7 @@ chapters:
       v:023: 'DAG:3:23 | 23 | 23 | Viri autem hi tres, id est, Sidrach, Misach, et Abdenago, ceciderunt in medio camino ignis ardentis, colligati.{VS:P}'
       v:024: 'DAG:3:24 | 24 | 24 | Et ambulabant in medio flammæ, laudantes Deum, et benedicentes Domino.'
       v:025: 'DAG:3:25 | 25 | 25 | Stans autem Azarias oravit sic, aperiensque os suum in medio ignis, ait :'
-      v:026: 'DAG:3:26 | 26 | 26 | {VERSE:BEGIN}Benedictus es, Domine Deus patrum nostrorum,{VS:BR} et laudabile, et gloriosum nomen tuum in sæcula :{VS:BR}'
+      v:026: 'DAG:3:26 | 26 | 26 | {VS:VERSE:BEGIN}Benedictus es, Domine Deus patrum nostrorum,{VS:BR} et laudabile, et gloriosum nomen tuum in sæcula :{VS:BR}'
       v:027: 'DAG:3:27 | 27 | 27 | quia justus es in omnibus, quæ fecisti nobis,{VS:BR} et universa opera tua vera, et viæ tuæ rectæ,{VS:BR} et omnia judicia tua vera.'
       v:028: 'DAG:3:28 | 28 | 28 | Judicia enim vera fecisti{VS:BR} juxta omnia, quæ induxisti super nos,{VS:BR} et super civitatem sanctam patrum nostrorum Jerusalem :{VS:BR} quia in veritate et in judicio induxisti omnia hæc{VS:BR} propter peccata nostra.{VS:BR}'
       v:029: 'DAG:3:29 | 29 | 29 | Peccavimus enim, et inique egimus recedentes a te,{VS:BR} et deliquimus in omnibus :{VS:BR}'
@@ -143,14 +122,14 @@ chapters:
       v:042: 'DAG:3:42 | 42 | 42 | Nec confundas nos,{VS:BR} sed fac nobiscum juxta mansuetudinem tuam,{VS:BR} et secundum multitudinem misericordiæ tuæ.{VS:BR}'
       v:043: 'DAG:3:43 | 43 | 43 | Et erue nos in mirabilibus tuis,{VS:BR} et da gloriam nomini tuo, Domine ;{VS:BR}'
       v:044: 'DAG:3:44 | 44 | 44 | et confundantur omnes qui ostendunt servis tuis mala :{VS:BR} confundantur in omni potentia tua,{VS:BR} et robur eorum conteratur :{VS:BR}'
-      v:045: 'DAG:3:45 | 45 | 45 | et sciant quia tu es Dominus Deus solus,{VS:BR} et gloriosus super orbem terrarum.{VERSE:END}'
+      v:045: 'DAG:3:45 | 45 | 45 | et sciant quia tu es Dominus Deus solus,{VS:BR} et gloriosus super orbem terrarum.{VS:VERSE:END}'
       v:046: 'DAG:3:46 | 46 | 46 | Et non cessabant qui miserant eos ministri regis succendere fornacem, naphtha, et stuppa, et pice, et malleolis,'
       v:047: 'DAG:3:47 | 47 | 47 | et effundebatur flamma super fornacem cubitis quadraginta novem :'
       v:048: 'DAG:3:48 | 48 | 48 | et erupit, et incendit quos reperit juxta fornacem de Chaldæis.'
       v:049: 'DAG:3:49 | 49 | 49 | Angelus autem Domini descendit cum Azaria, et sociis ejus in fornacem : et excussit flammam ignis de fornace,'
       v:050: 'DAG:3:50 | 50 | 50 | et fecit medium fornacis quasi ventum roris flantem, et non tetigit eos omnino ignis, neque contristavit, nec quidquam molestiæ intulit.'
       v:051: 'DAG:3:51 | 51 | 51 | Tunc hi tres quasi ex uno ore laudabant, et glorificabant, et benedicebant Deum in fornace, dicentes :'
-      v:052: 'DAG:3:52 | 52 | 52 | {VERSE:BEGIN}Benedictus es, Domine Deus patrum nostrorum :{VS:BR} et laudabilis, et gloriosus, et superexaltatus in sæcula.{VS:BR} Et benedictum nomen gloriæ tuæ sanctum :{VS:BR} et laudabile, et superexaltatum in omnibus sæculis.{VS:BR}'
+      v:052: 'DAG:3:52 | 52 | 52 | {VS:VERSE:BEGIN}Benedictus es, Domine Deus patrum nostrorum :{VS:BR} et laudabilis, et gloriosus, et superexaltatus in sæcula.{VS:BR} Et benedictum nomen gloriæ tuæ sanctum :{VS:BR} et laudabile, et superexaltatum in omnibus sæculis.{VS:BR}'
       v:053: 'DAG:3:53 | 53 | 53 | Benedictus es in templo sancto gloriæ tuæ :{VS:BR} et superlaudabilis, et supergloriosus in sæcula.{VS:BR}'
       v:054: 'DAG:3:54 | 54 | 54 | Benedictus es in throno regni tui :{VS:BR} et superlaudabilis, et superexaltatus in sæcula.{VS:BR}'
       v:055: 'DAG:3:55 | 55 | 55 | Benedictus es, qui intueris abyssos, et sedes super cherubim :{VS:BR} et laudabilis, et superexaltatus in sæcula.{VS:BR}'
@@ -188,7 +167,7 @@ chapters:
       v:087: 'DAG:3:87 | 87 | 87 | Benedicite, sancti et humiles corde, Domino :{VS:BR} laudate et superexaltate eum in sæcula.{VS:BR}'
       v:088: 'DAG:3:88 | 88 | 88 | Benedicite, Anania, Azaria, Misaël, Domino :{VS:BR} laudate et superexaltate eum in sæcula :{VS:BR} quia eruit nos de inferno,{VS:BR} et salvos fecit de manu mortis :{VS:BR} et liberavit nos de medio ardentis flammæ,{VS:BR} et de medio ignis eruit nos.{VS:BR}'
       v:089: 'DAG:3:89 | 89 | 89 | Confitemini Domino, quoniam bonus :{VS:BR} quoniam in sæculum misericordia ejus.{VS:BR}'
-      v:090: 'DAG:3:90 | 90 | 90 | Benedicite, omnes religiosi, Domino Deo deorum :{VS:BR} laudate et confitemini ei, quia in omnia sæcula misericordia ejus.{VERSE:END}{VS:P}'
+      v:090: 'DAG:3:90 | 90 | 90 | Benedicite, omnes religiosi, Domino Deo deorum :{VS:BR} laudate et confitemini ei, quia in omnia sæcula misericordia ejus.{VS:VERSE:END}{VS:P}'
       v:091: 'DAG:3:91 | 91 | 91 | Tunc Nabuchodonosor rex obstupuit, et surrexit propere, et ait optimatibus suis : Nonne tres viros misimus in medium ignis compeditos ? Qui respondentes regi, dixerunt : Vere, rex.'
       v:092: 'DAG:3:92 | 92 | 92 | Respondit, et ait : Ecce ego video quatuor viros solutos, et ambulantes in medio ignis, et nihil corruptionis in eis est, et species quarti similis filio Dei.'
       v:093: 'DAG:3:93 | 93 | 93 | Tunc accessit Nabuchodonosor ad ostium fornacis ignis ardentis, et ait : Sidrach, Misach, et Abdenago, servi Dei excelsi, egredimini, et venite. Statimque egressi sunt Sidrach, Misach, et Abdenago de medio ignis.'

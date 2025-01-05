@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Gal.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: GAL
 book_title: ad Galatas
@@ -131,7 +110,7 @@ chapters:
       v:024: 'GAL:4:24 | 24 | 24 | quæ sunt per allegoriam dicta. Hæc enim sunt duo testamenta. Unum quidem in monte Sina, in servitutem generans, quæ est Agar :'
       v:025: 'GAL:4:25 | 25 | 25 | Sina enim mons est in Arabia, qui conjunctus est ei quæ nunc est Jerusalem, et servit cum filiis suis.'
       v:026: 'GAL:4:26 | 26 | 26 | Illa autem, quæ sursum est Jerusalem, libera est, quæ est mater nostra.'
-      v:027: 'GAL:4:27 | 27 | 27 | Scriptum est enim : {VERSE:BEGIN}Lætare, sterilis, quæ non paris ;{VS:BR} erumpe et clama, quæ non parturis :{VS:BR} quia multi filii desertæ,{VS:BR} magis quam ejus quæ habet virum.{VERSE:END}'
+      v:027: 'GAL:4:27 | 27 | 27 | Scriptum est enim : {VS:VERSE:BEGIN}Lætare, sterilis, quæ non paris ;{VS:BR} erumpe et clama, quæ non parturis :{VS:BR} quia multi filii desertæ,{VS:BR} magis quam ejus quæ habet virum.{VS:VERSE:END}'
       v:028: 'GAL:4:28 | 28 | 28 | Nos autem, fratres, secundum Isaac promissionis filii sumus.'
       v:029: 'GAL:4:29 | 29 | 29 | Sed quomodo tunc is, qui secundum carnem natus fuerat, persequebatur eum qui secundum spiritum : ita et nunc.'
       v:030: 'GAL:4:30 | 30 | 30 | Sed quid dicit Scriptura ? Ejice ancillam, et filium ejus : non enim hæres erit filius ancillæ cum filio liberæ.'

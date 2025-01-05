@@ -30,7 +30,8 @@ my $book_order_file = '../../etc/book_order.yaml';
 my $in_dir = './downloaded';
 my $out_dir = './out';
 
-my $book_info = YAML::LoadFile($book_info_file);
+#my $book_info = YAML::LoadFile($book_info_file);
+my $book_info = read_yaml_file($book_info_file);
 
 my @books = book_list($book_order_file, qw( OT NT ));
 
@@ -88,13 +89,13 @@ sub reformat_vulsearch_text {
     my ($tag, $text) = @_;
     my ($book_id, $c, $v) = split(/:/, $tag);
 
-    $text =~ s/\[/{VERSE:BEGIN}/gs;
-    $text =~ s/\]/{VERSE:END}/gs;
+    $text =~ s/\[/{VS:VERSE:BEGIN}/gs;
+    $text =~ s/\]/{VS:VERSE:END}/gs;
 
     $text =~ s/\\/{VS:P}/gs;
     $text =~ s/\//{VS:BR}/gs;
 
-    $text =~ s/<Prologus>(.+)\{VERSE:BEGIN}/{PROLOG:$book_id:BEGIN}$1\{PROLOG:$book_id:END}{VS:P}/;
+    $text =~ s/<Prologus>(.+)\{VS:VERSE:BEGIN}/{PROLOG:$book_id:BEGIN}$1\{PROLOG:$book_id:END}{VS:P}/;
 
     #return $text;
 
@@ -122,11 +123,17 @@ sub reformat_vulsearch_text {
 sub ltgt {
     my ($text, $type) = @_;
 
-    $text =~ s/</{$type:START}/gs;
+    $text =~ s/</{$type:BEGIN}/gs;
     $text =~ s/>/{$type:END}/gs;
 
     $text
 }
 
+sub read_yaml_file {
+    my ($file) = @_;
+
+    my $yaml = read_file($file, {binmode => ':utf8'});
+    YAML::Load($yaml);
+}
 
 ####################

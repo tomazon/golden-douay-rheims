@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Act.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: ACT
 book_title: Actus Apostolorum
@@ -69,25 +48,25 @@ chapters:
       v:014: 'ACT:2:14 | 14 | 14 | Stans autem Petrus cum undecim, levavit vocem suam, et locutus est eis : Viri Judæi, et qui habitatis Jerusalem universi, hoc vobis notum sit, et auribus percipite verba mea.'
       v:015: 'ACT:2:15 | 15 | 15 | Non enim, sicut vos æstimatis, hi ebrii sunt, cum sit hora diei tertia :'
       v:016: 'ACT:2:16 | 16 | 16 | sed hoc est quod dictum est per prophetam Joël :'
-      v:017: 'ACT:2:17 | 17 | 17 | {VERSE:BEGIN}Et erit in novissimis diebus, dicit Dominus,{VS:BR} effundam de Spiritu meo super omnem carnem :{VS:BR} et prophetabunt filii vestri et filiæ vestræ,{VS:BR} et juvenes vestri visiones videbunt,{VS:BR} et seniores vestri somnia somniabunt.{VS:BR}'
+      v:017: 'ACT:2:17 | 17 | 17 | {VS:VERSE:BEGIN}Et erit in novissimis diebus, dicit Dominus,{VS:BR} effundam de Spiritu meo super omnem carnem :{VS:BR} et prophetabunt filii vestri et filiæ vestræ,{VS:BR} et juvenes vestri visiones videbunt,{VS:BR} et seniores vestri somnia somniabunt.{VS:BR}'
       v:018: 'ACT:2:18 | 18 | 18 | Et quidem super servos meos, et super ancillas meas,{VS:BR} in diebus illis effundam de Spiritu meo,{VS:BR} et prophetabunt :{VS:BR}'
       v:019: 'ACT:2:19 | 19 | 19 | et dabo prodigia in cælo sursum,{VS:BR} et signa in terra deorsum, sanguinem, et ignem, et vaporem fumi :{VS:BR}'
       v:020: 'ACT:2:20 | 20 | 20 | sol convertetur in tenebras,{VS:BR} et luna in sanguinem,{VS:BR} antequam veniat dies Domini magnus et manifestus.{VS:BR}'
-      v:021: 'ACT:2:21 | 21 | 21 | Et erit : omnis quicumque invocaverit nomen Domini, salvus erit.{VERSE:END}'
+      v:021: 'ACT:2:21 | 21 | 21 | Et erit : omnis quicumque invocaverit nomen Domini, salvus erit.{VS:VERSE:END}'
       v:022: 'ACT:2:22 | 22 | 22 | Viri Israëlitæ, audite verba hæc : Jesum Nazarenum, virum approbatum a Deo in vobis, virtutibus, et prodigiis, et signis, quæ fecit Deus per illum in medio vestri, sicut et vos scitis :'
       v:023: 'ACT:2:23 | 23 | 23 | hunc, definito consilio et præscientia Dei traditum, per manus iniquorum affligentes interemistis :'
       v:024: 'ACT:2:24 | 24 | 24 | quem Deus suscitavit, solutis doloribus inferni, juxta quod impossibile erat teneri illum ab eo.'
-      v:025: 'ACT:2:25 | 25 | 25 | David enim dicit in eum : {VERSE:BEGIN}Providebam Dominum in conspectu meo semper :{VS:BR} quoniam a dextris est mihi, ne commovear :{VS:BR}'
+      v:025: 'ACT:2:25 | 25 | 25 | David enim dicit in eum : {VS:VERSE:BEGIN}Providebam Dominum in conspectu meo semper :{VS:BR} quoniam a dextris est mihi, ne commovear :{VS:BR}'
       v:026: 'ACT:2:26 | 26 | 26 | propter hoc lætatum est cor meum, et exsultavit lingua mea,{VS:BR} insuper et caro mea requiescet in spe :{VS:BR}'
       v:027: 'ACT:2:27 | 27 | 27 | quoniam non derelinques animam meam in inferno,{VS:BR} nec dabis sanctum tuum videre corruptionem.{VS:BR}'
-      v:028: 'ACT:2:28 | 28 | 28 | Notas mihi fecisti vias vitæ :{VS:BR} et replebis me jucunditate cum facie tua.{VERSE:END}'
+      v:028: 'ACT:2:28 | 28 | 28 | Notas mihi fecisti vias vitæ :{VS:BR} et replebis me jucunditate cum facie tua.{VS:VERSE:END}'
       v:029: 'ACT:2:29 | 29 | 29 | Viri fratres, liceat audenter dicere ad vos de patriarcha David, quoniam defunctus est, et sepultus : et sepulchrum ejus est apud nos usque in hodiernum diem.'
       v:030: 'ACT:2:30 | 30 | 30 | Propheta igitur cum esset, et sciret quia jurejurando jurasset illi Deus de fructu lumbi ejus sedere super sedem ejus :'
       v:031: 'ACT:2:31 | 31 | 31 | providens locutus est de resurrectione Christi, quia neque derelictus est in inferno, neque caro ejus vidit corruptionem.'
       v:032: 'ACT:2:32 | 32 | 32 | Hunc Jesum resuscitavit Deus, cujus omnes nos testes sumus.'
       v:033: 'ACT:2:33 | 33 | 33 | Dextera igitur Dei exaltatus, et promissione Spiritus Sancti accepta a Patre, effudit hunc, quem vos videtis et auditis.'
-      v:034: 'ACT:2:34 | 34 | 34 | Non enim David ascendit in cælum : dixit autem ipse : {VERSE:BEGIN}Dixit Dominus Domino meo :{VS:BR} Sede a dextris meis,{VS:BR}'
-      v:035: 'ACT:2:35 | 35 | 35 | donec ponam inimicos tuos{VS:BR} scabellum pedum tuorum.{VERSE:END}'
+      v:034: 'ACT:2:34 | 34 | 34 | Non enim David ascendit in cælum : dixit autem ipse : {VS:VERSE:BEGIN}Dixit Dominus Domino meo :{VS:BR} Sede a dextris meis,{VS:BR}'
+      v:035: 'ACT:2:35 | 35 | 35 | donec ponam inimicos tuos{VS:BR} scabellum pedum tuorum.{VS:VERSE:END}'
       v:036: 'ACT:2:36 | 36 | 36 | Certissime sciat ergo omnis domus Israël, quia et Dominum eum et Christum fecit Deus hunc Jesum, quem vos crucifixistis.{VS:P}'
       v:037: 'ACT:2:37 | 37 | 37 | His autem auditis, compuncti sunt corde, et dixerunt ad Petrum et ad reliquos Apostolos : Quid faciemus, viri fratres ?'
       v:038: 'ACT:2:38 | 38 | 38 | Petrus vero ad illos : Pœnitentiam, inquit, agite, et baptizetur unusquisque vestrum in nomine Jesu Christi in remissionem peccatorum vestrorum : et accipietis donum Spiritus Sancti.'
@@ -154,8 +133,8 @@ chapters:
       v:022: 'ACT:4:22 | 22 | 22 | Annorum enim erat amplius quadraginta homo, in quo factum fuerat signum istud sanitatis.{VS:P}'
       v:023: 'ACT:4:23 | 23 | 23 | Dimissi autem venerunt ad suos, et annuntiaverunt eis quanta ad eos principes sacerdotum et seniores dixissent.'
       v:024: 'ACT:4:24 | 24 | 24 | Qui cum audissent, unanimiter levaverunt vocem ad Deum, et dixerunt : Domine, tu es qui fecisti cælum et terram, mare et omnia quæ in eis sunt :'
-      v:025: 'ACT:4:25 | 25 | 25 | qui Spiritu Sancto per os patris nostri David pueri tui dixisti : {VERSE:BEGIN}Quare fremuerunt gentes,{VS:BR} et populi meditati sunt inania ?{VS:BR}'
-      v:026: 'ACT:4:26 | 26 | 26 | Astiterunt reges terræ,{VS:BR} et principes convenerunt in unum{VS:BR} adversus Dominum, et adversus Christum ejus.{VERSE:END}'
+      v:025: 'ACT:4:25 | 25 | 25 | qui Spiritu Sancto per os patris nostri David pueri tui dixisti : {VS:VERSE:BEGIN}Quare fremuerunt gentes,{VS:BR} et populi meditati sunt inania ?{VS:BR}'
+      v:026: 'ACT:4:26 | 26 | 26 | Astiterunt reges terræ,{VS:BR} et principes convenerunt in unum{VS:BR} adversus Dominum, et adversus Christum ejus.{VS:VERSE:END}'
       v:027: 'ACT:4:27 | 27 | 27 | Convenerunt enim vere in civitate ista adversus sanctum puerum tuum Jesum, quem unxisti, Herodes et Pontius Pilatus, cum gentibus et populis Israël,'
       v:028: ACT:4:28 | 28 | 28 | facere quæ manus tua et consilium tuum decreverunt fieri.
       v:029: 'ACT:4:29 | 29 | 29 | Et nunc, Domine, respice in minas eorum, et da servis tuis cum omni fiducia loqui verbum tuum,'
@@ -271,15 +250,15 @@ chapters:
       v:039: 'ACT:7:39 | 39 | 39 | Cui noluerunt obedire patres nostri : sed repulerunt, et aversi sunt cordibus suis in Ægyptum,'
       v:040: 'ACT:7:40 | 40 | 40 | dicentes ad Aaron : Fac nobis deos qui præcedant nos : Moyses enim hic, qui eduxit nos de terra Ægypti, nescimus quid factum sit ei.'
       v:041: 'ACT:7:41 | 41 | 41 | Et vitulum fecerunt in diebus illis, et obtulerunt hostiam simulacro, et lætabantur in operibus manuum suarum.'
-      v:042: 'ACT:7:42 | 42 | 42 | Convertit autem Deus, et tradidit eos servire militiæ cæli, sicut scriptum est in libro prophetarum : {VERSE:BEGIN}Numquid victimas et hostias obtulistis mihi{VS:BR} annis quadraginta in deserto, domus Israël ?{VS:BR}'
-      v:043: 'ACT:7:43 | 43 | 43 | Et suscepistis tabernaculum Moloch,{VS:BR} et sidus dei vestri Rempham,{VS:BR} figuras quas fecistis adorare eas :{VS:BR} et transferam vos trans Babylonem.{VERSE:END}'
+      v:042: 'ACT:7:42 | 42 | 42 | Convertit autem Deus, et tradidit eos servire militiæ cæli, sicut scriptum est in libro prophetarum : {VS:VERSE:BEGIN}Numquid victimas et hostias obtulistis mihi{VS:BR} annis quadraginta in deserto, domus Israël ?{VS:BR}'
+      v:043: 'ACT:7:43 | 43 | 43 | Et suscepistis tabernaculum Moloch,{VS:BR} et sidus dei vestri Rempham,{VS:BR} figuras quas fecistis adorare eas :{VS:BR} et transferam vos trans Babylonem.{VS:VERSE:END}'
       v:044: 'ACT:7:44 | 44 | 44 | Tabernaculum testimonii fuit cum patribus nostris in deserto, sicut disposuit illis Deus loquens ad Moysen, ut faceret illud secundum formam quam viderat.'
       v:045: 'ACT:7:45 | 45 | 45 | Quod et induxerunt, suscipientes patres nostri cum Jesu in possessionem gentium quas expulit Deus a facie patrum nostrorum, usque in diebus David,'
       v:046: 'ACT:7:46 | 46 | 46 | qui invenit gratiam ante Deum, et petiit ut inveniret tabernaculum Deo Jacob.'
       v:047: ACT:7:47 | 47 | 47 | Salomon autem ædificavit illi domum.
       v:048: 'ACT:7:48 | 48 | 48 | Sed non Excelsus in manufactis habitat, sicut propheta dicit :'
-      v:049: 'ACT:7:49 | 49 | 49 | {VERSE:BEGIN}Cælum mihi sedes est :{VS:BR} terra autem scabellum pedum meorum.{VS:BR} Quam domum ædificabitis mihi ? dicit Dominus :{VS:BR} aut quis locus requietionis meæ est ?{VS:BR}'
-      v:050: 'ACT:7:50 | 50 | 50 | Nonne manus mea fecit hæc omnia ?{VERSE:END}'
+      v:049: 'ACT:7:49 | 49 | 49 | {VS:VERSE:BEGIN}Cælum mihi sedes est :{VS:BR} terra autem scabellum pedum meorum.{VS:BR} Quam domum ædificabitis mihi ? dicit Dominus :{VS:BR} aut quis locus requietionis meæ est ?{VS:BR}'
+      v:050: 'ACT:7:50 | 50 | 50 | Nonne manus mea fecit hæc omnia ?{VS:VERSE:END}'
       v:051: 'ACT:7:51 | 51 | 51 | Dura cervice, et incircumcisis cordibus et auribus, vos semper Spiritui Sancto resistitis : sicut patres vestri, ita et vos.'
       v:052: 'ACT:7:52 | 52 | 52 | Quem prophetarum non sunt persecuti patres vestri ? et occiderunt eos qui prænuntiabant de adventu Justi, cujus vos nunc proditores et homicidæ fuistis :'
       v:053: 'ACT:7:53 | 53 | 53 | qui accepistis legem in dispositione angelorum, et non custodistis.{VS:P}'
@@ -322,8 +301,8 @@ chapters:
       v:029: 'ACT:8:29 | 29 | 29 | Dixit autem Spiritus Philippo : Accede, et adjunge te ad currum istum.'
       v:030: 'ACT:8:30 | 30 | 30 | Accurrens autem Philippus, audivit eum legentem Isaiam prophetam, et dixit : Putasne intelligis quæ legis ?'
       v:031: 'ACT:8:31 | 31 | 31 | Qui ait : Et quomodo possum, si non aliquis ostenderit mihi ? Rogavitque Philippum ut ascenderet, et sederet secum.'
-      v:032: 'ACT:8:32 | 32 | 32 | Locus autem Scripturæ quem legebat, erat hic : {VERSE:BEGIN}Tamquam ovis ad occisionem ductus est :{VS:BR} et sicut agnus coram tondente se, sine voce,{VS:BR} sic non aperuit os suum.{VS:BR}'
-      v:033: 'ACT:8:33 | 33 | 33 | In humilitate judicium ejus sublatum est.{VS:BR} Generationem ejus quis enarrabit ?{VS:BR} quoniam tolletur de terra vita ejus.{VERSE:END}'
+      v:032: 'ACT:8:32 | 32 | 32 | Locus autem Scripturæ quem legebat, erat hic : {VS:VERSE:BEGIN}Tamquam ovis ad occisionem ductus est :{VS:BR} et sicut agnus coram tondente se, sine voce,{VS:BR} sic non aperuit os suum.{VS:BR}'
+      v:033: 'ACT:8:33 | 33 | 33 | In humilitate judicium ejus sublatum est.{VS:BR} Generationem ejus quis enarrabit ?{VS:BR} quoniam tolletur de terra vita ejus.{VS:VERSE:END}'
       v:034: 'ACT:8:34 | 34 | 34 | Respondens autem eunuchus Philippo, dixit : Obsecro te, de quo propheta dicit hoc ? de se, an de alio aliquo ?'
       v:035: 'ACT:8:35 | 35 | 35 | Aperiens autem Philippus os suum, et incipiens a Scriptura ista, evangelizavit illi Jesum.'
       v:036: 'ACT:8:36 | 36 | 36 | Et dum irent per viam, venerunt ad quamdam aquam : et ait eunuchus : Ecce aqua : quid prohibet me baptizari ?'
@@ -527,7 +506,7 @@ chapters:
       v:038: 'ACT:13:38 | 38 | 38 | Notum igitur sit vobis, viri fratres, quia per hunc vobis remissio peccatorum annuntiatur, et ab omnibus quibus non potuistis in lege Moysi justificari,'
       v:039: 'ACT:13:39 | 39 | 39 | in hoc omnis qui credit, justificatur.'
       v:040: 'ACT:13:40 | 40 | 40 | Videte ergo ne superveniat vobis quod dictum est in prophetis :'
-      v:041: 'ACT:13:41 | 41 | 41 | {VERSE:BEGIN}Videte contemptores, et admiramini, et disperdimini :{VS:BR} quia opus operor ego in diebus vestris,{VS:BR} opus quod non credetis, si quis enarraverit vobis.{VERSE:END}'
+      v:041: 'ACT:13:41 | 41 | 41 | {VS:VERSE:BEGIN}Videte contemptores, et admiramini, et disperdimini :{VS:BR} quia opus operor ego in diebus vestris,{VS:BR} opus quod non credetis, si quis enarraverit vobis.{VS:VERSE:END}'
       v:042: ACT:13:42 | 42 | 42 | Exeuntibus autem illis rogabant ut sequenti sabbato loquerentur sibi verba hæc.
       v:043: 'ACT:13:43 | 43 | 43 | Cumque dimissa esset synagoga, secuti sunt multi Judæorum, et colentium advenarum, Paulum et Barnabam : qui loquentes suadebant eis ut permanerent in gratia Dei.{VS:P}'
       v:044: ACT:13:44 | 44 | 44 | Sequenti vero sabbato pene universa civitas convenit audire verbum Dei.
@@ -585,9 +564,9 @@ chapters:
       v:013: 'ACT:15:13 | 13 | 13 | Et postquam tacuerunt, respondit Jacobus, dicens : Viri fratres, audite me.'
       v:014: ACT:15:14 | 14 | 14 | Simon narravit quemadmodum primum Deus visitavit sumere ex gentibus populum nomini suo.
       v:015: 'ACT:15:15 | 15 | 15 | Et huic concordant verba prophetarum : sicut scriptum est :'
-      v:016: 'ACT:15:16 | 16 | 16 | {VERSE:BEGIN}Post hæc revertar,{VS:BR} et reædificabo tabernaculum David quod decidit :{VS:BR} et diruta ejus reædificabo,{VS:BR} et erigam illud :{VS:BR}'
+      v:016: 'ACT:15:16 | 16 | 16 | {VS:VERSE:BEGIN}Post hæc revertar,{VS:BR} et reædificabo tabernaculum David quod decidit :{VS:BR} et diruta ejus reædificabo,{VS:BR} et erigam illud :{VS:BR}'
       v:017: 'ACT:15:17 | 17 | 17 | ut requirant ceteri hominum Dominum,{VS:BR} et omnes gentes super quas invocatum est nomen meum,{VS:BR} dicit Dominus faciens hæc.{VS:BR}'
-      v:018: 'ACT:15:18 | 18 | 18 | Notum a sæculo est Domino opus suum.{VERSE:END}'
+      v:018: 'ACT:15:18 | 18 | 18 | Notum a sæculo est Domino opus suum.{VS:VERSE:END}'
       v:019: 'ACT:15:19 | 19 | 19 | Propter quod ego judico non inquietari eos qui ex gentibus convertuntur ad Deum,'
       v:020: 'ACT:15:20 | 20 | 20 | sed scribere ad eos ut abstineant se a contaminationibus simulacrorum, et fornicatione, et suffocatis, et sanguine.'
       v:021: 'ACT:15:21 | 21 | 21 | Moyses enim a temporibus antiquis habet in singulis civitatibus qui eum prædicent in synagogis, ubi per omne sabbatum legitur.{VS:P}'
@@ -1077,8 +1056,8 @@ chapters:
       v:023: 'ACT:28:23 | 23 | 23 | Cum constituissent autem illi diem, venerunt ad eum in hospitium plurimi, quibus exponebat testificans regnum Dei, suadensque eis de Jesu ex lege Moysi et prophetis a mane usque ad vesperam.'
       v:024: 'ACT:28:24 | 24 | 24 | Et quidam credebant his quæ dicebantur : quidam vero non credebant.'
       v:025: 'ACT:28:25 | 25 | 25 | Cumque invicem non essent consentientes, discedebant, dicente Paulo unum verbum : Quia bene Spiritus Sanctus locutus est per Isaiam prophetam ad patres nostros,'
-      v:026: 'ACT:28:26 | 26 | 26 | dicens : Vade ad populum istum, et dic ad eos : {VERSE:BEGIN}Aure audietis, et non intelligetis,{VS:BR} et videntes videbitis, et non perspicietis.{VS:BR}'
-      v:027: 'ACT:28:27 | 27 | 27 | Incrassatum est enim cor populi hujus,{VS:BR} et auribus graviter audierunt,{VS:BR} et oculos suos compresserunt :{VS:BR} ne forte videant oculis,{VS:BR} et auribus audiant,{VS:BR} et corde intelligant, et convertantur,{VS:BR} et sanem eos.{VERSE:END}'
+      v:026: 'ACT:28:26 | 26 | 26 | dicens : Vade ad populum istum, et dic ad eos : {VS:VERSE:BEGIN}Aure audietis, et non intelligetis,{VS:BR} et videntes videbitis, et non perspicietis.{VS:BR}'
+      v:027: 'ACT:28:27 | 27 | 27 | Incrassatum est enim cor populi hujus,{VS:BR} et auribus graviter audierunt,{VS:BR} et oculos suos compresserunt :{VS:BR} ne forte videant oculis,{VS:BR} et auribus audiant,{VS:BR} et corde intelligant, et convertantur,{VS:BR} et sanem eos.{VS:VERSE:END}'
       v:028: 'ACT:28:28 | 28 | 28 | Notum ergo sit vobis, quoniam gentibus missum est hoc salutare Dei, et ipsi audient.'
       v:029: 'ACT:28:29 | 29 | 29 | Et cum hæc dixisset, exierunt ab eo Judæi, multam habentes inter se quæstionem.{VS:P}'
       v:030: 'ACT:28:30 | 30 | 30 | Mansit autem biennio toto in suo conducto : et suscipiebat omnes qui ingrediebantur ad eum,'

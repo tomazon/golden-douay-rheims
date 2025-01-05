@@ -1,32 +1,11 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Joel.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: JOL
-book_title: Jo�l
+book_title: Joel
 chapters:
   c:001:
     verses:
       v:001: 'JOL:1:1 | 1 | 1 | Verbum Domini, quod factum est ad Joël, filium Phatuel.'
-      v:002: 'JOL:1:2 | 2 | 2 | {VERSE:BEGIN}Audite hoc, senes,{VS:BR} et auribus percipite, omnes habitatores terræ :{VS:BR} si factum est istud in diebus vestris,{VS:BR} aut in diebus patrum vestrorum ?{VS:BR}'
+      v:002: 'JOL:1:2 | 2 | 2 | {VS:VERSE:BEGIN}Audite hoc, senes,{VS:BR} et auribus percipite, omnes habitatores terræ :{VS:BR} si factum est istud in diebus vestris,{VS:BR} aut in diebus patrum vestrorum ?{VS:BR}'
       v:003: 'JOL:1:3 | 3 | 3 | Super hoc filiis vestris narrate,{VS:BR} et filii vestri filiis suis,{VS:BR} et filii eorum generationi alteræ.{VS:BR}'
       v:004: 'JOL:1:4 | 4 | 4 | Residuum erucæ comedit locusta,{VS:BR} et residuum locustæ comedit bruchus,{VS:BR} et residuum bruchi comedit rubigo.{VS:BR}'
       v:005: 'JOL:1:5 | 5 | 5 | Expergiscimini, ebrii,{VS:BR} et flete et ululate, omnes qui bibitis vinum in dulcedine,{VS:BR} quoniam periit ab ore vestro.{VS:BR}'
@@ -44,10 +23,10 @@ chapters:
       v:017: 'JOL:1:17 | 17 | 17 | Computruerunt jumenta in stercore suo,{VS:BR} demolita sunt horrea,{VS:BR} dissipatæ sunt apothecæ,{VS:BR} quoniam confusum est triticum.{VS:BR}'
       v:018: 'JOL:1:18 | 18 | 18 | Quid ingemuit animal,{VS:BR} mugierunt greges armenti ?{VS:BR} quia non est pascua eis ;{VS:BR} sed et greges pecorum disperierunt.{VS:BR}'
       v:019: 'JOL:1:19 | 19 | 19 | Ad te, Domine, clamabo,{VS:BR} quia ignis comedit speciosa deserti,{VS:BR} et flamma succendit omnia ligna regionis.{VS:BR}'
-      v:020: 'JOL:1:20 | 20 | 20 | Sed et bestiæ agri, quasi area sitiens imbrem, suspexerunt ad te,{VS:BR} quoniam exsiccati sunt fontes aquarum,{VS:BR} et ignis devoravit speciosa deserti.{VERSE:END}'
+      v:020: 'JOL:1:20 | 20 | 20 | Sed et bestiæ agri, quasi area sitiens imbrem, suspexerunt ad te,{VS:BR} quoniam exsiccati sunt fontes aquarum,{VS:BR} et ignis devoravit speciosa deserti.{VS:VERSE:END}'
   c:002:
     verses:
-      v:001: 'JOL:2:1 | 1 | 1 | {VERSE:BEGIN}Canite tuba in Sion,{VS:BR} ululate in monte sancto meo,{VS:BR} conturbentur omnes habitatores terræ :{VS:BR} quia venit dies Domini, quia prope est.{VS:BR}'
+      v:001: 'JOL:2:1 | 1 | 1 | {VS:VERSE:BEGIN}Canite tuba in Sion,{VS:BR} ululate in monte sancto meo,{VS:BR} conturbentur omnes habitatores terræ :{VS:BR} quia venit dies Domini, quia prope est.{VS:BR}'
       v:002: 'JOL:2:2 | 2 | 2 | Dies tenebrarum et caliginis,{VS:BR} dies nubis et turbinis ;{VS:BR} quasi mane expansum super montes{VS:BR} populus multus et fortis :{VS:BR} similis ei non fuit a principio,{VS:BR} et post eum non erit{VS:BR} usque in annos generationis et generationis.{VS:BR}'
       v:003: 'JOL:2:3 | 3 | 3 | Ante faciem ejus ignis vorans,{VS:BR} et post eum exurens flamma.{VS:BR} Quasi hortus voluptatis terra coram eo,{VS:BR} et post eum solitudo deserti,{VS:BR} neque est qui effugiat eum.{VS:BR}'
       v:004: 'JOL:2:4 | 4 | 4 | Quasi aspectus equorum, aspectus eorum ;{VS:BR} et quasi equites, sic current.{VS:BR}'
@@ -63,8 +42,8 @@ chapters:
       v:014: 'JOL:2:14 | 14 | 14 | Quis scit si convertatur, et ignoscat,{VS:BR} et relinquat post se benedictionem, sacrificium et libamen Domino Deo vestro ?{VS:BR}'
       v:015: 'JOL:2:15 | 15 | 15 | Canite tuba in Sion,{VS:BR} sanctificate jejunium, vocate cœtum :{VS:BR}'
       v:016: 'JOL:2:16 | 16 | 16 | congregate populum, sanctificate ecclesiam,{VS:BR} coadunate senes, congregate parvulos, et sugentes ubera ;{VS:BR} egrediatur sponsus de cubili suo,{VS:BR} et sponsa de thalamo suo.{VS:BR}'
-      v:017: 'JOL:2:17 | 17 | 17 | Inter vestibulum et altare plorabunt sacerdotes, ministri Domini,{VS:BR} et dicent : Parce, Domine, parce populo tuo ;{VS:BR} et ne des hæreditatem tuam in opprobrium,{VS:BR} ut dominentur eis nationes.{VS:BR} Quare dicunt in populis : Ubi est Deus eorum ?{VERSE:END}{VS:P}'
-      v:018: 'JOL:2:18 | 18 | 18 | {VERSE:BEGIN}Zelatus est Dominus terram suam,{VS:BR} et pepercit populo suo.{VS:BR}'
+      v:017: 'JOL:2:17 | 17 | 17 | Inter vestibulum et altare plorabunt sacerdotes, ministri Domini,{VS:BR} et dicent : Parce, Domine, parce populo tuo ;{VS:BR} et ne des hæreditatem tuam in opprobrium,{VS:BR} ut dominentur eis nationes.{VS:BR} Quare dicunt in populis : Ubi est Deus eorum ?{VS:VERSE:END}{VS:P}'
+      v:018: 'JOL:2:18 | 18 | 18 | {VS:VERSE:BEGIN}Zelatus est Dominus terram suam,{VS:BR} et pepercit populo suo.{VS:BR}'
       v:019: 'JOL:2:19 | 19 | 19 | Et respondit Dominus, et dixit populo suo :{VS:BR} Ecce ego mittam vobis frumentum, et vinum, et oleum,{VS:BR} et replebimini eis ;{VS:BR} et non dabo vos ultra opprobrium in gentibus.{VS:BR}'
       v:020: 'JOL:2:20 | 20 | 20 | Et eum qui ab aquilone est procul faciam a vobis,{VS:BR} et expellam eum in terram inviam et desertam :{VS:BR} faciem ejus contra mare orientale,{VS:BR} et extremum ejus ad mare novissimum :{VS:BR} et ascendet fœtor ejus,{VS:BR} et ascendet putredo ejus,{VS:BR} quia superbe egit.{VS:BR}'
       v:021: 'JOL:2:21 | 21 | 21 | Noli timere, terra :{VS:BR} exsulta, et lætare,{VS:BR} quoniam magnificavit Dominus ut faceret.{VS:BR}'
@@ -73,15 +52,15 @@ chapters:
       v:024: 'JOL:2:24 | 24 | 24 | Et implebuntur areæ frumento,{VS:BR} et redundabunt torcularia vino et oleo.{VS:BR}'
       v:025: 'JOL:2:25 | 25 | 25 | Et reddam vobis annos, quos comedit locusta,{VS:BR} bruchus, et rubigo, et eruca :{VS:BR} fortitudo mea magna quam misi in vos.{VS:BR}'
       v:026: 'JOL:2:26 | 26 | 26 | Et comedetis vescentes, et saturabimini ;{VS:BR} et laudabitis nomen Domini Dei vestri,{VS:BR} qui fecit mirabilia vobiscum ;{VS:BR} et non confundetur populus meus in sempiternum.{VS:BR}'
-      v:027: 'JOL:2:27 | 27 | 27 | Et scietis quia in medio Israël ego sum,{VS:BR} et ego Dominus Deus vester, et non est amplius ;{VS:BR} et non confundetur populus meus in æternum.{VERSE:END}{VS:P}'
-      v:028: 'JOL:2:28 | 28 | 28 | {VERSE:BEGIN}Et erit post hæc :{VS:BR} effundam spiritum meum super omnem carnem,{VS:BR} et prophetabunt filii vestri et filiæ vestræ :{VS:BR} senes vestri somnia somniabunt,{VS:BR} et juvenes vestri visiones videbunt.{VS:BR}'
+      v:027: 'JOL:2:27 | 27 | 27 | Et scietis quia in medio Israël ego sum,{VS:BR} et ego Dominus Deus vester, et non est amplius ;{VS:BR} et non confundetur populus meus in æternum.{VS:VERSE:END}{VS:P}'
+      v:028: 'JOL:2:28 | 28 | 28 | {VS:VERSE:BEGIN}Et erit post hæc :{VS:BR} effundam spiritum meum super omnem carnem,{VS:BR} et prophetabunt filii vestri et filiæ vestræ :{VS:BR} senes vestri somnia somniabunt,{VS:BR} et juvenes vestri visiones videbunt.{VS:BR}'
       v:029: 'JOL:2:29 | 29 | 29 | Sed et super servos meos et ancillas{VS:BR} in diebus illis effundam spiritum meum.{VS:BR}'
       v:030: 'JOL:2:30 | 30 | 30 | Et dabo prodigia in cælo et in terra,{VS:BR} sanguinem, et ignem, et vaporem fumi.{VS:BR}'
       v:031: 'JOL:2:31 | 31 | 31 | Sol convertetur in tenebras,{VS:BR} et luna in sanguinem,{VS:BR} antequam veniat dies Domini magnus et horribilis.{VS:BR}'
-      v:032: 'JOL:2:32 | 32 | 32 | Et erit : omnis qui invocaverit nomen Domini, salvus erit :{VS:BR} quia in monte Sion et in Jerusalem{VS:BR} erit salvatio, sicut dixit Dominus,{VS:BR} et in residuis quos Dominus vocaverit.{VERSE:END}'
+      v:032: 'JOL:2:32 | 32 | 32 | Et erit : omnis qui invocaverit nomen Domini, salvus erit :{VS:BR} quia in monte Sion et in Jerusalem{VS:BR} erit salvatio, sicut dixit Dominus,{VS:BR} et in residuis quos Dominus vocaverit.{VS:VERSE:END}'
   c:003:
     verses:
-      v:001: 'JOL:3:1 | 1 | 1 | {VERSE:BEGIN}Quia ecce in diebus illis, et in tempore illo,{VS:BR} cum convertero captivitatem Juda et Jerusalem,{VS:BR}'
+      v:001: 'JOL:3:1 | 1 | 1 | {VS:VERSE:BEGIN}Quia ecce in diebus illis, et in tempore illo,{VS:BR} cum convertero captivitatem Juda et Jerusalem,{VS:BR}'
       v:002: 'JOL:3:2 | 2 | 2 | congregabo omnes gentes,{VS:BR} et deducam eas in vallem Josaphat ;{VS:BR} et disceptabo cum eis ibi super populo meo,{VS:BR} et hæreditate mea Israël,{VS:BR} quos disperserunt in nationibus,{VS:BR} et terram meam diviserunt.{VS:BR}'
       v:003: 'JOL:3:3 | 3 | 3 | Et super populum meum miserunt sortem ;{VS:BR} et posuerunt puerum in prostibulo,{VS:BR} et puellam vendiderunt pro vino ut biberent.{VS:BR}'
       v:004: 'JOL:3:4 | 4 | 4 | Verum quid mihi et vobis, Tyrus et Sidon,{VS:BR} et omnis terminus Palæstinorum ?{VS:BR} numquid ultionem vos reddetis mihi ?{VS:BR} et si ulciscimini vos contra me,{VS:BR} cito velociter reddam vicissitudinem vobis super caput vestrum.{VS:BR}'
@@ -101,4 +80,4 @@ chapters:
       v:018: 'JOL:3:18 | 18 | 18 | Et erit in die illa : stillabunt montes dulcedinem,{VS:BR} et colles fluent lacte,{VS:BR} et per omnes rivos Juda ibunt aquæ ;{VS:BR} et fons de domo Domini egredietur,{VS:BR} et irrigabit torrentem spinarum.{VS:BR}'
       v:019: 'JOL:3:19 | 19 | 19 | Ægyptus in desolationem erit,{VS:BR} et Idumæa in desertum perditionis,{VS:BR} pro eo quod inique egerint in filios Juda,{VS:BR} et effuderint sanguinem innocentem in terra sua.{VS:BR}'
       v:020: 'JOL:3:20 | 20 | 20 | Et Judæa in æternum habitabitur,{VS:BR} et Jerusalem in generationem et generationem.{VS:BR}'
-      v:021: 'JOL:3:21 | 21 | 21 | Et mundabo sanguinem eorum, quem non mundaveram ;{VS:BR} et Dominus commorabitur in Sion.{VERSE:END}'
+      v:021: 'JOL:3:21 | 21 | 21 | Et mundabo sanguinem eorum, quem non mundaveram ;{VS:BR} et Dominus commorabitur in Sion.{VS:VERSE:END}'

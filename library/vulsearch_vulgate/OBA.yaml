@@ -1,31 +1,10 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Abd.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: OBA
 book_title: Abdias
 chapters:
   c:001:
     verses:
-      v:001: 'OBA:1:1 | 1 | 1 | Visio Abdiæ. {VERSE:BEGIN}Hæc dicit Dominus Deus ad Edom :{VS:BR} Auditum audivimus a Domino,{VS:BR} et legatum ad gentes misit :{VS:BR} surgite, et consurgamus adversus eum in prælium.{VS:BR}'
+      v:001: 'OBA:1:1 | 1 | 1 | Visio Abdiæ. {VS:VERSE:BEGIN}Hæc dicit Dominus Deus ad Edom :{VS:BR} Auditum audivimus a Domino,{VS:BR} et legatum ad gentes misit :{VS:BR} surgite, et consurgamus adversus eum in prælium.{VS:BR}'
       v:002: 'OBA:1:2 | 2 | 2 | Ecce parvulum dedi te in gentibus :{VS:BR} contemptibilis tu es valde.{VS:BR}'
       v:003: 'OBA:1:3 | 3 | 3 | Superbia cordis tui extulit te,{VS:BR} habitantem in scissuris petrarum,{VS:BR} exaltantem solium tuum ;{VS:BR} qui dicis in corde tuo :{VS:BR} Quis detrahet me in terram ?{VS:BR}'
       v:004: 'OBA:1:4 | 4 | 4 | Si exaltatus fueris ut aquila,{VS:BR} et si inter sidera posueris nidum tuum,{VS:BR} inde detraham te, dicit Dominus.{VS:BR}'
@@ -45,4 +24,4 @@ chapters:
       v:018: 'OBA:1:18 | 18 | 18 | Et erit domus Jacob ignis,{VS:BR} et domus Joseph flamma,{VS:BR} et domus Esau stipula :{VS:BR} et succendentur in eis, et devorabunt eos,{VS:BR} et non erunt reliquiæ domus Esau,{VS:BR} quia Dominus locutus est.{VS:BR}'
       v:019: 'OBA:1:19 | 19 | 19 | Et hæreditabunt hi, qui ad austrum sunt, montem Esau,{VS:BR} et qui in campestribus, Philisthiim :{VS:BR} et possidebunt regionem Ephraim et regionem Samariæ,{VS:BR} et Benjamin possidebit Galaad.{VS:BR}'
       v:020: 'OBA:1:20 | 20 | 20 | Et transmigratio exercitus hujus filiorum Israël,{VS:BR} omnia loca Chananæorum usque ad Sareptam :{VS:BR} et transmigratio Jerusalem, quæ in Bosphoro est,{VS:BR} possidebit civitates austri.{VS:BR}'
-      v:021: 'OBA:1:21 | 21 | 21 | Et ascendent salvatores in montem Sion judicare montem Esau,{VS:BR} et erit Domino regnum.{VERSE:END}'
+      v:021: 'OBA:1:21 | 21 | 21 | Et ascendent salvatores in montem Sion judicare montem Esau,{VS:BR} et erit Domino regnum.{VS:VERSE:END}'

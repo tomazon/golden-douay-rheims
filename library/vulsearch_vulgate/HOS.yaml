@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Os.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: HOS
 book_title: Osee
@@ -39,7 +18,7 @@ chapters:
   c:002:
     verses:
       v:001: 'HOS:2:1 | 1 | 1 | Dicite fratribus vestris : Populus meus ; et sorori vestræ : Misericordiam consecuta.{VS:P}'
-      v:002: 'HOS:2:2 | 2 | 2 | {VERSE:BEGIN}Judicate matrem vestram, judicate,{VS:BR} quoniam ipsa non uxor mea,{VS:BR} et ego non vir ejus.{VS:BR} Auferat fornicationes suas a facie sua,{VS:BR} et adulteria sua de medio uberum suorum ;{VS:BR}'
+      v:002: 'HOS:2:2 | 2 | 2 | {VS:VERSE:BEGIN}Judicate matrem vestram, judicate,{VS:BR} quoniam ipsa non uxor mea,{VS:BR} et ego non vir ejus.{VS:BR} Auferat fornicationes suas a facie sua,{VS:BR} et adulteria sua de medio uberum suorum ;{VS:BR}'
       v:003: 'HOS:2:3 | 3 | 3 | ne forte expoliem eam nudam,{VS:BR} et statuam eam secundum diem nativitatis suæ,{VS:BR} et ponam eam quasi solitudinem,{VS:BR} et statuam eam velut terram inviam,{VS:BR} et interficiam eam siti.{VS:BR}'
       v:004: 'HOS:2:4 | 4 | 4 | Et filiorum illius non miserebor,{VS:BR} quoniam filii fornicationum sunt.{VS:BR}'
       v:005: 'HOS:2:5 | 5 | 5 | Quia fornicata est mater eorum,{VS:BR} confusa est quæ concepit eos ;{VS:BR} quia dixit : Vadam post amatores meos,{VS:BR} qui dant panes mihi, et aquas meas,{VS:BR} lanam meam, et linum meum,{VS:BR} oleum meum, et potum meum.{VS:BR}'
@@ -61,7 +40,7 @@ chapters:
       v:021: 'HOS:2:21 | 21 | 21 | Et erit in die illa :{VS:BR} exaudiam, dicit Dominus, exaudiam cælos,{VS:BR} et illi exaudient terram.{VS:BR}'
       v:022: 'HOS:2:22 | 22 | 22 | Et terra exaudiet triticum, et vinum, et oleum,{VS:BR} et hæc exaudient Jezrahel.{VS:BR}'
       v:023: 'HOS:2:23 | 23 | 23 | Et seminabo eam mihi in terra,{VS:BR} et miserebor ejus quæ fuit Absque misericordia.{VS:BR}'
-      v:024: 'HOS:2:24 | 24 | 24 | Et dicam Non populo meo : Populus meus es tu ;{VS:BR} et ipse dicet : Deus meus es tu.{VERSE:END}'
+      v:024: 'HOS:2:24 | 24 | 24 | Et dicam Non populo meo : Populus meus es tu ;{VS:BR} et ipse dicet : Deus meus es tu.{VS:VERSE:END}'
   c:003:
     verses:
       v:001: 'HOS:3:1 | 1 | 1 | Et dixit Dominus ad me : Adhuc vade, et dilige mulierem dilectam amico et adulteram, sicut diligit Dominus filios Israël, et ipsi respiciunt ad deos alienos, et diligunt vinacia uvarum.'
@@ -71,7 +50,7 @@ chapters:
       v:005: 'HOS:3:5 | 5 | 5 | Et post hæc revertentur filii Israël, et quærent Dominum Deum suum, et David regem suum : et pavebunt ad Dominum, et ad bonum ejus, in novissimo dierum.'
   c:004:
     verses:
-      v:001: 'HOS:4:1 | 1 | 1 | {VERSE:BEGIN}Audite verbum Domini, filii Israël,{VS:BR} quia judicium Domino cum habitatoribus terræ :{VS:BR} non est enim veritas, et non est misericordia,{VS:BR} et non est scientia Dei in terra.{VS:BR}'
+      v:001: 'HOS:4:1 | 1 | 1 | {VS:VERSE:BEGIN}Audite verbum Domini, filii Israël,{VS:BR} quia judicium Domino cum habitatoribus terræ :{VS:BR} non est enim veritas, et non est misericordia,{VS:BR} et non est scientia Dei in terra.{VS:BR}'
       v:002: 'HOS:4:2 | 2 | 2 | Maledictum, et mendacium,{VS:BR} et homicidium, et furtum, et adulterium inundaverunt,{VS:BR} et sanguis sanguinem tetigit.{VS:BR}'
       v:003: 'HOS:4:3 | 3 | 3 | Propter hoc lugebit terra,{VS:BR} et infirmabitur omnis qui habitat in ea,{VS:BR} in bestia agri, et in volucre cæli ;{VS:BR} sed et pisces maris congregabuntur.{VS:BR}'
       v:004: 'HOS:4:4 | 4 | 4 | Verumtamen unusquisque non judicet,{VS:BR} et non arguatur vir :{VS:BR} populus enim tuus sicut hi qui contradicunt sacerdoti.{VS:BR}'
@@ -89,10 +68,10 @@ chapters:
       v:016: 'HOS:4:16 | 16 | 16 | Quoniam sicut vacca lasciviens declinavit Israël ;{VS:BR} nunc pascet eos Dominus, quasi agnum in latitudine.{VS:BR}'
       v:017: 'HOS:4:17 | 17 | 17 | Particeps idolorum Ephraim : dimitte eum.{VS:BR}'
       v:018: 'HOS:4:18 | 18 | 18 | Separatum est convivium eorum ;{VS:BR} fornicatione fornicati sunt :{VS:BR} dilexerunt afferre ignominiam protectores ejus.{VS:BR}'
-      v:019: 'HOS:4:19 | 19 | 19 | Ligavit eum spiritus in alis suis,{VS:BR} et confundentur a sacrificiis suis.{VERSE:END}'
+      v:019: 'HOS:4:19 | 19 | 19 | Ligavit eum spiritus in alis suis,{VS:BR} et confundentur a sacrificiis suis.{VS:VERSE:END}'
   c:005:
     verses:
-      v:001: 'HOS:5:1 | 1 | 1 | {VERSE:BEGIN}Audite hoc, sacerdotes, {VS:BR} et attendite, domus Israël,{VS:BR} et domus regis, auscultate :{VS:BR} quia vobis judicium est,{VS:BR} quoniam laqueus facti estis speculationi,{VS:BR} et rete expansum super Thabor.{VS:BR}'
+      v:001: 'HOS:5:1 | 1 | 1 | {VS:VERSE:BEGIN}Audite hoc, sacerdotes, {VS:BR} et attendite, domus Israël,{VS:BR} et domus regis, auscultate :{VS:BR} quia vobis judicium est,{VS:BR} quoniam laqueus facti estis speculationi,{VS:BR} et rete expansum super Thabor.{VS:BR}'
       v:002: 'HOS:5:2 | 2 | 2 | Et victimas declinastis in profundum ;{VS:BR} et ego eruditor omnium eorum.{VS:BR}'
       v:003: 'HOS:5:3 | 3 | 3 | Ego scio Ephraim,{VS:BR} et Israël non est absconditus a me :{VS:BR} quia nunc fornicatus est Ephraim ;{VS:BR} contaminatus est Israël.{VS:BR}'
       v:004: 'HOS:5:4 | 4 | 4 | Non dabunt cogitationes suas ut revertantur ad Deum suum,{VS:BR} quia spiritus fornicationum in medio eorum,{VS:BR} et Dominum non cognoverunt.{VS:BR}'
@@ -106,10 +85,10 @@ chapters:
       v:012: 'HOS:5:12 | 12 | 12 | Et ego quasi tinea Ephraim,{VS:BR} et quasi putredo domui Juda.{VS:BR}'
       v:013: 'HOS:5:13 | 13 | 13 | Et vidit Ephraim languorem suum,{VS:BR} et Juda vinculum suum ;{VS:BR} et abiit Ephraim ad Assur,{VS:BR} et misit ad regem ultorem :{VS:BR} et ipse non poterit sanare vos,{VS:BR} nec solvere poterit a vobis vinculum.{VS:BR}'
       v:014: 'HOS:5:14 | 14 | 14 | Quoniam ego quasi leæna Ephraim,{VS:BR} et quasi catulus leonis domui Juda.{VS:BR} Ego, ego capiam, et vadam ;{VS:BR} tollam, et non est qui eruat.{VS:BR}'
-      v:015: 'HOS:5:15 | 15 | 15 | Vadens revertar ad locum meum,{VS:BR} donec deficiatis, et quæratis faciem meam.{VERSE:END}'
+      v:015: 'HOS:5:15 | 15 | 15 | Vadens revertar ad locum meum,{VS:BR} donec deficiatis, et quæratis faciem meam.{VS:VERSE:END}'
   c:006:
     verses:
-      v:001: 'HOS:6:1 | 1 | 1 | {VERSE:BEGIN}In tribulatione sua mane consurgent ad me :{VS:BR} Venite, et revertamur ad Dominum,{VS:BR}'
+      v:001: 'HOS:6:1 | 1 | 1 | {VS:VERSE:BEGIN}In tribulatione sua mane consurgent ad me :{VS:BR} Venite, et revertamur ad Dominum,{VS:BR}'
       v:002: 'HOS:6:2 | 2 | 2 | quia ipse cepit, et sanabit nos ;{VS:BR} percutiet, et curabit nos.{VS:BR}'
       v:003: 'HOS:6:3 | 3 | 3 | Vivificabit nos post duos dies ;{VS:BR} in die tertia suscitabit nos,{VS:BR} et vivemus in conspectu ejus.{VS:BR} Sciemus, sequemurque ut cognoscamus Dominum :{VS:BR} quasi diluculum præparatus est egressus ejus,{VS:BR} et veniet quasi imber nobis temporaneus et serotinus terræ.{VS:BR}'
       v:004: 'HOS:6:4 | 4 | 4 | Quid faciam tibi, Ephraim ?{VS:BR} quid faciam tibi, Juda ?{VS:BR} misericordia vestra quasi nubes matutina,{VS:BR} et quasi ros mane pertransiens.{VS:BR}'
@@ -119,10 +98,10 @@ chapters:
       v:008: 'HOS:6:8 | 8 | 8 | Galaad civitas operantium idolum,{VS:BR} supplantata sanguine.{VS:BR}'
       v:009: 'HOS:6:9 | 9 | 9 | Et quasi fauces virorum latronum,{VS:BR} particeps sacerdotum, in via interficientium pergentes de Sichem :{VS:BR} quia scelus operati sunt.{VS:BR}'
       v:010: 'HOS:6:10 | 10 | 10 | In domo Israël vidi horrendum :{VS:BR} ibi fornicationes Ephraim,{VS:BR} contaminatus est Israël.{VS:BR}'
-      v:011: 'HOS:6:11 | 11 | 11 | Sed et Juda, pone messem tibi,{VS:BR} cum convertero captivitatem populi mei.{VERSE:END}'
+      v:011: 'HOS:6:11 | 11 | 11 | Sed et Juda, pone messem tibi,{VS:BR} cum convertero captivitatem populi mei.{VS:VERSE:END}'
   c:007:
     verses:
-      v:001: 'HOS:7:1 | 1 | 1 | {VERSE:BEGIN}Cum sanare vellem Israël,{VS:BR} revelata est iniquitas Ephraim,{VS:BR} et malitia Samariæ,{VS:BR} quia operati sunt mendacium ;{VS:BR} et fur ingressus est spolians,{VS:BR} latrunculus foris.{VS:BR}'
+      v:001: 'HOS:7:1 | 1 | 1 | {VS:VERSE:BEGIN}Cum sanare vellem Israël,{VS:BR} revelata est iniquitas Ephraim,{VS:BR} et malitia Samariæ,{VS:BR} quia operati sunt mendacium ;{VS:BR} et fur ingressus est spolians,{VS:BR} latrunculus foris.{VS:BR}'
       v:002: 'HOS:7:2 | 2 | 2 | Et ne forte dicant in cordibus suis,{VS:BR} omnem malitiam eorum me recordatum,{VS:BR} nunc circumdederunt eos adinventiones suæ :{VS:BR} coram facie mea factæ sunt.{VS:BR}'
       v:003: 'HOS:7:3 | 3 | 3 | In malitia sua lætificaverunt regem,{VS:BR} et in mendaciis suis principes.{VS:BR}'
       v:004: 'HOS:7:4 | 4 | 4 | Omnes adulterantes,{VS:BR} quasi clibanus succensus a coquente ;{VS:BR} quievit paululum civitas a commistione fermenti,{VS:BR} donec fermentaretur totum.{VS:BR}'
@@ -137,10 +116,10 @@ chapters:
       v:013: 'HOS:7:13 | 13 | 13 | Væ eis, quoniam recesserunt a me !{VS:BR} vastabuntur, quia prævaricati sunt in me,{VS:BR} et ego redemi eos,{VS:BR} et ipsi locuti sunt contra me mendacia.{VS:BR}'
       v:014: 'HOS:7:14 | 14 | 14 | Et non clamaverunt ad me in corde suo,{VS:BR} sed ululabant in cubilibus suis :{VS:BR} super triticum et vinum ruminabant ;{VS:BR} recesserunt a me.{VS:BR}'
       v:015: 'HOS:7:15 | 15 | 15 | Et ego erudivi eos, et confortavi brachia eorum,{VS:BR} et in me cogitaverunt malitiam.{VS:BR}'
-      v:016: 'HOS:7:16 | 16 | 16 | Reversi sunt ut essent absque jugo ;{VS:BR} facti sunt quasi arcus dolosus :{VS:BR} cadent in gladio principes eorum, a furore linguæ suæ.{VS:BR} Ista subsannatio eorum in terra Ægypti.{VERSE:END}'
+      v:016: 'HOS:7:16 | 16 | 16 | Reversi sunt ut essent absque jugo ;{VS:BR} facti sunt quasi arcus dolosus :{VS:BR} cadent in gladio principes eorum, a furore linguæ suæ.{VS:BR} Ista subsannatio eorum in terra Ægypti.{VS:VERSE:END}'
   c:008:
     verses:
-      v:001: 'HOS:8:1 | 1 | 1 | {VERSE:BEGIN}In gutture tuo sit tuba{VS:BR} quasi aquila super domum Domini,{VS:BR} pro eo quod transgressi sunt fœdus meum,{VS:BR} et legem meam prævaricati sunt.{VS:BR}'
+      v:001: 'HOS:8:1 | 1 | 1 | {VS:VERSE:BEGIN}In gutture tuo sit tuba{VS:BR} quasi aquila super domum Domini,{VS:BR} pro eo quod transgressi sunt fœdus meum,{VS:BR} et legem meam prævaricati sunt.{VS:BR}'
       v:002: 'HOS:8:2 | 2 | 2 | Me invocabunt : Deus meus,{VS:BR} cognovimus te Israël.{VS:BR}'
       v:003: 'HOS:8:3 | 3 | 3 | Projecit Israël bonum :{VS:BR} inimicus persequetur eum.{VS:BR}'
       v:004: 'HOS:8:4 | 4 | 4 | Ipsi regnaverunt, et non ex me ;{VS:BR} principes exstiterunt, et non cognovi :{VS:BR} argentum suum et aurum suum fecerunt sibi idola,{VS:BR} ut interirent.{VS:BR}'
@@ -153,10 +132,10 @@ chapters:
       v:011: 'HOS:8:11 | 11 | 11 | Quia multiplicavit Ephraim altaria ad peccandum ;{VS:BR} factæ sunt ei aræ in delictum.{VS:BR}'
       v:012: 'HOS:8:12 | 12 | 12 | Scribam ei multiplices leges meas,{VS:BR} quæ velut alienæ computatæ sunt.{VS:BR}'
       v:013: 'HOS:8:13 | 13 | 13 | Hostias offerent,{VS:BR} immolabunt carnes et comedent,{VS:BR} et Dominus non suscipiet eas :{VS:BR} nunc recordabitur iniquitatis eorum,{VS:BR} et visitabit peccata eorum :{VS:BR} ipsi in Ægyptum convertentur.{VS:BR}'
-      v:014: 'HOS:8:14 | 14 | 14 | Et oblitus est Israël factoris sui,{VS:BR} et ædificavit delubra ;{VS:BR} et Judas multiplicavit urbes munitas ;{VS:BR} et mittam ignem in civitates ejus,{VS:BR} et devorabit ædes illius.{VERSE:END}'
+      v:014: 'HOS:8:14 | 14 | 14 | Et oblitus est Israël factoris sui,{VS:BR} et ædificavit delubra ;{VS:BR} et Judas multiplicavit urbes munitas ;{VS:BR} et mittam ignem in civitates ejus,{VS:BR} et devorabit ædes illius.{VS:VERSE:END}'
   c:009:
     verses:
-      v:001: 'HOS:9:1 | 1 | 1 | {VERSE:BEGIN}Noli lætari, Israël ;{VS:BR} noli exsultare sicut populi :{VS:BR} quia fornicatus es a Deo tuo ;{VS:BR} dilexisti mercedem super omnes areas tritici.{VS:BR}'
+      v:001: 'HOS:9:1 | 1 | 1 | {VS:VERSE:BEGIN}Noli lætari, Israël ;{VS:BR} noli exsultare sicut populi :{VS:BR} quia fornicatus es a Deo tuo ;{VS:BR} dilexisti mercedem super omnes areas tritici.{VS:BR}'
       v:002: 'HOS:9:2 | 2 | 2 | Area et torcular non pascet eos,{VS:BR} et vinum mentietur eis :{VS:BR}'
       v:003: 'HOS:9:3 | 3 | 3 | non habitabunt in terra Domini.{VS:BR} Reversus est Ephraim in Ægyptum,{VS:BR} et in Assyriis pollutum comedit.{VS:BR}'
       v:004: 'HOS:9:4 | 4 | 4 | Non libabunt Domino vinum,{VS:BR} et non placebunt ei.{VS:BR} Sacrificia eorum quasi panis lugentium ;{VS:BR} omnes qui comedent eum, contaminabuntur :{VS:BR} quia panis eorum animæ ipsorum :{VS:BR} non intrabit in domum Domini.{VS:BR}'
@@ -172,10 +151,10 @@ chapters:
       v:014: 'HOS:9:14 | 14 | 14 | Da eis, Domine. Quid dabis eis ?{VS:BR} da eis vulvam sine liberis, et ubera arentia.{VS:BR}'
       v:015: 'HOS:9:15 | 15 | 15 | Omnes nequitiæ eorum in Galgal,{VS:BR} quia ibi exosos habui eos.{VS:BR} Propter malitiam adinventionum eorum,{VS:BR} de domo mea ejiciam eos ;{VS:BR} non addam ut diligam eos :{VS:BR} omnes principes eorum recedentes.{VS:BR}'
       v:016: 'HOS:9:16 | 16 | 16 | Percussus est Ephraim ;{VS:BR} radix eorum exsiccata est :{VS:BR} fructum nequaquam facient,{VS:BR} quod etsi genuerint,{VS:BR} interficiam amantissima uteri eorum.{VS:BR}'
-      v:017: 'HOS:9:17 | 17 | 17 | Abjiciet eos Deus meus, quia non audierunt eum,{VS:BR} et erunt vagi in nationibus.{VERSE:END}'
+      v:017: 'HOS:9:17 | 17 | 17 | Abjiciet eos Deus meus, quia non audierunt eum,{VS:BR} et erunt vagi in nationibus.{VS:VERSE:END}'
   c:010:
     verses:
-      v:001: 'HOS:10:1 | 1 | 1 | {VERSE:BEGIN}Vitis frondosa Israël,{VS:BR} fructus adæquatus est ei :{VS:BR} secundum multitudinem fructus sui multiplicavit altaria,{VS:BR} juxta ubertatem terræ suæ exuberavit simulacris.{VS:BR}'
+      v:001: 'HOS:10:1 | 1 | 1 | {VS:VERSE:BEGIN}Vitis frondosa Israël,{VS:BR} fructus adæquatus est ei :{VS:BR} secundum multitudinem fructus sui multiplicavit altaria,{VS:BR} juxta ubertatem terræ suæ exuberavit simulacris.{VS:BR}'
       v:002: 'HOS:10:2 | 2 | 2 | Divisum est cor eorum, nunc interibunt ;{VS:BR} ipse confringet simulacra eorum,{VS:BR} depopulabitur aras eorum.{VS:BR}'
       v:003: 'HOS:10:3 | 3 | 3 | Quia nunc dicent : Non est rex nobis,{VS:BR} non enim timemus Dominum ;{VS:BR} et rex quid faciet nobis ?{VS:BR}'
       v:004: 'HOS:10:4 | 4 | 4 | Loquimini verba visionis inutilis, et ferietis fœdus ;{VS:BR} et germinabit quasi amaritudo judicium super sulcos agri.{VS:BR}'
@@ -189,10 +168,10 @@ chapters:
       v:012: 'HOS:10:12 | 12 | 12 | Seminate vobis in justitia,{VS:BR} et metite in ore misericordiæ.{VS:BR} Innovate vobis novale ;{VS:BR} tempus autem requirendi Dominum,{VS:BR} cum venerit qui docebit vos justitiam.{VS:BR}'
       v:013: 'HOS:10:13 | 13 | 13 | Arastis impietatem,{VS:BR} iniquitatem messuistis :{VS:BR} comedistis frugem mendacii,{VS:BR} quia confisus es in viis tuis,{VS:BR} in multitudine fortium tuorum.{VS:BR}'
       v:014: 'HOS:10:14 | 14 | 14 | Consurget tumultus in populo tuo ;{VS:BR} et omnes munitiones tuæ vastabuntur,{VS:BR} sicut vastatus est Salmana a domo ejus qui judicavit Baal{VS:BR} in die prælii, matre super filios allisa.{VS:BR}'
-      v:015: 'HOS:10:15 | 15 | 15 | Sic fecit vobis Bethel,{VS:BR} a facie malitiæ nequitiarum vestrarum.{VERSE:END}'
+      v:015: 'HOS:10:15 | 15 | 15 | Sic fecit vobis Bethel,{VS:BR} a facie malitiæ nequitiarum vestrarum.{VS:VERSE:END}'
   c:011:
     verses:
-      v:001: 'HOS:11:1 | 1 | 1 | {VERSE:BEGIN}Sicut mane transiit, pertransiit rex Israël.{VS:BR} Quia puer Israël, et dilexi eum ;{VS:BR} et ex Ægypto vocavi filium meum.{VS:BR}'
+      v:001: 'HOS:11:1 | 1 | 1 | {VS:VERSE:BEGIN}Sicut mane transiit, pertransiit rex Israël.{VS:BR} Quia puer Israël, et dilexi eum ;{VS:BR} et ex Ægypto vocavi filium meum.{VS:BR}'
       v:002: 'HOS:11:2 | 2 | 2 | Vocaverunt eos, sic abierunt a facie eorum ;{VS:BR} Baalim immolabant, et simulacris sacrificabant.{VS:BR}'
       v:003: 'HOS:11:3 | 3 | 3 | Et ego quasi nutritius Ephraim :{VS:BR} portabam eos in brachiis meis,{VS:BR} et nescierunt quod curarem eos.{VS:BR}'
       v:004: 'HOS:11:4 | 4 | 4 | In funiculis Adam traham eos,{VS:BR} in vinculis caritatis ;{VS:BR} et ero eis quasi exaltans jugum super maxillas eorum,{VS:BR} et declinavi ad eum ut vesceretur.{VS:BR}'
@@ -202,11 +181,11 @@ chapters:
       v:008: 'HOS:11:8 | 8 | 8 | Quomodo dabo te, Ephraim ?{VS:BR} protegam te, Israël ?{VS:BR} Quomodo dabo te sicut Adama,{VS:BR} ponam te ut Seboim ?{VS:BR} Conversum est in me cor meum,{VS:BR} pariter conturbata est pœnitudo mea.{VS:BR}'
       v:009: 'HOS:11:9 | 9 | 9 | Non faciam furorem iræ meæ ;{VS:BR} non convertar ut disperdam Ephraim,{VS:BR} quoniam Deus ego, et non homo ;{VS:BR} in medio tui sanctus,{VS:BR} et non ingrediar civitatem.{VS:BR}'
       v:010: 'HOS:11:10 | 10 | 10 | Post Dominum ambulabunt ;{VS:BR} quasi leo rugiet,{VS:BR} quia ipse rugiet,{VS:BR} et formidabunt filii maris.{VS:BR}'
-      v:011: 'HOS:11:11 | 11 | 11 | Et avolabunt quasi avis ex Ægypto,{VS:BR} et quasi columba de terra Assyriorum :{VS:BR} et collocabo eos in domibus suis, dicit Dominus.{VERSE:END}{VS:P}'
-      v:012: 'HOS:11:12 | 12 | 12 | {VERSE:BEGIN}Circumdedit me in negatione Ephraim,{VS:BR} et in dolo domus Israël ;{VS:BR} Judas autem testis descendit cum Deo,{VS:BR} et cum sanctis fidelis.{VERSE:END}'
+      v:011: 'HOS:11:11 | 11 | 11 | Et avolabunt quasi avis ex Ægypto,{VS:BR} et quasi columba de terra Assyriorum :{VS:BR} et collocabo eos in domibus suis, dicit Dominus.{VS:VERSE:END}{VS:P}'
+      v:012: 'HOS:11:12 | 12 | 12 | {VS:VERSE:BEGIN}Circumdedit me in negatione Ephraim,{VS:BR} et in dolo domus Israël ;{VS:BR} Judas autem testis descendit cum Deo,{VS:BR} et cum sanctis fidelis.{VS:VERSE:END}'
   c:012:
     verses:
-      v:001: 'HOS:12:1 | 1 | 1 | {VERSE:BEGIN}Ephraim pascit ventum,{VS:BR} et sequitur æstum ;{VS:BR} tota die mendacium et vastitatem multiplicat :{VS:BR} et fœdus cum Assyriis iniit,{VS:BR} et oleum in Ægyptum ferebat.{VS:BR}'
+      v:001: 'HOS:12:1 | 1 | 1 | {VS:VERSE:BEGIN}Ephraim pascit ventum,{VS:BR} et sequitur æstum ;{VS:BR} tota die mendacium et vastitatem multiplicat :{VS:BR} et fœdus cum Assyriis iniit,{VS:BR} et oleum in Ægyptum ferebat.{VS:BR}'
       v:002: 'HOS:12:2 | 2 | 2 | Judicium ergo Domini cum Juda,{VS:BR} et visitatio super Jacob :{VS:BR} juxta vias ejus, et juxta adinventiones ejus reddet ei.{VS:BR}'
       v:003: 'HOS:12:3 | 3 | 3 | In utero supplantavit fratrem suum,{VS:BR} et in fortitudine sua directus est cum angelo.{VS:BR}'
       v:004: 'HOS:12:4 | 4 | 4 | Et invaluit ad angelum, et confortatus est ;{VS:BR} flevit, et rogavit eum.{VS:BR} In Bethel invenit eum,{VS:BR} et ibi locutus est nobiscum.{VS:BR}'
@@ -219,10 +198,10 @@ chapters:
       v:011: 'HOS:12:11 | 11 | 11 | Si Galaad idolum, ergo frustra erant in Galgal bobus immolantes ;{VS:BR} nam et altaria eorum quasi acervi super sulcos agri.{VS:BR}'
       v:012: 'HOS:12:12 | 12 | 12 | Fugit Jacob in regionem Syriæ,{VS:BR} et servivit Israël in uxorem,{VS:BR} et in uxorem servavit.{VS:BR}'
       v:013: 'HOS:12:13 | 13 | 13 | In propheta autem eduxit Dominus Israël de Ægypto,{VS:BR} et in propheta servatus est.{VS:BR}'
-      v:014: 'HOS:12:14 | 14 | 14 | Ad iracundiam me provocavit Ephraim in amaritudinibus suis :{VS:BR} et sanguis ejus super eum veniet,{VS:BR} et opprobrium ejus restituet ei Dominus suus.{VERSE:END}'
+      v:014: 'HOS:12:14 | 14 | 14 | Ad iracundiam me provocavit Ephraim in amaritudinibus suis :{VS:BR} et sanguis ejus super eum veniet,{VS:BR} et opprobrium ejus restituet ei Dominus suus.{VS:VERSE:END}'
   c:013:
     verses:
-      v:001: 'HOS:13:1 | 1 | 1 | {VERSE:BEGIN}Loquente Ephraim, horror invasit Israël ;{VS:BR} et deliquit in Baal, et mortuus est.{VS:BR}'
+      v:001: 'HOS:13:1 | 1 | 1 | {VS:VERSE:BEGIN}Loquente Ephraim, horror invasit Israël ;{VS:BR} et deliquit in Baal, et mortuus est.{VS:BR}'
       v:002: 'HOS:13:2 | 2 | 2 | Et nunc addiderunt ad peccandum ;{VS:BR} feceruntque sibi conflatile de argento suo{VS:BR} quasi similitudinem idolorum :{VS:BR} factura artificum totum est :{VS:BR} his ipsi dicunt : Immolate homines, vitulos adorantes.{VS:BR}'
       v:003: 'HOS:13:3 | 3 | 3 | Idcirco erunt quasi nubes matutina,{VS:BR} et sicut ros matutinus præteriens ;{VS:BR} sicut pulvis turbine raptus ex area,{VS:BR} et sicut fumus de fumario.{VS:BR}'
       v:004: 'HOS:13:4 | 4 | 4 | Ego autem Dominus Deus tuus, ex terra Ægypti ;{VS:BR} et Deum absque me nescies,{VS:BR} et salvator non est præter me.{VS:BR}'
@@ -236,11 +215,11 @@ chapters:
       v:012: 'HOS:13:12 | 12 | 12 | Colligata est iniquitas Ephraim ;{VS:BR} absconditum peccatum ejus.{VS:BR}'
       v:013: 'HOS:13:13 | 13 | 13 | Dolores parturientis venient ei :{VS:BR} ipse filius non sapiens :{VS:BR} nunc enim non stabit in contritione filiorum.{VS:BR}'
       v:014: 'HOS:13:14 | 14 | 14 | De manu mortis liberabo eos ;{VS:BR} de morte redimam eos.{VS:BR} Ero mors tua, o mors !{VS:BR} morsus tuus ero, inferne !{VS:BR} consolatio abscondita est ab oculis meis.{VS:BR}'
-      v:015: 'HOS:13:15 | 15 | 15 | Quia ipse inter fratres dividet :{VS:BR} adducet urentem ventum Dominus de deserto ascendentem,{VS:BR} et siccabit venas ejus,{VS:BR} et desolabit fontem ejus :{VS:BR} et ipse diripiet thesaurum omnis vasis desiderabilis.{VERSE:END}'
+      v:015: 'HOS:13:15 | 15 | 15 | Quia ipse inter fratres dividet :{VS:BR} adducet urentem ventum Dominus de deserto ascendentem,{VS:BR} et siccabit venas ejus,{VS:BR} et desolabit fontem ejus :{VS:BR} et ipse diripiet thesaurum omnis vasis desiderabilis.{VS:VERSE:END}'
   c:014:
     verses:
-      v:001: 'HOS:14:1 | 1 | 1 | {VERSE:BEGIN}Pereat Samaria, quoniam ad amaritudinem concitavit Deum suum !{VS:BR} in gladio pereant,{VS:BR} parvuli eorum elidantur,{VS:BR} et fœtæ ejus discindantur !{VERSE:END}{VS:P}'
-      v:002: 'HOS:14:2 | 2 | 2 | {VERSE:BEGIN}Convertere, Israël, ad Dominum Deum tuum,{VS:BR} quoniam corruisti in iniquitate tua.{VS:BR}'
+      v:001: 'HOS:14:1 | 1 | 1 | {VS:VERSE:BEGIN}Pereat Samaria, quoniam ad amaritudinem concitavit Deum suum !{VS:BR} in gladio pereant,{VS:BR} parvuli eorum elidantur,{VS:BR} et fœtæ ejus discindantur !{VS:VERSE:END}{VS:P}'
+      v:002: 'HOS:14:2 | 2 | 2 | {VS:VERSE:BEGIN}Convertere, Israël, ad Dominum Deum tuum,{VS:BR} quoniam corruisti in iniquitate tua.{VS:BR}'
       v:003: 'HOS:14:3 | 3 | 3 | Tollite vobiscum verba,{VS:BR} et convertimini ad Dominum ; et dicite ei :{VS:BR} Omnem aufer iniquitatem, accipe bonum,{VS:BR} et reddemus vitulos labiorum nostrorum.{VS:BR}'
       v:004: 'HOS:14:4 | 4 | 4 | Assur non salvabit nos :{VS:BR} super equum non ascendemus,{VS:BR} nec dicemus ultra, Dii nostri opera manuum nostrarum :{VS:BR} quia ejus, qui in te est, misereberis pupilli.{VS:BR}'
       v:005: 'HOS:14:5 | 5 | 5 | Sanabo contritiones eorum ;{VS:BR} diligam eos spontanee :{VS:BR} quia aversus est furor meus ab eis.{VS:BR}'
@@ -248,4 +227,4 @@ chapters:
       v:007: 'HOS:14:7 | 7 | 7 | Ibunt rami ejus,{VS:BR} et erit quasi oliva gloria ejus,{VS:BR} et odor ejus ut Libani.{VS:BR}'
       v:008: 'HOS:14:8 | 8 | 8 | Convertentur sedentes in umbra ejus ;{VS:BR} vivent tritico, et germinabunt quasi vinea ;{VS:BR} memoriale ejus sicut vinum Libani.{VS:BR}'
       v:009: 'HOS:14:9 | 9 | 9 | Ephraim, quid mihi ultra idola ?{VS:BR} Ego exaudiam, et dirigam eum ego ut abietem virentem ;{VS:BR} ex me fructus tuus inventus est.{VS:BR}'
-      v:010: 'HOS:14:10 | 10 | 10 | Quis sapiens, et intelliget ista ? intelligens, et sciet hæc ?{VS:BR} quia rectæ viæ Domini,{VS:BR} et justi ambulabunt in eis ;{VS:BR} prævaricatores vero corruent in eis.{VERSE:END}'
+      v:010: 'HOS:14:10 | 10 | 10 | Quis sapiens, et intelliget ista ? intelligens, et sciet hæc ?{VS:BR} quia rectæ viæ Domini,{VS:BR} et justi ambulabunt in eis ;{VS:BR} prævaricatores vero corruent in eis.{VS:VERSE:END}'

@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Dt.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: DEU
 book_title: Deuteronomium
@@ -953,10 +932,10 @@ chapters:
       v:030: 'DEU:31:30 | 30 | 30 | Locutus est ergo Moyses, audiente universo cœtu Israël, verba carminis hujus, et ad finem usque complevit.'
   c:032:
     verses:
-      v:001: 'DEU:32:1 | 1 | 1 | {VERSE:BEGIN}Audite, cæli, quæ loquor :{VS:BR} audiat terra verba oris mei.{VS:BR}'
+      v:001: 'DEU:32:1 | 1 | 1 | {VS:VERSE:BEGIN}Audite, cæli, quæ loquor :{VS:BR} audiat terra verba oris mei.{VS:BR}'
       v:002: 'DEU:32:2 | 2 | 2 | Concrescat ut pluvia doctrina mea,{VS:BR} fluat ut ros eloquium meum,{VS:BR} quasi imber super herbam,{VS:BR} et quasi stillæ super gramina.{VS:BR}'
-      v:003: 'DEU:32:3 | 3 | 3 | Quia nomen Domini invocabo :{VS:BR} date magnificentiam Deo nostro.{VERSE:END}{VS:P}'
-      v:004: 'DEU:32:4 | 4 | 4 | {VERSE:BEGIN}Dei perfecta sunt opera,{VS:BR} et omnes viæ ejus judicia :{VS:BR} Deus fidelis, et absque ulla iniquitate,{VS:BR} justus et rectus.{VS:BR}'
+      v:003: 'DEU:32:3 | 3 | 3 | Quia nomen Domini invocabo :{VS:BR} date magnificentiam Deo nostro.{VS:VERSE:END}{VS:P}'
+      v:004: 'DEU:32:4 | 4 | 4 | {VS:VERSE:BEGIN}Dei perfecta sunt opera,{VS:BR} et omnes viæ ejus judicia :{VS:BR} Deus fidelis, et absque ulla iniquitate,{VS:BR} justus et rectus.{VS:BR}'
       v:005: 'DEU:32:5 | 5 | 5 | Peccaverunt ei, et non filii ejus in sordibus :{VS:BR} generatio prava atque perversa.{VS:BR}'
       v:006: 'DEU:32:6 | 6 | 6 | Hæccine reddis Domino,{VS:BR} popule stulte et insipiens ?{VS:BR} numquid non ipse est pater tuus,{VS:BR} qui possedit te, et fecit, et creavit te ?{VS:BR}'
       v:007: 'DEU:32:7 | 7 | 7 | Memento dierum antiquorum, cogita generationes singulas :{VS:BR} interroga patrem tuum,{VS:BR} et annuntiabit tibi :{VS:BR} majores tuos, et dicent tibi.{VS:BR}'
@@ -966,19 +945,19 @@ chapters:
       v:011: 'DEU:32:11 | 11 | 11 | Sicut aquila provocans ad volandum pullos suos,{VS:BR} et super eos volitans,{VS:BR} expandit alas suas, et assumpsit eum,{VS:BR} atque portavit in humeris suis.{VS:BR}'
       v:012: 'DEU:32:12 | 12 | 12 | Dominus solus dux ejus fuit,{VS:BR} et non erat cum eo deus alienus :{VS:BR}'
       v:013: 'DEU:32:13 | 13 | 13 | constituit eum super excelsam terram,{VS:BR} ut comederet fructus agrorum :{VS:BR} ut sugeret mel de petra,{VS:BR} oleumque de saxo durissimo ;{VS:BR}'
-      v:014: 'DEU:32:14 | 14 | 14 | butyrum de armento, et lac de ovibus{VS:BR} cum adipe agnorum,{VS:BR} et arietum filiorum Basan : et hircos{VS:BR} cum medulla tritici,{VS:BR} et sanguinem uvæ biberet meracissimum.{VERSE:END}{VS:P}'
-      v:015: 'DEU:32:15 | 15 | 15 | {VERSE:BEGIN}Incrassatus est dilectus, et recalcitravit :{VS:BR} incrassatus, impinguatus, dilatatus,{VS:BR} dereliquit Deum factorem suum,{VS:BR} et recessit a Deo salutari suo.{VS:BR}'
+      v:014: 'DEU:32:14 | 14 | 14 | butyrum de armento, et lac de ovibus{VS:BR} cum adipe agnorum,{VS:BR} et arietum filiorum Basan : et hircos{VS:BR} cum medulla tritici,{VS:BR} et sanguinem uvæ biberet meracissimum.{VS:VERSE:END}{VS:P}'
+      v:015: 'DEU:32:15 | 15 | 15 | {VS:VERSE:BEGIN}Incrassatus est dilectus, et recalcitravit :{VS:BR} incrassatus, impinguatus, dilatatus,{VS:BR} dereliquit Deum factorem suum,{VS:BR} et recessit a Deo salutari suo.{VS:BR}'
       v:016: 'DEU:32:16 | 16 | 16 | Provocaverunt eum in diis alienis,{VS:BR} et in abominationibus ad iracundiam concitaverunt.{VS:BR}'
       v:017: 'DEU:32:17 | 17 | 17 | Immolaverunt dæmoniis et non Deo,{VS:BR} diis quos ignorabant :{VS:BR} novi recentesque venerunt,{VS:BR} quos non coluerunt patres eorum :{VS:BR}'
-      v:018: 'DEU:32:18 | 18 | 18 | Deum qui te genuit dereliquisti,{VS:BR} et oblitus es Domini creatoris tui.{VERSE:END}{VS:P}'
-      v:019: 'DEU:32:19 | 19 | 19 | {VERSE:BEGIN}Vidit Dominus, et ad iracundiam concitatus est :{VS:BR} quia provocaverunt eum filii sui et filiæ.{VS:BR}'
+      v:018: 'DEU:32:18 | 18 | 18 | Deum qui te genuit dereliquisti,{VS:BR} et oblitus es Domini creatoris tui.{VS:VERSE:END}{VS:P}'
+      v:019: 'DEU:32:19 | 19 | 19 | {VS:VERSE:BEGIN}Vidit Dominus, et ad iracundiam concitatus est :{VS:BR} quia provocaverunt eum filii sui et filiæ.{VS:BR}'
       v:020: 'DEU:32:20 | 20 | 20 | Et ait : Abscondam faciem meam ab eis,{VS:BR} et considerabo novissima eorum :{VS:BR} generatio enim perversa est,{VS:BR} et infideles filii.{VS:BR}'
       v:021: 'DEU:32:21 | 21 | 21 | Ipsi me provocaverunt in eo qui non erat Deus,{VS:BR} et irritaverunt in vanitatibus suis :{VS:BR} et ego provocabo eos in eo qui non est populus,{VS:BR} et in gente stulta irritabo illos.{VS:BR}'
       v:022: 'DEU:32:22 | 22 | 22 | Ignis succensus est in furore meo,{VS:BR} et ardebit usque ad inferni novissima :{VS:BR} devorabitque terram cum germine suo,{VS:BR} et montium fundamenta comburet.{VS:BR}'
       v:023: 'DEU:32:23 | 23 | 23 | Congregabo super eos mala,{VS:BR} et sagittas meas complebo in eis.{VS:BR}'
       v:024: 'DEU:32:24 | 24 | 24 | Consumentur fame,{VS:BR} et devorabunt eos aves morsu amarissimo :{VS:BR} dentes bestiarum immittam in eos,{VS:BR} cum furore trahentium super terram, atque serpentium.{VS:BR}'
-      v:025: 'DEU:32:25 | 25 | 25 | Foris vastabit eos gladius,{VS:BR} et intus pavor,{VS:BR} juvenem simul ac virginem,{VS:BR} lactentem cum homine sene.{VERSE:END}{VS:P}'
-      v:026: 'DEU:32:26 | 26 | 26 | {VERSE:BEGIN}Dixi : Ubinam sunt ?{VS:BR} cessare faciam ex hominibus memoriam eorum.{VS:BR}'
+      v:025: 'DEU:32:25 | 25 | 25 | Foris vastabit eos gladius,{VS:BR} et intus pavor,{VS:BR} juvenem simul ac virginem,{VS:BR} lactentem cum homine sene.{VS:VERSE:END}{VS:P}'
+      v:026: 'DEU:32:26 | 26 | 26 | {VS:VERSE:BEGIN}Dixi : Ubinam sunt ?{VS:BR} cessare faciam ex hominibus memoriam eorum.{VS:BR}'
       v:027: 'DEU:32:27 | 27 | 27 | Sed propter iram inimicorum distuli :{VS:BR} ne forte superbirent hostes eorum,{VS:BR} et dicerent : Manus nostra excelsa,{VS:BR} et non Dominus, fecit hæc omnia.{VS:BR}'
       v:028: 'DEU:32:28 | 28 | 28 | Gens absque consilio est,{VS:BR} et sine prudentia.{VS:BR}'
       v:029: 'DEU:32:29 | 29 | 29 | Utinam saperent, et intelligerent,{VS:BR} ac novissima providerent.{VS:BR}'
@@ -988,14 +967,14 @@ chapters:
       v:033: 'DEU:32:33 | 33 | 33 | Fel draconum vinum eorum,{VS:BR} et venenum aspidum insanabile.{VS:BR}'
       v:034: 'DEU:32:34 | 34 | 34 | Nonne hæc condita sunt apud me,{VS:BR} et signata in thesauris meis ?{VS:BR}'
       v:035: 'DEU:32:35 | 35 | 35 | Mea est ultio, et ego retribuam in tempore,{VS:BR} ut labatur pes eorum :{VS:BR} juxta est dies perditionis,{VS:BR} et adesse festinant tempora.{VS:BR}'
-      v:036: 'DEU:32:36 | 36 | 36 | Judicabit Dominus populum suum,{VS:BR} et in servis suis miserebitur :{VS:BR} videbit quod infirmata sit manus,{VS:BR} et clausi quoque defecerunt,{VS:BR} residuique consumpti sunt.{VERSE:END}{VS:P}'
-      v:037: 'DEU:32:37 | 37 | 37 | {VERSE:BEGIN}Et dicet : Ubi sunt dii eorum,{VS:BR} in quibus habebant fiduciam ?{VS:BR}'
+      v:036: 'DEU:32:36 | 36 | 36 | Judicabit Dominus populum suum,{VS:BR} et in servis suis miserebitur :{VS:BR} videbit quod infirmata sit manus,{VS:BR} et clausi quoque defecerunt,{VS:BR} residuique consumpti sunt.{VS:VERSE:END}{VS:P}'
+      v:037: 'DEU:32:37 | 37 | 37 | {VS:VERSE:BEGIN}Et dicet : Ubi sunt dii eorum,{VS:BR} in quibus habebant fiduciam ?{VS:BR}'
       v:038: 'DEU:32:38 | 38 | 38 | de quorum victimis comedebant adipes,{VS:BR} et bibebant vinum libaminum :{VS:BR} surgant, et opitulentur vobis,{VS:BR} et in necessitate vos protegant.{VS:BR}'
       v:039: 'DEU:32:39 | 39 | 39 | Videte quod ego sim solus,{VS:BR} et non sit alius deus præter me :{VS:BR} ego occidam, et ego vivere faciam :{VS:BR} percutiam, et ego sanabo,{VS:BR} et non est qui de manu mea possit eruere.{VS:BR}'
       v:040: 'DEU:32:40 | 40 | 40 | Levabo ad cælum manum meam,{VS:BR} et dicam : Vivo ego in æternum.{VS:BR}'
       v:041: 'DEU:32:41 | 41 | 41 | Si acuero ut fulgur gladium meum,{VS:BR} et arripuerit judicium manus mea :{VS:BR} reddam ultionem hostibus meis,{VS:BR} et his qui oderunt me retribuam.{VS:BR}'
       v:042: 'DEU:32:42 | 42 | 42 | Inebriabo sagittas meas sanguine,{VS:BR} et gladius meus devorabit carnes ;{VS:BR} de cruore occisorum et de captivitate,{VS:BR} nudati inimicorum capitis.{VS:BR}'
-      v:043: 'DEU:32:43 | 43 | 43 | Laudate, gentes, populum ejus,{VS:BR} quia sanguinem servorum suorum ulciscetur :{VS:BR} et vindictam retribuet in hostes eorum,{VS:BR} et propitius erit terræ populi sui.{VERSE:END}{VS:P}'
+      v:043: 'DEU:32:43 | 43 | 43 | Laudate, gentes, populum ejus,{VS:BR} quia sanguinem servorum suorum ulciscetur :{VS:BR} et vindictam retribuet in hostes eorum,{VS:BR} et propitius erit terræ populi sui.{VS:VERSE:END}{VS:P}'
       v:044: 'DEU:32:44 | 44 | 44 | Venit ergo Moyses, et locutus est omnia verba cantici hujus in auribus populi, ipse et Josue filius Nun.'
       v:045: 'DEU:32:45 | 45 | 45 | Complevitque omnes sermones istos, loquens ad universum Israël,'
       v:046: 'DEU:32:46 | 46 | 46 | et dixit ad eos : Ponite corda vestra in omnia verba, quæ ego testificor vobis hodie : ut mandetis ea filiis vestris custodire et facere, et implere universa quæ scripta sunt legis hujus :'
@@ -1008,34 +987,34 @@ chapters:
   c:033:
     verses:
       v:001: 'DEU:33:1 | 1 | 1 | Hæc est benedictio, qua benedixit Moyses, homo Dei, filiis Israël ante mortem suam.'
-      v:002: 'DEU:33:2 | 2 | 2 | Et ait : {VERSE:BEGIN}Dominus de Sinai venit,{VS:BR} et de Seir ortus est nobis :{VS:BR} apparuit de monte Pharan,{VS:BR} et cum eo sanctorum millia.{VS:BR} In dextera ejus ignea lex.{VS:BR}'
+      v:002: 'DEU:33:2 | 2 | 2 | Et ait : {VS:VERSE:BEGIN}Dominus de Sinai venit,{VS:BR} et de Seir ortus est nobis :{VS:BR} apparuit de monte Pharan,{VS:BR} et cum eo sanctorum millia.{VS:BR} In dextera ejus ignea lex.{VS:BR}'
       v:003: 'DEU:33:3 | 3 | 3 | Dilexit populos,{VS:BR} omnes sancti in manu illius sunt :{VS:BR} et qui appropinquant pedibus ejus,{VS:BR} accipient de doctrina illius.{VS:BR}'
       v:004: 'DEU:33:4 | 4 | 4 | Legem præcepit nobis Moyses,{VS:BR} hæreditatem multitudinis Jacob.{VS:BR}'
       v:005: 'DEU:33:5 | 5 | 5 | Erit apud rectissimum rex,{VS:BR} congregatis principibus populi cum tribubus Israël.{VS:BR}'
-      v:006: 'DEU:33:6 | 6 | 6 | Vivat Ruben, et non moriatur,{VS:BR} et sit parvus in numero.{VERSE:END}'
-      v:007: 'DEU:33:7 | 7 | 7 | Hæc est Judæ benedictio : {VERSE:BEGIN}Audi, Domine, vocem Judæ,{VS:BR} et ad populum suum introduc eum :{VS:BR} manus ejus pugnabunt pro eo,{VS:BR} et adjutor illius contra adversarios ejus erit.{VERSE:END}'
-      v:008: 'DEU:33:8 | 8 | 8 | Levi quoque ait : {VERSE:BEGIN}Perfectio tua, et doctrina tua viro sancto tuo,{VS:BR} quem probasti in tentatione,{VS:BR} et judicasti ad aquas contradictionis.{VS:BR}'
+      v:006: 'DEU:33:6 | 6 | 6 | Vivat Ruben, et non moriatur,{VS:BR} et sit parvus in numero.{VS:VERSE:END}'
+      v:007: 'DEU:33:7 | 7 | 7 | Hæc est Judæ benedictio : {VS:VERSE:BEGIN}Audi, Domine, vocem Judæ,{VS:BR} et ad populum suum introduc eum :{VS:BR} manus ejus pugnabunt pro eo,{VS:BR} et adjutor illius contra adversarios ejus erit.{VS:VERSE:END}'
+      v:008: 'DEU:33:8 | 8 | 8 | Levi quoque ait : {VS:VERSE:BEGIN}Perfectio tua, et doctrina tua viro sancto tuo,{VS:BR} quem probasti in tentatione,{VS:BR} et judicasti ad aquas contradictionis.{VS:BR}'
       v:009: 'DEU:33:9 | 9 | 9 | Qui dixit patri suo et matri suæ : Nescio vos :{VS:BR} et fratribus suis : Ignoro vos :{VS:BR} et nescierunt filios suos.{VS:BR} Hi custodierunt eloquium tuum,{VS:BR} et pactum tuum servaverunt.{VS:BR}'
       v:010: 'DEU:33:10 | 10 | 10 | Judicia tua, o Jacob,{VS:BR} et legem tuam, o Israël :{VS:BR} ponent thymiama in furore tuo,{VS:BR} et holocaustum super altare tuum.{VS:BR}'
-      v:011: 'DEU:33:11 | 11 | 11 | Benedic, Domine, fortitudini ejus :{VS:BR} et opera manuum illius suscipe.{VS:BR} Percute dorsa inimicorum ejus :{VS:BR} et qui oderunt eum, non consurgant.{VERSE:END}'
-      v:012: 'DEU:33:12 | 12 | 12 | Et Benjamin ait : {VERSE:BEGIN}Amantissimus Domini habitabit confidenter in eo :{VS:BR} quasi in thalamo tota die morabitur,{VS:BR} et inter humeros illius requiescet.{VERSE:END}'
-      v:013: 'DEU:33:13 | 13 | 13 | Joseph quoque ait : {VERSE:BEGIN}De benedictione Domini terra ejus,{VS:BR} de pomis cæli, et rore, atque abysso subjacente.{VS:BR}'
+      v:011: 'DEU:33:11 | 11 | 11 | Benedic, Domine, fortitudini ejus :{VS:BR} et opera manuum illius suscipe.{VS:BR} Percute dorsa inimicorum ejus :{VS:BR} et qui oderunt eum, non consurgant.{VS:VERSE:END}'
+      v:012: 'DEU:33:12 | 12 | 12 | Et Benjamin ait : {VS:VERSE:BEGIN}Amantissimus Domini habitabit confidenter in eo :{VS:BR} quasi in thalamo tota die morabitur,{VS:BR} et inter humeros illius requiescet.{VS:VERSE:END}'
+      v:013: 'DEU:33:13 | 13 | 13 | Joseph quoque ait : {VS:VERSE:BEGIN}De benedictione Domini terra ejus,{VS:BR} de pomis cæli, et rore, atque abysso subjacente.{VS:BR}'
       v:014: 'DEU:33:14 | 14 | 14 | De pomis fructuum solis ac lunæ,{VS:BR}'
       v:015: 'DEU:33:15 | 15 | 15 | de vertice antiquorum montium,{VS:BR} de pomis collium æternorum :{VS:BR}'
       v:016: 'DEU:33:16 | 16 | 16 | et de frugibus terræ, et de plenitudine ejus.{VS:BR} Benedictio illius qui apparuit in rubo,{VS:BR} veniat super caput Joseph,{VS:BR} et super verticem nazaræi inter fratres suos.{VS:BR}'
-      v:017: 'DEU:33:17 | 17 | 17 | Quasi primogeniti tauri pulchritudo ejus,{VS:BR} cornua rhinocerotis cornua illius :{VS:BR} in ipsis ventilabit gentes usque ad terminos terræ.{VS:BR} Hæ sunt multitudines Ephraim :{VS:BR} et hæc millia Manasse.{VERSE:END}'
-      v:018: 'DEU:33:18 | 18 | 18 | Et Zabulon ait : {VERSE:BEGIN}Lætare, Zabulon, in exitu tuo,{VS:BR} et Issachar in tabernaculis tuis.{VS:BR}'
-      v:019: 'DEU:33:19 | 19 | 19 | Populos vocabunt ad montem :{VS:BR} ibi immolabunt victimas justitiæ.{VS:BR} Qui inundationem maris quasi lac sugent,{VS:BR} et thesauros absconditos arenarum.{VERSE:END}'
-      v:020: 'DEU:33:20 | 20 | 20 | Et Gad ait : {VERSE:BEGIN}Benedictus in latitudine Gad :{VS:BR} quasi leo requievit,{VS:BR} cepitque brachium et verticem.{VS:BR}'
-      v:021: 'DEU:33:21 | 21 | 21 | Et vidit principatum suum,{VS:BR} quod in parte sua doctor esset repositus :{VS:BR} qui fuit cum principibus populi,{VS:BR} et fecit justitias Domini,{VS:BR} et judicium suum cum Israël.{VERSE:END}'
-      v:022: 'DEU:33:22 | 22 | 22 | Dan quoque ait : {VERSE:BEGIN}Dan catulus leonis, fluet largiter de Basan.{VERSE:END}'
-      v:023: 'DEU:33:23 | 23 | 23 | Et Nephthali dixit : {VERSE:BEGIN}Nephthali abundantia perfruetur,{VS:BR} et plenus erit benedictionibus Domini :{VS:BR} mare et meridiem possidebit.{VERSE:END}'
-      v:024: 'DEU:33:24 | 24 | 24 | Aser quoque ait : {VERSE:BEGIN}Benedictus in filiis Aser,{VS:BR} sit placens fratribus suis,{VS:BR} et tingat in oleo pedem suum :{VS:BR}'
+      v:017: 'DEU:33:17 | 17 | 17 | Quasi primogeniti tauri pulchritudo ejus,{VS:BR} cornua rhinocerotis cornua illius :{VS:BR} in ipsis ventilabit gentes usque ad terminos terræ.{VS:BR} Hæ sunt multitudines Ephraim :{VS:BR} et hæc millia Manasse.{VS:VERSE:END}'
+      v:018: 'DEU:33:18 | 18 | 18 | Et Zabulon ait : {VS:VERSE:BEGIN}Lætare, Zabulon, in exitu tuo,{VS:BR} et Issachar in tabernaculis tuis.{VS:BR}'
+      v:019: 'DEU:33:19 | 19 | 19 | Populos vocabunt ad montem :{VS:BR} ibi immolabunt victimas justitiæ.{VS:BR} Qui inundationem maris quasi lac sugent,{VS:BR} et thesauros absconditos arenarum.{VS:VERSE:END}'
+      v:020: 'DEU:33:20 | 20 | 20 | Et Gad ait : {VS:VERSE:BEGIN}Benedictus in latitudine Gad :{VS:BR} quasi leo requievit,{VS:BR} cepitque brachium et verticem.{VS:BR}'
+      v:021: 'DEU:33:21 | 21 | 21 | Et vidit principatum suum,{VS:BR} quod in parte sua doctor esset repositus :{VS:BR} qui fuit cum principibus populi,{VS:BR} et fecit justitias Domini,{VS:BR} et judicium suum cum Israël.{VS:VERSE:END}'
+      v:022: 'DEU:33:22 | 22 | 22 | Dan quoque ait : {VS:VERSE:BEGIN}Dan catulus leonis, fluet largiter de Basan.{VS:VERSE:END}'
+      v:023: 'DEU:33:23 | 23 | 23 | Et Nephthali dixit : {VS:VERSE:BEGIN}Nephthali abundantia perfruetur,{VS:BR} et plenus erit benedictionibus Domini :{VS:BR} mare et meridiem possidebit.{VS:VERSE:END}'
+      v:024: 'DEU:33:24 | 24 | 24 | Aser quoque ait : {VS:VERSE:BEGIN}Benedictus in filiis Aser,{VS:BR} sit placens fratribus suis,{VS:BR} et tingat in oleo pedem suum :{VS:BR}'
       v:025: 'DEU:33:25 | 25 | 25 | ferrum et æs calceamentum ejus.{VS:BR} Sicut dies juventutis tuæ, ita et senectus tua.{VS:BR}'
       v:026: 'DEU:33:26 | 26 | 26 | Non est deus alius ut Deus rectissimi,{VS:BR} ascensor cæli, auxiliator tuus.{VS:BR} Magnificentia ejus discurrunt nubes,{VS:BR}'
       v:027: 'DEU:33:27 | 27 | 27 | habitaculum ejus sursum,{VS:BR} et subter brachia sempiterna{VS:BR} ejiciet a facie tua inimicum,{VS:BR} dicetque : Conterere.{VS:BR}'
       v:028: 'DEU:33:28 | 28 | 28 | Habitabit Israël confidenter, et solus.{VS:BR} Oculus Jacob in terra frumenti et vini,{VS:BR} cælique caligabunt rore.{VS:BR}'
-      v:029: 'DEU:33:29 | 29 | 29 | Beatus es tu, Israël :{VS:BR} quis similis tui, popule, qui salvaris in Domino ?{VS:BR} Scutum auxilii tui,{VS:BR} et gladius gloriæ tuæ :{VS:BR} negabunt te inimici tui,{VS:BR} et tu eorum colla calcabis.{VERSE:END}'
+      v:029: 'DEU:33:29 | 29 | 29 | Beatus es tu, Israël :{VS:BR} quis similis tui, popule, qui salvaris in Domino ?{VS:BR} Scutum auxilii tui,{VS:BR} et gladius gloriæ tuæ :{VS:BR} negabunt te inimici tui,{VS:BR} et tu eorum colla calcabis.{VS:VERSE:END}'
   c:034:
     verses:
       v:001: 'DEU:34:1 | 1 | 1 | Ascendit ergo Moyses de campestribus Moab super montem Nebo, in verticem Phasga contra Jericho : ostenditque ei Dominus omnem terram Galaad usque Dan,'

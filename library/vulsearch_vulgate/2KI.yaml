@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/4Rg.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: 2KI
 book_title: Regum IV
@@ -609,7 +588,7 @@ chapters:
       v:018: '2KI:19:18 | 18 | 18 | Et miserunt deos eorum in ignem : non enim erant dii, sed opera manuum hominum, ex ligno et lapide : et perdiderunt eos.'
       v:019: '2KI:19:19 | 19 | 19 | Nunc igitur Domine Deus noster, salvos nos fac de manu ejus, ut sciant omnia regna terræ quia tu es Dominus Deus solus.'
       v:020: '2KI:19:20 | 20 | 20 | Misit autem Isaias filius Amos ad Ezechiam, dicens : Hæc dicit Dominus Deus Israël : Quæ deprecatus es me super Sennacherib rege Assyriorum, audivi.{VS:P}'
-      v:021: '2KI:19:21 | 21 | 21 | Iste est sermo, quem locutus est Dominus de eo : {VERSE:BEGIN}Sprevit te, et subsannavit te, virgo filia Sion :{VS:BR} post tergum tuum caput movit, filia Jerusalem.{VS:BR}'
+      v:021: '2KI:19:21 | 21 | 21 | Iste est sermo, quem locutus est Dominus de eo : {VS:VERSE:BEGIN}Sprevit te, et subsannavit te, virgo filia Sion :{VS:BR} post tergum tuum caput movit, filia Jerusalem.{VS:BR}'
       v:022: '2KI:19:22 | 22 | 22 | Cui exprobrasti, et quem blasphemasti ?{VS:BR} contra quem exaltasti vocem tuam, et elevasti in excelsum oculos tuos ?{VS:BR} Contra Sanctum Israël.{VS:BR}'
       v:023: '2KI:19:23 | 23 | 23 | Per manum servorum tuorum exprobrasti Domino, et dixisti :{VS:BR} In multitudine curruum meorum ascendi excelsa montium in summitate Libani,{VS:BR} et succidi sublimes cedros ejus, et electas abietes illius.{VS:BR} Et ingressus sum usque ad terminos ejus,{VS:BR} et saltum Carmeli ejus'
       v:024: '2KI:19:24 | 24 | 24 | ego succidi.{VS:BR} Et bibi aquas alienas, et siccavi vestigiis pedum meorum omnes aquas clausas.{VS:BR}'
@@ -622,7 +601,7 @@ chapters:
       v:031: '2KI:19:31 | 31 | 31 | De Jerusalem quippe egredientur reliquiæ,{VS:BR} et quod salvetur de monte Sion :{VS:BR} zelus Domini exercituum faciet hoc.{VS:BR}'
       v:032: '2KI:19:32 | 32 | 32 | Quam ob rem hæc dicit Dominus de rege Assyriorum :{VS:BR} Non ingredietur urbem hanc, nec mittet in eam sagittam,{VS:BR} nec occupabit eam clypeus, nec circumdabit eam munitio.{VS:BR}'
       v:033: '2KI:19:33 | 33 | 33 | Per viam qua venit, revertetur :{VS:BR} et civitatem hanc non ingredietur, dicit Dominus.{VS:BR}'
-      v:034: '2KI:19:34 | 34 | 34 | Protegamque urbem hanc, et salvabo eam propter me,{VS:BR} et propter David servum meum.{VERSE:END}{VS:P}'
+      v:034: '2KI:19:34 | 34 | 34 | Protegamque urbem hanc, et salvabo eam propter me,{VS:BR} et propter David servum meum.{VS:VERSE:END}{VS:P}'
       v:035: '2KI:19:35 | 35 | 35 | Factum est igitur in nocte illa, venit angelus Domini, et percussit in castris Assyriorum centum octoginta quinque millia. Cumque diluculo surrexisset, vidit omnia corpora mortuorum : et recedens abiit,'
       v:036: '2KI:19:36 | 36 | 36 | et reversus est Sennacherib rex Assyriorum, et mansit in Ninive.'
       v:037: '2KI:19:37 | 37 | 37 | Cumque adoraret in templo Nesroch deum suum, Adramelech et Sarasar filii ejus percusserunt eum gladio, fugeruntque in terram Armeniorum : et regnavit Asarhaddon filius ejus pro eo.'

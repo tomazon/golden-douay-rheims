@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Jon.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: JON
 book_title: Jonas
@@ -45,14 +24,14 @@ chapters:
     verses:
       v:001: 'JON:2:1 | 1 | 1 | Et præparavit Dominus piscem grandem ut deglutiret Jonam : et erat Jonas in ventre piscis tribus diebus et tribus noctibus.'
       v:002: 'JON:2:2 | 2 | 2 | Et oravit Jonas ad Dominum Deum suum de ventre piscis,'
-      v:003: 'JON:2:3 | 3 | 3 | et dixit : {VERSE:BEGIN}Clamavi de tribulatione mea ad Dominum,{VS:BR} et exaudivit me ;{VS:BR} de ventre inferi clamavi,{VS:BR} et exaudisti vocem meam.{VS:BR}'
+      v:003: 'JON:2:3 | 3 | 3 | et dixit : {VS:VERSE:BEGIN}Clamavi de tribulatione mea ad Dominum,{VS:BR} et exaudivit me ;{VS:BR} de ventre inferi clamavi,{VS:BR} et exaudisti vocem meam.{VS:BR}'
       v:004: 'JON:2:4 | 4 | 4 | Et projecisti me in profundum in corde maris,{VS:BR} et flumen circumdedit me :{VS:BR} omnes gurgites tui, et fluctus tui super me transierunt.{VS:BR}'
       v:005: 'JON:2:5 | 5 | 5 | Et ego dixi :{VS:BR} Abjectus sum a conspectu oculorum tuorum ;{VS:BR} verumtamen rursus videbo templum sanctum tuum.{VS:BR}'
       v:006: 'JON:2:6 | 6 | 6 | Circumdederunt me aquæ usque ad animam :{VS:BR} abyssus vallavit me,{VS:BR} pelagus operuit caput meum.{VS:BR}'
       v:007: 'JON:2:7 | 7 | 7 | Ad extrema montium descendi ;{VS:BR} terræ vectes concluserunt me in æternum :{VS:BR} et sublevabis de corruptione vitam meam, Domine Deus meus.{VS:BR}'
       v:008: 'JON:2:8 | 8 | 8 | Cum angustiaretur in me anima mea,{VS:BR} Domini recordatus sum :{VS:BR} ut veniat ad te oratio mea,{VS:BR} ad templum sanctum tuum.{VS:BR}'
       v:009: 'JON:2:9 | 9 | 9 | Qui custodiunt vanitates frustra,{VS:BR} misericordiam suam derelinquunt.{VS:BR}'
-      v:010: 'JON:2:10 | 10 | 10 | Ego autem in voce laudis immolabo tibi :{VS:BR} quæcumque vovi, reddam pro salute Domino.{VERSE:END}'
+      v:010: 'JON:2:10 | 10 | 10 | Ego autem in voce laudis immolabo tibi :{VS:BR} quæcumque vovi, reddam pro salute Domino.{VS:VERSE:END}'
       v:011: 'JON:2:11 | 11 | 11 | Et dixit Dominus pisci, et evomuit Jonam in aridam.'
   c:003:
     verses:

@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/2Cor.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: 2CO
 book_title: ad Corinthios II
@@ -147,9 +126,9 @@ chapters:
       v:013: '2CO:6:13 | 13 | 13 | eamdem autem habentes remunerationem, tamquam filiis dico, dilatamini et vos.{VS:P}'
       v:014: '2CO:6:14 | 14 | 14 | Nolite jugum ducere cum infidelibus. Quæ enim participatio justitiæ cum iniquitate ? aut quæ societas luci ad tenebras ?'
       v:015: '2CO:6:15 | 15 | 15 | quæ autem conventio Christi ad Belial ? aut quæ pars fideli cum infideli ?'
-      v:016: '2CO:6:16 | 16 | 16 | qui autem consensus templo Dei cum idolis ? vos enim estis templum Dei vivi, sicut dicit Deus : {VERSE:BEGIN}Quoniam inhabitabo in illis, et inambulabo inter eos,{VS:BR} et ero illorum Deus, et ipsi erunt mihi populus.{VS:BR}'
+      v:016: '2CO:6:16 | 16 | 16 | qui autem consensus templo Dei cum idolis ? vos enim estis templum Dei vivi, sicut dicit Deus : {VS:VERSE:BEGIN}Quoniam inhabitabo in illis, et inambulabo inter eos,{VS:BR} et ero illorum Deus, et ipsi erunt mihi populus.{VS:BR}'
       v:017: '2CO:6:17 | 17 | 17 | Propter quod exite de medio eorum,{VS:BR} et separamini, dicit Dominus,{VS:BR} et immundum ne tetigeritis :{VS:BR}'
-      v:018: '2CO:6:18 | 18 | 18 | et ego recipiam vos :{VS:BR} et ero vobis in patrem,{VS:BR} et vos eritis mihi in filios et filias,{VS:BR} dicit Dominus omnipotens.{VERSE:END}'
+      v:018: '2CO:6:18 | 18 | 18 | et ego recipiam vos :{VS:BR} et ero vobis in patrem,{VS:BR} et vos eritis mihi in filios et filias,{VS:BR} dicit Dominus omnipotens.{VS:VERSE:END}'
   c:007:
     verses:
       v:001: '2CO:7:1 | 1 | 1 | Has ergo habentes promissiones, carissimi, mundemus nos ab omni inquinamento carnis et spiritus, perficientes sanctificationem in timore Dei.'

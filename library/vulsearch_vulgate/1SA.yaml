@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/1Rg.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: 1SA
 book_title: Regum I
@@ -55,7 +34,7 @@ chapters:
       v:028: '1SA:1:28 | 28 | 28 | Idcirco et ego commodavi eum Domino cunctis diebus quibus fuerit commodatus Domino. Et adoraverunt ibi Dominum.{VS:P} Et oravit Anna, et ait :'
   c:002:
     verses:
-      v:001: '1SA:2:1 | 1 | 1 | {VERSE:BEGIN}Exsultavit cor meum in Domino,{VS:BR} et exaltatum est cornu meum in Deo meo ;{VS:BR} dilatatum est os meum super inimicos meos :{VS:BR} quia lætata sum in salutari tuo.{VS:BR}'
+      v:001: '1SA:2:1 | 1 | 1 | {VS:VERSE:BEGIN}Exsultavit cor meum in Domino,{VS:BR} et exaltatum est cornu meum in Deo meo ;{VS:BR} dilatatum est os meum super inimicos meos :{VS:BR} quia lætata sum in salutari tuo.{VS:BR}'
       v:002: '1SA:2:2 | 2 | 2 | Non est sanctus, ut est Dominus,{VS:BR} neque enim est alius extra te,{VS:BR} et non est fortis sicut Deus noster.{VS:BR}'
       v:003: '1SA:2:3 | 3 | 3 | Nolite multiplicare loqui sublimia gloriantes ;{VS:BR} recedant vetera de ore vestro :{VS:BR} quia Deus scientiarum Dominus est,{VS:BR} et ipsi præparantur cogitationes.{VS:BR}'
       v:004: '1SA:2:4 | 4 | 4 | Arcus fortium superatus est,{VS:BR} et infirmi accincti sunt robore.{VS:BR}'
@@ -64,7 +43,7 @@ chapters:
       v:007: '1SA:2:7 | 7 | 7 | Dominus pauperem facit et ditat,{VS:BR} humiliat et sublevat.{VS:BR}'
       v:008: '1SA:2:8 | 8 | 8 | Suscitat de pulvere egenum,{VS:BR} et de stercore elevat pauperem :{VS:BR} ut sedeat cum principibus,{VS:BR} et solium gloriæ teneat.{VS:BR} Domini enim sunt cardines terræ,{VS:BR} et posuit super eos orbem.{VS:BR}'
       v:009: '1SA:2:9 | 9 | 9 | Pedes sanctorum suorum servabit,{VS:BR} et impii in tenebris conticescent :{VS:BR} quia non in fortitudine sua roborabitur vir.{VS:BR}'
-      v:010: '1SA:2:10 | 10 | 10 | Dominum formidabunt adversarii ejus :{VS:BR} et super ipsos in cælis tonabit.{VS:BR} Dominus judicabit fines terræ,{VS:BR} et dabit imperium regi suo,{VS:BR} et sublimabit cornu christi sui.{VERSE:END}'
+      v:010: '1SA:2:10 | 10 | 10 | Dominum formidabunt adversarii ejus :{VS:BR} et super ipsos in cælis tonabit.{VS:BR} Dominus judicabit fines terræ,{VS:BR} et dabit imperium regi suo,{VS:BR} et sublimabit cornu christi sui.{VS:VERSE:END}'
       v:011: '1SA:2:11 | 11 | 11 | Et abiit Elcana Ramatha, in domum suam : puer autem erat minister in conspectu Domini ante faciem Heli sacerdotis.{VS:P}'
       v:012: '1SA:2:12 | 12 | 12 | Porro filii Heli, filii Belial, nescientes Dominum,'
       v:013: '1SA:2:13 | 13 | 13 | neque officium sacerdotum ad populum : sed quicumque immolasset victimam, veniebat puer sacerdotis, dum coquerentur carnes, et habebat fuscinulam tridentem in manu sua,'
@@ -529,7 +508,7 @@ chapters:
       v:004: '1SA:18:4 | 4 | 4 | Nam expoliavit se Jonathas tunica qua erat indutus, et dedit eam David, et reliqua vestimenta sua, usque ad gladium et arcum suum, et usque ad balteum.'
       v:005: '1SA:18:5 | 5 | 5 | Egrediebatur quoque David ad omnia quæcumque misisset eum Saul, et prudenter se agebat : posuitque eum Saul super viros belli, et acceptus erat in oculis universi populi, maximeque in conspectu famulorum Saul.{VS:P}'
       v:006: '1SA:18:6 | 6 | 6 | Porro cum reverteretur percusso Philisthæo David, egressæ sunt mulieres de universis urbibus Israël, cantantes, chorosque ducentes in occursum Saul regis, in tympanis lætitiæ, et in sistris.'
-      v:007: '1SA:18:7 | 7 | 7 | Et præcinebant mulieres, ludentes, atque dicentes : {VERSE:BEGIN}Percussit Saul mille,{VS:BR} et David decem millia.{VERSE:END}'
+      v:007: '1SA:18:7 | 7 | 7 | Et præcinebant mulieres, ludentes, atque dicentes : {VS:VERSE:BEGIN}Percussit Saul mille,{VS:BR} et David decem millia.{VS:VERSE:END}'
       v:008: '1SA:18:8 | 8 | 8 | Iratus est autem Saul nimis, et displicuit in oculis ejus sermo iste : dixitque : Dederunt David decem millia, et mihi mille dederunt : quid ei superest, nisi solum regnum ?'
       v:009: 1SA:18:9 | 9 | 9 | Non rectis ergo oculis Saul aspiciebat David a die illa et deinceps.
       v:010: '1SA:18:10 | 10 | 10 | Post diem autem alteram, invasit spiritus Dei malus Saul, et prophetabat in medio domus suæ : David autem psallebat manu sua, sicut per singulos dies. Tenebatque Saul lanceam,'
@@ -636,7 +615,7 @@ chapters:
       v:008: '1SA:21:8 | 8 | 8 | Dixit autem David ad Achimelech : Si habes hic ad manum hastam aut gladium ? quia gladium meum et arma mea non tuli mecum : sermo enim regis urgebat.'
       v:009: '1SA:21:9 | 9 | 9 | Et dixit sacerdos : Ecce hic gladius Goliath Philisthæi, quem percussisti in Valle terebinthi : est involutus pallio post ephod : si istum vis tollere, tolle : neque enim hic est alius absque eo. Et ait David : Non est huic alter similis : da mihi eum.{VS:P}'
       v:010: '1SA:21:10 | 10 | 10 | Surrexit itaque David, et fugit in die illa a facie Saul : et venit ad Achis regem Geth.'
-      v:011: '1SA:21:11 | 11 | 11 | Dixeruntque servi Achis ad eum cum vidissent David : Numquid non iste est David rex terræ ? nonne huic cantabant per choros, dicentes : {VERSE:BEGIN}Percussit Saul mille,{VS:BR} et David decem millia ?{VERSE:END}'
+      v:011: '1SA:21:11 | 11 | 11 | Dixeruntque servi Achis ad eum cum vidissent David : Numquid non iste est David rex terræ ? nonne huic cantabant per choros, dicentes : {VS:VERSE:BEGIN}Percussit Saul mille,{VS:BR} et David decem millia ?{VS:VERSE:END}'
       v:012: '1SA:21:12 | 12 | 12 | Posuit autem David sermones istos in corde suo, et extimuit valde a facie Achis regis Geth.'
       v:013: '1SA:21:13 | 13 | 13 | Et immutavit os suum coram eis, et collabebatur inter manus eorum : et impingebat in ostia portæ, defluebantque salivæ ejus in barbam.'
       v:014: '1SA:21:14 | 14 | 14 | Et ait Achis ad servos suos : Vidistis hominem insanum : quare adduxistis eum ad me ?'
@@ -841,7 +820,7 @@ chapters:
       v:002: '1SA:29:2 | 2 | 2 | Et satrapæ quidem Philisthiim incedebant in centuriis et millibus : David autem et viri ejus erant in novissimo agmine cum Achis.'
       v:003: '1SA:29:3 | 3 | 3 | Dixeruntque principes Philisthiim ad Achis : Quid sibi volunt Hebræi isti ? Et ait Achis ad principes Philisthiim : Num ignoratis David, qui fuit servus Saul regis Israël, et est apud me multis diebus, vel annis, et non inveni in eo quidquam ex die qua transfugit ad me usque ad diem hanc ?'
       v:004: '1SA:29:4 | 4 | 4 | Irati sunt autem adversus eum principes Philisthiim, et dixerunt ei : Revertatur vir iste, et sedeat in loco suo in quo constituisti eum, et non descendat nobiscum in prælium, ne fiat nobis adversarius, cum præliari cœperimus : quomodo enim aliter poterit placare dominum suum, nisi in capitibus nostris ?'
-      v:005: '1SA:29:5 | 5 | 5 | Nonne iste est David, cui cantabant in choris, dicentes : {VERSE:BEGIN}Percussit Saul in millibus suis,{VS:BR} et David in decem millibus suis ?{VERSE:END}'
+      v:005: '1SA:29:5 | 5 | 5 | Nonne iste est David, cui cantabant in choris, dicentes : {VS:VERSE:BEGIN}Percussit Saul in millibus suis,{VS:BR} et David in decem millibus suis ?{VS:VERSE:END}'
       v:006: '1SA:29:6 | 6 | 6 | Vocavit ergo Achis David, et ait ei : Vivit Dominus, quia rectus es tu, et bonus in conspectu meo : et exitus tuus, et introitus tuus mecum est in castris : et non inveni in te quidquam mali ex die qua venisti ad me usque in diem hanc : sed satrapis non places.'
       v:007: '1SA:29:7 | 7 | 7 | Revertere ergo, et vade in pace, et non offendas oculos satraparum Philisthiim.'
       v:008: '1SA:29:8 | 8 | 8 | Dixitque David ad Achis : Quid enim feci, et quid invenisti in me servo tuo, a die qua fui in conspectu tuo usque in diem hanc, ut non veniam et pugnem contra inimicos domini mei regis ?'

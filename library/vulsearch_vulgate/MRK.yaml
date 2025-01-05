@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Mc.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: MRK
 book_title: Marcus
@@ -26,8 +5,8 @@ chapters:
   c:001:
     verses:
       v:001: 'MRK:1:1 | 1 | 1 | Initium Evangelii Jesu Christi, Filii Dei.'
-      v:002: 'MRK:1:2 | 2 | 2 | Sicut scriptum est in Isaia propheta : {VERSE:BEGIN}Ecce ego mitto angelum meum ante faciem tuam,{VS:BR} qui præparabit viam tuam ante te.{VS:BR}'
-      v:003: 'MRK:1:3 | 3 | 3 | Vox clamantis in deserto :{VS:BR} Parate viam Domini, rectas facite semitas ejus.{VERSE:END}'
+      v:002: 'MRK:1:2 | 2 | 2 | Sicut scriptum est in Isaia propheta : {VS:VERSE:BEGIN}Ecce ego mitto angelum meum ante faciem tuam,{VS:BR} qui præparabit viam tuam ante te.{VS:BR}'
+      v:003: 'MRK:1:3 | 3 | 3 | Vox clamantis in deserto :{VS:BR} Parate viam Domini, rectas facite semitas ejus.{VS:VERSE:END}'
       v:004: 'MRK:1:4 | 4 | 4 | Fuit Joannes in deserto baptizans, et prædicans baptismum pœnitentiæ in remissionem peccatorum.'
       v:005: 'MRK:1:5 | 5 | 5 | Et egrediebatur ad eum omnis Judææ regio, et Jerosolymitæ universi, et baptizabantur ab illo in Jordanis flumine, confitentes peccata sua.'
       v:006: 'MRK:1:6 | 6 | 6 | Et erat Joannes vestitus pilis cameli, et zona pellicea circa lumbos ejus, et locustas et mel silvestre edebat.'
@@ -289,8 +268,8 @@ chapters:
       v:003: 'MRK:7:3 | 3 | 3 | Pharisæi enim, et omnes Judæi, nisi crebro laverint manus, non manducant, tenentes traditionem seniorum :'
       v:004: 'MRK:7:4 | 4 | 4 | et a foro nisi baptizentur, non comedunt : et alia multa sunt, quæ tradita sunt illis servare, baptismata calicum, et urceorum, et æramentorum, et lectorum :'
       v:005: 'MRK:7:5 | 5 | 5 | et interrogabant eum pharisæi et scribæ : Quare discipuli tui non ambulant juxta traditionem seniorum, sed communibus manibus manducant panem ?'
-      v:006: 'MRK:7:6 | 6 | 6 | At ille respondens, dixit eis : Bene prophetavit Isaias de vobis hypocritis, sicut scriptum est : {VERSE:BEGIN}Populus hic labiis me honorat,{VS:BR} cor autem eorum longe est a me :{VS:BR}'
-      v:007: 'MRK:7:7 | 7 | 7 | in vanum autem me colunt,{VS:BR} docentes doctrinas, et præcepta hominum.{VERSE:END}'
+      v:006: 'MRK:7:6 | 6 | 6 | At ille respondens, dixit eis : Bene prophetavit Isaias de vobis hypocritis, sicut scriptum est : {VS:VERSE:BEGIN}Populus hic labiis me honorat,{VS:BR} cor autem eorum longe est a me :{VS:BR}'
+      v:007: 'MRK:7:7 | 7 | 7 | in vanum autem me colunt,{VS:BR} docentes doctrinas, et præcepta hominum.{VS:VERSE:END}'
       v:008: 'MRK:7:8 | 8 | 8 | Relinquentes enim mandatum Dei, tenetis traditionem hominum, baptismata urceorum et calicum : et alia similia his facitis multa.'
       v:009: 'MRK:7:9 | 9 | 9 | Et dicebat illis : Bene irritum facitis præceptum Dei, ut traditionem vestram servetis.'
       v:010: 'MRK:7:10 | 10 | 10 | Moyses enim dixit : Honora patrem tuum, et matrem tuam. Et : Qui maledixerit patri, vel matri, morte moriatur.'

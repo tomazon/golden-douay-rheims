@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Rom.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: ROM
 book_title: ad Romanos
@@ -93,13 +72,13 @@ chapters:
       v:001: 'ROM:3:1 | 1 | 1 | Quid ergo amplius Judæo est ? aut quæ utilitas circumcisionis ?'
       v:002: ROM:3:2 | 2 | 2 | Multum per omnem modum. Primum quidem quia credita sunt illis eloquia Dei.
       v:003: 'ROM:3:3 | 3 | 3 | Quid enim si quidam illorum non crediderunt ? numquid incredulitas illorum fidem Dei evacuabit ? Absit.'
-      v:004: 'ROM:3:4 | 4 | 4 | Est autem Deus verax : omnis autem homo mendax, sicut scriptum est : {VERSE:BEGIN}Ut justificeris in sermonibus tuis :{VS:BR} et vincas cum judicaris.{VERSE:END}'
+      v:004: 'ROM:3:4 | 4 | 4 | Est autem Deus verax : omnis autem homo mendax, sicut scriptum est : {VS:VERSE:BEGIN}Ut justificeris in sermonibus tuis :{VS:BR} et vincas cum judicaris.{VS:VERSE:END}'
       v:005: 'ROM:3:5 | 5 | 5 | Si autem iniquitas nostra justitiam Dei commendat, quid dicemus ? Numquid iniquus est Deus, qui infert iram ?'
       v:006: ROM:3:6 | 6 | 6 | secundum hominem dico. Absit. Alioquin quomodo judicabit Deus hunc mundum ?
       v:007: 'ROM:3:7 | 7 | 7 | Si enim veritas Dei in meo mendacio abundavit in gloriam ipsius : quid adhuc et ego tamquam peccator judicor ?'
       v:008: 'ROM:3:8 | 8 | 8 | et non (sicut blasphemamur, et sicut aiunt quidam nos dicere) faciamus mala ut veniant bona : quorum damnatio justa est.{VS:P}'
       v:009: 'ROM:3:9 | 9 | 9 | Quid ergo ? præcellimus eos ? Nequaquam. Causati enim sumus Judæos et Græcos omnes sub peccato esse,'
-      v:010: 'ROM:3:10 | 10 | 10 | sicut scriptum est : {VERSE:BEGIN}Quia non est justus quisquam :{VS:BR}'
+      v:010: 'ROM:3:10 | 10 | 10 | sicut scriptum est : {VS:VERSE:BEGIN}Quia non est justus quisquam :{VS:BR}'
       v:011: 'ROM:3:11 | 11 | 11 | non est intelligens, non est requirens Deum.{VS:BR}'
       v:012: 'ROM:3:12 | 12 | 12 | Omnes declinaverunt, simul inutiles facti sunt :{VS:BR} non est qui faciat bonum, non est usque ad unum.{VS:BR}'
       v:013: 'ROM:3:13 | 13 | 13 | Sepulchrum patens est guttur eorum,{VS:BR} linguis suis dolose agebant :{VS:BR} venenum aspidum sub labiis eorum :{VS:BR}'
@@ -107,7 +86,7 @@ chapters:
       v:015: 'ROM:3:15 | 15 | 15 | veloces pedes eorum ad effundendum sanguinem :{VS:BR}'
       v:016: 'ROM:3:16 | 16 | 16 | contritio et infelicitas in viis eorum :{VS:BR}'
       v:017: 'ROM:3:17 | 17 | 17 | et viam pacis non cognoverunt :{VS:BR}'
-      v:018: 'ROM:3:18 | 18 | 18 | non est timor Dei ante oculos eorum.{VERSE:END}'
+      v:018: 'ROM:3:18 | 18 | 18 | non est timor Dei ante oculos eorum.{VS:VERSE:END}'
       v:019: 'ROM:3:19 | 19 | 19 | Scimus autem quoniam quæcumque lex loquitur, iis, qui in lege sunt, loquitur : ut omne os obstruatur, et subditus fiat omnis mundus Deo :'
       v:020: 'ROM:3:20 | 20 | 20 | quia ex operibus legis non justificabitur omnis caro coram illo. Per legem enim cognitio peccati.{VS:P}'
       v:021: 'ROM:3:21 | 21 | 21 | Nunc autem sine lege justitia Dei manifestata est : testificata a lege et prophetis.'
@@ -129,8 +108,8 @@ chapters:
       v:004: 'ROM:4:4 | 4 | 4 | Ei autem qui operatur, merces non imputatur secundum gratiam, sed secundum debitum.'
       v:005: 'ROM:4:5 | 5 | 5 | Ei vero qui non operatur, credenti autem in eum, qui justificat impium, reputatur fides ejus ad justitiam secundum propositum gratiæ Dei.'
       v:006: 'ROM:4:6 | 6 | 6 | Sicut et David dicit beatitudinem hominis, cui Deus accepto fert justitiam sine operibus :'
-      v:007: 'ROM:4:7 | 7 | 7 | {VERSE:BEGIN}Beati, quorum remissæ sunt iniquitates,{VS:BR} et quorum tecta sunt peccata.{VS:BR}'
-      v:008: 'ROM:4:8 | 8 | 8 | Beatus vir, cui non imputavit Dominus peccatum.{VERSE:END}'
+      v:007: 'ROM:4:7 | 7 | 7 | {VS:VERSE:BEGIN}Beati, quorum remissæ sunt iniquitates,{VS:BR} et quorum tecta sunt peccata.{VS:BR}'
+      v:008: 'ROM:4:8 | 8 | 8 | Beatus vir, cui non imputavit Dominus peccatum.{VS:VERSE:END}'
       v:009: 'ROM:4:9 | 9 | 9 | Beatitudo ergo hæc in circumcisione tantum manet, an etiam in præputio ? Dicimus enim quia reputata est Abrahæ fides ad justitiam.'
       v:010: 'ROM:4:10 | 10 | 10 | Quomodo ergo reputata est ? in circumcisione, an in præputio ? Non in circumcisione, sed in præputio.'
       v:011: 'ROM:4:11 | 11 | 11 | Et signum accepit circumcisionis, signaculum justitiæ fidei, quæ est in præputio : ut sit pater omnium credentium per præputium, ut reputetur et illis ad justitiam :'
@@ -260,7 +239,7 @@ chapters:
       v:033: 'ROM:8:33 | 33 | 33 | Quis accusabit adversus electos Dei ? Deus qui justificat,'
       v:034: 'ROM:8:34 | 34 | 34 | quis est qui condemnet ? Christus Jesus, qui mortuus est, immo qui et resurrexit, qui est ad dexteram Dei, qui etiam interpellat pro nobis.'
       v:035: 'ROM:8:35 | 35 | 35 | Quis ergo nos separabit a caritate Christi ? tribulatio ? an angustia ? an fames ? an nuditas ? an periculum ? an persecutio ? an gladius ?'
-      v:036: 'ROM:8:36 | 36 | 36 | (Sicut scriptum est : {VERSE:BEGIN}Quia propter te mortificamur tota die :{VS:BR} æstimati sumus sicut oves occisionis.){VERSE:END}'
+      v:036: 'ROM:8:36 | 36 | 36 | (Sicut scriptum est : {VS:VERSE:BEGIN}Quia propter te mortificamur tota die :{VS:BR} æstimati sumus sicut oves occisionis.){VS:VERSE:END}'
       v:037: ROM:8:37 | 37 | 37 | Sed in his omnibus superamus propter eum qui dilexit nos.
       v:038: 'ROM:8:38 | 38 | 38 | Certus sum enim quia neque mors, neque vita, neque angeli, neque principatus, neque virtutes, neque instantia, neque futura, neque fortitudo,'
       v:039: 'ROM:8:39 | 39 | 39 | neque altitudo, neque profundum, neque creatura alia poterit nos separare a caritate Dei, quæ est in Christo Jesu Domino nostro.'

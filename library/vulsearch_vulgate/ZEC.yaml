@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Zach.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: ZEC
 book_title: Zacharias
@@ -27,10 +6,10 @@ chapters:
     verses:
       v:001: 'ZEC:1:1 | 1 | 1 | In mense octavo, in anno secundo Darii regis, factum est verbum Domini ad Zachariam filium Barachiæ filii Addo prophetam, dicens :'
       v:002: ZEC:1:2 | 2 | 2 | Iratus est Dominus super patres vestros iracundia.
-      v:003: 'ZEC:1:3 | 3 | 3 | Et dices ad eos : {VERSE:BEGIN}Hæc dicit Dominus exercituum :{VS:BR} Convertimini ad me, ait Dominus exercituum,{VS:BR} et convertar ad vos, dicit Dominus exercituum.{VS:BR}'
+      v:003: 'ZEC:1:3 | 3 | 3 | Et dices ad eos : {VS:VERSE:BEGIN}Hæc dicit Dominus exercituum :{VS:BR} Convertimini ad me, ait Dominus exercituum,{VS:BR} et convertar ad vos, dicit Dominus exercituum.{VS:BR}'
       v:004: 'ZEC:1:4 | 4 | 4 | Ne sitis sicut patres vestri,{VS:BR} ad quos clamabant prophetæ priores, dicentes :{VS:BR} Hæc dicit Dominus exercituum :{VS:BR} Convertimini de viis vestris malis,{VS:BR} et de cogitationibus vestris pessimis :{VS:BR} et non audierunt, neque attenderunt ad me,{VS:BR} dicit Dominus.{VS:BR}'
       v:005: 'ZEC:1:5 | 5 | 5 | Patres vestri, ubi sunt ?{VS:BR} et prophetæ numquid in sempiternum vivent ?{VS:BR}'
-      v:006: 'ZEC:1:6 | 6 | 6 | Verumtamen verba mea, et legitima mea,{VS:BR} quæ mandavi servis meis prophetis,{VS:BR} numquid non comprehenderunt patres vestros,{VS:BR} et conversi sunt, et dixerunt :{VS:BR} Sicut cogitavit Dominus exercituum facere nobis{VS:BR} secundum vias nostras, et secundum adinventiones nostras,{VS:BR} fecit nobis ?{VERSE:END}{VS:P}'
+      v:006: 'ZEC:1:6 | 6 | 6 | Verumtamen verba mea, et legitima mea,{VS:BR} quæ mandavi servis meis prophetis,{VS:BR} numquid non comprehenderunt patres vestros,{VS:BR} et conversi sunt, et dixerunt :{VS:BR} Sicut cogitavit Dominus exercituum facere nobis{VS:BR} secundum vias nostras, et secundum adinventiones nostras,{VS:BR} fecit nobis ?{VS:VERSE:END}{VS:P}'
       v:007: 'ZEC:1:7 | 7 | 7 | In die vigesima et quarta undecimi mensis Sabath, in anno secundo Darii, factum est verbum Domini ad Zachariam filium Barachiæ filii Addo prophetam, dicens :'
       v:008: 'ZEC:1:8 | 8 | 8 | Vidi per noctem, et ecce vir ascendens super equum rufum, et ipse stabat inter myrteta, quæ erant in profundo, et post eum equi rufi, varii, et albi.'
       v:009: 'ZEC:1:9 | 9 | 9 | Et dixi : Quid sunt isti, domine mi ? Et dixit ad me angelus qui loquebatur in me : Ego ostendam tibi quid sint hæc.'
@@ -38,10 +17,10 @@ chapters:
       v:011: 'ZEC:1:11 | 11 | 11 | Et responderunt angelo Domini, qui stabat inter myrteta, et dixerunt : Perambulavimus terram, et ecce omnis terra habitatur, et quiescit.'
       v:012: 'ZEC:1:12 | 12 | 12 | Et respondit angelus Domini, et dixit : Domine exercituum, usquequo tu non misereberis Jerusalem, et urbium Juda, quibus iratus es ? iste jam septuagesimus annus est.'
       v:013: 'ZEC:1:13 | 13 | 13 | Et respondit Dominus angelo qui loquebatur in me verba bona, verba consolatoria.'
-      v:014: 'ZEC:1:14 | 14 | 14 | Et dixit ad me angelus qui loquebatur in me : Clama, dicens : {VERSE:BEGIN}Hæc dicit Dominus exercituum :{VS:BR} Zelatus sum Jerusalem et Sion zelo magno,{VS:BR}'
+      v:014: 'ZEC:1:14 | 14 | 14 | Et dixit ad me angelus qui loquebatur in me : Clama, dicens : {VS:VERSE:BEGIN}Hæc dicit Dominus exercituum :{VS:BR} Zelatus sum Jerusalem et Sion zelo magno,{VS:BR}'
       v:015: 'ZEC:1:15 | 15 | 15 | et ira magna ego irascor super gentes opulentas,{VS:BR} quia ego iratus sum parum,{VS:BR} ipsi vero adjuverunt in malum.{VS:BR}'
-      v:016: 'ZEC:1:16 | 16 | 16 | Propterea hæc dicit Dominus :{VS:BR} Revertar ad Jerusalem in misericordiis,{VS:BR} et domus mea ædificabitur in ea, ait Dominus exercituum,{VS:BR} et perpendiculum extendetur super Jerusalem.{VERSE:END}'
-      v:017: 'ZEC:1:17 | 17 | 17 | Adhuc clama, dicens : {VERSE:BEGIN}Hæc dicit Dominus exercituum :{VS:BR} Adhuc affluent civitates meæ bonis,{VS:BR} et consolabitur adhuc Dominus Sion, et eliget adhuc Jerusalem.{VERSE:END}{VS:P}'
+      v:016: 'ZEC:1:16 | 16 | 16 | Propterea hæc dicit Dominus :{VS:BR} Revertar ad Jerusalem in misericordiis,{VS:BR} et domus mea ædificabitur in ea, ait Dominus exercituum,{VS:BR} et perpendiculum extendetur super Jerusalem.{VS:VERSE:END}'
+      v:017: 'ZEC:1:17 | 17 | 17 | Adhuc clama, dicens : {VS:VERSE:BEGIN}Hæc dicit Dominus exercituum :{VS:BR} Adhuc affluent civitates meæ bonis,{VS:BR} et consolabitur adhuc Dominus Sion, et eliget adhuc Jerusalem.{VS:VERSE:END}{VS:P}'
       v:018: 'ZEC:1:18 | 18 | 18 | Et levavi oculos meos, et vidi, et ecce quatuor cornua.'
       v:019: 'ZEC:1:19 | 19 | 19 | Et dixi ad angelum qui loquebatur in me : Quid sunt hæc ? Et dixit ad me : Hæc sunt cornua quæ ventilaverunt Judam, et Israël, et Jerusalem.'
       v:020: ZEC:1:20 | 20 | 20 | Et ostendit mihi Dominus quatuor fabros.
@@ -53,14 +32,14 @@ chapters:
       v:003: 'ZEC:2:3 | 3 | 3 | Et ecce angelus qui loquebatur in me egrediebatur, et angelus alius egrediebatur in occursum ejus :'
       v:004: 'ZEC:2:4 | 4 | 4 | et dixit ad eum : Curre, loquere ad puerum istum, dicens : Absque muro habitabitur Jerusalem, præ multitudine hominum et jumentorum in medio ejus.'
       v:005: 'ZEC:2:5 | 5 | 5 | Et ego ero ei, ait Dominus, murus ignis in circuitu, et in gloria ero in medio ejus.'
-      v:006: 'ZEC:2:6 | 6 | 6 | {VERSE:BEGIN}O, o, fugite de terra aquilonis, dicit Dominus,{VS:BR} quoniam in quatuor ventos cæli dispersi vos, dicit Dominus.{VS:BR}'
+      v:006: 'ZEC:2:6 | 6 | 6 | {VS:VERSE:BEGIN}O, o, fugite de terra aquilonis, dicit Dominus,{VS:BR} quoniam in quatuor ventos cæli dispersi vos, dicit Dominus.{VS:BR}'
       v:007: 'ZEC:2:7 | 7 | 7 | O Sion ! fuge, quæ habitas apud filiam Babylonis :{VS:BR}'
       v:008: 'ZEC:2:8 | 8 | 8 | quia hæc dicit Dominus exercituum :{VS:BR} Post gloriam misit me ad gentes quæ spoliaverunt vos :{VS:BR} qui enim tetigerit vos, tangit pupillam oculi mei :{VS:BR}'
       v:009: 'ZEC:2:9 | 9 | 9 | quia ecce ego levo manum meam super eos,{VS:BR} et erunt prædæ his qui serviebant sibi :{VS:BR} et cognoscetis quia Dominus exercituum misit me.{VS:BR}'
       v:010: 'ZEC:2:10 | 10 | 10 | Lauda et lætare, filia Sion, quia ecce ego venio,{VS:BR} et habitabo in medio tui, ait Dominus.{VS:BR}'
       v:011: 'ZEC:2:11 | 11 | 11 | Et applicabuntur gentes multæ ad Dominum in die illa,{VS:BR} et erunt mihi in populum,{VS:BR} et habitabo in medio tui :{VS:BR} et scies quia Dominus exercituum misit me ad te.{VS:BR}'
       v:012: 'ZEC:2:12 | 12 | 12 | Et possidebit Dominus Judam partem suam in terra sanctificata,{VS:BR} et eliget adhuc Jerusalem.{VS:BR}'
-      v:013: 'ZEC:2:13 | 13 | 13 | Sileat omnis caro a facie Domini,{VS:BR} quia consurrexit de habitaculo sancto suo.{VERSE:END}'
+      v:013: 'ZEC:2:13 | 13 | 13 | Sileat omnis caro a facie Domini,{VS:BR} quia consurrexit de habitaculo sancto suo.{VS:VERSE:END}'
   c:003:
     verses:
       v:001: 'ZEC:3:1 | 1 | 1 | Et ostendit mihi Dominus Jesum sacerdotem magnum, stantem coram angelo Domini : et Satan stabat a dextris ejus ut adversaretur ei.'
@@ -69,10 +48,10 @@ chapters:
       v:004: 'ZEC:3:4 | 4 | 4 | Qui respondit, et ait ad eos qui stabant coram se, dicens : Auferte vestimenta sordida ab eo. Et dixit ad eum : Ecce abstuli a te iniquitatem tuam, et indui te mutatoriis.'
       v:005: 'ZEC:3:5 | 5 | 5 | Et dixit : Ponite cidarim mundam super caput ejus. Et posuerunt cidarim mundam super caput ejus, et induerunt eum vestibus : et angelus Domini stabat.'
       v:006: 'ZEC:3:6 | 6 | 6 | Et contestabatur angelus Domini Jesum, dicens :'
-      v:007: 'ZEC:3:7 | 7 | 7 | {VERSE:BEGIN}Hæc dicit Dominus exercituum :{VS:BR} Si in viis meis ambulaveris,{VS:BR} et custodiam meam custodieris,{VS:BR} tu quoque judicabis domum meam,{VS:BR} et custodies atria mea,{VS:BR} et dabo tibi ambulantes de his qui nunc hic assistunt.{VS:BR}'
+      v:007: 'ZEC:3:7 | 7 | 7 | {VS:VERSE:BEGIN}Hæc dicit Dominus exercituum :{VS:BR} Si in viis meis ambulaveris,{VS:BR} et custodiam meam custodieris,{VS:BR} tu quoque judicabis domum meam,{VS:BR} et custodies atria mea,{VS:BR} et dabo tibi ambulantes de his qui nunc hic assistunt.{VS:BR}'
       v:008: 'ZEC:3:8 | 8 | 8 | Audi, Jesu sacerdos magne,{VS:BR} tu et amici tui, qui habitant coram te,{VS:BR} quia viri portendentes sunt :{VS:BR} ecce enim ego adducam servum meum Orientem.{VS:BR}'
       v:009: 'ZEC:3:9 | 9 | 9 | Quia ecce lapis quem dedi coram Jesu :{VS:BR} super lapidem unum septem oculi sunt :{VS:BR} ecce ego cælabo sculpturam ejus, ait Dominus exercituum,{VS:BR} et auferam iniquitatem terræ illius in die una.{VS:BR}'
-      v:010: 'ZEC:3:10 | 10 | 10 | In die illa, dicit Dominus exercituum,{VS:BR} vocabit vir amicum suum subter vitem et subter ficum.{VERSE:END}'
+      v:010: 'ZEC:3:10 | 10 | 10 | In die illa, dicit Dominus exercituum,{VS:BR} vocabit vir amicum suum subter vitem et subter ficum.{VS:VERSE:END}'
   c:004:
     verses:
       v:001: 'ZEC:4:1 | 1 | 1 | Et reversus est angelus qui loquebatur in me, et suscitavit me quasi virum qui suscitatur de somno suo.'
@@ -162,15 +141,15 @@ chapters:
       v:023: 'ZEC:8:23 | 23 | 23 | Hæc dicit Dominus exercituum : In diebus illis, in quibus apprehendent decem homines ex omnibus linguis gentium, et apprehendent fimbriam viri Judæi, dicentes : Ibimus vobiscum : audivimus enim quoniam Deus vobiscum est.'
   c:009:
     verses:
-      v:001: 'ZEC:9:1 | 1 | 1 | {VERSE:BEGIN}Onus verbi Domini in terra Hadrach{VS:BR} et Damasci requiei ejus,{VS:BR} quia Domini est oculus hominis et omnium tribuum Israël.{VS:BR}'
+      v:001: 'ZEC:9:1 | 1 | 1 | {VS:VERSE:BEGIN}Onus verbi Domini in terra Hadrach{VS:BR} et Damasci requiei ejus,{VS:BR} quia Domini est oculus hominis et omnium tribuum Israël.{VS:BR}'
       v:002: 'ZEC:9:2 | 2 | 2 | Emath quoque in terminis ejus, et Tyrus, et Sidon :{VS:BR} assumpserunt quippe sibi sapientiam valde.{VS:BR}'
       v:003: 'ZEC:9:3 | 3 | 3 | Et ædificavit Tyrus munitionem suam,{VS:BR} et coacervavit argentum quasi humum,{VS:BR} et aurum ut lutum platearum.{VS:BR}'
       v:004: 'ZEC:9:4 | 4 | 4 | Ecce Dominus possidebit eam :{VS:BR} et percutiet in mari fortitudinem ejus,{VS:BR} et hæc igni devorabitur.{VS:BR}'
       v:005: 'ZEC:9:5 | 5 | 5 | Videbit Ascalon, et timebit,{VS:BR} et Gaza, et dolebit nimis,{VS:BR} et Accaron, quoniam confusa est spes ejus :{VS:BR} et peribit rex de Gaza,{VS:BR} et Ascalon non habitabitur.{VS:BR}'
       v:006: 'ZEC:9:6 | 6 | 6 | Et sedebit separator in Azoto,{VS:BR} et disperdam superbiam Philisthinorum.{VS:BR}'
       v:007: 'ZEC:9:7 | 7 | 7 | Et auferam sanguinem ejus de ore ejus,{VS:BR} et abominationes ejus de medio dentium ejus :{VS:BR} et relinquetur etiam ipse Deo nostro,{VS:BR} et erit quasi dux in Juda,{VS:BR} et Accaron quasi Jebusæus.{VS:BR}'
-      v:008: 'ZEC:9:8 | 8 | 8 | Et circumdabo domum meam{VS:BR} ex his qui militant mihi euntes et revertentes :{VS:BR} et non transibit super eos ultra exactor,{VS:BR} quia nunc vidi in oculis meis.{VERSE:END}{VS:P}'
-      v:009: 'ZEC:9:9 | 9 | 9 | {VERSE:BEGIN}Exsulta satis, filia Sion ;{VS:BR} jubila, filia Jerusalem :{VS:BR} ecce rex tuus veniet tibi justus, et salvator :{VS:BR} ipse pauper, et ascendens super asinam{VS:BR} et super pullum filium asinæ.{VS:BR}'
+      v:008: 'ZEC:9:8 | 8 | 8 | Et circumdabo domum meam{VS:BR} ex his qui militant mihi euntes et revertentes :{VS:BR} et non transibit super eos ultra exactor,{VS:BR} quia nunc vidi in oculis meis.{VS:VERSE:END}{VS:P}'
+      v:009: 'ZEC:9:9 | 9 | 9 | {VS:VERSE:BEGIN}Exsulta satis, filia Sion ;{VS:BR} jubila, filia Jerusalem :{VS:BR} ecce rex tuus veniet tibi justus, et salvator :{VS:BR} ipse pauper, et ascendens super asinam{VS:BR} et super pullum filium asinæ.{VS:BR}'
       v:010: 'ZEC:9:10 | 10 | 10 | Et disperdam quadrigam ex Ephraim,{VS:BR} et equum de Jerusalem,{VS:BR} et dissipabitur arcus belli :{VS:BR} et loquetur pacem gentibus,{VS:BR} et potestas ejus a mari usque ad mare,{VS:BR} et a fluminibus usque ad fines terræ.{VS:BR}'
       v:011: 'ZEC:9:11 | 11 | 11 | Tu quoque in sanguine testamenti tui{VS:BR} emisisti vinctos tuos de lacu in quo non est aqua.{VS:BR}'
       v:012: 'ZEC:9:12 | 12 | 12 | Convertimini ad munitionem, vincti spei :{VS:BR} hodie quoque annuntians duplicia reddam tibi.{VS:BR}'
@@ -178,10 +157,10 @@ chapters:
       v:014: 'ZEC:9:14 | 14 | 14 | Et Dominus Deus super eos videbitur,{VS:BR} et exibit ut fulgur jaculum ejus :{VS:BR} et Dominus Deus in tuba canet,{VS:BR} et vadet in turbine austri.{VS:BR}'
       v:015: 'ZEC:9:15 | 15 | 15 | Dominus exercituum proteget eos :{VS:BR} et devorabunt, et subjicient lapidibus fundæ :{VS:BR} et bibentes inebriabuntur quasi a vino,{VS:BR} et replebuntur ut phialæ,{VS:BR} et quasi cornua altaris.{VS:BR}'
       v:016: 'ZEC:9:16 | 16 | 16 | Et salvabit eos Dominus Deus eorum in die illa,{VS:BR} ut gregem populi sui,{VS:BR} quia lapides sancti elevabuntur super terram ejus.{VS:BR}'
-      v:017: 'ZEC:9:17 | 17 | 17 | Quid enim bonum ejus est,{VS:BR} et quid pulchrum ejus,{VS:BR} nisi frumentum electorum,{VS:BR} et vinum germinans virgines ?{VERSE:END}'
+      v:017: 'ZEC:9:17 | 17 | 17 | Quid enim bonum ejus est,{VS:BR} et quid pulchrum ejus,{VS:BR} nisi frumentum electorum,{VS:BR} et vinum germinans virgines ?{VS:VERSE:END}'
   c:010:
     verses:
-      v:001: 'ZEC:10:1 | 1 | 1 | {VERSE:BEGIN}Petite a Domino pluviam in tempore serotino,{VS:BR} et Dominus faciet nives :{VS:BR} et pluviam imbris dabit eis,{VS:BR} singulis herbam in agro.{VS:BR}'
+      v:001: 'ZEC:10:1 | 1 | 1 | {VS:VERSE:BEGIN}Petite a Domino pluviam in tempore serotino,{VS:BR} et Dominus faciet nives :{VS:BR} et pluviam imbris dabit eis,{VS:BR} singulis herbam in agro.{VS:BR}'
       v:002: 'ZEC:10:2 | 2 | 2 | Quia simulacra locuta sunt inutile,{VS:BR} et divini viderunt mendacium :{VS:BR} et somniatores locuti sunt frustra,{VS:BR} vane consolabantur :{VS:BR} idcirco abducti sunt quasi grex :{VS:BR} affligentur, quia non est eis pastor.{VS:BR}'
       v:003: 'ZEC:10:3 | 3 | 3 | Super pastores iratus est furor meus,{VS:BR} et super hircos visitabo :{VS:BR} quia visitavit Dominus exercituum gregem suum, domum Juda,{VS:BR} et posuit eos quasi equum gloriæ suæ in bello.{VS:BR}'
       v:004: 'ZEC:10:4 | 4 | 4 | Ex ipso angulus, ex ipso paxillus,{VS:BR} ex ipso arcus prælii,{VS:BR} ex ipso egredietur omnis exactor simul.{VS:BR}'
@@ -192,12 +171,12 @@ chapters:
       v:009: 'ZEC:10:9 | 9 | 9 | Et seminabo eos in populis,{VS:BR} et de longe recordabuntur mei :{VS:BR} et vivent cum filiis suis, et revertentur.{VS:BR}'
       v:010: 'ZEC:10:10 | 10 | 10 | Et reducam eos de terra Ægypti,{VS:BR} et de Assyriis congregabo eos,{VS:BR} et ad terram Galaad et Libani adducam eos,{VS:BR} et non invenietur eis locus :{VS:BR}'
       v:011: 'ZEC:10:11 | 11 | 11 | et transibit in maris freto,{VS:BR} et percutiet in mari fluctus,{VS:BR} et confundentur omnia profunda fluminis :{VS:BR} et humiliabitur superbia Assur,{VS:BR} et sceptrum Ægypti recedet.{VS:BR}'
-      v:012: 'ZEC:10:12 | 12 | 12 | Confortabo eos in Domino,{VS:BR} et in nomine ejus ambulabunt, dicit Dominus.{VERSE:END}'
+      v:012: 'ZEC:10:12 | 12 | 12 | Confortabo eos in Domino,{VS:BR} et in nomine ejus ambulabunt, dicit Dominus.{VS:VERSE:END}'
   c:011:
     verses:
-      v:001: 'ZEC:11:1 | 1 | 1 | {VERSE:BEGIN}Aperi, Libane, portas tuas,{VS:BR} et comedat ignis cedros tuas.{VS:BR}'
+      v:001: 'ZEC:11:1 | 1 | 1 | {VS:VERSE:BEGIN}Aperi, Libane, portas tuas,{VS:BR} et comedat ignis cedros tuas.{VS:BR}'
       v:002: 'ZEC:11:2 | 2 | 2 | Ulula, abies, quia cecidit cedrus,{VS:BR} quoniam magnifici vastati sunt :{VS:BR} ululate, quercus Basan,{VS:BR} quoniam succisus est saltus munitus.{VS:BR}'
-      v:003: 'ZEC:11:3 | 3 | 3 | Vox ululatus pastorum,{VS:BR} quia vastata est magnificentia eorum :{VS:BR} vox rugitus leonum,{VS:BR} quoniam vastata est superbia Jordanis.{VERSE:END}{VS:P}'
+      v:003: 'ZEC:11:3 | 3 | 3 | Vox ululatus pastorum,{VS:BR} quia vastata est magnificentia eorum :{VS:BR} vox rugitus leonum,{VS:BR} quoniam vastata est superbia Jordanis.{VS:VERSE:END}{VS:P}'
       v:004: 'ZEC:11:4 | 4 | 4 | Hæc dicit Dominus Deus meus : Pasce pecora occisionis,'
       v:005: 'ZEC:11:5 | 5 | 5 | quæ qui possederant occidebant, et non dolebant, et vendebant ea, dicentes : Benedictus Dominus ! divites facti sumus : et pastores eorum non parcebant eis.'
       v:006: 'ZEC:11:6 | 6 | 6 | Et ego non parcam ultra super habitantes terram, dicit Dominus : ecce ego tradam homines, unumquemque in manu proximi sui, et in manu regis sui : et concident terram, et non eruam de manu eorum.'
@@ -214,28 +193,28 @@ chapters:
       v:017: 'ZEC:11:17 | 17 | 17 | O pastor, et idolum derelinquens gregem : gladius super brachium ejus, et super oculum dextrum ejus : brachium ejus ariditate siccabitur, et oculus dexter ejus tenebrescens obscurabitur.'
   c:012:
     verses:
-      v:001: 'ZEC:12:1 | 1 | 1 | Onus verbi Domini super Israël. {VERSE:BEGIN}Dicit Dominus extendens cælum, et fundans terram,{VS:BR} et fingens spiritum hominis in eo :{VS:BR}'
+      v:001: 'ZEC:12:1 | 1 | 1 | Onus verbi Domini super Israël. {VS:VERSE:BEGIN}Dicit Dominus extendens cælum, et fundans terram,{VS:BR} et fingens spiritum hominis in eo :{VS:BR}'
       v:002: 'ZEC:12:2 | 2 | 2 | Ecce ego ponam Jerusalem superliminare crapulæ{VS:BR} omnibus populis in circuitu :{VS:BR} sed et Juda erit in obsidione contra Jerusalem.{VS:BR}'
       v:003: 'ZEC:12:3 | 3 | 3 | Et erit : in die illa ponam Jerusalem lapidem oneris cunctis populis :{VS:BR} omnes qui levabunt eam concisione lacerabuntur,{VS:BR} et colligentur adversus eam omnia regna terræ.{VS:BR}'
       v:004: 'ZEC:12:4 | 4 | 4 | In die illa, dicit Dominus,{VS:BR} percutiam omnem equum in stuporem,{VS:BR} et ascensorem ejus in amentiam :{VS:BR} et super domum Juda aperiam oculos meos,{VS:BR} et omnem equum populorum percutiam cæcitate.{VS:BR}'
       v:005: 'ZEC:12:5 | 5 | 5 | Et dicent duces Juda in corde suo :{VS:BR} Confortentur mihi habitatores Jerusalem{VS:BR} in Domino exercituum, Deo eorum !{VS:BR}'
       v:006: 'ZEC:12:6 | 6 | 6 | In die illa ponam duces Juda{VS:BR} sicut caminum ignis in lignis,{VS:BR} et sicut facem ignis in fœno :{VS:BR} et devorabunt ad dexteram et ad sinistram omnes populos in circuitu,{VS:BR} et habitabitur Jerusalem rursus in loco suo in Jerusalem.{VS:BR}'
       v:007: 'ZEC:12:7 | 7 | 7 | Et salvabit Dominus tabernacula Juda, sicut in principio,{VS:BR} ut non magnifice glorietur domus David,{VS:BR} et gloria habitantium Jerusalem contra Judam.{VS:BR}'
-      v:008: 'ZEC:12:8 | 8 | 8 | In die illa proteget Dominus habitatores Jerusalem :{VS:BR} et erit qui offenderit ex eis in die illa quasi David,{VS:BR} et domus David quasi Dei,{VS:BR} sicut angelus Domini in conspectu eorum.{VERSE:END}{VS:P}'
-      v:009: 'ZEC:12:9 | 9 | 9 | {VERSE:BEGIN}Et erit in die illa :{VS:BR} quæram conterere omnes gentes quæ veniunt contra Jerusalem.{VS:BR}'
+      v:008: 'ZEC:12:8 | 8 | 8 | In die illa proteget Dominus habitatores Jerusalem :{VS:BR} et erit qui offenderit ex eis in die illa quasi David,{VS:BR} et domus David quasi Dei,{VS:BR} sicut angelus Domini in conspectu eorum.{VS:VERSE:END}{VS:P}'
+      v:009: 'ZEC:12:9 | 9 | 9 | {VS:VERSE:BEGIN}Et erit in die illa :{VS:BR} quæram conterere omnes gentes quæ veniunt contra Jerusalem.{VS:BR}'
       v:010: 'ZEC:12:10 | 10 | 10 | Et effundam super domum David{VS:BR} et super habitatores Jerusalem{VS:BR} spiritum gratiæ et precum :{VS:BR} et aspicient ad me quem confixerunt,{VS:BR} et plangent eum planctu quasi super unigenitum,{VS:BR} et dolebunt super eum,{VS:BR} ut doleri solet in morte primogeniti.{VS:BR}'
       v:011: 'ZEC:12:11 | 11 | 11 | In die illa, magnus erit planctus in Jerusalem,{VS:BR} sicut planctus Adadremmon in campo Mageddon.{VS:BR}'
       v:012: 'ZEC:12:12 | 12 | 12 | Et planget terra : familiæ et familiæ seorsum :{VS:BR} familiæ domus David seorsum, et mulieres eorum seorsum :{VS:BR}'
       v:013: 'ZEC:12:13 | 13 | 13 | familiæ domus Nathan seorsum, et mulieres eorum seorsum :{VS:BR} familiæ domus Levi seorsum, et mulieres eorum seorsum :{VS:BR} familiæ Semei seorsum, et mulieres eorum seorsum :{VS:BR}'
-      v:014: 'ZEC:12:14 | 14 | 14 | omnes familiæ reliquæ,{VS:BR} familiæ et familiæ seorsum, et mulieres eorum seorsum.{VERSE:END}'
+      v:014: 'ZEC:12:14 | 14 | 14 | omnes familiæ reliquæ,{VS:BR} familiæ et familiæ seorsum, et mulieres eorum seorsum.{VS:VERSE:END}'
   c:013:
     verses:
-      v:001: 'ZEC:13:1 | 1 | 1 | {VERSE:BEGIN}In die illa erit fons patens domui David et habitantibus Jerusalem,{VS:BR} in ablutionem peccatoris et menstruatæ.{VS:BR}'
+      v:001: 'ZEC:13:1 | 1 | 1 | {VS:VERSE:BEGIN}In die illa erit fons patens domui David et habitantibus Jerusalem,{VS:BR} in ablutionem peccatoris et menstruatæ.{VS:BR}'
       v:002: 'ZEC:13:2 | 2 | 2 | Et erit in die illa, dicit Dominus exercituum :{VS:BR} disperdam nomina idolorum de terra,{VS:BR} et non memorabuntur ultra :{VS:BR} et pseudoprophetas, et spiritum immundum auferam de terra.{VS:BR}'
       v:003: 'ZEC:13:3 | 3 | 3 | Et erit : cum prophetaverit quispiam ultra,{VS:BR} dicent ei pater ejus et mater ejus, qui genuerunt eum :{VS:BR} Non vives, quia mendacium locutus es in nomine Domini :{VS:BR} et configent eum pater ejus et mater ejus, genitores ejus,{VS:BR} cum prophetaverit.{VS:BR}'
       v:004: 'ZEC:13:4 | 4 | 4 | Et erit : in die illa confundentur prophetæ,{VS:BR} unusquisque ex visione sua cum prophetaverit :{VS:BR} nec operientur pallio saccino, ut mentiantur :{VS:BR}'
       v:005: 'ZEC:13:5 | 5 | 5 | sed dicet : Non sum propheta :{VS:BR} homo agricola ego sum,{VS:BR} quoniam Adam exemplum meum ab adolescentia mea.{VS:BR}'
-      v:006: 'ZEC:13:6 | 6 | 6 | Et dicetur ei : Quid sunt plagæ istæ in medio manuum tuarum ?{VS:BR} Et dicet : His plagatus sum in domo eorum qui diligebant me.{VERSE:END}{VS:P}'
+      v:006: 'ZEC:13:6 | 6 | 6 | Et dicetur ei : Quid sunt plagæ istæ in medio manuum tuarum ?{VS:BR} Et dicet : His plagatus sum in domo eorum qui diligebant me.{VS:VERSE:END}{VS:P}'
       v:007: 'ZEC:13:7 | 7 | 7 | Framea, suscitare super pastorem meum, et super virum cohærentem mihi, dicit Dominus exercituum : percute pastorem, et dispergentur oves : et convertam manum meam ad parvulos.'
       v:008: 'ZEC:13:8 | 8 | 8 | Et erunt in omni terra, dicit Dominus : partes duæ in ea dispergentur, et deficient : et tertia pars relinquetur in ea.'
       v:009: 'ZEC:13:9 | 9 | 9 | Et ducam tertiam partem per ignem, et uram eos sicut uritur argentum, et probabo eos sicut probatur aurum. Ipse vocabit nomen meum, et ego exaudiam eum. Dicam : Populus meus es : et ipse dicet : Dominus Deus meus.'

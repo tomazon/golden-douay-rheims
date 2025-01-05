@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Nm.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: NUM
 book_title: Numeri
@@ -814,11 +793,11 @@ chapters:
       v:011: 'NUM:21:11 | 11 | 11 | Unde egressi fixere tentoria in Jeabarim, in solitudine quæ respicit Moab contra orientalem plagam.'
       v:012: 'NUM:21:12 | 12 | 12 | Et inde moventes, venerunt ad torrentem Zared.'
       v:013: 'NUM:21:13 | 13 | 13 | Quem relinquentes castrametati sunt contra Arnon, quæ est in deserto, et prominet in finibus Amorrhæi. Siquidem Arnon terminus est Moab, dividens Moabitas et Amorrhæos.'
-      v:014: 'NUM:21:14 | 14 | 14 | Unde dicitur in libro bellorum Domini : {VERSE:BEGIN}Sicut fecit in mari Rubro,{VS:BR} sic faciet in torrentibus Arnon.{VS:BR}'
-      v:015: 'NUM:21:15 | 15 | 15 | Scopuli torrentium inclinati sunt, ut requiescerent in Ar,{VS:BR} et recumberent in finibus Moabitarum.{VERSE:END}'
+      v:014: 'NUM:21:14 | 14 | 14 | Unde dicitur in libro bellorum Domini : {VS:VERSE:BEGIN}Sicut fecit in mari Rubro,{VS:BR} sic faciet in torrentibus Arnon.{VS:BR}'
+      v:015: 'NUM:21:15 | 15 | 15 | Scopuli torrentium inclinati sunt, ut requiescerent in Ar,{VS:BR} et recumberent in finibus Moabitarum.{VS:VERSE:END}'
       v:016: 'NUM:21:16 | 16 | 16 | Ex eo loco apparuit puteus, super quo locutus est Dominus ad Moysen : Congrega populum, et dabo ei aquam.'
-      v:017: 'NUM:21:17 | 17 | 17 | Tunc cecinit Israël carmen istud : {VERSE:BEGIN}Ascendat puteus.{VERSE:END} Concinebant :'
-      v:018: 'NUM:21:18 | 18 | 18 | {VERSE:BEGIN}Puteus, quem foderunt principes{VS:BR} et paraverunt duces multitudinis{VS:BR} in datore legis, et in baculis suis.{VERSE:END} De solitudine, Matthana.'
+      v:017: 'NUM:21:17 | 17 | 17 | Tunc cecinit Israël carmen istud : {VS:VERSE:BEGIN}Ascendat puteus.{VS:VERSE:END} Concinebant :'
+      v:018: 'NUM:21:18 | 18 | 18 | {VS:VERSE:BEGIN}Puteus, quem foderunt principes{VS:BR} et paraverunt duces multitudinis{VS:BR} in datore legis, et in baculis suis.{VS:VERSE:END} De solitudine, Matthana.'
       v:019: 'NUM:21:19 | 19 | 19 | De Matthana in Nahaliel : de Nahaliel in Bamoth.'
       v:020: 'NUM:21:20 | 20 | 20 | De Bamoth, vallis est in regione Moab, in vertice Phasga, quod respicit contra desertum.{VS:P}'
       v:021: 'NUM:21:21 | 21 | 21 | Misit autem Israël nuntios ad Sehon regem Amorrhæorum, dicens :'
@@ -827,10 +806,10 @@ chapters:
       v:024: 'NUM:21:24 | 24 | 24 | A quo percussus est in ore gladii, et possessa est terra ejus ab Arnon usque Jeboc, et filios Ammon : quia forti præsidio tenebantur termini Ammonitarum.'
       v:025: 'NUM:21:25 | 25 | 25 | Tulit ergo Israël omnes civitates ejus, et habitavit in urbibus Amorrhæi, in Hesebon scilicet, et viculis ejus.'
       v:026: 'NUM:21:26 | 26 | 26 | Urbs Hesebon fuit Sehon regis Amorrhæi, qui pugnavit contra regem Moab : et tulit omnem terram, quæ ditionis illius fuerat usque Arnon.'
-      v:027: 'NUM:21:27 | 27 | 27 | Idcirco dicitur in proverbio : {VERSE:BEGIN}Venite in Hesebon : ædificetur, et construatur civitas Sehon :{VS:BR}'
+      v:027: 'NUM:21:27 | 27 | 27 | Idcirco dicitur in proverbio : {VS:VERSE:BEGIN}Venite in Hesebon : ædificetur, et construatur civitas Sehon :{VS:BR}'
       v:028: 'NUM:21:28 | 28 | 28 | ignis egressus est de Hesebon, flamma de oppido Sehon,{VS:BR} et devoravit Ar Moabitarum, et habitatores excelsorum Arnon.{VS:BR}'
       v:029: 'NUM:21:29 | 29 | 29 | Væ tibi Moab ; peristi popule Chamos.{VS:BR} Dedit filios ejus in fugam, et filias in captivitatem regi Amorrhæorum Sehon.{VS:BR}'
-      v:030: 'NUM:21:30 | 30 | 30 | Jugum ipsorum disperiit ad Hesebon usque Dibon :{VS:BR} lassi pervenerunt in Nophe, et usque Medaba.{VERSE:END}'
+      v:030: 'NUM:21:30 | 30 | 30 | Jugum ipsorum disperiit ad Hesebon usque Dibon :{VS:BR} lassi pervenerunt in Nophe, et usque Medaba.{VS:VERSE:END}'
       v:031: 'NUM:21:31 | 31 | 31 | Habitavit itaque Israël in terra Amorrhæi.{VS:P}'
       v:032: 'NUM:21:32 | 32 | 32 | Misitque Moyses qui explorarent Jazer : cujus ceperunt viculos, et possederunt habitatores.'
       v:033: 'NUM:21:33 | 33 | 33 | Verteruntque se, et ascenderunt per viam Basan, et occurrit eis Og, rex Basan, cum omni populo suo, pugnaturus in Edrai.'
@@ -887,10 +866,10 @@ chapters:
       v:004: 'NUM:23:4 | 4 | 4 | Cumque abiisset velociter, occurrit illi Deus. Locutusque ad eum Balaam : Septem, inquit, aras erexi, et imposui vitulum et arietem desuper.'
       v:005: 'NUM:23:5 | 5 | 5 | Dominus autem posuit verbum in ore ejus, et ait : Revertere ad Balac, et hæc loqueris.'
       v:006: 'NUM:23:6 | 6 | 6 | Reversus invenit stantem Balac juxta holocaustum suum, et omnes principes Moabitarum :'
-      v:007: 'NUM:23:7 | 7 | 7 | assumptaque parabola sua, dixit : {VERSE:BEGIN}De Aram adduxit me Balac{VS:BR} rex Moabitarum, de montibus orientis :{VS:BR} Veni, inquit, et maledic Jacob ;{VS:BR} propera, et detestare Israël.{VS:BR}'
+      v:007: 'NUM:23:7 | 7 | 7 | assumptaque parabola sua, dixit : {VS:VERSE:BEGIN}De Aram adduxit me Balac{VS:BR} rex Moabitarum, de montibus orientis :{VS:BR} Veni, inquit, et maledic Jacob ;{VS:BR} propera, et detestare Israël.{VS:BR}'
       v:008: 'NUM:23:8 | 8 | 8 | Quomodo maledicam, cui non maledixit Deus ?{VS:BR} qua ratione detester, quem Dominus non detestatur ?{VS:BR}'
       v:009: 'NUM:23:9 | 9 | 9 | De summis silicibus videbo eum,{VS:BR} et de collibus considerabo illum.{VS:BR} Populus solus habitabit,{VS:BR} et inter gentes non reputabitur.{VS:BR}'
-      v:010: 'NUM:23:10 | 10 | 10 | Quis dinumerare possit pulverem Jacob,{VS:BR} et nosse numerum stirpis Israël ?{VS:BR} Moriatur anima mea morte justorum,{VS:BR} et fiant novissima mea horum similia.{VERSE:END}{VS:P}'
+      v:010: 'NUM:23:10 | 10 | 10 | Quis dinumerare possit pulverem Jacob,{VS:BR} et nosse numerum stirpis Israël ?{VS:BR} Moriatur anima mea morte justorum,{VS:BR} et fiant novissima mea horum similia.{VS:VERSE:END}{VS:P}'
       v:011: 'NUM:23:11 | 11 | 11 | Dixitque Balac ad Balaam : Quid est hoc quod agis ? ut malediceres inimicis meis vocavi te, et tu e contrario benedicis eis.'
       v:012: 'NUM:23:12 | 12 | 12 | Cui ille respondit : Num aliud possum loqui, nisi quod jusserit Dominus ?'
       v:013: 'NUM:23:13 | 13 | 13 | Dixit ergo Balac : Veni mecum in alterum locum unde partem Israël videas, et totum videre non possis : inde maledicito ei.'
@@ -898,13 +877,13 @@ chapters:
       v:015: 'NUM:23:15 | 15 | 15 | dixit ad Balac : Sta hic juxta holocaustum tuum, donec ego obvius pergam.'
       v:016: 'NUM:23:16 | 16 | 16 | Cui cum Dominus occurrisset, posuissetque verbum in ore ejus, ait : Revertere ad Balac, et hæc loqueris ei.'
       v:017: 'NUM:23:17 | 17 | 17 | Reversus invenit eum stantem juxta holocaustum suum, et principes Moabitarum cum eo. Ad quem Balac : Quid, inquit, locutus est Dominus ?'
-      v:018: 'NUM:23:18 | 18 | 18 | At ille, assumpta parabola sua, ait : {VERSE:BEGIN}Sta, Balac, et ausculta ; audi, fili Sephor :{VS:BR}'
+      v:018: 'NUM:23:18 | 18 | 18 | At ille, assumpta parabola sua, ait : {VS:VERSE:BEGIN}Sta, Balac, et ausculta ; audi, fili Sephor :{VS:BR}'
       v:019: 'NUM:23:19 | 19 | 19 | non est Deus quasi homo, ut mentiatur,{VS:BR} nec ut filius hominis, ut mutetur.{VS:BR} Dixit ergo, et non faciet ?{VS:BR} locutus est, et non implebit ?{VS:BR}'
       v:020: 'NUM:23:20 | 20 | 20 | Ad benedicendum adductus sum :{VS:BR} benedictionem prohibere non valeo.{VS:BR}'
       v:021: 'NUM:23:21 | 21 | 21 | Non est idolum in Jacob,{VS:BR} nec videtur simulacrum in Israël.{VS:BR} Dominus Deus ejus cum eo est,{VS:BR} et clangor victoriæ regis in illo.{VS:BR}'
       v:022: 'NUM:23:22 | 22 | 22 | Deus eduxit illum de Ægypto,{VS:BR} cujus fortitudo similis est rhinocerotis.{VS:BR}'
       v:023: 'NUM:23:23 | 23 | 23 | Non est augurium in Jacob,{VS:BR} nec divinatio in Israël :{VS:BR} temporibus suis dicetur Jacob et Israëli quid operatus sit Deus.{VS:BR}'
-      v:024: 'NUM:23:24 | 24 | 24 | Ecce populus ut leæna consurget,{VS:BR} et quasi leo erigetur :{VS:BR} non accubabit donec devoret prædam,{VS:BR} et occisorum sanguinem bibat.{VERSE:END}{VS:P}'
+      v:024: 'NUM:23:24 | 24 | 24 | Ecce populus ut leæna consurget,{VS:BR} et quasi leo erigetur :{VS:BR} non accubabit donec devoret prædam,{VS:BR} et occisorum sanguinem bibat.{VS:VERSE:END}{VS:P}'
       v:025: 'NUM:23:25 | 25 | 25 | Dixitque Balac ad Balaam : Nec maledicas ei, nec benedicas.'
       v:026: 'NUM:23:26 | 26 | 26 | Et ille ait : Nonne dixi tibi quod quidquid mihi Deus imperaret, hoc facerem ?'
       v:027: 'NUM:23:27 | 27 | 27 | Et ait Balac ad eum : Veni, et ducam te ad alium locum : si forte placeat Deo ut inde maledicas eis.'
@@ -915,28 +894,28 @@ chapters:
     verses:
       v:001: 'NUM:24:1 | 1 | 1 | Cumque vidisset Balaam quod placeret Domino ut benediceret Israëli, nequaquam abiit ut ante perrexerat, ut augurium quæreret : sed dirigens contra desertum vultum suum,'
       v:002: 'NUM:24:2 | 2 | 2 | et elevans oculos, vidit Israël in tentoriis commorantem per tribus suas : et irruente in se spiritu Dei,'
-      v:003: 'NUM:24:3 | 3 | 3 | assumpta parabola, ait : {VERSE:BEGIN}Dixit Balaam filius Beor :{VS:BR} dixit homo, cujus obturatus est oculus :{VS:BR}'
+      v:003: 'NUM:24:3 | 3 | 3 | assumpta parabola, ait : {VS:VERSE:BEGIN}Dixit Balaam filius Beor :{VS:BR} dixit homo, cujus obturatus est oculus :{VS:BR}'
       v:004: 'NUM:24:4 | 4 | 4 | dixit auditor sermonum Dei,{VS:BR} qui visionem Omnipotentis intuitus est,{VS:BR} qui cadit, et sic aperiuntur oculi ejus :{VS:BR}'
       v:005: 'NUM:24:5 | 5 | 5 | Quam pulchra tabernacula tua, Jacob,{VS:BR} et tentoria tua, Israël !{VS:BR}'
       v:006: 'NUM:24:6 | 6 | 6 | ut valles nemorosæ,{VS:BR} ut horti juxta fluvios irrigui,{VS:BR} ut tabernacula quæ fixit Dominus,{VS:BR} quasi cedri prope aquas.{VS:BR}'
       v:007: 'NUM:24:7 | 7 | 7 | Fluet aqua de situla ejus,{VS:BR} et semen illius erit in aquas multas.{VS:BR} Tolletur propter Agag, rex ejus,{VS:BR} et auferetur regnum illius.{VS:BR}'
       v:008: 'NUM:24:8 | 8 | 8 | Deus eduxit illum de Ægypto,{VS:BR} cujus fortitudo similis est rhinocerotis.{VS:BR} Devorabunt gentes hostes illius,{VS:BR} ossaque eorum confringent, et perforabunt sagittis.{VS:BR}'
-      v:009: 'NUM:24:9 | 9 | 9 | Accubans dormivit ut leo,{VS:BR} et quasi leæna, quam suscitare nullus audebit.{VS:BR} Qui benedixerit tibi, erit et ipse benedictus :{VS:BR} qui maledixerit, in maledictione reputabitur.{VERSE:END}{VS:P}'
+      v:009: 'NUM:24:9 | 9 | 9 | Accubans dormivit ut leo,{VS:BR} et quasi leæna, quam suscitare nullus audebit.{VS:BR} Qui benedixerit tibi, erit et ipse benedictus :{VS:BR} qui maledixerit, in maledictione reputabitur.{VS:VERSE:END}{VS:P}'
       v:010: 'NUM:24:10 | 10 | 10 | Iratusque Balac contra Balaam, complosis manibus ait : Ad maledicendum inimicis meis vocavi te, quibus e contrario tertio benedixisti :'
       v:011: 'NUM:24:11 | 11 | 11 | revertere ad locum tuum. Decreveram quidem magnifice honorare te, sed Dominus privavit te honore disposito.'
       v:012: 'NUM:24:12 | 12 | 12 | Respondit Balaam ad Balac : Nonne nuntiis tuis, quos misisti ad me, dixi :'
       v:013: 'NUM:24:13 | 13 | 13 | Si dederit mihi Balac plenam domum suam argenti et auri, non potero præterire sermonem Domini Dei mei, ut vel boni quid vel mali proferam ex corde meo : sed quidquid Dominus dixerit, hoc loquar ?'
       v:014: 'NUM:24:14 | 14 | 14 | verumtamen pergens ad populum meum, dabo consilium, quid populus tuus populo huic faciat extremo tempore.'
-      v:015: 'NUM:24:15 | 15 | 15 | Sumpta igitur parabola, rursum ait : {VERSE:BEGIN}Dixit Balaam filius Beor :{VS:BR} dixit homo, cujus obturatus est oculus :{VS:BR}'
+      v:015: 'NUM:24:15 | 15 | 15 | Sumpta igitur parabola, rursum ait : {VS:VERSE:BEGIN}Dixit Balaam filius Beor :{VS:BR} dixit homo, cujus obturatus est oculus :{VS:BR}'
       v:016: 'NUM:24:16 | 16 | 16 | dixit auditor sermonum Dei,{VS:BR} qui novit doctrinam Altissimi,{VS:BR} et visiones Omnipotentis videt,{VS:BR} qui cadens apertos habet oculos :{VS:BR}'
       v:017: 'NUM:24:17 | 17 | 17 | Videbo eum, sed non modo :{VS:BR} intuebor illum, sed non prope.{VS:BR} Orietur stella ex Jacob,{VS:BR} et consurget virga de Israël :{VS:BR} et percutiet duces Moab,{VS:BR} vastabitque omnes filios Seth.{VS:BR}'
       v:018: 'NUM:24:18 | 18 | 18 | Et erit Idumæa possessio ejus :{VS:BR} hæreditas Seir cedet inimicis suis :{VS:BR} Israël vero fortiter aget.{VS:BR}'
-      v:019: 'NUM:24:19 | 19 | 19 | De Jacob erit qui dominetur,{VS:BR} et perdat reliquias civitatis.{VERSE:END}{VS:P}'
-      v:020: 'NUM:24:20 | 20 | 20 | Cumque vidisset Amalec, assumens parabolam, ait : {VERSE:BEGIN}Principium gentium Amalec,{VS:BR} cujus extrema perdentur.{VERSE:END}'
-      v:021: 'NUM:24:21 | 21 | 21 | Vidit quoque Cinæum : et assumpta parabola, ait : {VERSE:BEGIN}Robustum quidem est habitaculum tuum :{VS:BR} sed si in petra posueris nidum tuum,{VS:BR}'
-      v:022: 'NUM:24:22 | 22 | 22 | et fueris electus de stirpe Cin,{VS:BR} quamdiu poteris permanere ? Assur enim capiet te.{VERSE:END}'
-      v:023: 'NUM:24:23 | 23 | 23 | Assumptaque parabola iterum locutus est : {VERSE:BEGIN}Heu ! quis victurus est,{VS:BR} quando ista faciet Deus ?{VS:BR}'
-      v:024: 'NUM:24:24 | 24 | 24 | Venient in trieribus de Italia :{VS:BR} superabunt Assyrios, vastabuntque Hebræos, et ad extremum etiam ipsi peribunt.{VERSE:END}'
+      v:019: 'NUM:24:19 | 19 | 19 | De Jacob erit qui dominetur,{VS:BR} et perdat reliquias civitatis.{VS:VERSE:END}{VS:P}'
+      v:020: 'NUM:24:20 | 20 | 20 | Cumque vidisset Amalec, assumens parabolam, ait : {VS:VERSE:BEGIN}Principium gentium Amalec,{VS:BR} cujus extrema perdentur.{VS:VERSE:END}'
+      v:021: 'NUM:24:21 | 21 | 21 | Vidit quoque Cinæum : et assumpta parabola, ait : {VS:VERSE:BEGIN}Robustum quidem est habitaculum tuum :{VS:BR} sed si in petra posueris nidum tuum,{VS:BR}'
+      v:022: 'NUM:24:22 | 22 | 22 | et fueris electus de stirpe Cin,{VS:BR} quamdiu poteris permanere ? Assur enim capiet te.{VS:VERSE:END}'
+      v:023: 'NUM:24:23 | 23 | 23 | Assumptaque parabola iterum locutus est : {VS:VERSE:BEGIN}Heu ! quis victurus est,{VS:BR} quando ista faciet Deus ?{VS:BR}'
+      v:024: 'NUM:24:24 | 24 | 24 | Venient in trieribus de Italia :{VS:BR} superabunt Assyrios, vastabuntque Hebræos, et ad extremum etiam ipsi peribunt.{VS:VERSE:END}'
       v:025: 'NUM:24:25 | 25 | 25 | Surrexitque Balaam, et reversus est in locum suum : Balac quoque via, qua venerat, rediit.'
   c:025:
     verses:

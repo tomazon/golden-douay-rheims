@@ -1,27 +1,6 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Tob.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: TOB
-book_title: Tobi�
+book_title: Tobiae
 chapters:
   c:001:
     verses:
@@ -78,11 +57,11 @@ chapters:
   c:003:
     verses:
       v:001: 'TOB:3:1 | 1 | 1 | Tunc Tobias ingemuit, et cœpit orare cum lacrimis,'
-      v:002: 'TOB:3:2 | 2 | 2 | dicens : {VERSE:BEGIN}Justus es, Domine, et omnia judicia tua justa sunt,{VS:BR} et omnes viæ tuæ, misericordia, et veritas, et judicium.{VS:BR}'
+      v:002: 'TOB:3:2 | 2 | 2 | dicens : {VS:VERSE:BEGIN}Justus es, Domine, et omnia judicia tua justa sunt,{VS:BR} et omnes viæ tuæ, misericordia, et veritas, et judicium.{VS:BR}'
       v:003: 'TOB:3:3 | 3 | 3 | Et nunc Domine, memor esto mei,{VS:BR} et ne vindictam sumas de peccatis meis,{VS:BR} neque reminiscaris delicta mea, vel parentum meorum.{VS:BR}'
       v:004: 'TOB:3:4 | 4 | 4 | Quoniam non obedivimus præceptis tuis,{VS:BR} ideo traditi sumus in direptionem,{VS:BR} et captivitatem, et mortem,{VS:BR} et in fabulam, et in improperium omnibus nationibus{VS:BR} in quibus dispersisti nos.{VS:BR}'
       v:005: 'TOB:3:5 | 5 | 5 | Et nunc Domine, magna judicia tua,{VS:BR} quia non egimus secundum præcepta tua,{VS:BR} et non ambulavimus sinceriter coram te.{VS:BR}'
-      v:006: 'TOB:3:6 | 6 | 6 | Et nunc Domine, secundum voluntatem tuam fac mecum,{VS:BR} et præcipe in pace recipi spiritum meum :{VS:BR} expedit enim mihi mori magis quam vivere.{VERSE:END}{VS:P}'
+      v:006: 'TOB:3:6 | 6 | 6 | Et nunc Domine, secundum voluntatem tuam fac mecum,{VS:BR} et præcipe in pace recipi spiritum meum :{VS:BR} expedit enim mihi mori magis quam vivere.{VS:VERSE:END}{VS:P}'
       v:007: 'TOB:3:7 | 7 | 7 | Eadem itaque die, contigit ut Sara filia Raguelis in Rages civitate Medorum et ipsa audiret improperium ab una ex ancillis patris sui,'
       v:008: 'TOB:3:8 | 8 | 8 | quoniam tradita fuerat septem viris, et dæmonium nomine Asmodæus occiderat eos, mox ut ingressi fuissent ad eam.'
       v:009: 'TOB:3:9 | 9 | 9 | Ergo cum pro culpa sua increparet puellam, respondit ei, dicens : Amplius ex te non videamus filium aut filiam super terram, interfectrix virorum tuorum.'
@@ -307,7 +286,7 @@ chapters:
       v:022: 'TOB:12:22 | 22 | 22 | Tunc prostrati per horas tres in faciem, benedixerunt Deum : et exsurgentes narraverunt omnia mirabilia ejus.'
   c:013:
     verses:
-      v:001: 'TOB:13:1 | 1 | 1 | Aperiens autem Tobias senior os suum, benedixit Dominum, et dixit : {VERSE:BEGIN}Magnus es, Domine, in æternum,{VS:BR} et in omnia sæcula regnum tuum :{VS:BR}'
+      v:001: 'TOB:13:1 | 1 | 1 | Aperiens autem Tobias senior os suum, benedixit Dominum, et dixit : {VS:VERSE:BEGIN}Magnus es, Domine, in æternum,{VS:BR} et in omnia sæcula regnum tuum :{VS:BR}'
       v:002: 'TOB:13:2 | 2 | 2 | quoniam tu flagellas, et salvas ;{VS:BR} deducis ad inferos, et reducis :{VS:BR} et non est qui effugiat manum tuam.{VS:BR}'
       v:003: 'TOB:13:3 | 3 | 3 | Confitemini Domino, filii Israël,{VS:BR} et in conspectu gentium laudate eum :{VS:BR}'
       v:004: 'TOB:13:4 | 4 | 4 | quoniam ideo dispersit vos inter gentes quæ ignorant eum,{VS:BR} ut vos enarretis mirabilia ejus,{VS:BR} et faciatis scire eos{VS:BR} quia non est alius deus omnipotens præter eum.{VS:BR}'
@@ -329,7 +308,7 @@ chapters:
       v:020: 'TOB:13:20 | 20 | 20 | Beatus ero si fuerint reliquiæ seminis mei{VS:BR} ad videndam claritatem Jerusalem.{VS:BR}'
       v:021: 'TOB:13:21 | 21 | 21 | Portæ Jerusalem ex sapphiro et smaragdo ædificabuntur,{VS:BR} et ex lapide pretioso omnis circuitus murorum ejus.{VS:BR}'
       v:022: 'TOB:13:22 | 22 | 22 | Ex lapide candido et mundo omnes plateæ ejus sternentur,{VS:BR} et per vicos ejus alleluja cantabitur.{VS:BR}'
-      v:023: 'TOB:13:23 | 23 | 23 | Benedictus Dominus, qui exaltavit eam,{VS:BR} et sit regnum ejus in sæcula sæculorum super eam. Amen.{VERSE:END}'
+      v:023: 'TOB:13:23 | 23 | 23 | Benedictus Dominus, qui exaltavit eam,{VS:BR} et sit regnum ejus in sæcula sæculorum super eam. Amen.{VS:VERSE:END}'
   c:014:
     verses:
       v:001: 'TOB:14:1 | 1 | 1 | Et consummati sunt sermones Tobiæ. Et postquam illuminatus est Tobias, vixit annis quadraginta duobus, et vidit filios nepotum suorum.'

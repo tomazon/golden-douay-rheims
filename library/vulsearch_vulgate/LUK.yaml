@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Lc.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: LUK
 book_title: Lucas
@@ -70,7 +49,7 @@ chapters:
       v:043: 'LUK:1:43 | 43 | 43 | Et unde hoc mihi, ut veniat mater Domini mei ad me ?'
       v:044: 'LUK:1:44 | 44 | 44 | Ecce enim ut facta est vox salutationis tuæ in auribus meis, exsultavit in gaudio infans in utero meo.'
       v:045: 'LUK:1:45 | 45 | 45 | Et beata, quæ credidisti, quoniam perficientur ea, quæ dicta sunt tibi a Domino.'
-      v:046: 'LUK:1:46 | 46 | 46 | Et ait Maria : {VERSE:BEGIN}Magnificat anima mea Dominum :{VS:BR}'
+      v:046: 'LUK:1:46 | 46 | 46 | Et ait Maria : {VS:VERSE:BEGIN}Magnificat anima mea Dominum :{VS:BR}'
       v:047: 'LUK:1:47 | 47 | 47 | et exsultavit spiritus meus in Deo salutari meo.{VS:BR}'
       v:048: 'LUK:1:48 | 48 | 48 | Quia respexit humilitatem ancillæ suæ :{VS:BR} ecce enim ex hoc beatam me dicent omnes generationes,{VS:BR}'
       v:049: 'LUK:1:49 | 49 | 49 | quia fecit mihi magna qui potens est :{VS:BR} et sanctum nomen ejus,{VS:BR}'
@@ -79,7 +58,7 @@ chapters:
       v:052: 'LUK:1:52 | 52 | 52 | Deposuit potentes de sede,{VS:BR} et exaltavit humiles.{VS:BR}'
       v:053: 'LUK:1:53 | 53 | 53 | Esurientes implevit bonis :{VS:BR} et divites dimisit inanes.{VS:BR}'
       v:054: 'LUK:1:54 | 54 | 54 | Suscepit Israël puerum suum,{VS:BR} recordatus misericordiæ suæ :{VS:BR}'
-      v:055: 'LUK:1:55 | 55 | 55 | sicut locutus est ad patres nostros,{VS:BR} Abraham et semini ejus in sæcula.{VERSE:END}'
+      v:055: 'LUK:1:55 | 55 | 55 | sicut locutus est ad patres nostros,{VS:BR} Abraham et semini ejus in sæcula.{VS:VERSE:END}'
       v:056: 'LUK:1:56 | 56 | 56 | Mansit autem Maria cum illa quasi mensibus tribus : et reversa est in domum suam.{VS:P}'
       v:057: 'LUK:1:57 | 57 | 57 | Elisabeth autem impletum est tempus pariendi, et peperit filium.'
       v:058: 'LUK:1:58 | 58 | 58 | Et audierunt vicini et cognati ejus quia magnificavit Dominus misericordiam suam cum illa, et congratulabantur ei.'
@@ -92,7 +71,7 @@ chapters:
       v:065: 'LUK:1:65 | 65 | 65 | Et factus est timor super omnes vicinos eorum : et super omnia montana Judææ divulgabantur omnia verba hæc :'
       v:066: 'LUK:1:66 | 66 | 66 | et posuerunt omnes qui audierant in corde suo, dicentes : Quis, putas, puer iste erit ? etenim manus Domini erat cum illo.'
       v:067: 'LUK:1:67 | 67 | 67 | Et Zacharias pater ejus repletus est Spiritu Sancto : et prophetavit, dicens :'
-      v:068: 'LUK:1:68 | 68 | 68 | {VERSE:BEGIN}Benedictus Dominus Deus Israël,{VS:BR} quia visitavit, et fecit redemptionem plebis suæ :{VS:BR}'
+      v:068: 'LUK:1:68 | 68 | 68 | {VS:VERSE:BEGIN}Benedictus Dominus Deus Israël,{VS:BR} quia visitavit, et fecit redemptionem plebis suæ :{VS:BR}'
       v:069: 'LUK:1:69 | 69 | 69 | et erexit cornu salutis nobis{VS:BR} in domo David pueri sui,{VS:BR}'
       v:070: 'LUK:1:70 | 70 | 70 | sicut locutus est per os sanctorum,{VS:BR} qui a sæculo sunt, prophetarum ejus :{VS:BR}'
       v:071: 'LUK:1:71 | 71 | 71 | salutem ex inimicis nostris,{VS:BR} et de manu omnium qui oderunt nos :{VS:BR}'
@@ -103,7 +82,7 @@ chapters:
       v:076: 'LUK:1:76 | 76 | 76 | Et tu puer, propheta Altissimi vocaberis :{VS:BR} præibis enim ante faciem Domini parare vias ejus,{VS:BR}'
       v:077: 'LUK:1:77 | 77 | 77 | ad dandam scientiam salutis plebi ejus{VS:BR} in remissionem peccatorum eorum{VS:BR}'
       v:078: 'LUK:1:78 | 78 | 78 | per viscera misericordiæ Dei nostri,{VS:BR} in quibus visitavit nos, oriens ex alto :{VS:BR}'
-      v:079: 'LUK:1:79 | 79 | 79 | illuminare his qui in tenebris et in umbra mortis sedent :{VS:BR} ad dirigendos pedes nostros in viam pacis.{VERSE:END}'
+      v:079: 'LUK:1:79 | 79 | 79 | illuminare his qui in tenebris et in umbra mortis sedent :{VS:BR} ad dirigendos pedes nostros in viam pacis.{VS:VERSE:END}'
       v:080: 'LUK:1:80 | 80 | 80 | Puer autem crescebat, et confortabatur spiritu : et erat in desertis usque in diem ostensionis suæ ad Israël.'
   c:002:
     verses:
@@ -120,7 +99,7 @@ chapters:
       v:011: 'LUK:2:11 | 11 | 11 | quia natus est vobis hodie Salvator, qui est Christus Dominus, in civitate David.'
       v:012: 'LUK:2:12 | 12 | 12 | Et hoc vobis signum : invenietis infantem pannis involutum, et positum in præsepio.'
       v:013: 'LUK:2:13 | 13 | 13 | Et subito facta est cum angelo multitudo militiæ cælestis laudantium Deum, et dicentium :'
-      v:014: 'LUK:2:14 | 14 | 14 | {VERSE:BEGIN}Gloria in altissimis Deo,{VS:BR} et in terra pax hominibus bonæ voluntatis.{VERSE:END}'
+      v:014: 'LUK:2:14 | 14 | 14 | {VS:VERSE:BEGIN}Gloria in altissimis Deo,{VS:BR} et in terra pax hominibus bonæ voluntatis.{VS:VERSE:END}'
       v:015: 'LUK:2:15 | 15 | 15 | Et factum est, ut discesserunt ab eis angeli in cælum : pastores loquebantur ad invicem : Transeamus usque Bethlehem, et videamus hoc verbum, quod factum est, quod Dominus ostendit nobis.'
       v:016: 'LUK:2:16 | 16 | 16 | Et venerunt festinantes : et invenerunt Mariam, et Joseph, et infantem positum in præsepio.'
       v:017: 'LUK:2:17 | 17 | 17 | Videntes autem cognoverunt de verbo, quod dictum erat illis de puero hoc.'
@@ -135,10 +114,10 @@ chapters:
       v:026: 'LUK:2:26 | 26 | 26 | Et responsum acceperat a Spiritu Sancto, non visurum se mortem, nisi prius videret Christum Domini.'
       v:027: 'LUK:2:27 | 27 | 27 | Et venit in spiritu in templum. Et cum inducerent puerum Jesum parentes ejus, ut facerent secundum consuetudinem legis pro eo,'
       v:028: 'LUK:2:28 | 28 | 28 | et ipse accepit eum in ulnas suas : et benedixit Deum, et dixit :'
-      v:029: 'LUK:2:29 | 29 | 29 | {VERSE:BEGIN}Nunc dimittis servum tuum Domine,{VS:BR} secundum verbum tuum in pace :{VS:BR}'
+      v:029: 'LUK:2:29 | 29 | 29 | {VS:VERSE:BEGIN}Nunc dimittis servum tuum Domine,{VS:BR} secundum verbum tuum in pace :{VS:BR}'
       v:030: 'LUK:2:30 | 30 | 30 | quia viderunt oculi mei salutare tuum,{VS:BR}'
       v:031: 'LUK:2:31 | 31 | 31 | quod parasti ante faciem omnium populorum :{VS:BR}'
-      v:032: 'LUK:2:32 | 32 | 32 | lumen ad revelationem gentium,{VS:BR} et gloriam plebis tuæ Israël.{VERSE:END}'
+      v:032: 'LUK:2:32 | 32 | 32 | lumen ad revelationem gentium,{VS:BR} et gloriam plebis tuæ Israël.{VS:VERSE:END}'
       v:033: LUK:2:33 | 33 | 33 | Et erat pater ejus et mater mirantes super his quæ dicebantur de illo.
       v:034: 'LUK:2:34 | 34 | 34 | Et benedixit illis Simeon, et dixit ad Mariam matrem ejus : Ecce positus est hic in ruinam et in resurrectionem multorum in Israël, et in signum cui contradicetur :'
       v:035: LUK:2:35 | 35 | 35 | et tuam ipsius animam pertransibit gladius ut revelentur ex multis cordibus cogitationes.
@@ -164,9 +143,9 @@ chapters:
       v:001: 'LUK:3:1 | 1 | 1 | Anno autem quintodecimo imperii Tiberii Cæsaris, procurante Pontio Pilato Judæam, tetrarcha autem Galilææ Herode, Philippo autem fratre ejus tetrarcha Iturææ, et Trachonitidis regionis, et Lysania Abilinæ tetrarcha,'
       v:002: 'LUK:3:2 | 2 | 2 | sub principibus sacerdotum Anna et Caipha : factum est verbum Domini super Joannem, Zachariæ filium, in deserto.'
       v:003: 'LUK:3:3 | 3 | 3 | Et venit in omnem regionem Jordanis, prædicans baptismum pœnitentiæ in remissionem peccatorum,'
-      v:004: 'LUK:3:4 | 4 | 4 | sicut scriptum est in libro sermonum Isaiæ prophetæ : {VERSE:BEGIN}Vox clamantis in deserto :{VS:BR} Parate viam Domini ; rectas facite semitas ejus :{VS:BR}'
+      v:004: 'LUK:3:4 | 4 | 4 | sicut scriptum est in libro sermonum Isaiæ prophetæ : {VS:VERSE:BEGIN}Vox clamantis in deserto :{VS:BR} Parate viam Domini ; rectas facite semitas ejus :{VS:BR}'
       v:005: 'LUK:3:5 | 5 | 5 | omnis vallis implebitur,{VS:BR} et omnis mons, et collis humiliabitur :{VS:BR} et erunt prava in directa, et aspera in vias planas :{VS:BR}'
-      v:006: 'LUK:3:6 | 6 | 6 | et videbit omnis caro salutare Dei.{VERSE:END}'
+      v:006: 'LUK:3:6 | 6 | 6 | et videbit omnis caro salutare Dei.{VS:VERSE:END}'
       v:007: 'LUK:3:7 | 7 | 7 | Dicebat ergo ad turbas quæ exibant ut baptizarentur ab ipso : Genimina viperarum, quis ostendit vobis fugere a ventura ira ?'
       v:008: 'LUK:3:8 | 8 | 8 | Facite ergo fructus dignos pœnitentiæ, et ne cœperitis dicere : Patrem habemus Abraham. Dico enim vobis quia potens est Deus de lapidibus istis suscitare filios Abrahæ.'
       v:009: 'LUK:3:9 | 9 | 9 | Jam enim securis ad radicem arborum posita est. Omnis ergo arbor non faciens fructum bonum, excidetur, et in ignem mittetur.'

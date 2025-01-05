@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Jos.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: JOS
 book_title: Josue
@@ -269,8 +248,8 @@ chapters:
       v:009: 'JOS:10:9 | 9 | 9 | Irruit itaque Josue super eos repente, tota nocte ascendens de Galgalis.'
       v:010: 'JOS:10:10 | 10 | 10 | Et conturbavit eos Dominus a facie Israël : contrivitque plaga magna in Gabaon, ac persecutus est eos per viam ascensus Bethoron, et percussit usque Azeca et Maceda.'
       v:011: 'JOS:10:11 | 11 | 11 | Cumque fugerent filios Israël, et essent in descensu Bethoron, Dominus misit super eos lapides magnos de cælo usque ad Azeca : et mortui sunt multo plures lapidibus grandinis, quam quos gladio percusserant filii Israël.'
-      v:012: 'JOS:10:12 | 12 | 12 | Tunc locutus est Josue Domino, in die qua tradidit Amorrhæum in conspectu filiorum Israël, dixitque coram eis : {VERSE:BEGIN}Sol, contra Gabaon ne movearis,{VS:BR} et luna contra vallem Ajalon.{VS:BR}'
-      v:013: 'JOS:10:13 | 13 | 13 | Steteruntque sol et luna,{VS:BR} donec ulcisceretur se gens de inimicis suis.{VERSE:END} Nonne scriptum est hoc in libro justorum ? Stetit itaque sol in medio cæli, et non festinavit occumbere spatio unius diei.'
+      v:012: 'JOS:10:12 | 12 | 12 | Tunc locutus est Josue Domino, in die qua tradidit Amorrhæum in conspectu filiorum Israël, dixitque coram eis : {VS:VERSE:BEGIN}Sol, contra Gabaon ne movearis,{VS:BR} et luna contra vallem Ajalon.{VS:BR}'
+      v:013: 'JOS:10:13 | 13 | 13 | Steteruntque sol et luna,{VS:BR} donec ulcisceretur se gens de inimicis suis.{VS:VERSE:END} Nonne scriptum est hoc in libro justorum ? Stetit itaque sol in medio cæli, et non festinavit occumbere spatio unius diei.'
       v:014: 'JOS:10:14 | 14 | 14 | Non fuit antea nec postea tam longa dies, obediente Domino voci hominis, et pugnante pro Israël.'
       v:015: 'JOS:10:15 | 15 | 15 | Reversusque est Josue cum omni Israël in castra Galgalæ.{VS:P}'
       v:016: JOS:10:16 | 16 | 16 | Fugerant enim quinque reges et se absconderant in spelunca urbis Maceda.

@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Ex.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: EXO
 book_title: Exodus
@@ -441,7 +420,7 @@ chapters:
       v:031: 'EXO:14:31 | 31 | 31 | Et viderunt Ægyptios mortuos super littus maris, et manum magnam quam exercuerat Dominus contra eos : timuitque populus Dominum, et crediderunt Domino, et Moysi servo ejus.'
   c:015:
     verses:
-      v:001: 'EXO:15:1 | 1 | 1 | Tunc cecinit Moyses et filii Israël carmen hoc Domino, et dixerunt : {VERSE:BEGIN}Cantemus Domino : gloriose enim magnificatus est,{VS:BR} equum et ascensorem dejecit in mare.{VS:BR}'
+      v:001: 'EXO:15:1 | 1 | 1 | Tunc cecinit Moyses et filii Israël carmen hoc Domino, et dixerunt : {VS:VERSE:BEGIN}Cantemus Domino : gloriose enim magnificatus est,{VS:BR} equum et ascensorem dejecit in mare.{VS:BR}'
       v:002: 'EXO:15:2 | 2 | 2 | Fortitudo mea, et laus mea Dominus,{VS:BR} et factus est mihi in salutem :{VS:BR} iste Deus meus, et glorificabo eum :{VS:BR} Deus patris mei, et exaltabo eum.{VS:BR}'
       v:003: 'EXO:15:3 | 3 | 3 | Dominus quasi vir pugnator,{VS:BR} Omnipotens nomen ejus,{VS:BR}'
       v:004: 'EXO:15:4 | 4 | 4 | currus Pharaonis et exercitum ejus projecit in mare :{VS:BR} electi principes ejus submersi sunt in mari Rubro.{VS:BR}'
@@ -459,9 +438,9 @@ chapters:
       v:016: 'EXO:15:16 | 16 | 16 | Irruat super eos formido et pavor, in magnitudine brachii tui :{VS:BR} fiant immobiles quasi lapis,{VS:BR} donec pertranseat populus tuus, Domine,{VS:BR} donec pertranseat populus tuus iste, quem possedisti.{VS:BR}'
       v:017: 'EXO:15:17 | 17 | 17 | Introduces eos, et plantabis in monte hæreditatis tuæ,{VS:BR} firmissimo habitaculo tuo quod operatus es, Domine :{VS:BR} sanctuarium tuum, Domine, quod firmaverunt manus tuæ.{VS:BR}'
       v:018: 'EXO:15:18 | 18 | 18 | Dominus regnabit in æternum et ultra.{VS:BR}'
-      v:019: 'EXO:15:19 | 19 | 19 | Ingressus est enim eques Pharao{VS:BR} cum curribus et equitibus ejus in mare :{VS:BR} et reduxit super eos Dominus{VS:BR} aquas maris :{VS:BR} filii autem Israël ambulaverunt per siccum in medio ejus.{VERSE:END}'
+      v:019: 'EXO:15:19 | 19 | 19 | Ingressus est enim eques Pharao{VS:BR} cum curribus et equitibus ejus in mare :{VS:BR} et reduxit super eos Dominus{VS:BR} aquas maris :{VS:BR} filii autem Israël ambulaverunt per siccum in medio ejus.{VS:VERSE:END}'
       v:020: 'EXO:15:20 | 20 | 20 | Sumpsit ergo Maria prophetissa, soror Aaron, tympanum in manu sua : egressæque sunt omnes mulieres post eam cum tympanis et choris,'
-      v:021: 'EXO:15:21 | 21 | 21 | quibus præcinebat, dicens : {VERSE:BEGIN}Cantemus Domino, gloriose enim magnificatus est :{VS:BR} equum et ascensorem ejus dejecit in mare.{VERSE:END}{VS:P}'
+      v:021: 'EXO:15:21 | 21 | 21 | quibus præcinebat, dicens : {VS:VERSE:BEGIN}Cantemus Domino, gloriose enim magnificatus est :{VS:BR} equum et ascensorem ejus dejecit in mare.{VS:VERSE:END}{VS:P}'
       v:022: 'EXO:15:22 | 22 | 22 | Tulit autem Moyses Israël de mari Rubro, et egressi sunt in desertum Sur : ambulaveruntque tribus diebus per solitudinem, et non inveniebant aquam.'
       v:023: 'EXO:15:23 | 23 | 23 | Et venerunt in Mara, nec poterant bibere aquas de Mara, eo quod essent amaræ : unde et congruum loco nomen imposuit, vocans illum Mara, id est, amaritudinem.'
       v:024: 'EXO:15:24 | 24 | 24 | Et murmuravit populus contra Moysen, dicens : Quid bibemus ?'

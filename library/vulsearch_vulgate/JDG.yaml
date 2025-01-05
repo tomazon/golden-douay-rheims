@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Jdc.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: JDG
 book_title: Judicum
@@ -148,14 +127,14 @@ chapters:
   c:005:
     verses:
       v:001: 'JDG:5:1 | 1 | 1 | Cecineruntque Debbora et Barac filius Abinoëm in illo die, dicentes :'
-      v:002: 'JDG:5:2 | 2 | 2 | {VERSE:BEGIN}Qui sponte obtulistis de Israël animas vestras ad periculum,{VS:BR} benedicite Domino.{VS:BR}'
+      v:002: 'JDG:5:2 | 2 | 2 | {VS:VERSE:BEGIN}Qui sponte obtulistis de Israël animas vestras ad periculum,{VS:BR} benedicite Domino.{VS:BR}'
       v:003: 'JDG:5:3 | 3 | 3 | Audite, reges ; auribus percipite, principes :{VS:BR} ego sum, ego sum, quæ Domino canam,{VS:BR} psallam Domino Deo Israël.{VS:BR}'
       v:004: 'JDG:5:4 | 4 | 4 | Domine, cum exires de Seir,{VS:BR} et transires per regiones Edom,{VS:BR} terra mota est,{VS:BR} cælique ac nubes distillaverunt aquis.{VS:BR}'
       v:005: 'JDG:5:5 | 5 | 5 | Montes fluxerunt a facie Domini,{VS:BR} et Sinai a facie Domini Dei Israël.{VS:BR}'
       v:006: 'JDG:5:6 | 6 | 6 | In diebus Samgar filii Anath,{VS:BR} in diebus Jahel quieverunt semitæ :{VS:BR} et qui ingrediebantur per eas,{VS:BR} ambulaverunt per calles devios.{VS:BR}'
       v:007: 'JDG:5:7 | 7 | 7 | Cessaverunt fortes in Israël, et quieverunt :{VS:BR} donec surgeret Debbora,{VS:BR} surgeret mater in Israël.{VS:BR}'
-      v:008: 'JDG:5:8 | 8 | 8 | Nova bella elegit Dominus,{VS:BR} et portas hostium ipse subvertit :{VS:BR} clypeus et hasta si apparuerint{VS:BR} in quadraginta millibus Israël.{VERSE:END}{VS:P}'
-      v:009: 'JDG:5:9 | 9 | 9 | {VERSE:BEGIN}Cor meum diligit principes Israël :{VS:BR} qui propria voluntate obtulistis vos discrimini,{VS:BR} benedicite Domino.{VS:BR}'
+      v:008: 'JDG:5:8 | 8 | 8 | Nova bella elegit Dominus,{VS:BR} et portas hostium ipse subvertit :{VS:BR} clypeus et hasta si apparuerint{VS:BR} in quadraginta millibus Israël.{VS:VERSE:END}{VS:P}'
+      v:009: 'JDG:5:9 | 9 | 9 | {VS:VERSE:BEGIN}Cor meum diligit principes Israël :{VS:BR} qui propria voluntate obtulistis vos discrimini,{VS:BR} benedicite Domino.{VS:BR}'
       v:010: 'JDG:5:10 | 10 | 10 | Qui ascenditis super nitentes asinos,{VS:BR} et sedetis in judicio,{VS:BR} et ambulatis in via,{VS:BR} loquimini.{VS:BR}'
       v:011: 'JDG:5:11 | 11 | 11 | Ubi collisi sunt currus,{VS:BR} et hostium suffocatus est exercitus,{VS:BR} ibi narrentur justitiæ Domini,{VS:BR} et clementia in fortes Israël :{VS:BR} tunc descendit populus Domini ad portas,{VS:BR} et obtinuit principatum.{VS:BR}'
       v:012: 'JDG:5:12 | 12 | 12 | Surge, surge Debbora ;{VS:BR} surge, surge, et loquere canticum :{VS:BR} surge Barac, et apprehende captivos tuos, fili Abinoëm.{VS:BR}'
@@ -164,20 +143,20 @@ chapters:
       v:015: 'JDG:5:15 | 15 | 15 | Duces Issachar fuere cum Debbora,{VS:BR} et Barac vestigia sunt secuti,{VS:BR} qui quasi in præceps ac barathrum se discrimini dedit :{VS:BR} diviso contra se Ruben,{VS:BR} magnanimorum reperta est contentio.{VS:BR}'
       v:016: 'JDG:5:16 | 16 | 16 | Quare habitas inter duos terminos,{VS:BR} ut audias sibilos gregum ?{VS:BR} diviso contra se Ruben,{VS:BR} magnanimorum reperta est contentio.{VS:BR}'
       v:017: 'JDG:5:17 | 17 | 17 | Galaad trans Jordanem quiescebat,{VS:BR} et Dan vacabat navibus :{VS:BR} Aser habitabat in littore maris,{VS:BR} et in portubus morabatur.{VS:BR}'
-      v:018: 'JDG:5:18 | 18 | 18 | Zabulon vero et Nephthali obtulerunt animas suas morti{VS:BR} in regione Merome.{VERSE:END}{VS:P}'
-      v:019: 'JDG:5:19 | 19 | 19 | {VERSE:BEGIN}Venerunt reges et pugnaverunt :{VS:BR} pugnaverunt reges Chanaan{VS:BR} in Thanach juxta aquas Mageddo,{VS:BR} et tamen nihil tulere prædantes.{VS:BR}'
+      v:018: 'JDG:5:18 | 18 | 18 | Zabulon vero et Nephthali obtulerunt animas suas morti{VS:BR} in regione Merome.{VS:VERSE:END}{VS:P}'
+      v:019: 'JDG:5:19 | 19 | 19 | {VS:VERSE:BEGIN}Venerunt reges et pugnaverunt :{VS:BR} pugnaverunt reges Chanaan{VS:BR} in Thanach juxta aquas Mageddo,{VS:BR} et tamen nihil tulere prædantes.{VS:BR}'
       v:020: 'JDG:5:20 | 20 | 20 | De cælo dimicatum est contra eos :{VS:BR} stellæ manentes in ordine et cursu suo,{VS:BR} adversus Sisaram pugnaverunt.{VS:BR}'
       v:021: 'JDG:5:21 | 21 | 21 | Torrens Cison traxit cadavera eorum,{VS:BR} torrens Cadumim, torrens Cison :{VS:BR} conculca, anima mea, robustos.{VS:BR}'
       v:022: 'JDG:5:22 | 22 | 22 | Ungulæ equorum ceciderunt, fugientibus impetu,{VS:BR} et per præceps ruentibus fortissimis hostium.{VS:BR}'
-      v:023: 'JDG:5:23 | 23 | 23 | Maledicite terræ Meroz, dixit angelus Domini :{VS:BR} maledicite habitatoribus ejus,{VS:BR} quia non venerunt ad auxilium Domini,{VS:BR} in adjutorium fortissimorum ejus.{VERSE:END}{VS:P}'
-      v:024: 'JDG:5:24 | 24 | 24 | {VERSE:BEGIN}Benedicta inter mulieres Jahel uxor Haber Cinæi,{VS:BR} et benedicatur in tabernaculo suo.{VS:BR}'
+      v:023: 'JDG:5:23 | 23 | 23 | Maledicite terræ Meroz, dixit angelus Domini :{VS:BR} maledicite habitatoribus ejus,{VS:BR} quia non venerunt ad auxilium Domini,{VS:BR} in adjutorium fortissimorum ejus.{VS:VERSE:END}{VS:P}'
+      v:024: 'JDG:5:24 | 24 | 24 | {VS:VERSE:BEGIN}Benedicta inter mulieres Jahel uxor Haber Cinæi,{VS:BR} et benedicatur in tabernaculo suo.{VS:BR}'
       v:025: 'JDG:5:25 | 25 | 25 | Aquam petenti lac dedit,{VS:BR} et in phiala principum obtulit butyrum.{VS:BR}'
       v:026: 'JDG:5:26 | 26 | 26 | Sinistram manum misit ad clavum,{VS:BR} et dexteram ad fabrorum malleos.{VS:BR} Percussitque Sisaram quærens in capite vulneri locum,{VS:BR} et tempus valide perforans :{VS:BR}'
       v:027: 'JDG:5:27 | 27 | 27 | inter pedes ejus ruit ; defecit, et mortuus est :{VS:BR} volvebatur ante pedes ejus,{VS:BR} et jacebat exanimis et miserabilis.{VS:BR}'
       v:028: 'JDG:5:28 | 28 | 28 | Per fenestram respiciens, ululabat mater ejus :{VS:BR} et de cœnaculo loquebatur :{VS:BR} Cur moratur regredi currus ejus ?{VS:BR} quare tardaverunt pedes quadrigarum illius ?{VS:BR}'
       v:029: 'JDG:5:29 | 29 | 29 | Una sapientior ceteris uxoribus ejus,{VS:BR} hæc socrui verba respondit :{VS:BR}'
       v:030: 'JDG:5:30 | 30 | 30 | Forsitan nunc dividit spolia,{VS:BR} et pulcherrima feminarum eligitur ei :{VS:BR} vestes diversorum colorum Sisaræ traduntur in prædam,{VS:BR} et supellex varia ad ornanda colla congeritur.{VS:BR}'
-      v:031: 'JDG:5:31 | 31 | 31 | Sic pereant omnes inimici tui, Domine :{VS:BR} qui autem diligunt te, sicut sol in ortu suo splendet, ita rutilent.{VERSE:END}'
+      v:031: 'JDG:5:31 | 31 | 31 | Sic pereant omnes inimici tui, Domine :{VS:BR} qui autem diligunt te, sicut sol in ortu suo splendet, ita rutilent.{VS:VERSE:END}'
       v:032: JDG:5:32 | 32 | 32 | Quievitque terra per quadraginta annos.
   c:006:
     verses:
@@ -465,11 +444,11 @@ chapters:
       v:011: 'JDG:14:11 | 11 | 11 | Cum ergo cives loci illius vidissent eum, dederunt ei sodales triginta ut essent cum eo.'
       v:012: 'JDG:14:12 | 12 | 12 | Quibus locutus est Samson : Proponam vobis problema : quod si solveritis mihi intra septem dies convivii, dabo vobis triginta sindones, et totidem tunicas :'
       v:013: 'JDG:14:13 | 13 | 13 | sin autem non potueritis solvere, vos dabitis mihi triginta sindones, et ejusdem numeri tunicas. Qui responderunt ei : Propone problema, ut audiamus.'
-      v:014: 'JDG:14:14 | 14 | 14 | Dixitque eis : {VERSE:BEGIN}De comedente exivit cibus,{VS:BR} et de forti egressa est dulcedo.{VERSE:END} Nec potuerunt per tres dies propositionem solvere.'
+      v:014: 'JDG:14:14 | 14 | 14 | Dixitque eis : {VS:VERSE:BEGIN}De comedente exivit cibus,{VS:BR} et de forti egressa est dulcedo.{VS:VERSE:END} Nec potuerunt per tres dies propositionem solvere.'
       v:015: 'JDG:14:15 | 15 | 15 | Cumque adesset dies septimus, dixerunt ad uxorem Samson : Blandire viro tuo et suade ei ut indicet tibi quid significet problema : quod si facere nolueris, incendemus te, et domum patris tui : an idcirco vocastis nos ad nuptias ut spoliaretis ?'
       v:016: 'JDG:14:16 | 16 | 16 | Quæ fundebat apud Samson lacrimas, et quærebatur, dicens : Odisti me, et non diligis : idcirco problema, quod proposuisti filiis populi mei, non vis mihi exponere. At ille respondit : Patri meo et matri nolui dicere : et tibi indicare potero ?'
       v:017: 'JDG:14:17 | 17 | 17 | Septem igitur diebus convivii flebat ante eum : tandemque die septimo cum ei esset molesta, exposuit. Quæ statim indicavit civibus suis.'
-      v:018: 'JDG:14:18 | 18 | 18 | Et illi dixerunt ei die septimo ante solis occubitum : {VERSE:BEGIN}Quid dulcius melle,{VS:BR} et quid fortius leone ?{VERSE:END} Qui ait ad eos : {VERSE:BEGIN}Si non arassetis in vitula mea,{VS:BR} non invenissetis propositionem meam.{VERSE:END}{VS:P}'
+      v:018: 'JDG:14:18 | 18 | 18 | Et illi dixerunt ei die septimo ante solis occubitum : {VS:VERSE:BEGIN}Quid dulcius melle,{VS:BR} et quid fortius leone ?{VS:VERSE:END} Qui ait ad eos : {VS:VERSE:BEGIN}Si non arassetis in vitula mea,{VS:BR} non invenissetis propositionem meam.{VS:VERSE:END}{VS:P}'
       v:019: 'JDG:14:19 | 19 | 19 | Irruit itaque in eum spiritus Domini, descenditque Ascalonem, et percussit ibi triginta viros : quorum ablatas vestes dedit iis qui problema solverant. Iratusque nimis ascendit in domum patris sui :'
       v:020: JDG:14:20 | 20 | 20 | uxor autem ejus accepit maritum unum de amicis ejus et pronubis.
   c:015:
@@ -489,7 +468,7 @@ chapters:
       v:013: 'JDG:15:13 | 13 | 13 | Dixerunt : Non te occidemus, sed vinctum trademus. Ligaveruntque eum duobus novis funibus, et tulerunt eum de petra Etam.'
       v:014: 'JDG:15:14 | 14 | 14 | Qui cum venisset ad locum Maxillæ, et Philisthiim vociferantes occurrissent ei, irruit spiritus Domini in eum : et sicut solent ad odorem ignis lina consumi, ita vincula, quibus ligatus erat, dissipata sunt et soluta.'
       v:015: 'JDG:15:15 | 15 | 15 | Inventamque maxillam, id est, mandibulam asini, quæ jacebat, arripiens interfecit in ea mille viros,'
-      v:016: 'JDG:15:16 | 16 | 16 | et ait : {VERSE:BEGIN}In maxilla asini,{VS:BR} in mandibula pulli asinarum,{VS:BR} delevi eos,{VS:BR} et percussi mille viros.{VERSE:END}'
+      v:016: 'JDG:15:16 | 16 | 16 | et ait : {VS:VERSE:BEGIN}In maxilla asini,{VS:BR} in mandibula pulli asinarum,{VS:BR} delevi eos,{VS:BR} et percussi mille viros.{VS:VERSE:END}'
       v:017: 'JDG:15:17 | 17 | 17 | Cumque hæc verba canens complesset, projecit mandibulam de manu, et vocavit nomen loci illius Ramathlechi, quod interpretatur, Elevatio maxillæ.'
       v:018: 'JDG:15:18 | 18 | 18 | Sitiensque valde, clamavit ad Dominum, et ait : Tu dedisti in manu servi tui salutem hanc maximam atque victoriam : en siti morior, incidamque in manus incircumcisorum.'
       v:019: 'JDG:15:19 | 19 | 19 | Aperuit itaque Dominus molarem dentem in maxilla asini, et egressæ sunt ex eo aquæ. Quibus haustis, refocillavit spiritum, et vires recepit. Idcirco appellatum est nomen loci illius, Fons invocantis de maxilla, usque in præsentem diem.'

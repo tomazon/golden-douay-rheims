@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/2Rg.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: 2SA
 book_title: Regum II
@@ -42,16 +21,16 @@ chapters:
       v:015: '2SA:1:15 | 15 | 15 | Vocansque David unum de pueris suis, ait : Accedens irrue in eum. Qui percussit illum, et mortuus est.'
       v:016: '2SA:1:16 | 16 | 16 | Et ait ad eum David : Sanguis tuus super caput tuum : os enim tuum locutum est adversum te, dicens : Ego interfeci christum Domini.{VS:P}'
       v:017: '2SA:1:17 | 17 | 17 | Planxit autem David planctum hujuscemodi super Saul, et super Jonathan filium ejus'
-      v:018: '2SA:1:18 | 18 | 18 | (et præcepit ut docerent filios Juda arcum, sicut scriptum est in libro justorum), et ait : {VERSE:BEGIN}Considera, Israël, pro his qui mortui sunt,{VS:BR} super excelsa tua vulnerati.{VS:BR}'
+      v:018: '2SA:1:18 | 18 | 18 | (et præcepit ut docerent filios Juda arcum, sicut scriptum est in libro justorum), et ait : {VS:VERSE:BEGIN}Considera, Israël, pro his qui mortui sunt,{VS:BR} super excelsa tua vulnerati.{VS:BR}'
       v:019: '2SA:1:19 | 19 | 19 | Inclyti Israël super montes tuos interfecti sunt :{VS:BR} quomodo ceciderunt fortes ?{VS:BR}'
-      v:020: '2SA:1:20 | 20 | 20 | Nolite annuntiare in Geth,{VS:BR} neque annuntietis in compitis Ascalonis :{VS:BR} ne forte lætentur filiæ Philisthiim ;{VS:BR} ne exsultent filiæ incircumcisorum.{VERSE:END}{VS:P}'
-      v:021: '2SA:1:21 | 21 | 21 | {VERSE:BEGIN}Montes Gelboë, nec ros, nec pluvia veniant super vos,{VS:BR} neque sint agri primitiarum :{VS:BR} quia ibi abjectus est clypeus fortium :{VS:BR} clypeus Saul, quasi non esset unctus oleo.{VERSE:END}{VS:P}'
-      v:022: '2SA:1:22 | 22 | 22 | {VERSE:BEGIN}A sanguine interfectorum, ab adipe fortium,{VS:BR} sagitta Jonathæ numquam rediit retrorsum,{VS:BR} et gladius Saul non est reversus inanis.{VS:BR}'
-      v:023: '2SA:1:23 | 23 | 23 | Saul et Jonathas amabiles, et decori in vita sua,{VS:BR} in morte quoque non sunt divisi :{VS:BR} aquilis velociores, leonibus fortiores.{VERSE:END}{VS:P}'
-      v:024: '2SA:1:24 | 24 | 24 | {VERSE:BEGIN}Filiæ Israël, super Saul flete,{VS:BR} qui vestiebat vos coccino in deliciis,{VS:BR} qui præbebat ornamenta aurea cultui vestro.{VERSE:END}{VS:P}'
-      v:025: '2SA:1:25 | 25 | 25 | {VERSE:BEGIN}Quomodo ceciderunt fortes in prælio ?{VS:BR} Jonathas in excelsis tuis occisus est ?{VS:BR}'
+      v:020: '2SA:1:20 | 20 | 20 | Nolite annuntiare in Geth,{VS:BR} neque annuntietis in compitis Ascalonis :{VS:BR} ne forte lætentur filiæ Philisthiim ;{VS:BR} ne exsultent filiæ incircumcisorum.{VS:VERSE:END}{VS:P}'
+      v:021: '2SA:1:21 | 21 | 21 | {VS:VERSE:BEGIN}Montes Gelboë, nec ros, nec pluvia veniant super vos,{VS:BR} neque sint agri primitiarum :{VS:BR} quia ibi abjectus est clypeus fortium :{VS:BR} clypeus Saul, quasi non esset unctus oleo.{VS:VERSE:END}{VS:P}'
+      v:022: '2SA:1:22 | 22 | 22 | {VS:VERSE:BEGIN}A sanguine interfectorum, ab adipe fortium,{VS:BR} sagitta Jonathæ numquam rediit retrorsum,{VS:BR} et gladius Saul non est reversus inanis.{VS:BR}'
+      v:023: '2SA:1:23 | 23 | 23 | Saul et Jonathas amabiles, et decori in vita sua,{VS:BR} in morte quoque non sunt divisi :{VS:BR} aquilis velociores, leonibus fortiores.{VS:VERSE:END}{VS:P}'
+      v:024: '2SA:1:24 | 24 | 24 | {VS:VERSE:BEGIN}Filiæ Israël, super Saul flete,{VS:BR} qui vestiebat vos coccino in deliciis,{VS:BR} qui præbebat ornamenta aurea cultui vestro.{VS:VERSE:END}{VS:P}'
+      v:025: '2SA:1:25 | 25 | 25 | {VS:VERSE:BEGIN}Quomodo ceciderunt fortes in prælio ?{VS:BR} Jonathas in excelsis tuis occisus est ?{VS:BR}'
       v:026: '2SA:1:26 | 26 | 26 | Doleo super te, frater mi Jonatha,{VS:BR} decore nimis, et amabilis super amorem mulierum.{VS:BR} Sicut mater unicum amat filium suum,{VS:BR} ita ego te diligebam.{VS:BR}'
-      v:027: '2SA:1:27 | 27 | 27 | Quomodo ceciderunt robusti,{VS:BR} et perierunt arma bellica ?{VERSE:END}'
+      v:027: '2SA:1:27 | 27 | 27 | Quomodo ceciderunt robusti,{VS:BR} et perierunt arma bellica ?{VS:VERSE:END}'
   c:002:
     verses:
       v:001: '2SA:2:1 | 1 | 1 | Igitur post hæc consuluit David Dominum, dicens : Num ascendam in unam de civitatibus Juda ? Et ait Dominus ad eum : Ascende. Dixitque David : Quo ascendam ? Et respondit ei : In Hebron.'
@@ -120,8 +99,8 @@ chapters:
       v:030: '2SA:3:30 | 30 | 30 | Igitur Joab et Abisai frater ejus interfecerunt Abner, eo quod occidisset Asaël fratrem eorum in Gabaon in prælio.{VS:P}'
       v:031: '2SA:3:31 | 31 | 31 | Dixit autem David ad Joab, et ad omnem populum qui erat cum eo : Scindite vestimenta vestra, et accingimini saccis, et plangite ante exequias Abner. Porro rex David sequebatur feretrum.'
       v:032: '2SA:3:32 | 32 | 32 | Cumque sepelissent Abner in Hebron, levavit rex David vocem suam, et flevit super tumulum Abner : flevit autem et omnis populus.'
-      v:033: '2SA:3:33 | 33 | 33 | Plangensque rex, et lugens Abner, ait : {VERSE:BEGIN}Nequaquam ut mori solent ignavi, mortuus est Abner.{VS:BR}'
-      v:034: '2SA:3:34 | 34 | 34 | Manus tuæ ligatæ non sunt,{VS:BR} et pedes tui non sunt compedibus aggravati :{VS:BR} sed sicut solent cadere coram filiis iniquitatis, sic corruisti.{VERSE:END} Congeminansque omnis populus flevit super eum.'
+      v:033: '2SA:3:33 | 33 | 33 | Plangensque rex, et lugens Abner, ait : {VS:VERSE:BEGIN}Nequaquam ut mori solent ignavi, mortuus est Abner.{VS:BR}'
+      v:034: '2SA:3:34 | 34 | 34 | Manus tuæ ligatæ non sunt,{VS:BR} et pedes tui non sunt compedibus aggravati :{VS:BR} sed sicut solent cadere coram filiis iniquitatis, sic corruisti.{VS:VERSE:END} Congeminansque omnis populus flevit super eum.'
       v:035: '2SA:3:35 | 35 | 35 | Cumque venisset universa multitudo cibum capere cum David, clara adhuc die juravit David, dicens : Hæc faciat mihi Deus, et hæc addat, si ante occasum solis gustavero panem vel aliud quidquam.'
       v:036: '2SA:3:36 | 36 | 36 | Omnisque populus audivit, et placuerunt eis cuncta quæ fecit rex in conspectu totius populi.'
       v:037: '2SA:3:37 | 37 | 37 | Et cognovit omne vulgus et universus Israël in die illa, quoniam non actum fuisset a rege ut occideretur Abner filius Ner.'
@@ -648,7 +627,7 @@ chapters:
   c:022:
     verses:
       v:001: '2SA:22:1 | 1 | 1 | Locutus est autem David Domino verba carminis hujus in die qua liberavit eum Dominus de manu omnium inimicorum suorum, et de manu Saul.'
-      v:002: '2SA:22:2 | 2 | 2 | Et ait : {VERSE:BEGIN}Dominus petra mea, et robur meum, et salvator meus.{VS:BR}'
+      v:002: '2SA:22:2 | 2 | 2 | Et ait : {VS:VERSE:BEGIN}Dominus petra mea, et robur meum, et salvator meus.{VS:BR}'
       v:003: '2SA:22:3 | 3 | 3 | Deus fortis meus : sperabo in eum ;{VS:BR} scutum meum, et cornu salutis meæ :{VS:BR} elevator meus, et refugium meum ;{VS:BR} salvator meus : de iniquitate liberabis me.{VS:BR}'
       v:004: '2SA:22:4 | 4 | 4 | Laudabilem invocabo Dominum,{VS:BR} et ab inimicis meis salvus ero.{VS:BR}'
       v:005: '2SA:22:5 | 5 | 5 | Quia circumdederunt me contritiones mortis :{VS:BR} torrentes Belial terruerunt me.{VS:BR}'
@@ -697,16 +676,16 @@ chapters:
       v:048: '2SA:22:48 | 48 | 48 | Deus qui das vindictas mihi,{VS:BR} et dejicis populos sub me.{VS:BR}'
       v:049: '2SA:22:49 | 49 | 49 | Qui educis me ab inimicis meis,{VS:BR} et a resistentibus mihi elevas me :{VS:BR} a viro iniquo liberabis me.{VS:BR}'
       v:050: '2SA:22:50 | 50 | 50 | Propterea confitebor tibi, Domine, in gentibus,{VS:BR} et nomini tuo cantabo :{VS:BR}'
-      v:051: '2SA:22:51 | 51 | 51 | magnificans salutes regis sui,{VS:BR} et faciens misericordiam christo suo David,{VS:BR} et semini ejus in sempiternum.{VERSE:END}'
+      v:051: '2SA:22:51 | 51 | 51 | magnificans salutes regis sui,{VS:BR} et faciens misericordiam christo suo David,{VS:BR} et semini ejus in sempiternum.{VS:VERSE:END}'
   c:023:
     verses:
-      v:001: '2SA:23:1 | 1 | 1 | Hæc autem sunt verba David novissima. Dixit David filius Isai : {VERSE:BEGIN}Dixit vir, cui constitutum est de christo Dei Jacob,{VS:BR} egregius psaltes Israël :{VS:BR}'
+      v:001: '2SA:23:1 | 1 | 1 | Hæc autem sunt verba David novissima. Dixit David filius Isai : {VS:VERSE:BEGIN}Dixit vir, cui constitutum est de christo Dei Jacob,{VS:BR} egregius psaltes Israël :{VS:BR}'
       v:002: '2SA:23:2 | 2 | 2 | Spiritus Domini locutus est per me,{VS:BR} et sermo ejus per linguam meam.{VS:BR}'
       v:003: '2SA:23:3 | 3 | 3 | Dixit Deus Israël mihi,{VS:BR} locutus est fortis Israël :{VS:BR} Dominator hominum,{VS:BR} justus dominator in timore Dei,{VS:BR}'
       v:004: '2SA:23:4 | 4 | 4 | sicut lux auroræ, oriente sole,{VS:BR} mane absque nubibus rutilat :{VS:BR} et sicut pluviis germinat herba de terra.{VS:BR}'
       v:005: '2SA:23:5 | 5 | 5 | Nec tanta est domus mea apud Deum,{VS:BR} ut pactum æternum iniret mecum,{VS:BR} firmum in omnibus atque munitum.{VS:BR} Cuncta enim salus mea, et omnis voluntas,{VS:BR} nec est quidquam ex ea quod non germinet.{VS:BR}'
       v:006: '2SA:23:6 | 6 | 6 | Prævaricatores autem quasi spinæ evellentur universi,{VS:BR} quæ non tolluntur manibus.{VS:BR}'
-      v:007: '2SA:23:7 | 7 | 7 | Et si quis tangere voluerit eas,{VS:BR} armabitur ferro et ligno lanceato,{VS:BR} igneque succensæ comburentur usque ad nihilum.{VERSE:END}{VS:P}'
+      v:007: '2SA:23:7 | 7 | 7 | Et si quis tangere voluerit eas,{VS:BR} armabitur ferro et ligno lanceato,{VS:BR} igneque succensæ comburentur usque ad nihilum.{VS:VERSE:END}{VS:P}'
       v:008: '2SA:23:8 | 8 | 8 | Hæc nomina fortium David. Sedens in cathedra sapientissimus princeps inter tres, ipse est quasi tenerrimus ligni vermiculus, qui octingentos interfecit impetu uno.'
       v:009: '2SA:23:9 | 9 | 9 | Post hunc, Eleazar filius patrui ejus Ahohites inter tres fortes, qui erant cum David quando exprobraverunt Philisthiim, et congregati sunt illuc in prælium.'
       v:010: '2SA:23:10 | 10 | 10 | Cumque ascendissent viri Israël, ipse stetit et percussit Philisthæos donec deficeret manus ejus, et obrigesceret cum gladio : fecitque Dominus salutem magnam in die illa : et populus qui fugerat, reversus est ad cæsorum spolia detrahenda.'

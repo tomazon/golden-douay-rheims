@@ -1,27 +1,6 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/1Mcc.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: 1MA
-book_title: Machab�orum I
+book_title: Machabaeorum I
 chapters:
   c:001:
     verses:
@@ -168,13 +147,13 @@ chapters:
     verses:
       v:001: '1MA:3:1 | 1 | 1 | Et surrexit Judas, qui vocabatur Machabæus, filius ejus, pro eo :'
       v:002: '1MA:3:2 | 2 | 2 | et adjuvabant eum omnes fratres ejus, et universi qui se conjunxerant patri ejus, et præliabantur prælium Israël cum lætitia.'
-      v:003: '1MA:3:3 | 3 | 3 | {VERSE:BEGIN}Et dilatavit gloriam populo suo,{VS:BR} et induit se loricam sicut gigas,{VS:BR} et succinxit se arma bellica sua in præliis,{VS:BR} et protegebat castra gladio suo.{VS:BR}'
+      v:003: '1MA:3:3 | 3 | 3 | {VS:VERSE:BEGIN}Et dilatavit gloriam populo suo,{VS:BR} et induit se loricam sicut gigas,{VS:BR} et succinxit se arma bellica sua in præliis,{VS:BR} et protegebat castra gladio suo.{VS:BR}'
       v:004: '1MA:3:4 | 4 | 4 | Similis factus est leoni in operibus suis,{VS:BR} et sicut catulus leonis rugiens in venatione.{VS:BR}'
       v:005: '1MA:3:5 | 5 | 5 | Et persecutus est iniquos perscrutans eos :{VS:BR} et qui conturbabant populum suum, eos succendit flammis :{VS:BR}'
       v:006: '1MA:3:6 | 6 | 6 | et repulsi sunt inimici ejus præ timore ejus,{VS:BR} et omnes operarii iniquitatis conturbati sunt :{VS:BR} et directa est salus in manu ejus.{VS:BR}'
       v:007: '1MA:3:7 | 7 | 7 | Et exacerbabat reges multos,{VS:BR} et lætificabat Jacob in operibus suis,{VS:BR} et in sæculum memoria ejus in benedictione.{VS:BR}'
       v:008: '1MA:3:8 | 8 | 8 | Et perambulavit civitates Juda,{VS:BR} et perdidit impios ex eis,{VS:BR} et avertit iram ab Israël.{VS:BR}'
-      v:009: '1MA:3:9 | 9 | 9 | Et nominatus est usque ad novissimum terræ,{VS:BR} et congregavit pereuntes.{VERSE:END}{VS:P}'
+      v:009: '1MA:3:9 | 9 | 9 | Et nominatus est usque ad novissimum terræ,{VS:BR} et congregavit pereuntes.{VS:VERSE:END}{VS:P}'
       v:010: '1MA:3:10 | 10 | 10 | Et congregavit Apollonius gentes, et a Samaria virtutem multam et magnam ad bellandum contra Israël.'
       v:011: '1MA:3:11 | 11 | 11 | Et cognovit Judas, et exiit obviam illi : et percussit, et occidit illum : et ceciderunt vulnerati multi, et reliqui fugerunt.'
       v:012: '1MA:3:12 | 12 | 12 | Et accepit spolia eorum : et gladium Apollonii abstulit Judas, et erat pugnans in eo omnibus diebus.'

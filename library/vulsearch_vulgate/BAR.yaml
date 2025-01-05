@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Bar.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: BAR
 book_title: Baruch
@@ -39,17 +18,17 @@ chapters:
       v:012: 'BAR:1:12 | 12 | 12 | et ut det Dominus virtutem nobis, et illuminet oculos nostros, ut vivamus sub umbra Nabuchodonosor regis Babylonis, et sub umbra Baltassar filii ejus, et serviamus eis multis diebus, et inveniamus gratiam in conspectu eorum.'
       v:013: 'BAR:1:13 | 13 | 13 | Et pro nobis ipsis orate ad Dominum Deum nostrum, quia peccavimus Domino Deo nostro, et non est aversus furor ejus a nobis usque in hunc diem.'
       v:014: 'BAR:1:14 | 14 | 14 | Et legite librum istum quem misimus ad vos recitari in templo Domini, in die solemni et in die opportuno :'
-      v:015: 'BAR:1:15 | 15 | 15 | et dicetis : {VERSE:BEGIN}Domino Deo nostro justitia,{VS:BR} nobis autem confusio faciei nostræ,{VS:BR} sicut est dies hæc omni Juda,{VS:BR} et habitantibus in Jerusalem :{VS:BR}'
+      v:015: 'BAR:1:15 | 15 | 15 | et dicetis : {VS:VERSE:BEGIN}Domino Deo nostro justitia,{VS:BR} nobis autem confusio faciei nostræ,{VS:BR} sicut est dies hæc omni Juda,{VS:BR} et habitantibus in Jerusalem :{VS:BR}'
       v:016: 'BAR:1:16 | 16 | 16 | regibus nostris, et principibus nostris,{VS:BR} et sacerdotibus nostris, et prophetis nostris,{VS:BR} et patribus nostris.{VS:BR}'
       v:017: 'BAR:1:17 | 17 | 17 | Peccavimus ante Dominum Deum nostrum,{VS:BR} et non credidimus, diffidentes in eum :{VS:BR}'
       v:018: 'BAR:1:18 | 18 | 18 | et non fuimus subjectibiles illi,{VS:BR} et non audivimus vocem Domini Dei nostri,{VS:BR} ut ambularemus in mandatis ejus, quæ dedit nobis.{VS:BR}'
       v:019: 'BAR:1:19 | 19 | 19 | A die qua eduxit patres nostros de terra Ægypti,{VS:BR} usque ad diem hanc,{VS:BR} eramus incredibiles ad Dominum Deum nostrum :{VS:BR} et dissipati recessimus, ne audiremus vocem ipsius :{VS:BR}'
       v:020: 'BAR:1:20 | 20 | 20 | et adhæserunt nobis multa mala et maledictiones{VS:BR} quæ constituit Dominus Moysi servo suo,{VS:BR} qui eduxit patres nostros de terra Ægypti,{VS:BR} dare nobis terram fluentem lac et mel, sicut hodierna die.{VS:BR}'
       v:021: 'BAR:1:21 | 21 | 21 | Et non audivimus vocem Domini Dei nostri,{VS:BR} secundum omnia verba prophetarum quos misit ad nos :{VS:BR}'
-      v:022: 'BAR:1:22 | 22 | 22 | et abivimus unusquisque in sensum cordis nostri maligni,{VS:BR} operari diis alienis,{VS:BR} facientes mala ante oculos Domini Dei nostri.{VERSE:END}'
+      v:022: 'BAR:1:22 | 22 | 22 | et abivimus unusquisque in sensum cordis nostri maligni,{VS:BR} operari diis alienis,{VS:BR} facientes mala ante oculos Domini Dei nostri.{VS:VERSE:END}'
   c:002:
     verses:
-      v:001: 'BAR:2:1 | 1 | 1 | {VERSE:BEGIN}Propter quod statuit Dominus Deus noster verbum suum,{VS:BR} quod locutus est ad nos,{VS:BR} et ad judices nostros qui judicaverunt Israël,{VS:BR} et ad reges nostros, et ad principes nostros,{VS:BR} et ad omnem Israël et Juda :{VS:BR}'
+      v:001: 'BAR:2:1 | 1 | 1 | {VS:VERSE:BEGIN}Propter quod statuit Dominus Deus noster verbum suum,{VS:BR} quod locutus est ad nos,{VS:BR} et ad judices nostros qui judicaverunt Israël,{VS:BR} et ad reges nostros, et ad principes nostros,{VS:BR} et ad omnem Israël et Juda :{VS:BR}'
       v:002: 'BAR:2:2 | 2 | 2 | ut adduceret Dominus super nos mala magna,{VS:BR} quæ non sunt facta sub cælo{VS:BR} quemadmodum facta sunt in Jerusalem,{VS:BR} secundum quæ scripta sunt in lege Moysi,{VS:BR}'
       v:003: 'BAR:2:3 | 3 | 3 | ut manducaret homo carnes filii sui et carnes filiæ suæ.{VS:BR}'
       v:004: 'BAR:2:4 | 4 | 4 | Et dedit eos sub manu regum omnium qui sunt in circuitu nostro,{VS:BR} in improperium et in desolationem in omnibus populis{VS:BR} in quibus nos dispersit Dominus :{VS:BR}'
@@ -58,8 +37,8 @@ chapters:
       v:007: 'BAR:2:7 | 7 | 7 | quia locutus est Dominus super nos omnia mala hæc{VS:BR} quæ venerunt super nos :{VS:BR}'
       v:008: 'BAR:2:8 | 8 | 8 | et non sumus deprecati faciem Domini Dei nostri,{VS:BR} ut reverteremur unusquisque nostrum a viis nostris pessimis.{VS:BR}'
       v:009: 'BAR:2:9 | 9 | 9 | Et vigilavit Dominus in malis,{VS:BR} et adduxit ea super nos :{VS:BR} quia justus est Dominus in omnibus operibus suis{VS:BR} quæ mandavit nobis,{VS:BR}'
-      v:010: 'BAR:2:10 | 10 | 10 | et non audivimus vocem ipsius{VS:BR} ut iremus in præceptis Domini,{VS:BR} quæ dedit ante faciem nostram.{VERSE:END}{VS:P}'
-      v:011: 'BAR:2:11 | 11 | 11 | {VERSE:BEGIN}Et nunc, Domine Deus Israël,{VS:BR} qui eduxisti populum tuum de terra Ægypti{VS:BR} in manu valida, et in signis, et in prodigiis,{VS:BR} et in virtute tua magna, et in brachio excelso,{VS:BR} et fecisti tibi nomen sicut est dies iste :{VS:BR}'
+      v:010: 'BAR:2:10 | 10 | 10 | et non audivimus vocem ipsius{VS:BR} ut iremus in præceptis Domini,{VS:BR} quæ dedit ante faciem nostram.{VS:VERSE:END}{VS:P}'
+      v:011: 'BAR:2:11 | 11 | 11 | {VS:VERSE:BEGIN}Et nunc, Domine Deus Israël,{VS:BR} qui eduxisti populum tuum de terra Ægypti{VS:BR} in manu valida, et in signis, et in prodigiis,{VS:BR} et in virtute tua magna, et in brachio excelso,{VS:BR} et fecisti tibi nomen sicut est dies iste :{VS:BR}'
       v:012: 'BAR:2:12 | 12 | 12 | peccavimus, impie egimus,{VS:BR} inique gessimus, Domine Deus noster,{VS:BR} in omnibus justitiis tuis.{VS:BR}'
       v:013: 'BAR:2:13 | 13 | 13 | Avertatur ira tua a nobis,{VS:BR} quia derelicti sumus pauci inter gentes ubi dispersisti nos.{VS:BR}'
       v:014: 'BAR:2:14 | 14 | 14 | Exaudi, Domine, preces nostras et orationes nostras,{VS:BR} et educ nos propter te,{VS:BR} et da nobis invenire gratiam ante faciem eorum qui nos abduxerunt :{VS:BR}'
@@ -83,18 +62,18 @@ chapters:
       v:032: 'BAR:2:32 | 32 | 32 | et laudabunt me in terra captivitatis suæ,{VS:BR} et memores erunt nominis mei,{VS:BR}'
       v:033: 'BAR:2:33 | 33 | 33 | et avertent se a dorso suo duro,{VS:BR} et a malignitatibus suis :{VS:BR} quia reminiscentur viam patrum suorum,{VS:BR} qui peccaverunt in me.{VS:BR}'
       v:034: 'BAR:2:34 | 34 | 34 | Et revocabo illos in terram quam juravi patribus eorum,{VS:BR} Abraham, Isaac, et Jacob :{VS:BR} et dominabuntur ejus, et multiplicabo eos,{VS:BR} et non minorabuntur :{VS:BR}'
-      v:035: 'BAR:2:35 | 35 | 35 | et statuam illis testamentum alterum sempiternum,{VS:BR} ut sim illis in Deum,{VS:BR} et ipsi erunt mihi in populum :{VS:BR} et non movebo amplius populum meum, filios Israël,{VS:BR} a terra quam dedi illis.{VERSE:END}'
+      v:035: 'BAR:2:35 | 35 | 35 | et statuam illis testamentum alterum sempiternum,{VS:BR} ut sim illis in Deum,{VS:BR} et ipsi erunt mihi in populum :{VS:BR} et non movebo amplius populum meum, filios Israël,{VS:BR} a terra quam dedi illis.{VS:VERSE:END}'
   c:003:
     verses:
-      v:001: 'BAR:3:1 | 1 | 1 | {VERSE:BEGIN}Et nunc, Domine omnipotens, Deus Israël,{VS:BR} anima in angustiis, et spiritus anxius clamat ad te.{VS:BR}'
+      v:001: 'BAR:3:1 | 1 | 1 | {VS:VERSE:BEGIN}Et nunc, Domine omnipotens, Deus Israël,{VS:BR} anima in angustiis, et spiritus anxius clamat ad te.{VS:BR}'
       v:002: 'BAR:3:2 | 2 | 2 | Audi, Domine, et miserere,{VS:BR} quia Deus es misericors :{VS:BR} et miserere nostri, quia peccavimus ante te :{VS:BR}'
       v:003: 'BAR:3:3 | 3 | 3 | quia tu sedes in sempiternum,{VS:BR} et nos, peribimus in ævum ?{VS:BR}'
       v:004: 'BAR:3:4 | 4 | 4 | Domine omnipotens, Deus Israël,{VS:BR} audi nunc orationem mortuorum Israël,{VS:BR} et filiorum ipsorum qui peccaverunt ante te,{VS:BR} et non audierunt vocem Domini Dei sui,{VS:BR} et agglutinata sunt nobis mala.{VS:BR}'
       v:005: 'BAR:3:5 | 5 | 5 | Noli meminisse iniquitatum patrum nostrorum,{VS:BR} sed memento manus tuæ et nominis tui in tempore isto :{VS:BR}'
       v:006: 'BAR:3:6 | 6 | 6 | quia tu es Dominus Deus noster,{VS:BR} et laudabimus te, Domine :{VS:BR}'
       v:007: 'BAR:3:7 | 7 | 7 | quia propter hoc dedisti timorem tuum in cordibus nostris,{VS:BR} et ut invocemus nomen tuum,{VS:BR} et laudemus te in captivitate nostra,{VS:BR} quia convertimur ab iniquitate patrum nostrorum,{VS:BR} qui peccaverunt ante te.{VS:BR}'
-      v:008: 'BAR:3:8 | 8 | 8 | Et ecce nos in captivitate nostra sumus hodie,{VS:BR} qua nos dispersisti in improperium,{VS:BR} et in maledictum, et in peccatum,{VS:BR} secundum omnes iniquitates patrum nostrorum,{VS:BR} qui recesserunt a te, Domine Deus noster.{VERSE:END}{VS:P}'
-      v:009: 'BAR:3:9 | 9 | 9 | {VERSE:BEGIN}Audi, Israël, mandata vitæ :{VS:BR} auribus percipe, ut scias prudentiam.{VS:BR}'
+      v:008: 'BAR:3:8 | 8 | 8 | Et ecce nos in captivitate nostra sumus hodie,{VS:BR} qua nos dispersisti in improperium,{VS:BR} et in maledictum, et in peccatum,{VS:BR} secundum omnes iniquitates patrum nostrorum,{VS:BR} qui recesserunt a te, Domine Deus noster.{VS:VERSE:END}{VS:P}'
+      v:009: 'BAR:3:9 | 9 | 9 | {VS:VERSE:BEGIN}Audi, Israël, mandata vitæ :{VS:BR} auribus percipe, ut scias prudentiam.{VS:BR}'
       v:010: 'BAR:3:10 | 10 | 10 | Quid est, Israël, quod in terra inimicorum es,{VS:BR}'
       v:011: 'BAR:3:11 | 11 | 11 | inveterasti in terra aliena,{VS:BR} coinquinatus es cum mortuis,{VS:BR} deputatus es cum descendentibus in infernum ?{VS:BR}'
       v:012: 'BAR:3:12 | 12 | 12 | Dereliquisti fontem sapientiæ :{VS:BR}'
@@ -123,14 +102,14 @@ chapters:
       v:035: 'BAR:3:35 | 35 | 35 | vocatæ sunt, et dixerunt : Adsumus,{VS:BR} et luxerunt ei cum jucunditate, qui fecit illas.{VS:BR}'
       v:036: 'BAR:3:36 | 36 | 36 | Hic est Deus noster,{VS:BR} et non æstimabitur alius adversus eum.{VS:BR}'
       v:037: 'BAR:3:37 | 37 | 37 | Hic adinvenit omnem viam disciplinæ,{VS:BR} et tradidit illam Jacob puero suo,{VS:BR} et Israël dilecto suo.{VS:BR}'
-      v:038: 'BAR:3:38 | 38 | 38 | Post hæc in terris visus est,{VS:BR} et cum hominibus conversatus est.{VERSE:END}'
+      v:038: 'BAR:3:38 | 38 | 38 | Post hæc in terris visus est,{VS:BR} et cum hominibus conversatus est.{VS:VERSE:END}'
   c:004:
     verses:
-      v:001: 'BAR:4:1 | 1 | 1 | {VERSE:BEGIN}Hic liber mandatorum Dei,{VS:BR} et lex quæ est in æternum :{VS:BR} omnes qui tenent eam pervenient ad vitam :{VS:BR} qui autem dereliquerunt eam, in mortem.{VS:BR}'
+      v:001: 'BAR:4:1 | 1 | 1 | {VS:VERSE:BEGIN}Hic liber mandatorum Dei,{VS:BR} et lex quæ est in æternum :{VS:BR} omnes qui tenent eam pervenient ad vitam :{VS:BR} qui autem dereliquerunt eam, in mortem.{VS:BR}'
       v:002: 'BAR:4:2 | 2 | 2 | Convertere, Jacob, et apprehende eam :{VS:BR} ambula per viam ad splendorem ejus contra lumen ejus.{VS:BR}'
       v:003: 'BAR:4:3 | 3 | 3 | Ne tradas alteri gloriam tuam,{VS:BR} et dignitatem tuam genti alienæ.{VS:BR}'
-      v:004: 'BAR:4:4 | 4 | 4 | Beati sumus, Israël,{VS:BR} quia quæ Deo placent manifesta sunt nobis.{VERSE:END}{VS:P}'
-      v:005: 'BAR:4:5 | 5 | 5 | {VERSE:BEGIN}Animæquior esto, populus Dei, memorabilis Israël :{VS:BR}'
+      v:004: 'BAR:4:4 | 4 | 4 | Beati sumus, Israël,{VS:BR} quia quæ Deo placent manifesta sunt nobis.{VS:VERSE:END}{VS:P}'
+      v:005: 'BAR:4:5 | 5 | 5 | {VS:VERSE:BEGIN}Animæquior esto, populus Dei, memorabilis Israël :{VS:BR}'
       v:006: 'BAR:4:6 | 6 | 6 | venundati estis gentibus non in perditionem :{VS:BR} sed propter quod in ira ad iracundiam provocastis Deum,{VS:BR} traditi estis adversariis.{VS:BR}'
       v:007: 'BAR:4:7 | 7 | 7 | Exacerbastis enim eum qui fecit vos, Deum æternum,{VS:BR} immolantes dæmoniis, et non Deo.{VS:BR}'
       v:008: 'BAR:4:8 | 8 | 8 | Obliti enim estis Deum qui nutrivit vos,{VS:BR} et contristastis nutricem vestram Jerusalem.{VS:BR}'
@@ -154,18 +133,18 @@ chapters:
       v:026: 'BAR:4:26 | 26 | 26 | Delicati mei ambulaverunt vias asperas :{VS:BR} ducti sunt enim ut grex direptus ab inimicis.{VS:BR}'
       v:027: 'BAR:4:27 | 27 | 27 | Animæquiores estote, filii, et proclamate ad Dominum :{VS:BR} erit enim memoria vestra ab eo qui duxit vos.{VS:BR}'
       v:028: 'BAR:4:28 | 28 | 28 | Sicut enim fuit sensus vester ut erraretis a Deo,{VS:BR} decies tantum iterum convertentes requiretis eum :{VS:BR}'
-      v:029: 'BAR:4:29 | 29 | 29 | qui enim induxit vobis mala,{VS:BR} ipse rursum adducet vobis sempiternam jucunditatem cum salute vestra.{VERSE:END}{VS:P}'
-      v:030: 'BAR:4:30 | 30 | 30 | {VERSE:BEGIN}Animæquior esto, Jerusalem :{VS:BR} exhortatur enim te, qui te nominavit.{VS:BR}'
+      v:029: 'BAR:4:29 | 29 | 29 | qui enim induxit vobis mala,{VS:BR} ipse rursum adducet vobis sempiternam jucunditatem cum salute vestra.{VS:VERSE:END}{VS:P}'
+      v:030: 'BAR:4:30 | 30 | 30 | {VS:VERSE:BEGIN}Animæquior esto, Jerusalem :{VS:BR} exhortatur enim te, qui te nominavit.{VS:BR}'
       v:031: 'BAR:4:31 | 31 | 31 | Nocentes peribunt, qui te vexaverunt :{VS:BR} et qui gratulati sunt in tua ruina, punientur.{VS:BR}'
       v:032: 'BAR:4:32 | 32 | 32 | Civitates quibus servierunt filii tui, punientur,{VS:BR} et quæ accepit filios tuos.{VS:BR}'
       v:033: 'BAR:4:33 | 33 | 33 | Sicut enim gavisa est in tua ruina, et lætata est in casu tuo,{VS:BR} sic contristabitur in sua desolatione,{VS:BR}'
       v:034: 'BAR:4:34 | 34 | 34 | et amputabitur exsultatio multitudinis ejus,{VS:BR} et gaudimonium ejus erit in luctum.{VS:BR}'
       v:035: 'BAR:4:35 | 35 | 35 | Ignis enim superveniet ei ab Æterno in longiturnis diebus,{VS:BR} et habitabitur a dæmoniis in multitudine temporis.{VS:BR}'
       v:036: 'BAR:4:36 | 36 | 36 | Circumspice, Jerusalem, ad orientem,{VS:BR} et vide jucunditatem a Deo tibi venientem.{VS:BR}'
-      v:037: 'BAR:4:37 | 37 | 37 | Ecce enim veniunt filii tui, quos dimisisti dispersos :{VS:BR} veniunt collecti ab oriente usque ad occidentem, in verbo Sancti,{VS:BR} gaudentes in honorem Dei.{VERSE:END}'
+      v:037: 'BAR:4:37 | 37 | 37 | Ecce enim veniunt filii tui, quos dimisisti dispersos :{VS:BR} veniunt collecti ab oriente usque ad occidentem, in verbo Sancti,{VS:BR} gaudentes in honorem Dei.{VS:VERSE:END}'
   c:005:
     verses:
-      v:001: 'BAR:5:1 | 1 | 1 | {VERSE:BEGIN}Exue te, Jerusalem, stola luctus et vexationis tuæ,{VS:BR} et indue te decore, et honore ejus,{VS:BR} quæ a Deo tibi est, sempiternæ gloriæ.{VS:BR}'
+      v:001: 'BAR:5:1 | 1 | 1 | {VS:VERSE:BEGIN}Exue te, Jerusalem, stola luctus et vexationis tuæ,{VS:BR} et indue te decore, et honore ejus,{VS:BR} quæ a Deo tibi est, sempiternæ gloriæ.{VS:BR}'
       v:002: 'BAR:5:2 | 2 | 2 | Circumdabit te Deus diploide justitiæ,{VS:BR} et imponet mitram capiti honoris æterni.{VS:BR}'
       v:003: 'BAR:5:3 | 3 | 3 | Deus enim ostendet splendorem suum in te,{VS:BR} omni qui sub cælo est.{VS:BR}'
       v:004: 'BAR:5:4 | 4 | 4 | Nominabitur enim tibi nomen tuum a Deo in sempiternum :{VS:BR} pax justitiæ, et honor pietatis.{VS:BR}'
@@ -173,10 +152,10 @@ chapters:
       v:006: 'BAR:5:6 | 6 | 6 | Exierunt enim abs te pedibus ducti ab inimicis :{VS:BR} adducet autem illos Dominus ad te portatos in honore{VS:BR} sicut filios regni :{VS:BR}'
       v:007: 'BAR:5:7 | 7 | 7 | constituit enim Deus{VS:BR} humiliare omnem montem excelsum et rupes perennes,{VS:BR} et convalles replere in æqualitatem terræ,{VS:BR} ut ambulet Israël diligenter in honorem Dei.{VS:BR}'
       v:008: 'BAR:5:8 | 8 | 8 | Obumbraverunt autem et silvæ,{VS:BR} et omne lignum suavitatis Israël{VS:BR} ex mandato Dei.{VS:BR}'
-      v:009: 'BAR:5:9 | 9 | 9 | Adducet enim Deus Israël cum jucunditate in lumine majestatis suæ,{VS:BR} cum misericordia et justitia quæ est ex ipso.{VERSE:END}'
+      v:009: 'BAR:5:9 | 9 | 9 | Adducet enim Deus Israël cum jucunditate in lumine majestatis suæ,{VS:BR} cum misericordia et justitia quæ est ex ipso.{VS:VERSE:END}'
   c:006:
     verses:
-      v:001: 'BAR:6:1 | 1 | 1 | {PROLOG:BAR:START}Exemplar epistolæ quam misit Jeremias ad abducendos captivos in Babyloniam a rege Babyloniorum, ut annuntiaret illis secundum quod præceptum est illi a Deo{PROLOG:BAR:END}Propter peccata quæ peccastis ante Deum, abducemini in Babyloniam captivi a Nabuchodonosor rege Babylonis.'
+      v:001: 'BAR:6:1 | 1 | 1 | {PROLOG:BAR:BEGIN}Exemplar epistolæ quam misit Jeremias ad abducendos captivos in Babyloniam a rege Babyloniorum, ut annuntiaret illis secundum quod præceptum est illi a Deo{PROLOG:BAR:END}Propter peccata quæ peccastis ante Deum, abducemini in Babyloniam captivi a Nabuchodonosor rege Babylonis.'
       v:002: 'BAR:6:2 | 2 | 2 | Ingressi itaque in Babylonem, eritis ibi annis plurimis, et temporibus longis, usque ad generationes septem : post hoc autem educam vos inde cum pace.'
       v:003: 'BAR:6:3 | 3 | 3 | Nunc autem videbitis in Babylonia deos aureos et argenteos, et lapideos et ligneos, in humeris portari, ostentantes metum gentibus.'
       v:004: 'BAR:6:4 | 4 | 4 | Videte ergo ne et vos similes efficiamini factis alienis, et metuatis, et metus vos capiat in ipsis.'

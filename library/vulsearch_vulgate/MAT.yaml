@@ -1,27 +1,6 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Mt.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: MAT
-book_title: Matth�us
+book_title: Matthaeus
 chapters:
   c:001:
     verses:
@@ -57,7 +36,7 @@ chapters:
       v:003: 'MAT:2:3 | 3 | 3 | Audiens autem Herodes rex, turbatus est, et omnis Jerosolyma cum illo.'
       v:004: 'MAT:2:4 | 4 | 4 | Et congregans omnes principes sacerdotum, et scribas populi, sciscitabatur ab eis ubi Christus nasceretur.'
       v:005: 'MAT:2:5 | 5 | 5 | At illi dixerunt : In Bethlehem Judæ : sic enim scriptum est per prophetam :'
-      v:006: 'MAT:2:6 | 6 | 6 | {VERSE:BEGIN}Et tu Bethlehem terra Juda,{VS:BR} nequaquam minima es{VS:BR} in principibus Juda :{VS:BR} ex te enim exiet dux, qui regat populum meum Israël.{VERSE:END}'
+      v:006: 'MAT:2:6 | 6 | 6 | {VS:VERSE:BEGIN}Et tu Bethlehem terra Juda,{VS:BR} nequaquam minima es{VS:BR} in principibus Juda :{VS:BR} ex te enim exiet dux, qui regat populum meum Israël.{VS:VERSE:END}'
       v:007: 'MAT:2:7 | 7 | 7 | Tunc Herodes clam vocatis magis diligenter didicit ab eis tempus stellæ, quæ apparuit eis :'
       v:008: 'MAT:2:8 | 8 | 8 | et mittens illos in Bethlehem, dixit : Ite, et interrogate diligenter de puero : et cum inveneritis, renuntiate mihi, ut et ego veniens adorem eum.'
       v:009: 'MAT:2:9 | 9 | 9 | Qui cum audissent regem, abierunt, et ecce stella, quam viderant in oriente, antecedebat eos, usque dum veniens staret supra, ubi erat puer.'
@@ -69,7 +48,7 @@ chapters:
       v:015: 'MAT:2:15 | 15 | 15 | et erat ibi usque ad obitum Herodis : ut adimpleretur quod dictum est a Domino per prophetam dicentem : Ex Ægypto vocavi filium meum.'
       v:016: 'MAT:2:16 | 16 | 16 | Tunc Herodes videns quoniam illusus esset a magis, iratus est valde, et mittens occidit omnes pueros, qui erant in Bethlehem, et in omnibus finibus ejus, a bimatu et infra secundum tempus, quod exquisierat a magis.'
       v:017: 'MAT:2:17 | 17 | 17 | Tunc adimpletum est quod dictum est per Jeremiam prophetam dicentem :'
-      v:018: 'MAT:2:18 | 18 | 18 | {VERSE:BEGIN}Vox in Rama audita est{VS:BR} ploratus, et ululatus multus :{VS:BR} Rachel plorans filios suos,{VS:BR} et noluit consolari, quia non sunt.{VERSE:END}{VS:P}'
+      v:018: 'MAT:2:18 | 18 | 18 | {VS:VERSE:BEGIN}Vox in Rama audita est{VS:BR} ploratus, et ululatus multus :{VS:BR} Rachel plorans filios suos,{VS:BR} et noluit consolari, quia non sunt.{VS:VERSE:END}{VS:P}'
       v:019: 'MAT:2:19 | 19 | 19 | Defuncto autem Herode, ecce angelus Domini apparuit in somnis Joseph in Ægypto,'
       v:020: 'MAT:2:20 | 20 | 20 | dicens : Surge, et accipe puerum, et matrem ejus, et vade in terram Israël : defuncti sunt enim qui quærebant animam pueri.'
       v:021: 'MAT:2:21 | 21 | 21 | Qui consurgens, accepit puerum, et matrem ejus, et venit in terram Israël.'
@@ -79,7 +58,7 @@ chapters:
     verses:
       v:001: 'MAT:3:1 | 1 | 1 | In diebus autem illis venit Joannes Baptista prædicans in deserto Judææ,'
       v:002: 'MAT:3:2 | 2 | 2 | et dicens : Pœnitentiam agite : appropinquavit enim regnum cælorum.'
-      v:003: 'MAT:3:3 | 3 | 3 | Hic est enim, qui dictus est per Isaiam prophetam dicentem : {VERSE:BEGIN}Vox clamantis in deserto :{VS:BR} Parate viam Domini ;{VS:BR} rectas facite semitas ejus.{VERSE:END}'
+      v:003: 'MAT:3:3 | 3 | 3 | Hic est enim, qui dictus est per Isaiam prophetam dicentem : {VS:VERSE:BEGIN}Vox clamantis in deserto :{VS:BR} Parate viam Domini ;{VS:BR} rectas facite semitas ejus.{VS:VERSE:END}'
       v:004: 'MAT:3:4 | 4 | 4 | Ipse autem Joannes habebat vestimentum de pilis camelorum, et zonam pelliceam circa lumbos suos : esca autem ejus erat locustæ, et mel silvestre.'
       v:005: 'MAT:3:5 | 5 | 5 | Tunc exibat ad eum Jerosolyma, et omnis Judæa, et omnis regio circa Jordanem ;'
       v:006: 'MAT:3:6 | 6 | 6 | et baptizabantur ab eo in Jordane, confitentes peccata sua.'
@@ -110,8 +89,8 @@ chapters:
       v:012: 'MAT:4:12 | 12 | 12 | Cum autem audisset Jesus quod Joannes traditus esset, secessit in Galilæam :'
       v:013: 'MAT:4:13 | 13 | 13 | et, relicta civitate Nazareth, venit, et habitavit in Capharnaum maritima, in finibus Zabulon et Nephthalim :'
       v:014: 'MAT:4:14 | 14 | 14 | ut adimpleretur quod dictum est per Isaiam prophetam :'
-      v:015: 'MAT:4:15 | 15 | 15 | {VERSE:BEGIN}Terra Zabulon, et terra Nephthalim,{VS:BR} via maris trans Jordanem,{VS:BR} Galilæa gentium :{VS:BR}'
-      v:016: 'MAT:4:16 | 16 | 16 | populus, qui sedebat in tenebris,{VS:BR} vidit lucem magnam :{VS:BR} et sedentibus in regione umbræ mortis,{VS:BR} lux orta est eis.{VERSE:END}'
+      v:015: 'MAT:4:15 | 15 | 15 | {VS:VERSE:BEGIN}Terra Zabulon, et terra Nephthalim,{VS:BR} via maris trans Jordanem,{VS:BR} Galilæa gentium :{VS:BR}'
+      v:016: 'MAT:4:16 | 16 | 16 | populus, qui sedebat in tenebris,{VS:BR} vidit lucem magnam :{VS:BR} et sedentibus in regione umbræ mortis,{VS:BR} lux orta est eis.{VS:VERSE:END}'
       v:017: 'MAT:4:17 | 17 | 17 | Exinde cœpit Jesus prædicare, et dicere : Pœnitentiam agite : appropinquavit enim regnum cælorum.{VS:P}'
       v:018: 'MAT:4:18 | 18 | 18 | Ambulans autem Jesus juxta mare Galilææ, vidit duos fratres, Simonem, qui vocatur Petrus, et Andream fratrem ejus, mittentes rete in mare (erant enim piscatores),'
       v:019: 'MAT:4:19 | 19 | 19 | et ait illis : Venite post me, et faciam vos fieri piscatores hominum.'
@@ -181,11 +160,11 @@ chapters:
       v:006: 'MAT:6:6 | 6 | 6 | Tu autem cum oraveris, intra in cubiculum tuum, et clauso ostio, ora Patrem tuum in abscondito : et Pater tuus, qui videt in abscondito, reddet tibi.'
       v:007: 'MAT:6:7 | 7 | 7 | Orantes autem, nolite multum loqui, sicut ethnici, putant enim quod in multiloquio suo exaudiantur.'
       v:008: 'MAT:6:8 | 8 | 8 | Nolite ergo assimilari eis : scit enim Pater vester, quid opus sit vobis, antequam petatis eum.'
-      v:009: 'MAT:6:9 | 9 | 9 | Sic ergo vos orabitis : {VERSE:BEGIN}Pater noster, qui es in cælis,{VS:BR} sanctificetur nomen tuum.{VS:BR}'
+      v:009: 'MAT:6:9 | 9 | 9 | Sic ergo vos orabitis : {VS:VERSE:BEGIN}Pater noster, qui es in cælis,{VS:BR} sanctificetur nomen tuum.{VS:BR}'
       v:010: 'MAT:6:10 | 10 | 10 | Adveniat regnum tuum ;{VS:BR} fiat voluntas tua, sicut in cælo et in terra.{VS:BR}'
       v:011: 'MAT:6:11 | 11 | 11 | Panem nostrum supersubstantialem da nobis hodie,{VS:BR}'
       v:012: 'MAT:6:12 | 12 | 12 | et dimitte nobis debita nostra,{VS:BR} sicut et nos dimittimus debitoribus nostris.{VS:BR}'
-      v:013: 'MAT:6:13 | 13 | 13 | Et ne nos inducas in tentationem,{VS:BR} sed libera nos a malo. Amen.{VERSE:END}'
+      v:013: 'MAT:6:13 | 13 | 13 | Et ne nos inducas in tentationem,{VS:BR} sed libera nos a malo. Amen.{VS:VERSE:END}'
       v:014: 'MAT:6:14 | 14 | 14 | Si enim dimiseritis hominibus peccata eorum : dimittet et vobis Pater vester cælestis delicta vestra.'
       v:015: 'MAT:6:15 | 15 | 15 | Si autem non dimiseritis hominibus : nec Pater vester dimittet vobis peccata vestra.{VS:P}'
       v:016: 'MAT:6:16 | 16 | 16 | Cum autem jejunatis, nolite fieri sicut hypocritæ, tristes. Exterminant enim facies suas, ut appareant hominibus jejunantes. Amen dico vobis, quia receperunt mercedem suam.'
@@ -256,7 +235,7 @@ chapters:
       v:014: 'MAT:8:14 | 14 | 14 | Et cum venisset Jesus in domum Petri, vidit socrum ejus jacentem, et febricitantem :'
       v:015: 'MAT:8:15 | 15 | 15 | et tetigit manum ejus, et dimisit eam febris, et surrexit, et ministrabat eis.{VS:P}'
       v:016: 'MAT:8:16 | 16 | 16 | Vespere autem facto, obtulerunt ei multos dæmonia habentes : et ejiciebat spiritus verbo, et omnes male habentes curavit :'
-      v:017: 'MAT:8:17 | 17 | 17 | ut adimpleretur quod dictum est per Isaiam prophetam, dicentem : {VERSE:BEGIN}Ipse infirmitates nostras accepit :{VS:BR} et ægrotationes nostras portavit.{VERSE:END}'
+      v:017: 'MAT:8:17 | 17 | 17 | ut adimpleretur quod dictum est per Isaiam prophetam, dicentem : {VS:VERSE:BEGIN}Ipse infirmitates nostras accepit :{VS:BR} et ægrotationes nostras portavit.{VS:VERSE:END}'
       v:018: 'MAT:8:18 | 18 | 18 | Videns autem Jesus turbas multas circum se, jussit ire trans fretum.{VS:P}'
       v:019: 'MAT:8:19 | 19 | 19 | Et accedens unus scriba, ait illi : Magister, sequar te, quocumque ieris.'
       v:020: 'MAT:8:20 | 20 | 20 | Et dicit ei Jesus : Vulpes foveas habent, et volucres cæli nidos ; Filius autem hominis non habet ubi caput reclinet.'
@@ -409,10 +388,10 @@ chapters:
       v:015: 'MAT:12:15 | 15 | 15 | Jesus autem sciens recessit inde : et secuti sunt eum multi, et curavit eos omnes :'
       v:016: MAT:12:16 | 16 | 16 | et præcepit eis ne manifestum eum facerent.
       v:017: 'MAT:12:17 | 17 | 17 | Ut adimpleretur quod dictum est per Isaiam prophetam, dicentem :'
-      v:018: 'MAT:12:18 | 18 | 18 | {VERSE:BEGIN}Ecce puer meus, quem elegi, dilectus meus,{VS:BR} in quo bene complacuit animæ meæ.{VS:BR} Ponam spiritum meum super eum,{VS:BR} et judicium gentibus nuntiabit.{VS:BR}'
+      v:018: 'MAT:12:18 | 18 | 18 | {VS:VERSE:BEGIN}Ecce puer meus, quem elegi, dilectus meus,{VS:BR} in quo bene complacuit animæ meæ.{VS:BR} Ponam spiritum meum super eum,{VS:BR} et judicium gentibus nuntiabit.{VS:BR}'
       v:019: 'MAT:12:19 | 19 | 19 | Non contendet, neque clamabit,{VS:BR} neque audiet aliquis in plateis vocem ejus :{VS:BR}'
       v:020: 'MAT:12:20 | 20 | 20 | arundinem quassatam non confringet,{VS:BR} et linum fumigans non extinguet,{VS:BR} donec ejiciat ad victoriam judicium :{VS:BR}'
-      v:021: 'MAT:12:21 | 21 | 21 | et in nomine ejus gentes sperabunt.{VERSE:END}{VS:P}'
+      v:021: 'MAT:12:21 | 21 | 21 | et in nomine ejus gentes sperabunt.{VS:VERSE:END}{VS:P}'
       v:022: 'MAT:12:22 | 22 | 22 | Tunc oblatus est ei dæmonium habens, cæcus, et mutus, et curavit eum ita ut loqueretur, et videret.'
       v:023: 'MAT:12:23 | 23 | 23 | Et stupebant omnes turbæ, et dicebant : Numquid hic est filius David ?'
       v:024: 'MAT:12:24 | 24 | 24 | Pharisæi autem audientes, dixerunt : Hic non ejicit dæmones nisi in Beelzebub principe dæmoniorum.'
@@ -457,8 +436,8 @@ chapters:
       v:011: 'MAT:13:11 | 11 | 11 | Qui respondens, ait illis : Quia vobis datum est nosse mysteria regni cælorum : illis autem non est datum.'
       v:012: 'MAT:13:12 | 12 | 12 | Qui enim habet, dabitur ei, et abundabit : qui autem non habet, et quod habet auferetur ab eo.'
       v:013: 'MAT:13:13 | 13 | 13 | Ideo in parabolis loquor eis : quia videntes non vident, et audientes non audiunt, neque intelligunt.'
-      v:014: 'MAT:13:14 | 14 | 14 | Et adimpletur in eis prophetia Isaiæ, dicentis : {VERSE:BEGIN}Auditu audietis, et non intelligetis :{VS:BR} et videntes videbitis, et non videbitis.{VS:BR}'
-      v:015: 'MAT:13:15 | 15 | 15 | Incrassatum est enim cor populi hujus,{VS:BR} et auribus graviter audierunt,{VS:BR} et oculos suos clauserunt :{VS:BR} nequando videant oculis, et auribus audiant,{VS:BR} et corde intelligant, et convertantur,{VS:BR} et sanem eos.{VERSE:END}'
+      v:014: 'MAT:13:14 | 14 | 14 | Et adimpletur in eis prophetia Isaiæ, dicentis : {VS:VERSE:BEGIN}Auditu audietis, et non intelligetis :{VS:BR} et videntes videbitis, et non videbitis.{VS:BR}'
+      v:015: 'MAT:13:15 | 15 | 15 | Incrassatum est enim cor populi hujus,{VS:BR} et auribus graviter audierunt,{VS:BR} et oculos suos clauserunt :{VS:BR} nequando videant oculis, et auribus audiant,{VS:BR} et corde intelligant, et convertantur,{VS:BR} et sanem eos.{VS:VERSE:END}'
       v:016: 'MAT:13:16 | 16 | 16 | Vestri autem beati oculi quia vident, et aures vestræ quia audiunt.'
       v:017: 'MAT:13:17 | 17 | 17 | Amen quippe dico vobis, quia multi prophetæ et justi cupierunt videre quæ videtis, et non viderunt : et audire quæ auditis, et non audierunt.{VS:P}'
       v:018: MAT:13:18 | 18 | 18 | Vos ergo audite parabolam seminantis.
@@ -549,8 +528,8 @@ chapters:
       v:005: 'MAT:15:5 | 5 | 5 | Vos autem dicitis : Quicumque dixerit patri, vel matri : Munus, quodcumque est ex me, tibi proderit :'
       v:006: 'MAT:15:6 | 6 | 6 | et non honorificabit patrem suum, aut matrem suam : et irritum fecistis mandatum Dei propter traditionem vestram.'
       v:007: 'MAT:15:7 | 7 | 7 | Hypocritæ, bene prophetavit de vobis Isaias, dicens :'
-      v:008: 'MAT:15:8 | 8 | 8 | {VERSE:BEGIN}Populus hic labiis me honorat :{VS:BR} cor autem eorum longe est a me.{VS:BR}'
-      v:009: 'MAT:15:9 | 9 | 9 | Sine causa autem colunt me,{VS:BR} docentes doctrinas et mandata hominum.{VERSE:END}{VS:P}'
+      v:008: 'MAT:15:8 | 8 | 8 | {VS:VERSE:BEGIN}Populus hic labiis me honorat :{VS:BR} cor autem eorum longe est a me.{VS:BR}'
+      v:009: 'MAT:15:9 | 9 | 9 | Sine causa autem colunt me,{VS:BR} docentes doctrinas et mandata hominum.{VS:VERSE:END}{VS:P}'
       v:010: 'MAT:15:10 | 10 | 10 | Et convocatis ad se turbis, dixit eis : Audite, et intelligite.'
       v:011: 'MAT:15:11 | 11 | 11 | Non quod intrat in os, coinquinat hominem : sed quod procedit ex ore, hoc coinquinat hominem.'
       v:012: 'MAT:15:12 | 12 | 12 | Tunc accedentes discipuli ejus, dixerunt ei : Scis quia pharisæi audito verbo hoc, scandalizati sunt ?'
@@ -750,7 +729,7 @@ chapters:
       v:002: 'MAT:21:2 | 2 | 2 | dicens eis : Ite in castellum, quod contra vos est, et statim invenietis asinam alligatam, et pullum cum ea : solvite, et adducite mihi :'
       v:003: 'MAT:21:3 | 3 | 3 | et si quis vobis aliquid dixerit, dicite quia Dominus his opus habet : et confestim dimittet eos.'
       v:004: 'MAT:21:4 | 4 | 4 | Hoc autem totum factum est, ut adimpleretur quod dictum est per prophetam dicentem :'
-      v:005: 'MAT:21:5 | 5 | 5 | {VERSE:BEGIN}Dicite filiæ Sion :{VS:BR} Ecce rex tuus venit tibi{VS:BR} mansuetus, sedens super asinam,{VS:BR} et pullum filium subjugalis.{VERSE:END}'
+      v:005: 'MAT:21:5 | 5 | 5 | {VS:VERSE:BEGIN}Dicite filiæ Sion :{VS:BR} Ecce rex tuus venit tibi{VS:BR} mansuetus, sedens super asinam,{VS:BR} et pullum filium subjugalis.{VS:VERSE:END}'
       v:006: MAT:21:6 | 6 | 6 | Euntes autem discipuli fecerunt sicut præcepit illis Jesus.
       v:007: 'MAT:21:7 | 7 | 7 | Et adduxerunt asinam, et pullum : et imposuerunt super eos vestimenta sua, et eum desuper sedere fecerunt.'
       v:008: 'MAT:21:8 | 8 | 8 | Plurima autem turba straverunt vestimenta sua in via : alii autem cædebant ramos de arboribus, et sternebant in via :'
@@ -787,7 +766,7 @@ chapters:
       v:039: 'MAT:21:39 | 39 | 39 | Et apprehensum eum ejecerunt extra vineam, et occiderunt.'
       v:040: 'MAT:21:40 | 40 | 40 | Cum ergo venerit dominus vineæ, quid faciet agricolis illis ?'
       v:041: 'MAT:21:41 | 41 | 41 | Aiunt illi : Malos male perdet : et vineam suam locabit aliis agricolis, qui reddant ei fructum temporibus suis.'
-      v:042: 'MAT:21:42 | 42 | 42 | Dicit illis Jesus : Numquam legistis in Scripturis : {VERSE:BEGIN}Lapidem quem reprobaverunt ædificantes,{VS:BR} hic factus est in caput anguli :{VS:BR} a Domino factum est istud,{VS:BR} et est mirabile in oculis nostris ?{VERSE:END}'
+      v:042: 'MAT:21:42 | 42 | 42 | Dicit illis Jesus : Numquam legistis in Scripturis : {VS:VERSE:BEGIN}Lapidem quem reprobaverunt ædificantes,{VS:BR} hic factus est in caput anguli :{VS:BR} a Domino factum est istud,{VS:BR} et est mirabile in oculis nostris ?{VS:VERSE:END}'
       v:043: 'MAT:21:43 | 43 | 43 | Ideo dico vobis, quia auferetur a vobis regnum Dei, et dabitur genti facienti fructus ejus.'
       v:044: 'MAT:21:44 | 44 | 44 | Et qui ceciderit super lapidem istum, confringetur : super quem vero ceciderit, conteret eum.'
       v:045: 'MAT:21:45 | 45 | 45 | Et cum audissent principes sacerdotum et pharisæi parabolas ejus, cognoverunt quod de ipsis diceret.'

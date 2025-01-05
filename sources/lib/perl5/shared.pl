@@ -138,7 +138,11 @@ sub write_book_file {
     #YAML::DumpFile ($out_file, $book);
 
     my $yaml = YAML::Dump($book);
-    write_file($out_file, {binmode => ':raw'}, "$std_header\n$add_header\n\n$yaml");
+    #write_file($out_file, {binmode => ':raw'}, "$std_header\n$add_header\n\n$yaml");
+    write_file($out_file, {binmode => ':raw'}, $yaml);
+
+
+    #YAML::DumpFile($out_file, $book);
 
     #say $yaml;
     #my $encoding_name = Encode::Detect::Detector::detect($yaml);

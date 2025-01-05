@@ -1,24 +1,3 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Job.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: JOB
 book_title: Job
@@ -66,7 +45,7 @@ chapters:
     verses:
       v:001: 'JOB:3:1 | 1 | 1 | Post hæc aperuit Job os suum, et maledixit diei suo,'
       v:002: 'JOB:3:2 | 2 | 2 | et locutus est :'
-      v:003: 'JOB:3:3 | 3 | 3 | {VERSE:BEGIN}Pereat dies in qua natus sum,{VS:BR} et nox in qua dictum est : Conceptus est homo.{VS:BR}'
+      v:003: 'JOB:3:3 | 3 | 3 | {VS:VERSE:BEGIN}Pereat dies in qua natus sum,{VS:BR} et nox in qua dictum est : Conceptus est homo.{VS:BR}'
       v:004: 'JOB:3:4 | 4 | 4 | Dies ille vertatur in tenebras :{VS:BR} non requirat eum Deus desuper,{VS:BR} et non illustretur lumine.{VS:BR}'
       v:005: 'JOB:3:5 | 5 | 5 | Obscurent eum tenebræ et umbra mortis ;{VS:BR} occupet eum caligo,{VS:BR} et involvatur amaritudine.{VS:BR}'
       v:006: 'JOB:3:6 | 6 | 6 | Noctem illam tenebrosus turbo possideat ;{VS:BR} non computetur in diebus anni,{VS:BR} nec numeretur in mensibus.{VS:BR}'
@@ -89,11 +68,11 @@ chapters:
       v:023: 'JOB:3:23 | 23 | 23 | viro cujus abscondita est via{VS:BR} et circumdedit eum Deus tenebris ?{VS:BR}'
       v:024: 'JOB:3:24 | 24 | 24 | Antequam comedam, suspiro ;{VS:BR} et tamquam inundantes aquæ, sic rugitus meus :{VS:BR}'
       v:025: 'JOB:3:25 | 25 | 25 | quia timor quem timebam evenit mihi,{VS:BR} et quod verebar accidit.{VS:BR}'
-      v:026: 'JOB:3:26 | 26 | 26 | Nonne dissimulavi ? nonne silui ? nonne quievi ?{VS:BR} et venit super me indignatio.{VERSE:END}'
+      v:026: 'JOB:3:26 | 26 | 26 | Nonne dissimulavi ? nonne silui ? nonne quievi ?{VS:BR} et venit super me indignatio.{VS:VERSE:END}'
   c:004:
     verses:
       v:001: 'JOB:4:1 | 1 | 1 | Respondens autem Eliphaz Themanites, dixit :'
-      v:002: 'JOB:4:2 | 2 | 2 | {VERSE:BEGIN}Si cœperimus loqui tibi, forsitan moleste accipies ;{VS:BR} sed conceptum sermonem tenere quis poterit ?{VS:BR}'
+      v:002: 'JOB:4:2 | 2 | 2 | {VS:VERSE:BEGIN}Si cœperimus loqui tibi, forsitan moleste accipies ;{VS:BR} sed conceptum sermonem tenere quis poterit ?{VS:BR}'
       v:003: 'JOB:4:3 | 3 | 3 | Ecce docuisti multos,{VS:BR} et manus lassas roborasti ;{VS:BR}'
       v:004: 'JOB:4:4 | 4 | 4 | vacillantes confirmaverunt sermones tui,{VS:BR} et genua trementia confortasti.{VS:BR}'
       v:005: 'JOB:4:5 | 5 | 5 | Nunc autem venit super te plaga, et defecisti ;{VS:BR} tetigit te, et conturbatus es.{VS:BR}'
@@ -112,10 +91,10 @@ chapters:
       v:018: 'JOB:4:18 | 18 | 18 | Ecce qui serviunt ei, non sunt stabiles,{VS:BR} et in angelis suis reperit pravitatem ;{VS:BR}'
       v:019: 'JOB:4:19 | 19 | 19 | quanto magis hi qui habitant domos luteas,{VS:BR} qui terrenum habent fundamentum,{VS:BR} consumentur velut a tinea ?{VS:BR}'
       v:020: 'JOB:4:20 | 20 | 20 | De mane usque ad vesperam succidentur ;{VS:BR} et quia nullus intelligit, in æternum peribunt.{VS:BR}'
-      v:021: 'JOB:4:21 | 21 | 21 | Qui autem reliqui fuerint, auferentur ex eis ;{VS:BR} morientur, et non in sapientia.{VERSE:END}'
+      v:021: 'JOB:4:21 | 21 | 21 | Qui autem reliqui fuerint, auferentur ex eis ;{VS:BR} morientur, et non in sapientia.{VS:VERSE:END}'
   c:005:
     verses:
-      v:001: 'JOB:5:1 | 1 | 1 | {VERSE:BEGIN}Voca ergo, si est qui tibi respondeat,{VS:BR} et ad aliquem sanctorum convertere.{VS:BR}'
+      v:001: 'JOB:5:1 | 1 | 1 | {VS:VERSE:BEGIN}Voca ergo, si est qui tibi respondeat,{VS:BR} et ad aliquem sanctorum convertere.{VS:BR}'
       v:002: 'JOB:5:2 | 2 | 2 | Vere stultum interficit iracundia,{VS:BR} et parvulum occidit invidia.{VS:BR}'
       v:003: 'JOB:5:3 | 3 | 3 | Ego vidi stultum firma radice,{VS:BR} et maledixi pulchritudini ejus statim.{VS:BR}'
       v:004: 'JOB:5:4 | 4 | 4 | Longe fient filii ejus a salute,{VS:BR} et conterentur in porta,{VS:BR} et non erit qui eruat.{VS:BR}'
@@ -141,11 +120,11 @@ chapters:
       v:024: 'JOB:5:24 | 24 | 24 | Et scies quod pacem habeat tabernaculum tuum ;{VS:BR} et visitans speciem tuam, non peccabis.{VS:BR}'
       v:025: 'JOB:5:25 | 25 | 25 | Scies quoque quoniam multiplex erit semen tuum,{VS:BR} et progenies tua quasi herba terræ.{VS:BR}'
       v:026: 'JOB:5:26 | 26 | 26 | Ingredieris in abundantia sepulchrum,{VS:BR} sicut infertur acervus tritici in tempore suo.{VS:BR}'
-      v:027: 'JOB:5:27 | 27 | 27 | Ecce hoc, ut investigavimus, ita est :{VS:BR} quod auditum, mente pertracta.{VERSE:END}'
+      v:027: 'JOB:5:27 | 27 | 27 | Ecce hoc, ut investigavimus, ita est :{VS:BR} quod auditum, mente pertracta.{VS:VERSE:END}'
   c:006:
     verses:
       v:001: 'JOB:6:1 | 1 | 1 | Respondens autem Job, dixit :'
-      v:002: 'JOB:6:2 | 2 | 2 | {VERSE:BEGIN}Utinam appenderentur peccata mea quibus iram merui,{VS:BR} et calamitas quam patior, in statera !{VS:BR}'
+      v:002: 'JOB:6:2 | 2 | 2 | {VS:VERSE:BEGIN}Utinam appenderentur peccata mea quibus iram merui,{VS:BR} et calamitas quam patior, in statera !{VS:BR}'
       v:003: 'JOB:6:3 | 3 | 3 | Quasi arena maris hæc gravior appareret ;{VS:BR} unde et verba mea dolore sunt plena :{VS:BR}'
       v:004: 'JOB:6:4 | 4 | 4 | quia sagittæ Domini in me sunt,{VS:BR} quarum indignatio ebibit spiritum meum ;{VS:BR} et terrores Domini militant contra me.{VS:BR}'
       v:005: 'JOB:6:5 | 5 | 5 | Numquid rugiet onager cum habuerit herbam ?{VS:BR} aut mugiet bos cum ante præsepe plenum steterit ?{VS:BR}'
@@ -173,10 +152,10 @@ chapters:
       v:027: 'JOB:6:27 | 27 | 27 | Super pupillum irruitis,{VS:BR} et subvertere nitimini amicum vestrum.{VS:BR}'
       v:028: 'JOB:6:28 | 28 | 28 | Verumtamen quod cœpistis explete :{VS:BR} præbete aurem, et videte an mentiar.{VS:BR}'
       v:029: 'JOB:6:29 | 29 | 29 | Respondete, obsecro, absque contentione ;{VS:BR} et loquentes id quod justum est, judicate.{VS:BR}'
-      v:030: 'JOB:6:30 | 30 | 30 | Et non invenietis in lingua mea iniquitatem,{VS:BR} nec in faucibus meis stultitia personabit.{VERSE:END}'
+      v:030: 'JOB:6:30 | 30 | 30 | Et non invenietis in lingua mea iniquitatem,{VS:BR} nec in faucibus meis stultitia personabit.{VS:VERSE:END}'
   c:007:
     verses:
-      v:001: 'JOB:7:1 | 1 | 1 | {VERSE:BEGIN}Militia est vita hominis super terram,{VS:BR} et sicut dies mercenarii dies ejus.{VS:BR}'
+      v:001: 'JOB:7:1 | 1 | 1 | {VS:VERSE:BEGIN}Militia est vita hominis super terram,{VS:BR} et sicut dies mercenarii dies ejus.{VS:BR}'
       v:002: 'JOB:7:2 | 2 | 2 | Sicut servus desiderat umbram,{VS:BR} et sicut mercenarius præstolatur finem operis sui,{VS:BR}'
       v:003: 'JOB:7:3 | 3 | 3 | sic et ego habui menses vacuos,{VS:BR} et noctes laboriosas enumeravi mihi.{VS:BR}'
       v:004: 'JOB:7:4 | 4 | 4 | Si dormiero, dicam : Quando consurgam ?{VS:BR} et rursum expectabo vesperam,{VS:BR} et replebor doloribus usque ad tenebras.{VS:BR}'
@@ -196,11 +175,11 @@ chapters:
       v:018: 'JOB:7:18 | 18 | 18 | Visitas eum diluculo,{VS:BR} et subito probas illum.{VS:BR}'
       v:019: 'JOB:7:19 | 19 | 19 | Usquequo non parcis mihi,{VS:BR} nec dimittis me ut glutiam salivam meam ?{VS:BR}'
       v:020: 'JOB:7:20 | 20 | 20 | Peccavi ; quid faciam tibi, o custos hominum ?{VS:BR} quare posuisti me contrarium tibi,{VS:BR} et factus sum mihimetipsi gravis ?{VS:BR}'
-      v:021: 'JOB:7:21 | 21 | 21 | Cur non tollis peccatum meum,{VS:BR} et quare non aufers iniquitatem meam ?{VS:BR} ecce nunc in pulvere dormiam,{VS:BR} et si mane me quæsieris, non subsistam.{VERSE:END}'
+      v:021: 'JOB:7:21 | 21 | 21 | Cur non tollis peccatum meum,{VS:BR} et quare non aufers iniquitatem meam ?{VS:BR} ecce nunc in pulvere dormiam,{VS:BR} et si mane me quæsieris, non subsistam.{VS:VERSE:END}'
   c:008:
     verses:
       v:001: 'JOB:8:1 | 1 | 1 | Respondens autem Baldad Suhites, dixit :'
-      v:002: 'JOB:8:2 | 2 | 2 | {VERSE:BEGIN}Usquequo loqueris talia,{VS:BR} et spiritus multiplex sermones oris tui ?{VS:BR}'
+      v:002: 'JOB:8:2 | 2 | 2 | {VS:VERSE:BEGIN}Usquequo loqueris talia,{VS:BR} et spiritus multiplex sermones oris tui ?{VS:BR}'
       v:003: 'JOB:8:3 | 3 | 3 | Numquid Deus supplantat judicium ?{VS:BR} aut Omnipotens subvertit quod justum est ?{VS:BR}'
       v:004: 'JOB:8:4 | 4 | 4 | Etiam si filii tui peccaverunt ei,{VS:BR} et dimisit eos in manu iniquitatis suæ :{VS:BR}'
       v:005: 'JOB:8:5 | 5 | 5 | tu tamen si diluculo consurrexeris ad Deum,{VS:BR} et Omnipotentem fueris deprecatus ;{VS:BR}'
@@ -220,11 +199,11 @@ chapters:
       v:019: 'JOB:8:19 | 19 | 19 | Hæc est enim lætitia viæ ejus,{VS:BR} ut rursum de terra alii germinentur.{VS:BR}'
       v:020: 'JOB:8:20 | 20 | 20 | Deus non projiciet simplicem,{VS:BR} nec porriget manum malignis,{VS:BR}'
       v:021: 'JOB:8:21 | 21 | 21 | donec impleatur risu os tuum,{VS:BR} et labia tua jubilo.{VS:BR}'
-      v:022: 'JOB:8:22 | 22 | 22 | Qui oderunt te induentur confusione,{VS:BR} et tabernaculum impiorum non subsistet.{VERSE:END}'
+      v:022: 'JOB:8:22 | 22 | 22 | Qui oderunt te induentur confusione,{VS:BR} et tabernaculum impiorum non subsistet.{VS:VERSE:END}'
   c:009:
     verses:
       v:001: 'JOB:9:1 | 1 | 1 | Et respondens Job, ait :'
-      v:002: 'JOB:9:2 | 2 | 2 | {VERSE:BEGIN}Vere scio quod ita sit,{VS:BR} et quod non justificetur homo compositus Deo.{VS:BR}'
+      v:002: 'JOB:9:2 | 2 | 2 | {VS:VERSE:BEGIN}Vere scio quod ita sit,{VS:BR} et quod non justificetur homo compositus Deo.{VS:BR}'
       v:003: 'JOB:9:3 | 3 | 3 | Si voluerit contendere cum eo,{VS:BR} non poterit ei respondere unum pro mille.{VS:BR}'
       v:004: 'JOB:9:4 | 4 | 4 | Sapiens corde est, et fortis robore :{VS:BR} quis restitit ei, et pacem habuit ?{VS:BR}'
       v:005: 'JOB:9:5 | 5 | 5 | Qui transtulit montes, et nescierunt{VS:BR} hi quos subvertit in furore suo.{VS:BR}'
@@ -257,10 +236,10 @@ chapters:
       v:032: 'JOB:9:32 | 32 | 32 | Neque enim viro qui similis mei est, respondebo ;{VS:BR} nec qui mecum in judicio ex æquo possit audiri.{VS:BR}'
       v:033: 'JOB:9:33 | 33 | 33 | Non est qui utrumque valeat arguere,{VS:BR} et ponere manum suam in ambobus.{VS:BR}'
       v:034: 'JOB:9:34 | 34 | 34 | Auferat a me virgam suam,{VS:BR} et pavor ejus non me terreat.{VS:BR}'
-      v:035: 'JOB:9:35 | 35 | 35 | Loquar, et non timebo eum ;{VS:BR} neque enim possum metuens respondere.{VERSE:END}'
+      v:035: 'JOB:9:35 | 35 | 35 | Loquar, et non timebo eum ;{VS:BR} neque enim possum metuens respondere.{VS:VERSE:END}'
   c:010:
     verses:
-      v:001: 'JOB:10:1 | 1 | 1 | {VERSE:BEGIN}Tædet animam meam vitæ meæ ;{VS:BR} dimittam adversum me eloquium meum :{VS:BR} loquar in amaritudine animæ meæ.{VS:BR}'
+      v:001: 'JOB:10:1 | 1 | 1 | {VS:VERSE:BEGIN}Tædet animam meam vitæ meæ ;{VS:BR} dimittam adversum me eloquium meum :{VS:BR} loquar in amaritudine animæ meæ.{VS:BR}'
       v:002: 'JOB:10:2 | 2 | 2 | Dicam Deo : Noli me condemnare ;{VS:BR} indica mihi cur me ita judices.{VS:BR}'
       v:003: 'JOB:10:3 | 3 | 3 | Numquid bonum tibi videtur, si calumnieris me,{VS:BR} et opprimas me opus manuum tuarum,{VS:BR} et consilium impiorum adjuves ?{VS:BR}'
       v:004: 'JOB:10:4 | 4 | 4 | Numquid oculi carnei tibi sunt ?{VS:BR} aut sicut videt homo, et tu videbis ?{VS:BR}'
@@ -281,11 +260,11 @@ chapters:
       v:019: 'JOB:10:19 | 19 | 19 | Fuissem quasi non essem,{VS:BR} de utero translatus ad tumulum.{VS:BR}'
       v:020: 'JOB:10:20 | 20 | 20 | Numquid non paucitas dierum meorum finietur brevi ?{VS:BR} dimitte ergo me, ut plangam paululum dolorem meum,{VS:BR}'
       v:021: 'JOB:10:21 | 21 | 21 | antequam vadam, et non revertar,{VS:BR} ad terram tenebrosam, et opertam mortis caligine :{VS:BR}'
-      v:022: 'JOB:10:22 | 22 | 22 | terram miseriæ et tenebrarum,{VS:BR} ubi umbra mortis et nullus ordo,{VS:BR} sed sempiternus horror inhabitat.{VERSE:END}'
+      v:022: 'JOB:10:22 | 22 | 22 | terram miseriæ et tenebrarum,{VS:BR} ubi umbra mortis et nullus ordo,{VS:BR} sed sempiternus horror inhabitat.{VS:VERSE:END}'
   c:011:
     verses:
       v:001: 'JOB:11:1 | 1 | 1 | Respondens autem Sophar Naamathites, dixit :'
-      v:002: 'JOB:11:2 | 2 | 2 | {VERSE:BEGIN}Numquid qui multa loquitur, non et audiet ?{VS:BR} aut vir verbosus justificabitur ?{VS:BR}'
+      v:002: 'JOB:11:2 | 2 | 2 | {VS:VERSE:BEGIN}Numquid qui multa loquitur, non et audiet ?{VS:BR} aut vir verbosus justificabitur ?{VS:BR}'
       v:003: 'JOB:11:3 | 3 | 3 | Tibi soli tacebunt homines ?{VS:BR} et cum ceteros irriseris, a nullo confutaberis ?{VS:BR}'
       v:004: 'JOB:11:4 | 4 | 4 | Dixisti enim : Purus est sermo meus,{VS:BR} et mundus sum in conspectu tuo.{VS:BR}'
       v:005: 'JOB:11:5 | 5 | 5 | Atque utinam Deus loqueretur tecum,{VS:BR} et aperiret labia sua tibi,{VS:BR}'
@@ -303,11 +282,11 @@ chapters:
       v:017: 'JOB:11:17 | 17 | 17 | Et quasi meridianus fulgor consurget tibi ad vesperam ;{VS:BR} et cum te consumptum putaveris, orieris ut lucifer.{VS:BR}'
       v:018: 'JOB:11:18 | 18 | 18 | Et habebis fiduciam, proposita tibi spe :{VS:BR} et defossus securus dormies.{VS:BR}'
       v:019: 'JOB:11:19 | 19 | 19 | Requiesces, et non erit qui te exterreat ;{VS:BR} et deprecabuntur faciem tuam plurimi.{VS:BR}'
-      v:020: 'JOB:11:20 | 20 | 20 | Oculi autem impiorum deficient,{VS:BR} et effugium peribit ab eis :{VS:BR} et spes illorum abominatio animæ.{VERSE:END}'
+      v:020: 'JOB:11:20 | 20 | 20 | Oculi autem impiorum deficient,{VS:BR} et effugium peribit ab eis :{VS:BR} et spes illorum abominatio animæ.{VS:VERSE:END}'
   c:012:
     verses:
       v:001: 'JOB:12:1 | 1 | 1 | Respondens autem Job, dixit :'
-      v:002: 'JOB:12:2 | 2 | 2 | {VERSE:BEGIN}Ergo vos estis soli homines,{VS:BR} et vobiscum morietur sapientia ?{VS:BR}'
+      v:002: 'JOB:12:2 | 2 | 2 | {VS:VERSE:BEGIN}Ergo vos estis soli homines,{VS:BR} et vobiscum morietur sapientia ?{VS:BR}'
       v:003: 'JOB:12:3 | 3 | 3 | Et mihi est cor sicut et vobis, nec inferior vestri sum ;{VS:BR} quis enim hæc quæ nostis ignorat ?{VS:BR}'
       v:004: 'JOB:12:4 | 4 | 4 | Qui deridetur ab amico suo, sicut ego,{VS:BR} invocabit Deum, et exaudiet eum :{VS:BR} deridetur enim justi simplicitas.{VS:BR}'
       v:005: 'JOB:12:5 | 5 | 5 | Lampas contempta apud cogitationes divitum{VS:BR} parata ad tempus statutum.{VS:BR}'
@@ -330,10 +309,10 @@ chapters:
       v:022: 'JOB:12:22 | 22 | 22 | Qui revelat profunda de tenebris,{VS:BR} et producit in lucem umbram mortis.{VS:BR}'
       v:023: 'JOB:12:23 | 23 | 23 | Qui multiplicat gentes, et perdit eas,{VS:BR} et subversas in integrum restituit.{VS:BR}'
       v:024: 'JOB:12:24 | 24 | 24 | Qui immutat cor principum populi terræ,{VS:BR} et decipit eos ut frustra incedant per invium :{VS:BR}'
-      v:025: 'JOB:12:25 | 25 | 25 | palpabunt quasi in tenebris, et non in luce,{VS:BR} et errare eos faciet quasi ebrios.{VERSE:END}'
+      v:025: 'JOB:12:25 | 25 | 25 | palpabunt quasi in tenebris, et non in luce,{VS:BR} et errare eos faciet quasi ebrios.{VS:VERSE:END}'
   c:013:
     verses:
-      v:001: 'JOB:13:1 | 1 | 1 | {VERSE:BEGIN}Ecce omnia hæc vidit oculus meus,{VS:BR} et audivit auris mea, et intellexi singula.{VS:BR}'
+      v:001: 'JOB:13:1 | 1 | 1 | {VS:VERSE:BEGIN}Ecce omnia hæc vidit oculus meus,{VS:BR} et audivit auris mea, et intellexi singula.{VS:BR}'
       v:002: 'JOB:13:2 | 2 | 2 | Secundum scientiam vestram et ego novi :{VS:BR} nec inferior vestri sum.{VS:BR}'
       v:003: 'JOB:13:3 | 3 | 3 | Sed tamen ad Omnipotentem loquar,{VS:BR} et disputare cum Deo cupio :{VS:BR}'
       v:004: 'JOB:13:4 | 4 | 4 | prius vos ostendens fabricatores mendacii,{VS:BR} et cultores perversorum dogmatum.{VS:BR}'
@@ -360,10 +339,10 @@ chapters:
       v:025: 'JOB:13:25 | 25 | 25 | Contra folium, quod vento rapitur, ostendis potentiam tuam,{VS:BR} et stipulam siccam persequeris :{VS:BR}'
       v:026: 'JOB:13:26 | 26 | 26 | scribis enim contra me amaritudines,{VS:BR} et consumere me vis peccatis adolescentiæ meæ.{VS:BR}'
       v:027: 'JOB:13:27 | 27 | 27 | Posuisti in nervo pedem meum,{VS:BR} et observasti omnes semitas meas,{VS:BR} et vestigia pedum meorum considerasti :{VS:BR}'
-      v:028: 'JOB:13:28 | 28 | 28 | qui quasi putredo consumendus sum,{VS:BR} et quasi vestimentum quod comeditur a tinea.{VERSE:END}'
+      v:028: 'JOB:13:28 | 28 | 28 | qui quasi putredo consumendus sum,{VS:BR} et quasi vestimentum quod comeditur a tinea.{VS:VERSE:END}'
   c:014:
     verses:
-      v:001: 'JOB:14:1 | 1 | 1 | {VERSE:BEGIN}Homo natus de muliere, brevi vivens tempore,{VS:BR} repletur multis miseriis.{VS:BR}'
+      v:001: 'JOB:14:1 | 1 | 1 | {VS:VERSE:BEGIN}Homo natus de muliere, brevi vivens tempore,{VS:BR} repletur multis miseriis.{VS:BR}'
       v:002: 'JOB:14:2 | 2 | 2 | Qui quasi flos egreditur et conteritur,{VS:BR} et fugit velut umbra, et numquam in eodem statu permanet.{VS:BR}'
       v:003: 'JOB:14:3 | 3 | 3 | Et dignum ducis super hujuscemodi aperire oculos tuos,{VS:BR} et adducere eum tecum in judicium ?{VS:BR}'
       v:004: 'JOB:14:4 | 4 | 4 | Quis potest facere mundum de immundo conceptum semine ?{VS:BR} nonne tu qui solus es ?{VS:BR}'
@@ -384,11 +363,11 @@ chapters:
       v:019: 'JOB:14:19 | 19 | 19 | lapides excavant aquæ,{VS:BR} et alluvione paulatim terra consumitur :{VS:BR} et hominem ergo similiter perdes.{VS:BR}'
       v:020: 'JOB:14:20 | 20 | 20 | Roborasti eum paululum, ut in perpetuum transiret :{VS:BR} immutabis faciem ejus, et emittes eum.{VS:BR}'
       v:021: 'JOB:14:21 | 21 | 21 | Sive nobiles fuerint filii ejus,{VS:BR} sive ignobiles, non intelliget.{VS:BR}'
-      v:022: 'JOB:14:22 | 22 | 22 | Attamen caro ejus, dum vivet, dolebit,{VS:BR} et anima illius super semetipso lugebit.{VERSE:END}'
+      v:022: 'JOB:14:22 | 22 | 22 | Attamen caro ejus, dum vivet, dolebit,{VS:BR} et anima illius super semetipso lugebit.{VS:VERSE:END}'
   c:015:
     verses:
       v:001: 'JOB:15:1 | 1 | 1 | Respondens autem Eliphaz Themanites, dixit :'
-      v:002: 'JOB:15:2 | 2 | 2 | {VERSE:BEGIN}Numquid sapiens respondebit quasi in ventum loquens,{VS:BR} et implebit ardore stomachum suum ?{VS:BR}'
+      v:002: 'JOB:15:2 | 2 | 2 | {VS:VERSE:BEGIN}Numquid sapiens respondebit quasi in ventum loquens,{VS:BR} et implebit ardore stomachum suum ?{VS:BR}'
       v:003: 'JOB:15:3 | 3 | 3 | Arguis verbis eum qui non est æqualis tibi,{VS:BR} et loqueris quod tibi non expedit.{VS:BR}'
       v:004: 'JOB:15:4 | 4 | 4 | Quantum in te est, evacuasti timorem,{VS:BR} et tulisti preces coram Deo.{VS:BR}'
       v:005: 'JOB:15:5 | 5 | 5 | Docuit enim iniquitas tua os tuum,{VS:BR} et imitaris linguam blasphemantium.{VS:BR}'
@@ -421,11 +400,11 @@ chapters:
       v:032: 'JOB:15:32 | 32 | 32 | Antequam dies ejus impleantur peribit,{VS:BR} et manus ejus arescent.{VS:BR}'
       v:033: 'JOB:15:33 | 33 | 33 | Lædetur quasi vinea in primo flore botrus ejus,{VS:BR} et quasi oliva projiciens florem suum.{VS:BR}'
       v:034: 'JOB:15:34 | 34 | 34 | Congregatio enim hypocritæ sterilis,{VS:BR} et ignis devorabit tabernacula eorum qui munera libenter accipiunt.{VS:BR}'
-      v:035: 'JOB:15:35 | 35 | 35 | Concepit dolorem, et peperit iniquitatem,{VS:BR} et uterus ejus præparat dolos.{VERSE:END}'
+      v:035: 'JOB:15:35 | 35 | 35 | Concepit dolorem, et peperit iniquitatem,{VS:BR} et uterus ejus præparat dolos.{VS:VERSE:END}'
   c:016:
     verses:
       v:001: 'JOB:16:1 | 1 | 1 | Respondens autem Job, dixit :'
-      v:002: 'JOB:16:2 | 2 | 2 | {VERSE:BEGIN}Audivi frequenter talia :{VS:BR} consolatores onerosi omnes vos estis.{VS:BR}'
+      v:002: 'JOB:16:2 | 2 | 2 | {VS:VERSE:BEGIN}Audivi frequenter talia :{VS:BR} consolatores onerosi omnes vos estis.{VS:BR}'
       v:003: 'JOB:16:3 | 3 | 3 | Numquid habebunt finem verba ventosa ?{VS:BR} aut aliquid tibi molestum est, si loquaris ?{VS:BR}'
       v:004: 'JOB:16:4 | 4 | 4 | Poteram et ego similia vestri loqui,{VS:BR} atque utinam esset anima vestra pro anima mea :{VS:BR}'
       v:005: 'JOB:16:5 | 5 | 5 | consolarer et ego vos sermonibus,{VS:BR} et moverem caput meum super vos ;{VS:BR}'
@@ -446,10 +425,10 @@ chapters:
       v:020: 'JOB:16:20 | 20 | 20 | ecce enim in cælo testis meus,{VS:BR} et conscius meus in excelsis.{VS:BR}'
       v:021: 'JOB:16:21 | 21 | 21 | Verbosi amici mei :{VS:BR} ad Deum stillat oculus meus :{VS:BR}'
       v:022: 'JOB:16:22 | 22 | 22 | atque utinam sic judicaretur vir cum Deo,{VS:BR} quomodo judicatur filius hominis cum collega suo.{VS:BR}'
-      v:023: 'JOB:16:23 | 23 | 23 | Ecce enim breves anni transeunt,{VS:BR} et semitam per quam non revertar ambulo.{VERSE:END}'
+      v:023: 'JOB:16:23 | 23 | 23 | Ecce enim breves anni transeunt,{VS:BR} et semitam per quam non revertar ambulo.{VS:VERSE:END}'
   c:017:
     verses:
-      v:001: 'JOB:17:1 | 1 | 1 | {VERSE:BEGIN}Spiritus meus attenuabitur ;{VS:BR} dies mei breviabuntur :{VS:BR} et solum mihi superest sepulchrum.{VS:BR}'
+      v:001: 'JOB:17:1 | 1 | 1 | {VS:VERSE:BEGIN}Spiritus meus attenuabitur ;{VS:BR} dies mei breviabuntur :{VS:BR} et solum mihi superest sepulchrum.{VS:BR}'
       v:002: 'JOB:17:2 | 2 | 2 | Non peccavi,{VS:BR} et in amaritudinibus moratur oculus meus.{VS:BR}'
       v:003: 'JOB:17:3 | 3 | 3 | Libera me, Domine, et pone me juxta te,{VS:BR} et cujusvis manus pugnet contra me.{VS:BR}'
       v:004: 'JOB:17:4 | 4 | 4 | Cor eorum longe fecisti a disciplina :{VS:BR} propterea non exaltabuntur.{VS:BR}'
@@ -464,11 +443,11 @@ chapters:
       v:013: 'JOB:17:13 | 13 | 13 | Si sustinuero, infernus domus mea est,{VS:BR} et in tenebris stravi lectulum meum.{VS:BR}'
       v:014: 'JOB:17:14 | 14 | 14 | Putredini dixi : Pater meus es ;{VS:BR} Mater mea, et soror mea, vermibus.{VS:BR}'
       v:015: 'JOB:17:15 | 15 | 15 | Ubi est ergo nunc præstolatio mea ?{VS:BR} et patientiam meam quis considerat ?{VS:BR}'
-      v:016: 'JOB:17:16 | 16 | 16 | In profundissimum infernum descendent omnia mea :{VS:BR} putasne saltem ibi erit requies mihi ?{VERSE:END}'
+      v:016: 'JOB:17:16 | 16 | 16 | In profundissimum infernum descendent omnia mea :{VS:BR} putasne saltem ibi erit requies mihi ?{VS:VERSE:END}'
   c:018:
     verses:
       v:001: 'JOB:18:1 | 1 | 1 | Respondens autem Baldad Suhites, dixit :'
-      v:002: 'JOB:18:2 | 2 | 2 | {VERSE:BEGIN}Usque ad quem finem verba jactabitis ?{VS:BR} intelligite prius, et sic loquamur.{VS:BR}'
+      v:002: 'JOB:18:2 | 2 | 2 | {VS:VERSE:BEGIN}Usque ad quem finem verba jactabitis ?{VS:BR} intelligite prius, et sic loquamur.{VS:BR}'
       v:003: 'JOB:18:3 | 3 | 3 | Quare reputati sumus ut jumenta,{VS:BR} et sorduimus coram vobis ?{VS:BR}'
       v:004: 'JOB:18:4 | 4 | 4 | Qui perdis animam tuam in furore tuo,{VS:BR} numquid propter te derelinquetur terra,{VS:BR} et transferentur rupes de loco suo ?{VS:BR}'
       v:005: 'JOB:18:5 | 5 | 5 | Nonne lux impii extinguetur,{VS:BR} nec splendebit flamma ignis ejus ?{VS:BR}'
@@ -487,11 +466,11 @@ chapters:
       v:018: 'JOB:18:18 | 18 | 18 | Expellet eum de luce in tenebras,{VS:BR} et de orbe transferet eum.{VS:BR}'
       v:019: 'JOB:18:19 | 19 | 19 | Non erit semen ejus, neque progenies in populo suo,{VS:BR} nec ullæ reliquiæ in regionibus ejus.{VS:BR}'
       v:020: 'JOB:18:20 | 20 | 20 | In die ejus stupebunt novissimi,{VS:BR} et primos invadet horror.{VS:BR}'
-      v:021: 'JOB:18:21 | 21 | 21 | Hæc sunt ergo tabernacula iniqui,{VS:BR} et iste locus ejus qui ignorat Deum.{VERSE:END}'
+      v:021: 'JOB:18:21 | 21 | 21 | Hæc sunt ergo tabernacula iniqui,{VS:BR} et iste locus ejus qui ignorat Deum.{VS:VERSE:END}'
   c:019:
     verses:
       v:001: 'JOB:19:1 | 1 | 1 | Respondens autem Job, dixit :'
-      v:002: 'JOB:19:2 | 2 | 2 | {VERSE:BEGIN}Usquequo affligitis animam meam,{VS:BR} et atteritis me sermonibus ?{VS:BR}'
+      v:002: 'JOB:19:2 | 2 | 2 | {VS:VERSE:BEGIN}Usquequo affligitis animam meam,{VS:BR} et atteritis me sermonibus ?{VS:BR}'
       v:003: 'JOB:19:3 | 3 | 3 | En decies confunditis me,{VS:BR} et non erubescitis opprimentes me.{VS:BR}'
       v:004: 'JOB:19:4 | 4 | 4 | Nempe etsi ignoravi,{VS:BR} mecum erit ignorantia mea.{VS:BR}'
       v:005: 'JOB:19:5 | 5 | 5 | At vos contra me erigimini,{VS:BR} et arguitis me opprobriis meis.{VS:BR}'
@@ -518,11 +497,11 @@ chapters:
       v:026: 'JOB:19:26 | 26 | 26 | et rursum circumdabor pelle mea,{VS:BR} et in carne mea videbo Deum meum :{VS:BR}'
       v:027: 'JOB:19:27 | 27 | 27 | quem visurus sum ego ipse,{VS:BR} et oculi mei conspecturi sunt, et non alius :{VS:BR} reposita est hæc spes mea in sinu meo.{VS:BR}'
       v:028: 'JOB:19:28 | 28 | 28 | Quare ergo nunc dicitis : Persequamur eum,{VS:BR} et radicem verbi inveniamus contra eum ?{VS:BR}'
-      v:029: 'JOB:19:29 | 29 | 29 | Fugite ergo a facie gladii,{VS:BR} quoniam ultor iniquitatum gladius est :{VS:BR} et scitote esse judicium.{VERSE:END}'
+      v:029: 'JOB:19:29 | 29 | 29 | Fugite ergo a facie gladii,{VS:BR} quoniam ultor iniquitatum gladius est :{VS:BR} et scitote esse judicium.{VS:VERSE:END}'
   c:020:
     verses:
       v:001: 'JOB:20:1 | 1 | 1 | Respondens autem Sophar Naamathites, dixit :'
-      v:002: 'JOB:20:2 | 2 | 2 | {VERSE:BEGIN}Idcirco cogitationes meæ variæ succedunt sibi,{VS:BR} et mens in diversa rapitur.{VS:BR}'
+      v:002: 'JOB:20:2 | 2 | 2 | {VS:VERSE:BEGIN}Idcirco cogitationes meæ variæ succedunt sibi,{VS:BR} et mens in diversa rapitur.{VS:BR}'
       v:003: 'JOB:20:3 | 3 | 3 | Doctrinam qua me arguis audiam,{VS:BR} et spiritus intelligentiæ meæ respondebit mihi.{VS:BR}'
       v:004: 'JOB:20:4 | 4 | 4 | Hoc scio a principio,{VS:BR} ex quo positus est homo super terram,{VS:BR}'
       v:005: 'JOB:20:5 | 5 | 5 | quod laus impiorum brevis sit,{VS:BR} et gaudium hypocritæ ad instar puncti.{VS:BR}'
@@ -549,11 +528,11 @@ chapters:
       v:026: 'JOB:20:26 | 26 | 26 | Omnes tenebræ absconditæ sunt in occultis ejus ;{VS:BR} devorabit eum ignis qui non succenditur :{VS:BR} affligetur relictus in tabernaculo suo.{VS:BR}'
       v:027: 'JOB:20:27 | 27 | 27 | Revelabunt cæli iniquitatem ejus,{VS:BR} et terra consurget adversus eum.{VS:BR}'
       v:028: 'JOB:20:28 | 28 | 28 | Apertum erit germen domus illius :{VS:BR} detrahetur in die furoris Dei.{VS:BR}'
-      v:029: 'JOB:20:29 | 29 | 29 | Hæc est pars hominis impii a Deo,{VS:BR} et hæreditas verborum ejus a Domino.{VERSE:END}'
+      v:029: 'JOB:20:29 | 29 | 29 | Hæc est pars hominis impii a Deo,{VS:BR} et hæreditas verborum ejus a Domino.{VS:VERSE:END}'
   c:021:
     verses:
       v:001: 'JOB:21:1 | 1 | 1 | Respondens autem Job, dixit :'
-      v:002: 'JOB:21:2 | 2 | 2 | {VERSE:BEGIN}Audite, quæso, sermones meos,{VS:BR} et agite pœnitentiam.{VS:BR}'
+      v:002: 'JOB:21:2 | 2 | 2 | {VS:VERSE:BEGIN}Audite, quæso, sermones meos,{VS:BR} et agite pœnitentiam.{VS:BR}'
       v:003: 'JOB:21:3 | 3 | 3 | Sustinete me, et ego loquar :{VS:BR} et post mea, si videbitur, verba, ridete.{VS:BR}'
       v:004: 'JOB:21:4 | 4 | 4 | Numquid contra hominem disputatio mea est,{VS:BR} ut merito non debeam contristari ?{VS:BR}'
       v:005: 'JOB:21:5 | 5 | 5 | Attendite me et obstupescite,{VS:BR} et superponite digitum ori vestro.{VS:BR}'
@@ -585,11 +564,11 @@ chapters:
       v:031: 'JOB:21:31 | 31 | 31 | Quis arguet coram eo viam ejus ?{VS:BR} et quæ fecit, quis reddet illi ?{VS:BR}'
       v:032: 'JOB:21:32 | 32 | 32 | Ipse ad sepulchra ducetur,{VS:BR} et in congerie mortuorum vigilabit.{VS:BR}'
       v:033: 'JOB:21:33 | 33 | 33 | Dulcis fuit glareis Cocyti,{VS:BR} et post se omnem hominem trahet,{VS:BR} et ante se innumerabiles.{VS:BR}'
-      v:034: 'JOB:21:34 | 34 | 34 | Quomodo igitur consolamini me frustra,{VS:BR} cum responsio vestra repugnare ostensa sit veritati ?{VERSE:END}'
+      v:034: 'JOB:21:34 | 34 | 34 | Quomodo igitur consolamini me frustra,{VS:BR} cum responsio vestra repugnare ostensa sit veritati ?{VS:VERSE:END}'
   c:022:
     verses:
       v:001: 'JOB:22:1 | 1 | 1 | Respondens autem Eliphaz Themanites, dixit :'
-      v:002: 'JOB:22:2 | 2 | 2 | {VERSE:BEGIN}Numquid Deo potest comparari homo,{VS:BR} etiam cum perfectæ fuerit scientiæ ?{VS:BR}'
+      v:002: 'JOB:22:2 | 2 | 2 | {VS:VERSE:BEGIN}Numquid Deo potest comparari homo,{VS:BR} etiam cum perfectæ fuerit scientiæ ?{VS:BR}'
       v:003: 'JOB:22:3 | 3 | 3 | Quid prodest Deo, si justus fueris ?{VS:BR} aut quid ei confers, si immaculata fuerit via tua ?{VS:BR}'
       v:004: 'JOB:22:4 | 4 | 4 | Numquid timens arguet te,{VS:BR} et veniet tecum in judicium,{VS:BR}'
       v:005: 'JOB:22:5 | 5 | 5 | et non propter malitiam tuam plurimam,{VS:BR} et infinitas iniquitates tuas ?{VS:BR}'
@@ -617,11 +596,11 @@ chapters:
       v:027: 'JOB:22:27 | 27 | 27 | Rogabis eum, et exaudiet te,{VS:BR} et vota tua reddes.{VS:BR}'
       v:028: 'JOB:22:28 | 28 | 28 | Decernes rem, et veniet tibi,{VS:BR} et in viis tuis splendebit lumen.{VS:BR}'
       v:029: 'JOB:22:29 | 29 | 29 | Qui enim humiliatus fuerit, erit in gloria,{VS:BR} et qui inclinaverit oculos, ipse salvabitur.{VS:BR}'
-      v:030: 'JOB:22:30 | 30 | 30 | Salvabitur innocens :{VS:BR} salvabitur autem in munditia manuum suarum.{VERSE:END}'
+      v:030: 'JOB:22:30 | 30 | 30 | Salvabitur innocens :{VS:BR} salvabitur autem in munditia manuum suarum.{VS:VERSE:END}'
   c:023:
     verses:
       v:001: 'JOB:23:1 | 1 | 1 | Respondens autem Job, ait :'
-      v:002: 'JOB:23:2 | 2 | 2 | {VERSE:BEGIN}Nunc quoque in amaritudine est sermo meus,{VS:BR} et manus plagæ meæ aggravata est super gemitum meum.{VS:BR}'
+      v:002: 'JOB:23:2 | 2 | 2 | {VS:VERSE:BEGIN}Nunc quoque in amaritudine est sermo meus,{VS:BR} et manus plagæ meæ aggravata est super gemitum meum.{VS:BR}'
       v:003: 'JOB:23:3 | 3 | 3 | Quis mihi tribuat ut cognoscam et inveniam illum,{VS:BR} et veniam usque ad solium ejus ?{VS:BR}'
       v:004: 'JOB:23:4 | 4 | 4 | Ponam coram eo judicium,{VS:BR} et os meum replebo increpationibus :{VS:BR}'
       v:005: 'JOB:23:5 | 5 | 5 | ut sciam verba quæ mihi respondeat,{VS:BR} et intelligam quid loquatur mihi.{VS:BR}'
@@ -636,10 +615,10 @@ chapters:
       v:014: 'JOB:23:14 | 14 | 14 | Cum expleverit in me voluntatem suam,{VS:BR} et alia multa similia præsto sunt ei.{VS:BR}'
       v:015: 'JOB:23:15 | 15 | 15 | Et idcirco a facie ejus turbatus sum,{VS:BR} et considerans eum, timore sollicitor.{VS:BR}'
       v:016: 'JOB:23:16 | 16 | 16 | Deus mollivit cor meum,{VS:BR} et Omnipotens conturbavit me.{VS:BR}'
-      v:017: 'JOB:23:17 | 17 | 17 | Non enim perii propter imminentes tenebras,{VS:BR} nec faciem meam operuit caligo.{VERSE:END}'
+      v:017: 'JOB:23:17 | 17 | 17 | Non enim perii propter imminentes tenebras,{VS:BR} nec faciem meam operuit caligo.{VS:VERSE:END}'
   c:024:
     verses:
-      v:001: 'JOB:24:1 | 1 | 1 | {VERSE:BEGIN}Ab Omnipotente non sunt abscondita tempora :{VS:BR} qui autem noverunt eum,{VS:BR} ignorant dies illius.{VS:BR}'
+      v:001: 'JOB:24:1 | 1 | 1 | {VS:VERSE:BEGIN}Ab Omnipotente non sunt abscondita tempora :{VS:BR} qui autem noverunt eum,{VS:BR} ignorant dies illius.{VS:BR}'
       v:002: 'JOB:24:2 | 2 | 2 | Alii terminos transtulerunt ;{VS:BR} diripuerunt greges, et paverunt eos.{VS:BR}'
       v:003: 'JOB:24:3 | 3 | 3 | Asinum pupillorum abegerunt,{VS:BR} et abstulerunt pro pignore bovem viduæ.{VS:BR}'
       v:004: 'JOB:24:4 | 4 | 4 | Subverterunt pauperum viam,{VS:BR} et oppresserunt pariter mansuetos terræ.{VS:BR}'
@@ -663,19 +642,19 @@ chapters:
       v:022: 'JOB:24:22 | 22 | 22 | Detraxit fortes in fortitudine sua,{VS:BR} et cum steterit, non credet vitæ suæ.{VS:BR}'
       v:023: 'JOB:24:23 | 23 | 23 | Dedit ei Deus locum pœnitentiæ,{VS:BR} et ille abutitur eo in superbiam :{VS:BR} oculi autem ejus sunt in viis illius.{VS:BR}'
       v:024: 'JOB:24:24 | 24 | 24 | Elevati sunt ad modicum, et non subsistent :{VS:BR} et humiliabuntur sicut omnia, et auferentur,{VS:BR} et sicut summitates spicarum conterentur.{VS:BR}'
-      v:025: 'JOB:24:25 | 25 | 25 | Quod si non est ita, quis me potest arguere esse mentitum,{VS:BR} et ponere ante Deum verba mea ?{VERSE:END}'
+      v:025: 'JOB:24:25 | 25 | 25 | Quod si non est ita, quis me potest arguere esse mentitum,{VS:BR} et ponere ante Deum verba mea ?{VS:VERSE:END}'
   c:025:
     verses:
       v:001: 'JOB:25:1 | 1 | 1 | Respondens autem Baldad Suhites, dixit :'
-      v:002: 'JOB:25:2 | 2 | 2 | {VERSE:BEGIN}Potestas et terror apud eum est,{VS:BR} qui facit concordiam in sublimibus suis.{VS:BR}'
+      v:002: 'JOB:25:2 | 2 | 2 | {VS:VERSE:BEGIN}Potestas et terror apud eum est,{VS:BR} qui facit concordiam in sublimibus suis.{VS:BR}'
       v:003: 'JOB:25:3 | 3 | 3 | Numquid est numerus militum ejus ?{VS:BR} et super quem non surget lumen illius ?{VS:BR}'
       v:004: 'JOB:25:4 | 4 | 4 | Numquid justificari potest homo comparatus Deo ?{VS:BR} aut apparere mundus natus de muliere ?{VS:BR}'
       v:005: 'JOB:25:5 | 5 | 5 | Ecce luna etiam non splendet,{VS:BR} et stellæ non sunt mundæ in conspectu ejus :{VS:BR}'
-      v:006: 'JOB:25:6 | 6 | 6 | quanto magis homo putredo,{VS:BR} et filius hominis vermis ?{VERSE:END}'
+      v:006: 'JOB:25:6 | 6 | 6 | quanto magis homo putredo,{VS:BR} et filius hominis vermis ?{VS:VERSE:END}'
   c:026:
     verses:
       v:001: 'JOB:26:1 | 1 | 1 | Respondens autem Job dixit :'
-      v:002: 'JOB:26:2 | 2 | 2 | {VERSE:BEGIN}Cujus adjutor es ? numquid imbecillis ?{VS:BR} et sustentas brachium ejus qui non est fortis ?{VS:BR}'
+      v:002: 'JOB:26:2 | 2 | 2 | {VS:VERSE:BEGIN}Cujus adjutor es ? numquid imbecillis ?{VS:BR} et sustentas brachium ejus qui non est fortis ?{VS:BR}'
       v:003: 'JOB:26:3 | 3 | 3 | Cui dedisti consilium ?{VS:BR} forsitan illi qui non habet sapientiam :{VS:BR} et prudentiam tuam ostendisti plurimam.{VS:BR}'
       v:004: 'JOB:26:4 | 4 | 4 | Quem docere voluisti ?{VS:BR} nonne eum qui fecit spiramentum ?{VS:BR}'
       v:005: 'JOB:26:5 | 5 | 5 | Ecce gigantes gemunt sub aquis,{VS:BR} et qui habitant cum eis.{VS:BR}'
@@ -687,11 +666,11 @@ chapters:
       v:011: 'JOB:26:11 | 11 | 11 | Columnæ cæli contremiscunt,{VS:BR} et pavent ad nutum ejus.{VS:BR}'
       v:012: 'JOB:26:12 | 12 | 12 | In fortitudine illius repente maria congregata sunt,{VS:BR} et prudentia ejus percussit superbum.{VS:BR}'
       v:013: 'JOB:26:13 | 13 | 13 | Spiritus ejus ornavit cælos,{VS:BR} et obstetricante manu ejus, eductus est coluber tortuosus.{VS:BR}'
-      v:014: 'JOB:26:14 | 14 | 14 | Ecce hæc ex parte dicta sunt viarum ejus :{VS:BR} et cum vix parvam stillam sermonis ejus audierimus,{VS:BR} quis poterit tonitruum magnitudinis illius intueri ?{VERSE:END}'
+      v:014: 'JOB:26:14 | 14 | 14 | Ecce hæc ex parte dicta sunt viarum ejus :{VS:BR} et cum vix parvam stillam sermonis ejus audierimus,{VS:BR} quis poterit tonitruum magnitudinis illius intueri ?{VS:VERSE:END}'
   c:027:
     verses:
       v:001: 'JOB:27:1 | 1 | 1 | Addidit quoque Job, assumens parabolam suam, et dixit :'
-      v:002: 'JOB:27:2 | 2 | 2 | {VERSE:BEGIN}Vivit Deus, qui abstulit judicium meum,{VS:BR} et Omnipotens, qui ad amaritudinem adduxit animam meam.{VS:BR}'
+      v:002: 'JOB:27:2 | 2 | 2 | {VS:VERSE:BEGIN}Vivit Deus, qui abstulit judicium meum,{VS:BR} et Omnipotens, qui ad amaritudinem adduxit animam meam.{VS:BR}'
       v:003: 'JOB:27:3 | 3 | 3 | Quia donec superest halitus in me,{VS:BR} et spiritus Dei in naribus meis,{VS:BR}'
       v:004: 'JOB:27:4 | 4 | 4 | non loquentur labia mea iniquitatem,{VS:BR} nec lingua mea meditabitur mendacium.{VS:BR}'
       v:005: 'JOB:27:5 | 5 | 5 | Absit a me ut justos vos esse judicem :{VS:BR} donec deficiam, non recedam ab innocentia mea.{VS:BR}'
@@ -712,10 +691,10 @@ chapters:
       v:020: 'JOB:27:20 | 20 | 20 | Apprehendet eum quasi aqua inopia :{VS:BR} nocte opprimet eum tempestas.{VS:BR}'
       v:021: 'JOB:27:21 | 21 | 21 | Tollet eum ventus urens, et auferet,{VS:BR} et velut turbo rapiet eum de loco suo.{VS:BR}'
       v:022: 'JOB:27:22 | 22 | 22 | Et mittet super eum, et non parcet :{VS:BR} de manu ejus fugiens fugiet.{VS:BR}'
-      v:023: 'JOB:27:23 | 23 | 23 | Stringet super eum manus suas,{VS:BR} et sibilabit super illum, intuens locum ejus.{VERSE:END}'
+      v:023: 'JOB:27:23 | 23 | 23 | Stringet super eum manus suas,{VS:BR} et sibilabit super illum, intuens locum ejus.{VS:VERSE:END}'
   c:028:
     verses:
-      v:001: 'JOB:28:1 | 1 | 1 | {VERSE:BEGIN}Habet argentum venarum suarum principia,{VS:BR} et auro locus est in quo conflatur.{VS:BR}'
+      v:001: 'JOB:28:1 | 1 | 1 | {VS:VERSE:BEGIN}Habet argentum venarum suarum principia,{VS:BR} et auro locus est in quo conflatur.{VS:BR}'
       v:002: 'JOB:28:2 | 2 | 2 | Ferrum de terra tollitur,{VS:BR} et lapis solutus calore in æs vertitur.{VS:BR}'
       v:003: 'JOB:28:3 | 3 | 3 | Tempus posuit tenebris,{VS:BR} et universorum finem ipse considerat :{VS:BR} lapidem quoque caliginis et umbram mortis.{VS:BR}'
       v:004: 'JOB:28:4 | 4 | 4 | Dividit torrens a populo peregrinante{VS:BR} eos quos oblitus est pes egentis hominis, et invios.{VS:BR}'
@@ -742,11 +721,11 @@ chapters:
       v:025: 'JOB:28:25 | 25 | 25 | Qui fecit ventis pondus,{VS:BR} et aquas appendit in mensura.{VS:BR}'
       v:026: 'JOB:28:26 | 26 | 26 | Quando ponebat pluviis legem,{VS:BR} et viam procellis sonantibus :{VS:BR}'
       v:027: 'JOB:28:27 | 27 | 27 | tunc vidit illam et enarravit,{VS:BR} et præparavit, et investigavit.{VS:BR}'
-      v:028: 'JOB:28:28 | 28 | 28 | Et dixit homini : Ecce timor Domini, ipsa est sapientia ;{VS:BR} et recedere a malo, intelligentia.{VERSE:END}'
+      v:028: 'JOB:28:28 | 28 | 28 | Et dixit homini : Ecce timor Domini, ipsa est sapientia ;{VS:BR} et recedere a malo, intelligentia.{VS:VERSE:END}'
   c:029:
     verses:
       v:001: 'JOB:29:1 | 1 | 1 | Addidit quoque Job, assumens parabolam suam, et dixit :'
-      v:002: 'JOB:29:2 | 2 | 2 | {VERSE:BEGIN}Quis mihi tribuat ut sim juxta menses pristinos,{VS:BR} secundum dies quibus Deus custodiebat me ?{VS:BR}'
+      v:002: 'JOB:29:2 | 2 | 2 | {VS:VERSE:BEGIN}Quis mihi tribuat ut sim juxta menses pristinos,{VS:BR} secundum dies quibus Deus custodiebat me ?{VS:BR}'
       v:003: 'JOB:29:3 | 3 | 3 | Quando splendebat lucerna ejus super caput meum,{VS:BR} et ad lumen ejus ambulabam in tenebris :{VS:BR}'
       v:004: 'JOB:29:4 | 4 | 4 | sicut fui in diebus adolescentiæ meæ,{VS:BR} quando secreto Deus erat in tabernaculo meo :{VS:BR}'
       v:005: 'JOB:29:5 | 5 | 5 | quando erat Omnipotens mecum,{VS:BR} et in circuitu meo pueri mei :{VS:BR}'
@@ -769,10 +748,10 @@ chapters:
       v:022: 'JOB:29:22 | 22 | 22 | Verbis meis addere nihil audebant,{VS:BR} et super illos stillabat eloquium meum.{VS:BR}'
       v:023: 'JOB:29:23 | 23 | 23 | Expectabant me sicut pluviam,{VS:BR} et os suum aperiebant quasi ad imbrem serotinum.{VS:BR}'
       v:024: 'JOB:29:24 | 24 | 24 | Siquando ridebam ad eos, non credebant :{VS:BR} et lux vultus mei non cadebat in terram.{VS:BR}'
-      v:025: 'JOB:29:25 | 25 | 25 | Si voluissem ire ad eos, sedebam primus :{VS:BR} cumque sederem quasi rex, circumstante exercitu,{VS:BR} eram tamen mœrentium consolator.{VERSE:END}'
+      v:025: 'JOB:29:25 | 25 | 25 | Si voluissem ire ad eos, sedebam primus :{VS:BR} cumque sederem quasi rex, circumstante exercitu,{VS:BR} eram tamen mœrentium consolator.{VS:VERSE:END}'
   c:030:
     verses:
-      v:001: 'JOB:30:1 | 1 | 1 | {VERSE:BEGIN}Nunc autem derident me juniores tempore,{VS:BR} quorum non dignabar patres ponere cum canibus gregis mei :{VS:BR}'
+      v:001: 'JOB:30:1 | 1 | 1 | {VS:VERSE:BEGIN}Nunc autem derident me juniores tempore,{VS:BR} quorum non dignabar patres ponere cum canibus gregis mei :{VS:BR}'
       v:002: 'JOB:30:2 | 2 | 2 | quorum virtus manuum mihi erat pro nihilo,{VS:BR} et vita ipsa putabantur indigni :{VS:BR}'
       v:003: 'JOB:30:3 | 3 | 3 | egestate et fame steriles, qui rodebant in solitudine,{VS:BR} squallentes calamitate et miseria.{VS:BR}'
       v:004: 'JOB:30:4 | 4 | 4 | Et mandebant herbas, et arborum cortices,{VS:BR} et radix juniperorum erat cibus eorum :{VS:BR}'
@@ -802,10 +781,10 @@ chapters:
       v:028: 'JOB:30:28 | 28 | 28 | Mœrens incedebam sine furore ;{VS:BR} consurgens, in turba clamabam.{VS:BR}'
       v:029: 'JOB:30:29 | 29 | 29 | Frater fui draconum,{VS:BR} et socius struthionum.{VS:BR}'
       v:030: 'JOB:30:30 | 30 | 30 | Cutis mea denigrata est super me,{VS:BR} et ossa mea aruerunt præ caumate.{VS:BR}'
-      v:031: 'JOB:30:31 | 31 | 31 | Versa est in luctum cithara mea,{VS:BR} et organum meum in vocem flentium.{VERSE:END}'
+      v:031: 'JOB:30:31 | 31 | 31 | Versa est in luctum cithara mea,{VS:BR} et organum meum in vocem flentium.{VS:VERSE:END}'
   c:031:
     verses:
-      v:001: 'JOB:31:1 | 1 | 1 | {VERSE:BEGIN}Pepigi fœdus cum oculis meis,{VS:BR} ut ne cogitarem quidem de virgine.{VS:BR}'
+      v:001: 'JOB:31:1 | 1 | 1 | {VS:VERSE:BEGIN}Pepigi fœdus cum oculis meis,{VS:BR} ut ne cogitarem quidem de virgine.{VS:BR}'
       v:002: 'JOB:31:2 | 2 | 2 | Quam enim partem haberet in me Deus desuper,{VS:BR} et hæreditatem Omnipotens de excelsis ?{VS:BR}'
       v:003: 'JOB:31:3 | 3 | 3 | Numquid non perditio est iniquo,{VS:BR} et alienatio operantibus injustitiam ?{VS:BR}'
       v:004: 'JOB:31:4 | 4 | 4 | Nonne ipse considerat vias meas,{VS:BR} et cunctos gressus meos dinumerat ?{VS:BR}'
@@ -844,7 +823,7 @@ chapters:
       v:037: 'JOB:31:37 | 37 | 37 | Per singulos gradus meos pronuntiabo illum,{VS:BR} et quasi principi offeram eum.{VS:BR}'
       v:038: 'JOB:31:38 | 38 | 38 | Si adversum me terra mea clamat,{VS:BR} et cum ipsa sulci ejus deflent :{VS:BR}'
       v:039: 'JOB:31:39 | 39 | 39 | si fructus ejus comedi absque pecunia,{VS:BR} et animam agricolarum ejus afflixi :{VS:BR}'
-      v:040: 'JOB:31:40 | 40 | 40 | pro frumento oriatur mihi tribulus,{VS:BR} et pro hordeo spina.{VERSE:END} Finita sunt verba Job.'
+      v:040: 'JOB:31:40 | 40 | 40 | pro frumento oriatur mihi tribulus,{VS:BR} et pro hordeo spina.{VS:VERSE:END} Finita sunt verba Job.'
   c:032:
     verses:
       v:001: 'JOB:32:1 | 1 | 1 | Omiserunt autem tres viri isti respondere Job, eo quod justus sibi videretur.'
@@ -852,7 +831,7 @@ chapters:
       v:003: 'JOB:32:3 | 3 | 3 | Porro adversum amicos ejus indignatus est, eo quod non invenissent responsionem rationabilem, sed tantummodo condemnassent Job.'
       v:004: 'JOB:32:4 | 4 | 4 | Igitur Eliu expectavit Job loquentem, eo quod seniores essent qui loquebantur.'
       v:005: 'JOB:32:5 | 5 | 5 | Cum autem vidisset quod tres respondere non potuissent, iratus est vehementer.'
-      v:006: 'JOB:32:6 | 6 | 6 | Respondensque Eliu filius Barachel Buzites, dixit : {VERSE:BEGIN}Junior sum tempore, vos autem antiquiores :{VS:BR} idcirco, demisso capite,{VS:BR} veritus sum vobis indicare meam sententiam.{VS:BR}'
+      v:006: 'JOB:32:6 | 6 | 6 | Respondensque Eliu filius Barachel Buzites, dixit : {VS:VERSE:BEGIN}Junior sum tempore, vos autem antiquiores :{VS:BR} idcirco, demisso capite,{VS:BR} veritus sum vobis indicare meam sententiam.{VS:BR}'
       v:007: 'JOB:32:7 | 7 | 7 | Sperabam enim quod ætas prolixior loqueretur,{VS:BR} et annorum multitudo doceret sapientiam.{VS:BR}'
       v:008: 'JOB:32:8 | 8 | 8 | Sed, ut video, spiritus est in hominibus,{VS:BR} et inspiratio Omnipotentis dat intelligentiam.{VS:BR}'
       v:009: 'JOB:32:9 | 9 | 9 | Non sunt longævi sapientes,{VS:BR} nec senes intelligunt judicium.{VS:BR}'
@@ -868,10 +847,10 @@ chapters:
       v:019: 'JOB:32:19 | 19 | 19 | En venter meus quasi mustum absque spiraculo,{VS:BR} quod lagunculas novas disrumpit.{VS:BR}'
       v:020: 'JOB:32:20 | 20 | 20 | Loquar, et respirabo paululum :{VS:BR} aperiam labia mea, et respondebo.{VS:BR}'
       v:021: 'JOB:32:21 | 21 | 21 | Non accipiam personam viri,{VS:BR} et Deum homini non æquabo.{VS:BR}'
-      v:022: 'JOB:32:22 | 22 | 22 | Nescio enim quamdiu subsistam,{VS:BR} et si post modicum tollat me factor meus.{VERSE:END}'
+      v:022: 'JOB:32:22 | 22 | 22 | Nescio enim quamdiu subsistam,{VS:BR} et si post modicum tollat me factor meus.{VS:VERSE:END}'
   c:033:
     verses:
-      v:001: 'JOB:33:1 | 1 | 1 | {VERSE:BEGIN}Audi igitur, Job, eloquia mea,{VS:BR} et omnes sermones meos ausculta.{VS:BR}'
+      v:001: 'JOB:33:1 | 1 | 1 | {VS:VERSE:BEGIN}Audi igitur, Job, eloquia mea,{VS:BR} et omnes sermones meos ausculta.{VS:BR}'
       v:002: 'JOB:33:2 | 2 | 2 | Ecce aperui os meum :{VS:BR} loquatur lingua mea in faucibus meis.{VS:BR}'
       v:003: 'JOB:33:3 | 3 | 3 | Simplici corde meo sermones mei,{VS:BR} et sententiam puram labia mea loquentur.{VS:BR}'
       v:004: 'JOB:33:4 | 4 | 4 | Spiritus Dei fecit me,{VS:BR} et spiraculum Omnipotentis vivificavit me.{VS:BR}'
@@ -903,11 +882,11 @@ chapters:
       v:030: 'JOB:33:30 | 30 | 30 | ut revocet animas eorum a corruptione,{VS:BR} et illuminet luce viventium.{VS:BR}'
       v:031: 'JOB:33:31 | 31 | 31 | Attende, Job, et audi me :{VS:BR} et tace, dum ego loquor.{VS:BR}'
       v:032: 'JOB:33:32 | 32 | 32 | Si autem habes quod loquaris, responde mihi :{VS:BR} loquere, volo enim te apparere justum.{VS:BR}'
-      v:033: 'JOB:33:33 | 33 | 33 | Quod si non habes, audi me :{VS:BR} tace, et docebo te sapientiam.{VERSE:END}'
+      v:033: 'JOB:33:33 | 33 | 33 | Quod si non habes, audi me :{VS:BR} tace, et docebo te sapientiam.{VS:VERSE:END}'
   c:034:
     verses:
       v:001: 'JOB:34:1 | 1 | 1 | Pronuntians itaque Eliu, etiam hæc locutus est :'
-      v:002: 'JOB:34:2 | 2 | 2 | {VERSE:BEGIN}Audite, sapientes, verba mea :{VS:BR} et eruditi, auscultate me.{VS:BR}'
+      v:002: 'JOB:34:2 | 2 | 2 | {VS:VERSE:BEGIN}Audite, sapientes, verba mea :{VS:BR} et eruditi, auscultate me.{VS:BR}'
       v:003: 'JOB:34:3 | 3 | 3 | Auris enim verba probat,{VS:BR} et guttur escas gustu dijudicat.{VS:BR}'
       v:004: 'JOB:34:4 | 4 | 4 | Judicium eligamus nobis,{VS:BR} et inter nos videamus quid sit melius.{VS:BR}'
       v:005: 'JOB:34:5 | 5 | 5 | Quia dixit Job : Justus sum,{VS:BR} et Deus subvertit judicium meum.{VS:BR}'
@@ -942,11 +921,11 @@ chapters:
       v:034: 'JOB:34:34 | 34 | 34 | Viri intelligentes loquantur mihi,{VS:BR} et vir sapiens audiat me.{VS:BR}'
       v:035: 'JOB:34:35 | 35 | 35 | Job autem stulte locutus est,{VS:BR} et verba illius non sonant disciplinam.{VS:BR}'
       v:036: 'JOB:34:36 | 36 | 36 | Pater mi, probetur Job usque ad finem :{VS:BR} ne desinas ab homine iniquitatis :{VS:BR}'
-      v:037: 'JOB:34:37 | 37 | 37 | quia addit super peccata sua blasphemiam,{VS:BR} inter nos interim constringatur :{VS:BR} et tunc ad judicium provocet sermonibus suis Deum.{VERSE:END}'
+      v:037: 'JOB:34:37 | 37 | 37 | quia addit super peccata sua blasphemiam,{VS:BR} inter nos interim constringatur :{VS:BR} et tunc ad judicium provocet sermonibus suis Deum.{VS:VERSE:END}'
   c:035:
     verses:
       v:001: 'JOB:35:1 | 1 | 1 | Igitur Eliu hæc rursum locutus est :'
-      v:002: 'JOB:35:2 | 2 | 2 | {VERSE:BEGIN}Numquid æqua tibi videtur tua cogitatio,{VS:BR} ut diceres : Justior sum Deo ?{VS:BR}'
+      v:002: 'JOB:35:2 | 2 | 2 | {VS:VERSE:BEGIN}Numquid æqua tibi videtur tua cogitatio,{VS:BR} ut diceres : Justior sum Deo ?{VS:BR}'
       v:003: 'JOB:35:3 | 3 | 3 | Dixisti enim : Non tibi placet quod rectum est :{VS:BR} vel quid tibi proderit, si ego peccavero ?{VS:BR}'
       v:004: 'JOB:35:4 | 4 | 4 | Itaque ego respondebo sermonibus tuis,{VS:BR} et amicis tuis tecum.{VS:BR}'
       v:005: 'JOB:35:5 | 5 | 5 | Suspice cælum, et intuere :{VS:BR} et contemplare æthera quod altior te sit.{VS:BR}'
@@ -960,11 +939,11 @@ chapters:
       v:013: 'JOB:35:13 | 13 | 13 | Non ergo frustra audiet Deus,{VS:BR} et Omnipotens causas singulorum intuebitur.{VS:BR}'
       v:014: 'JOB:35:14 | 14 | 14 | Etiam cum dixeris : Non considerat :{VS:BR} judicare coram illo, et expecta eum.{VS:BR}'
       v:015: 'JOB:35:15 | 15 | 15 | Nunc enim non infert furorem suum,{VS:BR} nec ulciscitur scelus valde.{VS:BR}'
-      v:016: 'JOB:35:16 | 16 | 16 | Ergo Job frustra aperit os suum,{VS:BR} et absque scientia verba multiplicat.{VERSE:END}'
+      v:016: 'JOB:35:16 | 16 | 16 | Ergo Job frustra aperit os suum,{VS:BR} et absque scientia verba multiplicat.{VS:VERSE:END}'
   c:036:
     verses:
       v:001: 'JOB:36:1 | 1 | 1 | Addens quoque Eliu, hæc locutus est :'
-      v:002: 'JOB:36:2 | 2 | 2 | {VERSE:BEGIN}Sustine me paululum, et indicabo tibi :{VS:BR} adhuc enim habeo quod pro Deo loquar.{VS:BR}'
+      v:002: 'JOB:36:2 | 2 | 2 | {VS:VERSE:BEGIN}Sustine me paululum, et indicabo tibi :{VS:BR} adhuc enim habeo quod pro Deo loquar.{VS:BR}'
       v:003: 'JOB:36:3 | 3 | 3 | Repetam scientiam meam a principio,{VS:BR} et operatorem meum probabo justum.{VS:BR}'
       v:004: 'JOB:36:4 | 4 | 4 | Vere enim absque mendacio sermones mei,{VS:BR} et perfecta scientia probabitur tibi.{VS:BR}'
       v:005: 'JOB:36:5 | 5 | 5 | Deus potentes non abjicit,{VS:BR} cum et ipse sit potens :{VS:BR}'
@@ -995,10 +974,10 @@ chapters:
       v:030: 'JOB:36:30 | 30 | 30 | et fulgurare lumine suo desuper,{VS:BR} cardines quoque maris operiet.{VS:BR}'
       v:031: 'JOB:36:31 | 31 | 31 | Per hæc enim judicat populos,{VS:BR} et dat escas multis mortalibus.{VS:BR}'
       v:032: 'JOB:36:32 | 32 | 32 | In manibus abscondit lucem,{VS:BR} et præcepit ei ut rursus adveniat.{VS:BR}'
-      v:033: 'JOB:36:33 | 33 | 33 | Annuntiat de ea amico suo, quod possessio ejus sit,{VS:BR} et ad eam possit ascendere.{VERSE:END}'
+      v:033: 'JOB:36:33 | 33 | 33 | Annuntiat de ea amico suo, quod possessio ejus sit,{VS:BR} et ad eam possit ascendere.{VS:VERSE:END}'
   c:037:
     verses:
-      v:001: 'JOB:37:1 | 1 | 1 | {VERSE:BEGIN}Super hoc expavit cor meum,{VS:BR} et emotum est de loco suo.{VS:BR}'
+      v:001: 'JOB:37:1 | 1 | 1 | {VS:VERSE:BEGIN}Super hoc expavit cor meum,{VS:BR} et emotum est de loco suo.{VS:BR}'
       v:002: 'JOB:37:2 | 2 | 2 | Audite auditionem in terrore vocis ejus,{VS:BR} et sonum de ore illius procedentem.{VS:BR}'
       v:003: 'JOB:37:3 | 3 | 3 | Subter omnes cælos ipse considerat,{VS:BR} et lumen illius super terminos terræ.{VS:BR}'
       v:004: 'JOB:37:4 | 4 | 4 | Post eum rugiet sonitus ;{VS:BR} tonabit voce magnitudinis suæ :{VS:BR} et non investigabitur, cum audita fuerit vox ejus.{VS:BR}'
@@ -1021,11 +1000,11 @@ chapters:
       v:021: 'JOB:37:21 | 21 | 21 | At nunc non vident lucem :{VS:BR} subito aër cogetur in nubes,{VS:BR} et ventus transiens fugabit eas.{VS:BR}'
       v:022: 'JOB:37:22 | 22 | 22 | Ab aquilone aurum venit,{VS:BR} et ad Deum formidolosa laudatio.{VS:BR}'
       v:023: 'JOB:37:23 | 23 | 23 | Digne eum invenire non possumus :{VS:BR} magnus fortitudine, et judicio, et justitia :{VS:BR} et enarrari non potest.{VS:BR}'
-      v:024: 'JOB:37:24 | 24 | 24 | Ideo timebunt eum viri,{VS:BR} et non audebunt contemplari omnes qui sibi videntur esse sapientes.{VERSE:END}'
+      v:024: 'JOB:37:24 | 24 | 24 | Ideo timebunt eum viri,{VS:BR} et non audebunt contemplari omnes qui sibi videntur esse sapientes.{VS:VERSE:END}'
   c:038:
     verses:
       v:001: 'JOB:38:1 | 1 | 1 | Respondens autem Dominus Job de turbine, dixit :'
-      v:002: 'JOB:38:2 | 2 | 2 | {VERSE:BEGIN}Quis est iste involvens sententias{VS:BR} sermonibus imperitis ?{VS:BR}'
+      v:002: 'JOB:38:2 | 2 | 2 | {VS:VERSE:BEGIN}Quis est iste involvens sententias{VS:BR} sermonibus imperitis ?{VS:BR}'
       v:003: 'JOB:38:3 | 3 | 3 | Accinge sicut vir lumbos tuos :{VS:BR} interrogabo te, et responde mihi.{VS:BR}'
       v:004: 'JOB:38:4 | 4 | 4 | Ubi eras quando ponebam fundamenta terræ ?{VS:BR} indica mihi, si habes intelligentiam.{VS:BR}'
       v:005: 'JOB:38:5 | 5 | 5 | Quis posuit mensuras ejus, si nosti ?{VS:BR} vel quis tetendit super eam lineam ?{VS:BR}'
@@ -1064,10 +1043,10 @@ chapters:
       v:038: 'JOB:38:38 | 38 | 38 | Quando fundebatur pulvis in terra,{VS:BR} et glebæ compingebantur ?{VS:BR}'
       v:039: 'JOB:38:39 | 39 | 39 | Numquid capies leænæ prædam,{VS:BR} et animam catulorum ejus implebis,{VS:BR}'
       v:040: 'JOB:38:40 | 40 | 40 | quando cubant in antris,{VS:BR} et in specubus insidiantur ?{VS:BR}'
-      v:041: 'JOB:38:41 | 41 | 41 | Quis præparat corvo escam suam,{VS:BR} quando pulli ejus clamant ad Deum,{VS:BR} vagantes, eo quod non habeant cibos ?{VERSE:END}'
+      v:041: 'JOB:38:41 | 41 | 41 | Quis præparat corvo escam suam,{VS:BR} quando pulli ejus clamant ad Deum,{VS:BR} vagantes, eo quod non habeant cibos ?{VS:VERSE:END}'
   c:039:
     verses:
-      v:001: 'JOB:39:1 | 1 | 1 | {VERSE:BEGIN}Numquid nosti tempus partus ibicum in petris,{VS:BR} vel parturientes cervas observasti ?{VS:BR}'
+      v:001: 'JOB:39:1 | 1 | 1 | {VS:VERSE:BEGIN}Numquid nosti tempus partus ibicum in petris,{VS:BR} vel parturientes cervas observasti ?{VS:BR}'
       v:002: 'JOB:39:2 | 2 | 2 | Dinumerasti menses conceptus earum,{VS:BR} et scisti tempus partus earum ?{VS:BR}'
       v:003: 'JOB:39:3 | 3 | 3 | Incurvantur ad fœtum, et pariunt,{VS:BR} et rugitus emittunt.{VS:BR}'
       v:004: 'JOB:39:4 | 4 | 4 | Separantur filii earum, et pergunt ad pastum :{VS:BR} egrediuntur, et non revertuntur ad eas.{VS:BR}'
@@ -1096,16 +1075,16 @@ chapters:
       v:027: 'JOB:39:27 | 27 | 27 | Numquid ad præceptum tuum elevabitur aquila,{VS:BR} et in arduis ponet nidum suum ?{VS:BR}'
       v:028: 'JOB:39:28 | 28 | 28 | In petris manet,{VS:BR} et in præruptis silicibus commoratur,{VS:BR} atque inaccessis rupibus.{VS:BR}'
       v:029: 'JOB:39:29 | 29 | 29 | Inde contemplatur escam,{VS:BR} et de longe oculi ejus prospiciunt.{VS:BR}'
-      v:030: 'JOB:39:30 | 30 | 30 | Pulli ejus lambent sanguinem :{VS:BR} et ubicumque cadaver fuerit, statim adest.{VERSE:END}'
+      v:030: 'JOB:39:30 | 30 | 30 | Pulli ejus lambent sanguinem :{VS:BR} et ubicumque cadaver fuerit, statim adest.{VS:VERSE:END}'
       v:031: 'JOB:39:31 | 31 | 31 | Et adjecit Dominus, et locutus est ad Job :'
-      v:032: 'JOB:39:32 | 32 | 32 | {VERSE:BEGIN}Numquid qui contendit cum Deo, tam facile conquiescit ?{VS:BR} utique qui arguit Deum, debet respondere ei.{VERSE:END}'
+      v:032: 'JOB:39:32 | 32 | 32 | {VS:VERSE:BEGIN}Numquid qui contendit cum Deo, tam facile conquiescit ?{VS:BR} utique qui arguit Deum, debet respondere ei.{VS:VERSE:END}'
       v:033: 'JOB:39:33 | 33 | 33 | Respondens autem Job Domino, dixit :'
-      v:034: 'JOB:39:34 | 34 | 34 | {VERSE:BEGIN}Qui leviter locutus sum, respondere quid possum ?{VS:BR} manum meam ponam super os meum.{VS:BR}'
-      v:035: 'JOB:39:35 | 35 | 35 | Unum locutus sum, quod utinam non dixissem :{VS:BR} et alterum, quibus ultra non addam.{VERSE:END}'
+      v:034: 'JOB:39:34 | 34 | 34 | {VS:VERSE:BEGIN}Qui leviter locutus sum, respondere quid possum ?{VS:BR} manum meam ponam super os meum.{VS:BR}'
+      v:035: 'JOB:39:35 | 35 | 35 | Unum locutus sum, quod utinam non dixissem :{VS:BR} et alterum, quibus ultra non addam.{VS:VERSE:END}'
   c:040:
     verses:
       v:001: 'JOB:40:1 | 1 | 1 | Respondens autem Dominus Job de turbine, dixit :'
-      v:002: 'JOB:40:2 | 2 | 2 | {VERSE:BEGIN}Accinge sicut vir lumbos tuos :{VS:BR} interrogabo te, et indica mihi.{VS:BR}'
+      v:002: 'JOB:40:2 | 2 | 2 | {VS:VERSE:BEGIN}Accinge sicut vir lumbos tuos :{VS:BR} interrogabo te, et indica mihi.{VS:BR}'
       v:003: 'JOB:40:3 | 3 | 3 | Numquid irritum facies judicium meum,{VS:BR} et condemnabis me, ut tu justificeris ?{VS:BR}'
       v:004: 'JOB:40:4 | 4 | 4 | Et si habes brachium sicut Deus ?{VS:BR} et si voce simili tonas ?{VS:BR}'
       v:005: 'JOB:40:5 | 5 | 5 | Circumda tibi decorem, et in sublime erigere,{VS:BR} et esto gloriosus, et speciosis induere vestibus.{VS:BR}'
@@ -1131,10 +1110,10 @@ chapters:
       v:025: 'JOB:40:25 | 25 | 25 | Concident eum amici ?{VS:BR} divident illum negotiatores ?{VS:BR}'
       v:026: 'JOB:40:26 | 26 | 26 | Numquid implebis sagenas pelle ejus,{VS:BR} et gurgustium piscium capite illius ?{VS:BR}'
       v:027: 'JOB:40:27 | 27 | 27 | Pone super eum manum tuam :{VS:BR} memento belli, nec ultra addas loqui.{VS:BR}'
-      v:028: 'JOB:40:28 | 28 | 28 | Ecce spes ejus frustrabitur eum,{VS:BR} et videntibus cunctis præcipitabitur.{VERSE:END}'
+      v:028: 'JOB:40:28 | 28 | 28 | Ecce spes ejus frustrabitur eum,{VS:BR} et videntibus cunctis præcipitabitur.{VS:VERSE:END}'
   c:041:
     verses:
-      v:001: 'JOB:41:1 | 1 | 1 | {VERSE:BEGIN}Non quasi crudelis suscitabo eum :{VS:BR} quis enim resistere potest vultui meo ?{VS:BR}'
+      v:001: 'JOB:41:1 | 1 | 1 | {VS:VERSE:BEGIN}Non quasi crudelis suscitabo eum :{VS:BR} quis enim resistere potest vultui meo ?{VS:BR}'
       v:002: 'JOB:41:2 | 2 | 2 | Quis ante dedit mihi, ut reddam ei ?{VS:BR} omnia quæ sub cælo sunt, mea sunt.{VS:BR}'
       v:003: 'JOB:41:3 | 3 | 3 | Non parcam ei, et verbis potentibus,{VS:BR} et ad deprecandum compositis.{VS:BR}'
       v:004: 'JOB:41:4 | 4 | 4 | Quis revelabit faciem indumenti ejus ?{VS:BR} et in medium oris ejus quis intrabit ?{VS:BR}'
@@ -1158,15 +1137,15 @@ chapters:
       v:022: 'JOB:41:22 | 22 | 22 | Fervescere faciet quasi ollam profundum mare,{VS:BR} et ponet quasi cum unguenta bulliunt.{VS:BR}'
       v:023: 'JOB:41:23 | 23 | 23 | Post eum lucebit semita :{VS:BR} æstimabit abyssum quasi senescentem.{VS:BR}'
       v:024: 'JOB:41:24 | 24 | 24 | Non est super terram potestas quæ comparetur ei,{VS:BR} qui factus est ut nullum timeret.{VS:BR}'
-      v:025: 'JOB:41:25 | 25 | 25 | Omne sublime videt :{VS:BR} ipse est rex super universos filios superbiæ.{VERSE:END}'
+      v:025: 'JOB:41:25 | 25 | 25 | Omne sublime videt :{VS:BR} ipse est rex super universos filios superbiæ.{VS:VERSE:END}'
   c:042:
     verses:
       v:001: 'JOB:42:1 | 1 | 1 | Respondens autem Job Domino, dixit :'
-      v:002: 'JOB:42:2 | 2 | 2 | {VERSE:BEGIN}Scio quia omnia potes,{VS:BR} et nulla te latet cogitatio.{VS:BR}'
+      v:002: 'JOB:42:2 | 2 | 2 | {VS:VERSE:BEGIN}Scio quia omnia potes,{VS:BR} et nulla te latet cogitatio.{VS:BR}'
       v:003: 'JOB:42:3 | 3 | 3 | Quis est iste qui celat consilium absque scientia ?{VS:BR} ideo insipienter locutus sum,{VS:BR} et quæ ultra modum excederent scientiam meam.{VS:BR}'
       v:004: 'JOB:42:4 | 4 | 4 | Audi, et ego loquar :{VS:BR} interrogabo te, et responde mihi.{VS:BR}'
       v:005: 'JOB:42:5 | 5 | 5 | Auditu auris audivi te :{VS:BR} nunc autem oculus meus videt te.{VS:BR}'
-      v:006: 'JOB:42:6 | 6 | 6 | Idcirco ipse me reprehendo,{VS:BR} et ago pœnitentiam in favilla et cinere.{VERSE:END}{VS:P}'
+      v:006: 'JOB:42:6 | 6 | 6 | Idcirco ipse me reprehendo,{VS:BR} et ago pœnitentiam in favilla et cinere.{VS:VERSE:END}{VS:P}'
       v:007: 'JOB:42:7 | 7 | 7 | Postquam autem locutus est Dominus verba hæc ad Job, dixit ad Eliphaz Themanitem : Iratus est furor meus in te, et in duos amicos tuos, quoniam non estis locuti coram me rectum, sicut servus meus Job.'
       v:008: 'JOB:42:8 | 8 | 8 | Sumite ergo vobis septem tauros et septem arietes, et ite ad servum meum Job, et offerte holocaustum pro vobis : Job autem servus meus orabit pro vobis. Faciem ejus suscipiam, ut non vobis imputetur stultitia : neque enim locuti estis ad me recta, sicut servus meus Job.'
       v:009: 'JOB:42:9 | 9 | 9 | Abierunt ergo Eliphaz Themanites, et Baldad Suhites, et Sophar Naamathites, et fecerunt sicut locutus fuerat Dominus ad eos : et suscepit Dominus faciem Job.'

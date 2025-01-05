@@ -1,31 +1,10 @@
-From the Golden Douay Rheims Project
-https://github.com/tomazon/douay-rheims
-
-
-This is simply a reformating of a file from Clementine Text Project (aka 'vulsearch')
-  https://bitbucket.org/clementinetextproject
-  https://bitbucket.org/clementinetextproject/text/src/master/Jo.lat
-
-This was not done to improve it.
-
-Michaele Tvveedale's original format is quite eligant:
-  * easy to ready by eye.  even for non-technical people
-  * easy to hand edit
-  * capable of being formatted:
-    * https://www.wilbourhall.org/pdfs/vulgate.pdf
-    * https://archive.org/details/michaele-tvveedale-biblia-sacra-juxta-vulgatam-clementinam
-  * capable of being used by the Vulsearch search engine.
-
-This reformatting was done to make it compatable with the routines used to read our other files.
-
-
 ---
 book_id: JHN
 book_title: Joannes
 chapters:
   c:001:
     verses:
-      v:001: 'JHN:1:1 | 1 | 1 | {VERSE:BEGIN}In principio erat Verbum,{VS:BR} et Verbum erat apud Deum,{VS:BR} et Deus erat Verbum.{VS:BR}'
+      v:001: 'JHN:1:1 | 1 | 1 | {VS:VERSE:BEGIN}In principio erat Verbum,{VS:BR} et Verbum erat apud Deum,{VS:BR} et Deus erat Verbum.{VS:BR}'
       v:002: 'JHN:1:2 | 2 | 2 | Hoc erat in principio apud Deum.{VS:BR}'
       v:003: 'JHN:1:3 | 3 | 3 | Omnia per ipsum facta sunt :{VS:BR} et sine ipso factum est nihil, quod factum est.{VS:BR}'
       v:004: 'JHN:1:4 | 4 | 4 | In ipso vita erat,{VS:BR} et vita erat lux hominum :{VS:BR}'
@@ -42,7 +21,7 @@ chapters:
       v:015: 'JHN:1:15 | 15 | 15 | Joannes testimonium perhibet de ipso,{VS:BR} et clamat dicens :{VS:BR} Hic erat quem dixi :{VS:BR} Qui post me venturus est,{VS:BR} ante me factus est :{VS:BR} quia prior me erat.{VS:BR}'
       v:016: 'JHN:1:16 | 16 | 16 | Et de plenitudine ejus{VS:BR} nos omnes accepimus, et gratiam pro gratia :{VS:BR}'
       v:017: 'JHN:1:17 | 17 | 17 | quia lex per Moysen data est,{VS:BR} gratia et veritas per Jesum Christum facta est.{VS:BR}'
-      v:018: 'JHN:1:18 | 18 | 18 | Deum nemo vidit umquam :{VS:BR} unigenitus Filius, qui est in sinu Patris,{VS:BR} ipse enarravit.{VERSE:END}{VS:P}'
+      v:018: 'JHN:1:18 | 18 | 18 | Deum nemo vidit umquam :{VS:BR} unigenitus Filius, qui est in sinu Patris,{VS:BR} ipse enarravit.{VS:VERSE:END}{VS:P}'
       v:019: 'JHN:1:19 | 19 | 19 | Et hoc est testimonium Joannis, quando miserunt Judæi ab Jerosolymis sacerdotes et Levitas ad eum ut interrogarent eum : Tu quis es ?'
       v:020: 'JHN:1:20 | 20 | 20 | Et confessus est, et non negavit, et confessus est : Quia non sum ego Christus.'
       v:021: 'JHN:1:21 | 21 | 21 | Et interrogaverunt eum : Quid ergo ? Elias es tu ? Et dixit : Non sum. Propheta es tu ? Et respondit : Non.'
@@ -620,9 +599,9 @@ chapters:
       v:035: 'JHN:12:35 | 35 | 35 | Dixit ergo eis Jesus : Adhuc modicum, lumen in vobis est. Ambulate dum lucem habetis, ut non vos tenebræ comprehendant ; et qui ambulat in tenebris, nescit quo vadat.'
       v:036: 'JHN:12:36 | 36 | 36 | Dum lucem habetis, credite in lucem, ut filii lucis sitis. Hæc locutus est Jesus, et abiit et abscondit se ab eis.{VS:P}'
       v:037: 'JHN:12:37 | 37 | 37 | Cum autem tanta signa fecisset coram eis, non credebant in eum ;'
-      v:038: 'JHN:12:38 | 38 | 38 | ut sermo Isaiæ prophetæ impleretur, quem dixit : {VERSE:BEGIN}Domine, quis credidit auditui nostro ?{VS:BR} et brachium Domini cui revelatum est ?{VERSE:END}'
+      v:038: 'JHN:12:38 | 38 | 38 | ut sermo Isaiæ prophetæ impleretur, quem dixit : {VS:VERSE:BEGIN}Domine, quis credidit auditui nostro ?{VS:BR} et brachium Domini cui revelatum est ?{VS:VERSE:END}'
       v:039: 'JHN:12:39 | 39 | 39 | Propterea non poterant credere, quia iterum dixit Isaias :'
-      v:040: 'JHN:12:40 | 40 | 40 | {VERSE:BEGIN}Excæcavit oculos eorum, et induravit cor eorum{VS:BR} ut non videant oculis, et non intelligant corde,{VS:BR} et convertantur, et sanem eos.{VERSE:END}'
+      v:040: 'JHN:12:40 | 40 | 40 | {VS:VERSE:BEGIN}Excæcavit oculos eorum, et induravit cor eorum{VS:BR} ut non videant oculis, et non intelligant corde,{VS:BR} et convertantur, et sanem eos.{VS:VERSE:END}'
       v:041: 'JHN:12:41 | 41 | 41 | Hæc dixit Isaias, quando vidit gloriam ejus, et locutus est de eo.{VS:P}'
       v:042: 'JHN:12:42 | 42 | 42 | Verumtamen et ex principibus multi crediderunt in eum : sed propter pharisæos non confitebantur, ut e synagoga non ejicerentur.'
       v:043: JHN:12:43 | 43 | 43 | Dilexerunt enim gloriam hominum magis quam gloriam Dei.
