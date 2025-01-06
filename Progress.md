@@ -52,6 +52,7 @@
 ### Historical books
 
 | Book ID | Import<br>PG1581 | Audit <br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Import<br>DRBO<br>Footnotes |
+| :---:   | :---:  | :---: | :---: | :---: |
 | JOS | DONE | DONE |      | DONE |
 | JDG | DONE | DONE |      | DONE |
 | RUT | DONE | DONE |      | DONE |
@@ -70,6 +71,7 @@
 ### Wisdom
 
 | Book ID | Import<br>PG1581 | Audit <br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Import<br>DRBO<br>Footnotes |
+| :---:   | :---:  | :---: | :---: | :---: |
 | JOB | DONE | DONE |      | DONE |
 | PSA | DONE | DONE |      | DONE |
 | PRO | DONE | DONE |      | DONE |
@@ -81,6 +83,7 @@
 ### Prophets
 
 | Book ID | Import<br>PG1581 | Audit <br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Import<br>DRBO<br>Footnotes |
+| :---:   | :---:  | :---: | :---: | :---: |
 | ISA | DONE | DONE |      | DONE |
 | JER | DONE | DONE |      | DONE |
 | LAM | DONE | DONE |      | DONE |
