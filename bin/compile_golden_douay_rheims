@@ -63,63 +63,64 @@ sub book_yaml_file {
 }
 
 sub build_chapters {
-    my ($book, $dir_a, $dir_b, $book_id) = @_;
-    my $file_a = "$dir_a/$book_id.yaml";
-    my $file_b = "$dir_b/$book_id.yaml";
+    my ($book, $drbo_dir, $pg1581_dir, $book_id) = @_;
+    my $drbo_file =   "$drbo_dir/$book_id.yaml";
+    my $pg1581_file = "$pg1581_dir/$book_id.yaml";
     my $vscodes_count_file = "$source_dirs{vscodes_count}/$book_id.yaml";
 
     say "Processing: $book_id";
 
-    die "No such directory: $dir_a" unless -d $dir_a;
-    die "No such directory: $dir_b" unless -d $dir_b;
-    die "No_such_file: $file_a\n" unless -f $file_a;
-    die "No_such_file: $file_b\n" unless -f $file_b;
+    die "No such directory: $drbo_dir" unless -d $drbo_dir;
+    die "No such directory: $pg1581_dir" unless -d $pg1581_dir;
+    die "No_such_file: $drbo_file\n" unless -f $drbo_file;
+    die "No_such_file: $pg1581_file\n" unless -f $pg1581_file;
 
-    my $data_a = YAML::LoadFile($file_a);
-    my $data_b = YAML::LoadFile($file_b);
+    my $drbo_data     = YAML::LoadFile($drbo_file);
+    my $pg1581_data   = YAML::LoadFile($pg1581_file);
     my $vscodes_count = YAML::LoadFile($vscodes_count_file);
 
-    for my $c_index (combined_keys($data_a->{chapters}, $data_b->{chapters})) {
+    for my $c_index (combined_keys($drbo_data->{chapters}, $pg1581_data->{chapters})) {
         my $c_tag = num_to_tag('c', $book_id, $c_index);
 
-        my $chap_a = $data_a->{chapters}->{$c_index};
-        my $chap_b = $data_b->{chapters}->{$c_index};
+        my $drbo_chap   = $drbo_data->{chapters}->{$c_index};
+        my $pg1581_chap = $pg1581_data->{chapters}->{$c_index};
 
         $book->{chapters}->{$c_index} = { 'verses' => {} };
         my $chap_out = $book->{chapters}->{$c_index};
 
-        $chap_out->{intro} = $chap_b->{intro};
+        $chap_out->{intro} = $pg1581_chap->{intro};
 
-        for my $v_index (combined_keys($chap_a->{verses}, $chap_b->{verses})) {
+        for my $v_index (combined_keys($drbo_chap->{verses}, $pg1581_chap->{verses})) {
             my $v_num = tag_to_num($v_index);
             my $v_tag = num_to_tag('v', $c_tag, $v_num);
-            my $vers_a = $chap_a->{verses}->{$v_index};
-            my $vers_b = $chap_b->{verses}->{$v_index};
+            my $drbo_vers   = $drbo_chap->{verses}->{$v_index};
+            my $pg1581_vers = $pg1581_chap->{verses}->{$v_index};
 
-            if (!defined($vers_a) || $vers_a eq '') {
-                warn "Only in $file_b: $v_tag\n";
+            if (!defined($drbo_vers) || $drbo_vers eq '') {
+                warn "Only in $pg1581_file: $v_tag\n";
                 next;
             }
-            if (!defined($vers_b) || $vers_b eq '') {
-                warn "Only in $file_a: $v_tag\n";
+            if (!defined($pg1581_vers) || $pg1581_vers eq '') {
+                warn "Only in $drbo_file: $v_tag\n";
                 next;
             }
 
-            my ($tag_a, $v_a, $dis_a, $text_a) = split(/\s*\|\s*/, $vers_a);
-            my ($tag_b, $v_b, $dis_b, $text_b) = split(/\s*\|\s*/, $vers_b);
+            my ($pg1581_tag, $pg1581_v, $pg1581_dis, $pg1581_text) = split(/\s*\|\s*/, $pg1581_vers);
+            my ($drbo_tag,   $drbo_v,   $drbo_dis,   $drbo_text)   = split(/\s*\|\s*/, $drbo_vers);
 
-            die "Error: tag_a & v_tag don't match: '$tag_a' != '$v_tag'\n" if $tag_a ne $v_tag;
-            die "Error: tag_b & v_tag don't match: '$tag_b' != '$v_tag'\n" if $tag_b ne $v_tag;
-            die "Error: v_a & v_num don't match: '$v_a' != '$v_num'\n" if $v_a ne $v_num;
-            die "Error: v_b & v_num don't match: '$v_b' != '$v_num'\n" if $v_b ne $v_num;
+            die "Error: drbo_tag & v_tag don't match: '$drbo_tag' != '$v_tag'\n" if $drbo_tag   ne $v_tag;
+            die "Error: pg1581_tag & v_tag don't match: '$pg1581_tag' != '$v_tag'\n" if $pg1581_tag ne $v_tag;
+            die "Error: drbo_v & v_num don't match: '$drbo_v' != '$v_num'\n" if $drbo_v ne $v_num;
+            die "Error: pg1581_v & v_num don't match: '$pg1581_v' != '$v_num'\n" if $pg1581_v ne $v_num;
 
-            my $display_v = choose_display_v($v_tag, $v_num, $dis_a, $dis_b);
-            my $text = choose_verse_text($v_tag, $text_a, $text_b);
+            my $display_v = choose_display_v($v_tag, $v_num, $drbo_dis, $pg1581_dis);
+            my $text = choose_verse_text($v_tag, $drbo_text, $pg1581_text);
 
             $text = apply_vscodes($text, $vscodes_count, $c_index, $v_index);
 
             my $entry = join(' | ', $v_tag, $v_num, $display_v, $text);
             $chap_out->{verses}->{$v_index} = $entry;
+
         }
     }
 }
@@ -142,17 +143,17 @@ sub apply_vscodes {
 }
 
 sub choose_display_v {
-    my ($v_tag, $v_num, $dis_a, $dis_b) = @_;
+    my ($v_tag, $v_num, $drbo_dis, $pg1581_dis) = @_;
     #TODO: use some logic
 
-    $dis_b;
+    $pg1581_dis;
 }
 
 sub choose_verse_text {
-    my ($v_tag, $text_a, $text_b) = @_;
+    my ($v_tag, $drbo_text, $pg1581_text) = @_;
     #TODO: use some logic
 
-    $text_b;
+    $pg1581_text;
 }
 
 sub copy_vulsearsh_files {
