@@ -1,6 +1,6 @@
 
 
-## Foo Bar
+## Foo
 
 ### Gospels
 
