@@ -5,11 +5,11 @@
 ### Gospels
 
 | Book ID | Import<br>PG1581 | Audit <vr>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Footnotes | Red<br>Letter |
-| :---:   | :---:  | :---: | :---:     | :---:      |
-|  MAT    | DONE   | in_progress | DONE | in progress |
-|  MRK    | DONE   |       |     | DONE |           |
-|  LUK    | DONE   |       |     |      |           |
-|  JHN    | DONE   |       |     |      |           |
+| :---:   | :---:  | :---: | :---:     | :---:      | :---: |
+|  MAT    | DONE   | in_progress | DONE | | in progress |
+|  MRK    | DONE   |       |     | DONE | |          |
+|  LUK    | DONE   |       |     |      | |          |
+|  JHN    | DONE   |       |     |      | |          |
 
 ### Torah
 
