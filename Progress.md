@@ -7,9 +7,9 @@
 | Book ID | Import<br>PG1581 | Audit <br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Import<br>DRBO<br>Footnotes | Red<br>Letter |
 | :---:   | :---:  | :---: | :---:     | :---:      | :---: |
 |  MAT    | DONE   | DONE  | in_progress | DONE | in progress |
-|  MRK    | DONE   | DONE  |     | DONE | |          |
-|  LUK    | DONE   | DONE  |     | DONE | |          |
-|  JHN    | DONE   | DONE  |     | DONE | |          |
+|  MRK    | DONE   | DONE  |             | DONE | in_progress |
+|  LUK    | DONE   | DONE  |             | DONE |             |
+|  JHN    | DONE   | DONE  |             | DONE |             |
 
 ### Acts, Letters, & Revelations
 
