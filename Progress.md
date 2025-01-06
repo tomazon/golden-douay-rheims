@@ -2,7 +2,7 @@
 
 ## Foo Bar
 
-| Book ID | Import | Clean | Footnotes | Red Letter |
+| Book ID | Import | Clean | Footnotes | Red<br>Letter |
 | :---:   | :---:  | :---: | :---:     | :---:      |
 |  MAT    | DONE   | in_progress | DONE | in progress |
 |  MRK    | DONE   |       |     | DONE |           |
