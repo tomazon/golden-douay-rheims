@@ -14,7 +14,7 @@
 ### Acts, Letters, & Revelations
 
 | Book ID | Import<br>PG1581 | Audit <br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Import<br>DRBO<br>Footnotes |
-| :---:   | :---:  | :---: | :---:     |
+| :---:   | :---:  | :---: | :---: | :---: |
 | ACT | DONE | DONE |      | DONE |
 | ROM | DONE | DONE |      | DONE |
 | 1CO | DONE | DONE |      | DONE |
