@@ -2,6 +2,7 @@
 book_id: 1PE
 chapters:
   c:001:
+    footnotes: {}
     intro: 'He gives thanks to God for the benefit of our being called to the true faith and to eternal life, into which we are to enter by many tribulations. He exhorts to holiness of life, considering the holiness of God and our redemption by the blood of Christ.'
     verses:
       v:001: '1PE:1:1 | 1 | 1 | Peter, an apostle of Jesus Christ, to the strangers dispersed through Pontus, Galatia, Cappadocia, Asia and Bithynia, elect,'
@@ -30,6 +31,7 @@ chapters:
       v:024: 1PE:1:24 | 24 | 24 | For all flesh is as grass and all the glory thereof as the flower of grass. The grass is withered and the flower thereof is fallen away.
       v:025: 1PE:1:25 | 25 | 25 | But the word of the Lord endureth for ever. And this is the word which by the gospel hath been preached unto you.
   c:002:
+    footnotes: {}
     intro: 'We are to lay aside all guile and go to Christ the living stone, and, as being now his people, walk worthily of him, with submission to superiors and patience under sufferings.'
     verses:
       v:001: '1PE:2:1 | 1 | 1 | Wherefore laying away all malice and all guile and dissimulations and envies and all detractions,'
@@ -58,6 +60,15 @@ chapters:
       v:024: '1PE:2:24 | 24 | 24 | Who his own self bore our sins in his body upon the tree: that we, being dead to sins, should live to justice: by whose stripes you were healed.'
       v:025: '1PE:2:25 | 25 | 25 | For you were as sheep going astray: but you are now converted to the shepherd and bishop of your souls.'
   c:003:
+    footnotes:
+      v:019:
+        - note: 'See here a proof of a third place, or middle state of souls: for these spirits in prison, to whom Christ went to preach, after his death, were not in heaven; nor yet in the hell of the damned: because heaven is no prison: and Christ did not go to preach to the damned.</p>'
+          quote: Spirits that were in prison
+      v:021:
+        - note: 'Baptism is said to be of the like form with the water by which Noe was saved, because the one was a figure of the other.</p>'
+          quote: Whereunto baptism
+        - note: "As much as to say, that baptism has not its efficacy, in order to salvation, from its washing away any bodily filth or dirt; but from its purging the conscience from sin, when accompanied with suitable dispositions in the party, to answer the interrogations made at that time, with relation to faith, the renouncing of Satan with all his works; and the obedience to God's commandments.</p>"
+          quote: Not the putting away
     intro: How wives are to behave to their husbands. What ornaments they are to seek. Exhortations to divers Virtues.
     verses:
       v:001: '1PE:3:1 | 1 | 1 | In like manner also, let wives be subject to their husbands: that, if any believe not the word, they may be won without the word, by the conversation of the wives,'
@@ -83,6 +94,10 @@ chapters:
       v:021: '1PE:3:21 | 21 | 21 | Whereunto baptism, being of the like form, now saveth you also: not the putting away of the filth of the flesh, but, the examination of a good conscience towards God by the resurrection of Jesus Christ.'
       v:022: '1PE:3:22 | 22 | 22 | Who is on the right hand of God, swallowing down death that we might be made heirs of life everlasting: being gone into heaven, the angels and powers and virtues being made subject to him.'
   c:004:
+    footnotes:
+      v:018:
+        - note: 'That is, not without much labour and difficulty; and because of the dangers which constantly surround, the temptations of the world, of the devil, and of our own corrupt nature.</p>'
+          quote: Scarcely
     intro: 'Exhortations to cease from sin, to mutual charity, to do all for the glory of God, to be willing to suffer for Christ.'
     verses:
       v:001: '1PE:4:1 | 1 | 1 | Christ therefore having suffered in the flesh, be you also armed with the same thought: for he that hath suffered in the flesh hath ceased from sins:'
@@ -105,6 +120,7 @@ chapters:
       v:018: '1PE:4:18 | 18 | 18 | And if the just man shall scarcely be saved, where shall the ungodly and the sinner appear?'
       v:019: 1PE:4:19 | 19 | 19 | Wherefore let them also that suffer according to the will of God commend their souls in good deeds to the faithful Creator.
   c:005:
+    footnotes: {}
     intro: He exhorts both priests and laity to their respective duties and recommends to all humility and watchfulness.
     verses:
       v:001: '1PE:5:1 | 1 | 1 | The ancients therefore that are among you, I beseech who am myself also an ancient and a witness of the sufferings of Christ, as also a partaker of that glory which is to be revealed in time to come:'

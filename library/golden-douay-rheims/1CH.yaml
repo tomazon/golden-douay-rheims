@@ -2,6 +2,10 @@
 book_id: 1CH
 chapters:
   c:001:
+    footnotes:
+      v:032:
+        - note: 'She was his lawful wife, but of an inferior degree.</p>'
+          quote: Concubine
     intro: 'The genealogy of the patriarchs down to Abraham: The posterity of Abraham and of Esau.'
     verses:
       v:001: '1CH:1:1 | 1 | 1 | Adam, Seth, Enos,'
@@ -59,6 +63,21 @@ chapters:
       v:053: '1CH:1:53 | 53 | 53 | Duke Cenez, duke Theman, duke Mabsar,'
       v:054: '1CH:1:54 | 54 | 54 | Duke Magdiel, duke Hiram. These are the dukes of Edom.'
   c:002:
+    footnotes:
+      v:007:
+        - note: 'Alias Achan. Jos. 7.-- Ibid.</p>'
+          quote: Achar
+        - note: 'The thing devoted or accursed, viz., the spoils of Jericho.</p>'
+          quote: The anathema
+      v:010:
+        - note: 'He is commonly called Aram. But it is to be observed here, once for all, that it was a common thing among the Hebrews for the same persons to have different names: and that it is not impossible among so many proper names, as here occur in the first nine chapters of this book, that the transcribers of the ancient Hebrew copies may have made some slips in the orthography.</p>'
+          quote: Ram
+      v:018:
+        - note: 'Alias Calubi, ver. 9.</p>'
+          quote: Caleb
+      v:052:
+        - note: 'The Latin interpreter seems to have given us here, instead of the proper names, the meaning of those names in the Hebrew. He has done in like manner, ver. 55.</p>'
+          quote: He that saw
     intro: The twelve tribes of Israel. The genealogy of Juda down to David. Other genealogies of the tribe of Juda.
     verses:
       v:001: '1CH:2:1 | 1 | 1 | And these are the sons of Israel: Ruben, Simeon, Levi, Juda, Issachar, and Zabulon,'
@@ -117,6 +136,13 @@ chapters:
       v:054: '1CH:2:54 | 54 | 54 | The sons of Salma, Bethlehem, and Netophathi, the crowns of the house of Joab, and half of the place of rest of Sarai.'
       v:055: '1CH:2:55 | 55 | 55 | And the families of the scribes that dwell in Jabes, singing and making melody, and abiding in tents. These are the Cinites, who came of Calor (Chamath) father of the house of Rechab.'
   c:003:
+    footnotes:
+      v:009:
+        - note: 'The inferior wives.</p>'
+          quote: The concubines
+      v:022:
+        - note: 'Counting the father in the number.</p>'
+          quote: Six
     intro: The genealogy of the house of David.
     verses:
       v:001: '1CH:3:1 | 1 | 1 | Now these were the sons of David that were born to him in Hebron: the firstborn Amnon of Achinoam the Jezrahelitess, the second Daniel of Abigail the Carmelitess.'
@@ -144,6 +170,16 @@ chapters:
       v:023: '1CH:3:23 | 23 | 23 | The sons of Naaria, Elioenai, and Ezechias, and Ezricam, three.'
       v:024: '1CH:3:24 | 24 | 24 | The sons of Elioenai, Oduia, and Eliasub, and Pheleia, and Accub, and Johanan, and Dalaia, and Anani, seven.'
   c:004:
+    footnotes:
+      v:009:
+        - note: 'That is, sorrowful.</p>'
+          quote: Jabes
+      v:022:
+        - note: 'Viz., Joazim, the meaning of whose name in Hebrew is, he that made the sun to stand. In like manner the following names, Lying (Chozeba), Secure (Joas), and Burning (Saraph), are substituted in place of the Hebrew names of the same signification.</p>'
+          quote: He that made
+      v:023:
+        - note: 'These are the proper names of the places where they dwelt. In Hebrew Atharim and Gadira.</p>'
+          quote: Plantations and Hedges
     intro: 'Other genealogies of Juda and Simeon, and their victories.'
     verses:
       v:001: '1CH:4:1 | 1 | 1 | The sons of Juda: Phares, Hesron, and Charmi and Hur, and Sobal.'
@@ -190,6 +226,10 @@ chapters:
       v:042: '1CH:4:42 | 42 | 42 | Some also of the children of Simeon, five hundred men, went into mount Seir, having for their captains Phaltias and Naaria and Raphaia and Oziel the sons of Jesi:'
       v:043: '1CH:4:43 | 43 | 43 | And they slew the remnant of the Amalecites, who had been able to escape, and they dwelt there in their stead unto this day.'
   c:005:
+    footnotes:
+      v:002:
+        - note: 'Viz., as to the double portion, which belonged to the firstborn; but the princely dignity was given to Juda, and the priesthood to Levi.</p>'
+          quote: Accounted to Joseph
     intro: 'Genealogies of Ruben and Gad: their victories over the Agarites: their captivity.'
     verses:
       v:001: "1CH:5:1 | 1 | 1 | Now the sons of Ruben the firstborn of Israel, (for he was his firstborn: but forasmuch as he defiled his father's bed, his first birthright was given to the sons of Joseph the son of Israel, and he was not accounted for the firstborn."
@@ -219,6 +259,7 @@ chapters:
       v:025: '1CH:5:25 | 25 | 25 | But they forsook the God of their fathers, and went astray after the gods of the people of the land, whom God destroyed before them.'
       v:026: '1CH:5:26 | 26 | 26 | And the God of Israel stirred up the spirit of Phul king of the Assyrians, and the spirit of Thelgathphalnasar king of Assur: and he carried away Ruben, and Gad, and the half tribe of Manasses, and brought them to Lahela, and to Habor, and to Ara, and to the river of Gozan, unto this day.'
   c:006:
+    footnotes: {}
     intro: 'The genealogies of Levi, and of Aaron: the cities of the Levites.'
     verses:
       v:001: '1CH:6:1 | 1 | 1 | The sons of Levi were Gerson, Caath, and Merari.'
@@ -303,6 +344,10 @@ chapters:
       v:080: '1CH:6:80 | 80 | 80 | Moreover also out of the tribe of Gad, Ramoth in Galaad and its suburbs, and Manaim with its suburbs;'
       v:081: '1CH:6:81 | 81 | 81 | Hesebon also with its suburbs, and Jazer with its suburbs.'
   c:007:
+    footnotes:
+      v:023:
+        - note: 'This name signifies in evil, or in affliction.</p>'
+          quote: Beria
     intro: 'Genealogies of Issachar, Benjamin, Nephtali, Manasses, Ephraim, and Aser.'
     verses:
       v:001: '1CH:7:1 | 1 | 1 | Now the sons of Issachar were Thola, and Phua, Jasub and Simeron, four.'
@@ -346,6 +391,13 @@ chapters:
       v:039: '1CH:7:39 | 39 | 39 | And the sons of Olla: Aree, and Haniel, and Resia.'
       v:040: '1CH:7:40 | 40 | 40 | All these were sons of Aser, heads of their families, choice and most valiant captains of captains: and the number of them that were of the age that was fit for war, was six and twenty thousand.'
   c:008:
+    footnotes:
+      v:033:
+        - note: 'Alias Isboseth.</p>'
+          quote: Esbaal
+      v:034:
+        - note: 'Alias Miphiboseth. 2 Kings 4. 4.</p>'
+          quote: Meribbaal
     intro: The posterity of Benjamin is further declared down to Saul. His issue.
     verses:
       v:001: '1CH:8:1 | 1 | 1 | Now Benjamin begot Bale his firstborn, Asbel the second, Ahara the third,'
@@ -389,6 +441,10 @@ chapters:
       v:039: '1CH:8:39 | 39 | 39 | And the sons of Esec, his brother, were Ulam the firstborn, and Jehus the second, and Eliphalet the third.'
       v:040: '1CH:8:40 | 40 | 40 | And the sons of Ulam were most valiant men, and archers of great strength: and they had many sons and grandsons, even to a hundred and fifty. All these were children of Benjamin.'
   c:009:
+    footnotes:
+      v:002:
+        - note: 'These were the posterity of the Gabaonites, whose office was to bring wood, water, etc., for the service of the temple.</p>'
+          quote: Nathineans
     intro: 'The Israelites, priests, and Levites, who first dwelt in Jerusalem after the captivity. A repetition of the genealogy of Saul.'
     verses:
       v:001: '1CH:9:1 | 1 | 1 | And all Israel was numbered: and the sum of them was written in the book of the kings of Israel, and Juda: and they were carried away to Babylon for their transgression.'
@@ -436,6 +492,7 @@ chapters:
       v:043: '1CH:9:43 | 43 | 43 | And Mosa begot Banaa: whose son Raphaia begot Elasa: of whom was born Asel.'
       v:044: '1CH:9:44 | 44 | 44 | And Asel had six sons whose names are, Ezricam Bochru, Ismahel, Saria, Obdia, Hanan: these are the sons of Asel.'
   c:010:
+    footnotes: {}
     intro: 'Saul is slain for his sins: he is buried by the men of Jabes.'
     verses:
       v:001: '1CH:10:1 | 1 | 1 | Now the Philistines fought against Israel, and the men of Israel fled from before the Philistines, and fell down wounded in mount Gelboe.'
@@ -453,6 +510,10 @@ chapters:
       v:013: '1CH:10:13 | 13 | 13 | So Saul died for his iniquities, because he transgressed the commandment of the Lord, which he had commanded, and kept it not: and moreover consulted also a witch,'
       v:014: '1CH:10:14 | 14 | 14 | And trusted not in the Lord: therefore he slew him, and transferred his kingdom to David the son of Isai.'
   c:011:
+    footnotes:
+      v:022:
+        - note: 'That is, two lions, or lion-like men; for Ariel in Hebrew signifies a lion.</p>'
+          quote: Two ariels
     intro: David is made king. He taketh the castle of Sion. A catalogue of his valiant men.
     verses:
       v:001: '1CH:11:1 | 1 | 1 | Then all Israel gathered themselves to David in Hebron, saying: We are thy bone, and thy flesh.'
@@ -502,6 +563,7 @@ chapters:
       v:045: '1CH:11:45 | 45 | 45 | Jedihel the son of Zamri, and Joha his brother a Thosaite,'
       v:046: '1CH:11:46 | 46 | 46 | Eliel a Mahumite, and Jeribai, and Josaia the sons of Elnaim, and Jethma a Moabite, Eliel, and Obed, and Jasiel of Masobia.'
   c:012:
+    footnotes: {}
     intro: Who followed David when he fled from Saul. And who came to Hebron to make him king.
     verses:
       v:001: '1CH:12:1 | 1 | 1 | Now these are they that came to David to Siceleg, while he yet fled from Saul the son of Cis, and they were most valiant and excellent warriors,'
@@ -545,6 +607,7 @@ chapters:
       v:039: '1CH:12:39 | 39 | 39 | And they were there with David three days eating and drinking: for their brethren had prepared for them.'
       v:040: '1CH:12:40 | 40 | 40 | Moreover they that were near them even as far as Issachar, and Zabulon, and Nephtali, brought loaves on asses, and on camels, and on mules, and on oxen, to eat: meal, figs, raisins, wine, oil, and oxen, and sheep in abundance, for there was joy in Israel.'
   c:013:
+    footnotes: {}
     intro: The ark is brought from Cariathiarim. Oza for touching it is struck dead.
     verses:
       v:001: '1CH:13:1 | 1 | 1 | David consulted with the captains of thousands, and of hundreds, and with all the commanders.'
@@ -562,6 +625,7 @@ chapters:
       v:013: '1CH:13:13 | 13 | 13 | And therefore he brought it not home to himself, that is, into the city of David, but carried it aside into the house of Obededom the Gethite.'
       v:014: '1CH:13:14 | 14 | 14 | And the ark of God remained in the house of Obededom three months: and the Lord blessed his house, and all that he had.'
   c:014:
+    footnotes: {}
     intro: 'David’s house, and children: his victories over the Philistines.'
     verses:
       v:001: '1CH:14:1 | 1 | 1 | And Hiram king of Tyre sent messengers to David, and cedar trees, and masons, and carpenters, to build him a house.'
@@ -582,6 +646,10 @@ chapters:
       v:016: '1CH:14:16 | 16 | 16 | And David did as God had commanded him, and defeated the army of the Philistines, slaying them from Gabaon to Gazera.'
       v:017: '1CH:14:17 | 17 | 17 | And the name of David became famous in all countries, and the Lord made all nations fear him.'
   c:015:
+    footnotes:
+      v:022:
+        - note: 'Singing praises to God is here called prophecy: the more, because these singers were often inspired men.</p>'
+          quote: 'The prophecy, to give out the tunes'
     intro: 'The ark is brought into the city of David, with great solemnity. Michol derideth David’s devotion.'
     verses:
       v:001: '1CH:15:1 | 1 | 1 | He made also houses for himself in the city of David: and built a place for the ark of God, and pitched a tabernacle for it.'
@@ -614,6 +682,7 @@ chapters:
       v:028: '1CH:15:28 | 28 | 28 | And all Israel brought the ark of the covenant of the Lord with joyful shouting, and sounding with the sound of the cornet, and with trumpets, and cymbals, and psalteries, and harps.'
       v:029: '1CH:15:29 | 29 | 29 | And when the ark of the covenant of the Lord was come to the city of David, Michol the daughter of Saul looking out at a window, saw king David dancing and playing, and she despised him in her heart.'
   c:016:
+    footnotes: {}
     intro: 'The ark is placed in the tabernacle. Sacrifice is offered. David blesseth the people, disposeth the offices of Levites, and maketh a psalm of praise to God.'
     verses:
       v:001: '1CH:16:1 | 1 | 1 | So they brought the ark of God, and set it in the midst of the tent, which David had pitched for it: and they offered holocausts, and peace offerings before God.'
@@ -660,6 +729,7 @@ chapters:
       v:042: '1CH:16:42 | 42 | 42 | And Heman and Idithun sounded the trumpet, and played on the cymbals, and all kinds of musical instruments to sing praises to God: and the sons of Idithun he made porters.'
       v:043: '1CH:16:43 | 43 | 43 | And all the people returned to their houses: and David to bless also his own house.'
   c:017:
+    footnotes: {}
     intro: 'David’s purpose to build a temple, is rewarded by most ample promises: David’s thanksgiving.'
     verses:
       v:001: '1CH:17:1 | 1 | 1 | Now when David was dwelling in his house, he said to Nathan the prophet: Behold I dwell in a house of cedar: and the ark of the covenant of the Lord is under skins.'
@@ -690,6 +760,7 @@ chapters:
       v:026: '1CH:17:26 | 26 | 26 | And now O Lord, thou art God: and thou hast promised to thy servant such great benefits.'
       v:027: '1CH:17:27 | 27 | 27 | And thou hast begun to bless the house of thy servant, that it may be always before thee: for seeing thou blessest it, O Lord, it shall be blessed for ever.'
   c:018:
+    footnotes: {}
     intro: David’s victories. His chief officers.
     verses:
       v:001: '1CH:18:1 | 1 | 1 | And it came to pass after this, that David defeated the Philistines, and humbled them, and took away Geth, and her daughters out of the hands of the Philistines,'
@@ -710,6 +781,10 @@ chapters:
       v:016: '1CH:18:16 | 16 | 16 | And Sadoc the son of Achitob, and Achimelech the son of Abiathar, were the priests: and Susa, scribe.'
       v:017: '1CH:18:17 | 17 | 17 | And Banaias the son of Joiada was over the bands of the Cerethi, and the Phelethi: and the sons of David were chief about the king.'
   c:019:
+    footnotes:
+      v:018:
+        - note: 'That is, of men who fought in chariots.</p>'
+          quote: Seven thousand chariots
     intro: 'The Ammonites abuse David’s ambassadors: both they and their confederates are overthrown.'
     verses:
       v:001: '1CH:19:1 | 1 | 1 | Now it came to pass that Naas the king of the children of Ammon died, and his son reigned in his stead.'
@@ -732,6 +807,7 @@ chapters:
       v:018: '1CH:19:18 | 18 | 18 | But the Syrian fled before Israel: and David slew of the Syrians seven thousand chariots, and forty thousand footmen, and Sophach the general of the army.'
       v:019: '1CH:19:19 | 19 | 19 | And when the servants of Adarezer saw themselves overcome by Israel, they went over to David, and served him: and Syria would not help the children of Ammon any more.'
   c:020:
+    footnotes: {}
     intro: Rabba is taken. Other victories over the Philistines.
     verses:
       v:001: '1CH:20:1 | 1 | 1 | And it came to pass after the course of a year, at the time that kings go out to battle, Joab gathered together an army and the strength of the troops, and wasted the land of the children of Ammon: and went and besieged Rabba. But David stayed at Jerusalem, when Joab smote Rabba, and destroyed it.'
@@ -742,6 +818,19 @@ chapters:
       v:006: '1CH:20:6 | 6 | 6 | There was another battle also in Geth, in which there was a man of great stature, whose fingers and toes were four and twenty, six on each hand and foot: who also was born of the stock of Rapha.'
       v:007: '1CH:20:7 | 7 | 7 | He reviled Israel: but Jonathan the son of Samaa the brother of David slew him. These were the sons of Rapha in Geth, who fell by the hand of David and his servants.'
   c:021:
+    footnotes:
+      v:005:
+        - note: 'The difference of the numbers here and 2 Kings 24. is to be accounted for, by supposing the greater number to be that which was really found, and the lesser to be that which Joab gave in.</p>'
+          quote: The number
+      v:012:
+        - note: "Which joined with the three foregoing years of famine mentioned, 2 Kings 21. and the seventh year of the land's resting, would make up the seven years proposed by the prophet, 2 Kings 24. 13.</p>"
+          quote: Three years famine
+      v:015:
+        - note: 'Otherwise Areuna.</p>'
+          quote: Ornan
+      v:025:
+        - note: 'This was the price of the whole place, on which the temple was afterwards built; but the price of the oxen was fifty sicles of silver. 2 Kings 24. 24.</p>'
+          quote: Six hundred sicles
     intro: 'David’s sin in numbering the people is punished by a pestilence: which ceaseth upon his offering sacrifice in the thrashingfloor of Ornan.'
     verses:
       v:001: '1CH:21:1 | 1 | 1 | And Satan rose up against Israel: and moved David to number Israel.'
@@ -775,6 +864,7 @@ chapters:
       v:029: '1CH:21:29 | 29 | 29 | But the tabernacle of the Lord, which Moses made in the desert, and the altar of holocausts, was at that time in the high place of Gabaon.'
       v:030: '1CH:21:30 | 30 | 30 | And David could not go to the altar there to pray to God: for he was seized with an exceeding great fear, seeing the sword of the angel of the Lord.'
   c:022:
+    footnotes: {}
     intro: 'David having prepared all necessaries, chargeth Solomon to build the temple and the princes to assist him.'
     verses:
       v:001: '1CH:22:1 | 1 | 1 | Then David said: This is the house of God, And this is the altar for the holocaust of Israel.'
@@ -797,6 +887,7 @@ chapters:
       v:018: '1CH:22:18 | 18 | 18 | Saying: You see, that the Lord your God is with you, and hath given you rest round about, and hath delivered all your enemies into your hands, and the land is subdued before the Lord, and before his people.'
       v:019: '1CH:22:19 | 19 | 19 | Give therefore your hearts and your souls, to seek the Lord your God and arise, and build a sanctuary to the Lord God, that the ark of the covenant of the Lord, and the vessels consecrated to the Lord, may be brought into the house, which is built to the name of the Lord.'
   c:023:
+    footnotes: {}
     intro: David appointeth Solomon king. The distribution of the Levites and their offices.
     verses:
       v:001: '1CH:23:1 | 1 | 1 | David being old and full of days, made Solomon his son king over Israel.'
@@ -832,6 +923,7 @@ chapters:
       v:031: '1CH:23:31 | 31 | 31 | As well in the oblation of the holocausts of the Lord, as in the sabbaths and in the new moons, and the rest of the solemnities, according to the number and ceremonies prescribed for every thing, continually before the Lord.'
       v:032: '1CH:23:32 | 32 | 32 | And let them keep the observances of the tabernacle of the covenant, and the ceremonies of the sanctuary, and the charge of the sons of Aaron their brethren, that they may minister in the house of the Lord.'
   c:024:
+    footnotes: {}
     intro: 'The divisions of the priests into four and twenty courses, to serve in the temple: the chiefs of the Levites.'
     verses:
       v:001: '1CH:24:1 | 1 | 1 | Now these were the divisions of the sons of Aaron: The sons of Aaron: Nadab, and Abiu, and Eleazar, and Ithamar.'
@@ -866,6 +958,7 @@ chapters:
       v:030: '1CH:24:30 | 30 | 30 | The sons of Musi: Moholi, Eder, and Jerimoth. These are the sons of Levi according to the houses of their families.'
       v:031: '1CH:24:31 | 31 | 31 | And they also cast lots over against their brethren the sons of Aaron before David the king, and Sadoc, and Ahimelech, and the princes of the priestly and Levitical families, both the elder and the younger. The lot divided all equally.'
   c:025:
+    footnotes: {}
     intro: The number and divisions of the musicians.
     verses:
       v:001: '1CH:25:1 | 1 | 1 | Moreover David and the chief officers of the army separated for the ministry the sons of Asaph, and of Heman, and of Idithun: to prophesy with harps, and with psalteries, and with cymbals according to their number serving in their appointed office.'
@@ -900,6 +993,13 @@ chapters:
       v:030: '1CH:25:30 | 30 | 30 | The three and twentieth to Mahazioth, to his sons and his brethren twelve.'
       v:031: '1CH:25:31 | 31 | 31 | The four and twentieth to Romemthiezer, to his sons and his brethren twelve.'
   c:026:
+    footnotes:
+      v:010:
+        - note: 'That is, his firstborn was either dead or not fit to be chief; and therefore he made Semri the chief.</p>'
+          quote: He had not a firstborn
+      v:020:
+        - note: 'Or vessels of the holy places, or of things holy. Vasa sanctorum.</p>'
+          quote: Holy vessels
     intro: The divisions of the porters. Offices of other Levites.
     verses:
       v:001: '1CH:26:1 | 1 | 1 | And the divisions of the porters: of the Corites Meselemia, the son of Core, of the sons of Asaph.'
@@ -935,6 +1035,7 @@ chapters:
       v:031: '1CH:26:31 | 31 | 31 | And the chief of the Hebronites was Jeria according to their families and kindreds. In the fortieth year of the reign of David they were numbered, and there were found most valiant men in Jazer Galaad,'
       v:032: '1CH:26:32 | 32 | 32 | And his brethren of stronger age, two thousand seven hundred chiefs of families. And king David made them rulers over the Rubenites and the Gadites, and the half tribe of Manasses, for all the service of God, and the king.'
   c:027:
+    footnotes: {}
     intro: The twelve captains for every month; the twelve princes of the tribes. David’s several officers.
     verses:
       v:001: '1CH:27:1 | 1 | 1 | Now the children of Israel according to their number, the heads of families, captains of thousands and of hundreds, and officers, that served the king according to their companies, who came in and went out every month in the year, under every chief were four and twenty thousand.'
@@ -972,6 +1073,7 @@ chapters:
       v:033: "1CH:27:33 | 33 | 33 | And Achitophel was the king's counsellor, and Chusai the Arachite, the king's friend."
       v:034: "1CH:27:34 | 34 | 34 | And after Achitophel was Joiada the son of Banaias, and Abiathar. And the general of the king's army was Joab."
   c:028:
+    footnotes: {}
     intro: 'David’s speech, in a solemn assembly: his exhortation to Solomon. He giveth him a pattern of the temple.'
     verses:
       v:001: '1CH:28:1 | 1 | 1 | And David assembled all the chief men of Israel, the princes of the tribes, and the captains of the companies, who waited on the king: and the captains over thousands, and over hundreds, and them who had the charge over the substance and possessions of the king, and his sons with the officers of the court, and the men of power, and all the bravest of the army at Jerusalem.'
@@ -996,6 +1098,7 @@ chapters:
       v:020: '1CH:28:20 | 20 | 20 | And David said to Solomon his son: Act like a man, and take courage, and do: fear not, and be not dismayed: for the Lord my God will be with thee, and will not leave thee, nor forsake thee, till thou hast finished all the work for the service of the house of the Lord.'
       v:021: '1CH:28:21 | 21 | 21 | Behold the courses of the priests and the Levites, for every ministry of the house of the Lord, stand by thee, and are ready, and both the princes, and the people know how to execute all thy commandments.'
   c:029:
+    footnotes: {}
     intro: 'David by word and example encourageth the princes to contribute liberally to the building of the temple. His thanksgiving, prayer, and sacrifices: his death.'
     verses:
       v:001: '1CH:29:1 | 1 | 1 | And king David said to all the assembly: Solomon my son, whom alone God hath chosen, is as yet young and tender: and the work is great, for a house is prepared not for man, but for God.'

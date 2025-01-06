@@ -2,6 +2,7 @@
 book_id: PSA
 chapters:
   c:001:
+    footnotes: {}
     intro: The happiness of the just and the evil state of the wicked.
     verses:
       v:001: 'PSA:1:1 | 1 | 1 | {VS:VERSE:BEGIN}Blessed is the man who hath not walked in the counsel of the ungodly, nor stood in the way of sinners, nor sat in the chair of pestilence:{VS:BR}'
@@ -11,6 +12,7 @@ chapters:
       v:005: 'PSA:1:5 | 5 | 5 | Therefore the wicked shall not rise again in judgment: nor sinners in the council of the just.{VS:BR}'
       v:006: 'PSA:1:6 | 6 | 6 | For the Lord knoweth the way of the just: and the way of the wicked shall perish.{VS:VERSE:END}'
   c:002:
+    footnotes: {}
     intro: The vain efforts of persecutors against Christ and his church.
     verses:
       v:001: 'PSA:2:1 | 1 | 1 | {VS:VERSE:BEGIN}Why have the Gentiles raged, and the people devised vain things?{VS:BR}'
@@ -27,6 +29,7 @@ chapters:
       v:012: 'PSA:2:12 | 12 | 12 | Embrace discipline, lest at any time the Lord be angry, and you perish from the just way.{VS:BR}'
       v:013: 'PSA:2:13 | 13 | 13 | When his wrath shall be kindled in a short time, blessed are all they that trust in him.{VS:VERSE:END}'
   c:003:
+    footnotes: {}
     intro: 'The prophet’s danger and delivery from his son Absalom: mystically, the passion and resurrection of Christ.'
     verses:
       v:001: PSA:3:1 | 1 | 1 | The psalm of David when he fled from the face of his son Absalom.
@@ -39,6 +42,14 @@ chapters:
       v:008: 'PSA:3:8 | 8 | 8 | For thou hast struck all them who are my adversaries without cause: thou hast broken the teeth of sinners.{VS:BR}'
       v:009: 'PSA:3:9 | 9 | 9 | Salvation is of the Lord: and thy blessing is upon thy people.{VS:VERSE:END}'
   c:004:
+    footnotes:
+      v:001:
+        - note: 'Or, as St. Jerome renders it, victori, to him that overcometh: which some understand of the chief musician; to whom they suppose the psalms, which bear that title, were given to be sung: we rather understand the psalms thus inscribed to refer to Christ, who is the end of the law, and the great conqueror of death and hell, and to the New Testament.-- Ibid.</p>'
+          quote: Unto the end
+        - note: 'in carminibus. In the Hebrew, it is neghinoth, supposed by some to be a musical instrument, with which this psalm was to be sung.-- Ibid.</p>'
+          quote: In verses
+        - note: 'That is, inspired to David himself, or to be sung.</p>'
+          quote: For David
     intro: 'The prophet teacheth us to flee to God in tribulation, with confidence in him.'
     verses:
       v:001: 'PSA:4:1 | 1 | 1 | Unto the end, in verses. A psalm for David.'
@@ -52,6 +63,10 @@ chapters:
       v:009: 'PSA:4:9 | 9 | 9 | In peace in the self same I will sleep, and I will rest:{VS:BR}'
       v:010: 'PSA:4:10 | 10 | 10 | For thou, O Lord, singularly hast settled me in hope.{VS:VERSE:END}'
   c:005:
+    footnotes:
+      v:001:
+        - note: 'That is, for the church of Christ.</p>'
+          quote: For her that obtaineth the inheritance
     intro: A prayer to God against the iniquities of men.
     verses:
       v:001: 'PSA:5:1 | 1 | 1 | Unto the end, for her that obtaineth the inheritance. A psalm for David.'
@@ -68,6 +83,10 @@ chapters:
       v:012: 'PSA:5:12 | 12 | 12 | But let all them be glad that hope in thee: they shall rejoice for ever, and thou shalt dwell in them. And all they that love thy name shall glory in thee.{VS:BR}'
       v:013: 'PSA:5:13 | 13 | 13 | For thou wilt bless the just. O Lord, thou hast crowned us, as with a shield of thy good will.{VS:VERSE:END}'
   c:006:
+    footnotes:
+      v:001:
+        - note: 'That is, to be sung on an instrument of eight strings. St. Augustine understands it mystically, of the last resurrection, and the world to come; which is, as it were, the octave, or eighth day, after the seven days of this mortal life: and for this octave, sinners must dispose themselves, like David, by bewailing their sins, whilst they are here upon earth.</p>'
+          quote: For the octave
     intro: 'A prayer of a penitent sinner, under the scourge of God. The first penitential psalm.'
     verses:
       v:001: 'PSA:6:1 | 1 | 1 | Unto the end, in verses, a psalm for David, for the octave.'
@@ -82,6 +101,10 @@ chapters:
       v:010: 'PSA:6:10 | 10 | 10 | The Lord hath heard my supplication: the Lord hath received my prayer.{VS:BR}'
       v:011: 'PSA:6:11 | 11 | 11 | Let all my enemies be ashamed, and be very much troubled: let them be turned back, and be ashamed very speedily.{VS:VERSE:END}'
   c:007:
+    footnotes:
+      v:014:
+        - note: 'That is, against the persecutors of his saints.</p>'
+          quote: For them that burn
     intro: 'David, trusting in the justice of his cause, prayeth for God’s help against his enemies.'
     verses:
       v:001: 'PSA:7:1 | 1 | 1 | The psalm of David, which he sung to the Lord, for the words of Chusi, the son of Jemini.'
@@ -103,6 +126,10 @@ chapters:
       v:017: 'PSA:7:17 | 17 | 17 | His sorrow shall be turned on his own head: and his iniquity shall come down upon his crown.{VS:BR}'
       v:018: 'PSA:7:18 | 18 | 18 | I will give glory to the Lord according to his justice: and will sing to the name of the Lord the most high.{VS:VERSE:END}'
   c:008:
+    footnotes:
+      v:001:
+        - note: 'In Hebrew, Gittith, supposed to be a musical instrument.</p>'
+          quote: The presses
     intro: 'God is wonderful in his works; especially in mankind, singularly exalted by the incarnation of Christ.'
     verses:
       v:001: 'PSA:8:1 | 1 | 1 | Unto the end, for the presses: a psalm for David.'
@@ -116,6 +143,10 @@ chapters:
       v:009: 'PSA:8:9 | 9 | 9 | The birds of the air, and the fishes of the sea, that pass through the paths of the sea.{VS:BR}'
       v:010: 'PSA:8:10 | 10 | 10 | O Lord, our Lord, how admirable is thy name in the whole earth!{VS:VERSE:END}'
   c:009:
+    footnotes:
+      v:001:
+        - note: 'The humility and sufferings of Christ, the Son of God; and of good Christians, who are his sons by adoption; are called hidden things, with regard to the children of this world, who know not the value and merit of them.</p>'
+          quote: The hidden things of the Son
     intro: 'Confitebor tibi, Domine. The church praiseth God for his protection against her enemies.'
     verses:
       v:001: 'PSA:9:1 | 1 | 1 | Unto the end, for the hidden things of the Son. A psalm for David.'
@@ -158,6 +189,7 @@ chapters:
       v:038: 'PSA:9:38 | 38 | 38 | The Lord hath heard the desire of the poor: thy ear hath heard the preparation of their heart.{VS:BR}'
       v:039: 'PSA:9:39 | 39 | 39 | To judge for the fatherless and for the humble, that man may no more presume to magnify himself upon earth.{VS:VERSE:END}'
   c:010:
+    footnotes: {}
     intro: The just man’s confidence in God in the midst of persecutions.
     verses:
       v:001: PSA:10:1 | 1 | 1 | Unto the end. A psalm to David.
@@ -169,6 +201,7 @@ chapters:
       v:007: 'PSA:10:7 | 7 | 7 | He shall rain snares upon sinners: fire and brimstone, and storms of winds, shall be the portion of their cup.{VS:BR}'
       v:008: 'PSA:10:8 | 8 | 8 | For the Lord is just, and hath loved justice: his countenance hath beheld righteousness.{VS:VERSE:END}'
   c:011:
+    footnotes: {}
     intro: The prophet calls for God’s help against the wicked.
     verses:
       v:001: 'PSA:11:1 | 1 | 1 | Unto the end: for the octave, a psalm for David.'
@@ -181,6 +214,7 @@ chapters:
       v:008: 'PSA:11:8 | 8 | 8 | Thou, O Lord, wilt preserve us: and keep us from this generation for ever.{VS:BR}'
       v:009: 'PSA:11:9 | 9 | 9 | The wicked walk round about: according to thy highness, thou hast multiplied the children of men.{VS:VERSE:END}'
   c:012:
+    footnotes: {}
     intro: A prayer in tribulation.
     verses:
       v:001: 'PSA:12:1 | 1 | 1 | Unto the end, a psalm for David. How long, O Lord, wilt thou forget me unto the end? how long dost thou turn away thy face from me?{VS:BR}'
@@ -190,6 +224,7 @@ chapters:
       v:005: 'PSA:12:5 | 5 | 5 | Lest at any time my enemy say: I have prevailed against him. They that trouble me, will rejoice when I am moved:{VS:BR}'
       v:006: 'PSA:12:6 | 6 | 6 | But I have trusted in thy mercy. My heart shall rejoice in thy salvation: I will sing to the Lord, who giveth me good things: yea, I will sing to the name of the Lord, the most high.{VS:VERSE:END}'
   c:013:
+    footnotes: {}
     intro: The general corruption of man before our redemption by Christ.
     verses:
       v:001: 'PSA:13:1 | 1 | 1 | Unto the end, a psalm for David. The fool hath said in his heart: There is no God. They are corrupt, and are become abominable in their ways: there is none that doth good, no not one.{VS:BR}'
@@ -200,6 +235,7 @@ chapters:
       v:006: 'PSA:13:6 | 6 | 6 | For the Lord is in the just generation: you have confounded the counsel of the poor man; but the Lord is his hope.{VS:BR}'
       v:007: 'PSA:13:7 | 7 | 7 | Who shall give out of Sion the salvation of Israel? when the Lord shall have turned away the captivity of his people, Jacob shall rejoice, and Israel shall be glad.{VS:VERSE:END}'
   c:014:
+    footnotes: {}
     intro: What kind of men shall dwell in the heavenly Sion.
     verses:
       v:001: 'PSA:14:1 | 1 | 1 | A psalm for David. Lord, who shall dwell in thy tabernacle? or who shall rest in thy holy hill?{VS:BR}'
@@ -208,6 +244,10 @@ chapters:
       v:004: 'PSA:14:4 | 4 | 4 | In his sight the malignant is brought to nothing: but he glorifieth them that fear the Lord. He that sweareth to his neighbour, and deceiveth not;{VS:BR}'
       v:005: 'PSA:14:5 | 5 | 5 | He that hath not put out his money to usury, nor taken bribes against the innocent: He that doth these things, shall not be moved for ever.{VS:VERSE:END}'
   c:015:
+    footnotes:
+      v:001:
+        - note: 'That is, of a pillar or monument, staylographia: which is as much as to say, that this psalm is most worthy to be engraved on an everlasting monument.</p>'
+          quote: The inscription of a title
     intro: Christ’s future victory and triumph over the world and death.
     verses:
       v:001: 'PSA:15:1 | 1 | 1 | The inscription of a title to David himself. Preserve me, O Lord, for I have put my trust in thee.{VS:BR}'
@@ -222,6 +262,15 @@ chapters:
       v:010: 'PSA:15:10 | 10 | 10 | Because thou wilt not leave my soul in hell; nor wilt thou give thy holy one to see corruption.{VS:VERSE:END}'
       v:011: 'PSA:15:11 | 11 | 11 | Thou hast made known to me the ways of life, thou shalt fill me with joy with thy countenance: at thy right hand are delights even to the end.'
   c:016:
+    footnotes:
+      v:010:
+        - note: 'That is, their bowels of compassion: for they have none for me.</p>'
+          quote: Their fat
+      v:014:
+        - note: 'That is, cut them off from the earth, and the few trifling things thereof; which they are so proud of, or divide them from the few; that is, from thy elect, who are but few; that they may no longer have it in their power to oppress them. It is not meant by way of a curse or imprecation; but, as many other the like passages in the psalms, by way of a prediction, or prophecy of what should come upon them, in punishment of their wickedness. Ibid.</p>'
+          quote: Divide them from the few
+        - note: 'Thy secret treasures, out of which thou furnishest those earthly goods, which, with a bountiful hand thou hast distributed both to the good and the bad.</p>'
+          quote: Thy hidden stores
     intro: A just man’s prayer in tribulation against the malice of his enemy.
     verses:
       v:001: 'PSA:16:1 | 1 | 1 | The prayer of David. Hear, O Lord, my justice: attend to my supplication. Give ear unto my prayer, which proceedeth not from deceitful lips.{VS:BR}'
@@ -240,6 +289,7 @@ chapters:
       v:014: 'PSA:16:14 | 14 | 14 | From the enemies of thy hand. O Lord, divide them from the few of the earth in their life: their belly is filled from thy hidden stores. They are full of children: and they have left to their little ones the rest of their substance.{VS:BR}'
       v:015: 'PSA:16:15 | 15 | 15 | But as for me, I will appear before thy sight in justice: I shall be satisfied when thy glory shall appear.{VS:VERSE:END}'
   c:017:
+    footnotes: {}
     intro: David’s thanks to God for his delivery from all his enemies.
     verses:
       v:001: 'PSA:17:1 | 1 | 1 | Unto the end, for David, the servant of the Lord, who spoke to the Lord the words of this canticle, in the day that the Lord delivered him from the hand of all his enemies, and from the hand of Saul: and he said:'
@@ -294,6 +344,7 @@ chapters:
       v:050: 'PSA:17:50 | 50 | 50 | Therefore will I give glory to thee, O Lord, among the nations, and I will sing a psalm to thy name.{VS:BR}'
       v:051: 'PSA:17:51 | 51 | 51 | Giving great deliverance to his king, and shewing mercy to David, his anointed: and to his seed for ever.{VS:VERSE:END}'
   c:018:
+    footnotes: {}
     intro: 'The works of God shew forth his glory: his law is greatly to be esteemed and loved.'
     verses:
       v:001: PSA:18:1 | 1 | 1 | Unto the end. A Psalm for David.
@@ -312,6 +363,10 @@ chapters:
       v:014: 'PSA:18:14 | 14 | 14 | And from those of others spare thy servant. If they shall have no dominion over me, then shall I be without spot: and I shall be cleansed from the greatest sin.{VS:BR}'
       v:015: 'PSA:18:15 | 15 | 15 | And the words of my mouth shall be such as may please: and the meditation of my heart always in thy sight. O Lord, my helper and my Redeemer.{VS:VERSE:END}'
   c:019:
+    footnotes:
+      v:007:
+        - note: 'That is, in strength. His right hand is strong and mighty to save them that trust in him.</p>'
+          quote: The salvation of his right hand is in powers
     intro: A prayer for the king.
     verses:
       v:001: PSA:19:1 | 1 | 1 | Unto the end. A psalm for David.
@@ -324,6 +379,10 @@ chapters:
       v:008: 'PSA:19:8 | 8 | 8 | Some trust in chariots, and some in horses: but we will call upon the name of the Lord, our God.{VS:BR}'
       v:009: 'PSA:19:9 | 9 | 9 | They are bound, and have fallen: but we are risen, and are set upright. O Lord, save the king: and hear us in the day that we shall call upon thee.{VS:BR}'
   c:020:
+    footnotes:
+      v:013:
+        - note: 'Or thou shalt set thy remnants against their faces. That is, thou shalt make them see what punishments remain for them hereafter from thy justice. Instead of remnants, St. Jerome renders it funes, that is, cords or strings, viz., of the bow of divine justice, from which God directs his arrows against the faces of his enemies.</p>'
+          quote: In thy remnants thou shalt prepare their face
     intro: Praise to God for Christ’s exaltation after his passion.
     verses:
       v:001: PSA:20:1 | 1 | 1 | Unto the end. A psalm for David.
@@ -341,6 +400,10 @@ chapters:
       v:013: 'PSA:20:13 | 13 | 13 | For thou shalt make them turn their back: in thy remnants thou shalt prepare their face.{VS:BR}'
       v:014: 'PSA:20:14 | 14 | 14 | Be thou exalted, O Lord, in thy own strength: we will sing and praise thy power.{VS:VERSE:END}'
   c:021:
+    footnotes:
+      v:002:
+        - note: 'That is, the sins of the world, which I have taken upon myself, cry out against me, and are the cause of all my sufferings.</p>'
+          quote: The words of my sins
     intro: 'Christ’s passion: and the conversion of the Gentiles.'
     verses:
       v:001: 'PSA:21:1 | 1 | 1 | Unto the end, for the morning protection, a psalm for David.'
@@ -376,6 +439,10 @@ chapters:
       v:031: 'PSA:21:31 | 31 | 31 | And to him my soul shall live: and my seed shall serve him.{VS:BR}'
       v:032: 'PSA:21:32 | 32 | 32 | There shall be declared to the Lord a generation to come: and the heavens shall shew forth his justice to a people that shall be born, which the Lord hath made.{VS:VERSE:END}'
   c:022:
+    footnotes:
+      v:001:
+        - note: 'In Hebrew, Is my shepherd, viz., to feed, guide, and govern me.</p>'
+          quote: Ruleth me
     intro: God’s spiritual benefits to faithful souls.
     verses:
       v:001: 'PSA:22:1 | 1 | 1 | A psalm for David. The Lord ruleth me: and I shall want nothing.{VS:BR}'
@@ -385,6 +452,7 @@ chapters:
       v:005: 'PSA:22:5 | 5 | 5 | Thou hast prepared a table before me against them that afflict me. Thou hast anointed my head with oil; and my chalice which inebriateth me, how goodly is it!{VS:BR}'
       v:006: 'PSA:22:6 | 6 | 6 | And thy mercy will follow me all the days of my life. And that I may dwell in the house of the Lord unto length of days.{VS:VERSE:END}'
   c:023:
+    footnotes: {}
     intro: 'Who are they that shall ascend to heaven: Christ’s triumphant ascension thither.'
     verses:
       v:001: "PSA:23:1 | 1 | 1 | On the first day of the week, a psalm for David. The earth is the Lord's and the fulness thereof: the world, and all they that dwell therein.{VS:BR}"
@@ -398,6 +466,7 @@ chapters:
       v:009: 'PSA:23:9 | 9 | 9 | Lift up your gates, O ye princes, and be ye lifted up, O eternal gates: and the King of Glory shall enter in.{VS:BR}'
       v:010: 'PSA:23:10 | 10 | 10 | Who is this King of Glory? the Lord of hosts, he is the King of Glory.{VS:VERSE:END}'
   c:024:
+    footnotes: {}
     intro: 'A prayer for grace, mercy, and protection against our enemies.'
     verses:
       v:001: 'PSA:24:1 | 1 | 1 | Unto the end, a psalm for David. To thee, O Lord, have I lifted up my soul.{VS:BR}'
@@ -423,6 +492,7 @@ chapters:
       v:021: 'PSA:24:21 | 21 | 21 | The innocent and the upright have adhered to me: because I have waited on thee.{VS:BR}'
       v:022: 'PSA:24:22 | 22 | 22 | Deliver Israel, O God, from all his tribulations.{VS:VERSE:END}'
   c:025:
+    footnotes: {}
     intro: 'David’s prayer to God in his distress, to be delivered, that he may come to worship him in his tabernacle.'
     verses:
       v:001: 'PSA:25:1 | 1 | 1 | Unto the end, a psalm for David. Judge me, O Lord, for I have walked in my innocence: and I have put my trust in the Lord, and shall not be weakened.{VS:BR}'
@@ -438,6 +508,7 @@ chapters:
       v:011: 'PSA:25:11 | 11 | 11 | But as for me, I have walked in my innocence: redeem me, and have mercy on me.{VS:BR}'
       v:012: 'PSA:25:12 | 12 | 12 | My foot hath stood in the direct way: in the churches I will bless thee, O Lord.{VS:VERSE:END}'
   c:026:
+    footnotes: {}
     intro: David’s faith and hope in God.
     verses:
       v:001: 'PSA:26:1 | 1 | 1 | The psalm of David before he was anointed. The Lord is my light and my salvation, whom shall I fear? The Lord is the protector of my life: of whom shall I be afraid?{VS:BR}'
@@ -455,6 +526,7 @@ chapters:
       v:013: 'PSA:26:13 | 13 | 13 | I believe to see the good things of the Lord in the land of the living.{VS:BR}'
       v:014: 'PSA:26:14 | 14 | 14 | Expect the Lord, do manfully, and let thy heart take courage, and wait thou for the Lord.{VS:VERSE:END}'
   c:027:
+    footnotes: {}
     intro: David’s prayer that his enemies may not prevail over him.
     verses:
       v:001: 'PSA:27:1 | 1 | 1 | A psalm for David himself. Unto thee will I cry, O Lord: O my God, be not thou silent to me: lest if thou be silent to me, I become like them that go down into the pit.{VS:BR}'
@@ -467,6 +539,10 @@ chapters:
       v:008: 'PSA:27:8 | 8 | 8 | The Lord is the strength of his people, and the protector of the salvation of his anointed.{VS:BR}'
       v:009: 'PSA:27:9 | 9 | 9 | Save, O Lord, thy people, and bless thy inheritance: and rule them and exalt them for ever.{VS:VERSE:END}'
   c:028:
+    footnotes:
+      v:006:
+        - note: "In Hebrew, shall make them to skip like a calf. The psalmist here describes the effects of thunder (which he calls the voice of the Lord) which sometimes breaks down the tallest and strongest trees; and makes their broken branches skip, etc. All this is to be understood mystically of the powerful voice of God's word in his church; which has broken the pride of the great ones of this world, and brought many of them meekly and joyfully to submit their necks to the sweet yoke of Christ.</p>"
+          quote: Shall reduce them to pieces
     intro: 'An invitation to glorify God, with a commemoration of his mighty works.'
     verses:
       v:001: 'PSA:28:1 | 1 | 1 | A psalm for David, at the finishing of the tabernacle. Bring to the Lord, O ye children of God: bring to the Lord the offspring of rams.{VS:BR}'
@@ -480,6 +556,7 @@ chapters:
       v:009: 'PSA:28:9 | 9 | 9 | The voice of the Lord prepareth the stags: and he will discover the thick woods: and in his temple all shall speak his glory.{VS:BR}'
       v:010: 'PSA:28:10 | 10 | 10 | The Lord maketh the flood to dwell: and the Lord shall sit king for ever. The Lord will give strength to his people: the Lord will bless his people with peace.{VS:BR}'
   c:029:
+    footnotes: {}
     intro: 'David praiseth God for his deliverance, and his merciful dealings with him.'
     verses:
       v:001: "PSA:29:1 | 1 | 1 | A psalm of a canticle, at the dedication of David's house."
@@ -496,6 +573,7 @@ chapters:
       v:012: 'PSA:29:12 | 12 | 12 | Thou hast turned for me my mourning into joy: thou hast cut my sackcloth, and hast compassed me with gladness:{VS:BR}'
       v:013: 'PSA:29:13 | 13 | 13 | To the end that my glory may sing to thee, and I may not regret: O Lord my God, I will give praise to thee for ever.{VS:VERSE:END}'
   c:030:
+    footnotes: {}
     intro: A prayer of a just man under affliction.
     verses:
       v:001: 'PSA:30:1 | 1 | 1 | Unto the end, a psalm for David, in an ecstasy.'
@@ -524,6 +602,13 @@ chapters:
       v:024: 'PSA:30:24 | 24 | 24 | O love the Lord, all ye his saints: for the Lord will require truth, and will repay them abundantly that act proudly.{VS:BR}'
       v:025: 'PSA:30:25 | 25 | 25 | Do ye manfully, and let your heart be strengthened, all ye that hope in the Lord.{VS:VERSE:END}'
   c:031:
+    footnotes:
+      v:003:
+        - note: 'That is, whilst I kept silence, by concealing, or refusing to confess my sins, thy hand was heavy upon me, etc.</p>'
+          quote: Because I was silent
+      v:004:
+        - note: 'That is, I turn and roll about in my bed to seek for ease in my pain whilst the thorn of thy justice pierces my flesh, and sticks fast in me. Or, I am turned: that is, I am converted to thee, my God, by being brought to a better understanding by thy chastisements. In the Hebrew it is, my moisture is turned into the droughts of the summer.</p>'
+          quote: I am turned
     intro: The second penitential psalm.
     verses:
       v:001: 'PSA:31:1 | 1 | 1 | To David himself, understanding. Blessed are they whose iniquities are forgiven, and whose sins are covered.{VS:BR}'
@@ -538,6 +623,7 @@ chapters:
       v:010: 'PSA:31:10 | 10 | 10 | Many are the scourges of the sinner, but mercy shall encompass him that hopeth in the Lord.{VS:BR}'
       v:011: 'PSA:31:11 | 11 | 11 | Be glad in the Lord, and rejoice, ye just, and glory, all ye right of heart.{VS:VERSE:END}'
   c:032:
+    footnotes: {}
     intro: 'An exhortation to praise God, and to trust in him.'
     verses:
       v:001: 'PSA:32:1 | 1 | 1 | A psalm for David. Rejoice in the Lord, O ye just: praise becometh the upright.{VS:BR}'
@@ -563,6 +649,7 @@ chapters:
       v:021: 'PSA:32:21 | 21 | 21 | For in him our heart shall rejoice: and in his holy name we have trusted.{VS:BR}'
       v:022: 'PSA:32:22 | 22 | 22 | Let thy mercy, O Lord, be upon us, as we have hoped in thee.{VS:VERSE:END}'
   c:033:
+    footnotes: {}
     intro: 'An exhortation to the praise, and service of God.'
     verses:
       v:001: 'PSA:33:1 | 1 | 1 | For David, when he changed his countenance before Achimelech, who dismissed him, and he went his way. [1 Kings 21.]'
@@ -589,6 +676,7 @@ chapters:
       v:022: 'PSA:33:22 | 22 | 22 | The death of the wicked is very evil: and they that hate the just shall be guilty.{VS:BR}'
       v:023: 'PSA:33:23 | 23 | 23 | The Lord will redeem the souls of his servants: and none of them that trust in him shall offend.{VS:VERSE:END}'
   c:034:
+    footnotes: {}
     intro: 'David, in the person of Christ, prayeth against his persecutors: prophetically foreshewing the punishments that shall fall upon them.'
     verses:
       v:001: 'PSA:34:1 | 1 | 1 | For David himself. Judge thou, O Lord, them that wrong me: overthrow them that fight against me.{VS:BR}'
@@ -620,6 +708,10 @@ chapters:
       v:027: 'PSA:34:27 | 27 | 27 | Let them rejoice and be glad, who are well pleased with my justice, and let them say always: The Lord be magnified, who delights in the peace of his servant.{VS:BR}'
       v:028: 'PSA:34:28 | 28 | 28 | And my tongue shall meditate thy justice, thy praise all the day long.{VS:VERSE:END}'
   c:035:
+    footnotes:
+      v:003:
+        - note: 'That is, hateful to God.</p>'
+          quote: Unto hatred
     intro: 'The malice of sinners, and the goodness of God.'
     verses:
       v:001: 'PSA:35:1 | 1 | 1 | Unto the end, for the servant of God, David himself.'
@@ -636,6 +728,7 @@ chapters:
       v:012: 'PSA:35:12 | 12 | 12 | Let not the foot of pride come to me, and let not the hand of the sinner move me.{VS:BR}'
       v:013: 'PSA:35:13 | 13 | 13 | There the workers of iniquity are fallen, they are cast out, and could not stand.{VS:VERSE:END}'
   c:036:
+    footnotes: {}
     intro: An exhortation to despise this world; and the short prosperity of the wicked; and to trust in Providence.
     verses:
       v:001: 'PSA:36:1 | 1 | 1 | Be not emulous of evildoers; nor envy them that work iniquity.{VS:BR}'
@@ -679,6 +772,10 @@ chapters:
       v:039: 'PSA:36:39 | 39 | 39 | But the salvation of the just is from the Lord, and he is their protector in the time of trouble.{VS:BR}'
       v:040: 'PSA:36:40 | 40 | 40 | And the Lord will help them and deliver them: and he will rescue them from the wicked, and save them because they have hoped in him.{VS:VERSE:END}'
   c:037:
+    footnotes:
+      v:001:
+        - note: 'Viz., of our miseries and sins: and to be sung on the sabbath day.</p>'
+          quote: For a remembrance
     intro: A prayer of a penitent for the remission of his sins. The third penitential psalm.
     verses:
       v:001: 'PSA:37:1 | 1 | 1 | A psalm for David, for a remembrance of the sabbath.'
@@ -705,6 +802,7 @@ chapters:
       v:022: 'PSA:37:22 | 22 | 22 | For sake me not, O Lord my God: do not thou depart from me.{VS:BR}'
       v:023: 'PSA:37:23 | 23 | 23 | Attend unto my help, O Lord, the God of my salvation.{VS:VERSE:END}'
   c:038:
+    footnotes: {}
     intro: 'A just man’s peace and patience in his sufferings; considering the vanity of the world, and the providence of God.'
     verses:
       v:001: 'PSA:38:1 | 1 | 1 | Unto the end, for Idithun himself, a canticle of David.'
@@ -722,6 +820,13 @@ chapters:
       v:013: 'PSA:38:13 | 13 | 13 | Hear my prayer, O Lord, and my supplication: give ear to my tears. Be not silent: for I am a stranger with thee, and a sojourner as all my fathers were.{VS:BR}'
       v:014: 'PSA:38:14 | 14 | 14 | O forgive me, that I may be refreshed, before I go hence, and be no more.{VS:VERSE:END}'
   c:039:
+    footnotes:
+      v:013:
+        - note: 'That is, the sins of all mankind, which I have taken upon me.</p>'
+          quote: My iniquities
+      v:016:
+        - note: 'The Hebrew here is an interjection of insult and derision, like the Vah. Matt. 27. 49.</p>'
+          quote: Tis well
     intro: 'Christ’s coming, and redeeming mankind.'
     verses:
       v:001: 'PSA:39:1 | 1 | 1 | Unto the end, a psalm for David himself.'
@@ -743,6 +848,7 @@ chapters:
       v:017: 'PSA:39:17 | 17 | 17 | Let all that seek thee rejoice and be glad in thee: and let such as love thy salvation say always: The Lord be magnified.{VS:BR}'
       v:018: 'PSA:39:18 | 18 | 18 | But I am a beggar and poor: the Lord is careful for me. Thou art my helper and my protector: O my God, be not slack.{VS:VERSE:END}'
   c:040:
+    footnotes: {}
     intro: 'The happiness of him that shall believe in Christ; notwithstanding the humility and poverty in which he shall come: the malice of his enemies, especially of the traitor Judas.'
     verses:
       v:001: 'PSA:40:1 | 1 | 1 | Unto the end, a psalm for David himself.'
@@ -760,6 +866,7 @@ chapters:
       v:013: 'PSA:40:13 | 13 | 13 | But thou hast upheld me by reason of my innocence: and hast established me in thy sight for ever.{VS:BR}'
       v:014: 'PSA:40:14 | 14 | 14 | Blessed be the Lord the God of Israel from eternity to eternity. So be it. So be it.{VS:VERSE:END}'
   c:041:
+    footnotes: {}
     intro: 'The fervent desire of the just after God: hope in afflictions.'
     verses:
       v:001: 'PSA:41:1 | 1 | 1 | Unto the end, understanding for the sons of Core.'
@@ -775,6 +882,7 @@ chapters:
       v:011: 'PSA:41:11 | 11 | 11 | Whilst my bones are broken, my enemies who trouble me have reproached me; Whilst they say to me day by day: Where is thy God?{VS:BR}'
       v:012: 'PSA:41:12 | 12 | 12 | Why art thou cast down, O my soul? and why dost thou disquiet me? Hope thou in God, for I will still give praise to him: the salvation of my countenance, and my God.{VS:VERSE:END}'
   c:042:
+    footnotes: {}
     intro: The prophet aspireth after the temple and altar of God.
     verses:
       v:001: 'PSA:42:1 | 1 | 1 | A psalm for David. Judge me, O God, and distinguish my cause from the nation that is not holy: deliver me from the unjust and deceitful man.{VS:BR}'
@@ -784,6 +892,7 @@ chapters:
       v:005: 'PSA:42:5 | 5 | 5 | To thee, O God my God, I will give praise upon the harp: why art thou sad, O my soul? and why dost thou disquiet me?{VS:VERSE:END}'
       v:006: 'PSA:42:6 | 6 | 6 | Hope in God, for I will still give praise to him: the salvation of my countenance, and my God.'
   c:043:
+    footnotes: {}
     intro: 'The church commemorates former favours, and present afflictions; under which she prays for succour.'
     verses:
       v:001: 'PSA:43:1 | 1 | 1 | Unto the end, for the sons of Core, to give understanding.'
@@ -813,6 +922,12 @@ chapters:
       v:025: 'PSA:43:25 | 25 | 25 | For our soul is humbled down to the dust: our belly cleaveth to the earth.{VS:BR}'
       v:026: "PSA:43:26 | 26 | 26 | Arise, O Lord, help us and redeem us for thy name's sake.{VS:VERSE:END}"
   c:044:
+    footnotes:
+      v:001:
+        - note: 'i. e., for souls happily changed, by being converted to God.-- Ibid.</p>'
+          quote: For them that shall be changed
+        - note: 'Viz., Our Lord Jesus Christ.</p>'
+          quote: The Beloved
     intro: 'The excellence of Christ’s kingdom, and the endowments of his church.'
     verses:
       v:001: 'PSA:44:1 | 1 | 1 | Unto the end, for them that shall be changed, for the sons of Core, for understanding. A canticle for the Beloved.'
@@ -834,6 +949,7 @@ chapters:
       v:017: 'PSA:44:17 | 17 | 17 | Instead of thy fathers, sons are born to thee: thou shalt make them princes over all the earth.{VS:BR}'
       v:018: 'PSA:44:18 | 18 | 18 | They shall remember thy name throughout all generations. Therefore shall people praise thee for ever; yea, for ever and ever.{VS:VERSE:END}'
   c:045:
+    footnotes: {}
     intro: The church in persecution trusteth in the protection of God.
     verses:
       v:001: 'PSA:45:1 | 1 | 1 | Unto the end, for the sons of Core, for the hidden.'
@@ -849,6 +965,7 @@ chapters:
       v:011: 'PSA:45:11 | 11 | 11 | Be still and see that I am God; I will be exalted among the nations, and I will be exalted in the earth.{VS:BR}'
       v:012: 'PSA:45:12 | 12 | 12 | The Lord of armies is with us: the God of Jacob is our protector.{VS:VERSE:END}'
   c:046:
+    footnotes: {}
     intro: The Gentiles are invited to praise God for the establishment of the kingdom of Christ.
     verses:
       v:001: 'PSA:46:1 | 1 | 1 | Unto the end, for the sons of Core.'
@@ -862,6 +979,7 @@ chapters:
       v:009: 'PSA:46:9 | 9 | 9 | God shall reign over the nations: God sitteth on his holy throne.{VS:BR}'
       v:010: 'PSA:46:10 | 10 | 10 | The princes of the people are gathered together, with the God of Abraham: for the strong gods of the earth are exceedingly exalted.{VS:VERSE:END}'
   c:047:
+    footnotes: {}
     intro: God is greatly to be praised for the establishment of his church.
     verses:
       v:001: 'PSA:47:1 | 1 | 1 | A psalm of a canticle, for the sons of Core, on the second day of the week.'
@@ -880,6 +998,30 @@ chapters:
       v:014: 'PSA:47:14 | 14 | 14 | Set your hearts on her strength; and distribute her houses, that ye may relate it in another generation.{VS:BR}'
       v:015: 'PSA:47:15 | 15 | 15 | For this is God, our God unto eternity, and for ever and ever: he shall rule us for evermore.{VS:VERSE:END}'
   c:048:
+    footnotes:
+      v:006:
+        - note: 'That is, the iniquity of my steps or ways: or the iniquity of my pride, with which as with the heel, I have spurned and kicked at my neighbours: or the iniquity of my heel, that is, the iniquity in which I shall be found in death. The meaning of this verse is, Why should I now indulge those passions and sinful affections, or commit now those sins, which will cause me so much fear and anguish in the evil day; when the sorrows of death shall compass me, and the perils of hell shall find me?</p>'
+          quote: The iniquity of my heel
+      v:007:
+        - note: 'As much as to say, let them fear that trust in their strength or riches: for they have great reason to fear: seeing no brother or other man, how much a friend soever, can by any price or labour rescue them from death.</p>'
+          quote: They that trust
+      v:009:
+        - note: 'This seems to be a continuation of the foregoing sentence: as much as to say no man can by any price or ransom prolong his life, that so he may still continue to labour here, and live to the end of the world. Others understand it of the eternal sorrows, and dying life of hell, which is the dreadful consequence of dying in sin.</p>'
+          quote: And shall labour for ever
+      v:011:
+        - note: 'Or, shall he not see destruction? As much as to say, however thoughtless he may be of his death, he must not expect to escape; when even the wise and the good are not exempt from dying.</p>'
+          quote: He shall not see destruction
+      v:012:
+        - note: 'That is, they have left their names on their graves, which alone remain of their lands.</p>'
+          quote: They have called
+      v:014:
+        - note: 'Notwithstanding the wretched way in which they walk, they shall applaud themselves with their mouths, and glory in their doings.</p>'
+          quote: They shall delight in their mouth
+      v:015:
+        - note: 'That is, in the resurrection to a new life; when the just shall judge and condemn the wicked. Ibid.</p>'
+          quote: In the morning
+        - note: 'That is, when their short-lived glory in this world shall be past, and be no more.</p>'
+          quote: From their glory
     intro: 'The folly of worldlings, who live on in sin, without thinking of death or hell.'
     verses:
       v:001: 'PSA:48:1 | 1 | 1 | Unto the end, a psalm for the sons of Core.'
@@ -904,6 +1046,7 @@ chapters:
       v:020: 'PSA:48:20 | 20 | 20 | He shall go in to the generations of his fathers: and he shall never see light.{VS:BR}'
       v:021: 'PSA:48:21 | 21 | 21 | Man when he was in honour did not understand: he hath been compared to senseless beasts, and made like to them.{VS:VERSE:END}'
   c:049:
+    footnotes: {}
     intro: 'The coming of Christ: who prefers virtue and inward purity before the blood of victims.'
     verses:
       v:001: 'PSA:49:1 | 1 | 1 | A psalm for Asaph. The God of gods, the Lord hath spoken: and he hath called the earth. From the rising of the sun, to the going down thereof:{VS:BR}'
@@ -930,6 +1073,7 @@ chapters:
       v:022: 'PSA:49:22 | 22 | 22 | Understand these things, you that forget God; lest he snatch you away, and there be none to deliver you.{VS:BR}'
       v:023: 'PSA:49:23 | 23 | 23 | The sacrifice of praise shall glorify me: and there is the way by which I will shew him the salvation of God.{VS:VERSE:END}'
   c:050:
+    footnotes: {}
     intro: The repentance and confession of David after his sin. The fourth penitential psalm.
     verses:
       v:001: 'PSA:50:1 | 1 | 1 | Unto the end, a psalm of David,'
@@ -954,6 +1098,7 @@ chapters:
       v:020: 'PSA:50:20 | 20 | 20 | Deal favourably, O Lord, in thy good will with Sion; that the walls of Jerusalem may be built up.{VS:BR}'
       v:021: 'PSA:50:21 | 21 | 21 | Then shalt thou accept the sacrifice of justice, oblations and whole burnt offerings: then shall they lay calves upon thy altar.{VS:VERSE:END}'
   c:051:
+    footnotes: {}
     intro: 'David condemneth the wickedness of Doeg, and foretelleth his destruction.'
     verses:
       v:001: 'PSA:51:1 | 1 | 1 | Unto the end, understanding for David,'
@@ -968,6 +1113,13 @@ chapters:
       v:010: 'PSA:51:10 | 10 | 10 | But I, as a fruitful olive tree in the house of God, have hoped in the mercy of God for ever, yea for ever and ever.{VS:BR}'
       v:011: 'PSA:51:11 | 11 | 11 | I will praise thee for ever, because thou hast done it: and I will wait on thy name, for it is good in the sight of thy saints.{VS:VERSE:END}'
   c:052:
+    footnotes:
+      v:001:
+        - note: 'Or Machalath. A musical instrument, or a chorus of musicians, for St. Jerome renders it, per chorum.</p>'
+          quote: Maeleth
+      v:006:
+        - note: 'That is, God has brought to nothing the strength of all those that seek to please men, to the prejudice of their duty to their Maker.</p>'
+          quote: God hath scattered the bones
     intro: The general corruption of man before the coming of Christ.
     verses:
       v:001: 'PSA:52:1 | 1 | 1 | Unto the end, for Maeleth, understandings to David. The fool said in his heart: There is no God.{VS:BR}'
@@ -978,6 +1130,7 @@ chapters:
       v:006: 'PSA:52:6 | 6 | 6 | They have not called upon God: there have they trembled for fear, where there was no fear. for God hath scattered the bones of them that please men: they have been confounded, because God hath despised them.{VS:BR}'
       v:007: 'PSA:52:7 | 7 | 7 | Who will give out of Sion the salvation of Israel? when God shall bring back the captivity of his people, Jacob shall rejoice, and Israel shall be glad.{VS:VERSE:END}'
   c:053:
+    footnotes: {}
     intro: A prayer for help in distress.
     verses:
       v:001: 'PSA:53:1 | 1 | 1 | Unto the end, in verses, understanding for David.'
@@ -990,6 +1143,16 @@ chapters:
       v:008: 'PSA:53:8 | 8 | 8 | I will freely sacrifice to thee, and will give praise, O God, to thy name: because it is good:{VS:BR}'
       v:009: 'PSA:53:9 | 9 | 9 | For thou hast delivered me out of all trouble: and my eye hath looked down upon my enemies.{VS:VERSE:END}'
   c:054:
+    footnotes:
+      v:016:
+        - note: 'This, and such like imprecations which occur in the psalms, are delivered prophetically; that is, by way of foretelling the punishments which shall fall upon the wicked from divine justice, and approving the righteous ways of God: but not by way of ill will, or uncharitable curses, which the law of God disallows.</p>'
+          quote: Let death
+      v:019:
+        - note: 'That is, they that drew near to attack me were many in company all combined to fight against me.</p>'
+          quote: Among many
+      v:022:
+        - note: 'Dispersed, scattered, and brought to nothing, by the wrath of God; who looks with indignation on their wicked and deceitful ways.</p>'
+          quote: They are divided
     intro: 'A prayer of a just man under persecution from the wicked. It agrees to Christ persecuted by the Jews, and betrayed by Judas.'
     verses:
       v:001: 'PSA:54:1 | 1 | 1 | Unto the end, in verses, understanding for David.'
@@ -1017,6 +1180,16 @@ chapters:
       v:023: 'PSA:54:23 | 23 | 23 | Cast thy care upon the Lord, and he shall sustain thee: he shall not suffer the just to waver for ever.{VS:BR}'
       v:024: 'PSA:54:24 | 24 | 24 | But thou, O God, shalt bring them down into the pit of destruction. Bloody and deceitful men shall not live out half their days; but I will trust in thee, O Lord.{VS:VERSE:END}'
   c:055:
+    footnotes:
+      v:004:
+        - note: 'That is, even at noonday, when the sun is the highest, I am still in danger.</p>'
+          quote: The height of the day
+      v:005:
+        - note: 'The words or promises God has made in my favour.</p>'
+          quote: My words
+      v:008:
+        - note: 'That is, since they lie in wait to ruin my soul, thou shalt for no consideration favour or assist them, but execute thy justice upon them.</p>'
+          quote: For nothing shalt thou save them
     intro: A prayer of David in danger and distress.
     verses:
       v:001: 'PSA:55:1 | 1 | 1 | Unto the end, for a people that is removed at a distance form the sanctuary: for David, for an inscription of a title (or pillar) when the Philistines held him in Geth.'
@@ -1033,6 +1206,10 @@ chapters:
       v:012: 'PSA:55:12 | 12 | 12 | In me, O God, are vows to thee, which I will pay, praises to thee:{VS:BR}'
       v:013: 'PSA:55:13 | 13 | 13 | Because thou hast delivered my soul from death, my feet from falling: that I may please in the sight of God, in the light of the living.{VS:VERSE:END}'
   c:056:
+    footnotes:
+      v:001:
+        - note: 'Suffer me not to be destroyed.</p>'
+          quote: Destroy not
     intro: 'Miserere mei, Deus. The prophet prays in his affliction, and praises God for his delivery.'
     verses:
       v:001: 'PSA:56:1 | 1 | 1 | Unto the end, destroy not, for David, for an inscription of a title, when he fled from Saul into the cave. [1 Kings 24.]'
@@ -1048,6 +1225,13 @@ chapters:
       v:011: 'PSA:56:11 | 11 | 11 | For thy mercy is magnified even to the heavens: and thy truth unto the clouds.{VS:BR}'
       v:012: 'PSA:56:12 | 12 | 12 | Be thou exalted, O God, above the heavens: and thy glory above all the earth.{VS:VERSE:END}'
   c:057:
+    footnotes:
+      v:010:
+        - note: 'That is, before your thorns grow up, so as to become strong briers, they shall be overtaken and consumed by divine justice, swallowing them up, as it were, alive in his wrath.</p>'
+          quote: Before your thorns
+      v:011:
+        - note: 'Shall applaud the justice of God, and take occasion from the consideration of the punishment of the wicked to wash and cleanse his hands from sin.</p>'
+          quote: Shall wash his hands
     intro: 'David reproveth the wicked, and foretelleth their punishment.'
     verses:
       v:001: 'PSA:57:1 | 1 | 1 | Unto the end, destroy not, for David, for an inscription of a title.'
@@ -1063,6 +1247,7 @@ chapters:
       v:011: 'PSA:57:11 | 11 | 11 | The just shall rejoice when he shall see the revenge: he shall wash his hands in the blood of the sinner.{VS:BR}'
       v:012: 'PSA:57:12 | 12 | 12 | And man shall say: If indeed there be fruit to the just: there is indeed a God that judgeth them on the earth.{VS:VERSE:END}'
   c:058:
+    footnotes: {}
     intro: 'A prayer to be delivered from the wicked, with confidence in God’s help and protection. It agrees to Christ and his enemies the Jews.'
     verses:
       v:001: 'PSA:58:1 | 1 | 1 | Unto the end, destroy not, for David for an inscription of a title, when Saul sent and watched his house to kill him. [1 Kings 19.]'
@@ -1084,6 +1269,12 @@ chapters:
       v:017: 'PSA:58:17 | 17 | 17 | But I will sing thy strength: and will extol thy mercy in the morning. for thou art become my support, and my refuge, in the day of my trouble.{VS:BR}'
       v:018: 'PSA:58:18 | 18 | 18 | Unto thee, O my helper, will I sing, for thou art God my defence: my God my mercy.{VS:VERSE:END}'
   c:059:
+    footnotes:
+      v:010:
+        - note: 'Or my watering pot. That is, a vessel for meaner uses, by being reduced to serve me, even in the meanest employments.-- Ibid.</p>'
+          quote: The pot of my hope
+        - note: 'So the Philistines are called, who had no kindred with the Israelites; whereas the Edomites, Moabites, etc., were originally of the same family.</p>'
+          quote: Foreigners
     intro: 'After many afflictions, the church of Christ shall prevail.'
     verses:
       v:001: 'PSA:59:1 | 1 | 1 | Unto the end, for them that shall be changed, for the inscription of a title, to David himself, for doctrine,'
@@ -1101,6 +1292,7 @@ chapters:
       v:013: 'PSA:59:13 | 13 | 13 | Give us help from trouble: for vain is the salvation of man.{VS:BR}'
       v:014: 'PSA:59:14 | 14 | 14 | Through God we shall do mightily: and he shall bring to nothing them that afflict us.{VS:VERSE:END}'
   c:060:
+    footnotes: {}
     intro: 'A prayer for the coming of the kingdom of Christ, which shall have no end.'
     verses:
       v:001: 'PSA:60:1 | 1 | 1 | Unto the end, in hymns, for David.'
@@ -1113,6 +1305,10 @@ chapters:
       v:008: 'PSA:60:8 | 8 | 8 | He abideth for ever in the sight of God: his mercy and truth who shall search?{VS:BR}'
       v:009: 'PSA:60:9 | 9 | 9 | So will I sing a psalm to thy name for ever and ever: that I may pay my vows from day to day.{VS:VERSE:END}'
   c:061:
+    footnotes:
+      v:010:
+        - note: 'They are so vain and light, that if they are put into the scales, they will be found to be of no weight; and to be mere lies, deceit, and vanity. Or, They are liars in their balances, by weighing things by false weights, and preferring the temporal before the eternal.</p>'
+          quote: Are liars in the balances
     intro: 'The prophet encourageth himself and all others to trust in God, and serve him.'
     verses:
       v:001: 'PSA:61:1 | 1 | 1 | Unto the end, for Idithun, a psalm of David.'
@@ -1129,6 +1325,7 @@ chapters:
       v:012: 'PSA:61:12 | 12 | 12 | God hath spoken once, these two things have I heard, that power belongeth to God,'
       v:013: 'PSA:61:13 | 13 | 13 | And mercy to thee, O Lord; for thou wilt render to every man according to his works.{VS:VERSE:END}'
   c:062:
+    footnotes: {}
     intro: The prophet aspireth after God.
     verses:
       v:001: PSA:62:1 | 1 | 1 | A psalm of David while he was in the desert of Edom.
@@ -1144,6 +1341,13 @@ chapters:
       v:011: 'PSA:62:11 | 11 | 11 | They shall be delivered into the hands of the sword, they shall be the portions of foxes.{VS:BR}'
       v:012: 'PSA:62:12 | 12 | 12 | But the king shall rejoice in God, all they shall be praised that swear by him: because the mouth is stopped of them that speak wicked things.{VS:VERSE:END}'
   c:063:
+    footnotes:
+      v:007:
+        - note: 'That is, crafty, subtle, deep projects and designs; which nevertheless shall not succeed; for God shall be exalted in bringing them to nought by his wisdom and power.</p>'
+          quote: A deep heart
+      v:008:
+        - note: "That is, the wounds, stripes, or blows, they seek to inflict upon the just, are but like the weak efforts of children's arrows, which can do no execution: and their tongues, that is, their speeches against them come to nothing.</p>"
+          quote: The arrows of children are their wounds
     intro: 'A prayer in affliction, with confidence in God that he will bring to nought the machinations of persecutors.'
     verses:
       v:001: 'PSA:63:1 | 1 | 1 | Unto the end, a psalm for David.'
@@ -1158,6 +1362,10 @@ chapters:
       v:010: 'PSA:63:10 | 10 | 10 | And every man was afraid. And they declared the works of God, and understood his doings.{VS:BR}'
       v:011: 'PSA:63:11 | 11 | 11 | The just shall rejoice in the Lord, and shall hope in him: and all the upright in heart shall be praised.{VS:VERSE:END}'
   c:064:
+    footnotes:
+      v:001:
+        - note: 'That is, the people of the captivity of Babylon. This is not in the Hebrew, but is found in the ancient translation of the Septuagint.</p>'
+          quote: Of the captivity
     intro: 'God is to be praised in his church, to which all nations shall be called.'
     verses:
       v:001: 'PSA:64:1 | 1 | 1 | To the end, a psalm of David. The canticle of Jeremias and Ezechiel to the people of the captivity, when they began to go out.'
@@ -1175,6 +1383,7 @@ chapters:
       v:013: 'PSA:64:13 | 13 | 13 | The beautiful places of the wilderness shall grow fat: and the hills shall be girded about with joy,{VS:BR}'
       v:014: 'PSA:64:14 | 14 | 14 | The rams of the flock are clothed, and the vales shall abound with corn: they shall shout, yea they shall sing a hymn.{VS:VERSE:END}'
   c:065:
+    footnotes: {}
     intro: An invitation to praise God.
     verses:
       v:001: 'PSA:65:1 | 1 | 1 | Unto the end, a canticle of a psalm of the resurrection. Shout with joy to God, all the earth,{VS:BR}'
@@ -1198,6 +1407,7 @@ chapters:
       v:019: 'PSA:65:19 | 19 | 19 | Therefore hath God heard me, and hath attended to the voice of my supplication.{VS:BR}'
       v:020: 'PSA:65:20 | 20 | 20 | Blessed be God, who hath not turned away my prayer, nor his mercy from me.{VS:VERSE:END}'
   c:066:
+    footnotes: {}
     intro: A prayer for the propagation of the church.
     verses:
       v:001: 'PSA:66:1 | 1 | 1 | Unto the end, in hymns, a psalm of a canticle for David.'
@@ -1209,6 +1419,74 @@ chapters:
       v:007: 'PSA:66:7 | 7 | 7 | The earth hath yielded her fruit. May God, our God bless us,{VS:BR}'
       v:008: 'PSA:66:8 | 8 | 8 | May God bless us: and all the ends of the earth fear him.{VS:VERSE:END}'
   c:067:
+    footnotes:
+      v:005:
+        - note: 'Super occasum. St. Gregory understands it of Christ, who after his going down, like the sun, in the west, by his passion and death, ascended more glorious, and carried all before him. St. Jerome renders it, who ascendeth, or cometh up, through the deserts.</p>'
+          quote: Who ascendeth upon the west
+      v:007:
+        - note: 'That is, agreeing in faith, unanimous in love, and following the same manner of discipline. It is verified in the servants of God, living together in his house, which is the church. 1 Tim. 3. 15.-- Ibid.</p>'
+          quote: Of one manner
+        - note: 'The power and mercy of God appears in his bringing out of their captivity those that were strongly bound in their sins: and in restoring to his grace those whose behaviour had been most provoking; and who by their evil habits were not only dead, but buried in their sepulchres.</p>'
+          quote: Them that were bound
+      v:010:
+        - note: "the manna, which rained plentifully from heaven, in favour of God's inheritance, that is, of his people Israel: which was weakened indeed under a variety of afflictions, but was made perfect by God; that is, was still supported by divine providence, and brought on to the promised land. It agrees particularly to the church of Christ his true inheritance, which is plentifully watered with the free rain of heavenly grace; and through many infirmities, that is, crosses and tribulations, is made perfect, and fitted for eternal glory.</p>"
+          quote: A free rain
+      v:011:
+        - note: 'That is, in this church, which is thy fold and thy inheritance, shall thy animals, thy sheep, dwell: where thou hast plentifully provided for them.</p>'
+          quote: In it
+      v:012:
+        - note: 'Evangelizantibus. That is, to the preachers of the gospel; who receiving the word from the Lord, shall with great power and efficacy preach throughout the world the glad tidings of a Saviour, and of eternal salvation through him.</p>'
+          quote: To them that preach good tidings
+      v:013:
+        - note: 'That is, the mighty King, the Lord of hosts, is of the beloved, of the beloved; that is, is on the side of Christ, his most beloved son: and his beautiful house, viz., the church, in which God dwells forever, shall by her spiritual conquests divide the spoils of many nations. The Hebrew (as it now stands pointed) is thus rendered, The kings of armies have fled, they have fled, and she that dwells at home (or the beauty of the house) shall divide the spoils.</p>'
+          quote: The king of powers
+      v:014:
+        - note: '(intermedios cleros), Viz., in such dangers and persecutions, as if your enemies were casting lots for your goods and persons: or in the midst of the lots, (intermedios terminos, as St. Jerome renders it,) that is, upon the very bounds or borders of the dominions of your enemies: you shall be secure nevertheless under the divine protection; and shall be enabled to fly away, like a dove, with glittering wings and feathers shining like the palest and most precious gold; that is, with great increase of virtue, and glowing with the fervour of charity.</p>'
+          quote: If you sleep among the midst of lots
+      v:015:
+        - note: 'That is, pastors and rulers over his church, viz., the apostles and their successors. Then by their ministry shall men be made whiter than the snow which lies on the top of the high mountain Selmon.</p>'
+          quote: Kings over her
+      v:016:
+        - note: 'The church, which, Isa. 2. 2, is called The mountain of the house of the Lord upon the top of mountains. It is here called a fat and a curdled mountain; that is to say, most fruitful, and enriched by the spiritual gifts and graces of the Holy Ghost.</p>'
+          quote: The mountain of God
+      v:017:
+        - note: 'Why do you suppose or imagine there may be any other such curdled mountains? You are mistaken: the mountain thus favoured by God is but one; and this same he has chosen for his dwelling for ever.</p>'
+          quote: 'Why suspect, ye curdled mountains?'
+      v:018:
+        - note: 'Descending to give his law on mount Sina: as also of Jesus Christ his Son, ascending into heaven, to send from thence the Holy Ghost, to publish his new law, is attended with ten thousands, that is, with an innumerable multitude of joyful angels.</p>'
+          quote: The chariot of God
+      v:019:
+        - note: 'Carrying away with thee to heaven those who before had been the captives of Satan; and receiving from God the Father gifts to be distributed to men; even to those who were before unbelievers.</p>'
+          quote: Led captivity captive
+      v:021:
+        - note: 'The Lord alone is master of the issues, by which we may escape from death.</p>'
+          quote: The issues from death
+      v:023:
+        - note: 'I will cast out my enemies from their rich possessions, signified by Basan, a fruitful country; and I will drive them into the depth of the sea: and make such a slaughter of them, that the feet of my servants may be dyed in their blood, etc.</p>'
+          quote: I will turn them from Basan
+      v:025:
+        - note: 'Thy ways, thy proceedings, by which thou didst formerly take possession of the promised land in favour of thy people; and shalt afterwards of the whole world, which thou shalt subdue to thy Son.</p>'
+          quote: Thy goings
+      v:026:
+        - note: 'The apostles, the first converters of nations; attended by numbers of perfect souls, singing the divine praises, and virgins consecrated to God.</p>'
+          quote: Princes
+      v:027:
+        - note: 'From whom both Christ and his apostles sprung. By Benjamin, the holy fathers on this place understand St. Paul, who was of that tribe, named here a youth, because he was the last called to the apostleship. By the princes of Juda, Zabulon, and Nephthali, we may understand the other apostles, who were of the tribe of Juda; or of the tribes of Zabulon, and Nephthali, where our Lord began to preach, Matt. 4. 13, etc.</p>'
+          quote: From the fountains of Israel
+      v:029:
+        - note: 'Give orders that thy strength may be always with us.</p>'
+          quote: Command thy strength
+      v:031:
+        - note: 'or the wild beasts, which lie hid in the reeds. That is, the devils, who hide themselves in order to surprise their prey. Or by wild beasts, are here understood persecutors, who, for all their attempts against the Church, are but as weak reeds, which cannot prevail against them who are supported by the strength of the Almighty. The same are also called the congregation of bulls (from their rage against the Church) who assemble together all their kine, that is, the people their subjects, to exclude if they can, from Christ and his inheritance, his constant confessors, who are like silver tried by fire.</p>'
+          quote: Rebuke the wild beasts of the reeds
+      v:032:
+        - note: 'It is a prophecy of the conversion of the Gentiles, and by name of the Egyptians and Ethiopians.</p>'
+          quote: Ambassadors shall come
+      v:034:
+        - note: 'From mount Olivet, which is on the east side of Jerusalem.-- Ibid.</p>'
+          quote: To the east
+        - note: 'That is, he will make his voice to be a powerful voice: by calling from death to life, such as were dead in mortal sin: as at the last day he will by the power of his voice call all the dead from their graves.</p>'
+          quote: The voice of power
     intro: 'The glorious establishment of the church of the New Testament, prefigured by the benefits bestowed on the people of Israel.'
     verses:
       v:001: 'PSA:67:1 | 1 | 1 | Unto the end, a psalm of a canticle for David himself.'
@@ -1248,6 +1526,25 @@ chapters:
       v:035: 'PSA:67:35 | 35 | 35 | Give ye glory to God for Israel, his magnificence, and his power is in the clouds.{VS:BR}'
       v:036: 'PSA:67:36 | 36 | 36 | God is wonderful in his saints: the God of Israel is he who will give power and strength to his people. Blessed be God.{VS:VERSE:END}'
   c:068:
+    footnotes:
+      v:001:
+        - note: 'A psalm for Christian converts, to remember the passion of Christ.</p>'
+          quote: For them that shall be changed
+      v:002:
+        - note: 'Of afflictions and sorrows. My soul is sorrowful even unto death. Matt. 26. 38.</p>'
+          quote: The waters
+      v:005:
+        - note: 'Christ in his passion made restitution of what he had not taken away, by suffering the punishment due to our sins, and so repairing the injury we had done to God.</p>'
+          quote: I pay that which I took not away
+      v:006:
+        - note: 'which my enemies impute to me: or the follies and sins of men, which I have taken upon myself.</p>'
+          quote: My foolishness and my offences
+      v:023:
+        - note: 'What here follows in the style of an imprecation, is a prophecy of the wretched state to which the Jews should be reduced in punishment of their wilful obstinacy.</p>'
+          quote: Let their table
+      v:036:
+        - note: 'The catholic church. The cities of Juda, etc., her places of worship, which shall be established throughout the world. And there, viz., in this church of Christ, shall his servants dwell, etc.</p>'
+          quote: Sion
     intro: 'Christ in his passion declareth the greatness of his sufferings, and the malice of his persecutors the Jews; and foretelleth their reprobation.'
     verses:
       v:001: 'PSA:68:1 | 1 | 1 | Unto the end, for them that shall be changed; for David.'
@@ -1288,6 +1585,10 @@ chapters:
       v:036: 'PSA:68:36 | 36 | 36 | For God will save Sion, and the cities of Juda shall be built up. And they shall dwell there, and acquire it by inheritance.{VS:BR}'
       v:037: 'PSA:68:37 | 37 | 37 | And the seed of his servants shall possess it; and they that love his name shall dwell therein.{VS:VERSE:END}'
   c:069:
+    footnotes:
+      v:004:
+        - note: 'Euge, euge. St. Jerome renders it, vah, vah! which is the voice of one insulting and deriding. Some understand it as a detestation of deceitful flatterers.</p>'
+          quote: 'Tis well, tis well'
     intro: A prayer in persecution.
     verses:
       v:001: 'PSA:69:1 | 1 | 1 | Unto the end, a psalm for David, to bring to remembrance that the Lord saved him.'
@@ -1297,6 +1598,13 @@ chapters:
       v:005: 'PSA:69:5 | 5 | 5 | Let all that seek thee rejoice and be glad in thee; and let such as love thy salvation say always: The Lord be magnified.{VS:BR}'
       v:006: 'PSA:69:6 | 6 | 6 | But I am needy and poor; O God, help me. Thou art my helper and my deliverer: O lord, make no delay.{VS:VERSE:END}'
   c:070:
+    footnotes:
+      v:001:
+        - note: 'The Rechabites, of whom see Jer. 35. By this addition of the seventy-two interpreters, we gather that this psalm was usually sung in the synagogue, in the person of the Rechabites, and of those who were first carried away into captivity.</p>'
+          quote: Of the sons of Jonadab
+      v:015:
+        - note: 'As much as to say, I build not upon human learning, but only on the power and justice of God.</p>'
+          quote: Learning
     intro: A prayer for perseverance.
     verses:
       v:001: 'PSA:70:1 | 1 | 1 | A psalm for David. Of the sons of Jonadab, and the former captives. In thee, O Lord, I have hoped, let me never be put to confusion:{VS:BR}'
@@ -1324,6 +1632,13 @@ chapters:
       v:023: 'PSA:70:23 | 23 | 23 | My lips shall greatly rejoice, when I shall sing to thee; and my soul which thou hast redeemed.{VS:BR}'
       v:024: 'PSA:70:24 | 24 | 24 | Yea and my tongue shall meditate on thy justice all the day; when they shall be confounded and put to shame that seek evils to me.{VS:VERSE:END}'
   c:071:
+    footnotes:
+      v:016:
+        - note: 'This may be understood of the church of Christ, ever firm and visible: and of the flourishing condition of its congregation.</p>'
+          quote: A firmament on the earth
+      v:020:
+        - note: 'By this it appears that this psalm, though placed here, was in order of time the last of those which David composed.</p>'
+          quote: Are ended
     intro: 'A prophecy of the coming of Christ, and of his kingdom: prefigured by Solomon and his happy reign.'
     verses:
       v:001: PSA:71:1 | 1 | 1 | A psalm on Solomon.
@@ -1347,6 +1662,19 @@ chapters:
       v:019: 'PSA:71:19 | 19 | 19 | And blessed be the name of his majesty for ever: and the whole earth shall be filled with his majesty. So be it. So be it.{VS:VERSE:END}'
       v:020: 'PSA:71:20 | 20 | 20 | The praises of David, the son of Jesse, are ended.'
   c:072:
+    footnotes:
+      v:007:
+        - note: 'Abundance and temporal prosperity, which hath encouraged them in their iniquity: and made them give themselves up to their irregular affections.</p>'
+          quote: Fatness
+      v:010:
+        - note: 'or hither. The weak among the servants of God, will be apt often to return to this thought, and will be shocked when they consider the full days, that is, the long and prosperous life of the wicked; and will be tempted to make the reflections against providence which are set down in the following verses.</p>'
+          quote: Return here
+      v:015:
+        - note: 'That is, if I should indulge such thoughts as these.</p>'
+          quote: If I said
+      v:018:
+        - note: 'In punishment of their deceits, or for deceiving them, thou hast brought evils upon them in their last end, which, in their prosperity they never apprehended.</p>'
+          quote: Thou hast put it to them
     intro: 'The temptation of the weak, upon seeing the prosperity of the wicked, is overcome by the consideration of the justice of God, who will quickly render to every one according to his works.'
     verses:
       v:001: 'PSA:72:1 | 1 | 1 | A psalm for Asaph. How good is God to Israel, to them that are of a right heart!{VS:BR}'
@@ -1378,6 +1706,19 @@ chapters:
       v:027: 'PSA:72:27 | 27 | 27 | For behold they that go far from thee shall perish: thou hast destroyed all them that are disloyal to thee.{VS:BR}'
       v:028: 'PSA:72:28 | 28 | 28 | But it is good for me to adhere to my God, to put my hope in the Lord God: That I may declare all thy praises, in the gates of the daughter of Sion.{VS:VERSE:END}'
   c:073:
+    footnotes:
+      v:004:
+        - note: 'They have fixed their colours for signs and trophies, both on the gates, and on the highest top of the temple: and they knew not, that is, they regarded not the sanctity of the place. This psalm manifestly foretells the time of the Machabees, and the profanation of the temple by Antiochus.</p>'
+          quote: Their ensigns
+      v:013:
+        - note: 'By making the waters of the Red Sea stand like firm walls, whilst Israel passed through: and destroying the Egyptians called here dragons from their cruelty, in the same waters, with their king: casting up their bodies on the shore to be stripped by the Ethiopians inhabiting in those days the coast of Arabia.</p>'
+          quote: The sea firm
+      v:015:
+        - note: 'That is, rivers which run with strong streams. This was verified in Jordan, Jos. 3, and in Arnon, Num. 21. 14.</p>'
+          quote: Ethan rivers
+      v:020:
+        - note: 'Mean and ignoble wretches have been filled, that is, enriched, with houses of iniquity, that is, with our estates and possessions, which they have unjustly acquired.</p>'
+          quote: The obscure of the earth
     intro: A prayer of the church under grievous persecutions.
     verses:
       v:001: 'PSA:73:1 | 1 | 1 | Understanding for Asaph. O God, why hast thou cast us off unto the end: why is thy wrath enkindled against the sheep of thy pasture?{VS:BR}'
@@ -1404,6 +1745,13 @@ chapters:
       v:022: 'PSA:73:22 | 22 | 22 | Arise, O God, judge thy own cause: remember thy reproaches with which the foolish man hath reproached thee all the day.{VS:BR}'
       v:023: 'PSA:73:23 | 23 | 23 | Forget not the voices of thy enemies: the pride of them that hate thee ascendeth continually.{VS:VERSE:END}'
   c:074:
+    footnotes:
+      v:001:
+        - note: 'It is believed to have been the beginning of some ode or hymn, to the tune of which this psalm was to be sung. St. Augustine and other fathers take it to be an admonition of the spirit of God, not to faint or fail in our hope: but to persevere with constancy in good: because God will not fail in his due time to render to every man according to his works.</p>'
+          quote: Corrupt not
+      v:003:
+        - note: 'In proper times: particularly at the last day, when the earth shall melt away at the presence of the great Judge: the same who originally laid the foundations of it, and as it were established its pillars.</p>'
+          quote: When I shall take a time
     intro: 'There is a just judgment to come: therefore let the wicked take care.'
     verses:
       v:001: 'PSA:74:1 | 1 | 1 | Unto the end, corrupt not, a psalm of a canticle for Asaph.'
@@ -1418,6 +1766,10 @@ chapters:
       v:010: 'PSA:74:10 | 10 | 10 | But I will declare for ever: I will sing to the God of Jacob.{VS:BR}'
       v:011: 'PSA:74:11 | 11 | 11 | And I will break all the horns of sinners: but the horns of the just shall be exalted.{VS:VERSE:END}'
   c:075:
+    footnotes:
+      v:008:
+        - note: 'From the time that thy wrath shall break out.</p>'
+          quote: From that time
     intro: 'God is known in his church: and exerts his power in protecting it. It alludes to the slaughter of the Assyrians, in the days of king Ezechias.'
     verses:
       v:001: 'PSA:75:1 | 1 | 1 | Unto the end, in praises, a psalm for Asaph: a canticle to the Assyrians.'
@@ -1434,6 +1786,7 @@ chapters:
       v:012: 'PSA:75:12 | 12 | 12 | Vow ye, and pay to the Lord your God: all you that are round about him bring presents. To him that is terrible,'
       v:013: 'PSA:75:13 | 13 | 13 | Even to him who taketh away the spirit of princes: to the terrible with the kings of the earth.{VS:VERSE:END}'
   c:076:
+    footnotes: {}
     intro: 'The faithful have recourse to God in trouble of mind, with confidence in his mercy and power.'
     verses:
       v:001: 'PSA:76:1 | 1 | 1 | Unto the end, for Idithun, a psalm of Asaph.'
@@ -1458,6 +1811,13 @@ chapters:
       v:020: 'PSA:76:20 | 20 | 20 | Thy way is in the sea, and thy paths in many waters: and thy footsteps shall not be known.{VS:BR}'
       v:021: 'PSA:76:21 | 21 | 21 | Thou hast conducted thy people like sheep, by the hand of Moses and Aaron.{VS:VERSE:END}'
   c:077:
+    footnotes:
+      v:002:
+        - note: 'Deep and mysterious sayings. By this it appears that the historical facts of ancient times, commemorated in this psalm, were deep and mysterious: as being figures of great truths appertaining to the time of the New Testament.</p>'
+          quote: Propositions
+      v:069:
+        - note: 'That is, firm and strong like the horn of the unicorn. This is one of the chiefest of the propositions of this psalm, foreshewing the firm establishment of the one, true, and everlasting sanctuary of God, in his church.</p>'
+          quote: As of unicorns
     intro: 'God’s great benefits to the people of Israel, notwithstanding their ingratitude.'
     verses:
       v:001: 'PSA:77:1 | 1 | 1 | Understanding for Asaph. Attend, O my people, to my law: incline your ears to the words of my mouth.{VS:BR}'
@@ -1533,6 +1893,7 @@ chapters:
       v:071: 'PSA:77:71 | 71 | 71 | To feed Jacob his servant and Israel his inheritance.{VS:BR}'
       v:072: 'PSA:77:72 | 72 | 72 | And he fed them in the innocence of his heart: and conducted them by the skilfulness of his hands.{VS:VERSE:END}'
   c:078:
+    footnotes: {}
     intro: The church in time of persecution prayeth for relief. It seems to belong to the time of the Machabees.
     verses:
       v:001: 'PSA:78:1 | 1 | 1 | A psalm for Asaph. O God, the heathens are come into thy inheritance, they have defiled thy holy temple: they have made Jerusalem as a place to keep fruit.{VS:BR}'
@@ -1549,6 +1910,13 @@ chapters:
       v:012: 'PSA:78:12 | 12 | 12 | And render to our neighbours sevenfold in their bosom: the reproach wherewith they have reproached thee, O Lord.{VS:BR}'
       v:013: 'PSA:78:13 | 13 | 13 | But we thy people, and the sheep of thy pasture, will give thanks to thee for ever. We will shew forth thy praise, unto generation and generation.{VS:VERSE:END}'
   c:079:
+    footnotes:
+      v:017:
+        - note: 'So this vineyard of thine, almost consumed already, must perish, if thou continue thy rebukes.</p>'
+          quote: Things set on fire
+      v:018:
+        - note: 'Christ.</p>'
+          quote: The man of thy right hand
     intro: 'A prayer for the church in tribulation, commemorating God’s former favours.'
     verses:
       v:001: 'PSA:79:1 | 1 | 1 | Unto the end, for them that shall be changed, a testimony for Asaph, a psalm.'
@@ -1572,6 +1940,16 @@ chapters:
       v:019: 'PSA:79:19 | 19 | 19 | And we depart not from thee, thou shalt quicken us: and we will call upon thy name.{VS:BR}'
       v:020: 'PSA:79:20 | 20 | 20 | O Lord God of hosts, convert us and shew thy face, and we shall be saved.{VS:VERSE:END}'
   c:080:
+    footnotes:
+      v:001:
+        - note: 'Torcularibus. It either signifies a musical instrument, or that this psalm was to be sung at the feast of the tabernacles after the gathering in of the vintage.</p>'
+          quote: For the winepresses
+      v:008:
+        - note: 'Heb., Of thunder. When thou soughtest to hide thyself from the tempest: or, when I came down to mount Sina, hidden from thy eyes in a storm of thunder.</p>'
+          quote: In the secret place of tempest
+      v:016:
+        - note: 'Impenitent sinners shall suffer for ever.</p>'
+          quote: Their time shall be for ever
     intro: An invitation to a solemn praising of God.
     verses:
       v:001: 'PSA:80:1 | 1 | 1 | Unto the end, for the winepresses, a psalm for Asaph himself.'
@@ -1592,6 +1970,7 @@ chapters:
       v:016: 'PSA:80:16 | 16 | 16 | The enemies of the Lord have lied to him: and their time shall be for ever.{VS:BR}'
       v:017: 'PSA:80:17 | 17 | 17 | And he fed them with the fat of wheat, and filled them with honey out of the rock.{VS:VERSE:END}'
   c:081:
+    footnotes: {}
     intro: An exhortation to judges and men in power.
     verses:
       v:001: 'PSA:81:1 | 1 | 1 | A psalm for Asaph. God hath stood in the congregation of gods: and being in the midst of them he judgeth gods.{VS:BR}'
@@ -1603,6 +1982,7 @@ chapters:
       v:007: 'PSA:81:7 | 7 | 7 | But you like men shall die: and shall fall like one of the princes.{VS:BR}'
       v:008: 'PSA:81:8 | 8 | 8 | Arise, O God, judge thou the earth: for thou shalt inherit among all the nations.{VS:VERSE:END}'
   c:082:
+    footnotes: {}
     intro: A prayer against the enemies of God’s church.
     verses:
       v:001: PSA:82:1 | 1 | 1 | A canticle of a psalm for Asaph.
@@ -1625,6 +2005,10 @@ chapters:
       v:018: 'PSA:82:18 | 18 | 18 | Let them be ashamed and troubled for ever and ever: and let them be confounded and perish.{VS:BR}'
       v:019: 'PSA:82:19 | 19 | 19 | And let them know that the Lord is thy name: thou alone art the most High over all the earth.{VS:VERSE:END}'
   c:083:
+    footnotes:
+      v:006:
+        - note: 'Ascensiones in corde suo disposuit. As by steps men ascended to the temple of God situated on a hill; so the good Christian ascends towards the eternal temple by certain steps of virtue disposed or ordered within the heart: and this whilst he lives as yet in the body, in this vale of tears, the place which man hath set: that is, which he hath brought himself to: being cast out of paradise for his sin.</p>'
+          quote: In his heart he hath disposed to ascend by steps
     intro: 'The soul aspireth after heaven; rejoicing in the mean time, in being in the communion of God’s church upon earth.'
     verses:
       v:001: 'PSA:83:1 | 1 | 1 | Unto the end, for the winepresses, a psalm for the sons of Core.'
@@ -1641,6 +2025,7 @@ chapters:
       v:012: 'PSA:83:12 | 12 | 12 | For God loveth mercy and truth: the Lord will give grace and glory.{VS:BR}'
       v:013: 'PSA:83:13 | 13 | 13 | He will not deprive of good things them that walk in innocence: O Lord of hosts, blessed is the man that trusteth in thee.{VS:VERSE:END}'
   c:084:
+    footnotes: {}
     intro: 'The coming of Christ, to bring peace and salvation to man.'
     verses:
       v:001: 'PSA:84:1 | 1 | 1 | Unto the end, for the sons of Core, a psalm.'
@@ -1658,6 +2043,10 @@ chapters:
       v:013: 'PSA:84:13 | 13 | 13 | For the Lord will give goodness: and our earth shall yield her fruit.{VS:BR}'
       v:014: 'PSA:84:14 | 14 | 14 | Justice shall walk before him: and shall set his steps in the way.{VS:VERSE:END}'
   c:085:
+    footnotes:
+      v:002:
+        - note: 'I am by my office and profession dedicated to thy service.</p>'
+          quote: I am holy
     intro: A prayer for God’s grace to assist us to the end.
     verses:
       v:001: 'PSA:85:1 | 1 | 1 | A prayer for David himself. Incline thy ear, O Lord, and hear me: for I am needy and poor.{VS:BR}'
@@ -1678,6 +2067,16 @@ chapters:
       v:016: 'PSA:85:16 | 16 | 16 | O look upon me, and have mercy on me: give thy command to thy servant, and save the son of thy handmaid.{VS:BR}'
       v:017: 'PSA:85:17 | 17 | 17 | Shew me a token for good: that they who hate me may see, and be confounded, because thou, O Lord, hast helped me and hast comforted me.{VS:VERSE:END}'
   c:086:
+    footnotes:
+      v:001:
+        - note: 'The apostles and prophets. Eph. 2. 20.</p>'
+          quote: The holy mountains
+      v:004:
+        - note: 'Egypt, etc. To this Sion, which is the church of God, many shall resort from all nations.</p>'
+          quote: Rahab
+      v:005:
+        - note: 'The meaning is, that Sion, viz., the church, shall not only be able to commemorate this or that particular person of renown born in her, but also to glory in great multitudes of people and princes of her communion; who have been foretold in the writings of the prophets, and registered in the writings of the apostles.</p>'
+          quote: Shall not Sion say
     intro: The glory of the church of Christ.
     verses:
       v:001: 'PSA:86:1 | 1 | 1 | For the sons of Core, a psalm of a canticle. The foundations thereof are in the holy mountains:{VS:BR}'
@@ -1688,6 +2087,12 @@ chapters:
       v:006: 'PSA:86:6 | 6 | 6 | The Lord shall tell in his writings of peoples and of princes, of them that have been in her.{VS:BR}'
       v:007: 'PSA:86:7 | 7 | 7 | The dwelling in thee is as it were of all rejoicing.{VS:VERSE:END}'
   c:087:
+    footnotes:
+      v:001:
+        - note: 'A musical instrument, or chorus of musicians, to answer one another.-- Ibid.</p>'
+          quote: Maheleth
+        - note: 'Or a psalm of instruction, composed by Eman the Ezrahite, or by David, in his name.</p>'
+          quote: Understanding
     intro: 'A prayer of one under grievous affliction: it agrees to Christ in his passion, and alludes to his death and burial.'
     verses:
       v:001: 'PSA:87:1 | 1 | 1 | A canticle of a psalm for the sons of Core: unto the end, for Maheleth, to answer understanding of Eman the Ezrahite.'
@@ -1710,6 +2115,10 @@ chapters:
       v:018: 'PSA:87:18 | 18 | 18 | They have come round about me like water all the day: they have compassed me about together.{VS:BR}'
       v:019: 'PSA:87:19 | 19 | 19 | Friend and neighbour thou hast put far from me: and my acquaintance, because of misery.{VS:VERSE:END}'
   c:088:
+    footnotes:
+      v:040:
+        - note: 'All this seems to relate to the time of the captivity of Babylon, in which, for the sins of the people and their princes, God seemed to have set aside for a while the covenant he made with David.</p>'
+          quote: Overthrown the covenant
     intro: 'The perpetuity of the church of Christ, in consequence of the promise of God: which, notwithstanding, God permits her to suffer sometimes most grievous afflictions.'
     verses:
       v:001: 'PSA:88:1 | 1 | 1 | Of understanding, for Ethan the Ezrahite.'
@@ -1766,6 +2175,16 @@ chapters:
       v:052: 'PSA:88:52 | 52 | 52 | Wherewith thy enemies have reproached, O Lord; wherewith they have reproached the change of thy anointed.{VS:BR}'
       v:053: 'PSA:88:53 | 53 | 53 | Blessed be the Lord for evermore. So be it. So be it.{VS:VERSE:END}'
   c:089:
+    footnotes:
+      v:003:
+        - note: 'Suffer him not quite to perish from thee, since thou art pleased to call upon him to be converted to thee.</p>'
+          quote: Turn not man away
+      v:009:
+        - note: "As frail and weak as a spider's web; and miserable withal, whilst like a spider we spend our bowels in weaving webs to catch flies.</p>"
+          quote: As a spider
+      v:010:
+        - note: "God's mildness corrects us; inasmuch as he deals kindly with us, in shortening the days of this miserable life; and so weaning our affections from all its transitory enjoyments, and teaching us true wisdom.</p>"
+          quote: Mildness is come upon us
     intro: 'A prayer for the mercy of God: recounting the shortness and miseries of the days of man.'
     verses:
       v:001: 'PSA:89:1 | 1 | 1 | A prayer of Moses the man of God. Lord, thou hast been our refuge from generation to generation.{VS:BR}'
@@ -1786,6 +2205,7 @@ chapters:
       v:016: 'PSA:89:16 | 16 | 16 | Look upon thy servants and upon their works: and direct their children.{VS:BR}'
       v:017: 'PSA:89:17 | 17 | 17 | And let the brightness of the Lord our God be upon us: and direct thou the works of our hands over us; yea, the work of our hands do thou direct.{VS:VERSE:END}'
   c:090:
+    footnotes: {}
     intro: The just is secure under the protection of God.
     verses:
       v:001: 'PSA:90:1 | 1 | 1 | The praise of a canticle for David. He that dwelleth in the aid of the most High, shall abide under the protection of the God of Jacob.{VS:BR}'
@@ -1805,6 +2225,7 @@ chapters:
       v:015: 'PSA:90:15 | 15 | 15 | He shall cry to me, and I will hear him: I am with him in tribulation, I will deliver him, and I will glorify him.{VS:BR}'
       v:016: 'PSA:90:16 | 16 | 16 | I will fill him with length of days; and I will shew him my salvation.{VS:VERSE:END}'
   c:091:
+    footnotes: {}
     intro: God is to be praised for his wondrous works.
     verses:
       v:001: PSA:91:1 | 1 | 1 | A psalm of a canticle on the sabbath day.
@@ -1824,6 +2245,7 @@ chapters:
       v:015: 'PSA:91:15 | 15 | 15 | They shall still increase in a fruitful old age: and shall be well treated,{VS:BR}'
       v:016: 'PSA:91:16 | 16 | 16 | That they may shew, That the Lord our God is righteous, and there is no iniquity in him.{VS:VERSE:END}'
   c:092:
+    footnotes: {}
     intro: 'Praise in the way of a canticle, for David himself, on the day before the sabbath, when the earth was founded.'
     verses:
       v:001: 'PSA:92:1 | 1 | 1 | The Lord hath reigned, he is clothed with beauty: the Lord is clothed with strength, and hath girded himself. for he hath established the world which shall not be moved.{VS:BR}'
@@ -1832,6 +2254,16 @@ chapters:
       v:004: 'PSA:92:4 | 4 | 4 | With the noise of many waters. Wonderful are the surges of the sea: wonderful is the Lord on high.{VS:BR}'
       v:005: 'PSA:92:5 | 5 | 5 | Thy testimonies are become exceedingly credible: holiness becometh thy house, O Lord, unto length of days.{VS:VERSE:END}'
   c:093:
+    footnotes:
+      v:013:
+        - note: 'That thou mayst mitigate the sorrows, to which he is exposed, during the short and evil days of his mortality.</p>'
+          quote: Rest from the evil days
+      v:015:
+        - note: 'By being put in execution; which will be agreeable to all the upright in heart.</p>'
+          quote: Until justice be turned into judgment
+      v:020:
+        - note: 'That is, wilt thou, O God, who art always just, admit of the seat of iniquity: that is, of injustice, or unjust judges, to have any partnership with thee? Thou who framest, or makest, labour in commandment, that is, thou who obligest us to labour with all diligence to keep thy commandments.</p>'
+          quote: Doth the seat of iniquity stick to thee
     intro: A psalm for David himself on the fourth day of the week.
     verses:
       v:001: 'PSA:93:1 | 1 | 1 | The Lord is the God to whom revenge belongeth: the God of revenge hath acted freely.{VS:BR}'
@@ -1858,6 +2290,7 @@ chapters:
       v:022: 'PSA:93:22 | 22 | 22 | But the Lord is my refuge: and my God the help of my hope.{VS:BR}'
       v:023: 'PSA:93:23 | 23 | 23 | And he will render them their iniquity: and in their malice he will destroy them: the Lord our God will destroy them.{VS:VERSE:END}'
   c:094:
+    footnotes: {}
     intro: Praise of a canticle for David himself.
     verses:
       v:001: 'PSA:94:1 | 1 | 1 | Come let us praise the Lord with joy: let us joyfully sing to God our saviour.{VS:BR}'
@@ -1872,6 +2305,10 @@ chapters:
       v:010: 'PSA:94:10 | 10 | 10 | Forty years long was I offended with that generation, and I said: These always err in heart.{VS:BR}'
       v:011: 'PSA:94:11 | 11 | 11 | And these men have not known my ways: so I swore in my wrath that they shall not enter into my rest.{VS:VERSE:END}'
   c:095:
+    footnotes:
+      v:001:
+        - note: 'Alluding to that time, and then ordered to be sung: but principally relating to the building of the church of Christ, after our redemption from the captivity of Satan.</p>'
+          quote: When the house was built
     intro: An exhortation to praise God for the coming of Christ and his kingdom.
     verses:
       v:001: 'PSA:95:1 | 1 | 1 | A canticle for David himself, when the house was built after the captivity. Sing ye to the Lord a new canticle: sing to the Lord, all the earth.{VS:BR}'
@@ -1888,6 +2325,10 @@ chapters:
       v:012: 'PSA:95:12 | 12 | 12 | The fields and all things that are in them shall be joyful. Then shall all the trees of the woods rejoice{VS:BR}'
       v:013: 'PSA:95:13 | 13 | 13 | before the face of the Lord, because he cometh: because he cometh to judge the earth. He shall judge the world with justice, and the people with his truth.{VS:VERSE:END}'
   c:096:
+    footnotes:
+      v:002:
+        - note: 'The coming of Christ in the clouds with great terror and majesty to judge the world, is here prophesied.</p>'
+          quote: Clouds and darkness
     intro: All are invited to rejoice at the glorious coming and reign of Christ.
     verses:
       v:001: 'PSA:96:1 | 1 | 1 | For the same David, when his land was restored again to him. The Lord hath reigned, let the earth rejoice: let many islands be glad.{VS:BR}'
@@ -1903,6 +2344,7 @@ chapters:
       v:011: 'PSA:96:11 | 11 | 11 | Light is risen to the just, and joy to the right of heart.{VS:BR}'
       v:012: 'PSA:96:12 | 12 | 12 | Rejoice, ye just, in the Lord: and give praise to the remembrance of his holiness.{VS:VERSE:END}'
   c:097:
+    footnotes: {}
     intro: 'All are again invited to praise the Lord, for the victories of Christ.'
     verses:
       v:001: 'PSA:97:1 | 1 | 1 | A psalm for David himself. Sing ye to the Lord a new canticle: because he hath done wonderful things. His right hand hath wrought for him salvation, and his arm is holy.{VS:BR}'
@@ -1915,6 +2357,24 @@ chapters:
       v:008: 'PSA:97:8 | 8 | 8 | The rivers shall clap their hands, the mountains shall rejoice together'
       v:009: 'PSA:97:9 | 9 | 9 | At the presence of the Lord: because he cometh to judge the earth. He shall judge the world with justice, and the people with equity.{VS:VERSE:END}'
   c:098:
+    footnotes:
+      v:001:
+        - note: 'Though many enemies rage, and the whole earth be stirred up to oppose the reign of Christ, he shall still prevail.</p>'
+          quote: Let the people be angry
+      v:004:
+        - note: 'Requireth discretion.-- Ibid.</p>'
+          quote: Loveth judgment
+        - note: 'Most right and just laws to direct men.</p>'
+          quote: Directions
+      v:005:
+        - note: "The ark of the covenant was called, in the Old Testament, God's footstool: over which he was understood to sit, on his propitiatory, or mercy seat, as on a throne, between the wings of the cherubims, in the sanctuary: to which the children of Israel paid a great veneration. But as this psalm evidently relates to Christ, and the New Testament, where the ark has no place, the holy fathers understand this text, of the worship paid by the church to the body and blood of Christ in the sacred mysteries: inasmuch as the humanity of Christ is, as it were, the footstool of the divinity. So St. Ambrose, L. 3. De Spiritu Sancto, c. 12. And St. Augustine upon this psalm.</p>"
+          quote: Adore his footstool
+      v:006:
+        - note: 'By this it is evident, that Moses also was a priest, and indeed the chief priest, inasmuch as he consecrated Aaron, and offered sacrifice for him. Lev. 8. So that his pre-eminence over Aaron makes nothing for lay church headship.</p>'
+          quote: Moses and Aaron among his priests
+      v:008:
+        - note: 'that is, all the enterprises of their enemies against them, as in the case of Core, Dathan, and Abiron.</p>'
+          quote: All their inventions
     intro: 'The reign of the Lord in Sion: that is, of Christ in his church.'
     verses:
       v:001: 'PSA:98:1 | 1 | 1 | A psalm for David himself. The Lord hath reigned, let the people be angry: he that sitteth on the cherubims: let the earth be moved.{VS:BR}'
@@ -1927,6 +2387,7 @@ chapters:
       v:008: 'PSA:98:8 | 8 | 8 | Thou didst hear them, O Lord our God: thou wast a merciful God to them, and taking vengeance on all their inventions.{VS:BR}'
       v:009: 'PSA:98:9 | 9 | 9 | Exalt ye the Lord our God, and adore at his holy mountain: for the Lord our God is holy.{VS:VERSE:END}'
   c:099:
+    footnotes: {}
     intro: All are invited to rejoice in God the creator of all.
     verses:
       v:001: PSA:99:1 | 1 | 1 | A psalm of praise.
@@ -1935,6 +2396,10 @@ chapters:
       v:004: 'PSA:99:4 | 4 | 4 | Go ye into his gates with praise, into his courts with hymns: and give glory to him. Praise ye his name:'
       v:005: 'PSA:99:5 | 5 | 5 | For the Lord is sweet, his mercy endureth for ever, and his truth to generation and generation.{VS:VERSE:END}'
   c:100:
+    footnotes:
+      v:002:
+        - note: 'That is, I will apply my mind, I will do my endeavour, to know and to follow the perfect way of thy commandments: not trusting to my own strength, but relying on thy coming to me by thy grace.</p>'
+          quote: I will understand
     intro: 'The prophet exhorteth all by his example, to follow mercy and justice.'
     verses:
       v:001: 'PSA:100:1 | 1 | 1 | A psalm for David himself. Mercy and judgment I will sing to thee, O Lord: I will sing,'
@@ -1946,6 +2411,13 @@ chapters:
       v:007: 'PSA:100:7 | 7 | 7 | He that worketh pride shall not dwell in the midst of my house: he that speaketh unjust things did not prosper before my eyes.{VS:BR}'
       v:008: 'PSA:100:8 | 8 | 8 | In the morning I put to death all the wicked of the land: that I might cut off all the workers of iniquity from the city of the Lord.{VS:VERSE:END}'
   c:101:
+    footnotes:
+      v:007:
+        - note: 'I am become through grief, like birds that affect solitude and darkness.</p>'
+          quote: A pelican
+      v:024:
+        - note: 'That is, the people, mentioned in the foregoing verse, or the penitent, in whose person this psalm is delivered, answered the Lord in the way of his strength: that is, according to the best of his power and strength: or when he was in the flower of his age and strength: inquiring after the fewness of his days: to know if he should live long enough to see the happy restoration of Sion, etc.</p>'
+          quote: He answered him in the way of his strength
     intro: 'A prayer for one in affliction: the fifth penitential psalm.'
     verses:
       v:001: 'PSA:101:1 | 1 | 1 | The prayer of the poor man, when he was anxious, and poured out his supplication before the Lord.'
@@ -1978,6 +2450,7 @@ chapters:
       v:028: 'PSA:101:28 | 28 | 28 | But thou art always the selfsame, and thy years shall not fail.{VS:BR}'
       v:029: 'PSA:101:29 | 29 | 29 | The children of thy servants shall continue and their seed shall be directed for ever.{VS:VERSE:END}'
   c:102:
+    footnotes: {}
     intro: Thanksgiving to God for his mercies.
     verses:
       v:001: 'PSA:102:1 | 1 | 1 | For David himself. Bless the Lord, O my soul: and let all that is within me bless his holy name.{VS:BR}'
@@ -2003,6 +2476,7 @@ chapters:
       v:021: 'PSA:102:21 | 21 | 21 | Bless the Lord, all ye his hosts: you ministers of his that do his will.{VS:BR}'
       v:022: 'PSA:102:22 | 22 | 22 | Bless the Lord, all his works: in every place of his dominion, O my soul, bless thou the Lord.{VS:VERSE:END}'
   c:103:
+    footnotes: {}
     intro: 'God is to be praised for his mighty works, and wonderful providence.'
     verses:
       v:001: 'PSA:103:1 | 1 | 1 | For David himself. Bless the Lord, O my soul: O Lord my God, thou art exceedingly great. Thou hast put on praise and beauty:{VS:BR}'
@@ -2041,6 +2515,22 @@ chapters:
       v:034: 'PSA:103:34 | 34 | 34 | Let my speech be acceptable to him: but I will take delight in the Lord.{VS:BR}'
       v:035: 'PSA:103:35 | 35 | 35 | Let sinners be consumed out of the earth, and the unjust, so that they be no more: O my soul, bless thou the Lord.{VS:VERSE:END}'
   c:104:
+    footnotes:
+      v:025:
+        - note: 'Not that God (who is never the author of sin) moved the Egyptians to hate and persecute his people; but that the Egyptians took occasion of hating and envying them, from the sight of the benefits which God bestowed upon them.</p>'
+          quote: He turned their heart
+      v:028:
+        - note: 'That is, he was not wanting to fulfil his words: or he did not grieve Moses and Aaron, the carriers of his words: or he did not grieve his words, that is, his sons, the children of Israel, who enjoyed light whilst the Egyptians were oppressed with darkness.</p>'
+          quote: Grieved not his words
+      v:031:
+        - note: 'See the annotation, Ex. 8. 16.</p>'
+          quote: Sciniphs
+      v:034:
+        - note: 'An insect of the locust kind.</p>'
+          quote: Bruchus
+      v:045:
+        - note: 'That is, his commandments; which here, and in many other places of the scripture, are called justifications, because the keeping of them makes man just. The Protestants render it by the word statutes, in favour of their doctrine, which does not allow good works to justify.</p>'
+          quote: His justifications
     intro: Alleluia.
     verses:
       v:001: 'PSA:104:1 | 1 | 1 | Give glory to the Lord, and call upon his name: declare his deeds among the Gentiles.{VS:BR}'
@@ -2089,6 +2579,15 @@ chapters:
       v:044: 'PSA:104:44 | 44 | 44 | And he gave them the lands of the Gentiles: and they possessed the labours of the people:{VS:BR}'
       v:045: 'PSA:104:45 | 45 | 45 | That they might observe his justifications, and seek after his law.{VS:VERSE:END}'
   c:105:
+    footnotes:
+      v:028:
+        - note: 'That is, they dedicated, or consecrated themselves to the idol of the Moabites and Madianites, called Beelphegor, or Baal-Peor. Num. 25. 3.-- Ibid.</p>'
+          quote: Initiated
+        - note: 'Viz., idols without life.</p>'
+          quote: The dead
+      v:033:
+        - note: "Moses, by occasion of the people's rebellion and incredulity, was guilty of distinguishing with his lips; when, instead of speaking to the rock, as God had commanded, he said to the people, with a certain hesitation in his faith, Hear ye, rebellious and incredulous: Can we from this rock bring out water for you? Num. 20. 10.</p>"
+          quote: He distinguished with his lips
     intro: Alleluia.
     verses:
       v:001: 'PSA:105:1 | 1 | 1 | Give glory to the Lord, for he is good: for his mercy endureth for ever.{VS:BR}'
@@ -2140,6 +2639,7 @@ chapters:
       v:047: 'PSA:105:47 | 47 | 47 | Save us, O Lord, our God: and gather us from among the nations: That we may give thanks to thy holy name, and may glory in thy praise.{VS:BR}'
       v:048: 'PSA:105:48 | 48 | 48 | Blessed be the Lord the God of Israel, from everlasting to everlasting: and let all the people say: So be it, so be it.{VS:VERSE:END}'
   c:106:
+    footnotes: {}
     intro: Alleluia.
     verses:
       v:001: 'PSA:106:1 | 1 | 1 | Give glory to the Lord, for he is good: for his mercy endureth for ever.{VS:BR}'
@@ -2186,6 +2686,7 @@ chapters:
       v:042: 'PSA:106:42 | 42 | 42 | The just shall see, and shall rejoice, and all iniquity shall stop her mouth.{VS:BR}'
       v:043: 'PSA:106:43 | 43 | 43 | Who is wise, and will keep these things; and will understand the mercies of the Lord?{VS:VERSE:END}'
   c:107:
+    footnotes: {}
     intro: The prophet praiseth God for benefits received.
     verses:
       v:001: PSA:107:1 | 1 | 1 | A canticle of a psalm for David himself.
@@ -2203,6 +2704,13 @@ chapters:
       v:013: 'PSA:107:13 | 13 | 13 | O grant us help from trouble: for vain is the help of man.{VS:BR}'
       v:014: 'PSA:107:14 | 14 | 14 | Through God we shall do mightily: and he will bring our enemies to nothing.{VS:VERSE:END}'
   c:108:
+    footnotes:
+      v:006:
+        - note: 'Give to the devil, that arch-sinner, power over him: let him enter into him, and possess him. The imprecations, contained in the thirty verses of this psalm, are opposed to the thirty pieces of silver for which Judas betrayed our Lord; and are to be taken as prophetic denunciations of the evils that should befall the traitor and his accomplices the Jews; and not properly as curses.</p>'
+          quote: Set thou the sinner over him
+      v:024:
+        - note: 'Propter oleum. The meaning is, my flesh is changed, being perfectly emaciated and dried up, as having lost all its oil or fatness.</p>'
+          quote: For oil
     intro: 'David in the person of Christ, prayeth against his persecutors; more especially the traitor Judas: foretelling and approving his just punishment for his obstinacy in sin and final impenitence.'
     verses:
       v:001: 'PSA:108:1 | 1 | 1 | Unto the end, a psalm for David.'
@@ -2237,6 +2745,7 @@ chapters:
       v:030: 'PSA:108:30 | 30 | 30 | I will give great thanks to the Lord with my mouth: and in the midst of many I will praise him.{VS:BR}'
       v:031: 'PSA:108:31 | 31 | 31 | Because he hath stood at the right hand of the poor, to save my soul from persecutors.{VS:VERSE:END}'
   c:109:
+    footnotes: {}
     intro: Christ’s exaltation and everlasting priesthood.
     verses:
       v:001: 'PSA:109:1 | 1 | 1 | A psalm for David. The Lord said to my Lord: Sit thou at my right hand: Until I make thy enemies thy footstool.{VS:BR}'
@@ -2247,6 +2756,7 @@ chapters:
       v:006: 'PSA:109:6 | 6 | 6 | He shall judge among nations, he shall fill ruins: he shall crush the heads in the land of many.{VS:BR}'
       v:007: 'PSA:109:7 | 7 | 7 | He shall drink of the torrent in the way: therefore shall he lift up the head.{VS:VERSE:END}'
   c:110:
+    footnotes: {}
     intro: Alleluia.
     verses:
       v:001: 'PSA:110:1 | 1 | 1 | I will praise thee, O Lord, with my whole heart; in the council of the just, and in the congregation.{VS:BR}'
@@ -2260,6 +2770,7 @@ chapters:
       v:009: 'PSA:110:9 | 9 | 9 | He hath sent redemption to his people: he hath commanded his covenant for ever. Holy and terrible is his name:{VS:BR}'
       v:010: 'PSA:110:10 | 10 | 10 | The fear of the Lord is the beginning of wisdom. A good understanding to all that do it: his praise continueth for ever and ever.{VS:VERSE:END}'
   c:111:
+    footnotes: {}
     intro: 'Alleluia, of the returning of Aggeus and Zacharias.'
     verses:
       v:001: 'PSA:111:1 | 1 | 1 | Blessed is the man that feareth the Lord: he shall delight exceedingly in his commandments.{VS:BR}'
@@ -2273,6 +2784,7 @@ chapters:
       v:009: 'PSA:111:9 | 9 | 9 | He hath distributed, he hath given to the poor: his justice remaineth for ever and ever: his horn shall be exalted in glory.{VS:BR}'
       v:010: 'PSA:111:10 | 10 | 10 | The wicked shall see, and shall be angry, he shall gnash with his teeth and pine away: the desire of the wicked shall perish.{VS:VERSE:END}'
   c:112:
+    footnotes: {}
     intro: Alleluia.
     verses:
       v:001: 'PSA:112:1 | 1 | 1 | Praise the Lord, ye children: praise ye the name of the Lord.{VS:BR}'
@@ -2285,6 +2797,7 @@ chapters:
       v:008: 'PSA:112:8 | 8 | 8 | That he may place him with princes, with the princes of his people.{VS:BR}'
       v:009: 'PSA:112:9 | 9 | 9 | Who maketh a barren woman to dwell in a house, the joyful mother of children.{VS:VERSE:END}'
   c:113:
+    footnotes: {}
     intro: Alleluia.
     verses:
       v:001: 'PSA:113:1 | 1 | 1 | When Israel went out of Egypt, the house of Jacob from a barbarous people:{VS:BR}'
@@ -2314,6 +2827,7 @@ chapters:
       v:025: 'PSA:113:25 | 25 | {AVN:START 17}25{AVN:END} | The dead shall not praise thee, O Lord: nor any of them that go down to hell.{VS:BR}'
       v:026: 'PSA:113:26 | 26 | {AVN:START 18}26{AVN:END} | But we that live bless the Lord: from this time now and for ever.{VS:VERSE:END}'
   c:114:
+    footnotes: {}
     intro: Alleluia.
     verses:
       v:001: 'PSA:114:1 | 1 | 1 | I have loved, because the Lord will hear the voice of my prayer.{VS:BR}'
@@ -2326,6 +2840,7 @@ chapters:
       v:008: 'PSA:114:8 | 8 | 8 | For he hath delivered my soul from death: my eyes from tears, my feet from falling.{VS:BR}'
       v:009: 'PSA:114:9 | 9 | 9 | I will please the Lord in the land of the living.{VS:VERSE:END}'
   c:115:
+    footnotes: {}
     intro: Alleluia.
     verses:
       v:001: 'PSA:115:1 | 1 | {AVN:START 10}1{AVN:END} | I have believed, therefore have I spoken; but I have been humbled exceedingly.{VS:BR}'
@@ -2339,11 +2854,13 @@ chapters:
       v:009: 'PSA:115:9 | 9 | {AVN:START 18}9{AVN:END} | I will pay my vows to the Lord in the sight of all his people:{VS:BR}'
       v:010: 'PSA:115:10 | 10 | {AVN:START 19}10{AVN:END} | In the courts of the house of the Lord, in the midst of thee, O Jerusalem.{VS:VERSE:END}'
   c:116:
+    footnotes: {}
     intro: Alleluia.
     verses:
       v:001: 'PSA:116:1 | 1 | 1 | O Praise the Lord, all ye nations: praise him, all ye people.{VS:BR}'
       v:002: 'PSA:116:2 | 2 | 2 | For his mercy is confirmed upon us: and the truth of the Lord remaineth for ever.{VS:VERSE:END}'
   c:117:
+    footnotes: {}
     intro: Alleluia.
     verses:
       v:001: 'PSA:117:1 | 1 | 1 | Give praise to the Lord, for he is good: for his mercy endureth for ever.{VS:BR}'
@@ -2376,6 +2893,10 @@ chapters:
       v:028: 'PSA:117:28 | 28 | 28 | Thou art my God, and I will praise thee: thou art my God, and I will exalt thee. I will praise thee, because thou hast heard me, and art become my salvation.{VS:BR}'
       v:029: 'PSA:117:29 | 29 | 29 | O praise ye the Lord, for he is good: for his mercy endureth for ever.{VS:VERSE:END}'
   c:118:
+    footnotes:
+      v:002:
+        - note: 'The commandments of God are called his testimonies, because they testify his holy will unto us. Note here, that in almost every verse of this psalm (which in number are 176) the word and law of God, and the love and observance of it, is perpetually inculcated, under a variety of denominations, all signifying the same thing.</p>'
+          quote: His testimonies
     intro: TAU.
     verses:
       v:001: 'PSA:118:1 | 1 | 1 | Blessed are the undefiled in the way, who walk in the law of the Lord.{VS:BR}'
@@ -2555,6 +3076,7 @@ chapters:
       v:175: 'PSA:118:175 | 175 | 175 | My soul shall live and shall praise thee: and thy judgments shall help me.{VS:BR}'
       v:176: 'PSA:118:176 | 176 | 176 | I have gone astray like a sheep that is lost: seek thy servant, because I have not forgotten thy commandments.{VS:VERSE:END}'
   c:119:
+    footnotes: {}
     intro: A gradual canticle.
     verses:
       v:001: 'PSA:119:1 | 1 | 1 | In my trouble I cried to the Lord: and he heard me.{VS:BR}'
@@ -2565,6 +3087,7 @@ chapters:
       v:006: 'PSA:119:6 | 6 | 6 | My soul hath been long a sojourner.{VS:BR}'
       v:007: 'PSA:119:7 | 7 | 7 | With them that hated peace I was peaceable: when I spoke to them they fought against me without cause.{VS:VERSE:END}'
   c:120:
+    footnotes: {}
     intro: A gradual canticle.
     verses:
       v:001: 'PSA:120:1 | 1 | 1 | I have lifted up my eyes to the mountains, from whence help shall come to me.{VS:BR}'
@@ -2576,6 +3099,7 @@ chapters:
       v:007: 'PSA:120:7 | 7 | 7 | The Lord keepeth thee from all evil: may the Lord keep thy soul.{VS:BR}'
       v:008: 'PSA:120:8 | 8 | 8 | May the Lord keep thy coming in and thy going out; from henceforth now and for ever.{VS:VERSE:END}'
   c:121:
+    footnotes: {}
     intro: A gradual canticle.
     verses:
       v:001: 'PSA:121:1 | 1 | 1 | I rejoiced at the things that were said to me: We shall go into the house of the Lord.{VS:BR}'
@@ -2588,6 +3112,7 @@ chapters:
       v:008: 'PSA:121:8 | 8 | 8 | For the sake of my brethren, and of my neighbours, I spoke peace of thee.{VS:BR}'
       v:009: 'PSA:121:9 | 9 | 9 | Because of the house of the Lord our God, I have sought good things for thee.{VS:VERSE:END}'
   c:122:
+    footnotes: {}
     intro: A gradual canticle.
     verses:
       v:001: 'PSA:122:1 | 1 | 1 | To thee have I lifted up my eyes, who dwellest in heaven.{VS:BR}'
@@ -2595,6 +3120,7 @@ chapters:
       v:003: 'PSA:122:3 | 3 | 3 | Have mercy on us, O Lord, have mercy on us: for we are greatly filled with contempt.{VS:BR}'
       v:004: 'PSA:122:4 | 4 | 4 | For our soul is greatly filled: we are a reproach to the rich, and contempt to the proud.{VS:VERSE:END}'
   c:123:
+    footnotes: {}
     intro: A gradual canticle.
     verses:
       v:001: 'PSA:123:1 | 1 | 1 | If it had not been that the Lord was with us, let Israel now say:{VS:BR}'
@@ -2606,6 +3132,7 @@ chapters:
       v:007: 'PSA:123:7 | 7 | 7 | Our soul hath been delivered as a sparrow out of the snare of the fowlers. The snare is broken, and we are delivered.{VS:BR}'
       v:008: 'PSA:123:8 | 8 | 8 | Our help is in the name of the Lord, who made heaven and earth.{VS:VERSE:END}'
   c:124:
+    footnotes: {}
     intro: A gradual canticle.
     verses:
       v:001: 'PSA:124:1 | 1 | 1 | They that trust in the Lord shall be as mount Sion: he shall not be moved for ever that dwelleth'
@@ -2614,6 +3141,7 @@ chapters:
       v:004: 'PSA:124:4 | 4 | 4 | Do good, O Lord, to those that are good, and to the upright of heart.{VS:BR}'
       v:005: 'PSA:124:5 | 5 | 5 | But such as turn aside into bonds, the Lord shall lead out with the workers of iniquity: peace upon Israel.{VS:VERSE:END}'
   c:125:
+    footnotes: {}
     intro: A gradual canticle.
     verses:
       v:001: 'PSA:125:1 | 1 | 1 | When the Lord brought back the captivity of Sion, we became like men comforted.{VS:BR}'
@@ -2624,6 +3152,10 @@ chapters:
       v:006: 'PSA:125:6 | 6 | 6 | Going they went and wept, casting their seeds.{VS:VERSE:END}'
       v:007: 'PSA:125:7 | 7 | 7 | But coming they shall come with joyfulness, carrying their sheaves.'
   c:126:
+    footnotes:
+      v:002:
+        - note: 'That is, your early rising, your labour and worldly solicitude, will be vain, that is, will avail you nothing, without the light, grace, and blessing of God.</p>'
+          quote: It is vain for you to rise before light
     intro: A gradual canticle of Solomon.
     verses:
       v:001: 'PSA:126:1 | 1 | 1 | Unless the Lord build the house, they labour in vain that build it. Unless the Lord keep the city, he watcheth in vain that keepeth it.{VS:BR}'
@@ -2632,6 +3164,7 @@ chapters:
       v:004: 'PSA:126:4 | 4 | 4 | As arrows in the hand of the mighty, so the children of them that have been shaken.{VS:BR}'
       v:005: 'PSA:126:5 | 5 | 5 | Blessed is the man that hath filled the desire with them; he shall not be confounded when he shall speak to his enemies in the gate.{VS:VERSE:END}'
   c:127:
+    footnotes: {}
     intro: A gradual canticle.
     verses:
       v:001: 'PSA:127:1 | 1 | 1 | Blessed are all they that fear the Lord: that walk in his ways.{VS:BR}'
@@ -2641,6 +3174,7 @@ chapters:
       v:005: 'PSA:127:5 | 5 | 5 | May the Lord bless thee out of Sion: and mayst thou see the good things of Jerusalem all the days of thy life.{VS:BR}'
       v:006: "PSA:127:6 | 6 | 6 | And mayst thou see thy children's children, peace upon Israel.{VS:VERSE:END}"
   c:128:
+    footnotes: {}
     intro: A gradual canticle.
     verses:
       v:001: 'PSA:128:1 | 1 | 1 | Often have they fought against me from my youth, let Israel now say.{VS:BR}'
@@ -2652,6 +3186,7 @@ chapters:
       v:007: 'PSA:128:7 | 7 | 7 | Who with the mower filleth not his hand: nor he that gathereth sheaves his bosom.{VS:BR}'
       v:008: 'PSA:128:8 | 8 | 8 | And they that passed by have not said: The blessing of the Lord be upon you: we have blessed you in the name of the Lord.{VS:VERSE:END}'
   c:129:
+    footnotes: {}
     intro: A gradual canticle.
     verses:
       v:001: 'PSA:129:1 | 1 | 1 | Out of the depths I have cried to thee, O Lord:{VS:BR}'
@@ -2663,12 +3198,17 @@ chapters:
       v:007: 'PSA:129:7 | 7 | 7 | Because with the Lord there is mercy: and with him plentiful redemption.{VS:BR}'
       v:008: 'PSA:129:8 | 8 | 8 | And he shall redeem Israel from all his iniquities.{VS:VERSE:END}'
   c:130:
+    footnotes: {}
     intro: A gradual canticle of David.
     verses:
       v:001: 'PSA:130:1 | 1 | 1 | Lord, my heart is not exalted: nor are my eyes lofty. Neither have I walked in great matters, nor in wonderful things above me.{VS:BR}'
       v:002: 'PSA:130:2 | 2 | 2 | If I was not humbly minded, but exalted my soul: As a child that is weaned is towards his mother, so reward in my soul.{VS:BR}'
       v:003: 'PSA:130:3 | 3 | 3 | Let Israel hope in the Lord, from henceforth now and for ever.{VS:VERSE:END}'
   c:131:
+    footnotes:
+      v:006:
+        - note: "When I was young, and lived in Bethlehem, otherwise called Ephrata, I heard of God's tabernacle and ark, and had a devout desire of seeking it; and accordingly I found it at Cariathiarim, the city of the woods: where it was till it was removed to Jerusalem. See 1 Par. 13.</p>"
+          quote: We have heard of it in Ephrata
     intro: A gradual canticle.
     verses:
       v:001: 'PSA:131:1 | 1 | 1 | O Lord, remember David, and all his meekness.{VS:BR}'
@@ -2690,18 +3230,21 @@ chapters:
       v:017: 'PSA:131:17 | 17 | 17 | There will I bring forth a horn to David: I have prepared a lamp for my anointed.{VS:BR}'
       v:018: 'PSA:131:18 | 18 | 18 | His enemies I will clothe with confusion: but upon him shall my sanctification flourish.{VS:VERSE:END}'
   c:132:
+    footnotes: {}
     intro: A gradual canticle of David.
     verses:
       v:001: 'PSA:132:1 | 1 | 1 | Behold how good and how pleasant it is for brethren to dwell together in unity:{VS:BR}'
       v:002: 'PSA:132:2 | 2 | 2 | Like the precious ointment on the head, that ran down upon the beard, the beard of Aaron, Which ran down to the skirt of his garment:{VS:BR}'
       v:003: 'PSA:132:3 | 3 | 3 | As the dew of Hermon, which descendeth upon mount Sion. for there the Lord hath commanded blessing, and life for evermore.{VS:VERSE:END}'
   c:133:
+    footnotes: {}
     intro: A gradual canticle.
     verses:
       v:001: 'PSA:133:1 | 1 | 1 | Behold now bless ye the Lord, all ye servants of the Lord: Who stand in the house of the Lord, in the courts of the house of our God.{VS:BR}'
       v:002: 'PSA:133:2 | 2 | 2 | In the nights lift up your hands to the holy places, and bless ye the Lord.{VS:BR}'
       v:003: 'PSA:133:3 | 3 | 3 | May the Lord out of Sion bless thee, he that made heaven and earth.{VS:VERSE:END}'
   c:134:
+    footnotes: {}
     intro: 'An exhortation to praise God: the vanity of idols.'
     verses:
       v:001: 'PSA:134:1 | 1 | 1 | Alleluia. Praise ye the name of the Lord: O you his servants, praise the Lord:{VS:BR}'
@@ -2726,6 +3269,10 @@ chapters:
       v:020: 'PSA:134:20 | 20 | 20 | Bless the Lord, O house of Levi: you that fear the Lord, bless the Lord.{VS:BR}'
       v:021: 'PSA:134:21 | 21 | 21 | Blessed be the Lord out of Sion, who dwelleth in Jerusalem.{VS:VERSE:END}'
   c:135:
+    footnotes:
+      v:001:
+        - note: 'By this invitation to praise the Lord, thrice repeated, we profess the Blessed Trinity, One God in three distinct Persons, the Father, and the Son, and the Holy Ghost.</p>'
+          quote: Praise the Lord
     intro: God is to be praised for his wonderful works.
     verses:
       v:001: 'PSA:135:1 | 1 | 1 | Alleluia. Praise the Lord, for he is good: for his mercy endureth for ever.{VS:BR}'
@@ -2756,6 +3303,10 @@ chapters:
       v:026: 'PSA:135:26 | 26 | 26 | Give glory to the God of heaven: for his mercy endureth for ever.{VS:VERSE:END}'
       v:027: 'PSA:135:27 | 27 | 27 | Give glory to the Lord of lords: for his mercy endureth for ever.'
   c:136:
+    footnotes:
+      v:009:
+        - note: 'In the spiritual sense, we dash the little ones of Babylon against the rock, when we mortify our passions, and stifle the first motions of them, by a speedy recourse to the rock which is Christ.</p>'
+          quote: Dash thy little ones
     intro: 'A psalm of David, for Jeremias.'
     verses:
       v:001: 'PSA:136:1 | 1 | 1 | Upon the rivers of Babylon, there we sat and wept: when we remembered Sion:{VS:BR}'
@@ -2768,6 +3319,7 @@ chapters:
       v:008: 'PSA:136:8 | 8 | 8 | O daughter of Babylon, miserable: blessed shall he be who shall repay thee thy payment which thou hast paid us.{VS:BR}'
       v:009: 'PSA:136:9 | 9 | 9 | Blessed be he that shall take and dash thy little ones against the rock.{VS:VERSE:END}'
   c:137:
+    footnotes: {}
     intro: Thanksgiving to God for his benefits.
     verses:
       v:001: 'PSA:137:1 | 1 | 1 | For David himself. I will praise thee, O Lord, with my whole heart: for thou hast heard the words of my mouth. I will sing praise to thee in the sight of the angels:{VS:BR}'
@@ -2779,6 +3331,16 @@ chapters:
       v:007: 'PSA:137:7 | 7 | 7 | If I shall walk in the midst of tribulation, thou wilt quicken me: and thou hast stretched forth thy hand against the wrath of my enemies: and thy right hand hath saved me.{VS:BR}'
       v:008: 'PSA:137:8 | 8 | 8 | The Lord will repay for me: thy mercy, O Lord, endureth for ever: O despise not the works of thy hands.{VS:VERSE:END}'
   c:138:
+    footnotes:
+      v:004:
+        - note: 'Viz., unknown to thee: or when there is no speech in my tongue; yet my whole interior and my most secret thoughts are known to thee.</p>'
+          quote: There is no speech
+      v:020:
+        - note: 'Depart from me, you wicked, who plot against the servants of God, and think to cast them out of the cities of their habitation; as if they have received them in vain, and to no purpose.</p>'
+          quote: Because you say in thought
+      v:022:
+        - note: "Not with an hatred of malice, but a zeal for the observance of God's commandments; which he saw were despised by the wicked, who are to be considered enemies to God.</p>"
+          quote: I have hated them
     intro: God’s special providence over his servants.
     verses:
       v:001: 'PSA:138:1 | 1 | 1 | Unto the end, a psalm of David. Lord, thou hast proved me, and known me:{VS:BR}'
@@ -2806,6 +3368,7 @@ chapters:
       v:023: 'PSA:138:23 | 23 | 23 | Prove me, O God, and know my heart: examine me, and know my paths.{VS:BR}'
       v:024: 'PSA:138:24 | 24 | 24 | And see if there be in me the way of iniquity: and lead me in the eternal way.{VS:VERSE:END}'
   c:139:
+    footnotes: {}
     intro: A prayer to be delivered from the wicked.
     verses:
       v:001: 'PSA:139:1 | 1 | 1 | Unto the end, a psalm of David.'
@@ -2823,6 +3386,18 @@ chapters:
       v:013: 'PSA:139:13 | 13 | 13 | I know that the Lord will do justice to the needy, and will revenge the poor.{VS:BR}'
       v:014: 'PSA:139:14 | 14 | 14 | But as for the just, they shall give glory to thy name: and the upright shall dwell with thy countenance.{VS:VERSE:END}'
   c:140:
+    footnotes:
+      v:005:
+        - note: 'That is, the flattery, or deceitful praise.-- Ibid.</p>'
+          quote: Let not the oil of the sinner
+        - note: 'So far from coveting their praises, who are never well pleased but with things that are evil; I shall continually pray to be preserved from such things as they are delighted with.</p>'
+          quote: For my prayer
+      v:006:
+        - note: 'Their rulers, or chiefs, quickly vanish and perish, like ships dashed against the rocks, and swallowed up by the waves. Let them then hear my words, for they are powerful and will prevail; or, as it is in the Hebrew, for they are sweet.</p>'
+          quote: Their judges
+      v:010:
+        - note: 'Singularly protected by the Almighty, until I pass all their nets and snares.</p>'
+          quote: I am alone
     intro: A psalm of David.
     verses:
       v:001: 'PSA:140:1 | 1 | 1 | I have cried to thee, O Lord, hear me: hearken to my voice, when I cry to thee.{VS:BR}'
@@ -2836,6 +3411,7 @@ chapters:
       v:009: 'PSA:140:9 | 9 | 9 | Keep me from the snare, which they have laid for me, and from the stumblingblocks of them that work iniquity.{VS:BR}'
       v:010: 'PSA:140:10 | 10 | 10 | The wicked shall fall in his net: I am alone until I pass.{VS:VERSE:END}'
   c:141:
+    footnotes: {}
     intro: A prayer of David in extremity of danger.
     verses:
       v:001: 'PSA:141:1 | 1 | 1 | Of understanding for David, A prayer when he was in the cave. [1 Kings 24.]'
@@ -2847,6 +3423,7 @@ chapters:
       v:007: 'PSA:141:7 | 7 | 7 | Attend to my supplication: for I am brought very low. Deliver me from my persecutors; for they are stronger than I.{VS:BR}'
       v:008: 'PSA:141:8 | 8 | 8 | Bring my soul out of prison, that I may praise thy name: the just wait for me, until thou reward me.{VS:VERSE:END}'
   c:142:
+    footnotes: {}
     intro: The psalmist in tribulation calleth upon God for his delivery. The seventh penitential psalm.
     verses:
       v:001: 'PSA:142:1 | 1 | 1 | A psalm of David, when his son Absalom pursued him. [2 Kings 17.] Hear, O Lord, my prayer: give ear to my supplication in thy truth: hear me in thy justice.{VS:BR}'
@@ -2862,6 +3439,7 @@ chapters:
       v:011: "PSA:142:11 | 11 | 11 | for thy name's sake, O Lord, thou wilt quicken me in thy justice. Thou wilt bring my soul out of trouble:{VS:BR}"
       v:012: 'PSA:142:12 | 12 | 12 | And in thy mercy thou wilt destroy my enemies. And thou wilt cut off all them that afflict my soul: for I am thy servant.{VS:VERSE:END}'
   c:143:
+    footnotes: {}
     intro: A psalm of David against Goliath.
     verses:
       v:001: 'PSA:143:1 | 1 | 1 | Blessed be the Lord my God, who teacheth my hands to fight, and my fingers to war.{VS:BR}'
@@ -2880,6 +3458,7 @@ chapters:
       v:014: 'PSA:143:14 | 14 | 14 | Their oxen fat. There is no breach of wall, nor passage, nor crying out in their streets.{VS:BR}'
       v:015: 'PSA:143:15 | 15 | 15 | They have called the people happy, that hath these things: but happy is that people whose God is the Lord.{VS:VERSE:END}'
   c:144:
+    footnotes: {}
     intro: 'A psalm of praise, to the infinite majesty of God.'
     verses:
       v:001: 'PSA:144:1 | 1 | 1 | Praise, for David himself. I will extol thee, O God my king: and I will bless thy name for ever; yea, for ever and ever.{VS:BR}'
@@ -2904,6 +3483,7 @@ chapters:
       v:020: 'PSA:144:20 | 20 | 20 | The Lord keepeth all them that love him; but all the wicked he will destroy.{VS:BR}'
       v:021: 'PSA:144:21 | 21 | 21 | My mouth shall speak the praise of the Lord: and let all flesh bless his holy name forever; yea, for ever and ever.{VS:VERSE:END}'
   c:145:
+    footnotes: {}
     intro: 'We are not to trust in men, but in God alone.'
     verses:
       v:001: 'PSA:145:1 | 1 | 1 | Alleluia, of Aggeus and Zacharias.'
@@ -2917,6 +3497,7 @@ chapters:
       v:009: 'PSA:145:9 | 9 | 9 | The Lord keepeth the strangers, he will support the fatherless and the widow: and the ways of sinners he will destroy.{VS:BR}'
       v:010: 'PSA:145:10 | 10 | 10 | The Lord shall reign for ever: thy God, O Sion, unto generation and generation.{VS:VERSE:END}'
   c:146:
+    footnotes: {}
     intro: An exhortation to praise God for his benefits.
     verses:
       v:001: 'PSA:146:1 | 1 | 1 | Alleluia. Praise ye the Lord, because psalm is good: to our God be joyful and comely praise.{VS:BR}'
@@ -2931,6 +3512,10 @@ chapters:
       v:010: 'PSA:146:10 | 10 | 10 | He shall not delight in the strength of the horse: nor take pleasure in the legs of a man.{VS:BR}'
       v:011: 'PSA:146:11 | 11 | 11 | The Lord taketh pleasure in them that fear him: and in them that hope in his mercy.{VS:VERSE:END}'
   c:147:
+    footnotes:
+      v:006:
+        - note: 'That is, his ice. Some understand it of hail, which is, as it were, ice, divided into particles or morsels.</p>'
+          quote: He sendeth his crystal
     intro: 'The church is called upon to praise God for his peculiar graces and favours to his people. In the Hebrew, this psalm is joined to the foregoing.'
     verses:
       v:001: 'PSA:147:1 | 1 | {AVN:START 12}1{AVN:END} | Alleluia. Praise the Lord, O Jerusalem: praise thy God, O Sion.{VS:BR}'
@@ -2943,6 +3528,7 @@ chapters:
       v:008: 'PSA:147:8 | 8 | {AVN:START 19}8{AVN:END} | Who declareth his word to Jacob: his justices and his judgments to Israel.{VS:BR}'
       v:009: 'PSA:147:9 | 9 | {AVN:START 20}9{AVN:END} | He hath not done in like manner to every nation: and his judgments he hath not made manifest to them. Alleluia.{VS:VERSE:END}'
   c:148:
+    footnotes: {}
     intro: All creatures are invited to praise their Creator.
     verses:
       v:001: 'PSA:148:1 | 1 | 1 | Alleluia. Praise ye the Lord from the heavens: praise ye him in the high places.{VS:BR}'
@@ -2960,6 +3546,7 @@ chapters:
       v:013: 'PSA:148:13 | 13 | 13 | For his name alone is exalted.{VS:BR}'
       v:014: 'PSA:148:14 | 14 | 14 | The praise of him is above heaven and earth: and he hath exalted the horn of his people. A hymn to all his saints to the children of Israel, a people approaching to him. Alleluia.{VS:VERSE:END}'
   c:149:
+    footnotes: {}
     intro: The church is particularly bound to praise God.
     verses:
       v:001: 'PSA:149:1 | 1 | 1 | Alleluia. Sing ye to the Lord a new canticle: let his praise be in the church of the saints.{VS:BR}'
@@ -2972,6 +3559,7 @@ chapters:
       v:008: 'PSA:149:8 | 8 | 8 | To bind their kings with fetters, and their nobles with manacles of iron.{VS:BR}'
       v:009: 'PSA:149:9 | 9 | 9 | To execute upon them the judgment that is written: this glory is to all his saints. Alleluia.{VS:VERSE:END}'
   c:150:
+    footnotes: {}
     intro: An exhortation to praise God with all sorts of instruments.
     verses:
       v:001: 'PSA:150:1 | 1 | 1 | Alleluia. Praise ye the Lord in his holy places: praise ye him in the firmament of his power.{VS:BR}'

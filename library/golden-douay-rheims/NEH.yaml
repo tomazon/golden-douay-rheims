@@ -2,6 +2,7 @@
 book_id: NEH
 chapters:
   c:001:
+    footnotes: {}
     intro: 'Nehemias hearing the miserable state of his countrymen in Judea, lamenteth, fasteth, and prayeth to God for their relief.'
     verses:
       v:001: 'NEH:1:1 | 1 | 1 | The words of Nehemias the son of Helchias. And it came to pass in the month of Casleu, in the twentieth year, as I was in the castle of Susa,'
@@ -16,6 +17,7 @@ chapters:
       v:010: 'NEH:1:10 | 10 | 10 | And these are thy servants, and thy people: whom thou hast redeemed by thy great strength, and by thy mighty hand.'
       v:011: "NEH:1:11 | 11 | 11 | I beseech thee, O Lord, let thy ear be attentive to the prayer of thy servant, and to the prayer of thy servants who desire to fear thy name: and direct thy servant this day, and give him mercy before this man. for I was the king's cupbearer."
   c:002:
+    footnotes: {}
     intro: 'Nehemias with commission from king Artaxerxes cometh to Jerusalem: and exhorteth the Jews to rebuild the walls.'
     verses:
       v:001: 'NEH:2:1 | 1 | 1 | And it came to pass in the month of Nisan, in the twentieth year of Artaxerxes the king: that wine was before him, and I took up the wine, and gave it to the king: and I was as one languishing away before his face.'
@@ -39,6 +41,7 @@ chapters:
       v:019: 'NEH:2:19 | 19 | 19 | But Sanaballat the Horonite, and Tobias the servant, the Ammonite, and Gossem the Arabian heard of it, and they scoffed at us, and despised us, and said: What is this thing that you do? are you going to rebel against the king?'
       v:020: 'NEH:2:20 | 20 | 20 | And I answered them, and said to them: The God of heaven he helpeth us, and we are his servants: let us rise up and build: but you have no part, nor justice, nor remembrance in Jerusalem.'
   c:003:
+    footnotes: {}
     intro: 'They begin to build the walls: the names and order of the builders.'
     verses:
       v:001: 'NEH:3:1 | 1 | 1 | Then Eliasib the high priest arose, and his brethren the priests, and they built the flock gate: they sanctified it, and set up the doors thereof, even unto the tower of a hundred cubits they sanctified it unto the tower of Hananeel.'
@@ -73,6 +76,7 @@ chapters:
       v:030: "NEH:3:30 | 30 | 30 | After him built Hanania the son of Selemia, and Hanun the sixth son of Seleph, another measure: after him built Mosollam the son of Barachias over against his treasury. After him Melcias the goldsmith's son built unto the house of the Nathinites, and of the sellers of small wares, over against the judgment gate, and unto the chamber of the corner."
       v:031: 'NEH:3:31 | 31 | 31 | And within the chamber of the corner of the flock gate, the goldsmiths and the merchants built.'
   c:004:
+    footnotes: {}
     intro: The building is carried on notwithstanding the opposition of their enemies.
     verses:
       v:001: 'NEH:4:1 | 1 | 1 | And it came to pass, that when Sanaballat heard that we were building the wall he was angry: and being moved exceedingly he scoffed at the Jews.'
@@ -99,6 +103,7 @@ chapters:
       v:022: 'NEH:4:22 | 22 | 22 | At that time also I said to the people: Let every one with his servant stay in the midst of Jerusalem, and let us take our turns in the night, and by day, to work.'
       v:023: 'NEH:4:23 | 23 | 23 | Now I and my brethren, and my servants, and the watchmen that followed me, did not put off our clothes: only every man stripped himself when he was to be washed.'
   c:005:
+    footnotes: {}
     intro: 'Nehemias blameth the rich, for their oppressing the poor. His exhortation, and bounty to his countrymen.'
     verses:
       v:001: 'NEH:5:1 | 1 | 1 | Now there was a great cry of the people, and of their wives against their brethren the Jews.'
@@ -121,6 +126,7 @@ chapters:
       v:018: 'NEH:5:18 | 18 | 18 | And there was prepared for me day by day one ox, and six choice rams, besides fowls, and once in ten days I gave store of divers wines, and many other things: yet I did not require my yearly allowance as governor: for the people were very much impoverished.'
       v:019: 'NEH:5:19 | 19 | 19 | Remember me, O my God, for good according to all that I have done for this people.'
   c:006:
+    footnotes: {}
     intro: The enemies seek to terrify Nehemias. He proceedeth and finisheth the wall.
     verses:
       v:001: 'NEH:6:1 | 1 | 1 | And it came to pass, when Sanaballat, and Tobias, and Gossem the Arabian, and the rest of our enemies, heard that I had built the wall, and that there was no breach left in it, (though at that time I had not set up the doors in the gates,)'
@@ -143,6 +149,10 @@ chapters:
       v:018: 'NEH:6:18 | 18 | 18 | For there were many in Judea sworn to him, because he was the son in law of Sechenias the son of Area, and Johanan his son had taken to wife the daughter of Mosollam the son of Barachias.'
       v:019: 'NEH:6:19 | 19 | 19 | And they praised him also before me, and they related my words to him: And Tobias sent letters to put me in fear.'
   c:007:
+    footnotes:
+      v:070:
+        - note: 'That is, Nehemias; as appears from chap. 12. Either that he was so called at the court of the king of Persia, where he was cupbearer: or that, as some think, this name signifies governor; and he was at that time governor of Judea.</p>'
+          quote: Athersatha
     intro: Nehemias appointeth watchmen in Jerusalem. The list of those who came first from Babylon.
     verses:
       v:001: 'NEH:7:1 | 1 | 1 | Now after the wall was built, and I had set up the doors, and numbered the porters and singing men, and Levites:'
@@ -219,6 +229,7 @@ chapters:
       v:072: 'NEH:7:72 | 72 | 72 | And that which the rest of the people gave, was twenty thousand drams of gold, and two thousand pounds of silver, and sixty-seven garments for priests.'
       v:073: 'NEH:7:73 | 73 | 73 | And the priests, and the Levites, and the porters, and the singing men, and the rest of the common people, and the Nathinites, and all Israel dwelt in their cities.'
   c:008:
+    footnotes: {}
     intro: Esdras readeth the law before the people. Nehemias comforteth them. They celebrate the feast of tabernacles.
     verses:
       v:001: 'NEH:8:1 | 1 | 1 | And the seventh month came: and the children of Israel were in their cities. And all the people were gathered together as one man to the street which is before the water gate, and they spoke to Esdras the scribe, to bring the book of the law of Moses, which the Lord had commanded to Israel.'
@@ -240,6 +251,13 @@ chapters:
       v:017: 'NEH:8:17 | 17 | 17 | And all the assembly of them that were returned from the captivity, made tabernacles, and dwelt in tabernacles: for since the days of Josue the son of Nun the children of Israel had not done so, until that day: and there was exceeding great joy.'
       v:018: 'NEH:8:18 | 18 | 18 | And he read in the book of the law of God day by day, from the first day till the last, and they kept the solemnity seven days, and in the eighth day a solemn assembly according to the manner.'
   c:009:
+    footnotes:
+      v:007:
+        - note: 'The city of Ur in Chaldea, the name of which signifies fire. Or out of the fire of the tribulations and temptations, to which he was there exposed.-- The ancient Rabbins understood this literally, affirming that Abram was cast into the fire by the idolaters, and brought out by a miracle without any hurt.</p>'
+          quote: The fire of the Chaldeans
+      v:017:
+        - note: 'That is, they set their head, or were bent to return to Egypt.</p>'
+          quote: And gave the head
     intro: 'The people repent with fasting and sackcloth. The Levites confess God’s benefits, and the people’s ingratitude: they pray for them, and make a covenant with God.'
     verses:
       v:001: 'NEH:9:1 | 1 | 1 | And in the four and twentieth day of the month the children of Israel came together with fasting and with sackcloth, and earth upon them.'
@@ -281,6 +299,7 @@ chapters:
       v:037: 'NEH:9:37 | 37 | 37 | And the fruits thereof grow up for the kings, whom thou hast set over us for our sins, and they have dominion over our bodies, and over our beasts, according to their will, and we are in great tribulation.'
       v:038: 'NEH:9:38 | 38 | 38 | And because of all this we ourselves make a covenant, and write it, and our princes, our Levites, and our priests sign it.'
   c:010:
+    footnotes: {}
     intro: 'The names of the subscribers to the covenant, and the contents of it.'
     verses:
       v:001: 'NEH:10:1 | 1 | 1 | And the subscribers were Nehemias, Athersatha the son of Hachelai, and Sedecias,'
@@ -323,6 +342,7 @@ chapters:
       v:038: 'NEH:10:38 | 38 | 38 | And the priest the son of Aaron shall be with the Levites in the tithes of the Levites, and the Levites shall offer the tithe of their tithes in the house of our God, to the storeroom into the treasure house.'
       v:039: 'NEH:10:39 | 39 | 39 | For the children of Israel and the children of Levi shall carry to the treasury the firstfruits of corn, of wine, and of oil: and the sanctified vessels shall be there, and the priests, and the singing men, and the porters, and ministers, and we will not forsake the house of our God.'
   c:011:
+    footnotes: {}
     intro: 'Who were the inhabitants of Jerusalem, and the other cities.'
     verses:
       v:001: 'NEH:11:1 | 1 | 1 | And the princes of the people dwelt at Jerusalem: but the rest of the people cast lots, to take one part in ten to dwell in Jerusalem the holy city, and nine parts in the other cities.'
@@ -362,6 +382,10 @@ chapters:
       v:035: NEH:11:35 | 35 | 35 | And Ono the valley of craftsmen.
       v:036: NEH:11:36 | 36 | 36 | And of the Levites were portions of Juda and Benjamin.
   c:012:
+    footnotes:
+      v:046:
+        - note: 'That is, they gave them that which by the law was set aside, and sanctified for their use.</p>'
+          quote: Sanctified
     intro: 'The priests, and Levites that came up with Zorobabel. The succession of high priests: the solemnity of the dedication of the wall.'
     verses:
       v:001: 'NEH:12:1 | 1 | 1 | Now these are the priests and the Levites, that went up with Zorobabel the son of Salathiel, and Josue: Saraia, Jeremias, Esdras,'
@@ -411,6 +435,10 @@ chapters:
       v:045: 'NEH:12:45 | 45 | 45 | For in the days of David and Asaph from the beginning there were chief singers appointed, to praise with canticles, and give thanks to God.'
       v:046: 'NEH:12:46 | 46 | 46 | And all Israel, in the days of Zorobabel, and in the days of Nehemias gave portions to the singing men, and to the porters, day by day, and they sanctified the Levites, and the Levites sanctified the sons of Aaron.'
   c:013:
+    footnotes:
+      v:004:
+        - note: 'Or, he was faulty in this thing, or in this kind.</p>'
+          quote: Over this thing
     intro: Divers abuses are reformed.
     verses:
       v:001: 'NEH:13:1 | 1 | 1 | And on that day they read in the book of Moses in the hearing of the people: and therein was found written, that the Ammonites and the Moabites should not come in to the church of God for ever:'

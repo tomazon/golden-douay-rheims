@@ -2,6 +2,7 @@
 book_id: PRO
 chapters:
   c:001:
+    footnotes: {}
     intro: 'The use and end of the proverbs. An exhortation to flee the company of the wicked: and to hearken to the voice of wisdom.'
     verses:
       v:001: 'PRO:1:1 | 1 | 1 | {VS:VERSE:BEGIN}The parables of Solomon, the son of David, king of Israel,{VS:BR}'
@@ -38,6 +39,7 @@ chapters:
       v:032: 'PRO:1:32 | 32 | 32 | The turning away of little ones shall kill them, and the prosperity of fools shall destroy them.{VS:BR}'
       v:033: 'PRO:1:33 | 33 | 33 | But he that shall hear me, shall rest without terror, and shall enjoy abundance, without fear of evils.{VS:VERSE:END}'
   c:002:
+    footnotes: {}
     intro: 'The advantages of wisdom: and the evils from which it delivers.'
     verses:
       v:001: 'PRO:2:1 | 1 | 1 | {VS:VERSE:BEGIN}My son, if thou wilt receive my words, and wilt hide my commandments with thee,{VS:BR}'
@@ -63,6 +65,7 @@ chapters:
       v:021: 'PRO:2:21 | 21 | 21 | For they that are upright, shall dwell in the earth; and the simple shall continue in it.{VS:BR}'
       v:022: 'PRO:2:22 | 22 | 22 | But the wicked shall be destroyed from the earth: and they that do unjustly, shall be taken away from it.{VS:VERSE:END}'
   c:003:
+    footnotes: {}
     intro: An exhortation to the practice of virtue.
     verses:
       v:001: 'PRO:3:1 | 1 | 1 | {VS:VERSE:BEGIN}My son, forget not my law, and let thy heart keep my commandments.{VS:BR}'
@@ -101,6 +104,7 @@ chapters:
       v:034: 'PRO:3:34 | 34 | 34 | He shall scorn the scorners, and to the meek he will give grace.{VS:BR}'
       v:035: 'PRO:3:35 | 35 | 35 | The wise shall possess glory: the promotion of fools is disgrace.{VS:VERSE:END}{VS:P}'
   c:004:
+    footnotes: {}
     intro: A further exhortation to seek after wisdom.
     verses:
       v:001: 'PRO:4:1 | 1 | 1 | {VS:VERSE:BEGIN}Hear, ye children, the instruction of a father, and attend, that you may know prudence.{VS:BR}'
@@ -131,6 +135,7 @@ chapters:
       v:026: 'PRO:4:26 | 26 | 26 | Make straight the path for thy feet, and all thy ways shall be established.{VS:BR}'
       v:027: 'PRO:4:27 | 27 | 27 | Decline not to the right hand, nor to the left: turn away thy foot from evil. for the Lord knoweth the ways that are on the right hand: but those are perverse which are on the left hand. But he will make thy courses straight, he will bring forward thy ways in peace.{VS:VERSE:END}'
   c:005:
+    footnotes: {}
     intro: 'An exhortation to fly unlawful lust, and the occasions of it.'
     verses:
       v:001: 'PRO:5:1 | 1 | 1 | {VS:VERSE:BEGIN}My son, attend to my wisdom, and incline thy ear to my prudence,{VS:BR}'
@@ -157,6 +162,10 @@ chapters:
       v:022: 'PRO:5:22 | 22 | 22 | His own iniquities catch the wicked, and he is fast bound with the ropes of his own sins.{VS:BR}'
       v:023: 'PRO:5:23 | 23 | 23 | He shall die, because he hath not received instruction, and in the multitude of his folly he shall be deceived.{VS:VERSE:END}'
   c:006:
+    footnotes:
+      v:030:
+        - note: 'The sin of theft is not so great, as to be compared with adultery: especially when a person pressed with hunger (which is the case here spoken of) steals to satisfy nature. Moreover the damage done by theft may much more easily be repaired, than the wrong done by adultery. But this does not hinder, but that theft also is a mortal sin, forbidden by one of the ten commandments.</p>'
+          quote: The fault is not so great
     intro: Documents on several heads.
     verses:
       v:001: 'PRO:6:1 | 1 | 1 | {VS:VERSE:BEGIN}My son, if thou be surety for thy friend, thou hast engaged fast thy hand to a stranger,{VS:BR}'
@@ -195,6 +204,7 @@ chapters:
       v:034: 'PRO:6:34 | 34 | 34 | Because the jealousy and rage of the husband will not spare in the day of revenge,{VS:BR}'
       v:035: "PRO:6:35 | 35 | 35 | Nor will he yield to any man's prayers, nor will he accept for satisfaction ever so many gifts.{VS:VERSE:END}"
   c:007:
+    footnotes: {}
     intro: The love of wisdom is the best preservative from being led astray by temptation.
     verses:
       v:001: 'PRO:7:1 | 1 | 1 | {VS:VERSE:BEGIN}My son, keep my words, and lay up my precepts with thee. Son,'
@@ -225,6 +235,7 @@ chapters:
       v:026: 'PRO:7:26 | 26 | 26 | For she hath cast down many wounded, and the strongest have been slain by her.{VS:BR}'
       v:027: 'PRO:7:27 | 27 | 27 | Her house is the way to hell, reaching even to the inner chambers of death.{VS:VERSE:END}'
   c:008:
+    footnotes: {}
     intro: The preaching of wisdom. Her excellence.
     verses:
       v:001: 'PRO:8:1 | 1 | 1 | {VS:VERSE:BEGIN}Doth not wisdom cry aloud, and prudence put forth her voice?{VS:BR}'
@@ -264,6 +275,7 @@ chapters:
       v:035: 'PRO:8:35 | 35 | 35 | He that shall find me, shall find life, and shall have salvation from the Lord.{VS:BR}'
       v:036: 'PRO:8:36 | 36 | 36 | But he that shall sin against me shall hurt his own soul. All that hate me love death.{VS:VERSE:END}'
   c:009:
+    footnotes: {}
     intro: Wisdom invites all to her feast. Folly calls another way.
     verses:
       v:001: 'PRO:9:1 | 1 | 1 | {VS:VERSE:BEGIN}Wisdom hath built herself a house, she hath hewn her out seven pillars.{VS:BR}'
@@ -285,6 +297,7 @@ chapters:
       v:017: 'PRO:9:17 | 17 | 17 | Stolen waters are sweeter, and hidden bread is more pleasant.{VS:BR}'
       v:018: 'PRO:9:18 | 18 | 18 | And he did not know that giants are there, and that her guests are in the depths of hell.{VS:VERSE:END}'
   c:010:
+    footnotes: {}
     intro: 'In the twenty following chapters are contained many wise sayings and axioms, relating to wisdom and folly, virtue and vice.'
     verses:
       v:001: 'PRO:10:1 | 1 | 1 | {VS:VERSE:BEGIN}A wise son maketh the father glad: but a foolish son is the sorrow of his mother.{VS:BR}'
@@ -320,6 +333,7 @@ chapters:
       v:031: 'PRO:10:31 | 31 | 31 | The mouth of the just shall bring forth wisdom: the tongue of the perverse shall perish.{VS:BR}'
       v:032: 'PRO:10:32 | 32 | 32 | The lips of the just consider what is acceptable: and the mouth of the wicked uttereth perverse things.{VS:VERSE:END}'
   c:011:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:11:1 | 1 | 1 | {VS:VERSE:BEGIN}A deceitful balance is an abomination before the Lord: and a just weight is his will.{VS:BR}'
@@ -354,6 +368,7 @@ chapters:
       v:030: 'PRO:11:30 | 30 | 30 | The fruit of the just man is a tree of life: and he that gaineth souls is wise.{VS:BR}'
       v:031: 'PRO:11:31 | 31 | 31 | If the just man receive in the earth, how much more the wicked and the sinner.{VS:VERSE:END}'
   c:012:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:12:1 | 1 | 1 | {VS:VERSE:BEGIN}He that loveth correction, loveth knowledge: but he that hateth reproof, is foolish.{VS:BR}'
@@ -387,6 +402,7 @@ chapters:
       v:027: 'PRO:12:27 | 27 | 27 | The deceitful man shall not find gain: but the substance of a just man shall be precious gold.{VS:BR}'
       v:028: 'PRO:12:28 | 28 | 28 | In the path of justice is life: but the bye-way leadeth to death.{VS:VERSE:END}'
   c:013:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:13:1 | 1 | 1 | {VS:VERSE:BEGIN}A wise son heareth the doctrine of his father: but he that is a scorner, heareth not when he is reproved.{VS:BR}'
@@ -415,6 +431,7 @@ chapters:
       v:024: 'PRO:13:24 | 24 | 24 | He that spareth the rod, hateth his son: but he that loveth him, correcteth him betimes.{VS:BR}'
       v:025: 'PRO:13:25 | 25 | 25 | The just eateth and filleth his soul: but the belly of the wicked is never to be filled.{VS:VERSE:END}'
   c:014:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:14:1 | 1 | 1 | {VS:VERSE:BEGIN}A wise woman buildeth her house: but the foolish will pull down with her hands that also which is built.{VS:BR}'
@@ -453,6 +470,7 @@ chapters:
       v:034: 'PRO:14:34 | 34 | 34 | Justice exalteth a nation: but sin maketh nations miserable.{VS:BR}'
       v:035: 'PRO:14:35 | 35 | 35 | A wise servant is acceptable to the king: he that is good for nothing shall feel his anger.{VS:VERSE:END}'
   c:015:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:15:1 | 1 | 1 | {VS:VERSE:BEGIN}A mild answer breaketh wrath: but a harsh word stirreth up fury.{VS:BR}'
@@ -489,6 +507,10 @@ chapters:
       v:032: 'PRO:15:32 | 32 | 32 | He that rejecteth instruction, despiseth his own soul: but he that yieldeth to reproof, possesseth understanding.{VS:BR}'
       v:033: 'PRO:15:33 | 33 | 33 | The fear of the Lord is the lesson of wisdom: and humility goeth before glory.{VS:VERSE:END}'
   c:016:
+    footnotes:
+      v:001:
+        - note: "That is, a man should prepare in his heart and soul what he is to say: but after all, it must be the Lord that must govern his tongue, to speak to the purpose. Not that we can think any thing of good without God's grace; but that after we have (with God's grace) thought and prepared within our souls what we would speak, if God does not govern our tongue, we shall not succeed in what we speak.</p>"
+          quote: It is the part of man
     intro: ~
     verses:
       v:001: 'PRO:16:1 | 1 | 1 | {VS:VERSE:BEGIN}It is the part of man to prepare the soul: and of the Lord to govern the tongue.{VS:BR}'
@@ -525,6 +547,7 @@ chapters:
       v:032: 'PRO:16:32 | 32 | 32 | The patient man is better than the valiant: and he that ruleth his spirit, than he that taketh cities.{VS:BR}'
       v:033: 'PRO:16:33 | 33 | 33 | Lots are cast into the lap, but they are disposed of by the Lord.{VS:VERSE:END}'
   c:017:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:17:1 | 1 | 1 | {VS:VERSE:BEGIN}Better is a dry morsel with joy, than a house full of victims with strife.{VS:BR}'
@@ -556,6 +579,7 @@ chapters:
       v:027: 'PRO:17:27 | 27 | 27 | He that setteth bounds to his words, is knowing and wise: and the man of understanding is of a precious spirit.{VS:BR}'
       v:028: 'PRO:17:28 | 28 | 28 | Even a fool, if he will hold his peace, shall be counted wise: and if he close his lips, a man of understanding.{VS:VERSE:END}'
   c:018:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:18:1 | 1 | 1 | {VS:VERSE:BEGIN}He that hath a mind to depart from a friend, seeketh occasions: he shall ever be subject to reproach.{VS:BR}'
@@ -583,6 +607,7 @@ chapters:
       v:023: 'PRO:18:23 | 23 | 23 | The poor will speak with supplications, and the rich will speak roughly.{VS:BR}'
       v:024: 'PRO:18:24 | 24 | 24 | A man amiable in society, shall be more friendly than a brother.{VS:VERSE:END}'
   c:019:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:19:1 | 1 | 1 | {VS:VERSE:BEGIN}Better is the poor man, that walketh in his simplicity, than a rich man that is perverse in his lips and unwise.{VS:BR}'
@@ -615,6 +640,7 @@ chapters:
       v:028: 'PRO:19:28 | 28 | 28 | An unjust witness scorneth judgment: and the mouth of the wicked devoureth iniquity.{VS:BR}'
       v:029: 'PRO:19:29 | 29 | 29 | Judgments are prepared for scorners: and striking hammers for the bodies of fools.{VS:VERSE:END}'
   c:020:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:20:1 | 1 | 1 | {VS:VERSE:BEGIN}Wine is a luxurious thing, and drunkenness riotous: whosoever is delighted therewith, shall not be wise.{VS:BR}'
@@ -648,6 +674,7 @@ chapters:
       v:029: 'PRO:20:29 | 29 | 29 | The joy of young men is their strength: and the dignity of old men, their grey hairs.{VS:BR}'
       v:030: 'PRO:20:30 | 30 | 30 | The blueness of a wound shall wipe away evils: and stripes in the more inward parts of the belly.{VS:VERSE:END}'
   c:021:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:21:1 | 1 | 1 | {VS:VERSE:BEGIN}As the divisions of waters, so the heart of the king is in the hand of the Lord: whithersoever he will, he shall turn it.{VS:BR}'
@@ -682,6 +709,7 @@ chapters:
       v:030: 'PRO:21:30 | 30 | 30 | There is no wisdom, there is no prudence, there is no counsel against the Lord.{VS:BR}'
       v:031: 'PRO:21:31 | 31 | 31 | The horse is prepared for the day of battle: but the Lord giveth safety.{VS:VERSE:END}'
   c:022:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:22:1 | 1 | 1 | {VS:VERSE:BEGIN}A good name is better than great riches: and good favour is above silver and gold.{VS:BR}'
@@ -714,6 +742,7 @@ chapters:
       v:028: 'PRO:22:28 | 28 | 28 | Pass not beyond the ancient bounds which thy fathers have set.{VS:BR}'
       v:029: 'PRO:22:29 | 29 | 29 | Hast thou seen a man swift in his work? he shall stand before kings, and shall not be before those that are obscure.{VS:VERSE:END}'
   c:023:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:23:1 | 1 | 1 | {VS:VERSE:BEGIN}When thou shalt sit to eat with a prince, consider diligently what is set before thy face:{VS:BR}'
@@ -752,6 +781,7 @@ chapters:
       v:034: 'PRO:23:34 | 34 | 34 | And thou shalt be as one sleeping in the midst of the sea, and as a pilot fast asleep when the stern is lost.{VS:BR}'
       v:035: 'PRO:23:35 | 35 | 35 | And thou shalt say: They have beaten me, but I was not sensible of pain: they drew me, and I felt not: when shall I awake and find wine again?{VS:VERSE:END}'
   c:024:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:24:1 | 1 | 1 | {VS:VERSE:BEGIN}Seek not to be like evil men, neither desire to be with them:{VS:BR}'
@@ -789,6 +819,10 @@ chapters:
       v:033: 'PRO:24:33 | 33 | 33 | Thou wilt sleep a little, said I, thou wilt slumber a little, thou wilt fold thy hands a little to rest.{VS:BR}'
       v:034: 'PRO:24:34 | 34 | 34 | And poverty shall come to thee as a runner, and beggary as an armed man.{VS:VERSE:END}'
   c:025:
+    footnotes:
+      v:027:
+        - note: 'Viz., of God. For to search into that incomprehensible Majesty, and to pretend to sound the depths of the wisdom of God, is exposing our weak understanding to be blinded with an excess of light and glory, which it cannot comprehend.</p>'
+          quote: Majesty
     intro: ~
     verses:
       v:001: 'PRO:25:1 | 1 | 1 | These are also parables of Solomon, which the men of Ezechias, king of Juda, copied out.'
@@ -820,6 +854,13 @@ chapters:
       v:027: 'PRO:25:27 | 27 | 27 | As it is not good for a man to eat much honey, so he that is a searcher of majesty shall be overwhelmed by glory.{VS:BR}'
       v:028: 'PRO:25:28 | 28 | 28 | As a city that lieth open and is not compassed with walls, so is a man that cannot refrain his own spirit in speaking.{VS:VERSE:END}'
   c:026:
+    footnotes:
+      v:002:
+        - note: 'The meaning is, that a curse uttered without cause shall do no harm to the person that is cursed, but will return upon him that curseth, as whithersoever a bird flies, it returns to its own nest.</p>'
+          quote: As a bird
+      v:004:
+        - note: 'Viz., so as to imitate him but only so as to reprove his folly.</p>'
+          quote: Answer not a fool
     intro: ~
     verses:
       v:001: 'PRO:26:1 | 1 | 1 | {VS:VERSE:BEGIN}As snow in summer, and rain in harvest, so glory is not seemly for a fool.{VS:BR}'
@@ -851,6 +892,7 @@ chapters:
       v:027: 'PRO:26:27 | 27 | 27 | He that diggeth a pit, shall fall into it: and he that rolleth a stone, it shall return to him.{VS:BR}'
       v:028: 'PRO:26:28 | 28 | 28 | A deceitful tongue loveth not truth: and a slippery mouth worketh ruin.{VS:VERSE:END}'
   c:027:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:27:1 | 1 | 1 | {VS:VERSE:BEGIN}Boast not for to morrow, for thou knowest not what the day to come may bring forth.{VS:BR}'
@@ -881,6 +923,7 @@ chapters:
       v:026: 'PRO:27:26 | 26 | 26 | Lambs are for thy clothing: and kids for the price of the field.{VS:BR}'
       v:027: 'PRO:27:27 | 27 | 27 | Let the milk of the goats be enough for thy food, and for the necessities of thy house, and for maintenance for thy handmaids.{VS:VERSE:END}'
   c:028:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:28:1 | 1 | 1 | {VS:VERSE:BEGIN}The wicked man fleeth, when no man pursueth: but the just, bold as a lion, shall be without dread.{VS:BR}'
@@ -912,6 +955,7 @@ chapters:
       v:027: 'PRO:28:27 | 27 | 27 | He that giveth to the poor shall not want: he that despiseth his entreaty, shall suffer indigence.{VS:BR}'
       v:028: 'PRO:28:28 | 28 | 28 | When the wicked rise up, men shall hide themselves: when they perish, the just shall be multiplied.{VS:VERSE:END}'
   c:029:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'PRO:29:1 | 1 | 1 | {VS:VERSE:BEGIN}The man that with a stiff neck despiseth him that reproveth him, shall suddenly be destroyed: and health shall not follow him.{VS:BR}'
@@ -942,6 +986,19 @@ chapters:
       v:026: 'PRO:29:26 | 26 | 26 | Many seek the face of the prince: but the judgment of every one cometh forth from the Lord.{VS:BR}'
       v:027: 'PRO:29:27 | 27 | 27 | The just abhor a wicked man: and the wicked loathe them that are in the right way. The son that keepeth the word, shall be free from destruction.{VS:VERSE:END}'
   c:030:
+    footnotes:
+      v:001:
+        - note: 'Or, as it is in the Latin, Congregans the son of Vomens. The Latin interpreter has given us in this place the signification of the Hebrew names, instead of the names themselves, which are in the Hebrew, Agur the son of Jakeh. But whether this Agur be the same person as Solomon, as many think, or a different person, whose doctrine was adopted by Solomon, and inserted among his parables or proverbs, is uncertain.</p>'
+          quote: Gatherer
+      v:005:
+        - note: 'That is, most pure, like gold purified by fire.</p>'
+          quote: Is fire tried
+      v:015:
+        - note: 'Concupiscence, which hath two daughters that are never satisfied, viz., lust and avarice.</p>'
+          quote: The horseleech
+      v:028:
+        - note: 'A kind of house lizard marked with spots like stars, from whence it has its name.</p>'
+          quote: The stellio
     intro: The wise man thinketh humbly of himself. His prayer and sentiments upon certain virtues and vices.
     verses:
       v:001: 'PRO:30:1 | 1 | 1 | The words of Gatherer the son of Vomiter. The vision which the man spoke, with whom God is, and who being strengthened by God, abiding with him, said:'
@@ -978,6 +1035,13 @@ chapters:
       v:032: 'PRO:30:32 | 32 | 32 | There is that hath appeared a fool after he was lifted up on high: for if he had understood, he would have laid his hand upon his mouth.{VS:BR}'
       v:033: 'PRO:30:33 | 33 | 33 | And he that strongly squeezeth the paps to bring out milk, straineth out butter: and he that violently bloweth his nose, bringeth out blood: and he that provoketh wrath, bringeth forth strife.{VS:VERSE:END}'
   c:031:
+    footnotes:
+      v:001:
+        - note: 'This name signifies God with him, and is supposed to have been one of the names of Solomon.</p>'
+          quote: Lamuel
+      v:024:
+        - note: 'The merchant, for Chanaanite, in Hebrew, signifies a merchant.</p>'
+          quote: The Chanaanite
     intro: 'An exhortation to chastity, temperance, and works of mercy; with the praise of a wise woman.'
     verses:
       v:001: PRO:31:1 | 1 | 1 | The words of king Lamuel. The vision wherewith his mother instructed him.

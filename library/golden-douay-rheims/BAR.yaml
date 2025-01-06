@@ -2,6 +2,7 @@
 book_id: BAR
 chapters:
   c:001:
+    footnotes: {}
     intro: 'The Jews of Babylon send the book of Baruch with money to Jerusalem, requesting their brethren there to offer sacrifice, and to pray for the king and for them, acknowledging their manifold sins.'
     verses:
       v:001: 'BAR:1:1 | 1 | 1 | And these are the words of the book, which Baruch the son of Nerias, the son of Maasias, the son of Sedecias, the son of Sedei, the son of Helcias, wrote in Babylonia.'
@@ -27,6 +28,10 @@ chapters:
       v:021: 'BAR:1:21 | 21 | 21 | And we have not hearkened to the voice of the Lord our God according to all the words of the prophets whom he sent to us:{VS:BR}'
       v:022: 'BAR:1:22 | 22 | 22 | And we have gone away every man after the inclinations of his own wicked heart, to serve strange gods, and to do evil in the sight of the Lord our God.{VS:VERSE:END}'
   c:002:
+    footnotes:
+      v:017:
+        - note: 'They that are in hell shall not give justice to God; that is, they shall not acknowledge and glorify his justice as penitent sinners do upon earth.</p>'
+          quote: Justice
     intro: 'A further confession of the sins of the people, and of the justice of God.'
     verses:
       v:001: 'BAR:2:1 | 1 | 1 | {VS:VERSE:BEGIN}Wherefore the Lord our God hath made good his word, that he spoke to us, and to our judges that have judged Israel, and to our kings, and to our princes, and to all Israel and Juda:{VS:BR}'
@@ -65,6 +70,16 @@ chapters:
       v:034: 'BAR:2:34 | 34 | 34 | And I will bring them back again into the land which I promised with an oath to their fathers, Abraham, Isaac, and Jacob, and they shall be masters thereof: and I will multiply them, and they shall not be diminished.{VS:BR}'
       v:035: 'BAR:2:35 | 35 | 35 | And I will make with them another covenant that shall be everlasting, to be their God, and they shall be my people: and I will no more remove my people, the children of Israel, out of the land that I have given them.{VS:VERSE:END}'
   c:003:
+    footnotes:
+      v:022:
+        - note: 'The capital city of Edom.</p>'
+          quote: Theman
+      v:023:
+        - note: 'The mother of the Ismaelites.</p>'
+          quote: Agar
+      v:038:
+        - note: 'viz., by the mystery of the incarnation, by means of which the son of God came visibly amongst us, and conversed with men. The prophets often speak of things to come as if they were past, to express the certainty of the event of the things foretold.</p>'
+          quote: Was seen upon earth
     intro: 'They pray for mercy, acknowledging that they are justly punished for forsaking true wisdom. A prophecy of Christ.'
     verses:
       v:001: 'BAR:3:1 | 1 | 1 | {VS:VERSE:BEGIN}And now, O Lord Almighty, the God of Israel, the soul in anguish, and the troubled spirit crieth to thee:{VS:BR}'
@@ -106,6 +121,10 @@ chapters:
       v:037: 'BAR:3:37 | 37 | 37 | He found out all the way of knowledge, and gave it to Jacob his servant, and to Israel his beloved.{VS:BR}'
       v:038: 'BAR:3:38 | 38 | 38 | Afterwards he was seen upon earth, and conversed with men.{VS:VERSE:END}'
   c:004:
+    footnotes:
+      v:032:
+        - note: 'viz., Babylon.</p>'
+          quote: She that received
     intro: 'The prophet exhorts to the keeping of the law of wisdom, and encourages the people to be patient, and to hope for their deliverance.'
     verses:
       v:001: 'BAR:4:1 | 1 | 1 | {VS:VERSE:BEGIN}This is the book of the commandments of God, and the law, that is for ever: all they that keep it, shall come to life: but they that have forsaken it, to death.{VS:BR}'
@@ -146,6 +165,7 @@ chapters:
       v:036: 'BAR:4:36 | 36 | 36 | Look about thee, O Jerusalem, towards the east, and behold the joy that cometh to thee from God.{VS:BR}'
       v:037: 'BAR:4:37 | 37 | 37 | For behold thy children come, whom thou sentest away scattered, they come gathered together from the east even to the west, at the word of the Holy One rejoicing for the honour of God.{VS:VERSE:END}'
   c:005:
+    footnotes: {}
     intro: Jerusalem is invited to rejoice and behold the return of her children out of their captivity.
     verses:
       v:001: 'BAR:5:1 | 1 | 1 | {VS:VERSE:BEGIN}Put off, O Jerusalem, the garment of thy mourning, and affliction: and put on the beauty, and honour of that everlasting glory which thou hast from God.{VS:BR}'
@@ -158,6 +178,13 @@ chapters:
       v:008: 'BAR:5:8 | 8 | 8 | Moreover the woods, and every sweetsmelling tree have overshadowed Israel by the commandment of God.{VS:BR}'
       v:009: 'BAR:5:9 | 9 | 9 | For God will bring Israel with joy in the light of his majesty, with mercy, and justice, that cometh from him.{VS:VERSE:END}'
   c:006:
+    footnotes:
+      v:002:
+        - note: 'That is, seventy years.</p>'
+          quote: Seven generations
+      v:056:
+        - note: 'That is, robbers and thieves are stronger than these idols, being things without life or motion.</p>'
+          quote: They that are stronger than them
     intro: 'The epistle of Jeremias to the captives, as a preservative against idolatry.'
     verses:
       v:001: 'BAR:6:1 | 1 | 1 | For the sins that you have committed before God, you shall be carried away captives into Babylon by Nabuchodonosor the king of Babylon.'

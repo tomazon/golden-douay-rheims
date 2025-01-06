@@ -2,6 +2,7 @@
 book_id: TIT
 chapters:
   c:001:
+    footnotes: {}
     intro: What kind of men he is to ordain priests. Some men are to be sharply rebuked.
     verses:
       v:001: 'TIT:1:1 | 1 | 1 | Paul, a servant of God and an apostle of Jesus Christ, according to the faith of the elect of God and the acknowledging of the truth, which is according to godliness:'
@@ -21,6 +22,7 @@ chapters:
       v:015: 'TIT:1:15 | 15 | 15 | All things are clean to the clean: but to them that are defiled and to unbelievers, nothing is clean: but both their mind and their conscience are defiled.'
       v:016: 'TIT:1:16 | 16 | 16 | They profess that they know God: but in their works they deny him: being abominable and incredulous and to every good work reprobate.'
   c:002:
+    footnotes: {}
     intro: How he is to instruct both old and young. The duty of servants. The Christian’s rule of life.
     verses:
       v:001: 'TIT:2:1 | 1 | 1 | But speak thou the things that become sound doctrine:'
@@ -39,6 +41,10 @@ chapters:
       v:014: 'TIT:2:14 | 14 | 14 | Who gave himself for us, that he might redeem us from all iniquity and might cleanse to himself a people acceptable, a pursuer of good works.'
       v:015: TIT:2:15 | 15 | 15 | These things speak and exhort and rebuke with all authority. Let no man despise thee.
   c:003:
+    footnotes:
+      v:011:
+        - note: 'Other offenders are judged, and cast out of the church, by the sentence of the pastors of the same church. Heretics, more unhappy, run out of the church of their own accord, and by doing so, give judgment and sentence against their own souls.</p>'
+          quote: By his own judgment
     intro: Other instructions and directions for life and doctrine.
     verses:
       v:001: 'TIT:3:1 | 1 | 1 | Admonish them to be subject to princes and powers, to obey at a word, to be ready to every good work.'

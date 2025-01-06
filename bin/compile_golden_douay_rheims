@@ -89,6 +89,7 @@ sub build_chapters {
         my $chap_out = $book->{chapters}->{$c_index};
 
         $chap_out->{intro} = $pg1581_chap->{intro};
+        $chap_out->{footnotes} = {};
 
         for my $v_index (combined_keys($drbo_chap->{verses}, $pg1581_chap->{verses})) {
             my $v_num = tag_to_num($v_index);
@@ -115,6 +116,10 @@ sub build_chapters {
 
             my $display_v = choose_display_v($v_tag, $v_num, $drbo_dis, $pg1581_dis);
             my $text = choose_verse_text($v_tag, $drbo_text, $pg1581_text);
+
+            if (defined($drbo_chap->{footnotes}->{$v_index}) || defined($pg1581_chap->{footnotes}->{$v_index})) {
+                $chap_out->{footnotes}->{$v_index} = choose_footnotes($v_tag, $v_index, $drbo_chap, $pg1581_chap);
+            }
 
             $text = apply_vscodes($text, $vscodes_count, $c_index, $v_index);
 
@@ -154,6 +159,20 @@ sub choose_verse_text {
     #TODO: use some logic
 
     $pg1581_text;
+}
+
+sub choose_footnotes {
+    my ($v_tag, $v_index, $drbo_chap, $pg1581_chap) = @_;
+    #TODO: use some logic
+
+    my $drbo_footnotes = $drbo_chap->{footnotes}->{$v_index};
+    my $pg1581_footnotes = $pg1581_chap->{footnotes}->{$v_index};
+
+
+    if (defined($pg1581_footnotes)) {
+        return $pg1581_footnotes;
+    }
+    return $drbo_footnotes;
 }
 
 sub copy_vulsearsh_files {

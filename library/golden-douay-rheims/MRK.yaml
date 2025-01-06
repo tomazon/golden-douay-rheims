@@ -2,6 +2,7 @@
 book_id: MRK
 chapters:
   c:001:
+    footnotes: {}
     intro: The preaching of John the Baptist. Christ is baptized by him. He calls his disciples and works many miracles.
     verses:
       v:001: 'MRK:1:1 | 1 | 1 | The beginning of the gospel of Jesus Christ, the Son of God.'
@@ -50,6 +51,7 @@ chapters:
       v:044: 'MRK:1:44 | 44 | 44 | And he saith to him: See thou tell no one; but go, shew thyself to the high priest and offer for thy cleansing the things that Moses commanded, for a testimony to them.'
       v:045: 'MRK:1:45 | 45 | 45 | But he being gone out, began to publish and to blaze abroad the word: so that he could not openly go into the city, but was without in desert places. And they flocked to him from all sides.'
   c:002:
+    footnotes: {}
     intro: Christ heals the sick of the palsy. He calls Matthew and excuses his disciples.
     verses:
       v:001: MRK:2:1 | 1 | 1 | And again he entered into Capharnaum after some days.
@@ -81,6 +83,7 @@ chapters:
       v:027: 'MRK:2:27 | 27 | 27 | And he said to them: The sabbath was made for man, and not man for the sabbath.'
       v:028: MRK:2:28 | 28 | 28 | Therefore the Son of man is Lord of the sabbath also.
   c:003:
+    footnotes: {}
     intro: Christ heals the withered hand. He chooses the twelve. He confutes the blasphemy of the Pharisees.
     verses:
       v:001: 'MRK:3:1 | 1 | 1 | And he entered again into the synagogue: and there was a man there who had a withered hand.'
@@ -119,6 +122,10 @@ chapters:
       v:034: 'MRK:3:34 | 34 | 34 | And looking round about on them who sat about him, he saith: Behold my mother and my brethren.'
       v:035: 'MRK:3:35 | 35 | 35 | For whosoever shall do the will of God, he is my brother, and my sister, and mother.'
   c:004:
+    footnotes:
+      v:012:
+        - note: 'in punishment of their wilfully shutting their eyes, (St. Matt. 13. 15,) God justly withdrew those lights and graces, which otherwise he would have given them, for their effectual conversion.</p>'
+          quote: That seeing they may see
     intro: The parable of the sower. Christ stills the tempest at sea.
     verses:
       v:001: 'MRK:4:1 | 1 | 1 | And again he began to teach by the sea side; and a great multitude was gathered together unto him, so that he went up into a ship and sat in the sea: and all the multitude was upon the land by the sea side.'
@@ -162,6 +169,7 @@ chapters:
       v:039: 'MRK:4:39 | 39 | 39 | And rising up, he rebuked the wind, and said to the sea: Peace, be still. And the wind ceased: and there was made a great calm.'
       v:040: 'MRK:4:40 | 40 | 40 | And he said to them: Why are you fearful? have you not faith yet? And they feared exceedingly: and they said one to another: Who is this (thinkest thou) that both wind and sea obey him?'
   c:005:
+    footnotes: {}
     intro: 'Christ casts out a legion of devils: he heals the issue of blood, and raises the daughter of Jairus to life.'
     verses:
       v:001: 'MRK:5:1 | 1 | 1 | And they came over the strait of the sea, into the country of the Gerasens.'
@@ -208,6 +216,13 @@ chapters:
       v:042: 'MRK:5:42 | 42 | 42 | And immediately the damsel rose up, and walked: and she was twelve years old: and they were astonished with a great astonishment.'
       v:043: 'MRK:5:43 | 43 | 43 | And he charged them strictly that no man should know it: and commanded that something should be given her to eat.'
   c:006:
+    footnotes:
+      v:005:
+        - note: 'Not for want of power, but because he would not work miracles in favour of obstinate and incredulous people, who were unworthy of such favours.</p>'
+          quote: He could not
+      v:020:
+        - note: 'That is, from the designs of Herodias; and for fear of the people, would not put him to death, though she sought it; and through her daughter she effected her wish.</p>'
+          quote: And kept him
     intro: 'Christ teaches at Nazareth: he sends forth the twelve apostles: he feeds five thousand with five loaves; and walks upon the sea.'
     verses:
       v:001: 'MRK:6:1 | 1 | 1 | And going out from thence, he went into his own country; and his disciples followed him.'
@@ -267,6 +282,10 @@ chapters:
       v:055: 'MRK:6:55 | 55 | 55 | And running through that whole country, they began to carry about in beds those that were sick, where they heard he was.'
       v:056: 'MRK:6:56 | 56 | 56 | And whithersoever he entered, into towns or into villages or cities, they laid the sick in the streets, and besought him that they might touch but the hem of his garment: and as many as touched him were made whole.'
   c:007:
+    footnotes:
+      v:007:
+        - note: 'See the annotations, Matt. 15. 9, 11.</p>'
+          quote: Doctrines and precepts of men
     intro: Christ rebukes the Pharisees. He heals the daughter of the woman of Chanaan; and the man that was deaf and dumb.
     verses:
       v:001: 'MRK:7:1 | 1 | 1 | And there assembled together unto him the Pharisees and some of the scribes, coming from Jerusalem.'
@@ -307,6 +326,7 @@ chapters:
       v:036: 'MRK:7:36 | 36 | 36 | And he charged them that they should tell no man. But the more he charged them, so much the more a great deal did they publish it.'
       v:037: 'MRK:7:37 | 37 | 37 | And so much the more did they wonder, saying: He hath done all things well. He hath made both the deaf to hear and the dumb to speak.'
   c:008:
+    footnotes: {}
     intro: Christ feeds four thousand. He gives sight to a blind man. He foretells his passion.
     verses:
       v:001: 'MRK:8:1 | 1 | 1 | In those days again, when there was a great multitude and they had nothing to eat; calling his disciples together, he saith to them:'
@@ -349,6 +369,7 @@ chapters:
       v:038: 'MRK:8:38 | 38 | 38 | For he that shall be ashamed of me and of my words, in this adulterous and sinful generation: the Son of man also will be ashamed of him, when he shall come in the glory of his Father with the holy angels.'
       v:039: 'MRK:8:39 | 39 | 39 | And he said to them: Amen I say to you that there are some of them that stand here who shall not taste death till they see the kingdom of God coming in power.'
   c:009:
+    footnotes: {}
     intro: Christ is transfigured. He casts out the dumb spirit. He teaches humility and to avoid scandal.
     verses:
       v:001: 'MRK:9:1 | 1 | 1 | And after six days, Jesus taketh with him Peter and James and John, and leadeth them up into an high mountain apart by themselves, and was transfigured before them.'
@@ -401,6 +422,10 @@ chapters:
       v:048: 'MRK:9:48 | 48 | 48 | For every one shall be salted with fire: and every victim shall be salted with salt.'
       v:049: 'MRK:9:49 | 49 | 49 | Salt is good. But if the salt become unsavoury, wherewith will you season it? Have salt in you: and have peace among you.'
   c:010:
+    footnotes:
+      v:018:
+        - note: "Of himself entirely and essentially, but God alone; men may be good also, but only by participation of God's goodness.</p>"
+          quote: None is good
     intro: Marriage is not to be dissolved. The danger of riches. The ambition of the sons of Zebedee. A blind man is restored to his sight.
     verses:
       v:001: 'MRK:10:1 | 1 | 1 | And rising up from thence, he cometh into the coasts of Judea beyond the Jordan: and the multitude flocked to him again. And as he was accustomed, he taught them again.'
@@ -456,6 +481,7 @@ chapters:
       v:051: 'MRK:10:51 | 51 | 51 | And Jesus answering, said to him: What wilt thou that I should do to thee? And the blind man said to him: Rabboni. That I may see.'
       v:052: 'MRK:10:52 | 52 | 52 | And Jesus saith to him: Go thy way. Thy faith hath made thee whole. And immediately he saw and followed him in the way.'
   c:011:
+    footnotes: {}
     intro: Christ enters into Jerusalem upon an ass. He curses the barren fig tree and drives the buyers and sellers out of the temple.
     verses:
       v:001: 'MRK:11:1 | 1 | 1 | And when they were drawing near to Jerusalem and to Bethania, at the mount of Olives, he sendeth two of his disciples,'
@@ -492,6 +518,7 @@ chapters:
       v:032: 'MRK:11:32 | 32 | 32 | If we say, From men, we fear the people. for all men counted John that he was a prophet indeed.'
       v:033: 'MRK:11:33 | 33 | 33 | And they answering, say to Jesus: We know not. And Jesus answering, saith to them: Neither do I tell you by what authority I do these things.'
   c:012:
+    footnotes: {}
     intro: The parable of the vineyard and husbandmen. Caesar’s right to tribute. The Sadducees are confuted. The first commandment. The widow’s mite.
     verses:
       v:001: 'MRK:12:1 | 1 | 1 | And he began to speak to them in parables: A certain man planted a vineyard and made a hedge about it and dug a place for the winefat and built a tower and let it to husbandmen: and went into a far country.'
@@ -539,6 +566,10 @@ chapters:
       v:043: 'MRK:12:43 | 43 | 43 | And calling his disciples together, he saith to them: Amen I say to you, this poor widow hath cast in more than all they who have cast into the treasury.'
       v:044: 'MRK:12:44 | 44 | 44 | For all they did cast in of their abundance; but she of her want cast in all she had, even her whole living.'
   c:013:
+    footnotes:
+      v:032:
+        - note: 'Not that the Son of God is absolutely ignorant of the day of judgment, but that he knoweth it not, as our teacher; that is, he knoweth it not so as to teach it to us, as not being expedient.</p>'
+          quote: Nor the Son
     intro: Christ foretells the destruction of the temple and the signs that shall forerun the day of judgment.
     verses:
       v:001: 'MRK:13:1 | 1 | 1 | And as he was going out of the temple, one of his disciples said to him: Master, behold what manner of stones and what buildings are here.'
@@ -579,6 +610,13 @@ chapters:
       v:036: 'MRK:13:36 | 36 | 36 | Lest coming on a sudden, he find you sleeping.'
       v:037: 'MRK:13:37 | 37 | 37 | And what I say to you, I say to all: Watch.'
   c:014:
+    footnotes:
+      v:001:
+        - note: 'That is, the feast of the unleavened bread.</p>'
+          quote: Azymes
+      v:030:
+        - note: 'The cocks crow at two different times of the night; viz., about midnight for the first time; and then about the time commonly called the cock crowing; and this was the cock crowing our Saviour spoke of; and therefore the other Evangelists take no notice of the first crowing.</p>'
+          quote: Crow twice
     intro: The first part of the history of the passion of Christ.
     verses:
       v:001: 'MRK:14:1 | 1 | 1 | Now the feast of the pasch and of the Azymes was after two days: and the chief priests and the scribes sought how they might by some wile lay hold on him and kill him.'
@@ -654,6 +692,10 @@ chapters:
       v:071: 'MRK:14:71 | 71 | 71 | But he began to curse and to swear, saying: I know not this man of whom you speak.'
       v:072: 'MRK:14:72 | 72 | 72 | And immediately the cock crew again. And Peter remembered the word that Jesus had said unto him: Before the cock crow twice, thou shalt thrice deny me. And he began to weep.'
   c:015:
+    footnotes:
+      v:025:
+        - note: 'The ancient account divided the day into four parts, which were named from the hour from which they began; the first, third, sixth, and ninth hour. Our Lord was crucified a little before noon; before the third hour had quite expired; but when the sixth hour was near at hand.</p>'
+          quote: The third hour
     intro: The continuation of the history of the passion.
     verses:
       v:001: 'MRK:15:1 | 1 | 1 | And straightway in the morning, the chief priests holding a consultation with the ancients and the scribes and the whole council, binding Jesus, led him away and delivered him to Pilate.'
@@ -704,6 +746,10 @@ chapters:
       v:046: 'MRK:15:46 | 46 | 46 | And Joseph, buying fine linen and taking him down, wrapped him up in the fine linen and laid him in a sepulchre which was hewed out of a rock. And he rolled a stone to the door of the sepulchre.'
       v:047: 'MRK:15:47 | 47 | 47 | And Mary Magdalen and Mary the mother of Joseph, beheld where he was laid.'
   c:016:
+    footnotes:
+      v:002:
+        - note: 'They set out before it was light, to go to the sepulchre; but the sun was risen when they arrived there. Or, figuratively, the sun here spoken of is the sun of justice, Christ Jesus our Lord, who was risen before their coming.</p>'
+          quote: The sun being now risen
     intro: Christ’s resurrection and ascension.
     verses:
       v:001: 'MRK:16:1 | 1 | 1 | And when the sabbath was past, Mary Magdalen and Mary the mother of James and Salome bought sweet spices, that coming, they might anoint Jesus.'

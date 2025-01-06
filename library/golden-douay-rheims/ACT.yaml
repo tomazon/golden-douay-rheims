@@ -2,6 +2,7 @@
 book_id: ACT
 chapters:
   c:001:
+    footnotes: {}
     intro: The ascension of Christ. Matthias is chosen in place of Judas.
     verses:
       v:001: 'ACT:1:1 | 1 | 1 | The former treatise I made, O Theophilus, of all things which Jesus began to do and to teach,'
@@ -31,6 +32,13 @@ chapters:
       v:025: 'ACT:1:25 | 25 | 25 | To take the place of this ministry and apostleship, from which Judas hath by transgression fallen, that he might go to his own place.'
       v:026: 'ACT:1:26 | 26 | 26 | And they gave them lots, and the lot fell upon Matthias, and he was numbered with the eleven apostles.'
   c:002:
+    footnotes:
+      v:023:
+        - note: "God delivered up his Son; and his Son delivered up himself, for the love of us, and for the sake of our salvation; and so Christ's being delivered up was holy, and was God's own determination. But they who betrayed and crucified him, did wickedly, following therein their own malice and the instigation of the devil; not the will and determination of God, who was by no means the author of their wickedness; though he permitted it; because he could, and did draw out of it so great a good, viz., the salvation of man.</p>"
+          quote: By the determinate
+      v:024:
+        - note: 'Having overcome the grievous pains of death and all the power of hell.</p>'
+          quote: Having loosed the sorrows
     intro: The disciples receive the Holy Ghost. Peter’s sermon to the people. The piety of the first converts.
     verses:
       v:001: 'ACT:2:1 | 1 | 1 | And when the days of the Pentecost were accomplished, they were all together in one place:'
@@ -81,6 +89,7 @@ chapters:
       v:046: 'ACT:2:46 | 46 | 46 | And continuing daily with one accord in the temple and breaking bread from house to house, they took their meat with gladness and simplicity of heart:'
       v:047: ACT:2:47 | 47 | 47 | Praising God and having favour with all the people. And the Lord increased daily together such as should be saved.
   c:003:
+    footnotes: {}
     intro: 'The miracle upon the lame man, followed by the conversion of many.'
     verses:
       v:001: ACT:3:1 | 1 | 1 | Now Peter and John went up into the temple at the ninth hour of prayer.
@@ -110,6 +119,7 @@ chapters:
       v:025: 'ACT:3:25 | 25 | 25 | You are the children of the prophets and of the testament which God made to our fathers, saying to Abraham: And in thy seed shall all the kindreds of the earth be blessed.'
       v:026: 'ACT:3:26 | 26 | 26 | To you first, God, raising up his Son, hath sent him to bless you: that every one may convert himself from his wickedness.'
   c:004:
+    footnotes: {}
     intro: Peter and John are apprehended. Their constancy. The church is increased.
     verses:
       v:001: 'ACT:4:1 | 1 | 1 | And as they were speaking to the people the priests and the officer of the temple and the Sadducees came upon them,'
@@ -150,6 +160,7 @@ chapters:
       v:036: 'ACT:4:36 | 36 | 36 | And Joseph, who, by the apostles, was surnamed Barnabas (which is, by interpretation, The son of consolation), a Levite, a Cyprian born,'
       v:037: 'ACT:4:37 | 37 | 37 | Having land, sold it and brought the price and laid it at the feet of the Apostles.'
   c:005:
+    footnotes: {}
     intro: The judgment of God upon Ananias and Saphira. The apostles are cast into prison.
     verses:
       v:001: 'ACT:5:1 | 1 | 1 | But a certain man named Ananias, with Saphira his wife, sold a piece of land,'
@@ -195,6 +206,10 @@ chapters:
       v:041: 'ACT:5:41 | 41 | 41 | And they indeed went from the presence of the council, rejoicing that they were accounted worthy to suffer reproach for the name of Jesus.'
       v:042: 'ACT:5:42 | 42 | 42 | And every day they ceased not, in the temple and from house to house, to teach and preach Christ Jesus.'
   c:006:
+    footnotes:
+      v:001:
+        - note: 'So they called the Jews that were born and brought up in Greece.</p>'
+          quote: Greeks
     intro: The ordination of the seven deacons. The zeal of Stephen.
     verses:
       v:001: 'ACT:6:1 | 1 | 1 | And in those days, the number of the disciples increasing, there arose a murmuring of the Greeks against the Hebrews, for that their widows were neglected in the daily ministration.'
@@ -213,6 +228,13 @@ chapters:
       v:014: ACT:6:14 | 14 | 14 | For we have heard him say that this Jesus of Nazareth shall destroy this place and shall change the traditions which Moses delivered unto us.
       v:015: 'ACT:6:15 | 15 | 15 | And all that sat in the council, looking on him, saw his face as if it had been the face of an angel.'
   c:007:
+    footnotes:
+      v:045:
+        - note: 'That is Josue, so called in Greek.</p>'
+          quote: Jesus
+      v:048:
+        - note: 'That is, so as to stand in need of earthly dwellings, or to be contained, or circumscribed by them. Though, otherwise by his immense divinity, he is in our houses; and every where else; and Christ in his humanity dwelt in houses; and is now on our altars.</p>'
+          quote: Dwelleth not in houses
     intro: Stephen’s speech before the council. His martyrdom.
     verses:
       v:001: 'ACT:7:1 | 1 | 1 | Then the high priest said: Are these things so?'
@@ -275,6 +297,13 @@ chapters:
       v:058: 'ACT:7:58 | 58 | 58 | And they stoned Stephen, invoking and saying: Lord Jesus, receive my spirit.'
       v:059: 'ACT:7:59 | 59 | 59 | And falling on his knees, he cried with a loud voice, saying: Lord, lay not this sin to their charge. And when he had said this, he fell asleep in the Lord. And Saul was consenting to his death.'
   c:008:
+    footnotes:
+      v:017:
+        - note: 'The apostles administered the sacrament of confirmation, by imposition of hands, and prayer; and the faithful thereby received the Holy Ghost. Not but they had received the grace of the Holy Ghost at their baptism: yet not that plenitude of grace and those spiritual gifts which they afterwards received from bishops in the sacrament of confirmation, which strengthened them to profess their faith publicly.</p>'
+          quote: They laid their hands upon them
+      v:037:
+        - note: 'The scripture many times mentions only one disposition, as here belief, when others equally necessary are not expressed, viz., a sorrow for sins, a firm hope, and the love of God. Moreover, believing with the whole heart signifies a belief of every thing necessary for salvation.</p>'
+          quote: If thou believest with all thy heart
     intro: Philip converts the Samaritans and baptizes the eunuch.
     verses:
       v:001: 'ACT:8:1 | 1 | 1 | And at that time, there was raised a great persecution against the church which was at Jerusalem. And they were all dispersed through the countries of Judea, and Samaria, except the apostles.'
@@ -318,6 +347,7 @@ chapters:
       v:039: 'ACT:8:39 | 39 | 39 | And when they were come up out of the water, the Spirit of the Lord took away Philip: and the eunuch saw him no more. And he went on his way rejoicing.'
       v:040: 'ACT:8:40 | 40 | 40 | But Philip was found in Azotus: and passing through, he preached the gospel to all the cities, till he came to Cæsarea.'
   c:009:
+    footnotes: {}
     intro: Paul’s conversion and zeal. Peter heals Eneas and raises up Tabitha to life.
     verses:
       v:001: 'ACT:9:1 | 1 | 1 | And Saul, as yet breathing out threatenings and slaughter against the disciples of the Lord, went to the high priest'
@@ -364,6 +394,10 @@ chapters:
       v:042: ACT:9:42 | 42 | 42 | And it was made known throughout all Joppe. And many believed in the Lord.
       v:043: 'ACT:9:43 | 43 | 43 | And it came to pass that he abode many days in Joppe, with one Simon a tanner.'
   c:010:
+    footnotes:
+      v:035:
+        - note: 'That is to say, not only Jews, but Gentiles also, of what nation soever, are acceptable to God, if they fear him and work justice. But then true faith is always to be presupposed, without which (saith St. Paul, Heb. 11. 6) it is impossible to please God. Beware then of the error of those, who would infer from this passage, that men of all religions may be pleasing to God. For since none but the true religion can be from God, all other religions must be from the father of lies, and therefore highly displeasing to the God of truth.</p>'
+          quote: In every nation
     intro: Cornelius is received into the church. Peter’s vision.
     verses:
       v:001: 'ACT:10:1 | 1 | 1 | And there was a certain man in Cæsarea, named Cornelius, a centurion of that which is called the Italian band:'
@@ -415,6 +449,7 @@ chapters:
       v:047: 'ACT:10:47 | 47 | 47 | Then Peter answered: Can any man forbid water, that these should not be baptized, who have received the Holy Ghost, as well as we?'
       v:048: ACT:10:48 | 48 | 48 | And he commanded them to be baptized in the name of the Lord Jesus Christ. Then they desired him to tarry with them some days.
   c:011:
+    footnotes: {}
     intro: Peter defends his having received the Gentiles into the church.
     verses:
       v:001: 'ACT:11:1 | 1 | 1 | And the apostles and brethren, who were in Judea, heard that the Gentiles also had received the word of God.'
@@ -448,6 +483,10 @@ chapters:
       v:029: 'ACT:11:29 | 29 | 29 | And the disciples, every man according to his ability, purposed to send relief to the brethren who dwelt in Judea.'
       v:030: 'ACT:11:30 | 30 | 30 | Which also they did, sending it to the ancients, by the hands of Barnabas and Saul.'
   c:012:
+    footnotes:
+      v:003:
+        - note: 'The festival of the unleavened bread, or the pasch, which answers to our Easter.</p>'
+          quote: Azymes
     intro: Herod’s persecution. Peter’s deliverance by an angel. Herod’s punishment.
     verses:
       v:001: 'ACT:12:1 | 1 | 1 | And at the same time, Herod the king stretched forth his hands, to afflict some of the church.'
@@ -476,6 +515,10 @@ chapters:
       v:024: ACT:12:24 | 24 | 24 | But the word of the Lord increased and multiplied.
       v:025: 'ACT:12:25 | 25 | 25 | And Barnabas and Saul, returned from Jerusalem, having fulfilled their ministry, taking with them John who was surnamed Mark.'
   c:013:
+    footnotes:
+      v:034:
+        - note: 'These are the words of the prophet Isaias, 55. 3. According to the Septuagint, the sense is: I will faithfully fulfil the promises I made to David.</p>'
+          quote: I will give you the holy
     intro: Saul and Barnabas are sent forth by the Holy Ghost. They preach in Cyprus and in Antioch of Pisidia.
     verses:
       v:001: 'ACT:13:1 | 1 | 1 | Now there were in the church which was at Antioch prophets and doctors, among whom was Barnabas and Simon who was called Niger, and Lucius of Cyrene and Manahen who was the foster brother of Herod the tetrarch, and Saul.'
@@ -531,6 +574,7 @@ chapters:
       v:051: 'ACT:13:51 | 51 | 51 | But they, shaking off the dust of their feet against them, came to Iconium.'
       v:052: ACT:13:52 | 52 | 52 | And the disciples were filled with joy and with the Holy Ghost.
   c:014:
+    footnotes: {}
     intro: Paul and Barnabas preach in Iconium and Lystra. Paul heals a cripple. They are taken for gods. Paul is stoned. They preach in Derbe and Perge.
     verses:
       v:001: ACT:14:1 | 1 | 1 | And it came to pass in Iconium that they entered together into the synagogue of the Jews and so spoke that a very great multitude both of the Jews and of the Greeks did believe.
@@ -561,6 +605,10 @@ chapters:
       v:026: 'ACT:14:26 | 26 | 26 | And when they were come and had assembled the church, they related what great things God had done with them and how he had opened the door of faith to the Gentiles.'
       v:027: ACT:14:27 | 27 | 27 | And they abode no small time with the disciples.
   c:015:
+    footnotes:
+      v:029:
+        - note: 'The use of these things, though of their own nature indifferent, was here prohibited, to bring the Jews more easily to admit of the society of the Gentiles; and to exercise the latter in obedience. But this prohibition was but temporary, and has long since ceased to oblige; more especially in the western churches.</p>'
+          quote: 'From blood, and from things strangled'
     intro: A dissension about circumcision. The decision and letter of the council of Jerusalem.
     verses:
       v:001: 'ACT:15:1 | 1 | 1 | And some, coming down from Judea, taught the brethren: That, except you be circumcised after the manner of Moses, you cannot be saved.'
@@ -605,6 +653,10 @@ chapters:
       v:040: 'ACT:15:40 | 40 | 40 | But Paul, choosing Silas, departed, being delivered by the brethren to the grace of God.'
       v:041: 'ACT:15:41 | 41 | 41 | And he went through Syria and Cilicia, confirming the churches, commanding them to keep the precepts of the apostles and the ancients.'
   c:016:
+    footnotes:
+      v:016:
+        - note: 'That is, a spirit pretending to divine, and tell fortunes.</p>'
+          quote: A pythonical spirit
     intro: Paul visits the churches. He is called to preach in Macedonia. He is scourged at Philippi.
     verses:
       v:001: 'ACT:16:1 | 1 | 1 | And he came to Derbe and Lystra. And behold, there was a certain disciple there named Timothy, the son of a Jewish woman that believed: but his father was a Gentile.'
@@ -648,6 +700,16 @@ chapters:
       v:039: 'ACT:16:39 | 39 | 39 | And coming, they besought them: and bringing them out, they desired them to depart out of the city.'
       v:040: 'ACT:16:40 | 40 | 40 | And they went out of the prison and entered into the house of Lydia: and having seen the brethren, they comforted them and departed.'
   c:017:
+    footnotes:
+      v:006:
+        - note: 'Urbem. In the Greek, the world.</p>'
+          quote: City
+      v:011:
+        - note: 'The Jews of Berea are justly commended, for their eagerly embracing the truth, and searching the scriptures, to find out the texts alleged by the apostle: which was a far more generous proceeding than that of their countrymen at Thessalonica, who persecuted the preachers of the gospel, without examining the grounds they alleged for what they taught.</p>'
+          quote: More noble
+      v:024:
+        - note: 'God is not contained in temples; so as to need them for his dwelling, or any other uses, as the heathens imagined. Yet by his omnipresence, he is both there and everywhere.</p>'
+          quote: Dwelleth not in temples
     intro: Paul preaches to the Thessalonians and Bereans. His discourse to the Athenians.
     verses:
       v:001: 'ACT:17:1 | 1 | 1 | And when they had passed through Amphipolis and Apollonia, they came to Thessalonica, where there was a synagogue of the Jews.'
@@ -685,6 +747,7 @@ chapters:
       v:033: ACT:17:33 | 33 | 33 | So Paul went out from among them.
       v:034: 'ACT:17:34 | 34 | 34 | But certain men, adhering to him, did believe: among whom was also Dionysius the Areopagite and a woman named Damaris and others with them.'
   c:018:
+    footnotes: {}
     intro: Paul founds the church of Corinth and preaches at Ephesus and in other places. Apollo goes to Corinth.
     verses:
       v:001: 'ACT:18:1 | 1 | 1 | After these things, departing from Athens, he came to Corinth.'
@@ -716,6 +779,7 @@ chapters:
       v:027: 'ACT:18:27 | 27 | 27 | And whereas he was desirous to go to Achaia, the brethren exhorting wrote to the disciples to receive him. Who, when he was come, helped them much who had believed.'
       v:028: 'ACT:18:28 | 28 | 28 | For with much vigour he convinced the Jews openly, shewing by the scriptures that Jesus is the Christ.'
   c:019:
+    footnotes: {}
     intro: Paul establishes the church at Ephesus. The tumult of the silversmiths.
     verses:
       v:001: 'ACT:19:1 | 1 | 1 | And it came to pass, while Apollo was at Corinth, that Paul, having passed through the upper coasts, came to Ephesus and found certain disciples.'
@@ -759,6 +823,10 @@ chapters:
       v:039: 'ACT:19:39 | 39 | 39 | And if you inquire after any other matter, it may be decided in a lawful assembly.'
       v:040: "ACT:19:40 | 40 | 40 | For we are even in danger to be called in question for this day's uproar, there being no man guilty (of whom we may give account) of this concourse. And when he had said these things, he dismissed the assembly."
   c:020:
+    footnotes:
+      v:007:
+        - note: "Here St. Chrysostom and many other interpreters of the scripture explain, that the Christians even at this time, must have changed the sabbath into the first day of the week, (the Lord's day,) as all Christians now keep it. This change was undoubtedly made by the authority of the church; hence the exercise of the power, which Christ had given to her: for he is Lord of the sabbath.</p>"
+          quote: And on the first day of the week
     intro: Paul passes through Macedonia and Greece. He raises a dead man to life at Troas. His discourse to the clergy of Ephesus.
     verses:
       v:001: 'ACT:20:1 | 1 | 1 | And after the tumult was ceased, Paul calling to him the disciples and exhorting them, took his leave and set forward to go into Macedonia.'
@@ -800,6 +868,13 @@ chapters:
       v:037: 'ACT:20:37 | 37 | 37 | And there was much weeping among them all. And falling on the neck of Paul, they kissed him,'
       v:038: 'ACT:20:38 | 38 | 38 | Being grieved most of all for the word which he had said, that they should see his face no more. And they brought him on his way to the ship.'
   c:021:
+    footnotes:
+      v:008:
+        - note: 'That is, the preacher of the gospel; the same that before converted the Samaritans, and baptized the eunuch, chap. 8., being one of the first seven deacons.</p>'
+          quote: The evangelist
+      v:024:
+        - note: 'The law, though now no longer obligatory, was for a time observed by the Christian Jews: to bury, as it were, the synagogue with honour.</p>'
+          quote: Keeping the law
     intro: Paul goes up to Jerusalem. He is apprehended by the Jews in the temple.
     verses:
       v:001: 'ACT:21:1 | 1 | 1 | And when it came to pass that, being parted from them, we set sail, we came with a straight course to Coos, and the day following to Rhodes: and from thence to Patara.'
@@ -843,6 +918,13 @@ chapters:
       v:039: 'ACT:21:39 | 39 | 39 | But Paul said to him: I am a Jew of Tarsus in Cilicia, a citizen of no mean city. And I beseech thee, suffer me to speak to the people.'
       v:040: 'ACT:21:40 | 40 | 40 | And when he had given him leave, Paul standing on the stairs, beckoned with his hand to the people. And a great silence being made, he spoke unto them in the Hebrew tongue, saying:'
   c:022:
+    footnotes:
+      v:009:
+        - note: 'That is, they distinguished not the words; though they heard the voice. Acts 9. 7.</p>'
+          quote: Heard not the voice
+      v:014:
+        - note: 'Our Saviour, who appeared to St. Paul, Acts 9. 17.</p>'
+          quote: Just One
     intro: Paul declares to the people the history of his conversion. He escapes scourging by claiming the privilege of a Roman citizen.
     verses:
       v:001: 'ACT:22:1 | 1 | 1 | Men, brethren and fathers, hear ye the account which I now give unto you.'
@@ -876,6 +958,7 @@ chapters:
       v:029: ACT:22:29 | 29 | 29 | Immediately therefore they departed from him that were about to torture him. The tribune also was afraid after he understood that he was a Roman citizen and because he had bound him.
       v:030: 'ACT:22:30 | 30 | 30 | But on the next day, meaning to know more diligently for what cause he was accused by the Jews, he loosed him and commanded the priests to come together and all the council: and, bringing forth Paul, he set him before them.'
   c:023:
+    footnotes: {}
     intro: Paul stands before the council. The Jews conspire his death. He is sent away to Cesarea.
     verses:
       v:001: 'ACT:23:1 | 1 | 1 | And Paul, looking upon the council, said: Men, brethren, I have conversed with all good conscience before God until this present day.'
@@ -914,6 +997,7 @@ chapters:
       v:034: 'ACT:23:34 | 34 | 34 | And when he had read it and had asked of what province he was and understood that he was of Cilicia:'
       v:035: "ACT:23:35 | 35 | 35 | I will hear thee, said he, when thy accusers come. And he commanded him to be kept in Herod's judgment hall."
   c:024:
+    footnotes: {}
     intro: Paul defends his innocence before Felix the governor. He preaches the faith to him.
     verses:
       v:001: 'ACT:24:1 | 1 | 1 | And after five days, the high priest, Ananias, came down with some ancients and one Tertullus, an orator, who went to the governor against Paul.'
@@ -944,6 +1028,7 @@ chapters:
       v:026: 'ACT:24:26 | 26 | 26 | Hoping also withal that money should be given him by Paul: for which cause also oftentimes sending for him, he spoke with him.'
       v:027: 'ACT:24:27 | 27 | 27 | But when two years were ended, Felix had for successor Portius Festus. And Felix being willing to shew the Jews a pleasure, left Paul bound.'
   c:025:
+    footnotes: {}
     intro: Paul appeals to Caesar. King Agrippa desires to hear him.
     verses:
       v:001: 'ACT:25:1 | 1 | 1 | Now when Festus was come into the province, after three days, he went up to Jerusalem from Cæsarea.'
@@ -974,6 +1059,7 @@ chapters:
       v:026: 'ACT:25:26 | 26 | 26 | Of whom I have nothing certain to write to my lord. for which cause, I have brought him forth before you, and especially before thee, O king Agrippa, that, examination being made, I may have what to write.'
       v:027: ACT:25:27 | 27 | 27 | For it seemeth to me unreasonable to send a prisoner and not to signify the things laid to his charge.
   c:026:
+    footnotes: {}
     intro: 'Paul gives an account to Agrippa of his life, conversion and calling.'
     verses:
       v:001: 'ACT:26:1 | 1 | 1 | Then Agrippa said to Paul: Thou art permitted to speak for thyself. Then Paul, stretching forth his hand, began to make his answer.'
@@ -1009,6 +1095,7 @@ chapters:
       v:031: 'ACT:26:31 | 31 | 31 | And when they were gone aside, they spoke among themselves, saying: This man hath done nothing worthy of death or of bands.'
       v:032: 'ACT:26:32 | 32 | 32 | And Agrippa said to Festus: This man might have been set at liberty, if he had not appealed to Caesar.'
   c:027:
+    footnotes: {}
     intro: Paul is shipped for Rome. His voyage and shipwreck.
     verses:
       v:001: 'ACT:27:1 | 1 | 1 | And when it was determined that he should sail into Italy and that Paul, with the other prisoners, should be delivered to a centurion, named Julius, of the band Augusta,'
@@ -1056,6 +1143,7 @@ chapters:
       v:043: 'ACT:27:43 | 43 | 43 | But the centurion, willing to save Paul, forbade it to be done. And he commanded that they who could swim should cast themselves first into the sea and save themselves and get to land.'
       v:044: 'ACT:27:44 | 44 | 44 | And the rest, some they carried on boards and some on those things that belonged to the ship. And so it came to pass that every soul got safe to land.'
   c:028:
+    footnotes: {}
     intro: 'Paul, after three months’ stay in Melita, continues his voyage and arrives at Rome. His conference there with the Jews.'
     verses:
       v:001: 'ACT:28:1 | 1 | 1 | And when we had escaped, then we knew that the island was called Melita. But the barbarians shewed us no small courtesy.'

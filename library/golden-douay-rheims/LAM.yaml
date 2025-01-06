@@ -2,9 +2,11 @@
 book_id: LAM
 chapters:
   c:000:
+    footnotes: {}
     intro: 'And it came to pass, after Israel was carried into captivity, and Jerusalem was desolate, that Jeremias the prophet sat weeping, and mourned with this lamentation over Jerusalem, and with a sorrowful mind, sighing and moaning, he said:'
     verses: {}
   c:001:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'LAM:1:1 | 1 | 1 | Aleph. How doth the city sit solitary that was full of people! how is the mistress of the Gentiles become as a widow: the princes of provinces made tributary!{VS:BR}'
@@ -30,6 +32,10 @@ chapters:
       v:021: 'LAM:1:21 | 21 | 21 | Sin. They have heard that I sigh, and there is none to comfort me: all my enemies have heard of my evil, they have rejoiced that thou hast done it: thou hast brought a day of consolation, and they shall be like unto me.{VS:BR}'
       v:022: 'LAM:1:22 | 22 | 22 | Thau. Let all their evil be present before thee: and make vintage of them, as thou hast made vintage of me for all my iniquities: for my sighs are many, and my heart is sorrowful.{VS:VERSE:END}'
   c:002:
+    footnotes:
+      v:007:
+        - note: 'That is, he permitted his sanctuary to be destroyed, as if it had not been consecrated, but execrable.</p>'
+          quote: He hath cursed his sanctuary
     intro: ~
     verses:
       v:001: 'LAM:2:1 | 1 | 1 | {VS:VERSE:BEGIN}Aleph. How hath the Lord covered with obscurity the daughter of Sion in his wrath! how hath he cast down from heaven to the earth the glorious one of Israel, and hath not remembered his footstool in the day of his anger.{VS:BR}'
@@ -55,6 +61,7 @@ chapters:
       v:021: 'LAM:2:21 | 21 | 21 | Sin. The child and the old man lie without on the ground: my virgins and my young men are fallen by the sword: thou hast slain them in the day of thy wrath: thou hast killed, and shewn them no pity.{VS:BR}'
       v:022: 'LAM:2:22 | 22 | 22 | Thau. Thou hast called as to a festival, those that should terrify me round about, and there was none in the day of the wrath of the Lord that escaped and was left: those that I brought up, and nourished, my enemy hath consumed them.{VS:VERSE:END}'
   c:003:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'LAM:3:1 | 1 | 1 | {VS:VERSE:BEGIN}Aleph. I am the man that see my poverty by the rod of his indignation.{VS:BR}'
@@ -124,6 +131,10 @@ chapters:
       v:065: 'LAM:3:65 | 65 | 65 | Thau. Thou shalt give them a buckler of heart, thy labour.{VS:BR}'
       v:066: 'LAM:3:66 | 66 | 66 | Thau. Thou shalt persecute them in anger, and shalt destroy them from under the heavens, O Lord.{VS:VERSE:END}'
   c:004:
+    footnotes:
+      v:020:
+        - note: 'This, according to the letter, is spoken of their king, who is called the Christ, that is, the Anointed of the Lord. But it also relates, in the spiritual sense, to Christ our Lord, suffering for our sins.</p>'
+          quote: Christ
     intro: ~
     verses:
       v:001: 'LAM:4:1 | 1 | 1 | {VS:VERSE:BEGIN}Aleph. How is the gold become dim, the finest colour is changed, the stones of the sanctuary are scattered in the top of every street?{VS:BR}'
@@ -149,6 +160,7 @@ chapters:
       v:021: 'LAM:4:21 | 21 | 21 | Sin. Rejoice, and be glad, O daughter of Edom, that dwellest in the land of Hus: to thee also shall the cup come, thou shalt be made drunk, and naked.{VS:BR}'
       v:022: 'LAM:4:22 | 22 | 22 | Thau. Thy iniquity is accomplished, O daughter of Sion, he will no more carry thee away into captivity: he hath visited thy iniquity, O daughter of Edom, he hath discovered thy sins.{VS:VERSE:END}'
   c:005:
+    footnotes: {}
     intro: ~
     verses:
       v:001: 'LAM:5:1 | 1 | 1 | Remember, O Lord, what is come upon us: consider and behold our reproach.{VS:BR}'

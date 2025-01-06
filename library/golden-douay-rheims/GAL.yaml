@@ -2,6 +2,7 @@
 book_id: GAL
 chapters:
   c:001:
+    footnotes: {}
     intro: He blames the Galatians for suffering themselves to be imposed upon by new teachers. The apostle’s calling.
     verses:
       v:001: 'GAL:1:1 | 1 | 1 | Paul, an apostle, not of men, neither by man, but by Jesus Christ and God the Father, who raised him from the dead:'
@@ -29,6 +30,13 @@ chapters:
       v:023: 'GAL:1:23 | 23 | 23 | But they had heard only: He, who persecuted us in times past doth now preach the faith which once he impugned.'
       v:024: GAL:1:24 | 24 | 24 | And they glorified God in me.
   c:002:
+    footnotes:
+      v:007:
+        - note: 'The preaching of the gospel to the uncircumcised, that is, to the Gentiles. St. Paul was called in an extraordinary manner to be the apostle of the Gentiles; St. Peter, besides his general commission over the whole flock, (John 21. 15, etc.,) had a peculiar charge of the people of the circumcision, that is, of the Jews.</p>'
+          quote: The gospel of the uncircumcision
+      v:011:
+        - note: "The fault that is here noted in the conduct of St. Peter, was only a certain imprudence, in withdrawing himself from the table of the Gentiles, for fear of giving offence to the Jewish converts; but this, in such circumstances, when his so doing might be of ill consequence to the Gentiles, who might be induced thereby to think themselves obliged to conform to the Jewish way of living, to the prejudice of their Christian liberty. Neither was St. Paul's reprehending him any argument against his supremacy; for in such cases an inferior may, and sometimes ought, with respect, to admonish his superior.</p>"
+          quote: I withstood
     intro: The apostle’s preaching was approved of by the other apostles. The Gentiles were not to be constrained to the observance of the law.
     verses:
       v:001: 'GAL:2:1 | 1 | 1 | Then, after fourteen years, I went up again to Jerusalem with Barnabas, taking Titus also with me.'
@@ -53,6 +61,21 @@ chapters:
       v:020: 'GAL:2:20 | 20 | 20 | And I live, now not I: but Christ liveth in me. And that I live now in the flesh: I live in the faith of the Son of God, who loved me and delivered himself for me.'
       v:021: 'GAL:2:21 | 21 | 21 | I cast not away the grace of God. for if justice be by the law, then Christ died in vain.'
   c:003:
+    footnotes:
+      v:019:
+        - note: 'To restrain them from sin, by fear and threats.</p>'
+          quote: Because of transgressions
+        - note: 'The law was delivered by angels, speaking in the name and person of God to Moses, who was the mediator, on this occasion, between God and the people.</p>'
+          quote: Ordained by angels
+      v:022:
+        - note: 'that is, hath declared all to be under sin, from which they could not be delivered but by faith in Jesus Christ, the promised seed.</p>'
+          quote: Hath concluded all under sin
+      v:024:
+        - note: 'That is, schoolmaster, conductor, or instructor.</p>'
+          quote: Pedagogue
+      v:028:
+        - note: 'That is, no distinction of Jew, etc.</p>'
+          quote: Neither Jew
     intro: 'The Spirit, and the blessing promised to Abraham cometh not by the law, but by faith.'
     verses:
       v:001: 'GAL:3:1 | 1 | 1 | O senseless Galatians, who hath bewitched you that you should not obey the truth: before whose eyes Jesus Christ hath been set forth, crucified among you?'
@@ -85,6 +108,13 @@ chapters:
       v:028: 'GAL:3:28 | 28 | 28 | There is neither Jew nor Greek: there is neither bond nor free: there is neither male nor female. for you are all one in Christ Jesus.'
       v:029: "GAL:3:29 | 29 | 29 | And if you be Christ's, then are you the seed of Abraham, heirs according to the promise."
   c:004:
+    footnotes:
+      v:003:
+        - note: 'That is, under the first rudiments of religion, in which the carnal Jews were trained up; or under those corporeal creatures, used in their manifold rites, sacrifices, and sacraments.</p>'
+          quote: Under the elements
+      v:010:
+        - note: "He speaks not of the observation of the Lord's day, or other Christian festivals; but either of the superstitious observation of days lucky and unlucky; or else of the Jewish festivals, to the observance of which, certain Jewish teachers sought to induce the Galatians.</p>"
+          quote: You observe days
     intro: Christ has freed us from the servitude of the law. We are the freeborn sons of Abraham.
     verses:
       v:001: 'GAL:4:1 | 1 | 1 | Now I say, as long as the heir is a child, he differeth nothing from a servant, though he be lord of all,'
@@ -119,6 +149,7 @@ chapters:
       v:030: 'GAL:4:30 | 30 | 30 | But what saith the scripture? Cast out the bondwoman and her son: for the son of the bondwoman shall not be heir with the son of the free woman.'
       v:031: 'GAL:4:31 | 31 | 31 | So then, brethren, we are not the children of the bondwoman but of the free: by the freedom wherewith Christ has made us free.'
   c:005:
+    footnotes: {}
     intro: He exhorts them to stand to their Christian liberty. Of the fruits of the flesh and of the spirit.
     verses:
       v:001: GAL:5:1 | 1 | 1 | Stand fast and be not held again under the yoke of bondage.
@@ -148,6 +179,7 @@ chapters:
       v:025: 'GAL:5:25 | 25 | 25 | If we live in the Spirit, let us also walk in the Spirit.'
       v:026: 'GAL:5:26 | 26 | 26 | Let us not be made desirous of vain glory, provoking one another, envying one another.'
   c:006:
+    footnotes: {}
     intro: 'He exhorts to charity, humility and all virtue. He glories in nothing but in the cross of Christ.'
     verses:
       v:001: 'GAL:6:1 | 1 | 1 | Brethren, and if a man be overtaken in any fault, you, who are spiritual, instruct such a one in the spirit of meekness, considering thyself, lest thou also be tempted.'
