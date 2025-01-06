@@ -15,11 +15,13 @@
 
 | Book ID | Import<br>PG1581 | Audit <br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Import<br>DRBO<br>Footnotes |
 | :---:   | :---:  | :---: | :---: | :---: |
-| GEN     | DONE   |       | DONE |
-| EXO     | DONE   |       | DONE |
-| LEV     | DONE   |       | DONE |
-| NUM     | DONE   |       | DONE |
-| DEU     | DONE   |       | DONE |
+| GEN     | DONE   | DONE  |       | DONE  |
+| EXO     | DONE   | DONE  |       | DONE  |
+| LEV     | DONE   | DONE  |       | DONE  |
+| NUM     | DONE   | DONE  |       | DONE  |
+| DEU     | DONE   | DONE  |       | DONE  |
+
+### Acts, Letters, & Revelations
 
 | Book ID | Import | Clean | Footnotes |
 | :---:   | :---:  | :---: | :---:     |
