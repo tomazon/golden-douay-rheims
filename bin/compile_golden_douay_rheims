@@ -137,38 +137,19 @@ sub build_chapters {
 
 sub make_footnote_tags {
     my ($chap, $v_tag, $v_index, $text) = @_;
-
-    say $v_tag;
     my $index=0;
-    if ($v_tag eq 'JOS:14:4') {
-        print "$v_tag:  ".Dumper($chap->{footnotes});
-    }
+    return $text if $chap->{footnotes}->{$v_index} eq "";
     for my $entry (@{$chap->{footnotes}->{$v_index}}) {
         my $match = $entry->{match};
-        if ($text =~ s/($match)/\{NF:BEGIN $index}$1\{NF:END\}/i) {
+        if ($text =~ s/($match)/\{FOOTNOTE:BEGIN $index}$1\{FOOTNOTE:END\}/i) {
             $chap->{verses}->{$v_index} = $text;
         } else {
             say "FIX_FOOTNOTE:\n  $v_tag:\n    $index:\n      match: ''  # was '$match' -- $text\n";
         }
-
-        # print "I: $v_index   ". Dumper($chap->{verses});
-
-        # my $text = $chap->{verses}->{$v_index};
-        # my $quote = $entry->{quote};
-        # my $text = $chap->{verses}->{$v_index};
-        # print "I: $v_index   ". Dumper($chap->{verses});
-        # print "$v_tag | $quote | $text |\n";
-        # exit;
-        # if ($text =~ s/($quote)/\{NF:BEGIN $index}$1\{NF:END\}/i) {
-        #     $chap->{verses}->{$v_index} = $text;
-        # } else {
-        #     warn "$v_tag:  Couldn't add footnote tag of: /$quote/i to: $text\n";
-        # }
         $index++;
     }
 
-    $text;
-
+    $text
 }
 
 
@@ -177,17 +158,14 @@ sub apply_vscodes {
     my ($text, $vscodes_count, $c_index, $v_index) = @_;
     my $counts = $vscodes_count->{chapters}->{$c_index}->{verses}->{$v_index};
     if (defined $counts) {
-        #print Dumper($counts);
         $text .= '{VS:P}'  if $counts->{ending_p};
         $text .= '{VS:BR}' if $counts->{ending_br};
         $text .= '{VS:VERSE:END}' if $counts->{ending_verseend};
         $text .= '{VS:VERSE:END}{VS:P}' if $counts->{ending_verseend_p};
-
         $text = "{VS:VERSE:BEGIN}$text" if $counts->{beginning_versebegin};
     }
 
     $text
-
 }
 
 sub choose_display_v {
@@ -212,13 +190,9 @@ sub choose_footnotes {
     my $drbo_footnotes = $drbo_chap->{footnotes}->{$v_index};
     my $pg1581_footnotes = $pg1581_chap->{footnotes}->{$v_index};
 
-    # print "DRBO   ". Dumper($drbo_footnotes);
-    # print "PG1581 ". Dumper($pg1581_footnotes);
-
     if (defined($drbo_footnotes)) {
         return format_footnotes($v_tag, $drbo_footnotes, $footnote_fixes);
     }
-    #return format_footnotes($v_tag, $pg1581_footnotes);
 }
 
 sub format_footnotes {
@@ -227,19 +201,10 @@ sub format_footnotes {
 
     my $i=0;
     for my $e (@{$footnotes_for_verse}) {
-        #print Dumper($e);
         $e->{match} = lc($e->{'quote'});
-        # if (defined(my $s = $second->[$i])) {
-        #     $e->{quote_2} = $s->{quote} if $s->{quote} ne $e->{quote};
-        # }
-
         if (defined(my $f = $footnote_fixes->{$v_tag}->{$i})) {
-            print "=========\n";
-            print "FIXES: ". Dumper($f);
-            $e->{match} = uc($f->{match}) if defined($f->{match});
-            print "NOW: ". Dumper($e);
+            $e->{match} = lc($f->{match}) if defined($f->{match});
         }
-
         push(@out, $e);
         $i++;
     }

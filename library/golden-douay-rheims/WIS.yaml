@@ -242,61 +242,60 @@ chapters:
     footnotes:
       v:003:
         - match: the unjust
-          note: 'Cain.</p>'
+          note: Cain.
           quote: The unjust
       v:004:
         - match: for whose cause
-          note: 'Viz., for the wickedness of the race of Cain.-- Ibid. The just ... Noe.</p>'
+          note: 'Viz., for the wickedness of the race of Cain.-- Ibid. The just ... Noe.'
           quote: For whose cause
       v:005:
         - match: she knew the just
-          note: 'She found out and approved Abraham. Ibid.</p>'
+          note: She found out and approved Abraham. Ibid.
           quote: She knew the just
-          quote_2: She knew the just.... She found out and approved Abraham. Ibid. And kept him strong
         - match: and kept him strong
-          note: 'Gave him strength to stand firm against the efforts of his natural tenderness, when he was ordered to sacrifice his son.</p>'
+          note: 'Gave him strength to stand firm against the efforts of his natural tenderness, when he was ordered to sacrifice his son.'
           quote: And kept him strong
       v:006:
         - match: the just man
-          note: 'Lot.-- Ibid.</p>'
+          note: 'Lot.-- Ibid.'
           quote: The just man
         - match: pentapolis
-          note: 'The land of the five cities, Sodom, Gomorrha, etc.</p>'
+          note: 'The land of the five cities, Sodom, Gomorrha, etc.'
           quote: Pentapolis
       v:010:
         - match: the just
-          note: 'Jacob.</p>'
+          note: Jacob.
           quote: The just
       v:012:
         - match: conflict
-          note: 'Viz., with the angel.</p>'
+          note: 'Viz., with the angel.'
           quote: Conflict
       v:013:
         - match: the just when he was sold
-          note: 'Viz., Joseph.</p>'
+          note: 'Viz., Joseph.'
           quote: The just when he was sold
       v:016:
         - match: the servant of god
-          note: 'Viz., Moses.</p>'
+          note: 'Viz., Moses.'
           quote: The servant of God
     intro: 'What wisdom did for Adam, Noe, Abraham, Lot, Jacob, Joseph, and the people of Israel.'
     verses:
       v:001: 'WIS:10:1 | 1 | 1 | {VS:VERSE:BEGIN}She preserved him, that was first formed by God, the father of the world, when he was created alone,{VS:BR}'
       v:002: 'WIS:10:2 | 2 | 2 | And she brought him out of his sin, and gave him power to govern all things.{VS:BR}'
-      v:003: 'WIS:10:3 | 3 | 3 | But when {NF:BEGIN 0}the unjust{NF:END} went away from her in his anger, he perished by the fury wherewith he murdered his brother.{VS:BR}'
-      v:004: 'WIS:10:4 | 4 | 4 | {NF:BEGIN 0}For whose cause{NF:END}, when water destroyed the earth, wisdom healed it again, directing the course of the just by contemptible wood.{VS:BR}'
-      v:005: 'WIS:10:5 | 5 | 5 | Moreover, when the nations had conspired together to consent to wickedness, {NF:BEGIN 0}she knew the just{NF:END}, and preserved him without blame to God, {NF:BEGIN 1}and kept him strong{NF:END} against the compassion for his son.{VS:BR}'
-      v:006: 'WIS:10:6 | 6 | 6 | She delivered {NF:BEGIN 0}the just man{NF:END}, who fled from the wicked that were perishing, when the fire came down upon {NF:BEGIN 1}Pentapolis{NF:END}:{VS:BR}'
+      v:003: 'WIS:10:3 | 3 | 3 | But when {FOOTNOTE:BEGIN 0}the unjust{FOOTNOTE:END} went away from her in his anger, he perished by the fury wherewith he murdered his brother.{VS:BR}'
+      v:004: 'WIS:10:4 | 4 | 4 | {FOOTNOTE:BEGIN 0}For whose cause{FOOTNOTE:END}, when water destroyed the earth, wisdom healed it again, directing the course of the just by contemptible wood.{VS:BR}'
+      v:005: 'WIS:10:5 | 5 | 5 | Moreover, when the nations had conspired together to consent to wickedness, {FOOTNOTE:BEGIN 0}she knew the just{FOOTNOTE:END}, and preserved him without blame to God, {FOOTNOTE:BEGIN 1}and kept him strong{FOOTNOTE:END} against the compassion for his son.{VS:BR}'
+      v:006: 'WIS:10:6 | 6 | 6 | She delivered {FOOTNOTE:BEGIN 0}the just man{FOOTNOTE:END}, who fled from the wicked that were perishing, when the fire came down upon {FOOTNOTE:BEGIN 1}Pentapolis{FOOTNOTE:END}:{VS:BR}'
       v:007: 'WIS:10:7 | 7 | 7 | Whose land, for a testimony of their wickedness, is desolate, and smoketh to this day, and the trees bear fruits that ripen not, and a standing pillar of salt is a monument of an incredulous soul.{VS:BR}'
       v:008: 'WIS:10:8 | 8 | 8 | For regarding not wisdom, they did not only slip in this, that they were ignorant of good things; but they left also unto men a memorial of their folly, so that in the things in which they sinned, they could not so much as lie hid.{VS:BR}'
       v:009: 'WIS:10:9 | 9 | 9 | But wisdom hath delivered from sorrow them that attend upon her.{VS:BR}'
-      v:010: "WIS:10:10 | 10 | 10 | She conducted {NF:BEGIN 0}the just{NF:END}, when he fled from his brother's wrath, through the right ways, and shewed him the kingdom of God, and gave him the knowledge of the holy things, made him honourable in his labours, and accomplished his labours.{VS:BR}"
+      v:010: "WIS:10:10 | 10 | 10 | She conducted {FOOTNOTE:BEGIN 0}the just{FOOTNOTE:END}, when he fled from his brother's wrath, through the right ways, and shewed him the kingdom of God, and gave him the knowledge of the holy things, made him honourable in his labours, and accomplished his labours.{VS:BR}"
       v:011: 'WIS:10:11 | 11 | 11 | In the deceit of them that overreached him, she stood by him, and made him honourable.{VS:BR}'
-      v:012: 'WIS:10:12 | 12 | 12 | She kept him safe from his enemies, and she defended him from seducers, and gave him a strong {NF:BEGIN 0}conflict{NF:END}, that he might overcome, and know that wisdom is mightier than all.{VS:BR}'
-      v:013: 'WIS:10:13 | 13 | 13 | She forsook not {NF:BEGIN 0}the just when he was sold{NF:END}, but delivered him from sinners: she went down with him into the pit.{VS:BR}'
+      v:012: 'WIS:10:12 | 12 | 12 | She kept him safe from his enemies, and she defended him from seducers, and gave him a strong {FOOTNOTE:BEGIN 0}conflict{FOOTNOTE:END}, that he might overcome, and know that wisdom is mightier than all.{VS:BR}'
+      v:013: 'WIS:10:13 | 13 | 13 | She forsook not {FOOTNOTE:BEGIN 0}the just when he was sold{FOOTNOTE:END}, but delivered him from sinners: she went down with him into the pit.{VS:BR}'
       v:014: 'WIS:10:14 | 14 | 14 | And in bands she left him not, till she brought him the sceptre of the kingdom, and power against those that oppressed him: and shewed them to be liars that had accused him, and gave him everlasting glory.{VS:VERSE:END}{VS:P}'
       v:015: 'WIS:10:15 | 15 | 15 | {VS:VERSE:BEGIN}She delivered the just people, and blameless seed, from the nations that oppressed them.{VS:BR}'
-      v:016: 'WIS:10:16 | 16 | 16 | She entered into the soul of {NF:BEGIN 0}the servant of God{NF:END} and stood against dreadful kings in wonders and signs.{VS:BR}'
+      v:016: 'WIS:10:16 | 16 | 16 | She entered into the soul of {FOOTNOTE:BEGIN 0}the servant of God{FOOTNOTE:END} and stood against dreadful kings in wonders and signs.{VS:BR}'
       v:017: 'WIS:10:17 | 17 | 17 | And she rendered to the just the wages of their labours, and conducted them in a wonderful way: and she was to them for a covert by day, and for the light of stars by night:{VS:BR}'
       v:018: 'WIS:10:18 | 18 | 18 | And she brought them through the Red Sea, and carried them over through a great water.{VS:BR}'
       v:019: 'WIS:10:19 | 19 | 19 | But their enemies she drowned in the sea, and from the depth of hell she brought them out. Therefore the just took the spoils of the wicked.{VS:BR}'
@@ -306,31 +305,31 @@ chapters:
     footnotes:
       v:001:
         - match: the holy prophet
-          note: 'Moses.</p>'
+          note: Moses.
           quote: The holy prophet
       v:003:
         - match: their enemies
-          note: 'The Amalecites.</p>'
+          note: The Amalecites.
           quote: Their enemies
       v:005:
         - match: by what things
-          note: 'The meaning is, that God, who wrought a miracle to punish the Egyptians by thirst, when he turned all their waters into blood, (at which time the Israelites, who were exempt from those plagues, had plenty of water,) wrought another miracle in favour of his own people in their thirst, by giving them water out of the rock.</p>'
+          note: 'The meaning is, that God, who wrought a miracle to punish the Egyptians by thirst, when he turned all their waters into blood, (at which time the Israelites, who were exempt from those plagues, had plenty of water,) wrought another miracle in favour of his own people in their thirst, by giving them water out of the rock.'
           quote: By what things
       v:014:
         - match: by their punishments
-          note: 'That is, that the Israelites had been benefited and miraculously favoured in the same kind, in which they had been punished.</p>'
+          note: 'That is, that the Israelites had been benefited and miraculously favoured in the same kind, in which they had been punished.'
           quote: By their punishments
       v:016:
         - match: dumb beasts
-          note: 'Viz., frogs, sciniphs, flies, and locusts.</p>'
+          note: 'Viz., frogs, sciniphs, flies, and locusts.'
           quote: Dumb beasts
     intro: Other benefits of wisdom to the people of God.
     verses:
-      v:001: 'WIS:11:1 | 1 | 1 | {VS:VERSE:BEGIN}She prospered their works in the hands of {NF:BEGIN 0}the holy prophet{NF:END}.{VS:BR}'
+      v:001: 'WIS:11:1 | 1 | 1 | {VS:VERSE:BEGIN}She prospered their works in the hands of {FOOTNOTE:BEGIN 0}the holy prophet{FOOTNOTE:END}.{VS:BR}'
       v:002: 'WIS:11:2 | 2 | 2 | They went through wildernesses that were not inhabited, and in desert places they pitched their tents.{VS:BR}'
-      v:003: 'WIS:11:3 | 3 | 3 | They stood against {NF:BEGIN 0}their enemies{NF:END}, and revenged themselves of their adversaries.{VS:BR}'
+      v:003: 'WIS:11:3 | 3 | 3 | They stood against {FOOTNOTE:BEGIN 0}their enemies{FOOTNOTE:END}, and revenged themselves of their adversaries.{VS:BR}'
       v:004: 'WIS:11:4 | 4 | 4 | They were thirsty, and they called upon thee, and water was given them out of the high rock, and a refreshment of their thirst out of the hard stone.{VS:VERSE:END}{VS:P}'
-      v:005: 'WIS:11:5 | 5 | 5 | {VS:VERSE:BEGIN}For {NF:BEGIN 0}by what things{NF:END} their enemies were punished, when their drink failed them, while the children of Israel abounded therewith, and rejoiced:{VS:BR}'
+      v:005: 'WIS:11:5 | 5 | 5 | {VS:VERSE:BEGIN}For {FOOTNOTE:BEGIN 0}by what things{FOOTNOTE:END} their enemies were punished, when their drink failed them, while the children of Israel abounded therewith, and rejoiced:{VS:BR}'
       v:006: 'WIS:11:6 | 6 | 6 | By the same things they in their need were benefited.{VS:BR}'
       v:007: 'WIS:11:7 | 7 | 7 | For instead of a fountain of an ever running river, thou gavest human blood to the unjust.{VS:BR}'
       v:008: 'WIS:11:8 | 8 | 8 | And whilst they were diminished for a manifest reproof of their murdering the infants, thou gavest to thine abundant water unlooked for:{VS:BR}'
@@ -339,9 +338,9 @@ chapters:
       v:011: 'WIS:11:11 | 11 | 11 | For thou didst admonish and try them as a father: but the others, as a severe king, thou didst examine and condemn.{VS:BR}'
       v:012: 'WIS:11:12 | 12 | 12 | For whether absent or present, they were tormented alike.{VS:BR}'
       v:013: 'WIS:11:13 | 13 | 13 | For a double affliction came upon them, and a groaning for the remembrance of things past.{VS:BR}'
-      v:014: 'WIS:11:14 | 14 | 14 | For when they heard that {NF:BEGIN 0}by their punishments{NF:END} the others were benefited, they remembered the Lord, wondering at the end of what was come to pass.{VS:BR}'
+      v:014: 'WIS:11:14 | 14 | 14 | For when they heard that {FOOTNOTE:BEGIN 0}by their punishments{FOOTNOTE:END} the others were benefited, they remembered the Lord, wondering at the end of what was come to pass.{VS:BR}'
       v:015: 'WIS:11:15 | 15 | 15 | For whom they scorned before, when he was thrown out at the time of his being wickedly exposed to perish, him they admired in the end, when they saw the event: their thirsting being unlike to that of the just.{VS:BR}'
-      v:016: 'WIS:11:16 | 16 | 16 | But for the foolish devices of their iniquity, because some being deceived worshipped dumb serpents and worthless beasts, thou didst send upon them a multitude of {NF:BEGIN 0}dumb beasts{NF:END} for vengeance:{VS:BR}'
+      v:016: 'WIS:11:16 | 16 | 16 | But for the foolish devices of their iniquity, because some being deceived worshipped dumb serpents and worthless beasts, thou didst send upon them a multitude of {FOOTNOTE:BEGIN 0}dumb beasts{FOOTNOTE:END} for vengeance:{VS:BR}'
       v:017: 'WIS:11:17 | 17 | 17 | That they might know that by what things a man sinneth, by the same also he is tormented.{VS:BR}'
       v:018: 'WIS:11:18 | 18 | 18 | For thy almighty hand, which made the world of matter without form, was not unable to send upon them a multitude of bears, or fierce lions,{VS:BR}'
       v:019: 'WIS:11:19 | 19 | 19 | Or unknown beasts of a new kind, full of rage; either breathing out a fiery vapour, or sending forth a stinking smoke, or shooting horrible sparks out of their eyes:{VS:BR}'
@@ -357,7 +356,7 @@ chapters:
     footnotes:
       v:005:
         - match: from the midst of thy consecration
-          note: "Literally, sacrament. That is, the land sacred to thee, in which thy temple was to be established, and man's redemption to be wrought.</p>"
+          note: "Literally, sacrament. That is, the land sacred to thee, in which thy temple was to be established, and man's redemption to be wrought."
           quote: From the midst of thy consecration
     intro: God’s wisdom and mercy in his proceedings with the Chanaanites.
     verses:
@@ -365,7 +364,7 @@ chapters:
       v:002: 'WIS:12:2 | 2 | 2 | And therefore thou chastisest them that err, by little and little: and admonishest them, and speakest to them, concerning the things wherein they offend: that leaving their wickedness, they may believe in thee, O Lord.{VS:VERSE:END}{VS:P}'
       v:003: 'WIS:12:3 | 3 | 3 | {VS:VERSE:BEGIN}For those ancient inhabitants of thy holy land, whom thou didst abhor,{VS:BR}'
       v:004: 'WIS:12:4 | 4 | 4 | Because they did works hateful to thee by their sorceries, and wicked sacrifices,{VS:BR}'
-      v:005: "WIS:12:5 | 5 | 5 | And those merciless murderers of their own children, and eaters of men's bowels, and devourers of blood {NF:BEGIN 0}from the midst of thy consecration{NF:END},{VS:BR}"
+      v:005: "WIS:12:5 | 5 | 5 | And those merciless murderers of their own children, and eaters of men's bowels, and devourers of blood {FOOTNOTE:BEGIN 0}from the midst of thy consecration{FOOTNOTE:END},{VS:BR}"
       v:006: 'WIS:12:6 | 6 | 6 | And those parents sacrificing with their own hands helpless souls, it was thy will to destroy by the hands of our parents,{VS:BR}'
       v:007: 'WIS:12:7 | 7 | 7 | That the land which of all is most dear to thee, might receive a worthy colony of the children of God.{VS:BR}'
       v:008: 'WIS:12:8 | 8 | 8 | Yet even those thou sparedst as men, and didst send wasps forerunners of thy host, to destroy them by little and little.{VS:BR}'
@@ -473,27 +472,27 @@ chapters:
     footnotes:
       v:003:
         - match: they indeed desiring food
-          note: 'He means the Egyptians; who were restrained even from that food which was necessary, by the frogs and the flies that were sent amongst them, and spoiled all their meats.-- Ibid.</p>'
+          note: 'He means the Egyptians; who were restrained even from that food which was necessary, by the frogs and the flies that were sent amongst them, and spoiled all their meats.-- Ibid.'
           quote: They indeed desiring food
         - match: but these
-          note: 'Viz., the Israelites.</p>'
+          note: 'Viz., the Israelites.'
           quote: But these
       v:006:
         - match: sign of salvation
-          note: 'The brazen serpent, an emblem of Christ our Saviour.</p>'
+          note: 'The brazen serpent, an emblem of Christ our Saviour.'
           quote: Sign of salvation
       v:017:
         - match: the fire had more force
-          note: 'Viz., when the fire and hail mingled together laid waste the land of Egypt. Ex. 9.</p>'
+          note: 'Viz., when the fire and hail mingled together laid waste the land of Egypt. Ex. 9.'
           quote: The fire had more force
     intro: God’s different dealings with the Egyptians and with his own people.
     verses:
       v:001: 'WIS:16:1 | 1 | 1 | {VS:VERSE:BEGIN}For these things, and by the like things to these, they were worthily punished, and were destroyed by a multitude of beasts.{VS:BR}'
       v:002: 'WIS:16:2 | 2 | 2 | Instead of which punishment, dealing well with thy people, thou gavest them their desire of delicious food, of a new taste, preparing for them quails for their meat:{VS:BR}'
-      v:003: 'WIS:16:3 | 3 | 3 | To the end, that {NF:BEGIN 0}they indeed desiring food{NF:END}, by means of those things that were shewn and sent among them, might loath even that which was necessary to satisfy their desire. {NF:BEGIN 1}But these{NF:END}, after suffering want for a short time, tasted a new meat.{VS:BR}'
+      v:003: 'WIS:16:3 | 3 | 3 | To the end, that {FOOTNOTE:BEGIN 0}they indeed desiring food{FOOTNOTE:END}, by means of those things that were shewn and sent among them, might loath even that which was necessary to satisfy their desire. {FOOTNOTE:BEGIN 1}But these{FOOTNOTE:END}, after suffering want for a short time, tasted a new meat.{VS:BR}'
       v:004: 'WIS:16:4 | 4 | 4 | For it was requisite that inevitable destruction should come upon them that exercised tyranny: but to these it should only be shewn how their enemies were destroyed.{VS:BR}'
       v:005: 'WIS:16:5 | 5 | 5 | For when the fierce rage of beasts came upon these, they were destroyed by the bitings of crooked serpents.{VS:BR}'
-      v:006: 'WIS:16:6 | 6 | 6 | But thy wrath endured not for ever, but they were troubled for a short time for their correction, having a {NF:BEGIN 0}sign of salvation{NF:END}, to put them in remembrance of the commandment of thy law.{VS:BR}'
+      v:006: 'WIS:16:6 | 6 | 6 | But thy wrath endured not for ever, but they were troubled for a short time for their correction, having a {FOOTNOTE:BEGIN 0}sign of salvation{FOOTNOTE:END}, to put them in remembrance of the commandment of thy law.{VS:BR}'
       v:007: 'WIS:16:7 | 7 | 7 | For he that turned to it, was not healed by that which he saw, but by thee, the Saviour of all.{VS:BR}'
       v:008: 'WIS:16:8 | 8 | 8 | And in this thou didst shew to our enemies, that thou art he who deliverest from all evil.{VS:BR}'
       v:009: 'WIS:16:9 | 9 | 9 | For the bitings of locusts, and of flies, killed them, and there was found no remedy for their life: because they were worthy to be destroyed by such things.{VS:BR}'
@@ -504,7 +503,7 @@ chapters:
       v:014: 'WIS:16:14 | 14 | 14 | A man indeed killeth through malice, and when the spirit is gone forth, it shall not return, neither shall he call back the soul that is received:{VS:BR}'
       v:015: 'WIS:16:15 | 15 | 15 | But it is impossible to escape thy hand:{VS:BR}'
       v:016: 'WIS:16:16 | 16 | 16 | For the wicked that denied to know thee, were scourged by the strength of thy arm, being persecuted by strange waters, and hail, and rain, and consumed by fire.{VS:BR}'
-      v:017: 'WIS:16:17 | 17 | 17 | And which was wonderful, in water, which extinguisheth all things, {NF:BEGIN 0}the fire had more force{NF:END}: for the world fighteth for the just.{VS:BR}'
+      v:017: 'WIS:16:17 | 17 | 17 | And which was wonderful, in water, which extinguisheth all things, {FOOTNOTE:BEGIN 0}the fire had more force{FOOTNOTE:END}: for the world fighteth for the just.{VS:BR}'
       v:018: 'WIS:16:18 | 18 | 18 | For at one time the fire was mitigated, that the beasts which were sent against the wicked might not be burnt, but that they might see, and perceive that they were persecuted by the judgment of God.{VS:BR}'
       v:019: 'WIS:16:19 | 19 | 19 | And at another time the fire, above its own power, burnt in the midst of water, to destroy the fruits of a wicked land.{VS:BR}'
       v:020: 'WIS:16:20 | 20 | 20 | Instead of which things, thou didst feed thy people with the food of angels, and gavest them bread from heaven, prepared without labour; having in it all that is delicious, and the sweetness of every taste.{VS:BR}'
@@ -545,34 +544,34 @@ chapters:
     footnotes:
       v:003:
         - match: a harmless sun
-          note: 'A light that should not hurt or molest them; but that should be an agreeable guest to them.</p>'
+          note: A light that should not hurt or molest them; but that should be an agreeable guest to them.
           quote: A harmless sun
       v:005:
         - match: one child
-          note: 'Viz., Moses.</p>'
+          note: 'Viz., Moses.'
           quote: One child
       v:009:
         - match: of good men
-          note: 'Viz., of the patriarchs. Their children, the Israelites, offered in private the sacrifice of the paschal lamb; and were regulating what they were to do in their journey, when that last and most dreadful plague was coming upon their enemies.</p>'
+          note: 'Viz., of the patriarchs. Their children, the Israelites, offered in private the sacrifice of the paschal lamb; and were regulating what they were to do in their journey, when that last and most dreadful plague was coming upon their enemies.'
           quote: Of good men
       v:012:
         - match: the noblest offspring
-          note: 'That is, the firstborn.</p>'
+          note: 'That is, the firstborn.'
           quote: The noblest offspring
     intro: 'The slaughter of the firstborn in Egypt: the efficacy of Aaron’s intercession, in the sedition on occasion of Core.'
     verses:
       v:001: 'WIS:18:1 | 1 | 1 | {VS:VERSE:BEGIN}But thy saints had a very great light, and they heard their voice indeed, but did not see their shape. And because they also did not suffer the same things, they glorified thee:{VS:BR}'
       v:002: 'WIS:18:2 | 2 | 2 | And they that before had been wronged, gave thanks, because they were not hurt now: and asked this gift, that there might be a difference.{VS:BR}'
-      v:003: 'WIS:18:3 | 3 | 3 | Therefore they received a burning pillar of fire for a guide of the way which they knew not, and thou gavest them {NF:BEGIN 0}a harmless sun{NF:END} of a good entertainment.{VS:BR}'
+      v:003: 'WIS:18:3 | 3 | 3 | Therefore they received a burning pillar of fire for a guide of the way which they knew not, and thou gavest them {FOOTNOTE:BEGIN 0}a harmless sun{FOOTNOTE:END} of a good entertainment.{VS:BR}'
       v:004: 'WIS:18:4 | 4 | 4 | The others indeed were worthy to be deprived of light, and imprisoned in darkness, who kept thy children shut up, by whom the pure light of the law was to be given to the world.{VS:VERSE:END}{VS:P}'
-      v:005: 'WIS:18:5 | 5 | 5 | {VS:VERSE:BEGIN}And whereas they thought to kill the babes of the just: {NF:BEGIN 0}one child{NF:END} being cast forth, and saved to reprove them, thou tookest away a multitude of their children, and destroyedst them altogether in a mighty water.{VS:BR}'
+      v:005: 'WIS:18:5 | 5 | 5 | {VS:VERSE:BEGIN}And whereas they thought to kill the babes of the just: {FOOTNOTE:BEGIN 0}one child{FOOTNOTE:END} being cast forth, and saved to reprove them, thou tookest away a multitude of their children, and destroyedst them altogether in a mighty water.{VS:BR}'
       v:006: 'WIS:18:6 | 6 | 6 | For that night was known before by our fathers, that assuredly knowing what oaths they had trusted to, they might be of better courage.{VS:BR}'
       v:007: 'WIS:18:7 | 7 | 7 | So thy people received the salvation of the just, and destruction of the unjust.{VS:BR}'
       v:008: 'WIS:18:8 | 8 | 8 | For as thou didst punish the adversaries so thou didst also encourage and glorify us.{VS:BR}'
-      v:009: 'WIS:18:9 | 9 | 9 | For the just children {NF:BEGIN 0}of good men{NF:END} were offering sacrifice secretly, and they unanimously ordered a law of justice: that the just should receive both good and evil alike, singing now the praises of the fathers.{VS:BR}'
+      v:009: 'WIS:18:9 | 9 | 9 | For the just children {FOOTNOTE:BEGIN 0}of good men{FOOTNOTE:END} were offering sacrifice secretly, and they unanimously ordered a law of justice: that the just should receive both good and evil alike, singing now the praises of the fathers.{VS:BR}'
       v:010: 'WIS:18:10 | 10 | 10 | But on the other side there sounded an ill according cry of the enemies, and a lamentable mourning was heard for the children that were bewailed.{VS:BR}'
       v:011: 'WIS:18:11 | 11 | 11 | And the servant suffered the same punishment as the master, and a common man suffered in like manner as the king.{VS:BR}'
-      v:012: 'WIS:18:12 | 12 | 12 | So all alike had innumerable dead, with one kind of death. Neither were the living sufficient to bury them: for in one moment {NF:BEGIN 0}the noblest offspring{NF:END} of them was destroyed.{VS:BR}'
+      v:012: 'WIS:18:12 | 12 | 12 | So all alike had innumerable dead, with one kind of death. Neither were the living sufficient to bury them: for in one moment {FOOTNOTE:BEGIN 0}the noblest offspring{FOOTNOTE:END} of them was destroyed.{VS:BR}'
       v:013: 'WIS:18:13 | 13 | 13 | For whereas they would not believe any thing before by reason of the enchantments, then first upon the destruction of the firstborn, they acknowledged the people to be of God.{VS:BR}'
       v:014: 'WIS:18:14 | 14 | 14 | For while all things were in quiet silence, and the night was in the midst of her course,{VS:BR}'
       v:015: 'WIS:18:15 | 15 | 15 | Thy Almighty word leaped down from heaven from thy royal throne, as a fierce conqueror into the midst of the land of destruction,{VS:BR}'
@@ -590,11 +589,11 @@ chapters:
     footnotes:
       v:017:
         - match: elements are changed
-          note: 'The meaning is, that whatever changes God wrought in the elements by miracles in favour of his people, they still kept their harmony by obeying his will.</p>'
+          note: 'The meaning is, that whatever changes God wrought in the elements by miracles in favour of his people, they still kept their harmony by obeying his will.'
           quote: Elements are changed
       v:020:
         - match: that good food
-          note: 'The manna.</p>'
+          note: The manna.
           quote: That good food
     intro: 'Why God shewed no mercy to the Egyptians. His favour to the Israelites. All creatures obey God’s orders for the service of the good, and the punishment of the wicked.'
     verses:
@@ -614,10 +613,10 @@ chapters:
       v:014: 'WIS:19:14 | 14 | 14 | And not only so, but in another respect also they were worse: for the others against their will received the strangers.{VS:BR}'
       v:015: 'WIS:19:15 | 15 | 15 | But these grievously afflicted them whom they had received with joy, and who lived under the same laws.{VS:BR}'
       v:016: 'WIS:19:16 | 16 | 16 | But they were struck with blindness: as those others were at the doors of the just man, when they were covered with sudden darkness, and every one sought the passage of his own door.{VS:BR}'
-      v:017: 'WIS:19:17 | 17 | 17 | For while the {NF:BEGIN 0}elements are changed{NF:END} in themselves, as in an instrument the sound of the quality is changed, yet all keep their sound: which may clearly be perceived by the very sight.{VS:BR}'
+      v:017: 'WIS:19:17 | 17 | 17 | For while the {FOOTNOTE:BEGIN 0}elements are changed{FOOTNOTE:END} in themselves, as in an instrument the sound of the quality is changed, yet all keep their sound: which may clearly be perceived by the very sight.{VS:BR}'
       v:018: 'WIS:19:18 | 18 | 18 | For the things of the land were turned into things of the water: and the things that before swam in the water passed upon the land.{VS:BR}'
       v:019: 'WIS:19:19 | 19 | 19 | The fire had power in water above its own virtue, and the water forgot its quenching nature.{VS:BR}'
-      v:020: 'WIS:19:20 | 20 | 20 | On the other side, the flames wasted not the flesh of corruptible animals walking therein, neither did they melt {NF:BEGIN 0}that good food{NF:END}, which was apt to melt as ice. for in all things thou didst magnify thy people, O Lord, and didst honour them, and didst not despise them, but didst assist them at all times, and in every place.{VS:VERSE:END}'
+      v:020: 'WIS:19:20 | 20 | 20 | On the other side, the flames wasted not the flesh of corruptible animals walking therein, neither did they melt {FOOTNOTE:BEGIN 0}that good food{FOOTNOTE:END}, which was apt to melt as ice. for in all things thou didst magnify thy people, O Lord, and didst honour them, and didst not despise them, but didst assist them at all times, and in every place.{VS:VERSE:END}'
 intro: 'This Book is so called, because it treats of the excellence of WISDOM, the means to obtain it, and the happy fruits it produces. It is written in the person of Solomon, and contains his sentiments. But it is uncertain who was the writer. It abounds with instructions and exhortations to kings and all magistrates to minister justice in the commonwealth, teaching all kinds of virtues under the general names of justice and wisdom. It contains also many prophecies of Christ’s coming, passion, resurrection, and other Christian mysteries. The whole may be divided into three parts. In the first six chapters, the author admonishes all superiors to love and exercise justice and wisdom. In the next three, he teacheth that wisdom proceedeth only from God, and is procured by prayer and a good life. In the other ten chapters, he sheweth the excellent effects and utility of wisdom and justice.'
 titles:
   cbol: The Book of Wisdom

@@ -327,6 +327,7 @@ sub fix_footnotes {
 
 sub out_footnote {
     my ($book_id, $chap_num, $verse_num, $text) = @_;
+    my $verse_index = "v:".num_to_3digits($verse_num);
 
     $text = fix_footnotes($text);
 
@@ -351,7 +352,7 @@ sub out_footnote {
             } elsif ($note =~ /^shew Job\x{2019}s explicit belief in his Redeemer/){ #mod 
                 $tmp->{multiple_verses} = '25,26, and 27';
             }
-            push(@{$out->{chapters}->{"c:".num_to_3digits($chap_num)}->{footnotes}->{$verse_num}}, $tmp);
+            push(@{$out->{chapters}->{"c:".num_to_3digits($chap_num)}->{footnotes}->{$verse_index}}, $tmp);
         } else {
             die "${chap_num}:$verse_num -- No .... in footnote: $text";
         }
