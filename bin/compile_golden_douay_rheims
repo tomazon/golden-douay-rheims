@@ -10,6 +10,7 @@ use Getopt::Long;
 use IPC::Run3;
 use String::Diff qw( diff );
 use String::ShellQuote;
+use String::Trim;
 use Text::Capitalize;
 use YAML;
 use utf8;
@@ -41,6 +42,7 @@ my $pg1581_dir = $source_dirs{pg1581};
 my @books = book_list($book_order_file, qw( OT NT ));
 
 for my $book_id (@books) {
+    next unless book_has_red_letters($book_id);
     my $out_file = "$golden_out_dir/$book_id.yaml";
     my $book = {
         book_id => $book_id,
@@ -55,7 +57,8 @@ for my $book_id (@books) {
     YAML::DumpFile($out_file, $book);
 }
 
-copy_vulsearsh_files($source_dirs{'vulsearch'}, "$top_out_dir/vulsearch_vulgate");
+say "Reenable CP";
+#copy_vulsearsh_files($source_dirs{'vulsearch'}, "$top_out_dir/vulsearch_vulgate");
 
 ###########################################################################
 
@@ -71,6 +74,10 @@ sub build_chapters {
     my $vscodes_count_file = "$source_dirs{vscodes_count}/$book_id.yaml";
 
     my $footnote_fixes = YAML::LoadFile('./etc/footnote_fixes.yaml');
+    my $red_letter_map = {};
+    if (book_has_red_letters($book_id)) {
+        $red_letter_map  = YAML::LoadFile("./etc/red_letters/$book_id.yaml");
+    }
 
     say "Processing: $book_id";
 
@@ -127,6 +134,9 @@ sub build_chapters {
             }
 
             $text = apply_vscodes($text, $vscodes_count, $c_index, $v_index);
+            if (book_has_red_letters($book_id)) {
+                $text = apply_redletters($v_tag, $text, $red_letter_map);
+            }
 
             my $entry = join(' | ', $v_tag, $v_num, $display_v, $text);
             $chap_out->{verses}->{$v_index} = $entry;
@@ -166,6 +176,54 @@ sub apply_vscodes {
     }
 
     $text
+}
+
+sub apply_redletters {
+    my ($v_tag, $text, $map) = @_;
+
+    my $tag = $v_tag;
+    $tag =~ s/^[A-Z]{3}://;
+
+    if (my $rule = $map->{$tag}) {
+        trim($rule);
+
+        if ($rule eq 'ALL') {
+            $text = "{RED:BEGIN}${text}{RED:END}";
+        } elsif ($rule =~ /^(.+)\s+\.\.\.$/) {
+            my $quote=$1;
+            trim($quote);
+            die "$tag: Multiple red_letter quotes, Stopped" if $quote =~ /\.\.\./;
+            $text =~ s/($quote.*)$/\{RED:BEGIN}$1\{RED:END}/i
+                || warn "$v_tag: Failed to apply red_letters | rule = $rule | text = $text |";
+        } elsif ($rule =~ /^\.\.\.\s+(.+)$/) {
+            my $quote=$1;
+            trim($quote);
+            die "$tag: Multiple red_letter quotes, Stopped" if $quote =~ /\.\.\./;
+            $text =~ s/^(.+$quote)/\{RED:BEGIN}$1\{RED:END}/i
+                || warn "$v_tag: Failed to apply red_letters | rule = $rule | text = $text |";
+        } elsif ($rule =~  /^(.+\S)\s\.\.\.\s(\S.+)$/) {
+            my ($begin, $end) = ($1, $2);
+            trim($begin);
+            trim($end);
+            die "$v_tag: Multiple red_letter quotes, Stopped" if $begin =~ /\.\.\./;
+            die "$v_tag: Multiple red_letter quotes, Stopped" if $end =~ /\.\.\./;
+            $text =~ s/\s(${begin}\s.+\s${end})\s/ \{RED:BEGIN}$1\{RED:END} /i
+                || warn "$v_tag: Failed to apply red_letters | rule = $rule | text = $text |";
+        } else {
+            my $quote = $rule;
+            trim($quote);
+            die "$v_tag: Multiple red_letter quotes, Stopped" if $quote =~ /\.\.\./;
+            $text =~ s/($quote)/\{RED:BEGIN}$1\{RED:END}/i 
+                || warn "$v_tag: Failed to apply red_letters | rule = $rule | text = $text |";
+        }
+    }
+
+    $text;
+}
+
+sub book_has_red_letters {
+    my ($book_id) = @_;
+    grep(/^$book_id$/, (qw( MAT MRK LUK JHN )));
 }
 
 sub choose_display_v {
