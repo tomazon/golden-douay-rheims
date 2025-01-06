@@ -4,7 +4,7 @@
 
 | Book ID | Import | Clean | Footnotes | Red<br>Letter |
 | :---:   | :---:  | :---: | :---:     | :---:      |
-| Gospels ||
+| <td rowspan="2"> Gospels </td> ||
 |  MAT    | DONE   | in_progress | DONE | in progress |
 |  MRK    | DONE   |       |     | DONE |           |
 |  LUK    | DONE   |       |     |      |           |
