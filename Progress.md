@@ -6,7 +6,7 @@
 
 | Book ID | Import<br>PG1581 | Audit <vr>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Import<br>DRBO<br>Footnotes | Red<br>Letter |
 | :---:   | :---:  | :---: | :---:     | :---:      | :---: |
-|  MAT    | DONE   | in_progress | DONE | DONE | in progress |
+|  MAT    | DONE   | DONE  | in_progress | DONE | in progress |
 |  MRK    | DONE   |       |     | DONE | |          |
 |  LUK    | DONE   |       |     | DONE | |          |
 |  JHN    | DONE   |       |     | DONE | |          |
