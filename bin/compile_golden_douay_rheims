@@ -16,6 +16,8 @@ use utf8;
 
 use feature 'say';
 
+binmode STDOUT, ":raw";
+
 require "./sources/lib/perl5/shared.pl";
 
 my $book_order_file = './etc/book_order.yaml';
@@ -68,6 +70,8 @@ sub build_chapters {
     my $pg1581_file = "$pg1581_dir/$book_id.yaml";
     my $vscodes_count_file = "$source_dirs{vscodes_count}/$book_id.yaml";
 
+    my $footnote_fixes = YAML::LoadFile('./etc/footnote_fixes.yaml');
+
     say "Processing: $book_id";
 
     die "No such directory: $drbo_dir" unless -d $drbo_dir;
@@ -118,7 +122,8 @@ sub build_chapters {
             my $text = choose_verse_text($v_tag, $drbo_text, $pg1581_text);
 
             if (defined($drbo_chap->{footnotes}->{$v_index}) || defined($pg1581_chap->{footnotes}->{$v_index})) {
-                $chap_out->{footnotes}->{$v_index} = choose_footnotes($v_tag, $v_index, $drbo_chap, $pg1581_chap);
+                $chap_out->{footnotes}->{$v_index} = choose_footnotes($v_tag, $v_index, $drbo_chap, $pg1581_chap, $footnote_fixes);
+                $text = make_footnote_tags($chap_out, $v_tag, $v_index, $text);
             }
 
             $text = apply_vscodes($text, $vscodes_count, $c_index, $v_index);
@@ -129,6 +134,44 @@ sub build_chapters {
         }
     }
 }
+
+sub make_footnote_tags {
+    my ($chap, $v_tag, $v_index, $text) = @_;
+
+    say $v_tag;
+    my $index=0;
+    if ($v_tag eq 'JOS:14:4') {
+        print "$v_tag:  ".Dumper($chap->{footnotes});
+    }
+    for my $entry (@{$chap->{footnotes}->{$v_index}}) {
+        my $match = $entry->{match};
+        if ($text =~ s/($match)/\{NF:BEGIN $index}$1\{NF:END\}/i) {
+            $chap->{verses}->{$v_index} = $text;
+        } else {
+            say "FIX_FOOTNOTE:\n  $v_tag:\n    $index:\n      match: ''  # was '$match' -- $text\n";
+        }
+
+        # print "I: $v_index   ". Dumper($chap->{verses});
+
+        # my $text = $chap->{verses}->{$v_index};
+        # my $quote = $entry->{quote};
+        # my $text = $chap->{verses}->{$v_index};
+        # print "I: $v_index   ". Dumper($chap->{verses});
+        # print "$v_tag | $quote | $text |\n";
+        # exit;
+        # if ($text =~ s/($quote)/\{NF:BEGIN $index}$1\{NF:END\}/i) {
+        #     $chap->{verses}->{$v_index} = $text;
+        # } else {
+        #     warn "$v_tag:  Couldn't add footnote tag of: /$quote/i to: $text\n";
+        # }
+        $index++;
+    }
+
+    $text;
+
+}
+
+
 
 sub apply_vscodes {
     my ($text, $vscodes_count, $c_index, $v_index) = @_;
@@ -162,17 +205,45 @@ sub choose_verse_text {
 }
 
 sub choose_footnotes {
-    my ($v_tag, $v_index, $drbo_chap, $pg1581_chap) = @_;
+    my ($v_tag, $v_index, $drbo_chap, $pg1581_chap, $footnote_fixes) = @_;
+    my @out = ();
     #TODO: use some logic
 
     my $drbo_footnotes = $drbo_chap->{footnotes}->{$v_index};
     my $pg1581_footnotes = $pg1581_chap->{footnotes}->{$v_index};
 
+    # print "DRBO   ". Dumper($drbo_footnotes);
+    # print "PG1581 ". Dumper($pg1581_footnotes);
 
-    if (defined($pg1581_footnotes)) {
-        return $pg1581_footnotes;
+    if (defined($drbo_footnotes)) {
+        return format_footnotes($v_tag, $drbo_footnotes, $footnote_fixes);
     }
-    return $drbo_footnotes;
+    #return format_footnotes($v_tag, $pg1581_footnotes);
+}
+
+sub format_footnotes {
+    my ($v_tag, $footnotes_for_verse, $footnote_fixes) = @_;
+    my @out = ();
+
+    my $i=0;
+    for my $e (@{$footnotes_for_verse}) {
+        #print Dumper($e);
+        $e->{match} = lc($e->{'quote'});
+        # if (defined(my $s = $second->[$i])) {
+        #     $e->{quote_2} = $s->{quote} if $s->{quote} ne $e->{quote};
+        # }
+
+        if (defined(my $f = $footnote_fixes->{$v_tag}->{$i})) {
+            print "=========\n";
+            print "FIXES: ". Dumper($f);
+            $e->{match} = uc($f->{match}) if defined($f->{match});
+            print "NOW: ". Dumper($e);
+        }
+
+        push(@out, $e);
+        $i++;
+    }
+    \@out;
 }
 
 sub copy_vulsearsh_files {

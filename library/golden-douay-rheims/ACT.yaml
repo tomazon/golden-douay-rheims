@@ -34,11 +34,14 @@ chapters:
   c:002:
     footnotes:
       v:023:
-        - note: "God delivered up his Son; and his Son delivered up himself, for the love of us, and for the sake of our salvation; and so Christ's being delivered up was holy, and was God's own determination. But they who betrayed and crucified him, did wickedly, following therein their own malice and the instigation of the devil; not the will and determination of God, who was by no means the author of their wickedness; though he permitted it; because he could, and did draw out of it so great a good, viz., the salvation of man.</p>"
+        - match: by the determinate
+          note: "God delivered up his Son; and his Son delivered up himself, for the love of us, and for the sake of our salvation; and so Christ's being delivered up was holy, and was God's own determination. But they who betrayed and crucified him, did wickedly, following therein their own malice and the instigation of the devil; not the will and determination of God, who was by no means the author of their wickedness; though he permitted it; because he could, and did draw out of it so great a good, viz., the salvation of man.</p>"
           quote: By the determinate
       v:024:
-        - note: 'Having overcome the grievous pains of death and all the power of hell.</p>'
+        - match: having loosed the sorrows
+          note: 'Having overcome the grievous pains of death and all the power of hell.</p>'
           quote: Having loosed the sorrows
+          quote_2: Having loosed the sorrow
     intro: The disciples receive the Holy Ghost. Peter’s sermon to the people. The piety of the first converts.
     verses:
       v:001: 'ACT:2:1 | 1 | 1 | And when the days of the Pentecost were accomplished, they were all together in one place:'
@@ -63,8 +66,8 @@ chapters:
       v:020: 'ACT:2:20 | 20 | 20 | The sun shall be turned into darkness and the moon into blood, before the great and manifest day of the Lord shall come.{VS:BR}'
       v:021: 'ACT:2:21 | 21 | 21 | And it shall come to pass, that whosoever shall call upon the name of the Lord shall be saved.{VS:VERSE:END}'
       v:022: 'ACT:2:22 | 22 | 22 | Ye men of Israel, hear these words: Jesus of Nazareth, a man approved of God among you by miracles and wonders and signs, which God did by him, in the midst of you, as you also know:'
-      v:023: 'ACT:2:23 | 23 | 23 | This same being delivered up, by the determinate counsel and foreknowledge of God, you by the hands of wicked men have crucified and slain.'
-      v:024: 'ACT:2:24 | 24 | 24 | Whom God hath raised up, having loosed the sorrows of hell, as it was impossible that he should be holden by it.'
+      v:023: 'ACT:2:23 | 23 | 23 | This same being delivered up, {NF:BEGIN 0}by the determinate{NF:END} counsel and foreknowledge of God, you by the hands of wicked men have crucified and slain.'
+      v:024: 'ACT:2:24 | 24 | 24 | Whom God hath raised up, {NF:BEGIN 0}having loosed the sorrows{NF:END} of hell, as it was impossible that he should be holden by it.'
       v:025: 'ACT:2:25 | 25 | 25 | For David saith concerning him: I foresaw the Lord before my face: because he is at my right hand, that I may not be moved.{VS:BR}'
       v:026: 'ACT:2:26 | 26 | 26 | For this my heart hath been glad, and my tongue hath rejoiced: moreover my flesh also shall rest in hope.{VS:BR}'
       v:027: 'ACT:2:27 | 27 | 27 | Because thou wilt not leave my soul in hell: nor suffer thy Holy One to see corruption.{VS:BR}'
@@ -208,11 +211,12 @@ chapters:
   c:006:
     footnotes:
       v:001:
-        - note: 'So they called the Jews that were born and brought up in Greece.</p>'
+        - match: greeks
+          note: 'So they called the Jews that were born and brought up in Greece.</p>'
           quote: Greeks
     intro: The ordination of the seven deacons. The zeal of Stephen.
     verses:
-      v:001: 'ACT:6:1 | 1 | 1 | And in those days, the number of the disciples increasing, there arose a murmuring of the Greeks against the Hebrews, for that their widows were neglected in the daily ministration.'
+      v:001: 'ACT:6:1 | 1 | 1 | And in those days, the number of the disciples increasing, there arose a murmuring of the {NF:BEGIN 0}Greeks{NF:END} against the Hebrews, for that their widows were neglected in the daily ministration.'
       v:002: 'ACT:6:2 | 2 | 2 | Then the twelve, calling together the multitude of the disciples, said: It is not reason that we should leave the word of God and serve tables.'
       v:003: 'ACT:6:3 | 3 | 3 | Wherefore, brethren, look ye out among you seven men of good reputation, full of the Holy Ghost and wisdom, whom we may appoint over this business.'
       v:004: ACT:6:4 | 4 | 4 | But we will give ourselves continually to prayer and to the ministry of the word.
@@ -230,10 +234,12 @@ chapters:
   c:007:
     footnotes:
       v:045:
-        - note: 'That is Josue, so called in Greek.</p>'
+        - match: jesus
+          note: 'That is Josue, so called in Greek.</p>'
           quote: Jesus
       v:048:
-        - note: 'That is, so as to stand in need of earthly dwellings, or to be contained, or circumscribed by them. Though, otherwise by his immense divinity, he is in our houses; and every where else; and Christ in his humanity dwelt in houses; and is now on our altars.</p>'
+        - match: dwelleth not in houses
+          note: 'That is, so as to stand in need of earthly dwellings, or to be contained, or circumscribed by them. Though, otherwise by his immense divinity, he is in our houses; and every where else; and Christ in his humanity dwelt in houses; and is now on our altars.</p>'
           quote: Dwelleth not in houses
     intro: Stephen’s speech before the council. His martyrdom.
     verses:
@@ -281,10 +287,10 @@ chapters:
       v:042: 'ACT:7:42 | 42 | 42 | And God turned and gave them up to serve the host of heaven, as it is written in the books of the prophets: Did you offer victims and sacrifices to me for forty years, in the desert, O house of Israel?{VS:BR}'
       v:043: 'ACT:7:43 | 43 | 43 | And you took unto you the tabernacle of Moloch and the star of your god Rempham, figures which you made to adore them. And I will carry you away beyond Babylon.{VS:VERSE:END}'
       v:044: 'ACT:7:44 | 44 | 44 | The tabernacle of the testimony was with our fathers in the desert, as God ordained for them, speaking to Moses, that he should make it according to the form which he had seen.'
-      v:045: 'ACT:7:45 | 45 | 45 | Which also our fathers receiving, brought in with Jesus, into the possession of the Gentiles: whom God drove out before the face of our fathers, unto the days of David,'
+      v:045: 'ACT:7:45 | 45 | 45 | Which also our fathers receiving, brought in with {NF:BEGIN 0}Jesus{NF:END}, into the possession of the Gentiles: whom God drove out before the face of our fathers, unto the days of David,'
       v:046: ACT:7:46 | 46 | 46 | Who found grace before God and desired to find a tabernacle for the God of Jacob.
       v:047: 'ACT:7:47 | 47 | 47 | But Solomon built him a house,'
-      v:048: 'ACT:7:48 | 48 | 48 | Yet the most High dwelleth not in houses made by hands, as the prophet saith:'
+      v:048: 'ACT:7:48 | 48 | 48 | Yet the most High {NF:BEGIN 0}dwelleth not in houses{NF:END} made by hands, as the prophet saith:'
       v:049: 'ACT:7:49 | 49 | 49 | {VS:VERSE:BEGIN}Heaven is my throne and the earth my footstool. What house will you build me (saith the Lord)? Or what is the place of my resting?{VS:BR}'
       v:050: 'ACT:7:50 | 50 | 50 | Hath not my hand made all these things?{VS:VERSE:END}'
       v:051: 'ACT:7:51 | 51 | 51 | You stiffnecked and uncircumcised in heart and ears, you always resist the Holy Ghost. As your fathers did, so do you also.'
@@ -299,10 +305,12 @@ chapters:
   c:008:
     footnotes:
       v:017:
-        - note: 'The apostles administered the sacrament of confirmation, by imposition of hands, and prayer; and the faithful thereby received the Holy Ghost. Not but they had received the grace of the Holy Ghost at their baptism: yet not that plenitude of grace and those spiritual gifts which they afterwards received from bishops in the sacrament of confirmation, which strengthened them to profess their faith publicly.</p>'
+        - match: they laid their hands upon them
+          note: 'The apostles administered the sacrament of confirmation, by imposition of hands, and prayer; and the faithful thereby received the Holy Ghost. Not but they had received the grace of the Holy Ghost at their baptism: yet not that plenitude of grace and those spiritual gifts which they afterwards received from bishops in the sacrament of confirmation, which strengthened them to profess their faith publicly.</p>'
           quote: They laid their hands upon them
       v:037:
-        - note: 'The scripture many times mentions only one disposition, as here belief, when others equally necessary are not expressed, viz., a sorrow for sins, a firm hope, and the love of God. Moreover, believing with the whole heart signifies a belief of every thing necessary for salvation.</p>'
+        - match: if thou believest with all thy heart
+          note: 'The scripture many times mentions only one disposition, as here belief, when others equally necessary are not expressed, viz., a sorrow for sins, a firm hope, and the love of God. Moreover, believing with the whole heart signifies a belief of every thing necessary for salvation.</p>'
           quote: If thou believest with all thy heart
     intro: Philip converts the Samaritans and baptizes the eunuch.
     verses:
@@ -322,7 +330,7 @@ chapters:
       v:014: 'ACT:8:14 | 14 | 14 | Now, when the apostles, who were in Jerusalem, had heard that Samaria had received the word of God, they sent unto them Peter and John.'
       v:015: 'ACT:8:15 | 15 | 15 | Who, when they were come, prayed for them that they might receive the Holy Ghost.'
       v:016: 'ACT:8:16 | 16 | 16 | For he was not as yet come upon any of them: but they were only baptized in the name of the Lord Jesus.'
-      v:017: 'ACT:8:17 | 17 | 17 | Then they laid their hands upon them: and they received the Holy Ghost.'
+      v:017: 'ACT:8:17 | 17 | 17 | Then {NF:BEGIN 0}they laid their hands upon them{NF:END}: and they received the Holy Ghost.'
       v:018: 'ACT:8:18 | 18 | 18 | And when Simon saw that, by the imposition of the hands of the apostles, the Holy Ghost was given, he offered them money,'
       v:019: 'ACT:8:19 | 19 | 19 | Saying: Give me also this power, that on whomsoever I shall lay my hands, he may receive the Holy Ghost. But Peter said to him:'
       v:020: 'ACT:8:20 | 20 | 20 | Keep thy money to thyself, to perish with thee: because thou hast thought that the gift of God may be purchased with money.'
@@ -342,7 +350,7 @@ chapters:
       v:034: 'ACT:8:34 | 34 | 34 | And the eunuch answering Philip, said: I beseech thee, of whom doth the prophet speak this? Of himself, or of some other man?'
       v:035: 'ACT:8:35 | 35 | 35 | Then Philip, opening his mouth and beginning at this scripture, preached unto him Jesus.'
       v:036: 'ACT:8:36 | 36 | 36 | And as they went on their way, they came to a certain water. And the eunuch said: See, here is water: What doth hinder me from being baptized?'
-      v:037: 'ACT:8:37 | 37 | 37 | And Philip said: If thou believest with all thy heart, thou mayest. And he answering, said: I believe that Jesus Christ is the Son of God.'
+      v:037: 'ACT:8:37 | 37 | 37 | And Philip said: {NF:BEGIN 0}If thou believest with all thy heart{NF:END}, thou mayest. And he answering, said: I believe that Jesus Christ is the Son of God.'
       v:038: 'ACT:8:38 | 38 | 38 | And he commanded the chariot to stand still. And they went down into the water, both Philip and the eunuch. And he baptized him.'
       v:039: 'ACT:8:39 | 39 | 39 | And when they were come up out of the water, the Spirit of the Lord took away Philip: and the eunuch saw him no more. And he went on his way rejoicing.'
       v:040: 'ACT:8:40 | 40 | 40 | But Philip was found in Azotus: and passing through, he preached the gospel to all the cities, till he came to Cæsarea.'
@@ -396,7 +404,8 @@ chapters:
   c:010:
     footnotes:
       v:035:
-        - note: 'That is to say, not only Jews, but Gentiles also, of what nation soever, are acceptable to God, if they fear him and work justice. But then true faith is always to be presupposed, without which (saith St. Paul, Heb. 11. 6) it is impossible to please God. Beware then of the error of those, who would infer from this passage, that men of all religions may be pleasing to God. For since none but the true religion can be from God, all other religions must be from the father of lies, and therefore highly displeasing to the God of truth.</p>'
+        - match: in every nation
+          note: 'That is to say, not only Jews, but Gentiles also, of what nation soever, are acceptable to God, if they fear him and work justice. But then true faith is always to be presupposed, without which (saith St. Paul, Heb. 11. 6) it is impossible to please God. Beware then of the error of those, who would infer from this passage, that men of all religions may be pleasing to God. For since none but the true religion can be from God, all other religions must be from the father of lies, and therefore highly displeasing to the God of truth.</p>'
           quote: In every nation
     intro: Cornelius is received into the church. Peter’s vision.
     verses:
@@ -434,7 +443,7 @@ chapters:
       v:032: 'ACT:10:32 | 32 | 32 | Send therefore to Joppe: and call hither Simon, who is surnamed Peter. He lodgeth in the house of Simon a tanner, by the sea side.'
       v:033: 'ACT:10:33 | 33 | 33 | Immediately therefore I sent to thee: and thou hast done well in coming. Now, therefore, all we are present in thy sight to hear all things whatsoever are commanded thee by the Lord.{VS:P}'
       v:034: 'ACT:10:34 | 34 | 34 | And Peter opening his mouth, said: in very deed I perceive that God is not a respecter of persons.'
-      v:035: 'ACT:10:35 | 35 | 35 | But in every nation, he that feareth him and worketh justice is acceptable to him.'
+      v:035: 'ACT:10:35 | 35 | 35 | But {NF:BEGIN 0}in every nation{NF:END}, he that feareth him and worketh justice is acceptable to him.'
       v:036: 'ACT:10:36 | 36 | 36 | God sent the word to the children of Israel, preaching peace by Jesus Christ (He is Lord of all).'
       v:037: 'ACT:10:37 | 37 | 37 | You know the word which hath been published through all Judea: for it began from Galilee, after the baptism which John preached.'
       v:038: 'ACT:10:38 | 38 | 38 | Jesus of Nazareth: how God anointed him with the Holy Ghost and with power, who went about doing good and healing all that were oppressed by the devil, for God was with him.'
@@ -485,13 +494,14 @@ chapters:
   c:012:
     footnotes:
       v:003:
-        - note: 'The festival of the unleavened bread, or the pasch, which answers to our Easter.</p>'
+        - match: azymes
+          note: 'The festival of the unleavened bread, or the pasch, which answers to our Easter.</p>'
           quote: Azymes
     intro: Herod’s persecution. Peter’s deliverance by an angel. Herod’s punishment.
     verses:
       v:001: 'ACT:12:1 | 1 | 1 | And at the same time, Herod the king stretched forth his hands, to afflict some of the church.'
       v:002: 'ACT:12:2 | 2 | 2 | And he killed James, the brother of John, With the sword.'
-      v:003: 'ACT:12:3 | 3 | 3 | And seeing that it pleased the Jews, he proceeded to take up Peter also. Now it was in the days of the Azymes.'
+      v:003: 'ACT:12:3 | 3 | 3 | And seeing that it pleased the Jews, he proceeded to take up Peter also. Now it was in the days of the {NF:BEGIN 0}Azymes{NF:END}.'
       v:004: 'ACT:12:4 | 4 | 4 | And when he had apprehended him, he cast him into prison, delivering him to four files of soldiers, to be kept, intending, after the pasch, to bring him forth to the people.'
       v:005: 'ACT:12:5 | 5 | 5 | Peter therefore was kept in prison. But prayer was made without ceasing by the church unto God for him.{VS:P}'
       v:006: 'ACT:12:6 | 6 | 6 | And when Herod would have brought him forth, the same night, Peter was sleeping between two soldiers, bound with two chains: and the keepers before the door kept the prison.'
@@ -517,7 +527,8 @@ chapters:
   c:013:
     footnotes:
       v:034:
-        - note: 'These are the words of the prophet Isaias, 55. 3. According to the Septuagint, the sense is: I will faithfully fulfil the promises I made to David.</p>'
+        - match: i will give you the holy
+          note: 'These are the words of the prophet Isaias, 55. 3. According to the Septuagint, the sense is: I will faithfully fulfil the promises I made to David.</p>'
           quote: I will give you the holy
     intro: Saul and Barnabas are sent forth by the Holy Ghost. They preach in Cyprus and in Antioch of Pisidia.
     verses:
@@ -554,7 +565,7 @@ chapters:
       v:031: 'ACT:13:31 | 31 | 31 | Who was seen for many days by them who came up with him from Galilee to Jerusalem, who to this present are his witnesses to the people.'
       v:032: 'ACT:13:32 | 32 | 32 | And we declare unto you that the promise which was made to our fathers,'
       v:033: 'ACT:13:33 | 33 | 33 | This same God hath fulfilled to our children, raising up Jesus, as in the second psalm also is written: Thou art my Son: this day have I begotten thee.'
-      v:034: 'ACT:13:34 | 34 | 34 | And to shew that he raised him up from the dead, not to return now any more to corruption, he said thus: I will give you the holy things of David, faithful.'
+      v:034: 'ACT:13:34 | 34 | 34 | And to shew that he raised him up from the dead, not to return now any more to corruption, he said thus: {NF:BEGIN 0}I will give you the holy{NF:END} things of David, faithful.'
       v:035: 'ACT:13:35 | 35 | 35 | And therefore, in another place also, he saith: Thou shalt not suffer thy holy one to see corruption.'
       v:036: 'ACT:13:36 | 36 | 36 | For David, when he had served in his generation, according to the will of God, slept: and was laid unto his fathers and saw corruption.'
       v:037: ACT:13:37 | 37 | 37 | But he whom God hath raised from the dead saw no corruption.
@@ -607,7 +618,8 @@ chapters:
   c:015:
     footnotes:
       v:029:
-        - note: 'The use of these things, though of their own nature indifferent, was here prohibited, to bring the Jews more easily to admit of the society of the Gentiles; and to exercise the latter in obedience. But this prohibition was but temporary, and has long since ceased to oblige; more especially in the western churches.</p>'
+        - match: 'from blood, and from things strangled'
+          note: 'The use of these things, though of their own nature indifferent, was here prohibited, to bring the Jews more easily to admit of the society of the Gentiles; and to exercise the latter in obedience. But this prohibition was but temporary, and has long since ceased to oblige; more especially in the western churches.</p>'
           quote: 'From blood, and from things strangled'
     intro: A dissension about circumcision. The decision and letter of the council of Jerusalem.
     verses:
@@ -655,7 +667,8 @@ chapters:
   c:016:
     footnotes:
       v:016:
-        - note: 'That is, a spirit pretending to divine, and tell fortunes.</p>'
+        - match: a pythonical spirit
+          note: 'That is, a spirit pretending to divine, and tell fortunes.</p>'
           quote: A pythonical spirit
     intro: Paul visits the churches. He is called to preach in Macedonia. He is scourged at Philippi.
     verses:
@@ -674,7 +687,7 @@ chapters:
       v:013: 'ACT:16:13 | 13 | 13 | And upon the Sabbath day, we went forth without the gate by a river side, where it seemed that there was prayer: and sitting down, we spoke to the women that were assembled.'
       v:014: 'ACT:16:14 | 14 | 14 | And a certain woman named Lydia, a seller of purple, of the city of Thyatira, one that worshipped God, did hear: whose heart the Lord opened to attend to those things which were said by Paul.'
       v:015: 'ACT:16:15 | 15 | 15 | And when she was baptized, and her household, she besought us, saying: If you have judged me to be faithful to the Lord, come into my house and abide there. And she constrained us.'
-      v:016: 'ACT:16:16 | 16 | 16 | And it came to pass, as we went to prayer, a certain girl having a pythonical spirit met us, who brought to her masters much gain by divining.'
+      v:016: 'ACT:16:16 | 16 | 16 | And it came to pass, as we went to prayer, a certain girl having {NF:BEGIN 0}a pythonical spirit{NF:END} met us, who brought to her masters much gain by divining.'
       v:017: 'ACT:16:17 | 17 | 17 | This same following Paul and us, cried out, saying: These men are the servants of the Most High God, who preach unto you the way of salvation.'
       v:018: 'ACT:16:18 | 18 | 18 | And this she did many days. But Paul being grieved, turned and said to the spirit: I command thee, in the name of Jesus Christ, to go out from her. And he went out the same hour.'
       v:019: 'ACT:16:19 | 19 | 19 | But her masters, seeing that the hope of their gain was gone, apprehending Paul and Silas, brought them into the market place to the rulers.'
@@ -702,13 +715,16 @@ chapters:
   c:017:
     footnotes:
       v:006:
-        - note: 'Urbem. In the Greek, the world.</p>'
+        - match: city
+          note: 'Urbem. In the Greek, the world.</p>'
           quote: City
       v:011:
-        - note: 'The Jews of Berea are justly commended, for their eagerly embracing the truth, and searching the scriptures, to find out the texts alleged by the apostle: which was a far more generous proceeding than that of their countrymen at Thessalonica, who persecuted the preachers of the gospel, without examining the grounds they alleged for what they taught.</p>'
+        - match: more noble
+          note: 'The Jews of Berea are justly commended, for their eagerly embracing the truth, and searching the scriptures, to find out the texts alleged by the apostle: which was a far more generous proceeding than that of their countrymen at Thessalonica, who persecuted the preachers of the gospel, without examining the grounds they alleged for what they taught.</p>'
           quote: More noble
       v:024:
-        - note: 'God is not contained in temples; so as to need them for his dwelling, or any other uses, as the heathens imagined. Yet by his omnipresence, he is both there and everywhere.</p>'
+        - match: dwelleth not in temples
+          note: 'God is not contained in temples; so as to need them for his dwelling, or any other uses, as the heathens imagined. Yet by his omnipresence, he is both there and everywhere.</p>'
           quote: Dwelleth not in temples
     intro: Paul preaches to the Thessalonians and Bereans. His discourse to the Athenians.
     verses:
@@ -717,12 +733,12 @@ chapters:
       v:003: 'ACT:17:3 | 3 | 3 | Declaring and insinuating that the Christ was to suffer and to rise again from the dead; and that this is Jesus Christ, whom I preach to you.'
       v:004: 'ACT:17:4 | 4 | 4 | And some of them believed and were associated to Paul and Silas: and of those that served God and of the Gentiles a great multitude: and of noble women not a few.'
       v:005: "ACT:17:5 | 5 | 5 | But the Jews, moved with envy and taking unto them some wicked men of the vulgar sort and making a tumult, set the city in an uproar: and besetting Jason's house, sought to bring them out unto the people."
-      v:006: 'ACT:17:6 | 6 | 6 | And not finding them, they drew Jason and certain brethren to the rulers of the city, crying: They that set the city in an uproar are come hither also:'
+      v:006: 'ACT:17:6 | 6 | 6 | And not finding them, they drew Jason and certain brethren to the rulers of the {NF:BEGIN 0}city{NF:END}, crying: They that set the city in an uproar are come hither also:'
       v:007: 'ACT:17:7 | 7 | 7 | Whom Jason hath received. And these all do contrary to the decrees of Caesar, saying that there is another king, Jesus.'
       v:008: 'ACT:17:8 | 8 | 8 | And they stirred up the people: and the rulers of the city, hearing these things,'
       v:009: 'ACT:17:9 | 9 | 9 | And having taken satisfaction of Jason and of the rest, they let them go.{VS:P}'
       v:010: 'ACT:17:10 | 10 | 10 | But the brethren immediately sent away Paul and Silas by night unto Berea. Who, when they were come thither, went into the synagogue of the Jews.'
-      v:011: 'ACT:17:11 | 11 | 11 | Now these were more noble than those in Thessalonica, who received the word with all eagerness, daily searching the scriptures, whether these things were so.'
+      v:011: 'ACT:17:11 | 11 | 11 | Now these were {NF:BEGIN 0}more noble{NF:END} than those in Thessalonica, who received the word with all eagerness, daily searching the scriptures, whether these things were so.'
       v:012: 'ACT:17:12 | 12 | 12 | And many indeed of them believed: and of honourable women that were Gentiles and of men, not a few.'
       v:013: 'ACT:17:13 | 13 | 13 | And when the Jews of Thessalonica had knowledge that the word of God was also preached by Paul at Berea, they came thither also, stirring up and troubling the multitude.'
       v:014: 'ACT:17:14 | 14 | 14 | And then immediately the brethren sent away Paul, to go unto the sea: but Silas and Timothy remained there.{VS:P}'
@@ -735,7 +751,7 @@ chapters:
       v:021: 'ACT:17:21 | 21 | 21 | (Now all the Athenians and strangers that were there employed themselves in nothing else, but either in telling or in hearing some new thing.)'
       v:022: 'ACT:17:22 | 22 | 22 | But Paul, standing in the midst of the Areopagus, said: Ye men of Athens, I perceive that in all things you are too superstitious.'
       v:023: 'ACT:17:23 | 23 | 23 | For passing by and seeing your idols, I found an altar also, on which was written: To the Unknown God. What therefore you worship without knowing it, that I preach to you:'
-      v:024: 'ACT:17:24 | 24 | 24 | God, who made the world and all things therein, he being Lord of heaven and earth, dwelleth not in temples made with hands.'
+      v:024: 'ACT:17:24 | 24 | 24 | God, who made the world and all things therein, he being Lord of heaven and earth, {NF:BEGIN 0}dwelleth not in temples{NF:END} made with hands.'
       v:025: "ACT:17:25 | 25 | 25 | Neither is he served with men's hands, as though he needed any thing: seeing it is he who giveth to all life and breath and all things:"
       v:026: 'ACT:17:26 | 26 | 26 | And hath made of one, all mankind, to dwell upon the whole face of the earth, determining appointed times and the limits of their habitation.'
       v:027: 'ACT:17:27 | 27 | 27 | That they should seek God, if haply they may feel after him or find him, although he be not far from every one of us.'
@@ -825,7 +841,8 @@ chapters:
   c:020:
     footnotes:
       v:007:
-        - note: "Here St. Chrysostom and many other interpreters of the scripture explain, that the Christians even at this time, must have changed the sabbath into the first day of the week, (the Lord's day,) as all Christians now keep it. This change was undoubtedly made by the authority of the church; hence the exercise of the power, which Christ had given to her: for he is Lord of the sabbath.</p>"
+        - match: and on the first day of the week
+          note: "Here St. Chrysostom and many other interpreters of the scripture explain, that the Christians even at this time, must have changed the sabbath into the first day of the week, (the Lord's day,) as all Christians now keep it. This change was undoubtedly made by the authority of the church; hence the exercise of the power, which Christ had given to her: for he is Lord of the sabbath.</p>"
           quote: And on the first day of the week
     intro: Paul passes through Macedonia and Greece. He raises a dead man to life at Troas. His discourse to the clergy of Ephesus.
     verses:
@@ -835,7 +852,7 @@ chapters:
       v:004: 'ACT:20:4 | 4 | 4 | And there accompanied him Sopater, the son of Pyrrhus, of Berea: and of the Thessalonians, Aristarchus and Secundus: and Gaius of Derbe and Timothy: and of Asia, Tychicus and Trophimus.{VS:P}'
       v:005: 'ACT:20:5 | 5 | 5 | These, going before, stayed for us at Troas.'
       v:006: 'ACT:20:6 | 6 | 6 | But we sailed from Philippi after the days of the azymes and came to them to Troas in five days, where we abode seven days.'
-      v:007: 'ACT:20:7 | 7 | 7 | And on the first day of the week, when we were assembled to break bread, Paul discoursed with them, being to depart on the morrow. And he continued his speech until midnight.'
+      v:007: 'ACT:20:7 | 7 | 7 | {NF:BEGIN 0}And on the first day of the week{NF:END}, when we were assembled to break bread, Paul discoursed with them, being to depart on the morrow. And he continued his speech until midnight.'
       v:008: ACT:20:8 | 8 | 8 | And there were a great number of lamps in the upper chamber where we were assembled.
       v:009: 'ACT:20:9 | 9 | 9 | And a certain young man named Eutychus, sitting on the window, being oppressed with a deep sleep (as Paul was long preaching), by occasion of his sleep fell from the third loft down and was taken up dead.'
       v:010: 'ACT:20:10 | 10 | 10 | To whom, when Paul had gone down, he laid himself upon him and, embracing him, said: Be not troubled, for his soul is in him.'
@@ -870,10 +887,12 @@ chapters:
   c:021:
     footnotes:
       v:008:
-        - note: 'That is, the preacher of the gospel; the same that before converted the Samaritans, and baptized the eunuch, chap. 8., being one of the first seven deacons.</p>'
+        - match: the evangelist
+          note: 'That is, the preacher of the gospel; the same that before converted the Samaritans, and baptized the eunuch, chap. 8., being one of the first seven deacons.</p>'
           quote: The evangelist
       v:024:
-        - note: 'The law, though now no longer obligatory, was for a time observed by the Christian Jews: to bury, as it were, the synagogue with honour.</p>'
+        - match: keeping the law
+          note: 'The law, though now no longer obligatory, was for a time observed by the Christian Jews: to bury, as it were, the synagogue with honour.</p>'
           quote: Keeping the law
     intro: Paul goes up to Jerusalem. He is apprehended by the Jews in the temple.
     verses:
@@ -884,7 +903,7 @@ chapters:
       v:005: 'ACT:21:5 | 5 | 5 | And the days being expired, departing we went forward, they all bringing us on our way, with their wives and children, till we were out of the city. And we kneeled down on the shore: and we prayed.'
       v:006: 'ACT:21:6 | 6 | 6 | And when we had bid one another farewell, we took ship. And they returned home.'
       v:007: 'ACT:21:7 | 7 | 7 | But we, having finished the voyage by sea, from Tyre came down to Ptolemais: and saluting the brethren, we abode one day with them.'
-      v:008: 'ACT:21:8 | 8 | 8 | And the next day departing, we came to Cæsarea. And entering into the house of Philip the evangelist, who was one of the seven, we abode with him.'
+      v:008: 'ACT:21:8 | 8 | 8 | And the next day departing, we came to Cæsarea. And entering into the house of Philip {NF:BEGIN 0}the evangelist{NF:END}, who was one of the seven, we abode with him.'
       v:009: 'ACT:21:9 | 9 | 9 | And he had four daughters, virgins, who did prophesy.{VS:P}'
       v:010: 'ACT:21:10 | 10 | 10 | And as we tarried there for some days, there came from Judea a certain prophet, named Agabus.'
       v:011: "ACT:21:11 | 11 | 11 | Who, when he was come to us, took Paul's girdle: and binding his own feet and hands, he said: Thus saith the Holy Ghost: The man whose girdle this is, the Jews shall bind in this manner in Jerusalem and shall deliver him into the hands of the Gentiles."
@@ -900,7 +919,7 @@ chapters:
       v:021: 'ACT:21:21 | 21 | 21 | Now they have heard of thee that thou teachest those Jews, who are among the Gentiles to depart from Moses: saying that they ought not to circumcise their children, nor walk according to the custom.'
       v:022: 'ACT:21:22 | 22 | 22 | What is it therefore? The multitude must needs come together: for they will hear that thou art come.'
       v:023: 'ACT:21:23 | 23 | 23 | Do therefore this that we say to thee. We have four men, who have a vow on them.'
-      v:024: 'ACT:21:24 | 24 | 24 | Take these and sanctify thyself with them: and bestow on them, that they may shave their heads. And all will know that the things which they have heard of thee are false: but that thou thyself also walkest keeping the law.'
+      v:024: 'ACT:21:24 | 24 | 24 | Take these and sanctify thyself with them: and bestow on them, that they may shave their heads. And all will know that the things which they have heard of thee are false: but that thou thyself also walkest {NF:BEGIN 0}keeping the law{NF:END}.'
       v:025: 'ACT:21:25 | 25 | 25 | But, as touching the Gentiles that believe, we have written, decreeing that they should only refrain themselves from that which has been offered to idols and from blood and from things strangled and from fornication.'
       v:026: 'ACT:21:26 | 26 | 26 | Then Paul took the men and, the next day being purified with them, entered into the temple, giving notice of the accomplishment of the days of purification, until an oblation should be offered for every one of them.{VS:P}'
       v:027: 'ACT:21:27 | 27 | 27 | But when the seven days were drawing to an end, those Jews that were of Asia, when they saw him in the temple, stirred up all the people and laid hands upon him, crying out:'
@@ -920,10 +939,12 @@ chapters:
   c:022:
     footnotes:
       v:009:
-        - note: 'That is, they distinguished not the words; though they heard the voice. Acts 9. 7.</p>'
+        - match: heard not the voice
+          note: 'That is, they distinguished not the words; though they heard the voice. Acts 9. 7.</p>'
           quote: Heard not the voice
       v:014:
-        - note: 'Our Saviour, who appeared to St. Paul, Acts 9. 17.</p>'
+        - match: just one
+          note: 'Our Saviour, who appeared to St. Paul, Acts 9. 17.</p>'
           quote: Just One
     intro: Paul declares to the people the history of his conversion. He escapes scourging by claiming the privilege of a Roman citizen.
     verses:
@@ -935,12 +956,12 @@ chapters:
       v:006: 'ACT:22:6 | 6 | 6 | And it came to pass, as I was going and drawing nigh to Damascus, at mid-day, that suddenly from heaven there shone round about me a great light:'
       v:007: 'ACT:22:7 | 7 | 7 | And falling on the ground, I heard a voice saying to me: Saul, Saul, why persecutest thou me?'
       v:008: 'ACT:22:8 | 8 | 8 | And I answered: Who art thou, Lord? And he said to me: I am Jesus of Nazareth, whom thou persecutest.'
-      v:009: 'ACT:22:9 | 9 | 9 | And they that were with me saw indeed the light: but they heard not the voice of him that spoke with me.'
+      v:009: 'ACT:22:9 | 9 | 9 | And they that were with me saw indeed the light: but they {NF:BEGIN 0}heard not the voice{NF:END} of him that spoke with me.'
       v:010: 'ACT:22:10 | 10 | 10 | And I said: What shall I do, Lord? And the Lord said to me: Arise and go to Damascus; and there it shall be told thee of all things that thou must do.'
       v:011: 'ACT:22:11 | 11 | 11 | And whereas I did not see for the brightness of that light, being led by the hand by my companions, I came to Damascus,'
       v:012: 'ACT:22:12 | 12 | 12 | And one Ananias, a man according to the law, having testimony of all the Jews who dwelt there,'
       v:013: 'ACT:22:13 | 13 | 13 | Coming to me and standing by me, said to me: Brother Saul, look up. And I, the same hour, looked upon him.'
-      v:014: 'ACT:22:14 | 14 | 14 | But he said: The God of our fathers hath preordained thee that thou shouldst know his will and see the Just One and shouldst hear the voice from his mouth.'
+      v:014: 'ACT:22:14 | 14 | 14 | But he said: The God of our fathers hath preordained thee that thou shouldst know his will and see the {NF:BEGIN 0}Just One{NF:END} and shouldst hear the voice from his mouth.'
       v:015: ACT:22:15 | 15 | 15 | For thou shalt be his witness to all men of those things which thou hast seen and heard.
       v:016: 'ACT:22:16 | 16 | 16 | And now why tarriest thou? Rise up and be baptized and wash away thy sins, invoking his name.'
       v:017: 'ACT:22:17 | 17 | 17 | And it came to pass, when I was come again to Jerusalem and was praying in the temple, that I was in a trance,'

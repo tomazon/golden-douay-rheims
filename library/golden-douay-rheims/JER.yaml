@@ -27,10 +27,12 @@ chapters:
   c:002:
     footnotes:
       v:007:
-        - note: 'That is, a fruitful, plentiful land.</p>'
+        - match: carmel
+          note: 'That is, a fruitful, plentiful land.</p>'
           quote: Carmel
       v:022:
-        - note: 'An herb used to clean clothes, and take out spots and dirt.</p>'
+        - match: borith
+          note: 'An herb used to clean clothes, and take out spots and dirt.</p>'
           quote: Borith
     intro: God expostulates with the Jews for their ingratitude and infidelity.
     verses:
@@ -40,7 +42,7 @@ chapters:
       v:004: 'JER:2:4 | 4 | 4 | Hear ye the word of the Lord, O house of Jacob, and all ye families of the house of Israel:{VS:BR}'
       v:005: 'JER:2:5 | 5 | 5 | Thus saith the Lord: What iniquity have your fathers found in me, that they are gone far from me, and have walked after vanity, and are become vain?{VS:BR}'
       v:006: 'JER:2:6 | 6 | 6 | And they have not said: Where is the Lord, that made us come up out of the land of Egypt? that led us through the desert, through a land uninhabited and unpassable, through a land of drought, and the image of death, through a land wherein no man walked, nor any man dwelt?{VS:BR}'
-      v:007: 'JER:2:7 | 7 | 7 | And I brought you into the land of Carmel, to eat the fruit thereof, and the best things thereof: and when ye entered in, you defiled my land and made my inheritance an abomination.{VS:BR}'
+      v:007: 'JER:2:7 | 7 | 7 | And I brought you into the land of {NF:BEGIN 0}Carmel{NF:END}, to eat the fruit thereof, and the best things thereof: and when ye entered in, you defiled my land and made my inheritance an abomination.{VS:BR}'
       v:008: 'JER:2:8 | 8 | 8 | The priests did not say: Where is the Lord? and they that held the law knew me not, and the pastors transgressed against me: and the prophets prophesied in Baal, and followed idols.{VS:BR}'
       v:009: 'JER:2:9 | 9 | 9 | Therefore will I yet contend in judgment with you, saith the Lord, and I will plead with your children.{VS:BR}'
       v:010: 'JER:2:10 | 10 | 10 | Pass over to the isles of Cethim, and see: and send into Cedar, and consider diligently: and see if there hath been done any thing like this.{VS:BR}'
@@ -55,7 +57,7 @@ chapters:
       v:019: 'JER:2:19 | 19 | 19 | Thy own wickedness shall reprove thee, and thy apostasy shall rebuke thee. Know thou, and see that it is an evil and a bitter thing for thee, to have left the Lord thy God, and that my fear is not with thee, saith the Lord the God of hosts.{VS:BR}'
       v:020: 'JER:2:20 | 20 | 20 | Of old time thou hast broken my yoke, thou hast burst my bands, and thou saidst: I will not serve. for on every high hill, and under every green tree thou didst prostitute thyself.{VS:BR}'
       v:021: 'JER:2:21 | 21 | 21 | Yet, I planted thee a chosen vineyard, all true seed: how then art thou turned unto me into that which is good for nothing, O strange vineyard?{VS:BR}'
-      v:022: 'JER:2:22 | 22 | 22 | Though thou wash thyself with nitre, and multiply to thyself the herb borith, thou art stained in thy iniquity before me, saith the Lord God.{VS:BR}'
+      v:022: 'JER:2:22 | 22 | 22 | Though thou wash thyself with nitre, and multiply to thyself the herb {NF:BEGIN 0}borith{NF:END}, thou art stained in thy iniquity before me, saith the Lord God.{VS:BR}'
       v:023: 'JER:2:23 | 23 | 23 | How canst thou say: I am not polluted, I have not walked after Baalim? see thy ways in the valley, know what thou hast done: as a swift runner pursuing his course.{VS:BR}'
       v:024: 'JER:2:24 | 24 | 24 | A wild ass accustomed to the wilderness in the desire of his heart, snuffed up the wind of his love: none shall turn her away: all that seek her shall not fail: in her monthly filth they shall find her.{VS:BR}'
       v:025: 'JER:2:25 | 25 | 25 | Keep thy foot from being bare, and thy throat from thirst. But thou saidst: I have lost all hope, I will not do it: for I have loved strangers, and I will walk after them.{VS:VERSE:END}{VS:P}'
@@ -207,10 +209,12 @@ chapters:
   c:007:
     footnotes:
       v:018:
-        - note: 'That is, the moon, which they worshipped under that name.</p>'
+        - match: queen of heaven
+          note: 'That is, the moon, which they worshipped under that name.</p>'
           quote: Queen of heaven
       v:022:
-        - note: 'Viz., such sacrifices as the Jews at this time offered, without obedience; which was the thing principally commanded: so that in comparison with it, the offering of the holocausts and sacrifices was of small account.</p>'
+        - match: i commanded them not
+          note: 'Viz., such sacrifices as the Jews at this time offered, without obedience; which was the thing principally commanded: so that in comparison with it, the offering of the holocausts and sacrifices was of small account.</p>'
           quote: I commanded them not
     intro: 'The temple of God shall not protect a sinful people, without a sincere conversion. The Lord will not receive the prayers of the prophet for them: because they are obstinate in their sins.'
     verses:
@@ -231,11 +235,11 @@ chapters:
       v:015: 'JER:7:15 | 15 | 15 | And I will cast you away from before my face, as I have cast away all your brethren, the whole seed of Ephraim.{VS:BR}'
       v:016: 'JER:7:16 | 16 | 16 | Therefore do not thou pray for this people, nor take to thee praise and supplication for them: and do not withstand me: for I will not hear thee.{VS:BR}'
       v:017: 'JER:7:17 | 17 | 17 | Seest thou not what they do in the cities of Juda, and in the streets of Jerusalem?{VS:BR}'
-      v:018: 'JER:7:18 | 18 | 18 | The children gather wood, and the fathers kindle the fire, and the women knead the dough, to make cakes to the queen of heaven, and to offer libations to strange gods, and to provoke me to anger.{VS:BR}'
+      v:018: 'JER:7:18 | 18 | 18 | The children gather wood, and the fathers kindle the fire, and the women knead the dough, to make cakes to the {NF:BEGIN 0}queen of heaven{NF:END}, and to offer libations to strange gods, and to provoke me to anger.{VS:BR}'
       v:019: 'JER:7:19 | 19 | 19 | Do they provoke me to anger, saith the Lord? is it not themselves, to the confusion of their own countenance?{VS:BR}'
       v:020: 'JER:7:20 | 20 | 20 | Therefore thus saith the Lord God: Behold my wrath and my indignation is enkindled against this place, upon men and upon beasts, and upon the trees of the field, and upon the fruits of the land, and it shall burn, and shall not be quenched.{VS:BR}'
       v:021: 'JER:7:21 | 21 | 21 | Thus saith the Lord of hosts the God of Israel: Add your burnt offerings to your sacrifices, and eat ye the flesh.{VS:BR}'
-      v:022: 'JER:7:22 | 22 | 22 | For I spoke not to your fathers, and I commanded them not, in the day that I brought them out of the land of Egypt, concerning the matter of burnt offerings and sacrifices.{VS:BR}'
+      v:022: 'JER:7:22 | 22 | 22 | For I spoke not to your fathers, and {NF:BEGIN 0}I commanded them not{NF:END}, in the day that I brought them out of the land of Egypt, concerning the matter of burnt offerings and sacrifices.{VS:BR}'
       v:023: 'JER:7:23 | 23 | 23 | But this thing I commanded them, saying: Hearken to my voice, and I will be your God, and you shall be my people: and walk ye in all the way that I have commanded you, that it may be well with you.{VS:BR}'
       v:024: 'JER:7:24 | 24 | 24 | But they hearkened not, nor inclined their ear: but walked in their own will, and in the perversity of their wicked heart: and went backward and not forward,{VS:BR}'
       v:025: 'JER:7:25 | 25 | 25 | From the day that their fathers came out of the land of Egypt, even to this day. And I have sent to you all my servants the prophets, from day to day, rising up early and sending.{VS:BR}'
@@ -307,7 +311,8 @@ chapters:
   c:010:
     footnotes:
       v:023:
-        - note: "The meaning is, that notwithstanding man's free will, yet he can do no good without God's help, nor evil without his permission. So that, in the present case, all the evils which Nabuchodonosor was about to bring upon Jerusalem, could not have come but by the will of God.</p>"
+        - match: the way of a man is not his
+          note: "The meaning is, that notwithstanding man's free will, yet he can do no good without God's help, nor evil without his permission. So that, in the present case, all the evils which Nabuchodonosor was about to bring upon Jerusalem, could not have come but by the will of God.</p>"
           quote: The way of a man is not his
     intro: 'Neither stars nor idols are to be feared, but the great Creator of all things. The chastisement of Jerusalem for her sins.'
     verses:
@@ -333,15 +338,17 @@ chapters:
       v:020: 'JER:10:20 | 20 | 20 | My tabernacle is laid waste, all my cords are broken: my children are gone out from me, and they are not: there is none to stretch forth my tent any more, and to set up my curtains.{VS:BR}'
       v:021: 'JER:10:21 | 21 | 21 | Because the pastors have done foolishly, and have not sought the Lord: therefore have they not understood, and all their flock is scattered.{VS:BR}'
       v:022: 'JER:10:22 | 22 | 22 | Behold the sound of a noise cometh, a great commotion out of the land of the north: to make the cities of Juda a desert, and a dwelling for dragons.{VS:BR}'
-      v:023: 'JER:10:23 | 23 | 23 | I know, O Lord, that the way of a man is not his: neither is it in a man to walk, and to direct his steps.{VS:BR}'
+      v:023: 'JER:10:23 | 23 | 23 | I know, O Lord, that {NF:BEGIN 0}the way of a man is not his{NF:END}: neither is it in a man to walk, and to direct his steps.{VS:BR}'
       v:024: 'JER:10:24 | 24 | 24 | Correct me, O Lord, but yet with judgment: and not in thy fury, lest thou bring me to nothing.{VS:BR}'
       v:025: 'JER:10:25 | 25 | 25 | Pour out thy indignation upon the nations that have not known thee, and upon the provinces that have not called upon thy name: because they have eaten up Jacob, and devoured him, and consumed him, and have destroyed his glory.{VS:VERSE:END}'
   c:011:
     footnotes:
       v:020:
-        - note: 'That is, of hosts or armies, a name frequently given to God in the scriptures.-- Ibid.</p>'
+        - match: sabaoth
+          note: 'That is, of hosts or armies, a name frequently given to God in the scriptures.-- Ibid.</p>'
           quote: Sabaoth
-        - note: 'This was rather a prediction of what was to happen, with an approbation of the divine justice, than an imprecation.</p>'
+        - match: thy revenge
+          note: 'This was rather a prediction of what was to happen, with an approbation of the divine justice, than an imprecation.</p>'
           quote: Thy revenge
     intro: 'The prophet proclaims the covenant of God: and denounces evils to the obstinate transgressors of it. The conspiracy of the Jews against him, a figure of their conspiracy against Christ.'
     verses:
@@ -364,7 +371,7 @@ chapters:
       v:017: 'JER:11:17 | 17 | 17 | And the Lord of hosts that planted thee, hath pronounced evil against thee: for the evils of the house of Israel, and of the house of Juda, which they have done to themselves, to provoke me, offering sacrifice to Baalim.{VS:VERSE:END}{VS:P}'
       v:018: 'JER:11:18 | 18 | 18 | {VS:VERSE:BEGIN}But thou, O Lord, hast shewn me, and I have known: then thou shewedst me their doings.{VS:BR}'
       v:019: 'JER:11:19 | 19 | 19 | And I was as a meek lamb, that is carried to be a victim: and I knew not that they had devised counsels against me, saying: Let us put wood on his bread, and cut him off from the land of the living, and let his name be remembered no more.{VS:BR}'
-      v:020: 'JER:11:20 | 20 | 20 | But thou, O Lord of Sabaoth, who judgest justly, and triest the reins and the hearts, let me see thy revenge on them: for to thee have I revealed my cause.{VS:BR}'
+      v:020: 'JER:11:20 | 20 | 20 | But thou, O Lord of {NF:BEGIN 0}Sabaoth{NF:END}, who judgest justly, and triest the reins and the hearts, let me see {NF:BEGIN 1}thy revenge{NF:END} on them: for to thee have I revealed my cause.{VS:BR}'
       v:021: 'JER:11:21 | 21 | 21 | Therefore thus saith the Lord to the men of Anathoth, who seek thy life, and say: Thou shalt not prophesy in the name of the Lord, and thou shalt not die in our hands.{VS:BR}'
       v:022: 'JER:11:22 | 22 | 22 | Therefore thus saith the Lord of hosts: Behold I will visit upon them: their young men shall die by the sword, their sons and their daughters shall die by famine.{VS:BR}'
       v:023: 'JER:11:23 | 23 | 23 | And there shall be no remains of them: for I will bring in evil upon the men of Anathoth, the year of their visitation.{VS:VERSE:END}'
@@ -449,10 +456,12 @@ chapters:
   c:015:
     footnotes:
       v:012:
-        - note: 'Shall the iron, that is, the strength of Juda, stand against the stronger iron of the north, that is, of Babylon: or enter into an alliance upon equal footing with it? No certainly: but it must be broken by it.</p>'
+        - match: shall iron be allied
+          note: 'Shall the iron, that is, the strength of Juda, stand against the stronger iron of the north, that is, of Babylon: or enter into an alliance upon equal footing with it? No certainly: but it must be broken by it.</p>'
           quote: Shall iron be allied
       v:015:
-        - note: 'That is, let not thy patience and longsuffering, which thou usest towards sinners, keep thee from making haste to my assistance.</p>'
+        - match: do not defend me in thy patience
+          note: 'That is, let not thy patience and longsuffering, which thou usest towards sinners, keep thee from making haste to my assistance.</p>'
           quote: Do not defend me in thy patience
     intro: 'God is determined to punish the Jews for their sins. The prophet’s complaint, and God’s promise to him.'
     verses:
@@ -467,10 +476,10 @@ chapters:
       v:009: 'JER:15:9 | 9 | 9 | She that hath borne seven is become weak, her soul hath fainted away: her sun is gone down, while it was yet day: she is confounded, and ashamed: and the residue of them I will give up to the sword in the sight of their enemies, saith the Lord.{VS:VERSE:END}{VS:P}'
       v:010: 'JER:15:10 | 10 | 10 | {VS:VERSE:BEGIN}Woe is me, my mother: why hast thou borne me a man of strife, a man of contention to all the earth? I have not lent on usury, neither hath any man lent to me on usury: yet all curse me.{VS:BR}'
       v:011: 'JER:15:11 | 11 | 11 | The Lord saith to me: Assuredly it shall be well with thy remnant, assuredly I shall help thee in the time of affliction, and in the time of tribulation against the enemy.{VS:BR}'
-      v:012: 'JER:15:12 | 12 | 12 | Shall iron be allied with the iron from the north, and the brass?{VS:BR}'
+      v:012: 'JER:15:12 | 12 | 12 | {NF:BEGIN 0}Shall iron be allied{NF:END} with the iron from the north, and the brass?{VS:BR}'
       v:013: 'JER:15:13 | 13 | 13 | Thy riches and thy treasures I will give unto spoil for nothing, because of all thy sins, even in all thy borders.{VS:BR}'
       v:014: 'JER:15:14 | 14 | 14 | And I will bring thy enemies out of a land, which thou knowest not: for a fire is kindled in my rage, it shall burn upon you.{VS:BR}'
-      v:015: 'JER:15:15 | 15 | 15 | O Lord, thou knowest, remember me, and visit me, and defend me from them that persecute me, do not defend me in thy patience: know that for thy sake I have suffered reproach.{VS:BR}'
+      v:015: 'JER:15:15 | 15 | 15 | O Lord, thou knowest, remember me, and visit me, and defend me from them that persecute me, {NF:BEGIN 0}do not defend me in thy patience{NF:END}: know that for thy sake I have suffered reproach.{VS:BR}'
       v:016: 'JER:15:16 | 16 | 16 | Thy words were found, and I did eat them, and thy word was to me a joy and gladness of my heart: for thy name is called upon me, O Lord God of hosts.{VS:BR}'
       v:017: 'JER:15:17 | 17 | 17 | I sat not in the assembly of jesters, nor did I make a boast of the presence of thy hand: I sat alone, because thou hast filled me with threats.{VS:BR}'
       v:018: 'JER:15:18 | 18 | 18 | Why is my sorrow become perpetual, and my wound desperate so as to refuse to be healed? it is become to me as the falsehood of deceitful waters that cannot be trusted.{VS:BR}'
@@ -505,10 +514,12 @@ chapters:
   c:017:
     footnotes:
       v:006:
-        - note: 'A barren shrub that grows in the driest parts of the wilderness.</p>'
+        - match: tamaric
+          note: 'A barren shrub that grows in the driest parts of the wilderness.</p>'
           quote: Tamaric
       v:018:
-        - note: 'Such expressions as these in the writings of the prophets, are not to be understood as imprecations proceeding from malice or desire of revenge: but as prophetic predictions of evils that were about to fall upon impenitent sinners, and approbations of the ways of divine justice.</p>'
+        - match: let them be confounded
+          note: 'Such expressions as these in the writings of the prophets, are not to be understood as imprecations proceeding from malice or desire of revenge: but as prophetic predictions of evils that were about to fall upon impenitent sinners, and approbations of the ways of divine justice.</p>'
           quote: Let them be confounded
     intro: 'For their obstinacy in sin the Jews shall be led captive. He is cursed that trusteth in flesh. God alone searcheth the heart, giving to every one as he deserves. The prophet prayeth to be delivered from his enemies, and preacheth up the observance of the sabbath.'
     verses:
@@ -517,7 +528,7 @@ chapters:
       v:003: 'JER:17:3 | 3 | 3 | Sacrificing in the field: I will give thy strength, and all thy treasures to the spoil, and thy high places for sin in all thy borders.{VS:BR}'
       v:004: 'JER:17:4 | 4 | 4 | And thou shalt be left stripped of thy inheritance, which I gave thee: and I will make thee serve thy enemies in a land which thou knowest not: because thou hast kindled a fire in my wrath, it shall burn for ever.{VS:VERSE:END}{VS:P}'
       v:005: 'JER:17:5 | 5 | 5 | {VS:VERSE:BEGIN}Thus saith the Lord: Cursed be the man that trusteth in man, and maketh flesh his arm, and whose heart departeth from the Lord.{VS:BR}'
-      v:006: 'JER:17:6 | 6 | 6 | For he shall be like tamaric in the desert, and he shall not see when good shall come: but he shall dwell in dryness in the desert in a salt land, and not inhabited.{VS:BR}'
+      v:006: 'JER:17:6 | 6 | 6 | For he shall be like {NF:BEGIN 0}tamaric{NF:END} in the desert, and he shall not see when good shall come: but he shall dwell in dryness in the desert in a salt land, and not inhabited.{VS:BR}'
       v:007: 'JER:17:7 | 7 | 7 | Blessed be the man that trusteth in the Lord, and the Lord shall be his confidence.{VS:BR}'
       v:008: 'JER:17:8 | 8 | 8 | And he shall be as a tree that is planted by the waters, that spreadeth out its roots towards moisture: and it shall not fear when the heat cometh. And the leaf thereof shall be green, and in the time of drought it shall not be solicitous, neither shall it cease at any time to bring forth fruit.{VS:BR}'
       v:009: 'JER:17:9 | 9 | 9 | The heart is perverse above all things, and unsearchable, who can know it?{VS:BR}'
@@ -529,7 +540,7 @@ chapters:
       v:015: 'JER:17:15 | 15 | 15 | Behold they say to me: Where is the word of the Lord? let it come.{VS:BR}'
       v:016: 'JER:17:16 | 16 | 16 | And I am not troubled, following thee for my pastor, and I have not desired the day of man, thou knowest. That which went out of my lips, hath been right in thy sight.{VS:BR}'
       v:017: 'JER:17:17 | 17 | 17 | Be not thou a terror unto me, thou art my hope in the day of affliction.{VS:BR}'
-      v:018: 'JER:17:18 | 18 | 18 | Let them be confounded that persecute me, and let not me be confounded: let them be afraid, and let not me be afraid: bring upon them the day of affliction, and with a double destruction, destroy them.{VS:VERSE:END}{VS:P}'
+      v:018: 'JER:17:18 | 18 | 18 | {NF:BEGIN 0}Let them be confounded{NF:END} that persecute me, and let not me be confounded: let them be afraid, and let not me be afraid: bring upon them the day of affliction, and with a double destruction, destroy them.{VS:VERSE:END}{VS:P}'
       v:019: 'JER:17:19 | 19 | 19 | Thus saith the Lord to me: Go, and stand in the gate of the children of the people, by which the kings of Juda come in, and go out, and in all the gates of Jerusalem:'
       v:020: 'JER:17:20 | 20 | 20 | And thou shalt say to them: Hear the word of the Lord, ye kings of Juda, and all Juda, and all the inhabitants of Jerusalem, that enter in by these gates.{VS:BR}'
       v:021: 'JER:17:21 | 21 | 21 | Thus saith the Lord: Take heed to your souls, and carry no burdens on the sabbath day: and bring them not in by the gates of Jerusalem.{VS:BR}'
@@ -542,7 +553,8 @@ chapters:
   c:018:
     footnotes:
       v:020:
-        - note: 'This is spoken in the person of Christ, persecuted by the Jews, and prophetically denouncing the evils that should fall upon them in punishment of their crimes.</p>'
+        - match: remember
+          note: 'This is spoken in the person of Christ, persecuted by the Jews, and prophetically denouncing the evils that should fall upon them in punishment of their crimes.</p>'
           quote: Remember
     intro: 'As the clay in the hand of the potter, so is Israel in God’s hand. He pardoneth penitents, and punisheth the obstinate. They conspire against Jeremias, for which he denounceth to them the miseries that hang over them.'
     verses:
@@ -565,7 +577,7 @@ chapters:
       v:017: 'JER:18:17 | 17 | 17 | As a burning wind will I scatter them before the enemy: I will shew them the back, and not the face, in the day of their destruction.{VS:VERSE:END}{VS:P}'
       v:018: 'JER:18:18 | 18 | 18 | And they said: Come, and let us invent devices against Jeremias: for the law shall not perish from the priest, nor counsel from the wise, nor the word from the prophet: come, and let us strike him with the tongue, and let us give no heed to all his words.{VS:VERSE:END}'
       v:019: 'JER:18:19 | 19 | 19 | {VS:VERSE:BEGIN}Give heed to me, O Lord, and hear the voice of my adversaries.{VS:BR}'
-      v:020: 'JER:18:20 | 20 | 20 | Shall evil be rendered for good, because they have digged a pit for my soul? Remember that I have stood in thy sight, to speak good for them, and to turn away thy indignation from them.{VS:BR}'
+      v:020: 'JER:18:20 | 20 | 20 | Shall evil be rendered for good, because they have digged a pit for my soul? {NF:BEGIN 0}Remember{NF:END} that I have stood in thy sight, to speak good for them, and to turn away thy indignation from them.{VS:BR}'
       v:021: 'JER:18:21 | 21 | 21 | Therefore deliver up their children to famine, and bring them into the hands of the sword: let their wives be bereaved of children and widows: and let their husbands be slain by death: let their young men be stabbed with the sword in battle.{VS:BR}'
       v:022: 'JER:18:22 | 22 | 22 | Let a cry be heard out of their houses: for thou shalt bring the robber upon them suddenly: because they have digged a pit to take me, and have hid snares for my feet.{VS:BR}'
       v:023: 'JER:18:23 | 23 | 23 | But thou, O Lord, knowest all their counsel against me unto death: forgive not their iniquity, and let not their sin be blotted out from thy sight: let them be overthrown before thy eyes, in the time of thy wrath do thou destroy them.{VS:VERSE:END}'
@@ -591,33 +603,37 @@ chapters:
   c:020:
     footnotes:
       v:003:
-        - note: 'This name signifies increase and principality: and therefore is here changed to Magor-Missabib, or fear on every side: to denote the evils that should come upon him in punishment of his opposing the word of God.</p>'
+        - match: phassur
+          note: 'This name signifies increase and principality: and therefore is here changed to Magor-Missabib, or fear on every side: to denote the evils that should come upon him in punishment of his opposing the word of God.</p>'
           quote: Phassur
       v:007:
-        - note: 'The meaning of the prophet, is not to charge God with any untruth; but what he calls deceiving, was only the concealing from him, when he accepted of the prophetical commission, the greatness of the evils which the execution of that commission was to bring upon him.</p>'
+        - match: thou hast deceived
+          note: 'The meaning of the prophet, is not to charge God with any untruth; but what he calls deceiving, was only the concealing from him, when he accepted of the prophetical commission, the greatness of the evils which the execution of that commission was to bring upon him.</p>'
           quote: Thou hast deceived
       v:012:
-        - note: 'This prayer proceeded not from hatred or ill will, but zeal of justice.</p>'
+        - match: let me see
+          note: 'This prayer proceeded not from hatred or ill will, but zeal of justice.</p>'
           quote: Let me see
       v:014:
-        - note: 'In these, and the following words of the prophet, there is a certain figure of speech to express with more energy the greatness of the evils to which his birth had exposed him.</p>'
+        - match: cursed be the day
+          note: 'In these, and the following words of the prophet, there is a certain figure of speech to express with more energy the greatness of the evils to which his birth had exposed him.</p>'
           quote: Cursed be the day
     intro: 'The prophet is persecuted: he denounces captivity to his persecutors, and bemoans himself.'
     verses:
       v:001: 'JER:20:1 | 1 | 1 | Now Phassur the son of Emmer, the priest, who was appointed chief in the house of the Lord, heard Jeremias prophesying these words.'
       v:002: 'JER:20:2 | 2 | 2 | And Phassur struck Jeremias the prophet, and put him in the stocks, that were in the upper gate of Benjamin, in the house of the Lord.'
-      v:003: 'JER:20:3 | 3 | 3 | And when it was light the next day, Phassur brought Jeremias out of the stocks. And Jeremias said to him: The Lord hath not called thy name Phassur, but fear on every side.'
+      v:003: 'JER:20:3 | 3 | 3 | And when it was light the next day, {NF:BEGIN 0}Phassur{NF:END} brought Jeremias out of the stocks. And Jeremias said to him: The Lord hath not called thy name Phassur, but fear on every side.'
       v:004: 'JER:20:4 | 4 | 4 | For thus saith the Lord: Behold I will deliver thee up to fear, thee and all thy friends: and they shall fall by the sword of their enemies, and thy eyes shall see it, and I will give all Juda into the hand of the king of Babylon: and he shall carry them away to Babylon, and shall strike them with the sword.{VS:BR}'
       v:005: 'JER:20:5 | 5 | 5 | And I will give all the substance of this city, and all its labour, and every precious thing thereof, and all the treasures of the kings of Juda will I give into the hands of their enemies: and they shall pillage them, and take them away, and carry them to Babylon.{VS:BR}'
       v:006: 'JER:20:6 | 6 | 6 | But thou Phassur, and all that dwell in thy house, shall go into captivity, and thou shalt go to Babylon, and there thou shalt die, and there thou shalt be buried, thou and all thy friends, to whom thou hast prophesied a lie.{VS:VERSE:END}{VS:P}'
-      v:007: 'JER:20:7 | 7 | 7 | {VS:VERSE:BEGIN}Thou hast deceived me, O Lord, and I am deceived: thou hast been stronger than I, and thou hast prevailed. I am become a laughingstock all the day, all scoff at me.{VS:BR}'
+      v:007: 'JER:20:7 | 7 | 7 | {VS:VERSE:BEGIN}{NF:BEGIN 0}Thou hast deceived{NF:END} me, O Lord, and I am deceived: thou hast been stronger than I, and thou hast prevailed. I am become a laughingstock all the day, all scoff at me.{VS:BR}'
       v:008: 'JER:20:8 | 8 | 8 | For I am speaking now this long time, crying out against iniquity, and I often proclaim devastation: and the word of the Lord is made a reproach to me, and a derision all the day.{VS:BR}'
       v:009: 'JER:20:9 | 9 | 9 | Then I said: I will not make mention of him, nor speak any more in his name: and there came in my heart as a burning fire, shut up in my bones, and I was wearied, not being able to bear it.{VS:BR}'
       v:010: 'JER:20:10 | 10 | 10 | For I heard the reproaches of many, and terror on every side: Persecute him, and let us persecute him: from all the men that were my familiars, and continued at my side: if by any means he may be deceived, and we may prevail against him, and be revenged on him.{VS:BR}'
       v:011: 'JER:20:11 | 11 | 11 | But the Lord is with me as a strong warrior: therefore they that persecute me shall fall, and shall be weak: they shall be greatly confounded, because they have not understood the everlasting reproach, which never shall be effaced.{VS:BR}'
-      v:012: 'JER:20:12 | 12 | 12 | And thou, O Lord of hosts, prover of the just, who seest the reins and the heart: let me see, I beseech thee, thy vengeance on them: for to thee I have laid open my cause.{VS:BR}'
+      v:012: 'JER:20:12 | 12 | 12 | And thou, O Lord of hosts, prover of the just, who seest the reins and the heart: {NF:BEGIN 0}let me see{NF:END}, I beseech thee, thy vengeance on them: for to thee I have laid open my cause.{VS:BR}'
       v:013: 'JER:20:13 | 13 | 13 | Sing ye to the Lord, praise the Lord: because he hath delivered the soul of the poor out of the hand of the wicked.{VS:BR}'
-      v:014: 'JER:20:14 | 14 | 14 | Cursed be the day wherein I was born: let not the day in which my mother bore me, be blessed.{VS:BR}'
+      v:014: 'JER:20:14 | 14 | 14 | {NF:BEGIN 0}Cursed be the day{NF:END} wherein I was born: let not the day in which my mother bore me, be blessed.{VS:BR}'
       v:015: 'JER:20:15 | 15 | 15 | Cursed be the man that brought the tidings to my father, saying: A man child is born to thee: and made him greatly rejoice.{VS:BR}'
       v:016: 'JER:20:16 | 16 | 16 | Let that man be as the cities which the Lord hath overthrown, and hath not repented: let him hear a cry in the morning, and howling at noontide:{VS:BR}'
       v:017: 'JER:20:17 | 17 | 17 | Who slew me not from the womb, that my mother might have been my grave, and her womb an everlasting conception.{VS:BR}'
@@ -625,7 +641,8 @@ chapters:
   c:021:
     footnotes:
       v:013:
-        - note: 'He speaks to Jerusalem, confiding in the strength of her situation upon rocks, surrounded with a deep valley.</p>'
+        - match: to thee that dwellest
+          note: 'He speaks to Jerusalem, confiding in the strength of her situation upon rocks, surrounded with a deep valley.</p>'
           quote: To thee that dwellest
     intro: 'The prophet’s answer to the messengers of Sedecias, when Jerusalem was besieged.'
     verses:
@@ -641,39 +658,45 @@ chapters:
       v:010: 'JER:21:10 | 10 | 10 | For I have set my face against this city for evil, and not for good, saith the Lord: it shall be given into the hand of the king of Babylon, and he shall burn it with fire.'
       v:011: 'JER:21:11 | 11 | 11 | And to the house of the king of Juda: Hear ye the word of the Lord,{VS:BR}'
       v:012: 'JER:21:12 | 12 | 12 | O house of David, thus saith the Lord: Judge ye judgment in the morning, and deliver him that is oppressed by violence out of the hand of the oppressor: lest my indignation go forth like a fire, and be kindled, and there be none to quench it, because of the evil of your ways.{VS:BR}'
-      v:013: 'JER:21:13 | 13 | 13 | Behold I come to thee that dwellest in a valley upon a rock above a plain, saith the Lord: and you say: Who shall strike us and who shall enter into our houses?{VS:BR}'
+      v:013: 'JER:21:13 | 13 | 13 | Behold I come {NF:BEGIN 0}to thee that dwellest{NF:END} in a valley upon a rock above a plain, saith the Lord: and you say: Who shall strike us and who shall enter into our houses?{VS:BR}'
       v:014: 'JER:21:14 | 14 | 14 | But I will visit upon you according to the fruit of your doings, saith the Lord: and I will kindle a fire in the forest thereof: and it shall devour all things round about it.{VS:VERSE:END}'
   c:022:
     footnotes:
       v:001:
-        - note: 'The contents of this chapter are of a more ancient date than those of the foregoing chapter: for the order of time is not always observed in the writings of the prophets.</p>'
+        - match: go down
+          note: 'The contents of this chapter are of a more ancient date than those of the foregoing chapter: for the order of time is not always observed in the writings of the prophets.</p>'
           quote: Go down
       v:006:
-        - note: 'By Galaad, a rich and fruitful country, is here signified the royal palace of the kings of the house of David: by Libanus, a high mountain abounding in cedar trees, the populous city of Jerusalem.</p>'
+        - match: galaad the head of libanus
+          note: 'By Galaad, a rich and fruitful country, is here signified the royal palace of the kings of the house of David: by Libanus, a high mountain abounding in cedar trees, the populous city of Jerusalem.</p>'
           quote: Galaad the head of Libanus
       v:007:
-        - note: 'Literally, sanctify.</p>'
+        - match: prepare
+          note: 'Literally, sanctify.</p>'
           quote: Prepare
       v:010:
-        - note: 'He means the good king Josias, who by death was taken away, so as not to see the miseries of his country.-- Ibid.</p>'
+        - match: weep not for him that is dead
+          note: 'He means the good king Josias, who by death was taken away, so as not to see the miseries of his country.-- Ibid.</p>'
           quote: Weep not for him that is dead
-        - note: 'Viz., sellum, alias Joachaz, who was carried captive into Egypt.</p>'
+        - match: him that goeth away
+          note: 'Viz., sellum, alias Joachaz, who was carried captive into Egypt.</p>'
           quote: Him that goeth away
       v:030:
-        - note: 'That is, childless: not that he had no children, but that his children should never sit on the throne of Juda.</p>'
+        - match: write this man barren
+          note: 'That is, childless: not that he had no children, but that his children should never sit on the throne of Juda.</p>'
           quote: Write this man barren
     intro: 'An exhortation both to king and people to return of God. The sentence of God upon Joachaz, Joakim, and Jechonias.'
     verses:
-      v:001: 'JER:22:1 | 1 | 1 | Thus saith the Lord: Go down to the house of the king of Juda, and there thou shalt speak this word,'
+      v:001: 'JER:22:1 | 1 | 1 | Thus saith the Lord: {NF:BEGIN 0}Go down{NF:END} to the house of the king of Juda, and there thou shalt speak this word,'
       v:002: 'JER:22:2 | 2 | 2 | And thou shalt say: Hear the word of the Lord, king of Juda, that sittest upon the throne of David: thou and thy servants, and thy people, who enter in by these gates.{VS:BR}'
       v:003: 'JER:22:3 | 3 | 3 | Thus saith the Lord: Execute judgment and justice, and deliver him that is oppressed out of the hand of the oppressor: and afflict not the stranger, the fatherless, and the widow, nor oppress them unjustly: and shed not innocent blood in this place.{VS:BR}'
       v:004: 'JER:22:4 | 4 | 4 | For if you will do this thing indeed, then shall there enter in by the gates of this house, kings of the race of David sitting upon his throne, and riding in chariots and on horses, they and their servants, and their people.{VS:BR}'
       v:005: 'JER:22:5 | 5 | 5 | But if you will not hearken to these words: I swear by myself, saith the Lord, that this house shall become a desolation.{VS:BR}'
-      v:006: 'JER:22:6 | 6 | 6 | For thus saith the Lord to the house of the king of Juda: Thou art to me Galaad the head of Libanus: yet surely I will make thee a wilderness, and cities not habitable.{VS:BR}'
-      v:007: 'JER:22:7 | 7 | 7 | And I will prepare against thee the destroyer and his weapons: and they shall cut down thy chosen cedars, and shall cast them headlong into the fire.{VS:BR}'
+      v:006: 'JER:22:6 | 6 | 6 | For thus saith the Lord to the house of the king of Juda: Thou art to me {NF:BEGIN 0}Galaad the head of Libanus{NF:END}: yet surely I will make thee a wilderness, and cities not habitable.{VS:BR}'
+      v:007: 'JER:22:7 | 7 | 7 | And I will {NF:BEGIN 0}prepare{NF:END} against thee the destroyer and his weapons: and they shall cut down thy chosen cedars, and shall cast them headlong into the fire.{VS:BR}'
       v:008: 'JER:22:8 | 8 | 8 | And many nations shall pass by this city: and they shall say every man to his neighbour: Why hath the Lord done so to this great city?{VS:BR}'
       v:009: 'JER:22:9 | 9 | 9 | And they shall answer: Because they have forsaken the covenant of the Lord their God, and have adored strange gods, and served them.{VS:BR}'
-      v:010: 'JER:22:10 | 10 | 10 | Weep not for him that is dead, nor bemoan him with your tears: lament him that goeth away, for he shall return no more, nor see his native country.{VS:BR}'
+      v:010: 'JER:22:10 | 10 | 10 | {NF:BEGIN 0}Weep not for him that is dead{NF:END}, nor bemoan him with your tears: lament {NF:BEGIN 1}him that goeth away{NF:END}, for he shall return no more, nor see his native country.{VS:BR}'
       v:011: 'JER:22:11 | 11 | 11 | For thus saith the Lord to Sellum the son of Josias the king of Juda, who reigned instead of his father, who went forth out of this place: He shall return hither no more:{VS:BR}'
       v:012: 'JER:22:12 | 12 | 12 | But in the place, to which I have removed him, there shall he die, and he shall not see this land any more.{VS:BR}'
       v:013: 'JER:22:13 | 13 | 13 | Woe to him that buildeth up his house by injustice, and his chambers not in judgment: that will oppress his friend without cause, and will not pay him his wages.{VS:BR}'
@@ -693,14 +716,16 @@ chapters:
       v:027: 'JER:22:27 | 27 | 27 | And they shall not return into the land, whereunto they lift up their mind to return thither.{VS:BR}'
       v:028: 'JER:22:28 | 28 | 28 | Is this man Jechonias an earthen and a broken vessel? is he a vessel wherein is no pleasure? why are they cast out, he and his seed, and are cast into a land which they know not?{VS:BR}'
       v:029: 'JER:22:29 | 29 | 29 | O earth, earth, earth, hear the word of the Lord.{VS:BR}'
-      v:030: 'JER:22:30 | 30 | 30 | Thus saith the Lord: Write this man barren, a man that shall not prosper in his days: for there shall not be a man of his seed that shall sit upon the throne of David, and have power any more in Juda.{VS:VERSE:END}'
+      v:030: 'JER:22:30 | 30 | 30 | Thus saith the Lord: {NF:BEGIN 0}Write this man barren{NF:END}, a man that shall not prosper in his days: for there shall not be a man of his seed that shall sit upon the throne of David, and have power any more in Juda.{VS:VERSE:END}'
   c:023:
     footnotes:
       v:034:
-        - note: 'This expression is here rejected and disallowed, at least for those times: because it was then used in mockery and contempt by the false prophets, and unbelieving people, who ridiculed the repeated threats of Jeremias under the name of his burdens.</p>'
+        - match: burden of the lord
+          note: 'This expression is here rejected and disallowed, at least for those times: because it was then used in mockery and contempt by the false prophets, and unbelieving people, who ridiculed the repeated threats of Jeremias under the name of his burdens.</p>'
           quote: Burden of the Lord
       v:039:
-        - note: 'That is, the Lord declares that out of his presence he will cast them, and bring them to captivity for their transgressions.</p>'
+        - match: out of my presence
+          note: 'That is, the Lord declares that out of his presence he will cast them, and bring them to captivity for their transgressions.</p>'
           quote: Out of my presence
     intro: God reproves evil governors; and promises to send good pastors; and Christ himself the prince of the pastors. He inveighs against false prophets preaching without being sent.
     verses:
@@ -737,12 +762,12 @@ chapters:
       v:031: 'JER:23:31 | 31 | 31 | Behold I am against the prophets, saith the Lord: who use their tongues, and say: The Lord saith it.{VS:BR}'
       v:032: 'JER:23:32 | 32 | 32 | Behold I am against the prophets that have lying dreams, saith the Lord: and tell them, and cause my people to err by their lying, and by their wonders: when I sent them not, nor commanded them, who have not profited this people at all, saith the Lord.{VS:BR}'
       v:033: 'JER:23:33 | 33 | 33 | If therefore this people, or the prophet, or the priest shall ask thee, saying: What is the burden of the Lord? thou shalt say to them: You are the burden: for I will cast you away, saith the Lord.{VS:BR}'
-      v:034: 'JER:23:34 | 34 | 34 | And as for the prophet, and the priest, and the people that shall say: The burden of the Lord: I will visit upon that man, and upon his house.{VS:BR}'
+      v:034: 'JER:23:34 | 34 | 34 | And as for the prophet, and the priest, and the people that shall say: The {NF:BEGIN 0}burden of the Lord{NF:END}: I will visit upon that man, and upon his house.{VS:BR}'
       v:035: 'JER:23:35 | 35 | 35 | Thus shall you say every one to his neighbour, and to his brother, What hath the Lord answered? and what hath the Lord spoken?{VS:BR}'
       v:036: "JER:23:36 | 36 | 36 | And the burden of the Lord shall be mentioned no more, for every man's word shall be his burden: for you have perverted the words of the living God, of the Lord of hosts our God.{VS:BR}"
       v:037: 'JER:23:37 | 37 | 37 | Thus shalt thou say to the prophet: What hath the Lord answered thee? and what hath the Lord spoken?{VS:BR}'
       v:038: 'JER:23:38 | 38 | 38 | But if you shall say: The burden of the Lord: therefore thus saith the Lord: Because you have said this word: The burden of the Lord: and I have sent to you, saying: Say not, The burden of the Lord:{VS:BR}'
-      v:039: 'JER:23:39 | 39 | 39 | Therefore behold I will take you away carrying you, and will forsake you, and the city which I gave to you, and to your fathers, out of my presence.{VS:BR}'
+      v:039: 'JER:23:39 | 39 | 39 | Therefore behold I will take you away carrying you, and will forsake you, and the city which I gave to you, and to your fathers, {NF:BEGIN 0}out of my presence{NF:END}.{VS:BR}'
       v:040: 'JER:23:40 | 40 | 40 | And I will bring an everlasting reproach upon you, and a perpetual shame which shall never be forgotten.{VS:VERSE:END}'
   c:024:
     footnotes: {}
@@ -761,16 +786,20 @@ chapters:
   c:025:
     footnotes:
       v:009:
-        - note: 'So this wicked king is here called; because God made him his instrument in punishing the sins of his people.</p>'
+        - match: my servant
+          note: 'So this wicked king is here called; because God made him his instrument in punishing the sins of his people.</p>'
           quote: My servant
       v:012:
-        - note: 'Literally, visit upon.</p>'
+        - match: punish
+          note: 'Literally, visit upon.</p>'
           quote: Punish
       v:026:
-        - note: 'That is, Babel, or Babylon; which after bringing all these people under her yoke, should quickly fall and be destroyed herself.</p>'
+        - match: sesac
+          note: 'That is, Babel, or Babylon; which after bringing all these people under her yoke, should quickly fall and be destroyed herself.</p>'
           quote: Sesac
       v:038:
-        - note: "This is commonly understood of Nabuchodonosor, whose military standard, it is said, was a dove. But the Hebrew word Jonah, which is here rendered a dove, may also signify a waster or oppressor, which name better agrees to that unmerciful prince; or by comparison, as a dove's flight is the swiftest, so would their destruction come upon them.</p>"
+        - match: the dove
+          note: "This is commonly understood of Nabuchodonosor, whose military standard, it is said, was a dove. But the Hebrew word Jonah, which is here rendered a dove, may also signify a waster or oppressor, which name better agrees to that unmerciful prince; or by comparison, as a dove's flight is the swiftest, so would their destruction come upon them.</p>"
           quote: The dove
     intro: 'The prophet foretells the seventy years captivity; after that the destruction of Babylon, and other nations.'
     verses:
@@ -782,10 +811,10 @@ chapters:
       v:006: 'JER:25:6 | 6 | 6 | And go not after strange gods to serve them, and adore them: nor provoke me to wrath by the works of your hands, and I will not afflict you.'
       v:007: 'JER:25:7 | 7 | 7 | And you have not heard me, saith the Lord, that you might provoke me to anger with the works of your hands, to your own hurt.'
       v:008: 'JER:25:8 | 8 | 8 | Therefore thus saith the Lord of hosts: Because you have not heard my words:'
-      v:009: 'JER:25:9 | 9 | 9 | Behold I will send, and take all the kindreds of the north, saith the Lord, and Nabuchodonosor the king of Babylon my servant: and I will bring them against this land, and against the inhabitants thereof, and against all the nations that are round about it: and I will destroy them, and make them an astonishment and a hissing, and perpetual desolations.'
+      v:009: 'JER:25:9 | 9 | 9 | Behold I will send, and take all the kindreds of the north, saith the Lord, and Nabuchodonosor the king of Babylon {NF:BEGIN 0}my servant{NF:END}: and I will bring them against this land, and against the inhabitants thereof, and against all the nations that are round about it: and I will destroy them, and make them an astonishment and a hissing, and perpetual desolations.'
       v:010: 'JER:25:10 | 10 | 10 | And I will take away from them the voice of mirth, and the voice of gladness, the voice of the bridegroom, and the voice of the bride, the sound of the mill and the light of the lamp.'
       v:011: 'JER:25:11 | 11 | 11 | And all this land shall be a desolation, and an astonishment: and all these nations shall serve the king of Babylon seventy years.'
-      v:012: 'JER:25:12 | 12 | 12 | And when the seventy years shall be expired, I will punish the king of Babylon, and that nation, saith the Lord, for their iniquity, and the land of the Chaldeans: and I will make it perpetual desolations.'
+      v:012: 'JER:25:12 | 12 | 12 | And when the seventy years shall be expired, I will {NF:BEGIN 0}punish{NF:END} the king of Babylon, and that nation, saith the Lord, for their iniquity, and the land of the Chaldeans: and I will make it perpetual desolations.'
       v:013: 'JER:25:13 | 13 | 13 | And I will bring upon that land all my words, that I have spoken against it, all that is written in this book, all that Jeremias hath prophesied against all nations:'
       v:014: 'JER:25:14 | 14 | 14 | For they have served them, whereas they were many nations, and great kings: and I will repay them according to their deeds, and according to the works of their hands.{VS:P}'
       v:015: 'JER:25:15 | 15 | 15 | For thus saith the Lord of hosts the God of Israel: Take the cup of wine of this fury at my hand: and thou shalt make all the nations to drink thereof, into which I shall send thee.'
@@ -799,7 +828,7 @@ chapters:
       v:023: 'JER:25:23 | 23 | 23 | And Dedan, and Thema, and Buz, and all that have their hair cut round.'
       v:024: 'JER:25:24 | 24 | 24 | And all the kings of Arabia, and all the kings of the west, that dwell in the desert.'
       v:025: 'JER:25:25 | 25 | 25 | And all the kings of Zambri, and all the kings of Elam, and all the kings of the Medes:'
-      v:026: 'JER:25:26 | 26 | 26 | And all the kings of the north far and near, every one against his brother: and all the kingdoms of the earth, which are upon the face thereof: and the king of Sesac shall drink after them.'
+      v:026: 'JER:25:26 | 26 | 26 | And all the kings of the north far and near, every one against his brother: and all the kingdoms of the earth, which are upon the face thereof: and the king of {NF:BEGIN 0}Sesac{NF:END} shall drink after them.'
       v:027: 'JER:25:27 | 27 | 27 | And thou shalt say to them: Thus saith the Lord of hosts the God of Israel: Drink ye, and be drunken, and vomit: and fall, and rise no more, because of the sword, which I shall send among you.'
       v:028: 'JER:25:28 | 28 | 28 | And if they refuse to take the cup at thy hand to drink, thou shalt say to them: Thus saith the Lord of hosts: Drinking you shall drink:'
       v:029: 'JER:25:29 | 29 | 29 | For behold I begin to bring evil on the city wherein my name is called upon: and shall you be as innocent and escape free? you shall not escape free: for I will call for the sword upon all the inhabitants of the earth, saith the Lord of hosts.'
@@ -811,7 +840,7 @@ chapters:
       v:035: 'JER:25:35 | 35 | 35 | And the shepherds shall have no way to flee, nor the leaders of the flock to save themselves.{VS:BR}'
       v:036: 'JER:25:36 | 36 | 36 | A voice of the cry of the shepherds, and a howling of the principal of the flock: because the Lord hath wasted their pastures.{VS:BR}'
       v:037: 'JER:25:37 | 37 | 37 | And the fields of peace have been silent because of the fierce anger of the Lord.{VS:BR}'
-      v:038: 'JER:25:38 | 38 | 38 | He hath forsaken his covert as the lion, for the land is laid waste because of the wrath of the dove, and because of the fierce anger of the Lord.{VS:VERSE:END}'
+      v:038: 'JER:25:38 | 38 | 38 | He hath forsaken his covert as the lion, for the land is laid waste because of the wrath of {NF:BEGIN 0}the dove{NF:END}, and because of the fierce anger of the Lord.{VS:VERSE:END}'
   c:026:
     footnotes: {}
     intro: 'The prophet is apprehended and accused by the priests: but discharged by the princes.'
@@ -843,20 +872,22 @@ chapters:
   c:027:
     footnotes:
       v:001:
-        - note: 'This revelation was made to the prophet in the beginning of the reign of Joakim: but the bands were not sent to the princes here named before the reign of Sedecias, ver. 3.</p>'
+        - match: joakim
+          note: 'This revelation was made to the prophet in the beginning of the reign of Joakim: but the bands were not sent to the princes here named before the reign of Sedecias, ver. 3.</p>'
           quote: Joakim
       v:007:
-        - note: "Viz., Evilmerodach; and his son's son, Nabonydus, or Nabonadius, the Baltassar of Daniel, chap. 5., and the last of the Chaldean kings.</p>"
+        - match: his son
+          note: "Viz., Evilmerodach; and his son's son, Nabonydus, or Nabonadius, the Baltassar of Daniel, chap. 5., and the last of the Chaldean kings.</p>"
           quote: His son
     intro: 'The prophet sends chains to divers kings, signifying that they must bend their necks under the yoke of the king of Babylon. The vessels of the temple shall not be brought back till all the rest are carried away.'
     verses:
-      v:001: 'JER:27:1 | 1 | 1 | In the beginning of the reign of Joakim the son of Josias king of Juda, this word came to Jeremias from the Lord, saying:'
+      v:001: 'JER:27:1 | 1 | 1 | In the beginning of the reign of {NF:BEGIN 0}Joakim{NF:END} the son of Josias king of Juda, this word came to Jeremias from the Lord, saying:'
       v:002: 'JER:27:2 | 2 | 2 | Thus saith the Lord to me: Make thee bands, and chains: and thou shalt put them on thy neck.'
       v:003: 'JER:27:3 | 3 | 3 | And thou shalt send them to the king of Edom, and to the king of Moab, and to the king of the children of Ammon, and to the king of Tyre, and to the king of Sidon: by the hand of the messengers that are come to Jerusalem to Sedecias the king of Juda.'
       v:004: 'JER:27:4 | 4 | 4 | And thou shalt command them to speak to their masters: Thus saith the Lord of hosts the God of Israel: Thus shall you say to your masters:'
       v:005: 'JER:27:5 | 5 | 5 | I made the earth, and the men and the beasts that are upon the face of the earth, by my great power, and by my stretched out arm: and I have given it to whom it seemed good in my eyes.'
       v:006: 'JER:27:6 | 6 | 6 | And now I have given all these lands into the hand of Nabuchodonosor king of Babylon my servant: moreover also the beasts of the field I have given him to serve him.'
-      v:007: "JER:27:7 | 7 | 7 | And all nations shall serve him, and his son, and his son's son: till the time come for his land and himself: and many nations and great kings shall serve him."
+      v:007: "JER:27:7 | 7 | 7 | And all nations shall serve him, and {NF:BEGIN 0}his son{NF:END}, and his son's son: till the time come for his land and himself: and many nations and great kings shall serve him."
       v:008: 'JER:27:8 | 8 | 8 | But the nation and kingdom that will not serve Nabuchodonosor king of Babylon, and whosoever will not bend his neck under the yoke of the king of Babylon: I will visit upon that nation with the sword, and with famine, and with pestilence, saith the Lord: till I consume them by his hand.'
       v:009: 'JER:27:9 | 9 | 9 | Therefore hearken not to your prophets, and diviners, and dreamers, and soothsayers, and sorcerers, that say to you: You shall not serve the king of Babylon.'
       v:010: 'JER:27:10 | 10 | 10 | For they prophesy lies to you: to remove you far from your country, and cast you out, and to make you perish.'
@@ -932,7 +963,8 @@ chapters:
   c:030:
     footnotes:
       v:009:
-        - note: 'That is, Christ of the house of David.</p>'
+        - match: david
+          note: 'That is, Christ of the house of David.</p>'
           quote: David
     intro: 'God will deliver his people from their captivity: Christ shall be their king: and his church shall be glorious for ever.'
     verses:
@@ -944,7 +976,7 @@ chapters:
       v:006: 'JER:30:6 | 6 | 6 | Ask ye, and see if a man bear children? why then have I seen every man with his hands on his loins, like a woman in labour, and all faces are turned yellow?{VS:BR}'
       v:007: 'JER:30:7 | 7 | 7 | Alas, for that day is great, neither is there the like to it; and it is the time of tribulation to Jacob, but he shall be saved out of it.{VS:BR}'
       v:008: 'JER:30:8 | 8 | 8 | And it shall come to pass in that day, saith the Lord of hosts, that I will break his yoke from off thy neck, and will burst his bands: and strangers shall no more rule over him:{VS:BR}'
-      v:009: 'JER:30:9 | 9 | 9 | But they shall serve the Lord their God, and David their king, whom I will raise up to them.{VS:BR}'
+      v:009: 'JER:30:9 | 9 | 9 | But they shall serve the Lord their God, and {NF:BEGIN 0}David{NF:END} their king, whom I will raise up to them.{VS:BR}'
       v:010: 'JER:30:10 | 10 | 10 | Therefore fear thou not, my servant Jacob, saith the Lord, neither be dismayed, O Israel: for behold, I will save thee from a country afar off, and thy seed from the land of their captivity: and Jacob shall return, and be at rest, and abound with all good things, and there shall be none whom he may fear:{VS:BR}'
       v:011: 'JER:30:11 | 11 | 11 | For I am with thee, saith the Lord, to save thee: for I will utterly consume all the nations, among which I have scattered thee: but I will not utterly consume thee: but I will chastise thee in judgment, that thou mayst not seem to thyself innocent.{VS:BR}'
       v:012: 'JER:30:12 | 12 | 12 | For thus saith the Lord: Thy bruise is incurable, thy wound is very grievous.{VS:BR}'
@@ -1055,16 +1087,20 @@ chapters:
   c:033:
     footnotes:
       v:006:
-        - note: 'That is, the peace and welfare which they pray for.</p>'
+        - match: the prayer of peace
+          note: 'That is, the peace and welfare which they pray for.</p>'
           quote: The prayer of peace
       v:017:
-        - note: 'This was verified in Christ, who is of the house of David; and whose kingdom in his church shall have no end.</p>'
+        - match: there shall not be cut off from david
+          note: 'This was verified in Christ, who is of the house of David; and whose kingdom in his church shall have no end.</p>'
           quote: There shall not be cut off from David
       v:018:
-        - note: 'This promise relates to the Christian priesthood; which shall also continue for ever: the functions of which (more especially the great sacrifice of the altar) are here expressed by the name of holocausts, and other offerings of the law, which were so many figures of the Christian sacrifice.</p>'
+        - match: neither shall there be cut off from the priests
+          note: 'This promise relates to the Christian priesthood; which shall also continue for ever: the functions of which (more especially the great sacrifice of the altar) are here expressed by the name of holocausts, and other offerings of the law, which were so many figures of the Christian sacrifice.</p>'
           quote: Neither shall there be cut off from the priests
       v:024:
-        - note: 'Viz., the families of the kings and priests.</p>'
+        - match: two families
+          note: 'Viz., the families of the kings and priests.</p>'
           quote: Two families
     intro: 'God promises reduction from captivity, and other blessings: especially the coming of Christ, whose reign in his church shall be glorious and perpetual.'
     verses:
@@ -1073,7 +1109,7 @@ chapters:
       v:003: 'JER:33:3 | 3 | 3 | Cry to me and I will hear thee: and I will shew thee great things, and sure things which thou knowest not.{VS:BR}'
       v:004: 'JER:33:4 | 4 | 4 | For thus saith the Lord the God of Israel to the houses of this city, and to the houses of the king of Juda, which are destroyed, and to the bulwarks, and to the sword.{VS:BR}'
       v:005: 'JER:33:5 | 5 | 5 | Of them that come to fight with the Chaldeans, and to fill them with the dead bodies of the men whom I have slain in my wrath, and in my indignation, hiding my face from this city because of all their wickedness.{VS:BR}'
-      v:006: 'JER:33:6 | 6 | 6 | Behold I will close their wounds and give them health, and I will cure them: and I will reveal to them the prayer of peace and truth.{VS:BR}'
+      v:006: 'JER:33:6 | 6 | 6 | Behold I will close their wounds and give them health, and I will cure them: and I will reveal to them {NF:BEGIN 0}the prayer of peace{NF:END} and truth.{VS:BR}'
       v:007: 'JER:33:7 | 7 | 7 | And I will bring back the captivity of Juda, and the captivity of Jerusalem: and I will build them as from the beginning.{VS:BR}'
       v:008: 'JER:33:8 | 8 | 8 | And I will cleanse them from all their iniquity, whereby they have sinned against me: and I will forgive all their iniquities, whereby they have sinned against me, and despised me.{VS:BR}'
       v:009: 'JER:33:9 | 9 | 9 | And it shall be to me a name, and a joy, and a praise, and a gladness before all the nations of the earth, that shall hear of all the good things which I will do to them: and they shall fear and be troubled for all the good things, and for all the peace that I will make for them.{VS:BR}'
@@ -1084,20 +1120,21 @@ chapters:
       v:014: 'JER:33:14 | 14 | 14 | {VS:VERSE:BEGIN}Behold the days come, saith the Lord, that I will perform the good word that I have spoken to the house of Israel, and to the house of Juda.{VS:BR}'
       v:015: 'JER:33:15 | 15 | 15 | In those days, and at that time, I will make the bud of justice to spring forth unto David, and he shall do judgment and justice in the earth.{VS:BR}'
       v:016: 'JER:33:16 | 16 | 16 | In those days shall Juda be saved, and Jerusalem shall dwell securely: and this is the name that they shall call him, The Lord our just one.{VS:BR}'
-      v:017: 'JER:33:17 | 17 | 17 | For thus saith the Lord: There shall not be cut off from David a man to sit upon the throne of the house of Israel.{VS:BR}'
-      v:018: 'JER:33:18 | 18 | 18 | Neither shall there be cut off from the priests and Levites a man before my face to offer holocausts, and to burn sacrifices, and to kill victims continually.{VS:VERSE:END}'
+      v:017: 'JER:33:17 | 17 | 17 | For thus saith the Lord: {NF:BEGIN 0}There shall not be cut off from David{NF:END} a man to sit upon the throne of the house of Israel.{VS:BR}'
+      v:018: 'JER:33:18 | 18 | 18 | {NF:BEGIN 0}Neither shall there be cut off from the priests{NF:END} and Levites a man before my face to offer holocausts, and to burn sacrifices, and to kill victims continually.{VS:VERSE:END}'
       v:019: 'JER:33:19 | 19 | 19 | And the word of the Lord came to Jeremias, saying:'
       v:020: 'JER:33:20 | 20 | 20 | {VS:VERSE:BEGIN}Thus saith the Lord: if my covenant, with the day can be made void, and my covenant with the night, that there should not be day and night in their season:{VS:BR}'
       v:021: 'JER:33:21 | 21 | 21 | Also my covenant with David my servant may be made void, that he should not have a son to reign upon his throne, and with the Levites and priests my ministers.{VS:BR}'
       v:022: 'JER:33:22 | 22 | 22 | As the stars of heaven cannot be numbered, nor the sand of the sea be measured: so will I multiply the seed of David my servant, and the Levites my ministers.{VS:VERSE:END}'
       v:023: 'JER:33:23 | 23 | 23 | And the word of the Lord came to Jeremias, saying:'
-      v:024: 'JER:33:24 | 24 | 24 | {VS:VERSE:BEGIN}Hast thou not seen what this people hath spoken, saying: The two families which the Lord had chosen, are cast off: and they have despised my people, so that it is no more a nation before them?{VS:BR}'
+      v:024: 'JER:33:24 | 24 | 24 | {VS:VERSE:BEGIN}Hast thou not seen what this people hath spoken, saying: The {NF:BEGIN 0}two families{NF:END} which the Lord had chosen, are cast off: and they have despised my people, so that it is no more a nation before them?{VS:BR}'
       v:025: 'JER:33:25 | 25 | 25 | Thus saith the Lord. If I have not set my covenant between day and night, and laws to heaven and earth:{VS:BR}'
       v:026: 'JER:33:26 | 26 | 26 | Surely I will also cast off the seed of Jacob, and of David my servant, so as not to take any of his seed to be rulers of the seed of Abraham, Isaac, and Jacob: for I will bring back their captivity, and will have mercy on them.{VS:VERSE:END}'
   c:034:
     footnotes:
       v:005:
-        - note: 'That is, by a natural death.</p>'
+        - match: die in peace
+          note: 'That is, by a natural death.</p>'
           quote: Die in peace
     intro: 'The prophet foretells that Sedecias shall fall into the hands of Nabuchodonosor: God’s sentence upon the princes and people that had broken his covenant.'
     verses:
@@ -1105,7 +1142,7 @@ chapters:
       v:002: 'JER:34:2 | 2 | 2 | Thus saith the Lord, the God of Israel: Go, and speak to Sedecias king of Juda, and say to him: Thus saith the Lord: Behold I will deliver this city into the hands of the king of Babylon, and he shall burn it with fire.'
       v:003: 'JER:34:3 | 3 | 3 | And thou shalt not escape out of his hand: but thou shalt surely be taken, and thou shalt be delivered into his hand: and thy eyes shall see the eyes of the king of Babylon, and his mouth shall speak with thy mouth, and thou shalt go to Babylon.'
       v:004: 'JER:34:4 | 4 | 4 | Yet hear the word of the Lord, O Sedecias king of Juda: Thus saith the Lord to thee: Thou shalt not die by the sword.'
-      v:005: 'JER:34:5 | 5 | 5 | But thou shalt die in peace, and according to the burnings of thy fathers, the former kings that were before thee, so shall they burn thee: and they shall mourn for thee, saying: Alas, Lord: for I have spoken the word, saith the Lord.'
+      v:005: 'JER:34:5 | 5 | 5 | But thou shalt {NF:BEGIN 0}die in peace{NF:END}, and according to the burnings of thy fathers, the former kings that were before thee, so shall they burn thee: and they shall mourn for thee, saying: Alas, Lord: for I have spoken the word, saith the Lord.'
       v:006: JER:34:6 | 6 | 6 | And Jeremias the prophet spoke all these words to Sedecias the king of Juda in Jerusalem.
       v:007: 'JER:34:7 | 7 | 7 | And the army of the king of Babylon fought against Jerusalem, and against all the cities of Juda that were left, against Lachis, and against Azecha: for these remained of the cities of Juda, fenced cities.{VS:P}'
       v:008: 'JER:34:8 | 8 | 8 | The word that came to Jeremias from the Lord, after that king Sedecias had made a covenant with all the people in Jerusalem making a proclamation:'
@@ -1126,12 +1163,13 @@ chapters:
   c:035:
     footnotes:
       v:002:
-        - note: 'These were of the race of Jethro, father in law to Moses.</p>'
+        - match: rechabites
+          note: 'These were of the race of Jethro, father in law to Moses.</p>'
           quote: Rechabites
     intro: The obedience of the Rechabites condemns the disobedience of the Jews. The reward of the Rechabites.
     verses:
       v:001: 'JER:35:1 | 1 | 1 | The word that came to Jeremias from the Lord in the days of Joakim the son of Josias king of Juda, saying:'
-      v:002: 'JER:35:2 | 2 | 2 | Go to the house of the Rechabites: and speak to them, and bring them into the house of the Lord, into one of the chambers of the treasures, and thou shalt give them wine to drink.'
+      v:002: 'JER:35:2 | 2 | 2 | Go to the house of the {NF:BEGIN 0}Rechabites{NF:END}: and speak to them, and bring them into the house of the Lord, into one of the chambers of the treasures, and thou shalt give them wine to drink.'
       v:003: 'JER:35:3 | 3 | 3 | And I took Jezonias the son of Jeremias the son of Habsanias, and his brethren, and all his sons, and the whole house of the Rechabites.'
       v:004: 'JER:35:4 | 4 | 4 | And I brought them into the house of the Lord, to the treasure house of the sons of Hanan, the son of Jegedelias the man of God, which was by the treasure house of the princes, above the treasure of Maasias the son of Sellum, who was keeper of the entry.'
       v:005: 'JER:35:5 | 5 | 5 | And I set before the sons of the house of the Rechabites pots full of wine, and cups: and I said to them: Drink ye wine.'
@@ -1152,10 +1190,12 @@ chapters:
   c:036:
     footnotes:
       v:005:
-        - note: 'Not that the prophet was now in prison; for the contrary appears from ver. 19, but that he kept himself shut up, by reason of the persecutions he had lately met with. See chap. 26.</p>'
+        - match: shut up
+          note: 'Not that the prophet was now in prison; for the contrary appears from ver. 19, but that he kept himself shut up, by reason of the persecutions he had lately met with. See chap. 26.</p>'
           quote: Shut up
       v:030:
-        - note: 'Because his son Joachin or Jechonias, within three months after the death of his father, was carried away to Babylon, so that his reign is not worthy of notice.</p>'
+        - match: he shall have none
+          note: 'Because his son Joachin or Jechonias, within three months after the death of his father, was carried away to Babylon, so that his reign is not worthy of notice.</p>'
           quote: He shall have none
     intro: 'Jeremias sends Baruch to read his prophecies in the temple; the book is brought to king Joakim, who burns it. The prophet denounces his judgment, and causes Baruch to write a new copy.'
     verses:
@@ -1163,7 +1203,7 @@ chapters:
       v:002: 'JER:36:2 | 2 | 2 | Take thee a roll of a book, and thou shalt write in it all the words that I have spoken to thee against Israel and Juda, and against all the nations from the day that I spoke to thee, from the days of Josias even to this day.'
       v:003: 'JER:36:3 | 3 | 3 | If so be, when the house of Juda shall hear all the evils that I purpose to do unto them, that they may return every man from his wicked way: and I will forgive their iniquity, and their sin.'
       v:004: 'JER:36:4 | 4 | 4 | So Jeremias called Baruch the son of Nerias: and Baruch wrote from the mouth of Jeremias all the words of the Lord, which he spoke to him, upon the roll of a book.'
-      v:005: 'JER:36:5 | 5 | 5 | And Jeremias commanded Baruch, saying: I am shut up, and cannot go into the house of the Lord.'
+      v:005: 'JER:36:5 | 5 | 5 | And Jeremias commanded Baruch, saying: I am {NF:BEGIN 0}shut up{NF:END}, and cannot go into the house of the Lord.'
       v:006: 'JER:36:6 | 6 | 6 | Go thou in therefore, and read out of the volume, which thou hast written from my mouth, the words of the Lord, in the hearing of all the people in the house of the Lord on the fasting day: and also thou shalt read them in the hearing of all Juda that come out of their cities:'
       v:007: 'JER:36:7 | 7 | 7 | If so be they may present their supplication before the Lord, and may return every one from his wicked way: for great is the wrath and indignation which the Lord hath pronounced against this people.'
       v:008: 'JER:36:8 | 8 | 8 | And Baruch the son of Nerias did according to all that Jeremias the prophet had commanded him, reading out of the volume the words of the Lord in the house of the Lord.'
@@ -1188,7 +1228,7 @@ chapters:
       v:027: 'JER:36:27 | 27 | 27 | And the word of the Lord came to Jeremias the prophet, after that the king had burnt the volume, and the words that Baruch had written from the mouth of Jeremias, saying:'
       v:028: 'JER:36:28 | 28 | 28 | Take thee again another volume: and write in it all the former words that were in the first volume which Joakim the king of Juda hath burnt.'
       v:029: 'JER:36:29 | 29 | 29 | And thou shalt say to Joakim the king of Juda: Thus saith the Lord: Thou hast burnt that volume, saying: Why hast thou written therein, and said: The king of Babylon shall come speedily, and shall lay waste this land: and shall cause to cease from thence man and beast?'
-      v:030: 'JER:36:30 | 30 | 30 | Therefore thus saith the Lord against Joakim the king of Juda: He shall have none to sit upon the throne of David: and his dead body shall be cast out to the heat by day, and to the frost by night.'
+      v:030: 'JER:36:30 | 30 | 30 | Therefore thus saith the Lord against Joakim the king of Juda: {NF:BEGIN 0}He shall have none{NF:END} to sit upon the throne of David: and his dead body shall be cast out to the heat by day, and to the frost by night.'
       v:031: 'JER:36:31 | 31 | 31 | And I will punish him, and his seed and his servants, for their iniquities, and I will bring upon them, and upon the inhabitants of Jerusalem, and upon the men of Juda all the evil that I have pronounced against them, but they have not heard.'
       v:032: 'JER:36:32 | 32 | 32 | And Jeremias took another volume, and gave it to Baruch the son of Nerias the scribe: who wrote in it from the mouth of Jeremias all the words of the book which Joakim the king of Juda had burnt with fire: and there were added besides many more words than had been before.'
   c:037:
@@ -1218,7 +1258,8 @@ chapters:
   c:038:
     footnotes:
       v:022:
-        - note: 'Viri pacifici tui. That is thy false friends promising thee peace and happiness, and by their evil counsels involving thee in misery.</p>'
+        - match: thy men of peace
+          note: 'Viri pacifici tui. That is thy false friends promising thee peace and happiness, and by their evil counsels involving thee in misery.</p>'
           quote: Thy men of peace
     intro: 'The prophet at the instance of the great men is cast into a filthy dungeon: he is drawn out by Abdemelech, and has another conference with the king.'
     verses:
@@ -1243,7 +1284,7 @@ chapters:
       v:019: 'JER:38:19 | 19 | 19 | And king Sedecias said to Jeremias: I am afraid because of the Jews that are fled over to the Chaldeans: lest I should be delivered into their hands, and they should abuse me.'
       v:020: 'JER:38:20 | 20 | 20 | But Jeremias answered: They shall not deliver thee: hearken, I beseech thee, to the word of the Lord, which I speak to thee, and it shall be well with thee, and thy soul shall live.'
       v:021: 'JER:38:21 | 21 | 21 | But if thou wilt not go forth, this is the word which the Lord hath shewn me:'
-      v:022: 'JER:38:22 | 22 | 22 | Behold all the women that are left in the house of the king of Juda, shall be brought out to the princes of the king of Babylon: and they shall say: Thy men of peace have deceived thee, and have prevailed against thee, they have plunged thy feet in the mire, and in a slippery place and they have departed from thee.'
+      v:022: 'JER:38:22 | 22 | 22 | Behold all the women that are left in the house of the king of Juda, shall be brought out to the princes of the king of Babylon: and they shall say: {NF:BEGIN 0}Thy men of peace{NF:END} have deceived thee, and have prevailed against thee, they have plunged thy feet in the mire, and in a slippery place and they have departed from thee.'
       v:023: 'JER:38:23 | 23 | 23 | And all thy wives, and thy children shall be brought out to the Chaldeans, and thou shalt not escape their hands, but thou shalt be taken by the hand of the king of Babylon: and he shall burn this city with fire.'
       v:024: 'JER:38:24 | 24 | 24 | Then Sedecias said to Jeremias: Let no man know these words, and thou shalt not die.'
       v:025: 'JER:38:25 | 25 | 25 | But if the princes shall hear that I have spoken with thee, and shall come to thee, and say to thee: Tell us what thou hast said to the king, hide it not from us, and we will not kill thee: and also what the king said to thee:'
@@ -1317,10 +1358,12 @@ chapters:
   c:042:
     footnotes:
       v:006:
-        - note: 'That is, agreeable or disagreeable.</p>'
+        - match: good or evil
+          note: 'That is, agreeable or disagreeable.</p>'
           quote: Good or evil
       v:010:
-        - note: 'That is, I am appeased, as I have sufficiently punished you, and now I am reconciled with you.</p>'
+        - match: i am appeased for the evil that i have done to you
+          note: 'That is, I am appeased, as I have sufficiently punished you, and now I am reconciled with you.</p>'
           quote: I am appeased for the evil that I have done to you
     intro: 'Jeremias assures the remnant of the people, that if they will stay in Juda, they shall be safe; but if they go down into Egypt, they shall perish.'
     verses:
@@ -1329,11 +1372,11 @@ chapters:
       v:003: 'JER:42:3 | 3 | 3 | And let the Lord thy God shew us the way by which we may walk, and the thing that we must do.'
       v:004: 'JER:42:4 | 4 | 4 | And Jeremias the prophet said to them: I have heard you: behold I will pray to the Lord your God according to your words: and whatsoever thing he shall answer me, I will declare it to you: and I will hide nothing from you.'
       v:005: 'JER:42:5 | 5 | 5 | And they said to Jeremias: The Lord be witness between us of truth and faithfulness, if we do not according to every thing for which the Lord thy God shall send thee to us.'
-      v:006: 'JER:42:6 | 6 | 6 | Whether it be good or evil, we will obey the voice of the Lord our God, to whom we send thee: that it may be well with us when we shall hearken to the voice of the Lord our God.'
+      v:006: 'JER:42:6 | 6 | 6 | Whether it be {NF:BEGIN 0}good or evil{NF:END}, we will obey the voice of the Lord our God, to whom we send thee: that it may be well with us when we shall hearken to the voice of the Lord our God.'
       v:007: 'JER:42:7 | 7 | 7 | Now after ten days, the word of the Lord came to Jeremias.'
       v:008: 'JER:42:8 | 8 | 8 | And he called Johanan the son of Caree, and all the captains of the fighting men that were with him, and all the people from the least to the greatest.'
       v:009: 'JER:42:9 | 9 | 9 | And he said to them: Thus saith the Lord the God of Israel, to whom you sent me, to present your supplications before him:'
-      v:010: 'JER:42:10 | 10 | 10 | If you will be quiet and remain in this land, I will build you up, and not pull you down: I will plant you, and not pluck you up: for now I am appeased for the evil that I have done to you.'
+      v:010: 'JER:42:10 | 10 | 10 | If you will be quiet and remain in this land, I will build you up, and not pull you down: I will plant you, and not pluck you up: for now {NF:BEGIN 0}I am appeased for the evil that I have done to you{NF:END}.'
       v:011: 'JER:42:11 | 11 | 11 | Fear not because of the king of Babylon, of whom you are greatly afraid: fear him not, saith the Lord: for I am with you, to save you, and to deliver you from his hand.'
       v:012: 'JER:42:12 | 12 | 12 | And I will shew mercies to you, and will take pity on you, and will cause you to dwell in your own land.'
       v:013: 'JER:42:13 | 13 | 13 | But if you say: We will not dwell in this land, neither will we hearken to the voice of the Lord our God,'
@@ -1366,7 +1409,8 @@ chapters:
   c:044:
     footnotes:
       v:017:
-        - note: 'The moon, which they worshipped under this name.</p>'
+        - match: the queen of heaven
+          note: 'The moon, which they worshipped under this name.</p>'
           quote: The queen of heaven
     intro: 'The prophet’s admonition to the Jews in Egypt against idolatry is not regarded: he denounces to them their destruction.'
     verses:
@@ -1386,7 +1430,7 @@ chapters:
       v:014: 'JER:44:14 | 14 | 14 | And there shall be none that shall escape, and remain of the remnant of the Jews that are gone to sojourn in the land of Egypt: and that shall return into the land of Juda, to which they have a desire to return to dwell there: there shall none return but they that shall flee.{VS:P}'
       v:015: 'JER:44:15 | 15 | 15 | Then all the men that knew that their wives sacrificed to other gods: and all the women of whom there stood by a great multitude, and all the people of them that dwelt in the land of Egypt in Phatures, answered Jeremias, saying:'
       v:016: 'JER:44:16 | 16 | 16 | As for the word which thou hast spoken to us in the name of the Lord, we will not hearken to thee:'
-      v:017: 'JER:44:17 | 17 | 17 | But we will certainly do every word that shall proceed out of our own mouth, to sacrifice to the queen of heaven, and to pour out drink offerings to her, as we and our fathers have done, our kings, and our princes in the cities of Juda, and in the streets of Jerusalem: and we were filled with bread, and it was well with us, and we saw no evil.'
+      v:017: 'JER:44:17 | 17 | 17 | But we will certainly do every word that shall proceed out of our own mouth, to sacrifice to {NF:BEGIN 0}the queen of heaven{NF:END}, and to pour out drink offerings to her, as we and our fathers have done, our kings, and our princes in the cities of Juda, and in the streets of Jerusalem: and we were filled with bread, and it was well with us, and we saw no evil.'
       v:018: 'JER:44:18 | 18 | 18 | But since we left off to offer sacrifice to the queen of heaven, and to pour out drink offerings to her, we have wanted all things, and have been consumed by the sword, and by famine.'
       v:019: 'JER:44:19 | 19 | 19 | And if we offer sacrifice to the queen of heaven, and pour out drink offerings to her: did we make cakes to worship her, to pour out drink offerings to her, without our husbands?{VS:P}'
       v:020: 'JER:44:20 | 20 | 20 | And Jeremias spoke to all the people, to the men, and to the women, and to all the people which had given him that answer, saying:'
@@ -1412,12 +1456,15 @@ chapters:
   c:046:
     footnotes:
       v:016:
-        - note: 'See the annotation on chap. 25., ver. 38.</p>'
+        - match: the dove
+          note: 'See the annotation on chap. 25., ver. 38.</p>'
           quote: The dove
       v:025:
-        - note: 'That is, punish.-- Ibid.</p>'
+        - match: visit upon
+          note: 'That is, punish.-- Ibid.</p>'
           quote: Visit upon
-        - note: 'In the Hebrew, No, which was the ancient name of the city, to which Alexander gave afterwards the name of Alexandria.</p>'
+        - match: alexandria
+          note: 'In the Hebrew, No, which was the ancient name of the city, to which Alexander gave afterwards the name of Alexandria.</p>'
           quote: Alexandria
     intro: A prophecy against Egypt. The Jews shall return from captivity.
     verses:
@@ -1436,7 +1483,7 @@ chapters:
       v:013: 'JER:46:13 | 13 | 13 | The word that the Lord spoke to Jeremias the prophet, how Nabuchodonosor king of Babylon should come and strike the land of Egypt:'
       v:014: 'JER:46:14 | 14 | 14 | {VS:VERSE:BEGIN}Declare ye to Egypt, and publish it in Magdal, and let it be known in Memphis, and in Taphnis: say ye: Stand up, and prepare thyself: for the sword shall devour all round about thee.{VS:BR}'
       v:015: 'JER:46:15 | 15 | 15 | Why are thy valiant men come to nothing? they stood not: because the Lord hath overthrown them.{VS:BR}'
-      v:016: 'JER:46:16 | 16 | 16 | He hath multiplied them that fall, and one hath fallen upon another, and they shall say: Arise, and let us return to our own people, and to the land of our nativity, from the sword of the dove.{VS:BR}'
+      v:016: 'JER:46:16 | 16 | 16 | He hath multiplied them that fall, and one hath fallen upon another, and they shall say: Arise, and let us return to our own people, and to the land of our nativity, from the sword of {NF:BEGIN 0}the dove{NF:END}.{VS:BR}'
       v:017: 'JER:46:17 | 17 | 17 | Call ye the name of Pharao king of Egypt, a tumult time hath brought.{VS:BR}'
       v:018: 'JER:46:18 | 18 | 18 | As I live, saith the King, (whose name is the Lord of hosts,) as Thabor is among the mountains, and as Carmel by the sea, so shall he come.{VS:BR}'
       v:019: 'JER:46:19 | 19 | 19 | Furnish thyself to go into captivity, thou daughter inhabitant of Egypt: for Memphis shall be made desolate, and shall be forsaken and uninhabited.{VS:BR}'
@@ -1445,7 +1492,7 @@ chapters:
       v:022: 'JER:46:22 | 22 | 22 | Her voice shall sound like brass, for they shall hasten with an army, and with axes they shall come against her, as hewers of wood.{VS:BR}'
       v:023: 'JER:46:23 | 23 | 23 | They have cut down her forest, saith the Lord, which cannot be counted: they are multiplied above locusts, and are without number.{VS:BR}'
       v:024: 'JER:46:24 | 24 | 24 | The daughter of Egypt is confounded, and delivered into the hand of the people of the north.{VS:BR}'
-      v:025: 'JER:46:25 | 25 | 25 | The Lord of hosts the God of Israel hath said: Behold I will visit upon the tumult of Alexandria, and upon Pharao, and upon Egypt, and upon her gods, and upon her kings, and upon Pharao, and upon them that trust in him.{VS:BR}'
+      v:025: 'JER:46:25 | 25 | 25 | The Lord of hosts the God of Israel hath said: Behold I will {NF:BEGIN 0}visit upon{NF:END} the tumult of {NF:BEGIN 1}Alexandria{NF:END}, and upon Pharao, and upon Egypt, and upon her gods, and upon her kings, and upon Pharao, and upon them that trust in him.{VS:BR}'
       v:026: 'JER:46:26 | 26 | 26 | And I will deliver them into the hand of them that seek their lives, and into the hand of Nabuchodonosor king of Babylon, and into the hand of his servants: and afterwards it shall be inhabited, as in the days of old, saith the Lord.{VS:BR}'
       v:027: 'JER:46:27 | 27 | 27 | And thou my servant Jacob, fear not and be not thou dismayed, O Israel: for behold I will save thee from afar off, and thy seed out of the land of thy captivity: and Jacob shall return and be at rest, and prosper: and there shall be none to terrify him.{VS:BR}'
       v:028: 'JER:46:28 | 28 | 28 | And thou, my servant Jacob, fear not, saith the Lord: because I am with thee, for I will consume all the nations to which I have cast thee out: but thee I will not consume, but I will correct thee in judgment, neither will I spare thee as if thou wert innocent.{VS:VERSE:END}'
@@ -1463,28 +1510,37 @@ chapters:
   c:048:
     footnotes:
       v:007:
-        - note: 'The idol of the Moabites.</p>'
+        - match: chamos
+          note: 'The idol of the Moabites.</p>'
           quote: Chamos
       v:010:
-        - note: 'In the Greek, negligently. The work of God here spoken of, is the punishment of the Moabites.</p>'
+        - match: deceitfully
+          note: 'In the Greek, negligently. The work of God here spoken of, is the punishment of the Moabites.</p>'
           quote: Deceitfully
       v:011:
-        - note: 'That is, rich and flourishing.</p>'
+        - match: moab hath been fruitful
+          note: 'That is, rich and flourishing.</p>'
           quote: Moab hath been fruitful
-        - note: 'That is, remained in its bad morals; as wine not decanted has its lees mixed and remains muddy.</p>'
+        - match: and hath rested upon his lees
+          note: 'That is, remained in its bad morals; as wine not decanted has its lees mixed and remains muddy.</p>'
           quote: And hath rested upon his lees
       v:013:
-        - note: 'That is, of their golden calf which they worshipped in Bethel.</p>'
+        - match: of bethel
+          note: 'That is, of their golden calf which they worshipped in Bethel.</p>'
           quote: Of Bethel
       v:025:
-        - note: 'That is, the strength of Moab is cut off. A metaphor drawn from animals whose strength is in their horns.</p>'
+        - match: the horn of moab is cut off
+          note: 'That is, the strength of Moab is cut off. A metaphor drawn from animals whose strength is in their horns.</p>'
           quote: The horn of Moab is cut off
       v:043:
-        - note: 'That is, the sword of the enemy.</p>'
+        - match: fear
+          note: 'That is, the sword of the enemy.</p>'
           quote: Fear
-        - note: 'That is, unforeseen calamities.</p>'
+        - match: the pit
+          note: 'That is, unforeseen calamities.</p>'
           quote: The pit
-        - note: 'That is, the ambushes laid by the enemy.</p>'
+        - match: the snare
+          note: 'That is, the ambushes laid by the enemy.</p>'
           quote: The snare
     intro: 'A prophecy of the desolation of Moab for their pride: but their captivity shall at last be released.'
     verses:
@@ -1494,13 +1550,13 @@ chapters:
       v:004: 'JER:48:4 | 4 | 4 | Moab is destroyed: proclaim a cry for her little ones.{VS:BR}'
       v:005: 'JER:48:5 | 5 | 5 | For by the ascent of Luith shall the mourner go up with weeping: for in the descent of Oronaim the enemies have heard a howling of destruction.{VS:BR}'
       v:006: 'JER:48:6 | 6 | 6 | Flee, save your lives: and be as heath in the wilderness.{VS:BR}'
-      v:007: 'JER:48:7 | 7 | 7 | For because thou hast trusted in thy bulwarks, and in thy treasures, thou also shalt be taken: and Chamos shall go into captivity, his priests, and his princes together.{VS:BR}'
+      v:007: 'JER:48:7 | 7 | 7 | For because thou hast trusted in thy bulwarks, and in thy treasures, thou also shalt be taken: and {NF:BEGIN 0}Chamos{NF:END} shall go into captivity, his priests, and his princes together.{VS:BR}'
       v:008: 'JER:48:8 | 8 | 8 | And the spoiler shall come upon every city, and no city shall escape: and the valleys shall perish, and the plains shall be destroyed, for the Lord hath spoken:{VS:BR}'
       v:009: 'JER:48:9 | 9 | 9 | Give a flower to Moab, for in its flower it shall go out: and the cities thereof shall be desolate, and uninhabited.{VS:BR}'
-      v:010: 'JER:48:10 | 10 | 10 | Cursed be he that doth the work of the Lord deceitfully: and cursed be he that withholdeth his sword from blood.{VS:BR}'
-      v:011: 'JER:48:11 | 11 | 11 | Moab hath been fruitful from his youth, and hath rested upon his lees: and hath not been poured out from vessel to vessel, nor hath gone into captivity: therefore his taste hath remained in him, and his scent is not changed.{VS:BR}'
+      v:010: 'JER:48:10 | 10 | 10 | Cursed be he that doth the work of the Lord {NF:BEGIN 0}deceitfully{NF:END}: and cursed be he that withholdeth his sword from blood.{VS:BR}'
+      v:011: 'JER:48:11 | 11 | 11 | {NF:BEGIN 0}Moab hath been fruitful{NF:END} from his youth, {NF:BEGIN 1}and hath rested upon his lees{NF:END}: and hath not been poured out from vessel to vessel, nor hath gone into captivity: therefore his taste hath remained in him, and his scent is not changed.{VS:BR}'
       v:012: 'JER:48:12 | 12 | 12 | Therefore behold the days come, saith the Lord, and I will send him men that shall order and overturn his bottles, and they shall cast him down, and shall empty his vessels, and break their bottles one against another.{VS:BR}'
-      v:013: 'JER:48:13 | 13 | 13 | And Moab shall be ashamed of Chamos, as the house of Israel was ashamed of Bethel, in which they trusted.{VS:BR}'
+      v:013: 'JER:48:13 | 13 | 13 | And Moab shall be ashamed of Chamos, as the house of Israel was ashamed {NF:BEGIN 0}of Bethel{NF:END}, in which they trusted.{VS:BR}'
       v:014: 'JER:48:14 | 14 | 14 | How do you say: We are valiant and stout men in battle?{VS:BR}'
       v:015: 'JER:48:15 | 15 | 15 | Moab is laid waste, and they have cast down her cities: and her choice young men are gone down to the slaughter: saith the king, whose name is the Lord of hosts.{VS:BR}'
       v:016: 'JER:48:16 | 16 | 16 | The destruction of Moab is near to come: the calamity thereof shall come on exceeding swiftly.{VS:BR}'
@@ -1512,7 +1568,7 @@ chapters:
       v:022: 'JER:48:22 | 22 | 22 | And upon Dibon, and upon Nabo, and upon the house of Deblathaim,{VS:BR}'
       v:023: 'JER:48:23 | 23 | 23 | And upon Cariathaim, and upon Bethgamul, and upon Bethmaon,'
       v:024: 'JER:48:24 | 24 | 24 | And upon Carioth, and upon Bosra: and upon all the cities of the land of Moab, far or near.{VS:BR}'
-      v:025: 'JER:48:25 | 25 | 25 | The horn of Moab is cut off, and his arm is broken, saith the Lord.{VS:BR}'
+      v:025: 'JER:48:25 | 25 | 25 | {NF:BEGIN 0}The horn of Moab is cut off{NF:END}, and his arm is broken, saith the Lord.{VS:BR}'
       v:026: 'JER:48:26 | 26 | 26 | Make him drunk, because he lifted up himself against the Lord: and Moab shall dash his hand in his own vomit, and he also shall be in derision.{VS:BR}'
       v:027: 'JER:48:27 | 27 | 27 | For Israel hath been a derision unto them: as though thou hadst found him amongst thieves: for thy words therefore, which thou hast spoken against him, thou shalt be led away captive.{VS:BR}'
       v:028: 'JER:48:28 | 28 | 28 | Leave the cities, and dwell in the rock, you that dwell in Moab: and be ye like the dove that maketh her nest in the mouth of the hole in the highest place.{VS:BR}'
@@ -1530,7 +1586,7 @@ chapters:
       v:040: 'JER:48:40 | 40 | 40 | Thus saith the Lord: Behold he shall fly as an eagle, and shall stretch forth his wings to Moab.{VS:BR}'
       v:041: 'JER:48:41 | 41 | 41 | Carioth is taken, and the strongholds are won: and the heart of the valiant men of Moab in that day shall be as the heart of a woman in labour.{VS:BR}'
       v:042: 'JER:48:42 | 42 | 42 | And Moab shall cease to be a people: because he hath gloried against the Lord.{VS:BR}'
-      v:043: 'JER:48:43 | 43 | 43 | Fear, and the pit, and the snare come upon thee, O inhabitant of Moab, saith the Lord.{VS:BR}'
+      v:043: 'JER:48:43 | 43 | 43 | {NF:BEGIN 0}Fear{NF:END}, and {NF:BEGIN 1}the pit{NF:END}, and {NF:BEGIN 2}the snare{NF:END} come upon thee, O inhabitant of Moab, saith the Lord.{VS:BR}'
       v:044: 'JER:48:44 | 44 | 44 | He that shall flee from the fear, shall fall into the pit: and he that shall get up out of the pit, shall be taken in the snare: for I will bring upon Moab the year of their visitation, saith the Lord.{VS:BR}'
       v:045: 'JER:48:45 | 45 | 45 | They that fled from the snare stood in the shadow of Hesebon: but there came a fire out of Hesebon, and a flame out of the midst of Seon, and it shall devour part of Moab, and the crown of the head of the children of tumult.{VS:BR}'
       v:046: 'JER:48:46 | 46 | 46 | Woe to thee, Moab, thou hast persisted, O people of Chamos: for thy sons, and thy daughters are taken captives.{VS:BR}'
@@ -1538,17 +1594,21 @@ chapters:
   c:049:
     footnotes:
       v:001:
-        - note: 'The idol of the Ammonites.</p>'
+        - match: melchom
+          note: 'The idol of the Ammonites.</p>'
           quote: Melchom
       v:028:
-        - note: 'Were parts of Arabia; which with Moab, Ammon, Edom, etc., were all brought under the yoke of Nabuchodonosor.</p>'
+        - match: against cedar and against the kingdoms of asor
+          note: 'Were parts of Arabia; which with Moab, Ammon, Edom, etc., were all brought under the yoke of Nabuchodonosor.</p>'
           quote: Against Cedar and against the kingdoms of Asor
+          quote_2: Cedar and Asor
       v:034:
-        - note: 'A part of Persia.</p>'
+        - match: elam
+          note: 'A part of Persia.</p>'
           quote: Elam
     intro: 'The like desolation of Ammon, of Idumea, of the Syrians, of the Agarenes, and of the Elamites.'
     verses:
-      v:001: 'JER:49:1 | 1 | 1 | Against the children of Ammon. Thus saith the Lord: Hath Israel no sons? or hath he no heir? Why then hath Melchom inherited Gad: and his people dwelt in his cities?{VS:BR}'
+      v:001: 'JER:49:1 | 1 | 1 | Against the children of Ammon. Thus saith the Lord: Hath Israel no sons? or hath he no heir? Why then hath {NF:BEGIN 0}Melchom{NF:END} inherited Gad: and his people dwelt in his cities?{VS:BR}'
       v:002: 'JER:49:2 | 2 | 2 | Therefore behold the days come, saith the Lord, and I will cause the noise of war to be heard in Rabbath of the children of Ammon, and it shall be destroyed into a heap, and her daughters shall be burnt with fire, and Israel shall possess them that have possessed him, saith the Lord.{VS:BR}'
       v:003: 'JER:49:3 | 3 | 3 | Howl, O Hesebon, for Hai is wasted. Cry, ye daughters of Rabbath, gird yourselves with haircloth: mourn and go about by the hedges: for Melchom shall be carried into captivity, his priests, and his princes together.{VS:BR}'
       v:004: 'JER:49:4 | 4 | 4 | Why gloriest thou in the valleys? thy valley hath flowed away, O delicate daughter, that hast trusted in thy treasures, and hast said: Who shall come to me?{VS:BR}'
@@ -1575,13 +1635,13 @@ chapters:
       v:025: 'JER:49:25 | 25 | 25 | How have they forsaken the city of renown, the city of joy!{VS:BR}'
       v:026: 'JER:49:26 | 26 | 26 | Therefore her young men shall fall in her streets: and all the men of war shall be silent in that day, saith the Lord of hosts.{VS:BR}'
       v:027: 'JER:49:27 | 27 | 27 | And I will kindle a fire in the wall of Damascus, and it shall devour the strong holds of Benadad.{VS:VERSE:END}{VS:P}'
-      v:028: 'JER:49:28 | 28 | 28 | Against Cedar and against the kingdoms of Asor, which Nabuchodonosor king of Babylon destroyed. Thus saith the Lord: Arise, and go ye up to Cedar, and waste the children of the east.{VS:BR}'
+      v:028: 'JER:49:28 | 28 | 28 | {NF:BEGIN 0}Against Cedar and against the kingdoms of Asor{NF:END}, which Nabuchodonosor king of Babylon destroyed. Thus saith the Lord: Arise, and go ye up to Cedar, and waste the children of the east.{VS:BR}'
       v:029: 'JER:49:29 | 29 | 29 | They shall take their tents, and their flocks: and shall carry off for themselves their curtains, and all their vessels, and their camels: and they shall call fear upon them round about.{VS:BR}'
       v:030: 'JER:49:30 | 30 | 30 | Flee ye, get away speedily, sit in deep holes, you that inhabit Asor, saith the Lord: for Nabuchodonosor king of Babylon hath taken counsel against you, and hath conceived designs against you.{VS:BR}'
       v:031: 'JER:49:31 | 31 | 31 | Arise, and go up to a nation that is at ease, and that dwelleth securely, saith the Lord: they have neither gates, nor bars: they dwell alone.{VS:BR}'
       v:032: 'JER:49:32 | 32 | 32 | And their camels shall be for a spoil and the multitude of their cattle for a booty, and I will scatter into every wind them that have their hair cut round, and I will bring destruction upon them from all their confines, saith the Lord.{VS:BR}'
       v:033: 'JER:49:33 | 33 | 33 | And Asor shall be a habitation for dragons, desolate for ever: no man shall abide there, nor son of man inhabit it.{VS:VERSE:END}{VS:P}'
-      v:034: 'JER:49:34 | 34 | 34 | The word of the Lord that came to Jeremias the prophet against Elam, in the beginning of the reign of Sedecias king of Juda, saying:'
+      v:034: 'JER:49:34 | 34 | 34 | The word of the Lord that came to Jeremias the prophet against {NF:BEGIN 0}Elam{NF:END}, in the beginning of the reign of Sedecias king of Juda, saying:'
       v:035: 'JER:49:35 | 35 | 35 | {VS:VERSE:BEGIN}Thus saith the Lord of hosts: Behold I will break the bow of Elam, and their chief strength.{VS:BR}'
       v:036: 'JER:49:36 | 36 | 36 | And I will bring upon Elam the four winds from the four quarters of heaven: and I will scatter them into all these winds: and there shall be no nation, to which the fugitives of Elam shall not come.{VS:BR}'
       v:037: 'JER:49:37 | 37 | 37 | And I will cause Elam to be afraid before their enemies, and in the sight of them that seek their life: and I will bring evil upon them, my fierce wrath, saith the Lord: and I will send the sword after them, till I consume them.{VS:BR}'
@@ -1590,22 +1650,26 @@ chapters:
   c:050:
     footnotes:
       v:002:
-        - note: 'Bel and Merodach were worshipped for gods by the men of Babylon.</p>'
+        - match: bel
+          note: 'Bel and Merodach were worshipped for gods by the men of Babylon.</p>'
           quote: Bel
       v:003:
-        - note: 'Viz., the Medes.</p>'
+        - match: a nation
+          note: 'Viz., the Medes.</p>'
           quote: A nation
       v:016:
-        - note: 'Or the destroyer; for the Hebrew word signifies either the one or the other.</p>'
+        - match: the dove
+          note: 'Or the destroyer; for the Hebrew word signifies either the one or the other.</p>'
           quote: The dove
       v:039:
-        - note: 'Monsters of the desert, or demons in monstrous shapes: such as the ancients called fauns and satyrs; and as they imagined them to live upon wild figs, they called them fauni ficarii or fig fauns.</p>'
+        - match: fig fauns
+          note: 'Monsters of the desert, or demons in monstrous shapes: such as the ancients called fauns and satyrs; and as they imagined them to live upon wild figs, they called them fauni ficarii or fig fauns.</p>'
           quote: Fig fauns
     intro: 'Babylon, which hath afflicted the Israelites, after their restoration, shall be utterly destroyed.'
     verses:
       v:001: 'JER:50:1 | 1 | 1 | The word that the Lord hath spoken against Babylon, and against the land of the Chaldeans in the hand of Jeremias the prophet.'
-      v:002: 'JER:50:2 | 2 | 2 | {VS:VERSE:BEGIN}Declare ye among the nations, and publish it, lift up a standard: proclaim, and conceal it not: say: Babylon is taken, Bel is confounded, Merodach is overthrown, their graven things are confounded, their idols are overthrown.{VS:BR}'
-      v:003: 'JER:50:3 | 3 | 3 | For a nation is come up against her out of the north, which shall make her land desolate: and there shall be none to dwell therein, from man even to beast: yea they are removed, and gone away.{VS:BR}'
+      v:002: 'JER:50:2 | 2 | 2 | {VS:VERSE:BEGIN}Declare ye among the nations, and publish it, lift up a standard: proclaim, and conceal it not: say: Babylon is taken, {NF:BEGIN 0}Bel{NF:END} is confounded, Merodach is overthrown, their graven things are confounded, their idols are overthrown.{VS:BR}'
+      v:003: 'JER:50:3 | 3 | 3 | For {NF:BEGIN 0}a nation{NF:END} is come up against her out of the north, which shall make her land desolate: and there shall be none to dwell therein, from man even to beast: yea they are removed, and gone away.{VS:BR}'
       v:004: 'JER:50:4 | 4 | 4 | In those days, and at that time, saith the Lord, the children of Israel shall come, they and the children of Juda together: going and weeping they shall make haste, and shall seek the Lord their God.{VS:BR}'
       v:005: 'JER:50:5 | 5 | 5 | They shall ask the way to Sion, their faces are hitherward. They shall come, and shall be joined to the Lord by an everlasting covenant, which shall never be forgotten.{VS:BR}'
       v:006: 'JER:50:6 | 6 | 6 | My people have been a lost flock, their shepherds have caused them to go astray, and have made them wander in the mountains: they have gone from mountain to hill, they have forgotten their resting place.{VS:BR}'
@@ -1618,7 +1682,7 @@ chapters:
       v:013: 'JER:50:13 | 13 | 13 | Because of the wrath of the Lord it shall not be inhabited, but shall be wholly desolate: every one that shall pass by Babylon, shall be astonished, and shall hiss at all her plagues.{VS:BR}'
       v:014: 'JER:50:14 | 14 | 14 | Prepare yourselves against Babylon round about, all you that bend the bow: fight against her, spare not arrows: because she hath sinned against the Lord.{VS:BR}'
       v:015: 'JER:50:15 | 15 | 15 | Shout against her, she hath every where given her hand, her foundations are fallen, her walls are thrown down, for it is the vengeance of the Lord. Take vengeance upon her: as she hath done, so do to her.{VS:BR}'
-      v:016: 'JER:50:16 | 16 | 16 | Destroy the sower out of Babylon, and him that holdeth the sickle in the time of harvest: for fear of the sword of the dove every man shall return to his people, and every one shall flee to his own land.{VS:BR}'
+      v:016: 'JER:50:16 | 16 | 16 | Destroy the sower out of Babylon, and him that holdeth the sickle in the time of harvest: for fear of the sword of {NF:BEGIN 0}the dove{NF:END} every man shall return to his people, and every one shall flee to his own land.{VS:BR}'
       v:017: 'JER:50:17 | 17 | 17 | Israel is a scattered flock, the lions have driven him away: first the king of Assyria devoured him: and last this Nabuchodonosor king of Babylon hath broken his bones.{VS:BR}'
       v:018: 'JER:50:18 | 18 | 18 | Therefore thus saith the Lord of hosts the God of Israel: Behold I will visit the king of Babylon and his land, as I have visited the king of Assyria.{VS:BR}'
       v:019: 'JER:50:19 | 19 | 19 | And I will bring Israel again to his habitation: and he shall feed on Carmel, and Bason, and his soul shall be satisfied in mount Ephraim, and Galaad.{VS:BR}'
@@ -1641,7 +1705,7 @@ chapters:
       v:036: 'JER:50:36 | 36 | 36 | A sword upon her diviners, and they shall be foolish: a sword upon her valiant ones, and they shall be dismayed.{VS:BR}'
       v:037: 'JER:50:37 | 37 | 37 | A sword upon their horses, and upon their chariots, and upon all the people that are in the midst of her: and they shall become as women: a sword upon her treasures, and they shall be made a spoil.{VS:BR}'
       v:038: 'JER:50:38 | 38 | 38 | A drought upon her waters, and they shall be dried up: because it is a land of idols, and they glory in monstrous things.{VS:BR}'
-      v:039: 'JER:50:39 | 39 | 39 | Therefore shall dragons dwell there with the fig fauns: and ostriches shall dwell therein, and it shall be no more inhabited for ever, neither shall it be built up from generation to generation.{VS:BR}'
+      v:039: 'JER:50:39 | 39 | 39 | Therefore shall dragons dwell there with the {NF:BEGIN 0}fig fauns{NF:END}: and ostriches shall dwell therein, and it shall be no more inhabited for ever, neither shall it be built up from generation to generation.{VS:BR}'
       v:040: 'JER:50:40 | 40 | 40 | As the Lord overthrew Sodom and Gomorrha, and their neighbour cities, saith the Lord: no man shall dwell there, neither shall the son of man inhabit it.{VS:BR}'
       v:041: 'JER:50:41 | 41 | 41 | Behold a people cometh from the north, and a great nation, and many kings shall rise from the ends of the earth.{VS:BR}'
       v:042: 'JER:50:42 | 42 | 42 | They shall take the bow and the shield: they are cruel and unmerciful: their voice shall roar like the sea, and they shall ride upon horses: like a man prepared for battle against thee, O daughter of Babylon.{VS:BR}'

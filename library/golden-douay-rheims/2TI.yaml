@@ -4,7 +4,8 @@ chapters:
   c:001:
     footnotes:
       v:010:
-        - note: 'That is, by the bright coming and appearing of our Saviour.</p>'
+        - match: by the illumination
+          note: 'That is, by the bright coming and appearing of our Saviour.</p>'
           quote: By the illumination
     intro: 'He admonishes him to stir up the grace he received by his ordination and not to be discouraged at his sufferings, but to hold firm the sound doctrine of the gospel.'
     verses:
@@ -17,7 +18,7 @@ chapters:
       v:007: '2TI:1:7 | 7 | 7 | For God hath not given us the spirit of fear: but of power and of love and of sobriety.'
       v:008: '2TI:1:8 | 8 | 8 | Be not thou therefore ashamed of the testimony of our Lord, nor of me his prisoner: but labour with the gospel, according to the power of God.'
       v:009: '2TI:1:9 | 9 | 9 | Who hath delivered us and called us by his holy calling, not according to our works, but according to his own purpose and grace, which was given us in Christ Jesus before the times of the world:'
-      v:010: '2TI:1:10 | 10 | 10 | But is now made manifest by the illumination of our Saviour Jesus Christ, who hath destroyed death and hath brought to light life and incorruption by the gospel.'
+      v:010: '2TI:1:10 | 10 | 10 | But is now made manifest {NF:BEGIN 0}by the illumination{NF:END} of our Saviour Jesus Christ, who hath destroyed death and hath brought to light life and incorruption by the gospel.'
       v:011: 2TI:1:11 | 11 | 11 | Wherein I am appointed a preacher and an apostle and teacher of the Gentiles.
       v:012: '2TI:1:12 | 12 | 12 | For which cause, I also suffer these things: but I am not ashamed. for I know whom I have believed and I am certain that he is able to keep that which I have committed unto him, against that day.'
       v:013: '2TI:1:13 | 13 | 13 | Hold the form of sound words which thou hast heard of me: in faith and in the love which is in Christ Jesus.'
@@ -59,11 +60,14 @@ chapters:
   c:003:
     footnotes:
       v:008:
-        - note: 'The magicians of king Pharao.</p>'
+        - match: jannes and mambres
+          note: 'The magicians of king Pharao.</p>'
           quote: Jannes and Mambres
       v:016:
-        - note: 'Every part of divine scripture is certainly profitable for all these ends. But, if we would have the whole rule of Christian faith and practice, we must not be content with those Scriptures, which Timothy knew from his infancy, that is, with the Old Testament alone: nor yet with the New Testament, without taking along with it the traditions of the apostles, and the interpretation of the church, to which the apostles delivered both the book, and the true meaning of it.</p>'
+        - match: 'all scripture,'
+          note: 'Every part of divine scripture is certainly profitable for all these ends. But, if we would have the whole rule of Christian faith and practice, we must not be content with those Scriptures, which Timothy knew from his infancy, that is, with the Old Testament alone: nor yet with the New Testament, without taking along with it the traditions of the apostles, and the interpretation of the church, to which the apostles delivered both the book, and the true meaning of it.</p>'
           quote: 'All scripture,'
+          quote_2: All scripture
     intro: The character of heretics of latter days. He exhorts Timothy to constancy. Of the great profit of the knowledge of the scriptures.
     verses:
       v:001: '2TI:3:1 | 1 | 1 | Know also this, that in the last days shall come dangerous times.'
@@ -73,7 +77,7 @@ chapters:
       v:005: 2TI:3:5 | 5 | 5 | Having an appearance indeed of godliness but denying the power thereof. Now these avoid.
       v:006: '2TI:3:6 | 6 | 6 | For of these sort are they who creep into houses and lead captive silly women laden with sins, who are led away with divers desires:'
       v:007: '2TI:3:7 | 7 | 7 | Ever learning, and never attaining to the knowledge of the truth.'
-      v:008: '2TI:3:8 | 8 | 8 | Now as Jannes and Mambres resisted Moses, so these also resist the truth, men corrupted in mind, reprobate concerning the faith.'
+      v:008: '2TI:3:8 | 8 | 8 | Now as {NF:BEGIN 0}Jannes and Mambres{NF:END} resisted Moses, so these also resist the truth, men corrupted in mind, reprobate concerning the faith.'
       v:009: '2TI:3:9 | 9 | 9 | But they shall proceed no farther: for their folly shall be manifest to all men, as theirs also was.'
       v:010: '2TI:3:10 | 10 | 10 | But thou hast fully known my doctrine, manner of life, purpose, faith, longsuffering, love, patience,'
       v:011: '2TI:3:11 | 11 | 11 | Persecutions, afflictions: such as came upon me at Antioch, at Iconium and at Lystra: what persecutions I endured, and out of them all the Lord delivered me.'
@@ -81,20 +85,22 @@ chapters:
       v:013: '2TI:3:13 | 13 | 13 | But evil men and seducers shall grow worse and worse: erring, and driving into error,'
       v:014: '2TI:3:14 | 14 | 14 | But continue thou in those things which thou hast learned and which have been committed to thee, knowing of whom thou hast learned them:'
       v:015: 2TI:3:15 | 15 | 15 | And because from thy infancy thou hast known the holy scriptures which can instruct thee to salvation by the faith which is in Christ Jesus.
-      v:016: '2TI:3:16 | 16 | 16 | All scripture, inspired of God, is profitable to teach, to reprove, to correct, to instruct in justice:'
+      v:016: '2TI:3:16 | 16 | 16 | {NF:BEGIN 0}All scripture,{NF:END} inspired of God, is profitable to teach, to reprove, to correct, to instruct in justice:'
       v:017: '2TI:3:17 | 17 | 17 | That the man of God may be perfect, furnished to every good work.'
   c:004:
     footnotes:
       v:005:
-        - note: 'a diligent preacher of the gospel.</p>'
+        - match: an evangelist
+          note: 'a diligent preacher of the gospel.</p>'
           quote: An evangelist
+          quote_2: 'An evangelist '
     intro: His charge to Timothy. He tells him of his approaching death and desires him to come to him.
     verses:
       v:001: '2TI:4:1 | 1 | 1 | I charge thee, before God and Jesus Christ, who shall judge the living and the dead, by his coming and his kingdom:'
       v:002: '2TI:4:2 | 2 | 2 | Preach the word: be instant in season, out of season: reprove, entreat, rebuke in all patience and doctrine.'
       v:003: '2TI:4:3 | 3 | 3 | For there shall be a time when they will not endure sound doctrine but, according to their own desires, they will heap to themselves teachers having itching ears:'
       v:004: '2TI:4:4 | 4 | 4 | And will indeed turn away their hearing from the truth, but will be turned unto fables.'
-      v:005: '2TI:4:5 | 5 | 5 | But be thou vigilant, labour in all things, do the work of an evangelist, fulfil thy ministry. Be sober.'
+      v:005: '2TI:4:5 | 5 | 5 | But be thou vigilant, labour in all things, do the work of {NF:BEGIN 0}an evangelist{NF:END}, fulfil thy ministry. Be sober.'
       v:006: '2TI:4:6 | 6 | 6 | For I am even now ready to be sacrificed: and the time of my dissolution is at hand.'
       v:007: '2TI:4:7 | 7 | 7 | I have fought a good fight: I have finished my course: I have kept the faith.'
       v:008: '2TI:4:8 | 8 | 8 | As to the rest, there is laid up for me a crown of justice which the Lord the just judge will render to me in that day: and not only to me, but to them also that love his coming. Make haste to come to me quickly.'

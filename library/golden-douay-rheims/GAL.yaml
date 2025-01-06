@@ -32,10 +32,12 @@ chapters:
   c:002:
     footnotes:
       v:007:
-        - note: 'The preaching of the gospel to the uncircumcised, that is, to the Gentiles. St. Paul was called in an extraordinary manner to be the apostle of the Gentiles; St. Peter, besides his general commission over the whole flock, (John 21. 15, etc.,) had a peculiar charge of the people of the circumcision, that is, of the Jews.</p>'
+        - match: the gospel of the uncircumcision
+          note: 'The preaching of the gospel to the uncircumcised, that is, to the Gentiles. St. Paul was called in an extraordinary manner to be the apostle of the Gentiles; St. Peter, besides his general commission over the whole flock, (John 21. 15, etc.,) had a peculiar charge of the people of the circumcision, that is, of the Jews.</p>'
           quote: The gospel of the uncircumcision
       v:011:
-        - note: "The fault that is here noted in the conduct of St. Peter, was only a certain imprudence, in withdrawing himself from the table of the Gentiles, for fear of giving offence to the Jewish converts; but this, in such circumstances, when his so doing might be of ill consequence to the Gentiles, who might be induced thereby to think themselves obliged to conform to the Jewish way of living, to the prejudice of their Christian liberty. Neither was St. Paul's reprehending him any argument against his supremacy; for in such cases an inferior may, and sometimes ought, with respect, to admonish his superior.</p>"
+        - match: i withstood
+          note: "The fault that is here noted in the conduct of St. Peter, was only a certain imprudence, in withdrawing himself from the table of the Gentiles, for fear of giving offence to the Jewish converts; but this, in such circumstances, when his so doing might be of ill consequence to the Gentiles, who might be induced thereby to think themselves obliged to conform to the Jewish way of living, to the prejudice of their Christian liberty. Neither was St. Paul's reprehending him any argument against his supremacy; for in such cases an inferior may, and sometimes ought, with respect, to admonish his superior.</p>"
           quote: I withstood
     intro: The apostle’s preaching was approved of by the other apostles. The Gentiles were not to be constrained to the observance of the law.
     verses:
@@ -45,11 +47,11 @@ chapters:
       v:004: 'GAL:2:4 | 4 | 4 | But because of false brethren unawares brought in, who came in privately to spy our liberty which we have in Christ Jesus, that they might bring us into servitude.'
       v:005: 'GAL:2:5 | 5 | 5 | To whom we yielded not by subjection: no, not for an hour: that the truth of the gospel might continue with you.'
       v:006: 'GAL:2:6 | 6 | 6 | But of them who seemed to be some thing, (what they were some time it is nothing to me, God accepteth not the person of man): for to me they that seemed to be some thing added nothing.'
-      v:007: 'GAL:2:7 | 7 | 7 | But contrariwise, when they had seen that to me was committed the gospel of the uncircumcision, as to Peter was that of the circumcision.'
+      v:007: 'GAL:2:7 | 7 | 7 | But contrariwise, when they had seen that to me was committed {NF:BEGIN 0}the gospel of the uncircumcision{NF:END}, as to Peter was that of the circumcision.'
       v:008: GAL:2:8 | 8 | 8 | (For he who wrought in Peter to the apostleship of the circumcision wrought in me also among the Gentiles.)
       v:009: 'GAL:2:9 | 9 | 9 | And when they had known the grace that was given to me, James and Cephas and John, who seemed to be pillars, gave to me and Barnabas the right hands of fellowship: that we should go unto the Gentiles, and they unto the circumcision:'
       v:010: 'GAL:2:10 | 10 | 10 | Only that we should be mindful of the poor: which same thing also I was careful to do.{VS:P}'
-      v:011: 'GAL:2:11 | 11 | 11 | But when Cephas was come to Antioch, I withstood him to the face, because he was to be blamed.'
+      v:011: 'GAL:2:11 | 11 | 11 | But when Cephas was come to Antioch, {NF:BEGIN 0}I withstood{NF:END} him to the face, because he was to be blamed.'
       v:012: 'GAL:2:12 | 12 | 12 | For before that some came from James, he did eat with the Gentiles: but when they were come, he withdrew and separated himself, fearing them who were of the circumcision.'
       v:013: 'GAL:2:13 | 13 | 13 | And to his dissimulation the rest of the Jews consented: so that Barnabas also was led by them into that dissimulation.'
       v:014: 'GAL:2:14 | 14 | 14 | But when I saw that they walked not uprightly unto the truth of the gospel, I said to Cephas before them all: If thou, being a Jew, livest after the manner of the Gentiles and not as the Jews do, how dost thou compel the Gentiles to live as do the Jews?{VS:P}'
@@ -63,18 +65,23 @@ chapters:
   c:003:
     footnotes:
       v:019:
-        - note: 'To restrain them from sin, by fear and threats.</p>'
+        - match: because of transgressions
+          note: 'To restrain them from sin, by fear and threats.</p>'
           quote: Because of transgressions
-        - note: 'The law was delivered by angels, speaking in the name and person of God to Moses, who was the mediator, on this occasion, between God and the people.</p>'
+        - match: ordained by angels
+          note: 'The law was delivered by angels, speaking in the name and person of God to Moses, who was the mediator, on this occasion, between God and the people.</p>'
           quote: Ordained by angels
       v:022:
-        - note: 'that is, hath declared all to be under sin, from which they could not be delivered but by faith in Jesus Christ, the promised seed.</p>'
+        - match: hath concluded all under sin
+          note: 'that is, hath declared all to be under sin, from which they could not be delivered but by faith in Jesus Christ, the promised seed.</p>'
           quote: Hath concluded all under sin
       v:024:
-        - note: 'That is, schoolmaster, conductor, or instructor.</p>'
+        - match: pedagogue
+          note: 'That is, schoolmaster, conductor, or instructor.</p>'
           quote: Pedagogue
       v:028:
-        - note: 'That is, no distinction of Jew, etc.</p>'
+        - match: neither jew
+          note: 'That is, no distinction of Jew, etc.</p>'
           quote: Neither Jew
     intro: 'The Spirit, and the blessing promised to Abraham cometh not by the law, but by faith.'
     verses:
@@ -96,37 +103,39 @@ chapters:
       v:016: 'GAL:3:16 | 16 | 16 | To Abraham were the promises made and to his seed. He saith not: And to his seeds as of many. But as of one: And to thy seed, which is Christ.'
       v:017: 'GAL:3:17 | 17 | 17 | Now this I say: that the testament which was confirmed by God, the law which was made after four hundred and thirty years doth not disannul, to make the promise of no effect.'
       v:018: 'GAL:3:18 | 18 | 18 | For if the inheritance be of the law, it is no more of promise. But God gave it to Abraham by promise.{VS:P}'
-      v:019: 'GAL:3:19 | 19 | 19 | Why then was the law? It was set because of transgressions, until the seed should come to whom he made the promise, being ordained by angels in the hand of a mediator.'
+      v:019: 'GAL:3:19 | 19 | 19 | Why then was the law? It was set {NF:BEGIN 0}because of transgressions{NF:END}, until the seed should come to whom he made the promise, being {NF:BEGIN 1}ordained by angels{NF:END} in the hand of a mediator.'
       v:020: 'GAL:3:20 | 20 | 20 | Now a mediator is not of one: but God is one.'
       v:021: 'GAL:3:21 | 21 | 21 | Was the law then against the promises of God: God forbid! for if there had been a law given which could give life, verily justice should have been by the law.'
-      v:022: 'GAL:3:22 | 22 | 22 | But the scripture hath concluded all under sin, that the promise, by the faith of Jesus Christ, might be given to them that believe.'
+      v:022: 'GAL:3:22 | 22 | 22 | But the scripture {NF:BEGIN 0}hath concluded all under sin{NF:END}, that the promise, by the faith of Jesus Christ, might be given to them that believe.'
       v:023: 'GAL:3:23 | 23 | 23 | But before the faith came, we were kept under the law shut up, unto that faith which was to be revealed.'
-      v:024: 'GAL:3:24 | 24 | 24 | Wherefore the law was our pedagogue in Christ: that we might be justified by faith.'
+      v:024: 'GAL:3:24 | 24 | 24 | Wherefore the law was our {NF:BEGIN 0}pedagogue{NF:END} in Christ: that we might be justified by faith.'
       v:025: 'GAL:3:25 | 25 | 25 | But after the faith is come, we are no longer under a pedagogue.{VS:P}'
       v:026: 'GAL:3:26 | 26 | 26 | For you are all the children of God, by faith in Christ Jesus.'
       v:027: GAL:3:27 | 27 | 27 | For as many of you as have been baptized in Christ have put on Christ.
-      v:028: 'GAL:3:28 | 28 | 28 | There is neither Jew nor Greek: there is neither bond nor free: there is neither male nor female. for you are all one in Christ Jesus.'
+      v:028: 'GAL:3:28 | 28 | 28 | There is {NF:BEGIN 0}neither Jew{NF:END} nor Greek: there is neither bond nor free: there is neither male nor female. for you are all one in Christ Jesus.'
       v:029: "GAL:3:29 | 29 | 29 | And if you be Christ's, then are you the seed of Abraham, heirs according to the promise."
   c:004:
     footnotes:
       v:003:
-        - note: 'That is, under the first rudiments of religion, in which the carnal Jews were trained up; or under those corporeal creatures, used in their manifold rites, sacrifices, and sacraments.</p>'
+        - match: under the elements
+          note: 'That is, under the first rudiments of religion, in which the carnal Jews were trained up; or under those corporeal creatures, used in their manifold rites, sacrifices, and sacraments.</p>'
           quote: Under the elements
       v:010:
-        - note: "He speaks not of the observation of the Lord's day, or other Christian festivals; but either of the superstitious observation of days lucky and unlucky; or else of the Jewish festivals, to the observance of which, certain Jewish teachers sought to induce the Galatians.</p>"
+        - match: you observe days
+          note: "He speaks not of the observation of the Lord's day, or other Christian festivals; but either of the superstitious observation of days lucky and unlucky; or else of the Jewish festivals, to the observance of which, certain Jewish teachers sought to induce the Galatians.</p>"
           quote: You observe days
     intro: Christ has freed us from the servitude of the law. We are the freeborn sons of Abraham.
     verses:
       v:001: 'GAL:4:1 | 1 | 1 | Now I say, as long as the heir is a child, he differeth nothing from a servant, though he be lord of all,'
       v:002: GAL:4:2 | 2 | 2 | But is under tutors and governors until the time appointed by the father.
-      v:003: 'GAL:4:3 | 3 | 3 | So we also, when we were children, were serving under the elements of the world.'
+      v:003: 'GAL:4:3 | 3 | 3 | So we also, when we were children, were serving {NF:BEGIN 0}under the elements{NF:END} of the world.'
       v:004: 'GAL:4:4 | 4 | 4 | But when the fulness of the time was come, God sent his Son, made of a woman, made under the law:'
       v:005: 'GAL:4:5 | 5 | 5 | That he might redeem them who were under the law: that we might receive the adoption of sons.'
       v:006: 'GAL:4:6 | 6 | 6 | And because you are sons, God hath sent the Spirit of his Son into your hearts, crying: Abba, Father.'
       v:007: 'GAL:4:7 | 7 | 7 | Therefore, now he is not a servant, but a son. And if a son, an heir also through God.{VS:P}'
       v:008: 'GAL:4:8 | 8 | 8 | But then indeed, not knowing God, you served them who, by nature, are not gods.'
       v:009: 'GAL:4:9 | 9 | 9 | But now, after that you have known God, or rather are known by God: how turn you again to the weak and needy elements which you desire to serve again?'
-      v:010: 'GAL:4:10 | 10 | 10 | You observe days and months and times, and years.'
+      v:010: 'GAL:4:10 | 10 | 10 | {NF:BEGIN 0}You observe days{NF:END} and months and times, and years.'
       v:011: 'GAL:4:11 | 11 | 11 | I am afraid of you, lest perhaps I have laboured in vain among you.{VS:P}'
       v:012: 'GAL:4:12 | 12 | 12 | Be ye as I, because I also am as you brethren, I beseech you. You have not injured me at all.'
       v:013: 'GAL:4:13 | 13 | 13 | And you know how, through infirmity of the flesh, I preached the gospel to you heretofore: and your temptation in my flesh.'

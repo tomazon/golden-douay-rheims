@@ -4,16 +4,20 @@ chapters:
   c:001:
     footnotes:
       v:005:
-        - note: 'that is, of the rank of Abia, which word in the Greek is commonly put for the employment of one day: but here for the functions of a whole week. For, by the appointment of David, 1 Par. 24., the descendants from Aaron were divided into twenty-four families, of which the eighth was Abia, from whom descended this Zachary, who at this time was in the week of his priestly functions.</p>'
+        - match: of the course of abia
+          note: 'that is, of the rank of Abia, which word in the Greek is commonly put for the employment of one day: but here for the functions of a whole week. For, by the appointment of David, 1 Par. 24., the descendants from Aaron were divided into twenty-four families, of which the eighth was Abia, from whom descended this Zachary, who at this time was in the week of his priestly functions.</p>'
           quote: Of the course of Abia
       v:048:
-        - note: 'These words are a prediction of that honour which the church in all ages should pay to the Blessed Virgin. Let Protestants examine whether they are any way concerned in this prophecy.</p>'
+        - match: shall call me blessed
+          note: 'These words are a prediction of that honour which the church in all ages should pay to the Blessed Virgin. Let Protestants examine whether they are any way concerned in this prophecy.</p>'
           quote: Shall call me blessed
       v:069:
-        - note: 'That is, A powerful salvation, as Dr. Witham translates it. For in the Scripture, by horn is generally understood strength and power.</p>'
+        - match: horn of salvation
+          note: 'That is, A powerful salvation, as Dr. Witham translates it. For in the Scripture, by horn is generally understood strength and power.</p>'
           quote: Horn of salvation
       v:078:
-        - note: 'It is one of the titles of the Messias, the true light of the world, and the sun of justice.</p>'
+        - match: the orient
+          note: 'It is one of the titles of the Messias, the true light of the world, and the sun of justice.</p>'
           quote: The Orient
     intro: 'The conception of John the Baptist, and of Christ. The visitation and canticle of the Blessed Virgin. The birth of the Baptist and the canticle of Zachary.'
     verses:
@@ -21,7 +25,7 @@ chapters:
       v:002: 'LUK:1:2 | 2 | 2 | According as they have delivered them unto us, who from the beginning were eyewitnesses and ministers of the word:'
       v:003: 'LUK:1:3 | 3 | 3 | It seemed good to me also, having diligently attained to all things from the beginning, to write to thee in order, most excellent Theophilus,'
       v:004: 'LUK:1:4 | 4 | 4 | That thou mayest know the verity of those words in which thou hast been instructed.{VS:P}'
-      v:005: 'LUK:1:5 | 5 | 5 | There was in the days of Herod, the king of Judea, a certain priest named Zachary, of the course of Abia: and his wife was of the daughters of Aaron, and her name Elizabeth.'
+      v:005: 'LUK:1:5 | 5 | 5 | There was in the days of Herod, the king of Judea, a certain priest named Zachary, {NF:BEGIN 0}of the course of Abia{NF:END}: and his wife was of the daughters of Aaron, and her name Elizabeth.'
       v:006: 'LUK:1:6 | 6 | 6 | And they were both just before God, walking in all the commandments and justifications of the Lord without blame.'
       v:007: 'LUK:1:7 | 7 | 7 | And they had no son, for that Elizabeth was barren: and they both were well advanced in years.'
       v:008: 'LUK:1:8 | 8 | 8 | And it came to pass, when he executed the priestly function in the order of his course before God,'
@@ -64,7 +68,7 @@ chapters:
       v:045: 'LUK:1:45 | 45 | 45 | And blessed art thou that hast believed, because those things shall be accomplished that were spoken to thee by the Lord.'
       v:046: 'LUK:1:46 | 46 | 46 | And Mary said: My soul doth magnify the Lord.{VS:BR}'
       v:047: 'LUK:1:47 | 47 | 47 | And my spirit hath rejoiced in God my Saviour.{VS:BR}'
-      v:048: 'LUK:1:48 | 48 | 48 | Because he hath regarded the humility of his handmaid: for behold from henceforth all generations shall call me blessed.{VS:BR}'
+      v:048: 'LUK:1:48 | 48 | 48 | Because he hath regarded the humility of his handmaid: for behold from henceforth all generations {NF:BEGIN 0}shall call me blessed{NF:END}.{VS:BR}'
       v:049: 'LUK:1:49 | 49 | 49 | Because he that is mighty hath done great things to me: and holy is his name.{VS:BR}'
       v:050: 'LUK:1:50 | 50 | 50 | And his mercy is from generation unto generations, to them that fear him.{VS:BR}'
       v:051: 'LUK:1:51 | 51 | 51 | He hath shewed might in his arm: he hath scattered the proud in the conceit of their heart.{VS:BR}'
@@ -85,7 +89,7 @@ chapters:
       v:066: 'LUK:1:66 | 66 | 66 | And all they that had heard them laid them up in their heart, saying: What an one, think ye, shall this child be? for the hand of the Lord was with him.'
       v:067: 'LUK:1:67 | 67 | 67 | And Zachary his father was filled with the Holy Ghost. And he prophesied, saying:'
       v:068: 'LUK:1:68 | 68 | 68 | {VS:VERSE:BEGIN}Blessed be the Lord God of Israel: because he hath visited and wrought the redemption of his people.{VS:BR}'
-      v:069: 'LUK:1:69 | 69 | 69 | And hath raised up an horn of salvation to us, in the house of David his servant.{VS:BR}'
+      v:069: 'LUK:1:69 | 69 | 69 | And hath raised up an {NF:BEGIN 0}horn of salvation{NF:END} to us, in the house of David his servant.{VS:BR}'
       v:070: 'LUK:1:70 | 70 | 70 | As he spoke by the mouth of his holy prophets, who are from the beginning.{VS:BR}'
       v:071: 'LUK:1:71 | 71 | 71 | Salvation from our enemies and from the hand of all that hate us.{VS:BR}'
       v:072: 'LUK:1:72 | 72 | 72 | To perform mercy to our fathers and to remember his holy testament.{VS:BR}'
@@ -94,16 +98,18 @@ chapters:
       v:075: 'LUK:1:75 | 75 | 75 | In holiness and justice before him, all our days.{VS:BR}'
       v:076: 'LUK:1:76 | 76 | 76 | And thou, child, shalt be called the prophet of the Highest: for thou shalt, go before the face of the Lord to prepare his ways:{VS:BR}'
       v:077: 'LUK:1:77 | 77 | 77 | To give knowledge of salvation to his people, unto the remission of their sins.{VS:BR}'
-      v:078: 'LUK:1:78 | 78 | 78 | Through the bowels of the mercy of our God, in which the Orient from on high hath visited us:{VS:BR}'
+      v:078: 'LUK:1:78 | 78 | 78 | Through the bowels of the mercy of our God, in which {NF:BEGIN 0}the Orient{NF:END} from on high hath visited us:{VS:BR}'
       v:079: 'LUK:1:79 | 79 | 79 | To enlighten them that sit in darkness and in the shadow of death: to direct our feet into the way of peace.{VS:VERSE:END}'
       v:080: 'LUK:1:80 | 80 | 80 | And the child grew and was strengthened in spirit: and was in the deserts until the day of his manifestation to Israel.'
   c:002:
     footnotes:
       v:007:
-        - note: 'The meaning is, not that she had afterward any other child; but it is a way of speech among the Hebrews, to call them also the firstborn, who are the only children. See annotation Matt. 1. 25.</p>'
+        - match: her firstborn
+          note: 'The meaning is, not that she had afterward any other child; but it is a way of speech among the Hebrews, to call them also the firstborn, who are the only children. See annotation Matt. 1. 25.</p>'
           quote: Her firstborn
       v:034:
-        - note: 'Christ came for the salvation of all men; but here Simeon prophesies what would come to pass, that many through their own wilful blindness and obstinacy would not believe in Christ, nor receive his doctrine, which therefore would be ruin to them: but to others a resurrection, by their believing in him, and obeying his commandments.</p>'
+        - match: for the fall
+          note: 'Christ came for the salvation of all men; but here Simeon prophesies what would come to pass, that many through their own wilful blindness and obstinacy would not believe in Christ, nor receive his doctrine, which therefore would be ruin to them: but to others a resurrection, by their believing in him, and obeying his commandments.</p>'
           quote: For the fall
     intro: 'The birth of Christ. His presentation in the temple. Simeon’s prophecy. Christ at twelve years of age, is found amongst the doctors.'
     verses:
@@ -140,7 +146,7 @@ chapters:
       v:031: 'LUK:2:31 | 31 | 31 | Which thou hast prepared before the face of all peoples:{VS:BR}'
       v:032: 'LUK:2:32 | 32 | 32 | A light to the revelation of the Gentiles and the glory of thy people Israel.{VS:VERSE:END}'
       v:033: LUK:2:33 | 33 | 33 | And his father and mother were wondering at those things which were spoken concerning him.
-      v:034: 'LUK:2:34 | 34 | 34 | And Simeon blessed them and said to Mary his mother: Behold this child is set for the fall and for the resurrection of many in Israel and for a sign which shall be contradicted.'
+      v:034: 'LUK:2:34 | 34 | 34 | And Simeon blessed them and said to Mary his mother: Behold this child is set {NF:BEGIN 0}for the fall{NF:END} and for the resurrection of many in Israel and for a sign which shall be contradicted.'
       v:035: 'LUK:2:35 | 35 | 35 | And thy own soul a sword shall pierce, that, out of many hearts thoughts may be revealed.'
       v:036: 'LUK:2:36 | 36 | 36 | And there was one Anna, a prophetess, the daughter of Phanuel, of the tribe of Aser. She was far advanced in years and had lived with her husband seven years from her virginity.'
       v:037: 'LUK:2:37 | 37 | 37 | And she was a widow until fourscore and four years: who departed not from the temple, by fastings and prayers serving night and day.'
@@ -162,7 +168,8 @@ chapters:
   c:003:
     footnotes:
       v:023:
-        - note: 'St. Joseph, who by nature was the son of Jacob, (St. Matt. 1. 16,) in the account of the law, was son of Heli. For Heli and Jacob were brothers, by the same mother; and Heli, who was the elder, dying without issue, Jacob, as the law directed, married his widow: in consequence of such marriage, his son Joseph was reputed in the law the son of Heli.</p>'
+        - match: who was of heli
+          note: 'St. Joseph, who by nature was the son of Jacob, (St. Matt. 1. 16,) in the account of the law, was son of Heli. For Heli and Jacob were brothers, by the same mother; and Heli, who was the elder, dying without issue, Jacob, as the law directed, married his widow: in consequence of such marriage, his son Joseph was reputed in the law the son of Heli.</p>'
           quote: Who was of Heli
     intro: John’s mission and preaching. Christ is baptized by him.
     verses:
@@ -188,7 +195,7 @@ chapters:
       v:020: 'LUK:3:20 | 20 | 20 | He added this also above all and shut up John in prison.{VS:P}'
       v:021: 'LUK:3:21 | 21 | 21 | Now it came to pass, when all the people were baptized, that Jesus also being baptized and praying, heaven was opened.'
       v:022: 'LUK:3:22 | 22 | 22 | And the Holy Ghost descended in a bodily shape, as a dove, upon him. And a voice came from heaven: Thou art my beloved Son. In thee I am well pleased.'
-      v:023: 'LUK:3:23 | 23 | 23 | And Jesus himself was beginning about the age of thirty years: being (as it was supposed) the son of Joseph, who was of Heli, who was of Mathat,'
+      v:023: 'LUK:3:23 | 23 | 23 | And Jesus himself was beginning about the age of thirty years: being (as it was supposed) the son of Joseph, {NF:BEGIN 0}who was of Heli{NF:END}, who was of Mathat,'
       v:024: 'LUK:3:24 | 24 | 24 | Who was of Levi, who was of Melchi, who was of Janne, who was of Joseph,'
       v:025: 'LUK:3:25 | 25 | 25 | Who was of Mathathias, who was of Amos, who was of Nahum, who was of Hesli, who was of Nagge,'
       v:026: 'LUK:3:26 | 26 | 26 | Who was of Mahath, who was of Mathathias, who was of Semei, who was of Joseph, who was of Juda,'
@@ -298,11 +305,12 @@ chapters:
   c:006:
     footnotes:
       v:001:
-        - note: 'Some understand this of the sabbath of Pentecost, which was the second in course among the great feasts: others, of a sabbath day that immediately followed any solemn feast.</p>'
+        - match: the second first sabbath
+          note: 'Some understand this of the sabbath of Pentecost, which was the second in course among the great feasts: others, of a sabbath day that immediately followed any solemn feast.</p>'
           quote: The second first sabbath
     intro: 'Christ excuses his disciples. He cures upon the sabbath day, chooses the twelve and makes a sermon to them.'
     verses:
-      v:001: 'LUK:6:1 | 1 | 1 | And it came to pass on the second first sabbath that, as he went through the corn fields, his disciples plucked the ears and did eat, rubbing them in their hands.'
+      v:001: 'LUK:6:1 | 1 | 1 | And it came to pass on {NF:BEGIN 0}the second first sabbath{NF:END} that, as he went through the corn fields, his disciples plucked the ears and did eat, rubbing them in their hands.'
       v:002: 'LUK:6:2 | 2 | 2 | And some of the Pharisees said to them: Why do you that which is not lawful on the sabbath days?'
       v:003: 'LUK:6:3 | 3 | 3 | And Jesus answering them, said: Have you not read so much as this, what David did, when himself was hungry and they that were with him:'
       v:004: 'LUK:6:4 | 4 | 4 | How he went into the house of God and took and ate the bread of proposition and gave to them that were with him, which is not lawful to eat but only for the priests?'
@@ -354,13 +362,16 @@ chapters:
   c:007:
     footnotes:
       v:029:
-        - note: 'that is, praised the justice of God, feared and worshipped God, as just and merciful.</p>'
+        - match: justified god
+          note: 'that is, praised the justice of God, feared and worshipped God, as just and merciful.</p>'
           quote: Justified God
       v:036:
-        - note: 'that is, Simon.</p>'
+        - match: one of the pharisees
+          note: 'that is, Simon.</p>'
           quote: One of the Pharisees
       v:047:
-        - note: 'In the scripture an effect sometimes seems attributed to one only cause, when there are divers other concurring dispositions; for the sins of this woman, in this verse, are said to be forgiven, because she loved much: but (ver. 50) Christ tells her, Thy faith hath made thee safe. Hence in a true conversion are joined faith, hope, love, sorrow for sin, and other pious dispositions.</p>'
+        - match: 'many sins are forgiven her, because she hath loved much'
+          note: 'In the scripture an effect sometimes seems attributed to one only cause, when there are divers other concurring dispositions; for the sins of this woman, in this verse, are said to be forgiven, because she loved much: but (ver. 50) Christ tells her, Thy faith hath made thee safe. Hence in a true conversion are joined faith, hope, love, sorrow for sin, and other pious dispositions.</p>'
           quote: 'Many sins are forgiven her, because she hath loved much'
     intro: 'Christ heals the centurion’s servant. He raises the widow’s son to life, answers the messengers sent by John and absolves the penitent sinner.'
     verses:
@@ -392,14 +403,14 @@ chapters:
       v:026: 'LUK:7:26 | 26 | 26 | But what went you out to see? A prophet? Yea, I say to you, and more than a prophet.'
       v:027: 'LUK:7:27 | 27 | 27 | This is he of whom it is written: Behold I send my angel before thy face, who shall prepare thy way before thee.'
       v:028: 'LUK:7:28 | 28 | 28 | For I say to you: Amongst those that are born of women, there is not a greater prophet than John the Baptist. But he that is the lesser in the kingdom of God is greater than he.{VS:P}'
-      v:029: "LUK:7:29 | 29 | 29 | And all the people hearing, and the publicans, justified God, being baptized with John's baptism."
+      v:029: "LUK:7:29 | 29 | 29 | And all the people hearing, and the publicans, {NF:BEGIN 0}justified God{NF:END}, being baptized with John's baptism."
       v:030: 'LUK:7:30 | 30 | 30 | But the Pharisees and the lawyers despised the counsel of God against themselves, being not baptized by him.'
       v:031: 'LUK:7:31 | 31 | 31 | And the Lord said: Whereunto then shall I liken the men of this generation? And to what are they like?'
       v:032: 'LUK:7:32 | 32 | 32 | They are like to children sitting in the marketplace and speaking one to another and saying: We have piped to you, and you have not danced: we have mourned, and you have not wept.'
       v:033: 'LUK:7:33 | 33 | 33 | For John the Baptist came neither eating bread nor drinking wine. And you say: He hath a devil.'
       v:034: 'LUK:7:34 | 34 | 34 | The Son of man is come eating and drinking. And you say: Behold a man that is a glutton and a drinker of wine, a friend of publicans and sinners.'
       v:035: 'LUK:7:35 | 35 | 35 | And wisdom is justified by all her children.{VS:P}'
-      v:036: LUK:7:36 | 36 | 36 | And one of the Pharisees desired him to eat with him. And he went into the house of the Pharisee and sat down to meat.
+      v:036: 'LUK:7:36 | 36 | 36 | And {NF:BEGIN 0}one of the Pharisees{NF:END} desired him to eat with him. And he went into the house of the Pharisee and sat down to meat.'
       v:037: "LUK:7:37 | 37 | 37 | And behold a woman that was in the city, a sinner, when she knew that he sat at meat in the Pharisee's house, brought an alabaster box of ointment."
       v:038: 'LUK:7:38 | 38 | 38 | And standing behind at his feet, she began to wash his feet with tears and wiped them with the hairs of her head and kissed his feet and anointed them with the ointment.'
       v:039: 'LUK:7:39 | 39 | 39 | And the Pharisee, who had invited him, seeing it, spoke within himself, saying: This man, if he were if a prophet, would know surely who and what manner of woman this is that toucheth him, that she is a sinner.'
@@ -410,14 +421,15 @@ chapters:
       v:044: 'LUK:7:44 | 44 | 44 | And turning to the woman, he said unto Simon: Dost thou see this woman? I entered into thy house: thou gavest me no water for my feet. But she with tears hath washed my feet; and with her hairs hath wiped them.'
       v:045: 'LUK:7:45 | 45 | 45 | Thou gavest me no kiss. But she, since she came in, hath not ceased to kiss my feet.'
       v:046: LUK:7:46 | 46 | 46 | My head with oil thou didst not anoint. But she with ointment hath anointed my feet.
-      v:047: 'LUK:7:47 | 47 | 47 | Wherefore, I say to thee: Many sins are forgiven her, because she hath loved much. But to whom less is forgiven, he loveth less.'
+      v:047: 'LUK:7:47 | 47 | 47 | Wherefore, I say to thee: {NF:BEGIN 0}Many sins are forgiven her, because she hath loved much{NF:END}. But to whom less is forgiven, he loveth less.'
       v:048: 'LUK:7:48 | 48 | 48 | And he said to her: Thy sins are forgiven thee.'
       v:049: 'LUK:7:49 | 49 | 49 | And they that sat at meat with him began to say within themselves: Who is this that forgiveth sins also?'
       v:050: 'LUK:7:50 | 50 | 50 | And he said to the woman: Thy faith hath made thee safe. Go in peace.'
   c:008:
     footnotes:
       v:010:
-        - note: 'See the annotation, Mark 4. 12.</p>'
+        - match: seeing they may not see
+          note: 'See the annotation, Mark 4. 12.</p>'
           quote: Seeing they may not see
     intro: 'The parable of the seed. Christ stills the storm at sea, casts out the legion, heals the issue of blood and raises the daughter of Jairus to life.'
     verses:
@@ -430,7 +442,7 @@ chapters:
       v:007: 'LUK:8:7 | 7 | 7 | And other some fell among thorns. And the thorns growing up with it, choked it.'
       v:008: 'LUK:8:8 | 8 | 8 | And other some fell upon good ground and, being sprung up, yielded fruit a hundredfold. Saying these things, he cried out: He that hath ears to hear, let him hear.{VS:P}'
       v:009: LUK:8:9 | 9 | 9 | And his disciples asked him what this parable might be.
-      v:010: 'LUK:8:10 | 10 | 10 | To whom he said: To you it is given to know the mystery of the kingdom of God; but to the rest in parables, that seeing they may not see and hearing may not understand.{VS:P}'
+      v:010: 'LUK:8:10 | 10 | 10 | To whom he said: To you it is given to know the mystery of the kingdom of God; but to the rest in parables, that {NF:BEGIN 0}seeing they may not see{NF:END} and hearing may not understand.{VS:P}'
       v:011: 'LUK:8:11 | 11 | 11 | Now the parable is this: The seed is the word of God.'
       v:012: 'LUK:8:12 | 12 | 12 | And they by the way side are they that hear: then the devil cometh and taketh the word out of their heart, lest believing they should be saved.'
       v:013: 'LUK:8:13 | 13 | 13 | Now they upon the rock are they who when they hear receive the word with joy: and these have no roots: for they believe for a while and in time of temptation they fall away.'
@@ -546,7 +558,8 @@ chapters:
   c:010:
     footnotes:
       v:021:
-        - note: 'That is, according to his humanity he rejoiced in the Holy Ghost, and gave thanks to his eternal Father.</p>'
+        - match: he rejoiced in the holy ghost
+          note: 'That is, according to his humanity he rejoiced in the Holy Ghost, and gave thanks to his eternal Father.</p>'
           quote: He rejoiced in the Holy Ghost
     intro: Christ sends forth and instructs his seventy-two disciples. The good Samaritan.
     verses:
@@ -570,7 +583,7 @@ chapters:
       v:018: 'LUK:10:18 | 18 | 18 | And he said to them: I saw Satan like lightning falling from heaven.'
       v:019: 'LUK:10:19 | 19 | 19 | Behold, I have given you power to tread upon serpents and scorpions and upon all the power of the enemy: and nothing shall hurt you.'
       v:020: 'LUK:10:20 | 20 | 20 | But yet rejoice not in this, that spirits are subject unto you: but rejoice in this, that your names are written in heaven.{VS:P}'
-      v:021: 'LUK:10:21 | 21 | 21 | In that same hour, he rejoiced in the Holy Ghost and said: I confess to thee, O Father, Lord of heaven and earth, because thou hast hidden these things from the wise and prudent and hast revealed them to little ones. Yea, Father, for so it hath seemed good in thy sight.'
+      v:021: 'LUK:10:21 | 21 | 21 | In that same hour, {NF:BEGIN 0}he rejoiced in the Holy Ghost{NF:END} and said: I confess to thee, O Father, Lord of heaven and earth, because thou hast hidden these things from the wise and prudent and hast revealed them to little ones. Yea, Father, for so it hath seemed good in thy sight.'
       v:022: 'LUK:10:22 | 22 | 22 | All things are delivered to me by my Father. And no one knoweth who the Son is, but the Father: and who the Father is, but the Son and to whom the Son will reveal him.'
       v:023: 'LUK:10:23 | 23 | 23 | And turning to his disciples, he said: Blessed are the eyes that see the things which you see.'
       v:024: 'LUK:10:24 | 24 | 24 | For I say to you that many prophets and kings have desired to see the things that you see and have not seen them; and to hear the things that you hear and have not heard them.{VS:P}'
@@ -595,10 +608,12 @@ chapters:
   c:011:
     footnotes:
       v:046:
-        - note: 'He speaks of the doctors of the law of Moses, commonly called the scribes.</p>'
+        - match: woe to you lawyers
+          note: 'He speaks of the doctors of the law of Moses, commonly called the scribes.</p>'
           quote: Woe to you lawyers
       v:047:
-        - note: 'Not that the building of the monuments of the prophets was in itself blameworthy, but only the intention of these unhappy men, who made use of this outward shew of religion and piety, as a means to carry on their wicked designs against the prince of prophets.</p>'
+        - match: woe to you who build
+          note: 'Not that the building of the monuments of the prophets was in itself blameworthy, but only the intention of these unhappy men, who made use of this outward shew of religion and piety, as a means to carry on their wicked designs against the prince of prophets.</p>'
           quote: Woe to you who build
     intro: 'Christ teaches his disciples to pray. He casts out a dumb devil, confutes the Pharisees, and pronounces woes against them for their hypocrisy.'
     verses:
@@ -647,8 +662,8 @@ chapters:
       v:043: 'LUK:11:43 | 43 | 43 | Woe to you, Pharisees, because you love the uppermost seats in the synagogues and salutations in the marketplace.'
       v:044: 'LUK:11:44 | 44 | 44 | Woe to you, because you are as sepulchres that appear not: and men that walk over are not aware.'
       v:045: 'LUK:11:45 | 45 | 45 | And one of the lawyers answering, saith to him: Master, in saying these things, thou reproachest us also.'
-      v:046: 'LUK:11:46 | 46 | 46 | But he said: Woe to you lawyers also, because you load men with burdens which they cannot bear and you yourselves touch not the packs with one of your fingers.'
-      v:047: 'LUK:11:47 | 47 | 47 | Woe to you who build the monuments of the prophets: and your fathers killed them.'
+      v:046: 'LUK:11:46 | 46 | 46 | But he said: {NF:BEGIN 0}Woe to you lawyers{NF:END} also, because you load men with burdens which they cannot bear and you yourselves touch not the packs with one of your fingers.'
+      v:047: 'LUK:11:47 | 47 | 47 | {NF:BEGIN 0}Woe to you who build{NF:END} the monuments of the prophets: and your fathers killed them.'
       v:048: 'LUK:11:48 | 48 | 48 | Truly you bear witness that you consent to the doings of your fathers. for they indeed killed them: and you build their sepulchres.'
       v:049: 'LUK:11:49 | 49 | 49 | For this cause also the wisdom of God said: I will send to them prophets and apostles: and some of them they will kill and persecute.'
       v:050: 'LUK:11:50 | 50 | 50 | That the blood of all the prophets which was shed from the foundation of the world may be required of this generation,'
@@ -722,7 +737,8 @@ chapters:
   c:013:
     footnotes:
       v:024:
-        - note: 'Shall desire to be saved; but for want of taking sufficient pains, and being thoroughly in earnest, shall not attain to it.</p>'
+        - match: shall seek
+          note: 'Shall desire to be saved; but for want of taking sufficient pains, and being thoroughly in earnest, shall not attain to it.</p>'
           quote: Shall seek
     intro: The necessity of penance. The barren fig tree. The cure of the infirm woman. The journey to Jerusalem.
     verses:
@@ -749,7 +765,7 @@ chapters:
       v:021: 'LUK:13:21 | 21 | 21 | It is like to leaven, which a woman took and hid in three measures of meal, till the whole was leavened.{VS:P}'
       v:022: LUK:13:22 | 22 | 22 | And he went through the cities and towns teaching and making his journey to Jerusalem.
       v:023: 'LUK:13:23 | 23 | 23 | And a certain man said to him: Lord, are they few that are saved? But he said to them:'
-      v:024: 'LUK:13:24 | 24 | 24 | Strive to enter by the narrow gate: for many, I say to you, shall seek to enter and shall not be able.'
+      v:024: 'LUK:13:24 | 24 | 24 | Strive to enter by the narrow gate: for many, I say to you, {NF:BEGIN 0}shall seek{NF:END} to enter and shall not be able.'
       v:025: 'LUK:13:25 | 25 | 25 | But when the master of the house shall be gone in and shall shut the door, you shall begin to stand without; and knock at the door, saying: Lord, open to us. And he answering, shall say to you: I know you not, whence you are.'
       v:026: 'LUK:13:26 | 26 | 26 | Then you shall begin to say: We have eaten and drunk in thy presence: and thou hast taught in our streets.'
       v:027: 'LUK:13:27 | 27 | 27 | And he shall say to you: I know you not, whence you are. Depart from me, all ye workers of iniquity.'
@@ -764,7 +780,8 @@ chapters:
   c:014:
     footnotes:
       v:026:
-        - note: 'The law of Christ does not allow us to hate even our enemies, much less our parents: but the meaning of the text is, that we must be in that disposition of soul, as to be willing to renounce, and part with every thing, how near or dear soever it may be to us, that would keep us from following Christ.</p>'
+        - match: hate not
+          note: 'The law of Christ does not allow us to hate even our enemies, much less our parents: but the meaning of the text is, that we must be in that disposition of soul, as to be willing to renounce, and part with every thing, how near or dear soever it may be to us, that would keep us from following Christ.</p>'
           quote: Hate not
     intro: Christ heals the dropsical man. The parable of the supper. The necessity of renouncing all to follow Christ.
     verses:
@@ -793,7 +810,7 @@ chapters:
       v:023: 'LUK:14:23 | 23 | 23 | And the Lord said to the servant: Go out into the highways and hedges, and compel them to come in, that my house may be filled.'
       v:024: 'LUK:14:24 | 24 | 24 | But I say unto you that none of those men that were invited shall taste of my supper.{VS:P}'
       v:025: 'LUK:14:25 | 25 | 25 | And there went great multitudes with him. And turning, he said to them:'
-      v:026: 'LUK:14:26 | 26 | 26 | If any man come to me, and hate not his father and mother and wife and children and brethren and sisters, yea and his own life also, he cannot be my disciple.'
+      v:026: 'LUK:14:26 | 26 | 26 | If any man come to me, and {NF:BEGIN 0}hate not{NF:END} his father and mother and wife and children and brethren and sisters, yea and his own life also, he cannot be my disciple.'
       v:027: LUK:14:27 | 27 | 27 | And whosoever doth not carry his cross and come after me cannot be my disciple.
       v:028: 'LUK:14:28 | 28 | 28 | For which of you, having a mind to build a tower, doth not first sit down and reckon the charges that are necessary, whether he have wherewithal to finish it:'
       v:029: 'LUK:14:29 | 29 | 29 | Lest, after he hath laid the foundation and is not able to finish it, all that see it begin to mock him,'
@@ -806,7 +823,8 @@ chapters:
   c:015:
     footnotes:
       v:010:
-        - note: 'By this it is plain that the spirits in heaven have a concern for us below, and a joy at our repentance and consequently a knowledge of it.</p>'
+        - match: before the angels
+          note: 'By this it is plain that the spirits in heaven have a concern for us below, and a joy at our repentance and consequently a knowledge of it.</p>'
           quote: Before the angels
     intro: The parables of the lost sheep and of the prodigal son.
     verses:
@@ -819,7 +837,7 @@ chapters:
       v:007: 'LUK:15:7 | 7 | 7 | I say to you that even so there shall be joy in heaven upon one sinner that doth penance, more than upon ninety-nine just who need not penance.{VS:P}'
       v:008: 'LUK:15:8 | 8 | 8 | Or what woman having ten groats, if she lose one groat, doth not light a candle and sweep the house and seek diligently until she find it?'
       v:009: 'LUK:15:9 | 9 | 9 | And when she hath found it, call together her friends and neighbours, saying: Rejoice with me, because I have found the groat which I had lost.'
-      v:010: 'LUK:15:10 | 10 | 10 | So I say to you, there shall be joy before the angels of God upon one sinner doing penance.{VS:P}'
+      v:010: 'LUK:15:10 | 10 | 10 | So I say to you, there shall be joy {NF:BEGIN 0}before the angels{NF:END} of God upon one sinner doing penance.{VS:P}'
       v:011: 'LUK:15:11 | 11 | 11 | And he said: A certain man had two sons.'
       v:012: 'LUK:15:12 | 12 | 12 | And the younger of them said to his father: Father, give me the portion of substance that falleth to me. And he divided unto them his substance.'
       v:013: 'LUK:15:13 | 13 | 13 | And not many days after, the younger son, gathering all together, went abroad into a far country: and there wasted his substance, living riotously.'
@@ -845,13 +863,17 @@ chapters:
   c:016:
     footnotes:
       v:009:
-        - note: 'Mammon signifies riches. They are here called the mammon of iniquity, because oftentimes ill gotten, ill bestowed, or an occasion of evil; and at the best are but worldly, and false; and not the true riches of a Christian.</p>'
+        - match: mammon of iniquity
+          note: 'Mammon signifies riches. They are here called the mammon of iniquity, because oftentimes ill gotten, ill bestowed, or an occasion of evil; and at the best are but worldly, and false; and not the true riches of a Christian.</p>'
           quote: Mammon of iniquity
-        - note: 'By this we see, that the poor servants of God, whom we have relieved by our alms, may hereafter, by their intercession, bring our souls to heaven.</p>'
+        - match: they may receive
+          note: 'By this we see, that the poor servants of God, whom we have relieved by our alms, may hereafter, by their intercession, bring our souls to heaven.</p>'
           quote: They may receive
       v:022:
-        - note: 'The place of rest, where the souls of the saints resided, till Christ had opened heaven by his death.</p>'
+        - match: abraham's bosom
+          note: 'The place of rest, where the souls of the saints resided, till Christ had opened heaven by his death.</p>'
           quote: Abraham's bosom
+          quote_2: Abraham’s bosom
     intro: The parable of the unjust steward and of the rich man and Lazarus.
     verses:
       v:001: 'LUK:16:1 | 1 | 1 | And he said also to his disciples: There was a certain rich man who had a steward: and the same was accused unto him, that he had wasted his goods.'
@@ -862,7 +884,7 @@ chapters:
       v:006: 'LUK:16:6 | 6 | 6 | But he said: An hundred barrels of oil. And he said to him: Take thy bill and sit down quickly and write fifty.'
       v:007: 'LUK:16:7 | 7 | 7 | Then he said to another: And how much dost thou owe? Who said: An hundred quarters of wheat. He said to him: Take thy bill and write eighty.'
       v:008: 'LUK:16:8 | 8 | 8 | And the lord commended the unjust steward, forasmuch as he had done wisely: for the children of this world are wiser in their generation than the children of light.'
-      v:009: 'LUK:16:9 | 9 | 9 | And I say to you: Make unto you friends of the mammon of iniquity: that when you shall fail, they may receive you into everlasting dwellings.'
+      v:009: 'LUK:16:9 | 9 | 9 | And I say to you: Make unto you friends of the {NF:BEGIN 0}mammon of iniquity{NF:END}: that when you shall fail, {NF:BEGIN 1}they may receive{NF:END} you into everlasting dwellings.'
       v:010: 'LUK:16:10 | 10 | 10 | He that is faithful in that which is least is faithful also in that which is greater: and he that is unjust in that which is little is unjust also in that which is greater.'
       v:011: 'LUK:16:11 | 11 | 11 | If then you have not been faithful in the unjust mammon, who will trust you with that which is the true?'
       v:012: "LUK:16:12 | 12 | 12 | And if you have not been faithful in that which is another's, who will give you that which is your own?"
@@ -875,7 +897,7 @@ chapters:
       v:019: LUK:16:19 | 19 | 19 | There was a certain rich man who was clothed in purple and fine linen and feasted sumptuously every day.
       v:020: 'LUK:16:20 | 20 | 20 | And there was a certain beggar, named Lazarus, who lay at his gate, full of sores,'
       v:021: "LUK:16:21 | 21 | 21 | Desiring to be filled with the crumbs that fell from the rich man's table. And no one did give him: moreover the dogs came and licked his sores."
-      v:022: "LUK:16:22 | 22 | 22 | And it came to pass that the beggar died and was carried by the angels into Abraham's bosom. And the rich man also died: and he was buried in hell."
+      v:022: "LUK:16:22 | 22 | 22 | And it came to pass that the beggar died and was carried by the angels into {NF:BEGIN 0}Abraham's bosom{NF:END}. And the rich man also died: and he was buried in hell."
       v:023: 'LUK:16:23 | 23 | 23 | And lifting up his eyes when he was in torments, he saw Abraham afar off and Lazarus in his bosom:'
       v:024: 'LUK:16:24 | 24 | 24 | And he cried and said: Father Abraham, have mercy on me and send Lazarus, that he may dip the tip of his finger in water to cool my tongue: for I am tormented in this flame.'
       v:025: 'LUK:16:25 | 25 | 25 | And Abraham said to him: Son, remember that thou didst receive good things in thy lifetime, and likewise Lazarus evil things: but now he is comforted and thou art tormented.'
@@ -888,7 +910,8 @@ chapters:
   c:017:
     footnotes:
       v:010:
-        - note: 'Because our service is of no profit to our master; and he justly claims it as our bounden duty. But though we are unprofitable to him, our serving him is not unprofitable to us; for he is pleased to give by his grace a value to our good works, which, in consequence of his promise, entitles them to an eternal reward.</p>'
+        - match: unprofitable servants
+          note: 'Because our service is of no profit to our master; and he justly claims it as our bounden duty. But though we are unprofitable to him, our serving him is not unprofitable to us; for he is pleased to give by his grace a value to our good works, which, in consequence of his promise, entitles them to an eternal reward.</p>'
           quote: Unprofitable servants
     intro: Lessons of avoiding scandal and of the efficacy of faith. The ten lepers. The manner of the coming of Christ.
     verses:
@@ -901,7 +924,7 @@ chapters:
       v:007: 'LUK:17:7 | 7 | 7 | But which of you, having a servant ploughing or feeding cattle, will say to him, when he is come from the field: Immediately go. Sit down to meat.'
       v:008: 'LUK:17:8 | 8 | 8 | And will not rather say to him: Make ready my supper and gird thyself and serve me, whilst I eat and drink; and afterwards thou shalt eat and drink?'
       v:009: LUK:17:9 | 9 | 9 | Doth he thank that servant for doing the things which he commanded him?
-      v:010: 'LUK:17:10 | 10 | 10 | I think not. So you also, when you shall have done all these things that are commanded you, say: We are unprofitable servants; we have done that which we ought to do.{VS:P}'
+      v:010: 'LUK:17:10 | 10 | 10 | I think not. So you also, when you shall have done all these things that are commanded you, say: We are {NF:BEGIN 0}unprofitable servants{NF:END}; we have done that which we ought to do.{VS:P}'
       v:011: 'LUK:17:11 | 11 | 11 | And it came to pass, as he was going to Jerusalem, he passed through the midst of Samaria and Galilee.'
       v:012: 'LUK:17:12 | 12 | 12 | And as he entered into a certain town, there met him ten men that were lepers, who stood afar off.'
       v:013: 'LUK:17:13 | 13 | 13 | And lifted up their voice, saying: Jesus, Master, have mercy on us.'
@@ -932,13 +955,14 @@ chapters:
   c:018:
     footnotes:
       v:003:
-        - note: 'That is, do me justice. It is a Hebraism.</p>'
+        - match: avenge
+          note: 'That is, do me justice. It is a Hebraism.</p>'
           quote: Avenge
     intro: We must pray always. The Pharisee and the publican. The danger of riches. The blind man is restored to sight.
     verses:
       v:001: 'LUK:18:1 | 1 | 1 | And he spoke also a parable to them, that we ought always to pray and not to faint,'
       v:002: 'LUK:18:2 | 2 | 2 | Saying: There was a judge in a certain city, who feared not God nor regarded man.'
-      v:003: 'LUK:18:3 | 3 | 3 | And there was a certain widow in that city; and she came to him, saying: Avenge me of my adversary.'
+      v:003: 'LUK:18:3 | 3 | 3 | And there was a certain widow in that city; and she came to him, saying: {NF:BEGIN 0}Avenge{NF:END} me of my adversary.'
       v:004: 'LUK:18:4 | 4 | 4 | And he would not for a long time. But afterwards he said within himself: Although I fear not God nor regard man,'
       v:005: 'LUK:18:5 | 5 | 5 | Yet because this widow is troublesome to me, I will avenge her, lest continually coming she weary me.'
       v:006: 'LUK:18:6 | 6 | 6 | And the Lord said: Hear what the unjust judge saith.'
@@ -982,7 +1006,8 @@ chapters:
   c:019:
     footnotes:
       v:013:
-        - note: 'In the original, what is here translated a pound, is in Latin, mina, in value of our coin, three pounds two shillings and sixpence.</p>'
+        - match: he gave them ten pounds
+          note: 'In the original, what is here translated a pound, is in Latin, mina, in value of our coin, three pounds two shillings and sixpence.</p>'
           quote: He gave them ten pounds
     intro: Zacheus entertains Christ. The parable of the pounds. Christ rides upon an ass and weeps over Jerusalem.
     verses:
@@ -998,7 +1023,7 @@ chapters:
       v:010: 'LUK:19:10 | 10 | 10 | For the Son of man is come to seek and to save that which was lost.{VS:P}'
       v:011: 'LUK:19:11 | 11 | 11 | As they were hearing these things, he added and spoke a parable, because he was nigh to Jerusalem and because they thought that the kingdom of God should immediately be manifested.'
       v:012: 'LUK:19:12 | 12 | 12 | He said therefore: a certain nobleman went into a far country, to receive for himself a kingdom and to return.'
-      v:013: 'LUK:19:13 | 13 | 13 | And calling his ten servants, he gave them ten pounds and said to them: Trade till I come.'
+      v:013: 'LUK:19:13 | 13 | 13 | And calling his ten servants, {NF:BEGIN 0}he gave them ten pounds{NF:END} and said to them: Trade till I come.'
       v:014: 'LUK:19:14 | 14 | 14 | But his citizens hated him and they sent an embassage after him, saying: We will not have this man to reign over us.'
       v:015: 'LUK:19:15 | 15 | 15 | And it came to pass that he returned, having received the kingdom: and he commanded his servants to be called, to whom he had given the money, that he might know how much every man had gained by trading,'
       v:016: 'LUK:19:16 | 16 | 16 | And the first came saying: Lord, thy pound hath gained ten pounds.'
@@ -1130,10 +1155,12 @@ chapters:
   c:022:
     footnotes:
       v:019:
-        - note: 'This sacrifice and sacrament is to be continued in the church, to the end of the world, to shew forth the death of Christ, until he cometh. But this commemoration, or remembrance, is by no means inconsistent with the real presence of his body and blood, under these sacramental veils, which represent his death; on the contrary, it is the manner that he himself hath commanded, of commemorating and celebrating his death, by offering in sacrifice, and receiving in the sacrament, that body and blood by which we were redeemed.</p>'
+        - match: do this for a commemoration of me
+          note: 'This sacrifice and sacrament is to be continued in the church, to the end of the world, to shew forth the death of Christ, until he cometh. But this commemoration, or remembrance, is by no means inconsistent with the real presence of his body and blood, under these sacramental veils, which represent his death; on the contrary, it is the manner that he himself hath commanded, of commemorating and celebrating his death, by offering in sacrifice, and receiving in the sacrament, that body and blood by which we were redeemed.</p>'
           quote: Do this for a commemoration of me
       v:058:
-        - note: "Observe here, in order to reconcile the four Evangelists, that divers persons concurred in charging Peter with being Christ's disciple; till at length they brought him to deny him thrice. 1. The porteress that let him in, and afterwards seeing him at the fire, first put the question to him; and then positively affirmed that he was with Christ. 2. Another maid accused him to the standers by; and gave occasion to the man here mentioned to renew the charge against him, which caused the second denial. 3. Others of the company took notice of his being a Galilean; and were seconded by the kinsman of Malchus, who affirmed he had seen him in the garden. And this drew on the third denial.</p>"
+        - match: another
+          note: "Observe here, in order to reconcile the four Evangelists, that divers persons concurred in charging Peter with being Christ's disciple; till at length they brought him to deny him thrice. 1. The porteress that let him in, and afterwards seeing him at the fire, first put the question to him; and then positively affirmed that he was with Christ. 2. Another maid accused him to the standers by; and gave occasion to the man here mentioned to renew the charge against him, which caused the second denial. 3. Others of the company took notice of his being a Galilean; and were seconded by the kinsman of Malchus, who affirmed he had seen him in the garden. And this drew on the third denial.</p>"
           quote: Another
     intro: The treason of Judas. The last supper. The first part of the history of the passion.
     verses:
@@ -1155,7 +1182,7 @@ chapters:
       v:016: 'LUK:22:16 | 16 | 16 | For I say to you that from this time I will not eat it, till it be fulfilled in the kingdom of God.'
       v:017: 'LUK:22:17 | 17 | 17 | And having taken the chalice, he gave thanks and said: Take and divide it among you.'
       v:018: 'LUK:22:18 | 18 | 18 | For I say to you that I will not drink of the fruit of the vine, till the kingdom of God come.{VS:P}'
-      v:019: 'LUK:22:19 | 19 | 19 | And taking bread, he gave thanks and brake and gave to them, saying: This is my body, which is given for you. Do this for a commemoration of me.'
+      v:019: 'LUK:22:19 | 19 | 19 | And taking bread, he gave thanks and brake and gave to them, saying: This is my body, which is given for you. {NF:BEGIN 0}Do this for a commemoration of me{NF:END}.'
       v:020: 'LUK:22:20 | 20 | 20 | In like manner, the chalice also, after he had supped, saying: This is the chalice, the new testament in my blood, which shall be shed for you.'
       v:021: 'LUK:22:21 | 21 | 21 | But yet behold: the hand of him that betrayeth me is with me on the table.'
       v:022: 'LUK:22:22 | 22 | 22 | And the Son of man indeed goeth, according to that which is determined: but yet, woe to that man by whom he shall be betrayed.'
@@ -1194,7 +1221,7 @@ chapters:
       v:055: 'LUK:22:55 | 55 | 55 | And when they had kindled a fire in the midst of the hall and were sitting about it, Peter was in the midst of them.'
       v:056: 'LUK:22:56 | 56 | 56 | Whom when a certain servant maid had seen sitting at the light and had earnestly beheld him, she said: This man also was with him.'
       v:057: 'LUK:22:57 | 57 | 57 | But he denied him, saying: Woman, I know him not.'
-      v:058: 'LUK:22:58 | 58 | 58 | And after a little while, another seeing him, said: Thou also art one of them. But Peter said: O man, I am not.'
+      v:058: 'LUK:22:58 | 58 | 58 | And after a little while, {NF:BEGIN 0}another{NF:END} seeing him, said: Thou also art one of them. But Peter said: O man, I am not.'
       v:059: 'LUK:22:59 | 59 | 59 | And after the space, as it were of one hour, another certain man affirmed, saying: Of a truth, this man was also with him: for he is also a Galilean.'
       v:060: 'LUK:22:60 | 60 | 60 | And Peter said: Man, I know not what thou sayest. And immediately, as he was yet speaking, the cock crew.'
       v:061: 'LUK:22:61 | 61 | 61 | And the Lord turning looked on Peter. And Peter remembered the word of the Lord, as he had said: Before the cock crow, thou shalt deny me thrice.'
@@ -1211,10 +1238,12 @@ chapters:
   c:023:
     footnotes:
       v:043:
-        - note: "That is, in the happy state of rest, joy, and peace everlasting. Christ was pleased, by a special privilege, to reward the faith and confession of the penitent thief, with a full discharge of all his sins, both as to the guilt and punishment; and to introduce him immediately after death into the happy society of the saints, whose limbo, that is, the place of their confinement, was now made a paradise by our Lord's going thither.</p>"
+        - match: in paradise
+          note: "That is, in the happy state of rest, joy, and peace everlasting. Christ was pleased, by a special privilege, to reward the faith and confession of the penitent thief, with a full discharge of all his sins, both as to the guilt and punishment; and to introduce him immediately after death into the happy society of the saints, whose limbo, that is, the place of their confinement, was now made a paradise by our Lord's going thither.</p>"
           quote: In paradise
       v:054:
-        - note: 'That is, the eve, or day of preparation for the sabbath.</p>'
+        - match: parasceve
+          note: 'That is, the eve, or day of preparation for the sabbath.</p>'
           quote: Parasceve
     intro: The continuation of the history of the passion.
     verses:
@@ -1260,7 +1289,7 @@ chapters:
       v:040: 'LUK:23:40 | 40 | 40 | But the other answering, rebuked him, saying: Neither dost thou fear God, seeing; thou art under the same condemnation?'
       v:041: 'LUK:23:41 | 41 | 41 | And we indeed justly: for we receive the due reward of our deeds. But this man hath done no evil.'
       v:042: 'LUK:23:42 | 42 | 42 | And he said to Jesus: Lord, remember me when thou shalt come into thy kingdom.'
-      v:043: 'LUK:23:43 | 43 | 43 | And Jesus said to him: Amen I say to thee: This day thou shalt be with me in paradise.{VS:P}'
+      v:043: 'LUK:23:43 | 43 | 43 | And Jesus said to him: Amen I say to thee: This day thou shalt be with me {NF:BEGIN 0}in paradise{NF:END}.{VS:P}'
       v:044: 'LUK:23:44 | 44 | 44 | And it was almost the sixth hour: and there was darkness over all the earth until the ninth hour.'
       v:045: 'LUK:23:45 | 45 | 45 | And the sun was darkened, and the veil of the temple was rent in the midst.'
       v:046: 'LUK:23:46 | 46 | 46 | And Jesus crying with a loud voice, said: Father, into thy hands I commend my spirit. And saying this, he gave up the ghost.'
@@ -1271,13 +1300,14 @@ chapters:
       v:051: 'LUK:23:51 | 51 | 51 | (The same had not consented to their counsel and doings) of Arimathea, a city of Judea: who also himself looked for the kingdom of God.'
       v:052: LUK:23:52 | 52 | 52 | This man went to Pilate and begged the body of Jesus.
       v:053: 'LUK:23:53 | 53 | 53 | And taking him down, he wrapped him in fine linen and laid him in a sepulchre that was hewed in stone, wherein never yet any man had been laid.'
-      v:054: 'LUK:23:54 | 54 | 54 | And it was the day of the Parasceve: and the sabbath drew on.'
+      v:054: 'LUK:23:54 | 54 | 54 | And it was the day of the {NF:BEGIN 0}Parasceve{NF:END}: and the sabbath drew on.'
       v:055: 'LUK:23:55 | 55 | 55 | And the women that were come with him from Galilee, following after, saw the sepulchre and how his body was laid.'
       v:056: 'LUK:23:56 | 56 | 56 | And returning, they prepared spices and ointments: and on the sabbath day they rested, according to the commandment.'
   c:024:
     footnotes:
       v:049:
-        - note: 'that is, the Holy Ghost, whom Christ had promised that his Father and he would send, John 14. 26, and 17. 7.</p>'
+        - match: the promise of my father
+          note: 'that is, the Holy Ghost, whom Christ had promised that his Father and he would send, John 14. 26, and 17. 7.</p>'
           quote: The promise of my Father
     intro: Christ’s resurrection and manifestation of himself to his disciples.
     verses:
@@ -1329,7 +1359,7 @@ chapters:
       v:046: 'LUK:24:46 | 46 | 46 | And he said to them: Thus it is written, and thus it behoved Christ to suffer and to rise again from the dead, the third day:'
       v:047: 'LUK:24:47 | 47 | 47 | And that penance and remission of sins should be preached in his name, unto all nations, beginning at Jerusalem.'
       v:048: LUK:24:48 | 48 | 48 | And you are witnesses of these things.
-      v:049: 'LUK:24:49 | 49 | 49 | And I send the promise of my Father upon you: but stay you in the city till you be endued with power from on high.{VS:P}'
+      v:049: 'LUK:24:49 | 49 | 49 | And I send {NF:BEGIN 0}the promise of my Father{NF:END} upon you: but stay you in the city till you be endued with power from on high.{VS:P}'
       v:050: 'LUK:24:50 | 50 | 50 | And he led them out as far as Bethania: and lifting up his hands, he blessed them.'
       v:051: 'LUK:24:51 | 51 | 51 | And it came to pass, whilst he blessed them, he departed from them and was carried up to heaven.'
       v:052: LUK:24:52 | 52 | 52 | And they adoring went back into Jerusalem with great joy.

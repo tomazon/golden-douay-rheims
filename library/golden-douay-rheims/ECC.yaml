@@ -56,10 +56,12 @@ chapters:
   c:003:
     footnotes:
       v:019:
-        - note: 'Viz., as to the life of the body.</p>'
+        - match: man hath nothing more
+          note: 'Viz., as to the life of the body.</p>'
           quote: Man hath nothing more
       v:021:
-        - note: 'Viz., experimentally: since no one in this life can see a spirit. But as to the spirit of the beasts, which is merely animal, and become extinct by the death of the beast, who can tell the manner it acts so as to give life and motion, and by death to descend downward, that is, to be no more?</p>'
+        - match: who knoweth
+          note: 'Viz., experimentally: since no one in this life can see a spirit. But as to the spirit of the beasts, which is merely animal, and become extinct by the death of the beast, who can tell the manner it acts so as to give life and motion, and by death to descend downward, that is, to be no more?</p>'
           quote: Who knoweth
     intro: 'All human things are liable to perpetual changes. We are to rest on God’s providence, and cast away fruitless cares.'
     verses:
@@ -81,9 +83,9 @@ chapters:
       v:016: 'ECC:3:16 | 16 | 16 | {VS:VERSE:BEGIN}I saw under the sun in the place of judgment wickedness, and in the place of justice iniquity.{VS:BR}'
       v:017: 'ECC:3:17 | 17 | 17 | And I said in my heart: God shall judge both the just and the wicked, and then shall be the time of every thing.{VS:BR}'
       v:018: 'ECC:3:18 | 18 | 18 | I said in my heart concerning the sons of men, that God would prove them, and shew them to be like beasts.{VS:BR}'
-      v:019: 'ECC:3:19 | 19 | 19 | Therefore the death of man, and of beasts is one, and the condition of them both is equal: as man dieth, so they also die: all things breathe alike, and man hath nothing more than beast: all things are subject to vanity.{VS:BR}'
+      v:019: 'ECC:3:19 | 19 | 19 | Therefore the death of man, and of beasts is one, and the condition of them both is equal: as man dieth, so they also die: all things breathe alike, and {NF:BEGIN 0}man hath nothing more{NF:END} than beast: all things are subject to vanity.{VS:BR}'
       v:020: 'ECC:3:20 | 20 | 20 | And all things go to one place: of earth they were made, and into earth they return together.{VS:BR}'
-      v:021: 'ECC:3:21 | 21 | 21 | Who knoweth if the spirit of the children of Adam ascend upward, and if the spirit of the beasts descend downward?{VS:BR}'
+      v:021: 'ECC:3:21 | 21 | 21 | {NF:BEGIN 0}Who knoweth{NF:END} if the spirit of the children of Adam ascend upward, and if the spirit of the beasts descend downward?{VS:BR}'
       v:022: 'ECC:3:22 | 22 | 22 | And I have found that nothing is better than for a man to rejoice in his work, and that this is his portion. for who shall bring him to know the things that shall be after him?{VS:VERSE:END}'
   c:004:
     footnotes: {}
@@ -147,23 +149,27 @@ chapters:
   c:007:
     footnotes:
       v:004:
-        - note: 'That is, correction, or just wrath and zeal against evil.</p>'
+        - match: anger
+          note: 'That is, correction, or just wrath and zeal against evil.</p>'
           quote: Anger
       v:017:
-        - note: 'Viz., By an excessive rigour in censuring the ways of God in bearing with the wicked.</p>'
+        - match: over just
+          note: 'Viz., By an excessive rigour in censuring the ways of God in bearing with the wicked.</p>'
           quote: Over just
       v:018:
-        - note: 'That is, lest by the greatness of your sin you leave no room for mercy.</p>'
+        - match: be not overmuch wicked
+          note: 'That is, lest by the greatness of your sin you leave no room for mercy.</p>'
           quote: Be not overmuch wicked
       v:030:
-        - note: 'That is, of this obscure and difficult matter.</p>'
+        - match: of the word
+          note: 'That is, of this obscure and difficult matter.</p>'
           quote: Of the word
     intro: 'Prescriptions against worldly vanities: mortification, patience, and seeking wisdom.'
     verses:
       v:001: 'ECC:7:1 | 1 | 1 | {VS:VERSE:BEGIN}What needeth a man to seek things that are above him, whereas he knoweth not what is profitable for him in his life, in all the days of his pilgrimage, and the time that passeth like a shadow? Or who can tell him what shall be after him under the sun?{VS:BR}'
       v:002: "ECC:7:2 | 2 | 2 | A good name is better than precious ointments: and the day of death than the day of one's birth.{VS:BR}"
       v:003: 'ECC:7:3 | 3 | 3 | It is better to go to the house of mourning, than to the house of feasting: for in that we are put in mind of the end of all, and the living thinketh what is to come.{VS:BR}'
-      v:004: 'ECC:7:4 | 4 | 4 | Anger is better than laughter: because by the sadness of the countenance the mind of the offender is corrected.{VS:BR}'
+      v:004: 'ECC:7:4 | 4 | 4 | {NF:BEGIN 0}Anger{NF:END} is better than laughter: because by the sadness of the countenance the mind of the offender is corrected.{VS:BR}'
       v:005: 'ECC:7:5 | 5 | 5 | The heart of the wise is where there is mourning, and the heart of fools where there is mirth.{VS:BR}'
       v:006: 'ECC:7:6 | 6 | 6 | It is better to be rebuked by a wise man, than to be deceived by the flattery of fools.{VS:BR}'
       v:007: 'ECC:7:7 | 7 | 7 | For as the crackling of thorns burning under a pot, so is the laughter of a fool: now this also is vanity.{VS:BR}'
@@ -176,8 +182,8 @@ chapters:
       v:014: 'ECC:7:14 | 14 | 14 | Consider the works of God, that no man can correct whom he hath despised.{VS:BR}'
       v:015: 'ECC:7:15 | 15 | 15 | In the good day enjoy good things, and beware beforehand of the evil day: for God hath made both the one and the other, that man may not find against him any just complaint.{VS:BR}'
       v:016: 'ECC:7:16 | 16 | 16 | These things also I saw in the days of my vanity: A just man perisheth in his justice, and a wicked man liveth a long time in his wickedness.{VS:BR}'
-      v:017: 'ECC:7:17 | 17 | 17 | Be not over just: and be not more wise than is necessary, lest thou become stupid.{VS:BR}'
-      v:018: 'ECC:7:18 | 18 | 18 | Be not overmuch wicked: and be not foolish, lest thou die before thy time.{VS:BR}'
+      v:017: 'ECC:7:17 | 17 | 17 | Be not {NF:BEGIN 0}over just{NF:END}: and be not more wise than is necessary, lest thou become stupid.{VS:BR}'
+      v:018: 'ECC:7:18 | 18 | 18 | {NF:BEGIN 0}Be not overmuch wicked{NF:END}: and be not foolish, lest thou die before thy time.{VS:BR}'
       v:019: 'ECC:7:19 | 19 | 19 | It is good that thou shouldst hold up the just, yea and from him withdraw not thy hand: for he that feareth God, neglecteth nothing.{VS:BR}'
       v:020: 'ECC:7:20 | 20 | 20 | Wisdom hath strengthened the wise more than ten princes of the city.{VS:BR}'
       v:021: 'ECC:7:21 | 21 | 21 | For there is no just man upon earth, that doth good, and sinneth not.{VS:BR}'
@@ -189,11 +195,12 @@ chapters:
       v:027: "ECC:7:27 | 27 | 27 | And I have found a woman more bitter than death, who is the hunter's snare, and her heart is a net, and her hands are bands. He that pleaseth God shall escape from her: but he that is a sinner, shall be caught by her.{VS:BR}"
       v:028: 'ECC:7:28 | 28 | 28 | Lo this have I found, said Ecclesiastes, weighing one thing after another, that I might find out the account,{VS:BR}'
       v:029: 'ECC:7:29 | 29 | 29 | Which yet my soul seeketh, and I have not found it. One man among a thousand I have found, a woman among them all I have not found.{VS:BR}'
-      v:030: 'ECC:7:30 | 30 | 30 | Only this I have found, that God made man right, and he hath entangled himself with an infinity of questions. Who is as the wise man? and who hath known the resolution of the word?{VS:VERSE:END}'
+      v:030: 'ECC:7:30 | 30 | 30 | Only this I have found, that God made man right, and he hath entangled himself with an infinity of questions. Who is as the wise man? and who hath known the resolution {NF:BEGIN 0}of the word{NF:END}?{VS:VERSE:END}'
   c:008:
     footnotes:
       v:015:
-        - note: 'Some commentators think the wise man here speaks in the person of the libertine: representing the objections of these men against divine providence, and the inferences they draw from thence, which he takes care afterwards to refute. But it may also be said, that his meaning is to commend the moderate use of the goods of this world, preferably to the cares and solicitudes of worldlings, their attachment to vanity and curiosity, and presumptuously diving into the unsearchable ways of divine providence.</p>'
+        - match: no good for a man
+          note: 'Some commentators think the wise man here speaks in the person of the libertine: representing the objections of these men against divine providence, and the inferences they draw from thence, which he takes care afterwards to refute. But it may also be said, that his meaning is to commend the moderate use of the goods of this world, preferably to the cares and solicitudes of worldlings, their attachment to vanity and curiosity, and presumptuously diving into the unsearchable ways of divine providence.</p>'
           quote: No good for a man
     intro: True wisdom is to observe God’s commandments. The ways of God are unsearchable.
     verses:
@@ -211,13 +218,14 @@ chapters:
       v:012: 'ECC:8:12 | 12 | 12 | But though a sinner do evil a hundred times, and by patience be borne withal, I know from thence that it shall be well with them that fear God, who dread his face.{VS:BR}'
       v:013: 'ECC:8:13 | 13 | 13 | But let it not be well with the wicked, neither let his days be prolonged, but as a shadow let them pass away that fear not the face of the Lord.{VS:BR}'
       v:014: 'ECC:8:14 | 14 | 14 | There is also another vanity, which is done upon the earth. There are just men to whom evils happen, as though they had done the works of the wicked: and there are wicked men, who are as secure as though they had the deeds of the just: but this also I judge most vain.{VS:BR}'
-      v:015: 'ECC:8:15 | 15 | 15 | Therefore I commended mirth, because there was no good for a man under the sun, but to eat, and drink, and be merry, and that he should take nothing else with him of his labour in the days of his life, which God hath given him under the sun.{VS:BR}'
+      v:015: 'ECC:8:15 | 15 | 15 | Therefore I commended mirth, because there was {NF:BEGIN 0}no good for a man{NF:END} under the sun, but to eat, and drink, and be merry, and that he should take nothing else with him of his labour in the days of his life, which God hath given him under the sun.{VS:BR}'
       v:016: 'ECC:8:16 | 16 | 16 | And I applied my heart to know wisdom, and to understand the distraction that is upon earth: for there are some that day and night take no sleep with their eyes.{VS:BR}'
       v:017: 'ECC:8:17 | 17 | 17 | And I understood that man can find no reason of all those works of God that are done under the sun: and the more he shall labour to seek, so much the less shall he find: yea, though the wise man shall say, that he knoweth it, he shall not be able to find it.{VS:VERSE:END}'
   c:009:
     footnotes:
       v:005:
-        - note: 'Viz., as to the transactions of this world, in which they have now no part, unless it be revealed to them; neither have they any knowledge or power now of doing any thing to secure their eternal state, (if they have not taken care of it in their lifetime:) nor can they now procure themselves any good, as the living always may do, by the grace of God.</p>'
+        - match: know nothing more
+          note: 'Viz., as to the transactions of this world, in which they have now no part, unless it be revealed to them; neither have they any knowledge or power now of doing any thing to secure their eternal state, (if they have not taken care of it in their lifetime:) nor can they now procure themselves any good, as the living always may do, by the grace of God.</p>'
           quote: Know nothing more
     intro: Man knows not certainty that he is in God’s grace. After death no more work or merit.
     verses:
@@ -225,7 +233,7 @@ chapters:
       v:002: 'ECC:9:2 | 2 | 2 | But all things are kept uncertain for the time to come, because all things equally happen to the just and to the wicked, to the good and to the evil, to the clean and to the unclean, to him that offereth victims, and to him that despiseth sacrifices. As the good is, so also is the sinner: as the perjured, so he also that sweareth truth.{VS:VERSE:END}{VS:P}'
       v:003: 'ECC:9:3 | 3 | 3 | {VS:VERSE:BEGIN}This is a very great evil among all things that are done under the sun, that the same things happen to all men: whereby also the hearts of the children of men are filled with evil, and with contempt while they live, and afterwards they shall be brought down to hell.{VS:BR}'
       v:004: 'ECC:9:4 | 4 | 4 | There is no man that liveth always, or that hopeth for this: a living dog is better than a dead lion.{VS:BR}'
-      v:005: 'ECC:9:5 | 5 | 5 | For the living know that they shall die, but the dead know nothing more, neither have they a reward any more: for the memory of them is forgotten.{VS:BR}'
+      v:005: 'ECC:9:5 | 5 | 5 | For the living know that they shall die, but the dead {NF:BEGIN 0}know nothing more{NF:END}, neither have they a reward any more: for the memory of them is forgotten.{VS:BR}'
       v:006: 'ECC:9:6 | 6 | 6 | Their love also, and their hatred, and their envy are all perished, neither have they any part in this world, and in the work that is done under the sun.{VS:BR}'
       v:007: 'ECC:9:7 | 7 | 7 | Go then, and eat thy bread with joy, and drink thy wine with gladness: because thy works please God.{VS:BR}'
       v:008: 'ECC:9:8 | 8 | 8 | At all times let thy garments be white, and let not oil depart from thy head.{VS:BR}'
@@ -266,13 +274,14 @@ chapters:
   c:011:
     footnotes:
       v:003:
-        - note: 'The state of the soul is unchangeable when once she comes to heaven or hell: and a soul that departs this life in the state of grace, shall never fall from grace: as on the other side, a soul that dies out of the state of grace, shall never come to it. But this does not exclude a place of temporal punishments for such souls as die in the state of grace: yet not so as to be entirely pure: and therefore they shall be saved, indeed, yet so as by fire. 1 Cor. 3. 13, 14, 15.</p>'
+        - match: if the tree fall
+          note: 'The state of the soul is unchangeable when once she comes to heaven or hell: and a soul that departs this life in the state of grace, shall never fall from grace: as on the other side, a soul that dies out of the state of grace, shall never come to it. But this does not exclude a place of temporal punishments for such souls as die in the state of grace: yet not so as to be entirely pure: and therefore they shall be saved, indeed, yet so as by fire. 1 Cor. 3. 13, 14, 15.</p>'
           quote: If the tree fall
     intro: 'Exhortation to works of mercy, while we have time, to diligence in good, and to the remembrance of death and judgment.'
     verses:
       v:001: 'ECC:11:1 | 1 | 1 | {VS:VERSE:BEGIN}Cast thy bread upon the running waters: for after a long time thou shalt find it again.{VS:BR}'
       v:002: 'ECC:11:2 | 2 | 2 | Give a portion to seven, and also to eight: for thou knowest not what evil shall be upon the earth.{VS:BR}'
-      v:003: 'ECC:11:3 | 3 | 3 | If the clouds be full, they will pour out rain upon the earth. If the tree fall to the south, or to the north, in what place soever it shall fall, there shall it be.{VS:BR}'
+      v:003: 'ECC:11:3 | 3 | 3 | If the clouds be full, they will pour out rain upon the earth. {NF:BEGIN 0}If the tree fall{NF:END} to the south, or to the north, in what place soever it shall fall, there shall it be.{VS:BR}'
       v:004: 'ECC:11:4 | 4 | 4 | He that observeth the wind, shall not sow: and he that considereth the clouds, shall never reap.{VS:BR}'
       v:005: 'ECC:11:5 | 5 | 5 | As thou knowest not what is the way of the spirit, nor how the bones are joined together in the womb of her that is with child: so thou knowest not the works of God, who is the maker of all.{VS:BR}'
       v:006: 'ECC:11:6 | 6 | 6 | In the morning sow thy seed, and in the evening let not thy hand cease: for thou knowest not which may rather spring up, this or that: and if both together, it shall be the better.{VS:VERSE:END}{VS:P}'
@@ -283,18 +292,21 @@ chapters:
   c:012:
     footnotes:
       v:002:
-        - note: 'That is, before old age: the effects of which upon all the senses and faculties are described in the following verses, under a variety of figures.</p>'
+        - match: before the sun
+          note: 'That is, before old age: the effects of which upon all the senses and faculties are described in the following verses, under a variety of figures.</p>'
           quote: Before the sun
       v:013:
-        - note: 'The whole business and duty of man.</p>'
+        - match: all man
+          note: 'The whole business and duty of man.</p>'
           quote: All man
       v:014:
-        - note: 'Or, hidden and secret thing.</p>'
+        - match: error
+          note: 'Or, hidden and secret thing.</p>'
           quote: Error
     intro: 'The Creator is to be remembered in the days of our youth: all worldly things are vain: we should fear God and keep his commandments.'
     verses:
       v:001: 'ECC:12:1 | 1 | 1 | {VS:VERSE:BEGIN}Remember thy Creator in the days of thy youth, before the time of affliction come, and the years draw nigh of which thou shalt say: They please me not:{VS:BR}'
-      v:002: 'ECC:12:2 | 2 | 2 | Before the sun, and the light, and the moon, and the stars be darkened, and the clouds return after the rain:{VS:BR}'
+      v:002: 'ECC:12:2 | 2 | 2 | {NF:BEGIN 0}Before the sun{NF:END}, and the light, and the moon, and the stars be darkened, and the clouds return after the rain:{VS:BR}'
       v:003: 'ECC:12:3 | 3 | 3 | When the keepers of the house shall tremble, and the strong men shall stagger, and the grinders shall be idle in a small number, and they that look through the holes shall be darkened:{VS:BR}'
       v:004: "ECC:12:4 | 4 | 4 | And they shall shut the doors in the street, when the grinder's voice shall be low, and they shall rise up at the voice of the bird, and all the daughters of music shall grow deaf.{VS:BR}"
       v:005: 'ECC:12:5 | 5 | 5 | And they shall fear high things, and they shall be afraid in the way, the almond tree shall flourish, the locust shall be made fat, and the caper tree shall be destroyed: because man shall go into the house of his eternity, and the mourners shall go round about in the street.{VS:BR}'
@@ -305,8 +317,8 @@ chapters:
       v:010: 'ECC:12:10 | 10 | 10 | He sought profitable words, and wrote words most right, and full of truth.{VS:BR}'
       v:011: 'ECC:12:11 | 11 | 11 | The words of the wise are as goads, and as nails deeply fastened in, which by the counsel of masters are given from one shepherd.{VS:BR}'
       v:012: 'ECC:12:12 | 12 | 12 | More than these, my son, require not. Of making many books there is no end: and much study is an affliction of the flesh.{VS:BR}'
-      v:013: 'ECC:12:13 | 13 | 13 | Let us all hear together the conclusion of the discourse. Fear God, and keep his commandments: for this is all man:{VS:BR}'
-      v:014: 'ECC:12:14 | 14 | 14 | And all things that are done, God will bring into judgment for every error, whether it be good or evil.{VS:VERSE:END}'
+      v:013: 'ECC:12:13 | 13 | 13 | Let us all hear together the conclusion of the discourse. Fear God, and keep his commandments: for this is {NF:BEGIN 0}all man{NF:END}:{VS:BR}'
+      v:014: 'ECC:12:14 | 14 | 14 | And all things that are done, God will bring into judgment for every {NF:BEGIN 0}error{NF:END}, whether it be good or evil.{VS:VERSE:END}'
 intro: 'This Book is called Ecclesiastes, or The Preacher, (in Hebrew, Coheleth,) because in it, Solomon, as an excellent preacher, setteth forth the vanity of the things of this world: to withdraw the hearts and affections of men from such empty toys.'
 titles:
   cbol: Ecclesiastes

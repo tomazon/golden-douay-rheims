@@ -4,10 +4,12 @@ chapters:
   c:001:
     footnotes:
       v:015:
-        - note: 'Noemi did not mean to persuade Ruth to return to the false gods she had formerly worshipped: but by this manner of speech, insinuated to her, that if she would go with her, she must renounce her false gods and return to the Lord the God of Israel.</p>'
+        - match: to her gods
+          note: 'Noemi did not mean to persuade Ruth to return to the false gods she had formerly worshipped: but by this manner of speech, insinuated to her, that if she would go with her, she must renounce her false gods and return to the Lord the God of Israel.</p>'
           quote: To her gods
       v:017:
-        - note: 'A form of swearing usual in the history of the Old Testament, by which the person wished such and such evils to fall upon them, if they did not do what they said.</p>'
+        - match: the lord do so and so
+          note: 'A form of swearing usual in the history of the Old Testament, by which the person wished such and such evils to fall upon them, if they did not do what they said.</p>'
           quote: The Lord do so and so
     intro: 'Elimelech of Bethlehem going with his wife Noemi, and two sons, into the land of Moab, dieth there. His sons marry wives of that country and die without issue. Noemi returneth home with her daughter in law Ruth, who refuseth to part with her.'
     verses:
@@ -25,9 +27,9 @@ chapters:
       v:012: 'RUT:1:12 | 12 | 12 | Return again, my daughters, and go your ways: for I am now spent with age, and not fit for wedlock. Although I might conceive this night, and bear children,'
       v:013: "RUT:1:13 | 13 | 13 | If you would wait till they were grown up, and come to man's estate, you would be old women before you marry. Do not so, my daughters, I beseech you: for I am grieved the more for your distress, and the hand of the Lord is gone out against me."
       v:014: 'RUT:1:14 | 14 | 14 | And they lifted up their voice, and began to weep again: Orpha kissed her mother in law, and returned: Ruth stuck close to her mother in law.'
-      v:015: 'RUT:1:15 | 15 | 15 | And Noemi said to her: Behold thy kinswoman is returned to her people, and to her gods, go thou with her.'
+      v:015: 'RUT:1:15 | 15 | 15 | And Noemi said to her: Behold thy kinswoman is returned to her people, and {NF:BEGIN 0}to her gods{NF:END}, go thou with her.'
       v:016: 'RUT:1:16 | 16 | 16 | She answered: Be not against me, to desire that I should leave thee and depart: for whithersoever thou shalt go, I will go: and where thou shalt dwell, I also will dwell. Thy people shall be my people, and thy God my God.'
-      v:017: 'RUT:1:17 | 17 | 17 | The land that shall receive thee dying, in the same will I die: and there will I be buried. The Lord do so and so to me, and add more also, if aught but death part me and thee.{VS:P}'
+      v:017: 'RUT:1:17 | 17 | 17 | The land that shall receive thee dying, in the same will I die: and there will I be buried. {NF:BEGIN 0}The Lord do so and so{NF:END} to me, and add more also, if aught but death part me and thee.{VS:P}'
       v:018: 'RUT:1:18 | 18 | 18 | Then Noemi seeing that Ruth was steadfastly determined to go with her, would not be against it, nor persuade her any more to return to her friends:'
       v:019: 'RUT:1:19 | 19 | 19 | So they went together, and came to Bethlehem. And when they were come into the city, the report was quickly spread among all: and the women said: This is that Noemi.'
       v:020: 'RUT:1:20 | 20 | 20 | But she said to them: Call me not Noemi (that is, beautiful,) but call me Mara (that is, bitter), for the Almighty hath quite filled me with bitterness.'
@@ -63,8 +65,10 @@ chapters:
   c:003:
     footnotes:
       v:010:
-        - note: 'to thy husband deceased in seeking to keep up his name and family by marrying his relation according to the law, and not following after young men. For Booz, it seems, was then in years.</p>'
+        - match: thy latter kindness
+          note: 'to thy husband deceased in seeking to keep up his name and family by marrying his relation according to the law, and not following after young men. For Booz, it seems, was then in years.</p>'
           quote: Thy latter kindness
+          quote_2: 'Thy latter kindness, viz'
     intro: 'Ruth instructed by her mother in law lieth at Booz’s feet, claiming him for her husband by the law of affinity: she receiveth a good answer, and six measures of barley.'
     verses:
       v:001: 'RUT:3:1 | 1 | 1 | After she was returned to her mother in law, Noemi said to her: My daughter, I will seek rest for thee, and will provide that it may be well with thee.'
@@ -76,7 +80,7 @@ chapters:
       v:007: 'RUT:3:7 | 7 | 7 | And when Booz had eaten, and drunk, and was merry, he went to sleep by the heap of sheaves, and she came softly, and uncovering his feet, laid herself down.'
       v:008: 'RUT:3:8 | 8 | 8 | And behold, when it was now midnight the man was afraid, and troubled: and he saw a woman lying at his feet,'
       v:009: 'RUT:3:9 | 9 | 9 | And he said to her: Who art thou? And she answered: I am Ruth, thy handmaid: spread thy coverlet over thy servant, for thou art a near kinsman.'
-      v:010: 'RUT:3:10 | 10 | 10 | And he said: Blessed art thou of the Lord, my daughter, and thy latter kindness has surpassed the former: because thou hast not followed young men either poor or rich.'
+      v:010: 'RUT:3:10 | 10 | 10 | And he said: Blessed art thou of the Lord, my daughter, and {NF:BEGIN 0}thy latter kindness{NF:END} has surpassed the former: because thou hast not followed young men either poor or rich.'
       v:011: 'RUT:3:11 | 11 | 11 | Fear not therefore, but whatsoever thou shalt say to me I will do to thee. for all the people that dwell within the gates of my city, know that thou art a virtuous woman.'
       v:012: 'RUT:3:12 | 12 | 12 | Neither do I deny myself to be near of kin, but there is another nearer than I.'
       v:013: 'RUT:3:13 | 13 | 13 | Rest thou this night: and when morning is come, if he will take thee by the right of kindred, all is well: but if he will not, I will undoubtedly take thee, as the Lord liveth: sleep till the morning.'
@@ -88,7 +92,8 @@ chapters:
   c:004:
     footnotes:
       v:011:
-        - note: 'Another name of Bethlehem.</p>'
+        - match: ephrata
+          note: 'Another name of Bethlehem.</p>'
           quote: Ephrata
     intro: 'Upon the refusal of the nearer kinsman, Booz marrieth Ruth, who bringeth forth Obed, the grandfather of David.'
     verses:
@@ -102,7 +107,7 @@ chapters:
       v:008: 'RUT:4:8 | 8 | 8 | So Booz said to his kinsman: Put off thy shoe. And immediately he took it off from his foot.'
       v:009: "RUT:4:9 | 9 | 9 | And he said to the ancients, and to all the people: You are witnesses this day, that I have bought all that was Elimelech's, and Chelion's, and Mahalon's, of the hand of Noemi:"
       v:010: 'RUT:4:10 | 10 | 10 | And have taken to wife Ruth, the Moabitess, the wife of Mahalon, to raise up the name of the deceased in his inheritance lest his name be cut off, from among his family and his brethren and his people. You, I say, are witnesses of this thing.'
-      v:011: 'RUT:4:11 | 11 | 11 | Then all the people that were in the gate, and the ancients, answered: We are witnesses: The Lord make this woman who cometh into thy house, like Rachel, and Lia, who built up the house of Israel: that she may be an example of virtue in Ephrata, and may have a famous name in Bethlehem:'
+      v:011: 'RUT:4:11 | 11 | 11 | Then all the people that were in the gate, and the ancients, answered: We are witnesses: The Lord make this woman who cometh into thy house, like Rachel, and Lia, who built up the house of Israel: that she may be an example of virtue in {NF:BEGIN 0}Ephrata{NF:END}, and may have a famous name in Bethlehem:'
       v:012: 'RUT:4:12 | 12 | 12 | And that the house may be, as the house of Phares, whom Thamar bore unto Juda, of the seed which the Lord shall give thee of this young woman.{VS:P}'
       v:013: 'RUT:4:13 | 13 | 13 | Booz therefore took Ruth, and married her: and went in unto her, and the Lord gave her to conceive, and to bear a son.'
       v:014: 'RUT:4:14 | 14 | 14 | And the women said to Noemi: Blessed be the Lord, who hath not suffered thy family to want a successor: that his name should be preserved in Israel.'

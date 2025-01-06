@@ -151,7 +151,8 @@ chapters:
   c:007:
     footnotes:
       v:070:
-        - note: 'That is, Nehemias; as appears from chap. 12. Either that he was so called at the court of the king of Persia, where he was cupbearer: or that, as some think, this name signifies governor; and he was at that time governor of Judea.</p>'
+        - match: athersatha
+          note: 'That is, Nehemias; as appears from chap. 12. Either that he was so called at the court of the king of Persia, where he was cupbearer: or that, as some think, this name signifies governor; and he was at that time governor of Judea.</p>'
           quote: Athersatha
     intro: Nehemias appointeth watchmen in Jerusalem. The list of those who came first from Babylon.
     verses:
@@ -224,7 +225,7 @@ chapters:
       v:067: 'NEH:7:67 | 67 | 67 | Beside their menservants and womenservants, who were seven thousand three hundred thirty-seven: and among them singing men, and singing women, two hundred forty-five.'
       v:068: 'NEH:7:68 | 68 | 68 | Their horses, seven hundred thirty-six: their mules two hundred forty-five.'
       v:069: 'NEH:7:69 | 69 | 69 | Their camels, four hundred thirty-five, their asses, six thousand seven hundred and twenty.{VS:P}'
-      v:070: 'NEH:7:70 | 70 | 70 | And some of the heads of the families gave unto the work. Athersatha gave into the treasure a thousand drams of gold, fifty bowls, and five hundred and thirty garments for priests.'
+      v:070: 'NEH:7:70 | 70 | 70 | And some of the heads of the families gave unto the work. {NF:BEGIN 0}Athersatha{NF:END} gave into the treasure a thousand drams of gold, fifty bowls, and five hundred and thirty garments for priests.'
       v:071: 'NEH:7:71 | 71 | 71 | And some of the heads of families gave to the treasure of the work, twenty thousand drams of gold, and two thousand two hundred pounds of silver.'
       v:072: 'NEH:7:72 | 72 | 72 | And that which the rest of the people gave, was twenty thousand drams of gold, and two thousand pounds of silver, and sixty-seven garments for priests.'
       v:073: 'NEH:7:73 | 73 | 73 | And the priests, and the Levites, and the porters, and the singing men, and the rest of the common people, and the Nathinites, and all Israel dwelt in their cities.'
@@ -253,10 +254,12 @@ chapters:
   c:009:
     footnotes:
       v:007:
-        - note: 'The city of Ur in Chaldea, the name of which signifies fire. Or out of the fire of the tribulations and temptations, to which he was there exposed.-- The ancient Rabbins understood this literally, affirming that Abram was cast into the fire by the idolaters, and brought out by a miracle without any hurt.</p>'
+        - match: the fire of the chaldeans
+          note: 'The city of Ur in Chaldea, the name of which signifies fire. Or out of the fire of the tribulations and temptations, to which he was there exposed.-- The ancient Rabbins understood this literally, affirming that Abram was cast into the fire by the idolaters, and brought out by a miracle without any hurt.</p>'
           quote: The fire of the Chaldeans
       v:017:
-        - note: 'That is, they set their head, or were bent to return to Egypt.</p>'
+        - match: and gave the head
+          note: 'That is, they set their head, or were bent to return to Egypt.</p>'
           quote: And gave the head
     intro: 'The people repent with fasting and sackcloth. The Levites confess God’s benefits, and the people’s ingratitude: they pray for them, and make a covenant with God.'
     verses:
@@ -266,7 +269,7 @@ chapters:
       v:004: 'NEH:9:4 | 4 | 4 | And there stood up upon the step of the Levites, Josue, and Bani, and Cedmihel, Sabania, Bonni, Sarebias, Bani, and Chanani: and they cried with a loud voice to the Lord their God.'
       v:005: 'NEH:9:5 | 5 | 5 | And the Levites Josue and Cedmihel, Bonni, Hasebnia, Serebia, Oduia, Sebnia, and Phathahia, said: Arise, bless the Lord your God from eternity to eternity: and blessed be the high name of thy glory with all blessing and praise.'
       v:006: 'NEH:9:6 | 6 | 6 | Thou thyself, O Lord alone, thou hast made heaven, and the heaven of heavens, and all the host thereof: the earth and all things that are in it: the seas and all that are therein: and thou givest life to all these things, and the host of heaven adoreth thee.'
-      v:007: 'NEH:9:7 | 7 | 7 | Thou O Lord God, art he who chosest Abram, and broughtest him forth out of the fire of the Chaldeans, and gavest him the name of Abraham.'
+      v:007: 'NEH:9:7 | 7 | 7 | Thou O Lord God, art he who chosest Abram, and broughtest him forth out of {NF:BEGIN 0}the fire of the Chaldeans{NF:END}, and gavest him the name of Abraham.'
       v:008: 'NEH:9:8 | 8 | 8 | And thou didst find his heart faithful before thee: and thou madest a covenant with him, to give him the land of the Chanaanite, of the Hethite, and of the Amorrhite, and of the Pherezite, and of the Jebusite, and of the Gergezite, to give it to his seed: and thou hast fulfilled thy words, because thou art just.{VS:P}'
       v:009: 'NEH:9:9 | 9 | 9 | And thou sawest the affliction of our fathers in Egypt: and thou didst hear their cry by the Red Sea.'
       v:010: 'NEH:9:10 | 10 | 10 | And thou shewedst signs and wonders upon Pharao, and upon all his servants, and upon the people of his land: for thou knewest that they dealt proudly against them: and thou madest thyself a name, as it is at this day.'
@@ -276,7 +279,7 @@ chapters:
       v:014: 'NEH:9:14 | 14 | 14 | Thou madest known to them thy holy sabbath, and didst prescribe to them commandments, and ceremonies, and the law by the hand of Moses thy servant.'
       v:015: 'NEH:9:15 | 15 | 15 | And thou gavest them bread from heaven in their hunger, and broughtest forth water for them out of the rock in their thirst, and thou saidst to them that they should go in, and possess the land, upon which thou hadst lifted up thy hand to give it them.{VS:P}'
       v:016: 'NEH:9:16 | 16 | 16 | But they and our fathers dealt proudly, and hardened their necks and hearkened not to thy commandments.'
-      v:017: 'NEH:9:17 | 17 | 17 | And they would not hear, and they remembered not thy wonders which thou hadst done for them. And they hardened their necks, and gave the head to return to their bondage, as it were by contention. But thou, a forgiving God, gracious, and merciful, longsuffering, and full of compassion, didst not forsake them.'
+      v:017: 'NEH:9:17 | 17 | 17 | And they would not hear, and they remembered not thy wonders which thou hadst done for them. And they hardened their necks, {NF:BEGIN 0}and gave the head{NF:END} to return to their bondage, as it were by contention. But thou, a forgiving God, gracious, and merciful, longsuffering, and full of compassion, didst not forsake them.'
       v:018: 'NEH:9:18 | 18 | 18 | Yea when they had made also to themselves a molten calf, and had said: This is thy God, that brought thee out of Egypt: and had committed great blasphemies:'
       v:019: 'NEH:9:19 | 19 | 19 | Yet thou, in thy many mercies, didst not leave them in the desert: the pillar of the cloud departed not from them by day to lead them in the way, and the pillar of fire by night to shew them the way by which they should go.'
       v:020: 'NEH:9:20 | 20 | 20 | And thou gavest them thy good Spirit to teach them, and thy manna thou didst not withhold from their mouth, and thou gavest them water for their thirst.'
@@ -384,7 +387,8 @@ chapters:
   c:012:
     footnotes:
       v:046:
-        - note: 'That is, they gave them that which by the law was set aside, and sanctified for their use.</p>'
+        - match: sanctified
+          note: 'That is, they gave them that which by the law was set aside, and sanctified for their use.</p>'
           quote: Sanctified
     intro: 'The priests, and Levites that came up with Zorobabel. The succession of high priests: the solemnity of the dedication of the wall.'
     verses:
@@ -433,18 +437,19 @@ chapters:
       v:043: 'NEH:12:43 | 43 | 43 | They appointed also in that day men over the storehouses of the treasure, for the libations, and for the firstfruits, and for the tithes, that the rulers of the city might bring them in by them in honour of thanksgiving, for the priests and Levites: for Juda was joyful in the priests and Levites that assisted.'
       v:044: 'NEH:12:44 | 44 | 44 | And they kept the watch of their God, and the observance of expiation, and the singing men, and the porters, according to the commandment of David, and of Solomon his son.'
       v:045: 'NEH:12:45 | 45 | 45 | For in the days of David and Asaph from the beginning there were chief singers appointed, to praise with canticles, and give thanks to God.'
-      v:046: 'NEH:12:46 | 46 | 46 | And all Israel, in the days of Zorobabel, and in the days of Nehemias gave portions to the singing men, and to the porters, day by day, and they sanctified the Levites, and the Levites sanctified the sons of Aaron.'
+      v:046: 'NEH:12:46 | 46 | 46 | And all Israel, in the days of Zorobabel, and in the days of Nehemias gave portions to the singing men, and to the porters, day by day, and they {NF:BEGIN 0}sanctified{NF:END} the Levites, and the Levites sanctified the sons of Aaron.'
   c:013:
     footnotes:
       v:004:
-        - note: 'Or, he was faulty in this thing, or in this kind.</p>'
+        - match: over this thing
+          note: 'Or, he was faulty in this thing, or in this kind.</p>'
           quote: Over this thing
     intro: Divers abuses are reformed.
     verses:
       v:001: 'NEH:13:1 | 1 | 1 | And on that day they read in the book of Moses in the hearing of the people: and therein was found written, that the Ammonites and the Moabites should not come in to the church of God for ever:'
       v:002: 'NEH:13:2 | 2 | 2 | Because they met not the children of Israel with bread and water: and they hired against them Balaam, to curse them, and our God turned the curse into blessing.'
       v:003: 'NEH:13:3 | 3 | 3 | And it came to pass, when they had heard the law, that they separated every stranger from Israel.{VS:P}'
-      v:004: 'NEH:13:4 | 4 | 4 | And over this thing was Eliasib the priest, who was set over the treasury of the house of our God, and was near akin to Tobias.'
+      v:004: 'NEH:13:4 | 4 | 4 | And {NF:BEGIN 0}over this thing{NF:END} was Eliasib the priest, who was set over the treasury of the house of our God, and was near akin to Tobias.'
       v:005: 'NEH:13:5 | 5 | 5 | And he made him a great storeroom, where before him they laid up gifts, and frankincense, and vessels, and the tithes of the corn, of the wine, and of the oil, the portions of the Levites, and of the singing men, and of the porters, and the firstfruits of the priests.'
       v:006: 'NEH:13:6 | 6 | 6 | But in all this time I was not in Jerusalem, because in the two and thirtieth year of Artaxerxes king of Babylon, I went to the king, and after certain days I asked the king:'
       v:007: 'NEH:13:7 | 7 | 7 | And I came to Jerusalem, and I understood the evil that Eliasib had done for Tobias, to make him a storehouse in the courts of the house of God.'

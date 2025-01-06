@@ -4,7 +4,8 @@ chapters:
   c:001:
     footnotes:
       v:019:
-        - note: 'There was no inconstancy in the doctrine of the apostles, sometimes, like modern sectaries, saying, It is, and at other times saying, It is not. But their doctrine was ever the same, one uniform yea, in Jesus Christ, one Amen, that is, one truth in him.</p>'
+        - match: 'it is, was in him'
+          note: 'There was no inconstancy in the doctrine of the apostles, sometimes, like modern sectaries, saying, It is, and at other times saying, It is not. But their doctrine was ever the same, one uniform yea, in Jesus Christ, one Amen, that is, one truth in him.</p>'
           quote: 'It is, was in him'
     intro: He speaks of his troubles in Asia. His not coming to them was not out of levity. The constancy and sincerity of his doctrine.
     verses:
@@ -26,7 +27,7 @@ chapters:
       v:016: '2CO:1:16 | 16 | 16 | And to pass by you into Macedonia: and again from Macedonia to come to you, and by you to be brought on my way towards Judea.'
       v:017: '2CO:1:17 | 17 | 17 | Whereas then I was thus minded, did I use lightness? Or, the things that I purpose, do I purpose according to the flesh, that there should be with me, It is, and It is not?'
       v:018: '2CO:1:18 | 18 | 18 | But God is faithful: for our preaching which was to you, was not, It is, and It is not.'
-      v:019: '2CO:1:19 | 19 | 19 | For the Son of God, Jesus Christ, who was preached among you by us, by me and Sylvanus and Timothy, was not: It is and It is not. But, It is, was in him.'
+      v:019: '2CO:1:19 | 19 | 19 | For the Son of God, Jesus Christ, who was preached among you by us, by me and Sylvanus and Timothy, was not: It is and It is not. But, {NF:BEGIN 0}It is, was in him{NF:END}.'
       v:020: '2CO:1:20 | 20 | 20 | For all the promises of God are in him, It is. Therefore also by him, amen to God, unto our glory.'
       v:021: '2CO:1:21 | 21 | 21 | Now he that confirmeth us with you in Christ and that hath anointed us, is God:'
       v:022: '2CO:1:22 | 22 | 22 | Who also hath sealed us and given the pledge of the Spirit in our hearts.{VS:P}'
@@ -34,10 +35,12 @@ chapters:
   c:002:
     footnotes:
       v:010:
-        - note: 'The apostle here granted an indulgence, or pardon, in the person and by the authority of Christ, to the incestuous Corinthian, whom before he had put under penance, which pardon consisted in a releasing of part of the temporal punishment due to his sin.</p>'
+        - match: i also
+          note: 'The apostle here granted an indulgence, or pardon, in the person and by the authority of Christ, to the incestuous Corinthian, whom before he had put under penance, which pardon consisted in a releasing of part of the temporal punishment due to his sin.</p>'
           quote: I also
       v:016:
-        - note: 'The preaching of the apostle, which by its fragrant odour, brought many to life, was to others, through their own fault, the occasion of death; by their wilfully opposing and resisting that divine call.</p>'
+        - match: the odour of death
+          note: 'The preaching of the apostle, which by its fragrant odour, brought many to life, was to others, through their own fault, the occasion of death; by their wilfully opposing and resisting that divine call.</p>'
           quote: The odour of death
     intro: He grants a pardon to the incestuous man upon his doing penance.
     verses:
@@ -50,18 +53,19 @@ chapters:
       v:007: '2CO:2:7 | 7 | 7 | So that on the contrary, you should rather forgive him and comfort him, lest perhaps such a one be swallowed up with overmuch sorrow.'
       v:008: '2CO:2:8 | 8 | 8 | Wherefore, I beseech you that you would confirm your charity towards him.'
       v:009: '2CO:2:9 | 9 | 9 | For to this end also did I write, that I may know the experiment of you, whether you be obedient in all things.'
-      v:010: '2CO:2:10 | 10 | 10 | And to whom you have pardoned any thing, I also. For, what I have pardoned, if I have pardoned any thing, for your sakes have I done it in the person of Christ:'
+      v:010: '2CO:2:10 | 10 | 10 | And to whom you have pardoned any thing, {NF:BEGIN 0}I also{NF:END}. For, what I have pardoned, if I have pardoned any thing, for your sakes have I done it in the person of Christ:'
       v:011: '2CO:2:11 | 11 | 11 | That we be not overreached by Satan. for we are not ignorant of his devices.{VS:P}'
       v:012: '2CO:2:12 | 12 | 12 | And when I was come to Troas for the gospel of Christ and a door was opened unto me in the Lord,'
       v:013: '2CO:2:13 | 13 | 13 | I had no rest in my spirit, because I found not Titus my brother: but bidding them farewell, I went into Macedonia.'
       v:014: '2CO:2:14 | 14 | 14 | Now thanks be to God, who always maketh us to triumph in Christ Jesus and manifesteth the odour of his knowledge by us in every place.'
       v:015: '2CO:2:15 | 15 | 15 | For we are the good odour of Christ unto God, in them that are saved and in them that perish.'
-      v:016: '2CO:2:16 | 16 | 16 | To the one indeed the odour of death unto death: but to the others the odour of life unto life. And for these things who is so sufficient?'
+      v:016: '2CO:2:16 | 16 | 16 | To the one indeed {NF:BEGIN 0}the odour of death{NF:END} unto death: but to the others the odour of life unto life. And for these things who is so sufficient?'
       v:017: '2CO:2:17 | 17 | 17 | For we are not as many, adulterating the word of God: but with sincerity: but as from God, before God, in Christ we speak.'
   c:003:
     footnotes:
       v:006:
-        - note: 'Not rightly understood, and taken without the spirit.</p>'
+        - match: the letter
+          note: 'Not rightly understood, and taken without the spirit.</p>'
           quote: The letter
     intro: He needs no commendatory letters. The glory of the ministry of the New Testament.
     verses:
@@ -70,7 +74,7 @@ chapters:
       v:003: '2CO:3:3 | 3 | 3 | Being manifested, that you are the epistle of Christ, ministered by us, and written: not with ink but with the Spirit of the living God: not in tables of stone but in the fleshly tables of the heart.{VS:P}'
       v:004: '2CO:3:4 | 4 | 4 | And such confidence we have, through Christ, towards God.'
       v:005: '2CO:3:5 | 5 | 5 | Not that we are sufficient to think any thing of ourselves, as of ourselves: but our sufficiency is from God.'
-      v:006: '2CO:3:6 | 6 | 6 | Who also hath made us fit ministers of the new testament, not in the letter but in the spirit. for the letter killeth: but the spirit quickeneth.'
+      v:006: '2CO:3:6 | 6 | 6 | Who also hath made us fit ministers of the new testament, not in {NF:BEGIN 0}the letter{NF:END} but in the spirit. for the letter killeth: but the spirit quickeneth.'
       v:007: '2CO:3:7 | 7 | 7 | Now if the ministration of death, engraven with letters upon stones, was glorious (so that the children of Israel could not steadfastly behold the face of Moses, for the glory of his countenance), which is made void:'
       v:008: 2CO:3:8 | 8 | 8 | How shall not the ministration of the spirit be rather in glory?
       v:009: '2CO:3:9 | 9 | 9 | For if the ministration of condemnation be glory, much more the ministration of justice aboundeth in glory.'
@@ -108,13 +112,16 @@ chapters:
   c:005:
     footnotes:
       v:010:
-        - note: 'In the particular judgment, immediately after death, the soul is rewarded or punished according to what it has done in the body.</p>'
+        - match: the proper things of the body
+          note: 'In the particular judgment, immediately after death, the soul is rewarded or punished according to what it has done in the body.</p>'
           quote: The proper things of the body
       v:016:
-        - note: 'That is, we consider not any man with regard to his nation, family, kindred, or other natural qualities or advantages; but only with relation to Christ, and according to the order of divine charity, in God, and for God. The apostle adds, that even with respect to Christ himself, he now no longer considers him according to the flesh, by taking a satisfaction in his being his countryman; his affection being now purified from all such earthly considerations.</p>'
+        - match: we know no man according to the flesh
+          note: 'That is, we consider not any man with regard to his nation, family, kindred, or other natural qualities or advantages; but only with relation to Christ, and according to the order of divine charity, in God, and for God. The apostle adds, that even with respect to Christ himself, he now no longer considers him according to the flesh, by taking a satisfaction in his being his countryman; his affection being now purified from all such earthly considerations.</p>'
           quote: We know no man according to the flesh
       v:021:
-        - note: 'That is, to be a sin offering, a victim for sin.</p>'
+        - match: sin for us
+          note: 'That is, to be a sin offering, a victim for sin.</p>'
           quote: Sin for us
     intro: He is willing to leave his earthly mansion to be with the Lord. His charity to the Corinthians.
     verses:
@@ -127,18 +134,18 @@ chapters:
       v:007: 2CO:5:7 | 7 | 7 | (For we walk by faith and not by sight.)
       v:008: 2CO:5:8 | 8 | 8 | But we are confident and have a good will to be absent rather from the body and to be present with the Lord.
       v:009: '2CO:5:9 | 9 | 9 | And therefore we labour, whether absent or present, to please him.'
-      v:010: '2CO:5:10 | 10 | 10 | For we must all be manifested before the judgment seat of Christ, that every one may receive the proper things of the body, according as he hath done, whether it be good or evil.{VS:P}'
+      v:010: '2CO:5:10 | 10 | 10 | For we must all be manifested before the judgment seat of Christ, that every one may receive {NF:BEGIN 0}the proper things of the body{NF:END}, according as he hath done, whether it be good or evil.{VS:P}'
       v:011: '2CO:5:11 | 11 | 11 | Knowing therefore the fear of the Lord, we use persuasion to men: but to God we are manifest. And I trust also that in your consciences we are manifest.'
       v:012: '2CO:5:12 | 12 | 12 | We commend not ourselves again to you, but give you occasion to glory in our behalf: that you may have somewhat to answer them who glory in face, and not in heart.'
       v:013: '2CO:5:13 | 13 | 13 | For whether we be transported in mind, it is to God: or whether we be sober, it is for you.'
       v:014: '2CO:5:14 | 14 | 14 | For the charity of Christ presseth us: judging this, that if one died for all, then all were dead.'
       v:015: '2CO:5:15 | 15 | 15 | And Christ died for all: that they also who live may not now live to themselves, but unto him who died for them and rose again.'
-      v:016: '2CO:5:16 | 16 | 16 | Wherefore henceforth, we know no man according to the flesh. And if we have known Christ according to the flesh: but now we know him so no longer.'
+      v:016: '2CO:5:16 | 16 | 16 | Wherefore henceforth, {NF:BEGIN 0}we know no man according to the flesh{NF:END}. And if we have known Christ according to the flesh: but now we know him so no longer.'
       v:017: '2CO:5:17 | 17 | 17 | If then any be in Christ a new creature, the old things are passed away. Behold all things are made new.'
       v:018: '2CO:5:18 | 18 | 18 | But all things are of God, who hath reconciled us to himself by Christ and hath given to us the ministry of reconciliation.'
       v:019: '2CO:5:19 | 19 | 19 | For God indeed was in Christ, reconciling the world to himself, not imputing to them their sins. And he hath placed in us the word of reconciliation.'
       v:020: '2CO:5:20 | 20 | 20 | For Christ therefore we are ambassadors, God as it were exhorting by us, for Christ, we beseech you, be reconciled to God.'
-      v:021: '2CO:5:21 | 21 | 21 | Him, who knew no sin, he hath made sin for us: that we might be made the justice of God in him.'
+      v:021: '2CO:5:21 | 21 | 21 | Him, who knew no sin, he hath made {NF:BEGIN 0}sin for us{NF:END}: that we might be made the justice of God in him.'
   c:006:
     footnotes: {}
     intro: He exhorts them to a correspondence with God’s grace and not to associate with unbelievers.
@@ -184,12 +191,13 @@ chapters:
   c:008:
     footnotes:
       v:002:
-        - note: 'That is, sincere bounty and charity.</p>'
+        - match: simplicity
+          note: 'That is, sincere bounty and charity.</p>'
           quote: Simplicity
     intro: He exhorts them to contribute bountifully to relieve the poor of Jerusalem.
     verses:
       v:001: '2CO:8:1 | 1 | 1 | Now we make known unto you, brethren, the grace of God that hath been given in the churches of Macedonia.'
-      v:002: '2CO:8:2 | 2 | 2 | That in much experience of tribulation, they have had abundance of joy and their very deep poverty hath abounded unto the riches of their simplicity.'
+      v:002: '2CO:8:2 | 2 | 2 | That in much experience of tribulation, they have had abundance of joy and their very deep poverty hath abounded unto the riches of their {NF:BEGIN 0}simplicity{NF:END}.'
       v:003: '2CO:8:3 | 3 | 3 | For according to their power (I bear them witness) and beyond their power, they were willing:'
       v:004: 2CO:8:4 | 4 | 4 | With much entreaty begging of us the grace and communication of the ministry that is done toward the saints.
       v:005: '2CO:8:5 | 5 | 5 | And not as we hoped: but they gave their own selves, first to the Lord, then to us by the will of God;'
@@ -256,14 +264,16 @@ chapters:
   c:011:
     footnotes:
       v:001:
-        - note: 'So he calls his reciting his own praises, which, commonly speaking is looked upon as a piece of folly and vanity; though the apostle was constrained to do it, for the good of the souls committed to his charge.</p>'
+        - match: my folly
+          note: 'So he calls his reciting his own praises, which, commonly speaking is looked upon as a piece of folly and vanity; though the apostle was constrained to do it, for the good of the souls committed to his charge.</p>'
           quote: My folly
       v:028:
-        - note: 'The labours that come in, and press upon me every day.</p>'
+        - match: my daily instance
+          note: 'The labours that come in, and press upon me every day.</p>'
           quote: My daily instance
     intro: 'He is forced to commend himself and his labours, lest the Corinthians should be imposed upon by the false apostles.'
     verses:
-      v:001: 2CO:11:1 | 1 | 1 | Would to God you could bear with some little of my folly! But do bear with me.
+      v:001: '2CO:11:1 | 1 | 1 | Would to God you could bear with some little of {NF:BEGIN 0}my folly{NF:END}! But do bear with me.'
       v:002: '2CO:11:2 | 2 | 2 | For I am jealous of you with the jealousy of God. for I have espoused you to one husband, that I may present you as a chaste virgin to Christ.'
       v:003: '2CO:11:3 | 3 | 3 | But I fear lest, as the serpent seduced Eve by his subtilty, so your minds should be corrupted and fall from the simplicity that is in Christ.'
       v:004: '2CO:11:4 | 4 | 4 | For if he that cometh preacheth another Christ, whom we have not preached; or if you receive another Spirit, whom you have not received; or another gospel, which you have not received: you might well bear with him.'
@@ -290,7 +300,7 @@ chapters:
       v:025: '2CO:11:25 | 25 | 25 | Thrice was I beaten with rods: once I was stoned: thrice I suffered shipwreck: a night and a day I was in the depth of the sea.'
       v:026: '2CO:11:26 | 26 | 26 | In journeying often, in perils of waters, in perils of robbers, in perils from my own nation, in perils from the Gentiles, in perils in the city, in perils in the wilderness, in perils in the sea, in perils from false brethren:'
       v:027: '2CO:11:27 | 27 | 27 | In labour and painfulness, in much watchings, in hunger and thirst, in fastings often, in cold and nakedness:'
-      v:028: '2CO:11:28 | 28 | 28 | Besides those things which are without: my daily instance, the solicitude for all the churches.'
+      v:028: '2CO:11:28 | 28 | 28 | Besides those things which are without: {NF:BEGIN 0}my daily instance{NF:END}, the solicitude for all the churches.'
       v:029: '2CO:11:29 | 29 | 29 | Who is weak, and I am not weak? Who is scandalized, and I am not on fire?'
       v:030: '2CO:11:30 | 30 | 30 | If I must needs glory, I will glory of the things that concern my infirmity.'
       v:031: '2CO:11:31 | 31 | 31 | The God and Father of our Lord Jesus Christ, who is blessed for ever, knoweth that I lie not.'
@@ -299,7 +309,8 @@ chapters:
   c:012:
     footnotes:
       v:009:
-        - note: 'The strength and power of God more perfectly shines forth in our weakness and infirmity; as the more weak we are of ourselves, the more illustrious is his grace in supporting us, and giving us the victory under all trials and conflicts.</p>'
+        - match: power is made perfect
+          note: 'The strength and power of God more perfectly shines forth in our weakness and infirmity; as the more weak we are of ourselves, the more illustrious is his grace in supporting us, and giving us the victory under all trials and conflicts.</p>'
           quote: Power is made perfect
     intro: 'His raptures and revelations, His being buffeted by Satan. His fear for the Corinthians.'
     verses:
@@ -311,7 +322,7 @@ chapters:
       v:006: '2CO:12:6 | 6 | 6 | For though I should have a mind to glory, I shall not be foolish: for I will say the truth. But I forbear, lest any man should think of me above that which he seeth in me, or any thing he heareth from me.'
       v:007: '2CO:12:7 | 7 | 7 | And lest the greatness of the revelations should exalt me, there was given me a sting of my flesh, an angel of Satan, to buffet me.'
       v:008: '2CO:12:8 | 8 | 8 | For which thing, thrice I besought the Lord that it might depart from me.'
-      v:009: '2CO:12:9 | 9 | 9 | And he said to me: My grace is sufficient for thee: for power is made perfect in infirmity. Gladly therefore will I glory in my infirmities, that the power of Christ may dwell in me.'
+      v:009: '2CO:12:9 | 9 | 9 | And he said to me: My grace is sufficient for thee: for {NF:BEGIN 0}power is made perfect{NF:END} in infirmity. Gladly therefore will I glory in my infirmities, that the power of Christ may dwell in me.'
       v:010: '2CO:12:10 | 10 | 10 | For which cause I please myself in my infirmities, in reproaches, in necessities, in persecutions, in distresses, for Christ. for when I am weak, then am I powerful.'
       v:011: '2CO:12:11 | 11 | 11 | I am become foolish. You have compelled me: for I ought to have been commended by you. for I have no way come short of them that are above measure apostles, although I be nothing.'
       v:012: '2CO:12:12 | 12 | 12 | Yet the signs of my apostleship have been wrought on you, in all patience, in signs and wonders and mighty deeds.'
@@ -327,7 +338,8 @@ chapters:
   c:013:
     footnotes:
       v:007:
-        - note: 'that is, without proof, by having no occasion of shewing our power in punishing you.</p>'
+        - match: reprobates
+          note: 'that is, without proof, by having no occasion of shewing our power in punishing you.</p>'
           quote: Reprobates
     intro: 'He threatens the impenitent, to provoke them to penance.'
     verses:
@@ -337,7 +349,7 @@ chapters:
       v:004: '2CO:13:4 | 4 | 4 | For although he was crucified through weakness, yet he liveth by the power of God. for we also are weak in him: but we shall live with him by the power of God towards you.'
       v:005: '2CO:13:5 | 5 | 5 | Try your own selves if you be in the faith: prove ye yourselves. Know you not your own selves, that Christ Jesus is in you, unless perhaps you be reprobates?'
       v:006: 2CO:13:6 | 6 | 6 | But I trust that you shall know that we are not reprobates.
-      v:007: '2CO:13:7 | 7 | 7 | Now we pray God that you may do no evil, not that we may appear approved, but that you may do that which is good and that we may be as reprobates.'
+      v:007: '2CO:13:7 | 7 | 7 | Now we pray God that you may do no evil, not that we may appear approved, but that you may do that which is good and that we may be as {NF:BEGIN 0}reprobates{NF:END}.'
       v:008: '2CO:13:8 | 8 | 8 | For we can do nothing against the truth: but for the truth.'
       v:009: '2CO:13:9 | 9 | 9 | For we rejoice that we are weak and you are strong. This also we pray for, your perfection.'
       v:010: '2CO:13:10 | 10 | 10 | Therefore I write these things, being absent, that, being present, I may not deal more severely, according to the power which the Lord hath given me unto edification and not unto destruction.{VS:P}'

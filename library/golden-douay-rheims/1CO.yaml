@@ -4,7 +4,8 @@ chapters:
   c:001:
     footnotes:
       v:025:
-        - note: 'That is to say, what appears foolish to the world in the ways of God, is indeed most wise; and what appears weak is indeed above all the strength and comprehension of man.</p>'
+        - match: the foolishness
+          note: 'That is to say, what appears foolish to the world in the ways of God, is indeed most wise; and what appears weak is indeed above all the strength and comprehension of man.</p>'
           quote: The foolishness
     intro: 'He reproveth their dissensions about their teachers. The world was to be saved by preaching of the cross, and not by human wisdom or eloquence.'
     verses:
@@ -32,7 +33,7 @@ chapters:
       v:022: '1CO:1:22 | 22 | 22 | For both the Jews require signs: and the Greeks seek after wisdom.'
       v:023: '1CO:1:23 | 23 | 23 | But we preach Christ crucified: unto the Jews indeed a stumblingblock, and unto the Gentiles foolishness:'
       v:024: '1CO:1:24 | 24 | 24 | But unto them that are called, both Jews and Greeks, Christ, the power of God and the wisdom of God.'
-      v:025: '1CO:1:25 | 25 | 25 | For the foolishness of God is wiser than men: and the weakness of God is stronger than men.'
+      v:025: '1CO:1:25 | 25 | 25 | For {NF:BEGIN 0}the foolishness{NF:END} of God is wiser than men: and the weakness of God is stronger than men.'
       v:026: '1CO:1:26 | 26 | 26 | For see your vocation, brethren, that there are not many wise according to the flesh, not many mighty, not many noble.'
       v:027: '1CO:1:27 | 27 | 27 | But the foolish things of the world hath God chosen, that he may confound the wise: and the weak things of the world hath God chosen, that he may confound the strong.'
       v:028: '1CO:1:28 | 28 | 28 | And the base things of the world and the things that are contemptible, hath God chosen: and things that are not, that he might bring to nought things that are:'
@@ -42,8 +43,10 @@ chapters:
   c:002:
     footnotes:
       v:014:
-        - note: 'The sensual man is either he who is taken up with sensual pleasures, with carnal and worldly affections; or he who measureth divine mysteries by natural reason, sense, and human wisdom only. Now such a man has little or no notion of the things of God. Whereas the spiritual man is he who, in the mysteries of religion, takes not human sense for his guide: but submits his judgment to the decisions of the church, which he is commanded to hear and obey. For Christ hath promised to remain to the end of the world with his church, and to direct her in all things by the Spirit of truth.</p>'
+        - match: the sensual man
+          note: 'The sensual man is either he who is taken up with sensual pleasures, with carnal and worldly affections; or he who measureth divine mysteries by natural reason, sense, and human wisdom only. Now such a man has little or no notion of the things of God. Whereas the spiritual man is he who, in the mysteries of religion, takes not human sense for his guide: but submits his judgment to the decisions of the church, which he is commanded to hear and obey. For Christ hath promised to remain to the end of the world with his church, and to direct her in all things by the Spirit of truth.</p>'
           quote: The sensual man
+          quote_2: The sensual man—the spiritual man
     intro: 'His preaching was not in loftiness of words, but in spirit and power. And the wisdom he taught was not to be understood by the worldly wise or sensual man, but only by the spiritual man.'
     verses:
       v:001: '1CO:2:1 | 1 | 1 | And I, brethren, when I came to you, came not in loftiness of speech or of wisdom, declaring unto you the testimony of Christ.'
@@ -59,13 +62,14 @@ chapters:
       v:011: '1CO:2:11 | 11 | 11 | For what man knoweth the things of a man, but the spirit of a man that is in him? So the things also that are of God, no man knoweth, but the Spirit of God.'
       v:012: '1CO:2:12 | 12 | 12 | Now, we have received not the spirit of this world, but the Spirit that is of God: that we may know the things that are given us from God.'
       v:013: '1CO:2:13 | 13 | 13 | Which things also we speak: not in the learned words of human wisdom, but in the doctrine of the Spirit, comparing spiritual things with spiritual.'
-      v:014: '1CO:2:14 | 14 | 14 | But the sensual man perceiveth not these things that are of the Spirit of God. for it is foolishness to him: and he cannot understand, because it is spiritually examined.'
+      v:014: '1CO:2:14 | 14 | 14 | But {NF:BEGIN 0}the sensual man{NF:END} perceiveth not these things that are of the Spirit of God. for it is foolishness to him: and he cannot understand, because it is spiritually examined.'
       v:015: '1CO:2:15 | 15 | 15 | But the spiritual man judgeth all things: and he himself is judged of no man.'
       v:016: '1CO:2:16 | 16 | 16 | For who hath known the mind of the Lord, that he may instruct him? But we have the mind of Christ.'
   c:003:
     footnotes:
       v:012:
-        - note: "The foundation is Christ and his doctrine: or the true faith in him, working through charity. The building upon this foundation gold, silver, and precious stones, signifies the more perfect preaching and practice of the gospel; the wood, hay, and stubble, such preaching as that of the Corinthian teachers (who affected the pomp of words and human eloquence) and such practice as is mixed with much imperfection, and many lesser sins. Now the day of the Lord, and his fiery trial, (in the particular judgment immediately after death,) shall make manifest of what sort every man's work has been: of which, during this life, it is hard to make a judgment. For then the fire of God's judgment shall try every man's work. And they, whose works, like wood, hay, and stubble, cannot abide the fire, shall suffer loss; these works being found to be of no value; yet they themselves, having built upon the right foundation, (by living and dying in the true faith and in the state of grace, though with some imperfection,) shall be saved yet so as by fire; being liable to this punishment, by reason of the wood, hay, and stubble, which was mixed with their building.</p>"
+        - match: upon this foundation
+          note: "The foundation is Christ and his doctrine: or the true faith in him, working through charity. The building upon this foundation gold, silver, and precious stones, signifies the more perfect preaching and practice of the gospel; the wood, hay, and stubble, such preaching as that of the Corinthian teachers (who affected the pomp of words and human eloquence) and such practice as is mixed with much imperfection, and many lesser sins. Now the day of the Lord, and his fiery trial, (in the particular judgment immediately after death,) shall make manifest of what sort every man's work has been: of which, during this life, it is hard to make a judgment. For then the fire of God's judgment shall try every man's work. And they, whose works, like wood, hay, and stubble, cannot abide the fire, shall suffer loss; these works being found to be of no value; yet they themselves, having built upon the right foundation, (by living and dying in the true faith and in the state of grace, though with some imperfection,) shall be saved yet so as by fire; being liable to this punishment, by reason of the wood, hay, and stubble, which was mixed with their building.</p>"
           quote: Upon this foundation
     intro: 'They must not contend about their teachers, who are but God’s ministers and accountable to him. Their works shall be tried by fire.'
     verses:
@@ -80,7 +84,7 @@ chapters:
       v:009: "1CO:3:9 | 9 | 9 | For we are God's coadjutors. You are God's husbandry: you are God's building."
       v:010: '1CO:3:10 | 10 | 10 | According to the grace of God that is given to me, as a wise architect, I have laid the foundation: and another buildeth thereon. But let every man take heed how he buildeth thereupon.'
       v:011: '1CO:3:11 | 11 | 11 | For other foundation no man can lay, but that which is laid: which is Christ Jesus.'
-      v:012: '1CO:3:12 | 12 | 12 | Now, if any man build upon this foundation, gold, silver, precious stones, wood, hay, stubble:'
+      v:012: '1CO:3:12 | 12 | 12 | Now, if any man build {NF:BEGIN 0}upon this foundation{NF:END}, gold, silver, precious stones, wood, hay, stubble:'
       v:013: "1CO:3:13 | 13 | 13 | Every man's work shall be manifest. for the day of the Lord shall declare it, because it shall be revealed in fire. And the fire shall try every man's work, of what sort it is."
       v:014: "1CO:3:14 | 14 | 14 | If any man's work abide, which he hath built thereupon, he shall receive a reward."
       v:015: "1CO:3:15 | 15 | 15 | If any man's work burn, he shall suffer loss: but he himself shall be saved, yet so as by fire."
@@ -137,10 +141,12 @@ chapters:
   c:006:
     footnotes:
       v:007:
-        - note: 'Lawsuits can hardly ever be without a fault, on the one side or the other; and oftentimes on both sides.</p>'
+        - match: a fault
+          note: 'Lawsuits can hardly ever be without a fault, on the one side or the other; and oftentimes on both sides.</p>'
           quote: A fault
       v:012:
-        - note: 'That is, all indifferent things are indeed lawful, inasmuch as they are not prohibited; but oftentimes they are not expedient; as in the case of lawsuits, etc. And much less would it be expedient to be enslaved by an irregular affection to any thing, how indifferent soever.</p>'
+        - match: all things are lawful
+          note: 'That is, all indifferent things are indeed lawful, inasmuch as they are not prohibited; but oftentimes they are not expedient; as in the case of lawsuits, etc. And much less would it be expedient to be enslaved by an irregular affection to any thing, how indifferent soever.</p>'
           quote: All things are lawful
     intro: He blames them for going to law before unbelievers. Of sins that exclude from the kingdom of heaven. The evil of fornication.
     verses:
@@ -150,12 +156,12 @@ chapters:
       v:004: '1CO:6:4 | 4 | 4 | If therefore you have judgments of things pertaining to this world, set them to judge who are the most despised in the church.'
       v:005: 1CO:6:5 | 5 | 5 | I speak to your shame. Is it so that there is not among you any one wise man that is able to judge between his brethren?
       v:006: '1CO:6:6 | 6 | 6 | But brother goeth to law with brother: and that before unbelievers.'
-      v:007: '1CO:6:7 | 7 | 7 | Already indeed there is plainly a fault among you, that you have law suits one with another. Why do you not rather take wrong? Why do you not rather suffer yourselves to be defrauded?'
+      v:007: '1CO:6:7 | 7 | 7 | Already indeed there is plainly {NF:BEGIN 0}a fault{NF:END} among you, that you have law suits one with another. Why do you not rather take wrong? Why do you not rather suffer yourselves to be defrauded?'
       v:008: '1CO:6:8 | 8 | 8 | But you do wrong and defraud: and that to your brethren.{VS:P}'
       v:009: '1CO:6:9 | 9 | 9 | Know you not that the unjust shall not possess the kingdom of God? Do not err: Neither fornicators nor idolaters nor adulterers:'
       v:010: 1CO:6:10 | 10 | 10 | Nor the effeminate nor liers with mankind nor thieves nor covetous nor drunkards nor railers nor extortioners shall possess the kingdom of God.
       v:011: '1CO:6:11 | 11 | 11 | And such some of you were. But you are washed: but you are sanctified: but you are justified: in the name of our Lord Jesus Christ and the Spirit of our God.'
-      v:012: '1CO:6:12 | 12 | 12 | All things are lawful to me: but all things are not expedient. All things are lawful to me: but I will not be brought under the power of any.'
+      v:012: '1CO:6:12 | 12 | 12 | {NF:BEGIN 0}All things are lawful{NF:END} to me: but all things are not expedient. All things are lawful to me: but I will not be brought under the power of any.'
       v:013: '1CO:6:13 | 13 | 13 | Meat for the belly and the belly for the meats: but God shall destroy both it and them. But the body is not for fornication, but for the Lord: and the Lord for the body.'
       v:014: '1CO:6:14 | 14 | 14 | Now God hath both raised up the Lord, and will raise us up also by his power.'
       v:015: '1CO:6:15 | 15 | 15 | Know you not that your bodies are the members of Christ? Shall I then take the members of Christ and make them the members of an harlot? God forbid!'
@@ -167,39 +173,46 @@ chapters:
   c:007:
     footnotes:
       v:002:
-        - note: 'That is, keep to his wife, which he hath. His meaning is not to exhort the unmarried to marry: on the contrary, he would have them rather continue as they are. (Ver. 7: 8.) But he speaks here to them that are already married; who must not depart from one another, but live together as they ought to do in the marriage state.</p>'
+        - match: have his own wife
+          note: 'That is, keep to his wife, which he hath. His meaning is not to exhort the unmarried to marry: on the contrary, he would have them rather continue as they are. (Ver. 7: 8.) But he speaks here to them that are already married; who must not depart from one another, but live together as they ought to do in the marriage state.</p>'
           quote: Have his own wife
       v:006:
-        - note: 'That is, by a condescension to your weakness.</p>'
+        - match: by indulgence
+          note: 'That is, by a condescension to your weakness.</p>'
           quote: By indulgence
       v:009:
-        - note: 'This is spoken of such as are free, and not of such as, by vow, have given their first faith to God; to whom if they will use proper means to obtain it, God will never refuse the gift of continency. Some translators have corrupted this text, by rendering it, if they cannot contain.</p>'
+        - match: if they do not contain
+          note: 'This is spoken of such as are free, and not of such as, by vow, have given their first faith to God; to whom if they will use proper means to obtain it, God will never refuse the gift of continency. Some translators have corrupted this text, by rendering it, if they cannot contain.</p>'
           quote: If they do not contain
       v:012:
-        - note: 'Viz., by any express commandment, or ordinance.</p>'
+        - match: 'i speak, not the lord'
+          note: 'Viz., by any express commandment, or ordinance.</p>'
           quote: 'I speak, not the Lord'
       v:014:
-        - note: 'The meaning is not, that the faith of the husband or the wife is of itself sufficient to put the unbelieving party, or their children, in the state of grace and salvation; but that it is very often an occasion of their sanctification, by bringing them to the true faith.</p>'
+        - match: is sanctified
+          note: 'The meaning is not, that the faith of the husband or the wife is of itself sufficient to put the unbelieving party, or their children, in the state of grace and salvation; but that it is very often an occasion of their sanctification, by bringing them to the true faith.</p>'
           quote: Is sanctified
       v:036:
-        - note: 'The meaning is not, as libertines would have it, that persons may do what they will and not sin, provided they afterwards marry; but that the father, with regard to the giving his virgin in marriage, may do as he pleaseth; and that it will be no sin to him if she marry.</p>'
+        - match: let him do what he will. he sinneth not
+          note: 'The meaning is not, as libertines would have it, that persons may do what they will and not sin, provided they afterwards marry; but that the father, with regard to the giving his virgin in marriage, may do as he pleaseth; and that it will be no sin to him if she marry.</p>'
           quote: Let him do what he will. He sinneth not
+          quote_2: Let him do what he will; he sinneth not
     intro: Lessons relating to marriage and celibacy. Virginity is preferable to a married state.
     verses:
       v:001: '1CO:7:1 | 1 | 1 | Now concerning the things whereof you wrote to me: It is good for a man not to touch a woman.'
-      v:002: '1CO:7:2 | 2 | 2 | But for fear of fornication, let every man have his own wife: and let every woman have her own husband.'
+      v:002: '1CO:7:2 | 2 | 2 | But for fear of fornication, let every man {NF:BEGIN 0}have his own wife{NF:END}: and let every woman have her own husband.'
       v:003: '1CO:7:3 | 3 | 3 | Let the husband render the debt to his wife: and the wife also in like manner to the husband.'
       v:004: '1CO:7:4 | 4 | 4 | The wife hath not power of her own body: but the husband. And in like manner the husband also hath not power of his own body: but the wife.'
       v:005: '1CO:7:5 | 5 | 5 | Defraud not one another, except, perhaps, by consent, for a time, that you may give yourselves to prayer: and return together again, lest Satan tempt you for your incontinency.'
-      v:006: '1CO:7:6 | 6 | 6 | But I speak this by indulgence, not by commandment.'
+      v:006: '1CO:7:6 | 6 | 6 | But I speak this {NF:BEGIN 0}by indulgence{NF:END}, not by commandment.'
       v:007: '1CO:7:7 | 7 | 7 | For I would that all men were even as myself. But every one hath his proper gift from God: one after this manner, and another after that.'
       v:008: '1CO:7:8 | 8 | 8 | But I say to the unmarried and to the widows: It is good for them if they so continue, even as I.'
-      v:009: '1CO:7:9 | 9 | 9 | But if they do not contain themselves, let them marry. for it is better to marry than to be burnt.{VS:P}'
+      v:009: '1CO:7:9 | 9 | 9 | But {NF:BEGIN 0}if they do not contain{NF:END} themselves, let them marry. for it is better to marry than to be burnt.{VS:P}'
       v:010: '1CO:7:10 | 10 | 10 | But to them that are married, not I, but the Lord, commandeth that the wife depart not from her husband.'
       v:011: '1CO:7:11 | 11 | 11 | And if she depart, that she remain unmarried or be reconciled to her husband. And let not the husband put away his wife.{VS:P}'
-      v:012: '1CO:7:12 | 12 | 12 | For to the rest I speak, not the Lord. If any brother hath a wife that believeth not and she consent to dwell with him: let him not put her away.'
+      v:012: '1CO:7:12 | 12 | 12 | For to the rest {NF:BEGIN 0}I speak, not the Lord{NF:END}. If any brother hath a wife that believeth not and she consent to dwell with him: let him not put her away.'
       v:013: '1CO:7:13 | 13 | 13 | And if any woman hath a husband that believeth not and he consent to dwell with her: let her not put away her husband.'
-      v:014: '1CO:7:14 | 14 | 14 | For the unbelieving husband is sanctified by the believing wife: and the unbelieving wife is sanctified by the believing husband. Otherwise your children should be unclean: but now they are holy.'
+      v:014: '1CO:7:14 | 14 | 14 | For the unbelieving husband {NF:BEGIN 0}is sanctified{NF:END} by the believing wife: and the unbelieving wife is sanctified by the believing husband. Otherwise your children should be unclean: but now they are holy.'
       v:015: '1CO:7:15 | 15 | 15 | But if the unbeliever depart, let him depart. for a brother or sister is not under servitude in such cases. But God hath called us in peace.'
       v:016: '1CO:7:16 | 16 | 16 | For how knowest thou, O wife, whether thou shalt save thy husband? Or how knowest thou, O man, whether thou shalt save thy wife?{VS:P}'
       v:017: '1CO:7:17 | 17 | 17 | But as the Lord hath distributed to every one, as God hath called every one: so let him walk. And so in all churches I teach.'
@@ -221,7 +234,7 @@ chapters:
       v:033: '1CO:7:33 | 33 | 33 | But he that is with a wife is solicitous for the things of the world: how he may please his wife. And he is divided.'
       v:034: '1CO:7:34 | 34 | 34 | And the unmarried woman and the virgin thinketh on the things of the Lord: that she may be holy both in body and in spirit. But she that is married thinketh on the things of the world: how she may please her husband.'
       v:035: '1CO:7:35 | 35 | 35 | And this I speak for your profit, not to cast a snare upon you, but for that which is decent and which may give you power to attend upon the Lord, without impediment.'
-      v:036: '1CO:7:36 | 36 | 36 | But if any man think that he seemeth dishonoured with regard to his virgin, for that she is above the age, and it must so be: let him do what he will. He sinneth not if she marry.'
+      v:036: '1CO:7:36 | 36 | 36 | But if any man think that he seemeth dishonoured with regard to his virgin, for that she is above the age, and it must so be: {NF:BEGIN 0}let him do what he will. He sinneth not{NF:END} if she marry.'
       v:037: '1CO:7:37 | 37 | 37 | For he that hath determined, being steadfast in his heart, having no necessity, but having power of his own will: and hath judged this in his heart, to keep his virgin, doth well.'
       v:038: '1CO:7:38 | 38 | 38 | Therefore both he that giveth his virgin in marriage doth well: and he that giveth her not doth better.'
       v:039: '1CO:7:39 | 39 | 39 | A woman is bound by the law as long as her husband liveth: but if her husband die, she is at liberty. Let her marry to whom she will: only in the Lord.'
@@ -229,21 +242,24 @@ chapters:
   c:008:
     footnotes:
       v:001:
-        - note: 'Knowledge, without charity and humility, serveth only to puff persons up.</p>'
+        - match: knowledge puffeth up
+          note: 'Knowledge, without charity and humility, serveth only to puff persons up.</p>'
           quote: Knowledge puffeth up
       v:005:
-        - note: 'Reputed for such among the heathens.</p>'
+        - match: gods many
+          note: 'Reputed for such among the heathens.</p>'
           quote: Gods many
       v:013:
-        - note: 'That is, if my eating cause my brother to sin.</p>'
+        - match: if meat scandalize
+          note: 'That is, if my eating cause my brother to sin.</p>'
           quote: If meat scandalize
     intro: 'Though an idol be nothing, yet things offered up to idols are not to be eaten, for fear of scandal.'
     verses:
-      v:001: '1CO:8:1 | 1 | 1 | Now concerning those things that are sacrificed to idols: we know that we all have knowledge. Knowledge puffeth up: but charity edifieth.'
+      v:001: '1CO:8:1 | 1 | 1 | Now concerning those things that are sacrificed to idols: we know that we all have knowledge. {NF:BEGIN 0}Knowledge puffeth up{NF:END}: but charity edifieth.'
       v:002: '1CO:8:2 | 2 | 2 | And if any man think that he knoweth any thing, he hath not yet known as he ought to know.'
       v:003: '1CO:8:3 | 3 | 3 | But if any man love God, the same is known by him.'
       v:004: '1CO:8:4 | 4 | 4 | But as for the meats that are sacrificed to idols, we know that an idol is nothing in the world and that there is no God but one.'
-      v:005: '1CO:8:5 | 5 | 5 | For although there be that are called gods, either in heaven or on earth (for there be gods many and lords many):'
+      v:005: '1CO:8:5 | 5 | 5 | For although there be that are called gods, either in heaven or on earth (for there be {NF:BEGIN 0}gods many{NF:END} and lords many):'
       v:006: '1CO:8:6 | 6 | 6 | Yet to us there is but one God, the Father, of whom are all things, and we unto him: and one Lord Jesus Christ, by whom are all things, and we by him.'
       v:007: '1CO:8:7 | 7 | 7 | But there is not knowledge in every one. for some until this present, with conscience of the idol, eat as a thing sacrificed to an idol: and their conscience, being weak, is defiled.'
       v:008: '1CO:8:8 | 8 | 8 | But meat doth not commend us to God. for neither, if we eat, shall we have the more: nor, if we eat not, shall we have the less.'
@@ -251,17 +267,20 @@ chapters:
       v:010: "1CO:8:10 | 10 | 10 | For if a man see him that hath knowledge sit at meat in the idol's temple, shall not his conscience, being weak, be emboldened to eat those things which are sacrificed to idols?"
       v:011: '1CO:8:11 | 11 | 11 | And through thy knowledge shall the weak brother perish, for whom Christ hath died?'
       v:012: '1CO:8:12 | 12 | 12 | Now when you sin thus against the brethren and wound their weak conscience, you sin against Christ.'
-      v:013: '1CO:8:13 | 13 | 13 | Wherefore, if meat scandalize my brother, I will never eat flesh, lest I should scandalize my brother.'
+      v:013: '1CO:8:13 | 13 | 13 | Wherefore, {NF:BEGIN 0}if meat scandalize{NF:END} my brother, I will never eat flesh, lest I should scandalize my brother.'
   c:009:
     footnotes:
       v:005:
-        - note: 'Some erroneous translators have corrupted this text by rendering it, a sister, a wife: whereas, it is certain, St. Paul had no wife (chap. 7 ver. 7, 8) and that he only speaks of such devout women, as, according to the custom of the Jewish nation, waited upon the preachers of the gospel, and supplied them with necessaries.</p>'
+        - match: 'a woman, a sister'
+          note: 'Some erroneous translators have corrupted this text by rendering it, a sister, a wife: whereas, it is certain, St. Paul had no wife (chap. 7 ver. 7, 8) and that he only speaks of such devout women, as, according to the custom of the Jewish nation, waited upon the preachers of the gospel, and supplied them with necessaries.</p>'
           quote: 'A woman, a sister'
       v:016:
-        - note: 'That is, I have nothing to glory of.</p>'
+        - match: it is no glory
+          note: 'That is, I have nothing to glory of.</p>'
           quote: It is no glory
       v:027:
-        - note: 'Here St. Paul shews the necessity of self-denial and mortification, to subdue the flesh, and its inordinate desires.</p>'
+        - match: i chastise
+          note: 'Here St. Paul shews the necessity of self-denial and mortification, to subdue the flesh, and its inordinate desires.</p>'
           quote: I chastise
     intro: 'The apostle did not make use of his power of being maintained at the charges of those to whom he preached, that he might give no hindrance to the gospel. Of running in the race and striving for the mastery.'
     verses:
@@ -269,7 +288,7 @@ chapters:
       v:002: '1CO:9:2 | 2 | 2 | And if unto others I be not an apostle, but yet to you I am. for you are the seal of my apostleship in the Lord.'
       v:003: 1CO:9:3 | 3 | 3 | My defence with them that do examine me is this.
       v:004: 1CO:9:4 | 4 | 4 | Have not we power to eat and to drink?
-      v:005: '1CO:9:5 | 5 | 5 | Have we not power to carry about a woman, a sister as well as the rest of the apostles and the brethren of the Lord and Cephas?'
+      v:005: '1CO:9:5 | 5 | 5 | Have we not power to carry about {NF:BEGIN 0}a woman, a sister{NF:END} as well as the rest of the apostles and the brethren of the Lord and Cephas?'
       v:006: '1CO:9:6 | 6 | 6 | Or I only and Barnabas, have not we power to do this?'
       v:007: '1CO:9:7 | 7 | 7 | Who serveth as a soldier, at any time, at his own charges? Who planteth a vineyard and eateth not of the fruit thereof? Who feedeth the flock and eateth not of the milk of the flock?'
       v:008: '1CO:9:8 | 8 | 8 | Speak I these things according to man? Or doth not the law also say; these things?'
@@ -280,7 +299,7 @@ chapters:
       v:013: 1CO:9:13 | 13 | 13 | Know you not that they who work in the holy place eat the things that are of the holy place; and they that serve the altar partake with the altar?
       v:014: 1CO:9:14 | 14 | 14 | So also the Lord ordained that they who preach the gospel should live by the gospel.
       v:015: '1CO:9:15 | 15 | 15 | But I have used none of these things. Neither have I written these things, that they should be so done unto me: for it is good for me to die rather than that any man should make my glory void.'
-      v:016: '1CO:9:16 | 16 | 16 | For if I preach the gospel, it is no glory to me: for a necessity lieth upon me. for woe is unto me if I preach not the gospel.'
+      v:016: '1CO:9:16 | 16 | 16 | For if I preach the gospel, {NF:BEGIN 0}it is no glory{NF:END} to me: for a necessity lieth upon me. for woe is unto me if I preach not the gospel.'
       v:017: '1CO:9:17 | 17 | 17 | For if I do this thing willingly, I have a reward: but if against my will, a dispensation is committed to me.'
       v:018: '1CO:9:18 | 18 | 18 | What is my reward then? That preaching the gospel, I may deliver the gospel without charge, that I abuse not my power in the gospel.{VS:P}'
       v:019: '1CO:9:19 | 19 | 19 | For whereas I was free as to all, I made myself the servant of all, that I might gain the more.'
@@ -291,28 +310,34 @@ chapters:
       v:024: '1CO:9:24 | 24 | 24 | Know you not that they that run in the race, all run indeed, but one receiveth the prize. So run that you may obtain.'
       v:025: '1CO:9:25 | 25 | 25 | And every one that striveth for the mastery refraineth himself from all things. And they indeed that they may receive a corruptible crown: but we an incorruptible one.'
       v:026: '1CO:9:26 | 26 | 26 | I therefore so run, not as at an uncertainty: I so fight, not as one beating the air.'
-      v:027: '1CO:9:27 | 27 | 27 | But I chastise my body and bring it into subjection: lest perhaps, when I have preached to others, I myself should become a castaway.'
+      v:027: '1CO:9:27 | 27 | 27 | But {NF:BEGIN 0}I chastise{NF:END} my body and bring it into subjection: lest perhaps, when I have preached to others, I myself should become a castaway.'
   c:010:
     footnotes:
       v:002:
-        - note: 'Under the conduct of Moses, they received baptism in figure, by passing under the cloud, and through the sea; and they partook of the body and blood of Christ in figure, by eating of the manna, (called here a spiritual food because it was a figure of the true bread which comes down from heaven,) and drinking the water, miraculously brought out of the rock, called here a spiritual rock, because it was also a figure of Christ.</p>'
+        - match: in moses
+          note: 'Under the conduct of Moses, they received baptism in figure, by passing under the cloud, and through the sea; and they partook of the body and blood of Christ in figure, by eating of the manna, (called here a spiritual food because it was a figure of the true bread which comes down from heaven,) and drinking the water, miraculously brought out of the rock, called here a spiritual rock, because it was also a figure of Christ.</p>'
           quote: In Moses
       v:011:
-        - note: 'That is, the last ages.</p>'
+        - match: the ends of the world
+          note: 'That is, the last ages.</p>'
           quote: The ends of the world
       v:013:
-        - note: 'or come upon you as yet, but what is human, or incident to man. Issue-- a way to escape.</p>'
+        - match: take hold on you
+          note: 'or come upon you as yet, but what is human, or incident to man. Issue-- a way to escape.</p>'
           quote: Take hold on you
+          quote_2: Let no temptation take hold on you
       v:016:
-        - note: 'Here the apostle puts them in mind of their partaking of the body and blood of Christ in the sacred mysteries, and becoming thereby one mystical body with Christ. From whence he infers, ver. 21, that they who are made partakers with Christ, by the eucharistic sacrifice and sacrament, must not be made partakers with devils by eating of the meats sacrificed to them.</p>'
+        - match: which we bless
+          note: 'Here the apostle puts them in mind of their partaking of the body and blood of Christ in the sacred mysteries, and becoming thereby one mystical body with Christ. From whence he infers, ver. 21, that they who are made partakers with Christ, by the eucharistic sacrifice and sacrament, must not be made partakers with devils by eating of the meats sacrificed to them.</p>'
           quote: Which we bless
       v:017:
-        - note: 'or, as it may be rendered, agreeably both to the Latin and Greek, because the bread is one, all we, being many, are one body, who partake of that one bread. For it is by our communicating with Christ, and with one another, in this blessed sacrament, that we are formed into one mystical body; and made, as it were, one bread, compounded of many grains of corn, closely united together.</p>'
+        - match: one bread
+          note: 'or, as it may be rendered, agreeably both to the Latin and Greek, because the bread is one, all we, being many, are one body, who partake of that one bread. For it is by our communicating with Christ, and with one another, in this blessed sacrament, that we are formed into one mystical body; and made, as it were, one bread, compounded of many grains of corn, closely united together.</p>'
           quote: One bread
     intro: 'By the example of the Israelites, he shews that we are not to build too much upon favours received but to avoid their sins and fly from the service of idols and from things offered to idols.'
     verses:
       v:001: '1CO:10:1 | 1 | 1 | For I would not have you ignorant, brethren, that our fathers were all under the cloud: and all passed through the sea.'
-      v:002: '1CO:10:2 | 2 | 2 | And all in Moses were baptized, in the cloud and in the sea:'
+      v:002: '1CO:10:2 | 2 | 2 | And all {NF:BEGIN 0}in Moses{NF:END} were baptized, in the cloud and in the sea:'
       v:003: '1CO:10:3 | 3 | 3 | And did all eat the same spiritual food:'
       v:004: '1CO:10:4 | 4 | 4 | And all drank the same spiritual drink: (And they drank of the spiritual rock that followed them: and the rock was Christ.)'
       v:005: '1CO:10:5 | 5 | 5 | But with most of them God was not well pleased: for they were overthrown in the desert.'
@@ -321,13 +346,13 @@ chapters:
       v:008: '1CO:10:8 | 8 | 8 | Neither let us commit fornication, as some of them committed fornication: and there fell in one day three and twenty thousand.'
       v:009: '1CO:10:9 | 9 | 9 | Neither let us tempt Christ, as some of them tempted and perished by the serpents.'
       v:010: '1CO:10:10 | 10 | 10 | Neither do you murmur, as some of them murmured and were destroyed by the destroyer.'
-      v:011: '1CO:10:11 | 11 | 11 | Now all these things happened to them in figure: and they are written for our correction, upon whom the ends of the world are come.'
+      v:011: '1CO:10:11 | 11 | 11 | Now all these things happened to them in figure: and they are written for our correction, upon whom {NF:BEGIN 0}the ends of the world{NF:END} are come.'
       v:012: '1CO:10:12 | 12 | 12 | Wherefore, he that thinketh himself to stand, let him take heed lest he fall.'
-      v:013: '1CO:10:13 | 13 | 13 | Let no temptation take hold on you, but such as is human. And God is faithful, who will not suffer you to be tempted above that which you are able: but will make also with temptation issue, that you may be able to bear it.{VS:P}'
+      v:013: '1CO:10:13 | 13 | 13 | Let no temptation {NF:BEGIN 0}take hold on you{NF:END}, but such as is human. And God is faithful, who will not suffer you to be tempted above that which you are able: but will make also with temptation issue, that you may be able to bear it.{VS:P}'
       v:014: '1CO:10:14 | 14 | 14 | Wherefore, my dearly beloved, fly from the service of idols.'
       v:015: '1CO:10:15 | 15 | 15 | I speak as to wise men: judge ye yourselves what I say.'
-      v:016: '1CO:10:16 | 16 | 16 | The chalice of benediction which we bless, is it not the communion of the blood of Christ? And the bread which we break, is it not the partaking of the body of the Lord?'
-      v:017: '1CO:10:17 | 17 | 17 | For we, being many, are one bread, one body: all that partake of one bread.'
+      v:016: '1CO:10:16 | 16 | 16 | The chalice of benediction {NF:BEGIN 0}which we bless{NF:END}, is it not the communion of the blood of Christ? And the bread which we break, is it not the partaking of the body of the Lord?'
+      v:017: '1CO:10:17 | 17 | 17 | For we, being many, are {NF:BEGIN 0}one bread{NF:END}, one body: all that partake of one bread.'
       v:018: 1CO:10:18 | 18 | 18 | Behold Israel according to the flesh. Are not they that eat of the sacrifices partakers of the altar?
       v:019: '1CO:10:19 | 19 | 19 | What then? Do I say that what is offered in sacrifice to idols is any thing? Or that the idol is any thing?'
       v:020: '1CO:10:20 | 20 | 20 | But the things which the heathens sacrifice, they sacrifice to devils and not to God. And I would not that you should be made partakers with devils.'
@@ -347,21 +372,29 @@ chapters:
   c:011:
     footnotes:
       v:010:
-        - note: 'that is, a veil or covering, as a sign that she is under the power of her husband: and this, the apostle adds, because of the angels, who are present in the assemblies of the faithful.</p>'
+        - match: a power
+          note: 'that is, a veil or covering, as a sign that she is under the power of her husband: and this, the apostle adds, because of the angels, who are present in the assemblies of the faithful.</p>'
           quote: A power
       v:019:
-        - note: "By reason of the pride and perversity of man's heart; not by God's will or appointment; who nevertheless draws good out of this evil, manifesting, by that occasion, who are the good and firm Christians, and making their faith more remarkable.</p>"
+        - match: there must be also heresies
+          note: "By reason of the pride and perversity of man's heart; not by God's will or appointment; who nevertheless draws good out of this evil, manifesting, by that occasion, who are the good and firm Christians, and making their faith more remarkable.</p>"
           quote: There must be also heresies
       v:020:
-        - note: 'So the apostle here calls the charity feasts observed by the primitive Christians; and reprehends the abuses of the Corinthians, on these occasions; which were the more criminal, because these feasts were accompanied with the celebrating of the eucharistic sacrifice and sacrament.</p>'
+        - match: the lord's supper
+          note: 'So the apostle here calls the charity feasts observed by the primitive Christians; and reprehends the abuses of the Corinthians, on these occasions; which were the more criminal, because these feasts were accompanied with the celebrating of the eucharistic sacrifice and sacrament.</p>'
           quote: The Lord's supper
+          quote_2: The Lord’s supper
       v:027:
-        - note: 'Here erroneous translators corrupted the text, by putting "and drink" (contrary to the original) instead of "or drink".</p>'
+        - match: or drink
+          note: 'Here erroneous translators corrupted the text, by putting "and drink" (contrary to the original) instead of "or drink".</p>'
           quote: Or drink
-        - note: "not discerning the body. This demonstrates the real presence of the body and blood of Christ, even to the unworthy communicant; who otherwise could not be guilty of the body and blood of Christ, or justly condemned for not discerning the Lord's body.</p>"
+        - match: guilty of the body
+          note: "not discerning the body. This demonstrates the real presence of the body and blood of Christ, even to the unworthy communicant; who otherwise could not be guilty of the body and blood of Christ, or justly condemned for not discerning the Lord's body.</p>"
           quote: Guilty of the body
+          quote_2: 'Guilty of the body, etc., not discerning the body'
       v:028:
-        - note: 'This is not said by way of command, but by way of allowance, viz., where and when it is agreeable to the practice and discipline of the church.</p>'
+        - match: drink of the chalice
+          note: 'This is not said by way of command, but by way of allowance, viz., where and when it is agreeable to the practice and discipline of the church.</p>'
           quote: Drink of the chalice
     intro: Women must have a covering over their heads. He blameth the abuses of their love feasts and upon that occasion treats of the Blessed Sacrament.
     verses:
@@ -374,7 +407,7 @@ chapters:
       v:007: '1CO:11:7 | 7 | 7 | The man indeed ought not to cover his head: because he is the image and glory of God. But the woman is the glory of the man.'
       v:008: '1CO:11:8 | 8 | 8 | For the man is not of the woman: but the woman of the man.'
       v:009: '1CO:11:9 | 9 | 9 | For the man was not created for the woman: but the woman for the man.'
-      v:010: '1CO:11:10 | 10 | 10 | Therefore ought the woman to have a power over her head, because of the angels.'
+      v:010: '1CO:11:10 | 10 | 10 | Therefore ought the woman to have {NF:BEGIN 0}a power{NF:END} over her head, because of the angels.'
       v:011: '1CO:11:11 | 11 | 11 | But yet neither is the man without the woman, nor the woman without the man, in the Lord.'
       v:012: '1CO:11:12 | 12 | 12 | For as the woman is of the man, so also is the man by the woman: but all things of God.'
       v:013: 1CO:11:13 | 13 | 13 | You yourselves judge. Doth it become a woman to pray unto God uncovered?
@@ -383,16 +416,16 @@ chapters:
       v:016: '1CO:11:16 | 16 | 16 | But if any man seem to be contentious, we have no such custom, nor the Church of God.{VS:P}'
       v:017: '1CO:11:17 | 17 | 17 | Now this I ordain: not praising you, that you come together, not for the better, but for the worse.'
       v:018: '1CO:11:18 | 18 | 18 | For first of all I hear that when you come together in the church, there are schisms among you. And in part I believe it.'
-      v:019: '1CO:11:19 | 19 | 19 | For there must be also heresies: that they also, who are approved may be made manifest among you.'
-      v:020: "1CO:11:20 | 20 | 20 | When you come therefore together into one place, it is not now to eat the Lord's supper."
+      v:019: '1CO:11:19 | 19 | 19 | For {NF:BEGIN 0}there must be also heresies{NF:END}: that they also, who are approved may be made manifest among you.'
+      v:020: "1CO:11:20 | 20 | 20 | When you come therefore together into one place, it is not now to eat {NF:BEGIN 0}the Lord's supper{NF:END}."
       v:021: 1CO:11:21 | 21 | 21 | For every one taketh before his own supper to eat. And one indeed is hungry and another is drunk.
       v:022: '1CO:11:22 | 22 | 22 | What, have you no houses to eat and to drink in? Or despise ye the church of God and put them to shame that have not? What shall I say to you? Do I praise you? In this I praise you not.'
       v:023: '1CO:11:23 | 23 | 23 | For I have received of the Lord that which also I delivered unto you, that the Lord Jesus, the same night in which he was betrayed, took bread,'
       v:024: '1CO:11:24 | 24 | 24 | And giving thanks, broke and said: Take ye and eat: This is my body, which shall be delivered for you. This do for the commemoration of me.'
       v:025: '1CO:11:25 | 25 | 25 | In like manner also the chalice, after he had supped, saying: This chalice is the new testament in my blood. This do ye, as often as you shall drink, for the commemoration of me.'
       v:026: '1CO:11:26 | 26 | 26 | For as often as you shall eat this bread and drink the chalice, you shall shew the death of the Lord, until he come.'
-      v:027: '1CO:11:27 | 27 | 27 | Therefore, whosoever shall eat this bread, or drink the chalice of the Lord unworthily, shall be guilty of the body and of the blood of the Lord.'
-      v:028: '1CO:11:28 | 28 | 28 | But let a man prove himself: and so let him eat of that bread and drink of the chalice.'
+      v:027: '1CO:11:27 | 27 | 27 | Therefore, whosoever shall eat this bread, {NF:BEGIN 0}or drink{NF:END} the chalice of the Lord unworthily, shall be {NF:BEGIN 1}guilty of the body{NF:END} and of the blood of the Lord.'
+      v:028: '1CO:11:28 | 28 | 28 | But let a man prove himself: and so let him eat of that bread and {NF:BEGIN 0}drink of the chalice{NF:END}.'
       v:029: '1CO:11:29 | 29 | 29 | For he that eateth and drinketh unworthily eateth and drinketh judgment to himself, not discerning the body of the Lord.'
       v:030: '1CO:11:30 | 30 | 30 | Therefore are there many infirm and weak among you: and many sleep.'
       v:031: '1CO:11:31 | 31 | 31 | But if we would judge ourselves, we should not be judged.'
@@ -454,21 +487,25 @@ chapters:
   c:014:
     footnotes:
       v:001:
-        - note: 'That is, declare or expound the mysteries of faith.</p>'
+        - match: prophesy
+          note: 'That is, declare or expound the mysteries of faith.</p>'
           quote: Prophesy
       v:002:
-        - note: 'Viz., so as to be heard, that is, so as to be understood by them.</p>'
+        - match: not unto men
+          note: 'Viz., so as to be heard, that is, so as to be understood by them.</p>'
           quote: Not unto men
       v:012:
-        - note: 'Of spiritual gifts.</p>'
+        - match: of spirits
+          note: 'Of spiritual gifts.</p>'
           quote: Of spirits
       v:016:
-        - note: 'The unlearned, not knowing that you are then blessing, will not be qualified to join with you by saying Amen to your blessing. The use or abuse of strange tongues, of which the apostle here speaks, does not regard the public liturgy of the church, (in which strange tongues were never used,) but certain conferences of the faithful, ver. 26, etc., in which, meeting together, they discovered to one another their various miraculous gifts of the Spirit, common in those primitive times; amongst which the apostle prefers that of prophesying before that of speaking strange tongues, because it was more to the public edification. Where also not, that the Latin, used in our liturgy, is so far from being a strange or unknown tongue, that it is perhaps the best known tongue in the world.</p>'
+        - match: amen
+          note: 'The unlearned, not knowing that you are then blessing, will not be qualified to join with you by saying Amen to your blessing. The use or abuse of strange tongues, of which the apostle here speaks, does not regard the public liturgy of the church, (in which strange tongues were never used,) but certain conferences of the faithful, ver. 26, etc., in which, meeting together, they discovered to one another their various miraculous gifts of the Spirit, common in those primitive times; amongst which the apostle prefers that of prophesying before that of speaking strange tongues, because it was more to the public edification. Where also not, that the Latin, used in our liturgy, is so far from being a strange or unknown tongue, that it is perhaps the best known tongue in the world.</p>'
           quote: Amen
     intro: The gift of prophesying is to be preferred before that of speaking strange tongues.
     verses:
-      v:001: '1CO:14:1 | 1 | 1 | Follow after charity, be zealous for spiritual gifts; but rather that you may prophesy.'
-      v:002: '1CO:14:2 | 2 | 2 | For he that speaketh in a tongue speaketh not unto men, but unto God: for no man heareth. Yet by the Spirit he speaketh mysteries.'
+      v:001: '1CO:14:1 | 1 | 1 | Follow after charity, be zealous for spiritual gifts; but rather that you may {NF:BEGIN 0}prophesy{NF:END}.'
+      v:002: '1CO:14:2 | 2 | 2 | For he that speaketh in a tongue speaketh {NF:BEGIN 0}not unto men{NF:END}, but unto God: for no man heareth. Yet by the Spirit he speaketh mysteries.'
       v:003: 1CO:14:3 | 3 | 3 | But he that prophesieth speaketh to men unto edification and exhortation and comfort.
       v:004: '1CO:14:4 | 4 | 4 | He that speaketh in a tongue edifieth himself: but he that prophesieth, edifieth the church.'
       v:005: '1CO:14:5 | 5 | 5 | And I would have you all to speak with tongues, but rather to prophesy. for greater is he that prophesieth than he that speaketh with tongues: unless perhaps he interpret, that the church may receive edification.'
@@ -478,11 +515,11 @@ chapters:
       v:009: '1CO:14:9 | 9 | 9 | So likewise you, except you utter by the tongue plain speech, how shall it be known what is said? for you shall be speaking into the air.'
       v:010: '1CO:14:10 | 10 | 10 | There are, for example, so many kinds of tongues in this world: and none is without voice.'
       v:011: '1CO:14:11 | 11 | 11 | If then I know not the power of the voice, I shall be to him to whom I speak a barbarian: and he that speaketh a barbarian to me.'
-      v:012: '1CO:14:12 | 12 | 12 | So you also, forasmuch as you are zealous of spirits, seek to abound unto the edifying of the church.'
+      v:012: '1CO:14:12 | 12 | 12 | So you also, forasmuch as you are zealous {NF:BEGIN 0}of spirits{NF:END}, seek to abound unto the edifying of the church.'
       v:013: '1CO:14:13 | 13 | 13 | And therefore he that speaketh by a tongue, let him pray that he may interpret.'
       v:014: '1CO:14:14 | 14 | 14 | For if I pray in a tongue, my spirit prayeth: but my understanding is without fruit.'
       v:015: '1CO:14:15 | 15 | 15 | What is it then? I will pray with the spirit, I will pray also with the understanding, I will sing with the spirit, I will sing also with the understanding.'
-      v:016: '1CO:14:16 | 16 | 16 | Else, if thou shalt bless with the spirit, how shall he that holdeth the place of the unlearned say, Amen, to thy blessing? Because he knoweth not what thou sayest.'
+      v:016: '1CO:14:16 | 16 | 16 | Else, if thou shalt bless with the spirit, how shall he that holdeth the place of the unlearned say, {NF:BEGIN 0}Amen{NF:END}, to thy blessing? Because he knoweth not what thou sayest.'
       v:017: '1CO:14:17 | 17 | 17 | For thou indeed givest thanks well: but the other is not edified.'
       v:018: 1CO:14:18 | 18 | 18 | I thank my God I speak with all your tongues.
       v:019: '1CO:14:19 | 19 | 19 | But in the church I had rather speak five words with my understanding, that I may instruct others also: than ten thousand words in a tongue.'
@@ -510,13 +547,16 @@ chapters:
   c:015:
     footnotes:
       v:028:
-        - note: 'That is, the Son will be subject to the Father, according to his human nature, even after the general resurrection; and also the whole mystical body of Christ will be entirely subject to God, obeying him in every thing.</p>'
+        - match: the son also himself shall be subject unto him
+          note: 'That is, the Son will be subject to the Father, according to his human nature, even after the general resurrection; and also the whole mystical body of Christ will be entirely subject to God, obeying him in every thing.</p>'
           quote: The Son also himself shall be subject unto him
       v:029:
-        - note: 'Some think the apostle here alludes to a ceremony then in use; but others, more probably, to the prayers and penitential labours, performed by the primitive Christians for the souls of the faithful departed; or to the baptism of afflictions and sufferings undergone for sinners spiritually dead.</p>'
+        - match: that are baptized for the dead
+          note: 'Some think the apostle here alludes to a ceremony then in use; but others, more probably, to the prayers and penitential labours, performed by the primitive Christians for the souls of the faithful departed; or to the baptism of afflictions and sufferings undergone for sinners spiritually dead.</p>'
           quote: That are baptized for the dead
       v:032:
-        - note: 'That is, if we did not believe that we were to rise again from the dead, we might live like the impious and wicked, who have no belief in the resurrection.</p>'
+        - match: let us eat and drink
+          note: 'That is, if we did not believe that we were to rise again from the dead, we might live like the impious and wicked, who have no belief in the resurrection.</p>'
           quote: Let us eat and drink
     intro: Christ’s resurrection and ours. The manner of our resurrection.
     verses:
@@ -547,11 +587,11 @@ chapters:
       v:025: '1CO:15:25 | 25 | 25 | For he must reign, until he hath put all his enemies under his feet.'
       v:026: '1CO:15:26 | 26 | 26 | And the enemy, death, shall be destroyed last: for he hath put all things under his feet. And whereas he saith:'
       v:027: '1CO:15:27 | 27 | 27 | All things are put under him; undoubtedly, he is excepted, who put all things under him.'
-      v:028: '1CO:15:28 | 28 | 28 | And when all things shall be subdued unto him, then the Son also himself shall be subject unto him that put all things under him, that God may be all in all.'
-      v:029: '1CO:15:29 | 29 | 29 | Otherwise, what shall they do that are baptized for the dead, if the dead rise not again at all? Why are they then baptized for them?'
+      v:028: '1CO:15:28 | 28 | 28 | And when all things shall be subdued unto him, then {NF:BEGIN 0}the Son also himself shall be subject unto him{NF:END} that put all things under him, that God may be all in all.'
+      v:029: '1CO:15:29 | 29 | 29 | Otherwise, what shall they do {NF:BEGIN 0}that are baptized for the dead{NF:END}, if the dead rise not again at all? Why are they then baptized for them?'
       v:030: 1CO:15:30 | 30 | 30 | Why also are we in danger every hour?
       v:031: '1CO:15:31 | 31 | 31 | I die daily, I protest by your glory, brethren, which I have in Christ Jesus our Lord.'
-      v:032: '1CO:15:32 | 32 | 32 | If (according to man) I fought with beasts at Ephesus, what doth it profit me, if the dead rise not again? Let us eat and drink, for to morrow we shall die.'
+      v:032: '1CO:15:32 | 32 | 32 | If (according to man) I fought with beasts at Ephesus, what doth it profit me, if the dead rise not again? {NF:BEGIN 0}Let us eat and drink{NF:END}, for to morrow we shall die.'
       v:033: '1CO:15:33 | 33 | 33 | Be not seduced: Evil communications corrupt good manners.'
       v:034: '1CO:15:34 | 34 | 34 | Awake, ye just, and sin not. for some have not the knowledge of God. I speak it to your shame.{VS:P}'
       v:035: '1CO:15:35 | 35 | 35 | But some man will say: How do the dead rise again? Or with what manner of body shall they come?'
@@ -581,7 +621,8 @@ chapters:
   c:016:
     footnotes:
       v:022:
-        - note: "Anathema signifies here a thing accursed. Maran-atha, which, according to St. Jerome and St. Chrysostom, signify, 'The Lord is come' already, and therefore is to be taken as an admonition to those who doubted of the resurrection, and to put them in mind that Christ, the judge of the living and the dead, is come already. Others explain Maran-atha: 'May our Lord come', that is, to judge and punish those with exemplary judgments and punishments, that do not love the Lord Jesus Christ.</p>"
+        - match: 'let him be anathema, maranatha'
+          note: "Anathema signifies here a thing accursed. Maran-atha, which, according to St. Jerome and St. Chrysostom, signify, 'The Lord is come' already, and therefore is to be taken as an admonition to those who doubted of the resurrection, and to put them in mind that Christ, the judge of the living and the dead, is come already. Others explain Maran-atha: 'May our Lord come', that is, to judge and punish those with exemplary judgments and punishments, that do not love the Lord Jesus Christ.</p>"
           quote: 'Let him be anathema, maranatha'
     intro: Of collection of alms. Admonitions and salutations.
     verses:
@@ -606,7 +647,7 @@ chapters:
       v:019: '1CO:16:19 | 19 | 19 | The churches of Asia salute you. Aquila and Priscilla salute you much in the Lord, with the church that is in their house, with whom I also lodge.'
       v:020: 1CO:16:20 | 20 | 20 | All the brethren salute you. Salute one another with a holy kiss.
       v:021: '1CO:16:21 | 21 | 21 | The salutation of me Paul, with my own hand.'
-      v:022: '1CO:16:22 | 22 | 22 | If any man love not our Lord Jesus Christ, let him be anathema, maranatha.'
+      v:022: '1CO:16:22 | 22 | 22 | If any man love not our Lord Jesus Christ, {NF:BEGIN 0}let him be anathema, maranatha{NF:END}.'
       v:023: 1CO:16:23 | 23 | 23 | The grace of our Lord Jesus Christ be with you.
       v:024: 1CO:16:24 | 24 | 24 | My charity be with you all in Christ Jesus. Amen.
 intro: 'St. Paul, having planted the faithful in Corinth, where he had preached a year and a half and converted a great many, went to Ephesus. After being there three years, he wrote this first Epistle to the Corinthians and sent it by the same persons, Stephanus, Fortunatus and Achaicus, who had brought their letter to him. It was written about twenty-four years after our Lord’s Ascension and contains several matters appertaining to faith and morals and also to ecclesiastical discipline.'

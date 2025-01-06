@@ -4,16 +4,19 @@ chapters:
   c:001:
     footnotes:
       v:001:
-        - note: 'That is, the ancient bishop St. John, being the only one of the twelve apostles then living.</p>'
+        - match: the ancient
+          note: 'That is, the ancient bishop St. John, being the only one of the twelve apostles then living.</p>'
           quote: The ancient
-        - note: 'Some conjecture that Elect might be the name of a family, or of a particular church; but the general opinion is, that it is the proper name of a lady, so eminent for her piety and great charity, as to merit this Epistle from St. John.</p>'
+        - match: to the lady elect
+          note: 'Some conjecture that Elect might be the name of a family, or of a particular church; but the general opinion is, that it is the proper name of a lady, so eminent for her piety and great charity, as to merit this Epistle from St. John.</p>'
           quote: To the lady Elect
       v:010:
-        - note: 'This admonition is in general, to forewarn the faithful of the dangers which may arise from a familiarity with those who have prevaricated and gone from the true faith, and with such as teach false doctrine. But this is not forbidding a charity for all men, by which we ought to wish and pray for the eternal salvation of every one, even of our enemies.</p>'
+        - match: 'nor say to him, god speed you'
+          note: 'This admonition is in general, to forewarn the faithful of the dangers which may arise from a familiarity with those who have prevaricated and gone from the true faith, and with such as teach false doctrine. But this is not forbidding a charity for all men, by which we ought to wish and pray for the eternal salvation of every one, even of our enemies.</p>'
           quote: 'Nor say to him, God speed you'
     intro: 'He recommends walking in truth, loving one another and to beware of false teachers.'
     verses:
-      v:001: '2JN:1:1 | 1 | 1 | The Ancient to the lady Elect and her children, whom I love in the truth: and not I only, but also all they that have known the truth,'
+      v:001: '2JN:1:1 | 1 | 1 | {NF:BEGIN 0}The Ancient{NF:END} {NF:BEGIN 1}to the lady Elect{NF:END} and her children, whom I love in the truth: and not I only, but also all they that have known the truth,'
       v:002: 2JN:1:2 | 2 | 2 | For the sake of the truth which dwelleth in us and shall be with us for ever.
       v:003: '2JN:1:3 | 3 | 3 | Grace be with you, mercy and peace from God the Father and from Christ Jesus the Son of the Father: in truth and charity.{VS:P}'
       v:004: '2JN:1:4 | 4 | 4 | I was exceeding glad that I found of thy children walking in truth, as we have received a commandment from the Father.'

@@ -18,7 +18,8 @@ chapters:
   c:002:
     footnotes:
       v:016:
-        - note: "That is, to fill up the measure of their sins, after which God's justice would punish them. For the wrath of God is come upon them to the end-- That is, to continue on them to the end.</p>"
+        - match: to fill up their sins
+          note: "That is, to fill up the measure of their sins, after which God's justice would punish them. For the wrath of God is come upon them to the end-- That is, to continue on them to the end.</p>"
           quote: To fill up their sins
     intro: The sincerity of the apostle’s preaching the gospel to them and of their receiving it.
     verses:
@@ -37,7 +38,7 @@ chapters:
       v:013: '1TH:2:13 | 13 | 13 | Therefore, we also give thanks to God without ceasing: because, that when you had received of us the word of the hearing of God, you received it not as the word of men, but (as it is indeed) the word of God, who worketh in you that have believed.'
       v:014: '1TH:2:14 | 14 | 14 | For you, brethren, are become followers of the churches of God which are in Judea, in Christ Jesus: for you also have suffered the same things from your own countrymen, even as they have from the Jews:'
       v:015: '1TH:2:15 | 15 | 15 | Who both killed the Lord Jesus, and the prophets, and have persecuted us, and please not God, and are adversaries to all men;'
-      v:016: '1TH:2:16 | 16 | 16 | Prohibiting us to speak to the Gentiles, that they may be saved, to fill up their sins always: for the wrath of God is come upon them to the end.'
+      v:016: '1TH:2:16 | 16 | 16 | Prohibiting us to speak to the Gentiles, that they may be saved, {NF:BEGIN 0}to fill up their sins{NF:END} always: for the wrath of God is come upon them to the end.'
       v:017: '1TH:2:17 | 17 | 17 | But we, brethren, being taken away from you for a short time, in sight, not in heart, have hastened the more abundantly to see your face with great desire.'
       v:018: '1TH:2:18 | 18 | 18 | For we would have come unto you, I Paul indeed, once and again: but Satan hath hindered us.'
       v:019: '1TH:2:19 | 19 | 19 | For what is our hope or joy or crown of glory? Are not you, in the presence of our Lord Jesus Christ at his coming?'
@@ -83,7 +84,8 @@ chapters:
   c:005:
     footnotes:
       v:014:
-        - note: 'That is, such as are irregular and disorderly.</p>'
+        - match: the unquiet
+          note: 'That is, such as are irregular and disorderly.</p>'
           quote: The unquiet
     intro: The day of the Lord shall come when least expected. Exhortations to several duties.
     verses:
@@ -100,7 +102,7 @@ chapters:
       v:011: '1TH:5:11 | 11 | 11 | For which cause comfort one another and edify one another, as you also do.{VS:P}'
       v:012: '1TH:5:12 | 12 | 12 | And we beseech you, brethren, to know them who labour among you and are over you in the Lord and admonish you;'
       v:013: "1TH:5:13 | 13 | 13 | That you esteem them more abundantly in charity, for their work's sake. Have peace with them."
-      v:014: '1TH:5:14 | 14 | 14 | And we beseech you, brethren, rebuke the unquiet: comfort the feeble minded: support the weak: be patient towards all men.'
+      v:014: '1TH:5:14 | 14 | 14 | And we beseech you, brethren, rebuke {NF:BEGIN 0}the unquiet{NF:END}: comfort the feeble minded: support the weak: be patient towards all men.'
       v:015: '1TH:5:15 | 15 | 15 | See that none render evil for evil to any man: but ever follow that which is good towards each other and towards all men.'
       v:016: 1TH:5:16 | 16 | 16 | Always rejoice.
       v:017: 1TH:5:17 | 17 | 17 | Pray without ceasing.

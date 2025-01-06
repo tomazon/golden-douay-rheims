@@ -115,13 +115,14 @@ chapters:
   c:006:
     footnotes:
       v:003:
-        - note: 'He received some presents from the king, chap. 12. 5; but these were so inconsiderable in the opinion of the courtiers, that they esteemed them as nothing at all.</p>'
+        - match: no reward at all
+          note: 'He received some presents from the king, chap. 12. 5; but these were so inconsiderable in the opinion of the courtiers, that they esteemed them as nothing at all.</p>'
           quote: No reward at all
     intro: 'The king hearing of the good service done him by Mardochai, commandeth Aman to honour him next to the king, which he performeth.'
     verses:
       v:001: 'ESG:6:1 | 1 | 1 | That night the king passed without sleep, and he commanded the histories and chronicles of former times to be brought him. And when they were reading them before him,'
       v:002: 'ESG:6:2 | 2 | 2 | They came to that place where it was written, how Mardochai had discovered the treason of Bagathan and Thares the eunuchs, who sought to kill king Assuerus.'
-      v:003: 'ESG:6:3 | 3 | 3 | And when the king heard this, he said: What honour and reward hath Mardochai received for this fidelity? His servants and ministers said to him: He hath received no reward at all.'
+      v:003: 'ESG:6:3 | 3 | 3 | And when the king heard this, he said: What honour and reward hath Mardochai received for this fidelity? His servants and ministers said to him: He hath received {NF:BEGIN 0}no reward at all{NF:END}.'
       v:004: "ESG:6:4 | 4 | 4 | And the king said immediately: Who is in the court? for Aman was coming in to the inner court of the king's house, to speak to the king, that he might order Mardochai to be hanged upon the gibbet, which was prepared for him."
       v:005: 'ESG:6:5 | 5 | 5 | The servants answered: Aman standeth in the court, and the king said: Let him come in.'
       v:006: 'ESG:6:6 | 6 | 6 | And when he was come in, he said to him: What ought to be done to the man whom the king is desirous to honour? But Aman thinking in his heart, and supposing that the king would honour no other but himself,'
@@ -171,11 +172,12 @@ chapters:
   c:009:
     footnotes:
       v:001:
-        - note: 'The Jews on this occasion, by authority from the king, were made executioners of the public justice, for punishing by death a crime worthy of death, viz., a malicious conspiracy for extirpating their whole nation.</p>'
+        - match: to revenge
+          note: 'The Jews on this occasion, by authority from the king, were made executioners of the public justice, for punishing by death a crime worthy of death, viz., a malicious conspiracy for extirpating their whole nation.</p>'
           quote: To revenge
     intro: The Jews kill their enemies that would have killed them. The days of Phurim are appointed to be kept holy.
     verses:
-      v:001: 'ESG:9:1 | 1 | 1 | So on the thirteenth day of the twelfth month, which as we have said above is called Adar, when all the Jews were designed to be massacred, and their enemies were greedy after their blood, the case being altered, the Jews began to have the upper hand, and to revenge themselves of their adversaries.'
+      v:001: 'ESG:9:1 | 1 | 1 | So on the thirteenth day of the twelfth month, which as we have said above is called Adar, when all the Jews were designed to be massacred, and their enemies were greedy after their blood, the case being altered, the Jews began to have the upper hand, and {NF:BEGIN 0}to revenge{NF:END} themselves of their adversaries.'
       v:002: 'ESG:9:2 | 2 | 2 | And they gathered themselves together in every city, and town, and place, to lay their hands on their enemies, and their persecutors. And no one durst withstand them, for the fear of their power had gone through every people.'
       v:003: 'ESG:9:3 | 3 | 3 | And the judges of the provinces, and the governors, and lieutenants, and every one in dignity, that presided over every place and work, extolled the Jews for fear of Mardochai:'
       v:004: "ESG:9:4 | 4 | 4 | For they knew him to be prince of the palace, and to have great power: and the fame of his name increased daily, and was spread abroad through all men's mouths."
@@ -210,18 +212,20 @@ chapters:
   c:010:
     footnotes:
       v:004:
-        - note: 'Here St. Jerome advertiseth the reader, that what follows is not in the Hebrew, but is found in the septuagint Greek edition, which the seventy-two interpreters translated out of the Hebrew, or added by the inspiration of the Holy Ghost.</p>'
+        - match: then mardochai
+          note: 'Here St. Jerome advertiseth the reader, that what follows is not in the Hebrew, but is found in the septuagint Greek edition, which the seventy-two interpreters translated out of the Hebrew, or added by the inspiration of the Holy Ghost.</p>'
           quote: Then Mardochai
       v:005:
-        - note: 'This dream was prophetical and extraordinary: otherwise the general rule is not to observe dreams.</p>'
+        - match: a dream
+          note: 'This dream was prophetical and extraordinary: otherwise the general rule is not to observe dreams.</p>'
           quote: A dream
     intro: Assuerus’s greatness. Mardochai’s dignity.
     verses:
       v:001: 'ESG:10:1 | 1 | 1 | And king Assuerus made all the land, and all the islands of the sea tributary.'
       v:002: 'ESG:10:2 | 2 | 2 | And his strength and his empire, and the dignity and greatness wherewith he exalted Mardochai, are written in the books of the Medes, and of the Persians:'
       v:003: 'ESG:10:3 | 3 | 3 | And how Mardochai of the race of the Jews, was next after king Assuerus: and great among the Jews, and acceptable to the people of his brethren, seeking the good of his people, and speaking those things which were for the welfare of his seed.{VS:P}'
-      v:004: 'ESG:10:4 | 4 | 4 | Then Mardochai said: God hath done these things.'
-      v:005: 'ESG:10:5 | 5 | 5 | I remember a dream that I saw, which signified these same things: and nothing thereof hath failed.'
+      v:004: 'ESG:10:4 | 4 | 4 | {NF:BEGIN 0}Then Mardochai{NF:END} said: God hath done these things.'
+      v:005: 'ESG:10:5 | 5 | 5 | I remember {NF:BEGIN 0}a dream{NF:END} that I saw, which signified these same things: and nothing thereof hath failed.'
       v:006: 'ESG:10:6 | 6 | 6 | The little fountain which grew into a river, and was turned into a light, and into the sun, and abounded into many waters, is Esther, whom the king married, and made queen.'
       v:007: ESG:10:7 | 7 | 7 | But the two dragons are I and Aman.
       v:008: ESG:10:8 | 8 | 8 | The nations that were assembled are they that endeavoured to destroy the name of the Jews.
@@ -327,11 +331,12 @@ chapters:
   c:016:
     footnotes:
       v:001:
-        - note: 'That is, who reigneth from India to Ethiopia.</p>'
+        - match: from india to ethiopia
+          note: 'That is, who reigneth from India to Ethiopia.</p>'
           quote: From India to Ethiopia
     intro: A copy of the king’s letter in favour of the Jews.
     verses:
-      v:001: 'ESG:16:1 | 1 | 1 | The great king Artaxerxes, from India to Ethiopia, to the governors and princes of a hundred and twenty-seven provinces, which obey our command, sendeth greeting.'
+      v:001: 'ESG:16:1 | 1 | 1 | The great king Artaxerxes, {NF:BEGIN 0}from India to Ethiopia{NF:END}, to the governors and princes of a hundred and twenty-seven provinces, which obey our command, sendeth greeting.'
       v:002: 'ESG:16:2 | 2 | 2 | Many have abused unto pride the goodness of princes, and the honour that hath been bestowed upon them:'
       v:003: "ESG:16:3 | 3 | 3 | And not only endeavour to oppress the king's subjects, but not bearing the glory that is given them, take in hand, to practise also against them that gave it."
       v:004: 'ESG:16:4 | 4 | 4 | Neither are they content not to return thanks for benefits received, and to violate in themselves the laws of humanity, but they think they can also escape the justice of God who seeth all things.'

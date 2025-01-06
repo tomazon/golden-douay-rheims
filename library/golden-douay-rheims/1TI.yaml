@@ -4,7 +4,8 @@ chapters:
   c:001:
     footnotes:
       v:009:
-        - note: 'He means, that the just man doth good, and avoideth evil, not as compelled by the law, and merely for fear of the punishment appointed for transgressors; but voluntarily, and out of the love of God and virtue; and would do so, though there were no law.</p>'
+        - match: the law is not
+          note: 'He means, that the just man doth good, and avoideth evil, not as compelled by the law, and merely for fear of the punishment appointed for transgressors; but voluntarily, and out of the love of God and virtue; and would do so, though there were no law.</p>'
           quote: The law is not
     intro: He puts Timothy in mind of his charge and blesses God for the mercy he himself had received.
     verses:
@@ -16,7 +17,7 @@ chapters:
       v:006: '1TI:1:6 | 6 | 6 | From which things some, going astray, are turned aside unto vain babbling:'
       v:007: '1TI:1:7 | 7 | 7 | Desiring to be teachers of the law: understanding neither the things they say, nor whereof they affirm.'
       v:008: '1TI:1:8 | 8 | 8 | But we know that the law is good, if a man use it lawfully.'
-      v:009: '1TI:1:9 | 9 | 9 | Knowing this: That the law is not made for the just man but for the unjust and disobedient, for the ungodly and for sinners, for the wicked and defiled, for murderers of fathers and murderers of mothers, for manslayers,'
+      v:009: '1TI:1:9 | 9 | 9 | Knowing this: That {NF:BEGIN 0}the law is not{NF:END} made for the just man but for the unjust and disobedient, for the ungodly and for sinners, for the wicked and defiled, for murderers of fathers and murderers of mothers, for manslayers,'
       v:010: '1TI:1:10 | 10 | 10 | For fornicators, for them who defile themselves with mankind, for menstealers, for liars, for perjured persons, and whatever other thing is contrary to sound doctrine:'
       v:011: '1TI:1:11 | 11 | 11 | Which is according to the gospel of the glory of the blessed God which hath been committed to my trust.{VS:P}'
       v:012: '1TI:1:12 | 12 | 12 | I give him thanks who hath strengthened me, even to Christ Jesus our Lord, for that he hath counted me faithful, putting me in the ministry:'
@@ -31,19 +32,22 @@ chapters:
   c:002:
     footnotes:
       v:005:
-        - note: 'Christ is the one and only mediator of redemption, who gave himself, as the apostle writes in the following verse.</p>'
+        - match: one mediator
+          note: 'Christ is the one and only mediator of redemption, who gave himself, as the apostle writes in the following verse.</p>'
           quote: One mediator
       v:006:
-        - note: 'He is also the only mediator, who stands in need of no other to recommend his petitions to the Father. But this is not against our seeking the prayers and intercession, as well of the faithful upon earth, as of the saints and angels in heaven, for obtaining mercy, grace, and salvation, through Jesus Christ. As St. Paul himself often desired the help of the prayers of the faithful, without any injury to the mediatorship of Jesus Christ.</p>'
+        - match: a redemption for all
+          note: 'He is also the only mediator, who stands in need of no other to recommend his petitions to the Father. But this is not against our seeking the prayers and intercession, as well of the faithful upon earth, as of the saints and angels in heaven, for obtaining mercy, grace, and salvation, through Jesus Christ. As St. Paul himself often desired the help of the prayers of the faithful, without any injury to the mediatorship of Jesus Christ.</p>'
           quote: a redemption for all
+          quote_2: A redemption for all
     intro: 'Prayers are to be said for all men, because God wills the salvation of all. Women are not to teach.'
     verses:
       v:001: '1TI:2:1 | 1 | 1 | I desire therefore, first of all, that supplications, prayers, intercessions and thanksgivings be made for all men:'
       v:002: '1TI:2:2 | 2 | 2 | For kings and for all that are in high station: that we may lead a quiet and a peaceable life in all piety and chastity.'
       v:003: '1TI:2:3 | 3 | 3 | For this is good and acceptable in the sight of God our Saviour,'
       v:004: 1TI:2:4 | 4 | 4 | Who will have all men to be saved and to come to the knowledge of the truth.
-      v:005: '1TI:2:5 | 5 | 5 | For there is one God: and one mediator of God and men, the man Christ Jesus:'
-      v:006: '1TI:2:6 | 6 | 6 | Who gave himself a redemption for all, a testimony in due times.'
+      v:005: '1TI:2:5 | 5 | 5 | For there is one God: and {NF:BEGIN 0}one mediator{NF:END} of God and men, the man Christ Jesus:'
+      v:006: '1TI:2:6 | 6 | 6 | Who gave himself {NF:BEGIN 0}a redemption for all{NF:END}, a testimony in due times.'
       v:007: '1TI:2:7 | 7 | 7 | Whereunto I am appointed a preacher and an apostle (I say the truth, I lie not), a doctor of the Gentiles in faith and truth.'
       v:008: '1TI:2:8 | 8 | 8 | I will therefore that men pray in every place, lifting up pure hands, without anger and contention.'
       v:009: '1TI:2:9 | 9 | 9 | In like manner, women also in decent apparel: adorning themselves with modesty and sobriety, not with plaited hair, or gold, or pearls, or costly attire:'
@@ -56,22 +60,25 @@ chapters:
   c:003:
     footnotes:
       v:002:
-        - note: 'The meaning is not that every bishop should have a wife (for St. Paul himself had none), but that no one should be admitted to the holy orders of bishop, priest, or deacon, who had been married more than once.</p>'
+        - match: of one wife
+          note: 'The meaning is not that every bishop should have a wife (for St. Paul himself had none), but that no one should be admitted to the holy orders of bishop, priest, or deacon, who had been married more than once.</p>'
           quote: Of one wife
       v:006:
-        - note: 'That is, one lately baptized, a young convert.</p>'
+        - match: a neophyte
+          note: 'That is, one lately baptized, a young convert.</p>'
           quote: A neophyte
       v:015:
-        - note: 'Therefore the church of the living God can never uphold error, nor bring in corruptions, superstition, or idolatry.</p>'
+        - match: the pillar and ground of the truth
+          note: 'Therefore the church of the living God can never uphold error, nor bring in corruptions, superstition, or idolatry.</p>'
           quote: The pillar and ground of the truth
     intro: What sort of men are to be admitted into the clergy. The church is the pillar of truth.
     verses:
       v:001: '1TI:3:1 | 1 | 1 | A faithful saying: If a man desire the office of a bishop, he desireth a good work.'
-      v:002: '1TI:3:2 | 2 | 2 | It behoveth therefore a bishop to be blameless, the husband of one wife, sober, prudent, of good behaviour, chaste, given to hospitality, a teacher,'
+      v:002: '1TI:3:2 | 2 | 2 | It behoveth therefore a bishop to be blameless, the husband {NF:BEGIN 0}of one wife{NF:END}, sober, prudent, of good behaviour, chaste, given to hospitality, a teacher,'
       v:003: '1TI:3:3 | 3 | 3 | Not given to wine, no striker, but modest, not quarrelsome, not covetous, but'
       v:004: '1TI:3:4 | 4 | 4 | One that ruleth well his own house, having his children in subjection with all chastity.'
       v:005: '1TI:3:5 | 5 | 5 | But if a man know not how to rule his own house, how shall he take care of the church of God?'
-      v:006: '1TI:3:6 | 6 | 6 | Not a neophyte: lest, being puffed up with pride, he fall into the judgment of the devil.'
+      v:006: '1TI:3:6 | 6 | 6 | Not {NF:BEGIN 0}a neophyte{NF:END}: lest, being puffed up with pride, he fall into the judgment of the devil.'
       v:007: '1TI:3:7 | 7 | 7 | Moreover, he must have a good testimony of them who are without: lest he fall into reproach and the snare of the devil.'
       v:008: '1TI:3:8 | 8 | 8 | Deacons in like manner: chaste, not double tongued, not given to much wine, not greedy of filthy lucre:'
       v:009: 1TI:3:9 | 9 | 9 | Holding the mystery of faith in a pure conscience.
@@ -80,18 +87,19 @@ chapters:
       v:012: '1TI:3:12 | 12 | 12 | Let deacons be the husbands of one wife: who rule well their children and their own houses.'
       v:013: '1TI:3:13 | 13 | 13 | For they that have ministered well shall purchase to themselves a good degree and much confidence in the faith which is in Christ Jesus.{VS:P}'
       v:014: '1TI:3:14 | 14 | 14 | These things I write to thee, hoping that I shall come to thee shortly.'
-      v:015: '1TI:3:15 | 15 | 15 | But if I tarry long, that thou mayest know how thou oughtest to behave thyself in the house of God, which is the church of the living God, the pillar and ground of the truth.'
+      v:015: '1TI:3:15 | 15 | 15 | But if I tarry long, that thou mayest know how thou oughtest to behave thyself in the house of God, which is the church of the living God, {NF:BEGIN 0}the pillar and ground of the truth{NF:END}.'
       v:016: '1TI:3:16 | 16 | 16 | And evidently great is the mystery of godliness, which was manifested in the flesh, was justified in the spirit, appeared unto angels, hath been preached unto the Gentiles, is believed in the world, is taken up in glory.'
   c:004:
     footnotes:
       v:003:
-        - note: 'He speaks of the Gnostics, the Marcionites, the Eneratites, the Manicheans, and other ancient heretics, who absolutely condemned marriage, and the use of all kind of meat; because they pretended that all flesh was from an evil principle. Whereas the church of God, so far from condemning marriage, holds it a holy sacrament; and forbids it to none but such as by vow have chosen the better part: and prohibits not the use of any meats whatsoever in proper times and seasons; though she does not judge all kind of diet proper for days of fasting and penance.</p>'
+        - match: 'forbidding to marry, to abstain from meats'
+          note: 'He speaks of the Gnostics, the Marcionites, the Eneratites, the Manicheans, and other ancient heretics, who absolutely condemned marriage, and the use of all kind of meat; because they pretended that all flesh was from an evil principle. Whereas the church of God, so far from condemning marriage, holds it a holy sacrament; and forbids it to none but such as by vow have chosen the better part: and prohibits not the use of any meats whatsoever in proper times and seasons; though she does not judge all kind of diet proper for days of fasting and penance.</p>'
           quote: 'Forbidding to marry, to abstain from meats'
     intro: 'He warns him against heretics, and exhorts him to the exercise of piety.'
     verses:
       v:001: '1TI:4:1 | 1 | 1 | Now the Spirit manifestly saith that in the last times some shall depart from the faith, giving heed to spirits of error and doctrines of devils,'
       v:002: '1TI:4:2 | 2 | 2 | Speaking lies in hypocrisy and having their conscience seared,'
-      v:003: '1TI:4:3 | 3 | 3 | Forbidding to marry, to abstain from meats, which God hath created to be received with thanksgiving by the faithful and by them that have known the truth.'
+      v:003: '1TI:4:3 | 3 | 3 | {NF:BEGIN 0}Forbidding to marry, to abstain from meats{NF:END}, which God hath created to be received with thanksgiving by the faithful and by them that have known the truth.'
       v:004: '1TI:4:4 | 4 | 4 | For every creature of God is good, and nothing to be rejected that is received with thanksgiving:'
       v:005: '1TI:4:5 | 5 | 5 | For it is sanctified by the word of God and prayer.{VS:P}'
       v:006: '1TI:4:6 | 6 | 6 | These things proposing to the brethren, thou shalt be a good minister of Christ Jesus, nourished up in the words of faith and of the good doctrine which thou hast attained unto.'
@@ -108,7 +116,8 @@ chapters:
   c:005:
     footnotes:
       v:012:
-        - note: 'Their vow, by which they had engaged themselves to Christ.</p>'
+        - match: their first faith
+          note: 'Their vow, by which they had engaged themselves to Christ.</p>'
           quote: Their first faith
     intro: 'He gives him lessons concerning widows, and how he is to behave to his clergy.'
     verses:
@@ -123,7 +132,7 @@ chapters:
       v:009: '1TI:5:9 | 9 | 9 | Let a widow be chosen of no less than threescore years of age, who hath been the wife of one husband.'
       v:010: "1TI:5:10 | 10 | 10 | Having testimony for her good works, if she have brought up children, if she have received to harbour, if she have washed the saints' feet, if she have ministered to them that suffer tribulation, if she have diligently followed every good work."
       v:011: '1TI:5:11 | 11 | 11 | But the younger widows avoid. for when they have grown wanton in Christ, they will marry:'
-      v:012: '1TI:5:12 | 12 | 12 | Having damnation, because they have made void their first faith.'
+      v:012: '1TI:5:12 | 12 | 12 | Having damnation, because they have made void {NF:BEGIN 0}their first faith{NF:END}.'
       v:013: '1TI:5:13 | 13 | 13 | And withal being idle they learn to go about from house to house: and are not only idle, but tattlers also and busy bodies, speaking things which they ought not.'
       v:014: '1TI:5:14 | 14 | 14 | I will, therefore, that the younger should marry, bear children, be mistresses of families, give no occasion to the adversary to speak evil.'
       v:015: 1TI:5:15 | 15 | 15 | For some are already turned aside after Satan.

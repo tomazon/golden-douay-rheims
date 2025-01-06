@@ -33,7 +33,8 @@ chapters:
   c:002:
     footnotes:
       v:015:
-        - note: "So Job's three friends are here called, because they were princes in their respective territories.</p>"
+        - match: kings
+          note: "So Job's three friends are here called, because they were princes in their respective territories.</p>"
           quote: Kings
     intro: 'Tobias leaveth his dinner to bury the dead: he loseth his sight by God’s permission, for manifestation of his patience.'
     verses:
@@ -51,7 +52,7 @@ chapters:
       v:012: 'TOB:2:12 | 12 | 12 | Now this trial the Lord therefore permitted to happen to him, that an example might be given to posterity of his patience, as also of holy Job.'
       v:013: 'TOB:2:13 | 13 | 13 | For whereas he had always feared God from his infancy, and kept his commandments, he repined not against God because the evil of blindness had befallen him,'
       v:014: 'TOB:2:14 | 14 | 14 | But continued immoveable in the fear of God, giving thanks to God all the days of his life.'
-      v:015: 'TOB:2:15 | 15 | 15 | For as the kings insulted over holy Job: so his relations and kinsmen mocked at his life, saying:'
+      v:015: 'TOB:2:15 | 15 | 15 | For as the {NF:BEGIN 0}kings{NF:END} insulted over holy Job: so his relations and kinsmen mocked at his life, saying:'
       v:016: 'TOB:2:16 | 16 | 16 | Where is thy hope, for which thou gavest alms, and buriedst the dead?'
       v:017: 'TOB:2:17 | 17 | 17 | But Tobias rebuked them, saying: Speak not so:'
       v:018: 'TOB:2:18 | 18 | 18 | For we are the children of saints, and look for that life which God will give to those that never change their faith from him.'
@@ -63,7 +64,8 @@ chapters:
   c:003:
     footnotes:
       v:007:
-        - note: 'In the Greek it is Ecbatana, which was also called Rages. For there were two cities in Media of the name of Rages. Raguel dwelt in one of them, and Gabelus in the other.</p>'
+        - match: rages
+          note: 'In the Greek it is Ecbatana, which was also called Rages. For there were two cities in Media of the name of Rages. Raguel dwelt in one of them, and Gabelus in the other.</p>'
           quote: Rages
     intro: 'The prayer of Tobias, and of Sara, in their several afflictions, are heard by God, and the angel Raphael is sent to relieve them.'
     verses:
@@ -73,7 +75,7 @@ chapters:
       v:004: 'TOB:3:4 | 4 | 4 | For we have not obeyed thy commandments, therefore are we delivered to spoil and to captivity, and death, and are made a fable, and a reproach to all nations, amongst which thou hast scattered us.{VS:BR}'
       v:005: 'TOB:3:5 | 5 | 5 | And now, O Lord, great are thy judgments, because we have not done according to thy precepts, and have not walked sincerely before thee.{VS:BR}'
       v:006: 'TOB:3:6 | 6 | 6 | And now, O Lord, do with me according to thy will, and command my spirit to be received in peace: for it is better for me to die, than to live.{VS:VERSE:END}{VS:P}'
-      v:007: "TOB:3:7 | 7 | 7 | Now it happened on the same day, that Sara daughter of Raguel, in Rages a city of the Medes, received a reproach from one of her father's servant maids,"
+      v:007: "TOB:3:7 | 7 | 7 | Now it happened on the same day, that Sara daughter of Raguel, in {NF:BEGIN 0}Rages{NF:END} a city of the Medes, received a reproach from one of her father's servant maids,"
       v:008: 'TOB:3:8 | 8 | 8 | Because she had been given to seven husbands and a devil named Asmodeus had killed them, at their first going in unto her.'
       v:009: 'TOB:3:9 | 9 | 9 | So when she reproved the maid for her fault, she answered her, saying: May we never see son, or daughter of thee upon the earth, thou murderer of thy husbands.'
       v:010: 'TOB:3:10 | 10 | 10 | Wilt thou kill me also, as thou hast already killed seven husbands? At these words, she went into an upper chamber of her house: and for three days and three nights did neither eat nor drink:'
@@ -122,7 +124,8 @@ chapters:
   c:005:
     footnotes:
       v:018:
-        - note: 'The angel took the form of Azarias: and therefore might call himself by the name of the man whom he personated. Azarias, in Hebrew, signifies the help of God, and Ananias the grace of God.</p>'
+        - match: azarias
+          note: 'The angel took the form of Azarias: and therefore might call himself by the name of the man whom he personated. Azarias, in Hebrew, signifies the help of God, and Ananias the grace of God.</p>'
           quote: Azarias
     intro: 'Young Tobias seeking a guide for his journey, the angel Raphael, in shape of a man, undertaketh this office.'
     verses:
@@ -143,7 +146,7 @@ chapters:
       v:015: 'TOB:5:15 | 15 | 15 | And the angel said to him: I will conduct him thither, and bring him back to thee.'
       v:016: 'TOB:5:16 | 16 | 16 | And Tobias said to him: I pray thee, tell me, of what family, or what tribe art thou?'
       v:017: 'TOB:5:17 | 17 | 17 | And Raphael the angel answered: Dost thou seek the family of him thou hirest, or the hired servant himself to go with thy son?'
-      v:018: 'TOB:5:18 | 18 | 18 | But lest I should make thee uneasy, I am Azarias the son of the great Ananias.'
+      v:018: 'TOB:5:18 | 18 | 18 | But lest I should make thee uneasy, I am {NF:BEGIN 0}Azarias{NF:END} the son of the great Ananias.'
       v:019: 'TOB:5:19 | 19 | 19 | And Tobias answered: Thou art of a great family. But I pray thee be not angry that I desired to know thy family.'
       v:020: 'TOB:5:20 | 20 | 20 | And the angel said to him: I will lead thy son safe, and bring him to thee again safe.'
       v:021: 'TOB:5:21 | 21 | 21 | And Tobias answering, said: May you have a good journey, and God be with you in your way, and his angel accompany you.{VS:P}'
@@ -157,10 +160,13 @@ chapters:
   c:006:
     footnotes:
       v:008:
-        - note: 'The liver (ver. 19) God was pleased to give these things a virtue against those proud spirits, to make them, who affected to be like the Most High, subject to such mean corporeal creatures as instruments of his power.</p>'
+        - match: its heart
+          note: 'The liver (ver. 19) God was pleased to give these things a virtue against those proud spirits, to make them, who affected to be like the Most High, subject to such mean corporeal creatures as instruments of his power.</p>'
           quote: Its heart
+          quote_2: 'Its heart, etc. The liver (ver. 19)'
       v:015:
-        - note: 'That is, to the place where the souls of the good were kept before the coming of Christ.</p>'
+        - match: hell
+          note: 'That is, to the place where the souls of the good were kept before the coming of Christ.</p>'
           quote: Hell
     intro: 'By the angel’s advice young Tobias taketh hold on a fish that assaulteth him. Reserveth the heart, the gall, and the liver for medicines. They lodge at the house of Raguel, whose daughter Sara, Tobias is to marry; she had before been married to seven husbands, who were all slain by a devil.'
     verses:
@@ -171,14 +177,14 @@ chapters:
       v:005: 'TOB:6:5 | 5 | 5 | Then the angel said to him: Take out the entrails of this fish, and lay up his heart, and his gall, and his liver for thee: for these are necessary for useful medicines.'
       v:006: 'TOB:6:6 | 6 | 6 | And when he had done so, he roasted the flesh thereof, and they took it with them in the way: the rest they salted as much as might serve them, till they came to Rages the city of the Medes.'
       v:007: 'TOB:6:7 | 7 | 7 | Then Tobias asked the angel, and said to him: I beseech thee, brother Azarias, tell me what remedies are these things good for, which thou hast bid me keep of the fish?'
-      v:008: 'TOB:6:8 | 8 | 8 | And the angel, answering, said to him: If thou put a little piece of its heart upon coals, the smoke thereof driveth away all kind of devils, either from man or from woman, so that they come no more to them.'
+      v:008: 'TOB:6:8 | 8 | 8 | And the angel, answering, said to him: If thou put a little piece of {NF:BEGIN 0}its heart{NF:END} upon coals, the smoke thereof driveth away all kind of devils, either from man or from woman, so that they come no more to them.'
       v:009: 'TOB:6:9 | 9 | 9 | And the gall is good for anointing the eyes, in which there is a white speck, and they shall be cured.{VS:P}'
       v:010: 'TOB:6:10 | 10 | 10 | And Tobias said to him: Where wilt thou that we lodge?'
       v:011: 'TOB:6:11 | 11 | 11 | And the angel answering, said: Here is one whose name is Raguel, a near kinsman of thy tribe, and he hath a daughter named Sara, but he hath no son nor any other daughter beside her.'
       v:012: 'TOB:6:12 | 12 | 12 | All his substance is due to thee, and thou must take her to wife.'
       v:013: 'TOB:6:13 | 13 | 13 | Ask her therefore of her father, and he will give her thee to wife.'
       v:014: 'TOB:6:14 | 14 | 14 | Then Tobias answered, and said: I hear that she hath been given to seven husbands, and they all died: moreover I have heard, that a devil killed them.'
-      v:015: 'TOB:6:15 | 15 | 15 | Now I am afraid, lest the same thing should happen to me also: and whereas I am the only child of my parents, I should bring down their old age with sorrow to hell.'
+      v:015: 'TOB:6:15 | 15 | 15 | Now I am afraid, lest the same thing should happen to me also: and whereas I am the only child of my parents, I should bring down their old age with sorrow to {NF:BEGIN 0}hell{NF:END}.'
       v:016: 'TOB:6:16 | 16 | 16 | Then the angel Raphael said to him: Hear me, and I will shew thee who they are, over whom the devil can prevail.'
       v:017: 'TOB:6:17 | 17 | 17 | For they who in such manner receive matrimony, as to shut out God from themselves, and from their mind, and to give themselves to their lust, as the horse and mule, which have not understanding, over them the devil hath power.'
       v:018: 'TOB:6:18 | 18 | 18 | But thou when thou shalt take her, go into the chamber, and for three days keep thyself continent from her, and give thyself to nothing else but to prayers with her.'
@@ -274,7 +280,8 @@ chapters:
   c:011:
     footnotes:
       v:009:
-        - note: 'This may seem a very minute circumstance to be recorded in sacred history: but as we learn from our Saviour{REF Matt 5:18}, there are iotas and tittles in the word of God: that is to say, things that appear minute, but which have indeed a deep and mysterious meaning in them.</p>'
+        - match: the dog
+          note: 'This may seem a very minute circumstance to be recorded in sacred history: but as we learn from our Saviour{REF Matt 5:18}, there are iotas and tittles in the word of God: that is to say, things that appear minute, but which have indeed a deep and mysterious meaning in them.</p>'
           quote: The dog
     intro: 'Tobias anointeth his father’s eyes with the fish’s gall, and he recovereth his sight.'
     verses:
@@ -286,7 +293,7 @@ chapters:
       v:006: 'TOB:11:6 | 6 | 6 | And while she watched his coming from that place, she saw him afar off, and presently perceived it was her son coming: and returning she told her husband, saying: Behold thy son cometh.'
       v:007: 'TOB:11:7 | 7 | 7 | And Raphael said to Tobias: As soon as thou shalt come into thy house, forthwith adore the Lord thy God: and giving thanks to him, go to thy father, and kiss him.'
       v:008: 'TOB:11:8 | 8 | 8 | And immediately anoint his eyes with this gall of the fish, which thou carriest with thee. for be assured that his eyes shall be presently opened, and thy father shall see the light of heaven, and shall rejoice in the sight of thee.'
-      v:009: 'TOB:11:9 | 9 | 9 | Then the dog, which had been with them in the way, ran before, and coming as if he had brought the news, shewed his joy by his fawning and wagging his tail.'
+      v:009: 'TOB:11:9 | 9 | 9 | Then {NF:BEGIN 0}the dog{NF:END}, which had been with them in the way, ran before, and coming as if he had brought the news, shewed his joy by his fawning and wagging his tail.'
       v:010: 'TOB:11:10 | 10 | 10 | And his father that was blind, rising up, began to run stumbling with his feet: and giving a servant his hand, went to meet his son.'
       v:011: 'TOB:11:11 | 11 | 11 | And receiving him kissed him, as did also his wife, and they began to weep for joy.'
       v:012: 'TOB:11:12 | 12 | 12 | And when they had adored God, and given him thanks, they sat down together.{VS:P}'
@@ -328,7 +335,8 @@ chapters:
   c:013:
     footnotes:
       v:011:
-        - note: 'What is prophetically delivered here, and in the following chapter, with relation to Jerusalem, is partly to be understood of the rebuilding of the city after the captivity: and partly of the spiritual Jerusalem, which is the church of Christ, and the eternal Jerusalem in heaven.</p>'
+        - match: jerusalem
+          note: 'What is prophetically delivered here, and in the following chapter, with relation to Jerusalem, is partly to be understood of the rebuilding of the city after the captivity: and partly of the spiritual Jerusalem, which is the church of Christ, and the eternal Jerusalem in heaven.</p>'
           quote: Jerusalem
     intro: 'Tobias the father praiseth God, exhorting all Israel to do the same. Prophesieth the restoration and better state of Jerusalem.'
     verses:
@@ -342,7 +350,7 @@ chapters:
       v:008: 'TOB:13:8 | 8 | 8 | Be converted therefore, ye sinners, and do justice before God, believing that he will shew his mercy to you.{VS:BR}'
       v:009: 'TOB:13:9 | 9 | 9 | And I and my soul will rejoice in him.{VS:BR}'
       v:010: 'TOB:13:10 | 10 | 10 | Bless ye the Lord, all his elect, keep days of joy, and give glory to him.{VS:BR}'
-      v:011: 'TOB:13:11 | 11 | 11 | Jerusalem, city of God, the Lord hath chastised thee for the works of thy hands.{VS:BR}'
+      v:011: 'TOB:13:11 | 11 | 11 | {NF:BEGIN 0}Jerusalem{NF:END}, city of God, the Lord hath chastised thee for the works of thy hands.{VS:BR}'
       v:012: 'TOB:13:12 | 12 | 12 | Give glory to the Lord for thy good things, and bless the God eternal that he may rebuild his tabernacle in thee, and may call back all the captives to thee, and thou mayst rejoice for ever and ever.{VS:BR}'
       v:013: 'TOB:13:13 | 13 | 13 | Thou shalt shine with a glorious light: and all the ends of the earth shall worship thee,{VS:BR}'
       v:014: 'TOB:13:14 | 14 | 14 | Nations from afar shall come to thee: and shall bring gifts, and shall adore the Lord in thee, and shall esteem thy land as holy.{VS:BR}'

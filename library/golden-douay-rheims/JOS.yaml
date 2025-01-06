@@ -104,18 +104,21 @@ chapters:
   c:005:
     footnotes:
       v:002:
-        - note: "Not that such as had been circumcised before were to be circumcised again; but that they were now to renew, and take up again the practice of circumcision; which had been omitted during their forty years' sojourning in the wilderness; by reason of their being always uncertain when they should be obliged to march.</p>"
+        - match: the second time
+          note: "Not that such as had been circumcised before were to be circumcised again; but that they were now to renew, and take up again the practice of circumcision; which had been omitted during their forty years' sojourning in the wilderness; by reason of their being always uncertain when they should be obliged to march.</p>"
           quote: The second time
       v:014:
-        - note: 'St. Michael, who is called prince of the people of Israel, Dan. 10. 21.</p>'
+        - match: prince of the host of the lord
+          note: 'St. Michael, who is called prince of the people of Israel, Dan. 10. 21.</p>'
           quote: Prince of the host of the Lord
       v:015:
-        - note: 'Not with divine honour, but with a religious veneration of an inferior kind, suitable to the dignity of his person.</p>'
+        - match: worshipping
+          note: 'Not with divine honour, but with a religious veneration of an inferior kind, suitable to the dignity of his person.</p>'
           quote: Worshipping
     intro: 'The people are circumcised: they keep the pasch. The manna ceaseth. An angel appeareth to Josue.'
     verses:
       v:001: 'JOS:5:1 | 1 | 1 | Now when all the kings of the Amorrhites, who dwelt beyond the Jordan, westward, and all the kings of Chanaan, who possessed the places near the great sea, had heard that the Lord had dried up the waters of the Jordan before the children of Israel, till they passed over, their heart failed them, and there remained no spirit in them, fearing the coming in of the children of Israel.{VS:P}'
-      v:002: 'JOS:5:2 | 2 | 2 | At that time the Lord said to Josue: Make thee knives of stone, and circumcise the second time the children of Israel.'
+      v:002: 'JOS:5:2 | 2 | 2 | At that time the Lord said to Josue: Make thee knives of stone, and circumcise {NF:BEGIN 0}the second time{NF:END} the children of Israel.'
       v:003: 'JOS:5:3 | 3 | 3 | He did what the Lord had commanded, and he circumcised the children of Israel in the hill of the foreskins.'
       v:004: 'JOS:5:4 | 4 | 4 | Now this is the cause of the second circumcision: All the people that came out of Egypt that were males, all the men fit for war, died in the desert, during the time of the long going about in the way:'
       v:005: 'JOS:5:5 | 5 | 5 | Now these were all circumcised. But the people that were born in the desert,'
@@ -127,13 +130,14 @@ chapters:
       v:011: 'JOS:5:11 | 11 | 11 | And they ate on the next day unleavened bread of the corn of the land, and frumenty of the same year.'
       v:012: 'JOS:5:12 | 12 | 12 | And the manna ceased after they ate of the corn of the land, neither did the children of Israel use that food any more, but they ate of the corn of the present year of the land of Chanaan.{VS:P}'
       v:013: 'JOS:5:13 | 13 | 13 | And when Josue was in the field of the city of Jericho, he lifted up his eyes, and saw a man standing over against him, holding a drawn sword, and he went to him, and said: Art thou one of ours, or of our adversaries?'
-      v:014: 'JOS:5:14 | 14 | 14 | And he answered: No: but I am prince of the host of the Lord, and now I am come.'
-      v:015: 'JOS:5:15 | 15 | 15 | Josue fell on his face to the ground. And worshipping, said: What saith my lord to his servant?'
+      v:014: 'JOS:5:14 | 14 | 14 | And he answered: No: but I am {NF:BEGIN 0}prince of the host of the Lord{NF:END}, and now I am come.'
+      v:015: 'JOS:5:15 | 15 | 15 | Josue fell on his face to the ground. And {NF:BEGIN 0}worshipping{NF:END}, said: What saith my lord to his servant?'
       v:016: 'JOS:5:16 | 16 | 16 | Loose, saith he, thy shoes from off thy feet: for the place whereon thou standest is holy. And Josue did as was commanded him.'
   c:006:
     footnotes:
       v:026:
-        - note: 'Jericho, in the mystical sense, signifies iniquity: the sounding of the trumpets by the priests, the preaching of the word of God; by which the walls of Jericho are thrown down, when sinners are converted; and a dreadful curse will light on them who build them up again.</p>'
+        - match: cursed
+          note: 'Jericho, in the mystical sense, signifies iniquity: the sounding of the trumpets by the priests, the preaching of the word of God; by which the walls of Jericho are thrown down, when sinners are converted; and a dreadful curse will light on them who build them up again.</p>'
           quote: Cursed
     intro: 'After seven days’ processions, the priests sounding the trumpets, the walls of Jericho fall down: and the city is taken and destroyed.'
     verses:
@@ -162,15 +166,17 @@ chapters:
       v:023: 'JOS:6:23 | 23 | 23 | And the young men went in, and brought out Rahab, and her parents, her brethren also, and all her goods, and her kindred, and made them to stay without the camp.'
       v:024: 'JOS:6:24 | 24 | 24 | But they burned the city, and all things that were therein; except the gold and silver, and vessels of brass and iron, which they consecrated unto the treasury of the Lord.'
       v:025: "JOS:6:25 | 25 | 25 | But Josue saved Rahab the harlot, and her father's house, and all she had, and they dwelt in the midst of Israel until this present day: because she hid the messengers whom he had sent to spy out Jericho. At that time, Josue made an imprecation, saying:"
-      v:026: 'JOS:6:26 | 26 | 26 | Cursed be the man before the Lord, that shall raise up and build the city of Jericho. In his firstborn may he lay the foundation thereof, and in the last of his children set up its gates.'
+      v:026: 'JOS:6:26 | 26 | 26 | {NF:BEGIN 0}Cursed{NF:END} be the man before the Lord, that shall raise up and build the city of Jericho. In his firstborn may he lay the foundation thereof, and in the last of his children set up its gates.'
       v:027: 'JOS:6:27 | 27 | 27 | And the Lord was with Josue, and his name was noised throughout all the land.'
   c:007:
     footnotes:
       v:024:
-        - note: 'Probably conscious to, or accomplices of, the crime of their father.</p>'
+        - match: his sons
+          note: 'Probably conscious to, or accomplices of, the crime of their father.</p>'
           quote: His sons
       v:026:
-        - note: 'That is, trouble.</p>'
+        - match: achor
+          note: 'That is, trouble.</p>'
           quote: Achor
     intro: 'For the sins of Achan, the Israelites are defeated at Hai. The offender is found out; and stoned to death, and God’s wrath is turned from them.'
     verses:
@@ -197,13 +203,14 @@ chapters:
       v:021: 'JOS:7:21 | 21 | 21 | For I saw among the spoils a scarlet garment, exceeding good, and two hundred sicles of silver, and a golden rule of fifty sicles: and I coveted them, and I took them away, and hid them in the ground in the midst of my tent, and the silver I covered with the earth that I dug up.'
       v:022: 'JOS:7:22 | 22 | 22 | Josue therefore sent ministers: who running to his tent, found all hid in the same place, together with the silver.'
       v:023: 'JOS:7:23 | 23 | 23 | And taking them away out of the tent, they brought them to Josue, and to all the children of Israel, and threw them down before the Lord.'
-      v:024: 'JOS:7:24 | 24 | 24 | Then Josue, and all Israel with him, took Achan, the son of Zare, and the silver, and the garment, and the golden rule, his sons also, and his daughters, his oxen, and asses, and sheep, the tent also, and all the goods: and brought them to the valley of Achor:'
+      v:024: 'JOS:7:24 | 24 | 24 | Then Josue, and all Israel with him, took Achan, the son of Zare, and the silver, and the garment, and the golden rule, {NF:BEGIN 0}his sons{NF:END} also, and his daughters, his oxen, and asses, and sheep, the tent also, and all the goods: and brought them to the valley of Achor:'
       v:025: 'JOS:7:25 | 25 | 25 | Where Josue said: Because thou hast troubled us, the Lord trouble thee this day. And all Israel stoned him: and all things that were his, were consumed with fire.'
-      v:026: 'JOS:7:26 | 26 | 26 | And they gathered together upon him a great heap of stones, which remaineth until this present day And the wrath of the Lord was turned away from them. And the name of that place was called the Valley of Achor, until this day.'
+      v:026: 'JOS:7:26 | 26 | 26 | And they gathered together upon him a great heap of stones, which remaineth until this present day And the wrath of the Lord was turned away from them. And the name of that place was called the Valley of {NF:BEGIN 0}Achor{NF:END}, until this day.'
   c:008:
     footnotes:
       v:012:
-        - note: 'These were part of the thirty thousand mentioned above, ver. 3.</p>'
+        - match: five thousand
+          note: 'These were part of the thirty thousand mentioned above, ver. 3.</p>'
           quote: Five thousand
     intro: 'Hai is taken and burnt, and all the inhabitants slain. An altar is built, and sacrifices offered. The law is written on stones, and the blessings and cursings are read before all the people.'
     verses:
@@ -218,7 +225,7 @@ chapters:
       v:009: 'JOS:8:9 | 9 | 9 | And he sent them away, and they went on to the place of the ambush, and abode between Bethel and Hai, on the west side of the city of Hai. But Josue staid that night in the midst of the people,'
       v:010: 'JOS:8:10 | 10 | 10 | And rising early in the morning, he mustered his soldiers, and went up with the ancients in the front of the army, environed with the aid of the fighting men.'
       v:011: 'JOS:8:11 | 11 | 11 | And when they were come, and were gone up over against the city, they stood on the north side of the city, between which and them there was a valley in the midst.'
-      v:012: 'JOS:8:12 | 12 | 12 | And he had chosen five thousand men, and set them to lie in ambush between Bethel and Hai, on the west side of the same city:'
+      v:012: 'JOS:8:12 | 12 | 12 | And he had chosen {NF:BEGIN 0}five thousand{NF:END} men, and set them to lie in ambush between Bethel and Hai, on the west side of the same city:'
       v:013: 'JOS:8:13 | 13 | 13 | But all the rest of the army went in battle array on the north side, so that the last of that multitude reached to the west side of the city. So Josue went that night, and stood in the midst of the valley.{VS:P}'
       v:014: 'JOS:8:14 | 14 | 14 | And when the king of Hai saw this, he made haste in the morning, and went out with all the army of the city, and set it in battle array, toward the desert, not knowing that there lay an ambush behind his back.'
       v:015: 'JOS:8:15 | 15 | 15 | But Josue, and all Israel gave back, making as if they were afraid, and fleeing by the way of the wilderness.'
@@ -276,13 +283,16 @@ chapters:
   c:010:
     footnotes:
       v:013:
-        - note: 'In Hebrew Jasher: an ancient book long since lost.</p>'
+        - match: the book of the just
+          note: 'In Hebrew Jasher: an ancient book long since lost.</p>'
           quote: The book of the just
       v:037:
-        - note: 'Viz., the new king, who succeeded him that was slain, ver. 26.</p>'
+        - match: the king
+          note: 'Viz., the new king, who succeeded him that was slain, ver. 26.</p>'
           quote: The king
       v:040:
-        - note: 'God ordered these people to be utterly destroyed, in punishment of their manifold abomination; and that they might not draw the Israelites into the like sins.</p>'
+        - match: 'any remains therein, but slew'
+          note: 'God ordered these people to be utterly destroyed, in punishment of their manifold abomination; and that they might not draw the Israelites into the like sins.</p>'
           quote: 'Any remains therein, but slew'
     intro: 'Five kings war against Gabaon. Josue defeateth them: many are slain with hailstones. At the prayer of Josue the sun and moon stand still the space of one day. The five kings are hanged. Divers cities are taken.'
     verses:
@@ -298,7 +308,7 @@ chapters:
       v:010: 'JOS:10:10 | 10 | 10 | And the Lord troubled them, at the sight of Israel: and he slew them with a great slaughter, in Gabaon, and pursued them by the way of the ascent to Bethoron, and cut them off all the way to Azeca and Maceda.'
       v:011: 'JOS:10:11 | 11 | 11 | And when they were fleeing from the children of Israel, and were in the descent of Bethoron, the Lord cast down upon them great stones from heaven, as far as Azeca: and many more were killed with the hailstones, than were slain by the swords of the children of Israel,'
       v:012: 'JOS:10:12 | 12 | 12 | Then Josue spoke to the Lord, in the day that he delivered the Amorrhite in the sight of the children of Israel, and he said before them: Move not, O sun, toward Gabaon, nor thou, O moon, toward the valley of Ajalon.{VS:BR}'
-      v:013: 'JOS:10:13 | 13 | 13 | And the sun and the moon stood still, till the people revenged themselves of their enemies. Is not this written in the book of the just? So the sun stood still in the midst of heaven, and hasted not to go down the space of one day.'
+      v:013: 'JOS:10:13 | 13 | 13 | And the sun and the moon stood still, till the people revenged themselves of their enemies. Is not this written in {NF:BEGIN 0}the book of the just{NF:END}? So the sun stood still in the midst of heaven, and hasted not to go down the space of one day.'
       v:014: 'JOS:10:14 | 14 | 14 | There was not before, nor after, so long a day, the Lord obeying the voice of a man, and fighting for Israel.'
       v:015: 'JOS:10:15 | 15 | 15 | And Josue returned, with all Israel, into the camp of Galgal.{VS:P}'
       v:016: 'JOS:10:16 | 16 | 16 | For the five kings were fled, and had hid themselves in a cave of the city of Maceda.'
@@ -322,23 +332,27 @@ chapters:
       v:034: 'JOS:10:34 | 34 | 34 | And he passed from Lachis to Eglon, and surrounded it,'
       v:035: 'JOS:10:35 | 35 | 35 | And took it the same day: and put to the sword all the souls that were in it, according to all that he had done to Lachis.'
       v:036: 'JOS:10:36 | 36 | 36 | He went up also with all Israel from Eglon to Hebron, and fought against it:'
-      v:037: 'JOS:10:37 | 37 | 37 | Took it, and destroyed it with the edge of the sword: the king also thereof, and all the towns of that country, and all the souls that dwelt in it: he left not therein any remains: as he had done to Eglon, so did he also to Hebron, putting to the sword all that he found in it.'
+      v:037: 'JOS:10:37 | 37 | 37 | Took it, and destroyed it with the edge of the sword: {NF:BEGIN 0}the king{NF:END} also thereof, and all the towns of that country, and all the souls that dwelt in it: he left not therein any remains: as he had done to Eglon, so did he also to Hebron, putting to the sword all that he found in it.'
       v:038: 'JOS:10:38 | 38 | 38 | Returning from thence to Dabir,'
       v:039: 'JOS:10:39 | 39 | 39 | He took it, and destroyed it: the king also thereof, and all the towns round about, he destroyed with the edge of the sword: he left not in it any remains: as he had done to Hebron and Lebna, and to their kings, so did he to Dabir, and to the king thereof.'
-      v:040: 'JOS:10:40 | 40 | 40 | So Josue conquered all the country of the hills, and of the south, and of the plain, and of Asedoth, with their kings: he left not any remains therein, but slew all that breathed, as the Lord, the God of Israel, had commanded him.'
+      v:040: 'JOS:10:40 | 40 | 40 | So Josue conquered all the country of the hills, and of the south, and of the plain, and of Asedoth, with their kings: he left not {NF:BEGIN 0}any remains therein, but slew{NF:END} all that breathed, as the Lord, the God of Israel, had commanded him.'
       v:041: 'JOS:10:41 | 41 | 41 | From Cadesbarne even to Gaza. All the land of Gosen even to Gabaon,'
       v:042: 'JOS:10:42 | 42 | 42 | And all their kings, and their lands he took and wasted at one onset: for the Lord the God of Israel fought for him.'
       v:043: JOS:10:43 | 43 | 43 | And he returned with all Israel to the place of the camp in Galgal.
   c:011:
     footnotes:
       v:006:
-        - note: 'God so ordained, that his people might not trust in chariots and horses, but in him.</p>'
+        - match: burn their chariots with fire
+          note: 'God so ordained, that his people might not trust in chariots and horses, but in him.</p>'
           quote: Burn their chariots with fire
+          quote_2: 'Hamstring their horses, and burn their chariots with fire'
       v:018:
-        - note: 'Seven years, as appears from chap. 14. 10.</p>'
+        - match: a long time
+          note: 'Seven years, as appears from chap. 14. 10.</p>'
           quote: A long time
       v:020:
-        - note: 'This hardening of their hearts, was their having no thought of yielding or submitting: which was a sentence or judgment of God upon them in punishment of their enormous crimes.</p>'
+        - match: hardened
+          note: 'This hardening of their hearts, was their having no thought of yielding or submitting: which was a sentence or judgment of God upon them in punishment of their enormous crimes.</p>'
           quote: Hardened
     intro: 'The kings of the north are overthrown: the whole country is taken.'
     verses:
@@ -347,7 +361,7 @@ chapters:
       v:003: 'JOS:11:3 | 3 | 3 | To the Chanaanites also on the east and on the west, and the Amorrhite, and the Hethite, and the Pherezite, and the Jebusite in the mountains: to the Hevite also who dwelt at the foot of Hermon in the land of Maspha.'
       v:004: 'JOS:11:4 | 4 | 4 | And they all came out with their troops, a people exceeding numerous as the sand that is on the sea shore, their horses also and chariots a very great multitude,'
       v:005: 'JOS:11:5 | 5 | 5 | And all these kings assembled together at the waters of Merom, to fight against Israel.{VS:P}'
-      v:006: 'JOS:11:6 | 6 | 6 | And the Lord said to Josue: Fear them not: for to morrow at this same hour I will deliver all these to be slain in the sight of Israel: thou shalt hamstring their horses, and thou shalt burn their chariots with fire.'
+      v:006: 'JOS:11:6 | 6 | 6 | And the Lord said to Josue: Fear them not: for to morrow at this same hour I will deliver all these to be slain in the sight of Israel: thou shalt hamstring their horses, and thou shalt {NF:BEGIN 0}burn their chariots with fire{NF:END}.'
       v:007: 'JOS:11:7 | 7 | 7 | And Josue came, and all the army with him, against them to the waters of Merom on a sudden, and fell upon them.'
       v:008: 'JOS:11:8 | 8 | 8 | And the Lord delivered them into the hands of Israel. And they defeated them, and chased them as far as the great Sidon and the waters of Maserophot, and the field of Masphe, which is on the east thereof. He slew them all, so as to leave no remains of them:'
       v:009: 'JOS:11:9 | 9 | 9 | And he did as the Lord had commanded him, he hamstringed their horses and burned their chariots.'
@@ -359,9 +373,9 @@ chapters:
       v:015: 'JOS:11:15 | 15 | 15 | As the Lord had commanded Moses his servant, so did Moses command Josue, and he accomplished all: he left not one thing undone of all the commandments which the Lord had commanded Moses.'
       v:016: 'JOS:11:16 | 16 | 16 | So Josue took all the country of the hills, and of the south, and the land of Gosen, and the plains and the west country, and the mountain of Israel, and the plains thereof:'
       v:017: 'JOS:11:17 | 17 | 17 | And part of the mountain that goeth up to Seir as far as Baalgad, by the plain of Libanus under mount Hermon: all their kings he took, smote and slew.'
-      v:018: JOS:11:18 | 18 | 18 | Josue made war a long time against these kings.
+      v:018: 'JOS:11:18 | 18 | 18 | Josue made war {NF:BEGIN 0}a long time{NF:END} against these kings.'
       v:019: 'JOS:11:19 | 19 | 19 | There was not a city that delivered itself to the children of Israel, except the Hevite, who dwelt in Gabaon: for he took all by fight.'
-      v:020: 'JOS:11:20 | 20 | 20 | For it was the sentence of the Lord, that their hearts should be hardened, and they should fight against Israel, and fall, and should not deserve any clemency, and should be destroyed as the Lord had commanded Moses.'
+      v:020: 'JOS:11:20 | 20 | 20 | For it was the sentence of the Lord, that their hearts should be {NF:BEGIN 0}hardened{NF:END}, and they should fight against Israel, and fall, and should not deserve any clemency, and should be destroyed as the Lord had commanded Moses.'
       v:021: 'JOS:11:21 | 21 | 21 | At that time Josue came and cut off the Enacims from the mountains, from Hebron, and Dabir, and Anab, and from all the mountain of Juda and Israel, and destroyed their cities.'
       v:022: 'JOS:11:22 | 22 | 22 | He left not any of the stock of the Enacims, in the land of the children of Israel: except the cities of Gaza, and Geth, and Azotus, in which alone they were left.'
       v:023: 'JOS:11:23 | 23 | 23 | So Josue took all the land, as the Lord spoke to Moses, and delivered it in possession to the children of Israel, according to their divisions and tribes. And the land rested from wars.'
@@ -396,26 +410,31 @@ chapters:
   c:013:
     footnotes:
       v:001:
-        - note: 'He was then about one hundred and one years old.-- And there is a very large country left.</p>'
+        - match: 'josue was old, and far advanced in years'
+          note: 'He was then about one hundred and one years old.-- And there is a very large country left.</p>'
           quote: 'Josue was old, and far advanced in years'
-        - note: 'Not yet possessed by the children of Israel.</p>'
+          quote_2: 'Josue was old, and far advanced in years.... He was then about one hundred and one years old.—And there is a very large country left, which is not yet divided by lot'
+        - match: which is not yet divided by lot
+          note: 'Not yet possessed by the children of Israel.</p>'
           quote: Which is not yet divided by lot
       v:008:
-        - note: 'That is, with the other half of that same tribe.</p>'
+        - match: with whom
+          note: 'That is, with the other half of that same tribe.</p>'
           quote: With whom
       v:021:
-        - note: 'It appears from hence that these were subjects of king Sehon: they are said to have been slain with him, that is, about the same time, but not in the same battle.</p>'
+        - match: the princes of madian
+          note: 'It appears from hence that these were subjects of king Sehon: they are said to have been slain with him, that is, about the same time, but not in the same battle.</p>'
           quote: The princes of Madian
     intro: 'God commandeth Josue to divide the land: the possessions of Ruben, Gad, and half the tribe of Manasses, beyond the Jordan.'
     verses:
-      v:001: 'JOS:13:1 | 1 | 1 | Josue was old, and far advanced in years, and the Lord said to him: Thou art grown old, and advanced in age, and there is a very large country left, which is not yet divided by lot:'
+      v:001: 'JOS:13:1 | 1 | 1 | {NF:BEGIN 0}Josue was old, and far advanced in years{NF:END}, and the Lord said to him: Thou art grown old, and advanced in age, and there is a very large country left, {NF:BEGIN 1}which is not yet divided by lot{NF:END}:'
       v:002: 'JOS:13:2 | 2 | 2 | To wit, all Galilee, Philistia, and all Gessuri.'
       v:003: 'JOS:13:3 | 3 | 3 | From the troubled river, that watereth Egypt, unto the border of Accaron northward: the land of Chanaan, which is divided among the lords of the Philistines, the Gazites, the Azotians, the Ascalonites, the Gethites, and the Accronites.'
       v:004: 'JOS:13:4 | 4 | 4 | And on the south side are the Hevites, all the land of Chanaan, and Maara of the Sidonians as far as Apheca, and the borders of the Amorrhite,'
       v:005: JOS:13:5 | 5 | 5 | And his confines. The country also of Libanus towards the east from Baalgad under mount Hermon to the entering into Emath.
       v:006: 'JOS:13:6 | 6 | 6 | Of all that dwell in the mountains from Libanus, to the waters of Maserephoth, and all the Sidonians. I am he that will cut them off from before the face of the children of Israel. So let their land come in as a part of the inheritance of Israel, as I have commanded thee.'
       v:007: 'JOS:13:7 | 7 | 7 | And now divide the land in possession to the nine tribes, and to the half tribe of Manasses,'
-      v:008: 'JOS:13:8 | 8 | 8 | With whom Ruben and Gad have possessed the land, which Moses the servant of the Lord delivered to them beyond the river Jordan, on the east side.'
+      v:008: 'JOS:13:8 | 8 | 8 | {NF:BEGIN 0}With whom{NF:END} Ruben and Gad have possessed the land, which Moses the servant of the Lord delivered to them beyond the river Jordan, on the east side.'
       v:009: 'JOS:13:9 | 9 | 9 | From Aroer, which is upon the bank of the torrent Arnon, and in the midst of the valley and all the plains of Medaba, as far as Dibon:'
       v:010: 'JOS:13:10 | 10 | 10 | And all the cities of Sehon, king of the Amorrhites, who reigned in Hesebon, unto the borders of the children of Ammon.'
       v:011: 'JOS:13:11 | 11 | 11 | And Galaad, and the borders of Gessuri and Machati, and all mount Hermon, and all Basan as far as Salecha,'
@@ -428,7 +447,7 @@ chapters:
       v:018: 'JOS:13:18 | 18 | 18 | And Jassa, and Cidimoth, and Mephaath,'
       v:019: 'JOS:13:19 | 19 | 19 | And Cariathaim, and Sabama, and Sarathasar in the mountain of the valley.'
       v:020: 'JOS:13:20 | 20 | 20 | Bethphogor and Asedoth, Phasga and Bethiesimoth,'
-      v:021: 'JOS:13:21 | 21 | 21 | And all the cities of the plain, and all the kingdoms of Sehon king of the Amorrhites, that reigned in Hesebon, whom Moses slew with the princes of Madian: Hevi, and Recem, and Sur and Hur, and Rebe, dukes of Sehon inhabitants of the land.'
+      v:021: 'JOS:13:21 | 21 | 21 | And all the cities of the plain, and all the kingdoms of Sehon king of the Amorrhites, that reigned in Hesebon, whom Moses slew with {NF:BEGIN 0}the princes of Madian{NF:END}: Hevi, and Recem, and Sur and Hur, and Rebe, dukes of Sehon inhabitants of the land.'
       v:022: 'JOS:13:22 | 22 | 22 | Balaam also the son of Beor the soothsayer, the children of Israel slew with the sword among the rest that were slain.'
       v:023: 'JOS:13:23 | 23 | 23 | And the river Jordan was the border of the children of Ruben. This is the possession of the Rubenites, by their kindreds, of cities and villages.{VS:P}'
       v:024: 'JOS:13:24 | 24 | 24 | And Moses gave to the tribe of Gad and to his children by their kindreds a possession, of which this is the division.'
@@ -443,8 +462,14 @@ chapters:
       v:033: 'JOS:13:33 | 33 | 33 | But to the tribe of Levi he gave no possession: because the Lord the God of Israel himself is their possession, as he spoke to them.'
   c:014:
     footnotes:
+      v:004:
+        - match: hebron belonged
+          note: 'All the country thereabouts, depending on Hebron, was given to Caleb; but the city itself with the suburbs, was one of those that were given to the priests to dwell in.'
+          quote: Hebron belonged
+          quote_ends_in_etc: true
       v:014:
-        - note: 'All the country thereabouts, depending on Hebron, was given to Caleb; but the city itself with the suburbs, was one of those that were given to the priests to dwell in.</p>'
+        - match: hebron belonged
+          note: 'All the country thereabouts, depending on Hebron, was given to Caleb; but the city itself with the suburbs, was one of those that were given to the priests to dwell in.</p>'
           quote: Hebron belonged
     intro: Caleb’s petition; Hebron is given to him and to his seed.
     verses:
@@ -461,7 +486,7 @@ chapters:
       v:011: 'JOS:14:11 | 11 | 11 | As strong as I was at that time when I was sent to view the land: the strength of that time continueth in me until this day, as well to fight as to march.'
       v:012: 'JOS:14:12 | 12 | 12 | Give me therefore this mountain, which the Lord promised, in thy hearing also, wherein are the Enacims, and cities great and strong: if so be the Lord will be with me, and I shall be able to destroy them, as he promised me.'
       v:013: 'JOS:14:13 | 13 | 13 | And Josue blessed him, and gave him Hebron in possession.'
-      v:014: 'JOS:14:14 | 14 | 14 | And from that time Hebron belonged to Caleb the son of Jephone the Cenezite, until this present day: because he followed the Lord the God of Israel.'
+      v:014: 'JOS:14:14 | 14 | 14 | And from that time {NF:BEGIN 0}Hebron belonged{NF:END} to Caleb the son of Jephone the Cenezite, until this present day: because he followed the Lord the God of Israel.'
       v:015: 'JOS:14:15 | 15 | 15 | The name of Hebron before was called Cariath-Arbe: Adam the greatest among the Enacims was laid there and the land rested from wars.'
   c:015:
     footnotes: {}
@@ -533,7 +558,8 @@ chapters:
   c:016:
     footnotes:
       v:006:
-        - note: 'The meaning is, that the border went towards the north, by Machmethath; and then turned eastward to Thanath-selo.</p>'
+        - match: looketh to the north
+          note: 'The meaning is, that the border went towards the north, by Machmethath; and then turned eastward to Thanath-selo.</p>'
           quote: Looketh to the north
     intro: The lot of the sons of Joseph. The borders of the tribe of Ephraim.
     verses:
@@ -542,7 +568,7 @@ chapters:
       v:003: 'JOS:16:3 | 3 | 3 | And goeth down westward, by the border of Jephleti, unto the borders of Beth-horon the nether, and to Gazer: and the countries of it are ended by the great sea:'
       v:004: 'JOS:16:4 | 4 | 4 | And Manasses and Ephraim the children of Joseph possessed it.{VS:P}'
       v:005: 'JOS:16:5 | 5 | 5 | And the border of the children of Ephraim was according to their kindreds: and their possession towards the east was Ataroth-addar unto Beth-horon the upper.'
-      v:006: 'JOS:16:6 | 6 | 6 | And the confines go out unto the sea: but Machmethath looketh to the north, and it goeth round the borders eastward into Thanath-selo: and passeth along on the east side to Janoe.'
+      v:006: 'JOS:16:6 | 6 | 6 | And the confines go out unto the sea: but Machmethath {NF:BEGIN 0}looketh to the north{NF:END}, and it goeth round the borders eastward into Thanath-selo: and passeth along on the east side to Janoe.'
       v:007: 'JOS:16:7 | 7 | 7 | And it goeth down from Janoe into Ataroth and Naaratha: and it cometh to Jericho, and goeth out to the Jordan.'
       v:008: 'JOS:16:8 | 8 | 8 | From Taphua it passeth on towards the sea into the valley of reeds, and the goings out thereof are at the most salt sea. This is the possession of the tribe of the children of Ephraim by their families.'
       v:009: JOS:16:9 | 9 | 9 | And there were cities with their villages separated for the children of Ephraim in the midst of the possession of the children of Manasses.
@@ -572,7 +598,8 @@ chapters:
   c:018:
     footnotes:
       v:006:
-        - note: 'That is to say, the rest of the land, which is not already assigned to Juda or Joseph.</p>'
+        - match: the land in the midst between these mark ye out into seven parts
+          note: 'That is to say, the rest of the land, which is not already assigned to Juda or Joseph.</p>'
           quote: The land in the midst between these mark ye out into seven parts
     intro: Surveyors are sent to divide the rest of the land into seven tribes. The lot of Benjamin.
     verses:
@@ -581,7 +608,7 @@ chapters:
       v:003: 'JOS:18:3 | 3 | 3 | And Josue said to them: How long are you indolent and slack, and go not in to possess the land which the Lord the God of your fathers hath given you?'
       v:004: 'JOS:18:4 | 4 | 4 | Choose of every tribe three men, that I may send them, and they may go and compass the land, and mark it out according to the number of each multitude: and bring back to me what they have marked out.'
       v:005: 'JOS:18:5 | 5 | 5 | Divide to yourselves the land into seven parts: let Juda be in his bounds on the south side, and the house of Joseph on the north.'
-      v:006: 'JOS:18:6 | 6 | 6 | The land in the midst between these mark ye out into seven parts; and you shall come hither to me, that I may cast lots for you before the Lord your God.'
+      v:006: 'JOS:18:6 | 6 | 6 | {NF:BEGIN 0}The land in the midst between these mark ye out into seven parts{NF:END}; and you shall come hither to me, that I may cast lots for you before the Lord your God.'
       v:007: 'JOS:18:7 | 7 | 7 | For the Levites have no part among you, but the priesthood of the Lord is their inheritance. And Gad and Ruben, and the half tribe of Manasses have already received their possessions beyond the Jordan eastward: which Moses the servant of the Lord gave them.'
       v:008: 'JOS:18:8 | 8 | 8 | And when the men were risen up, to go to mark out the land, Josue commanded them saying: Go round the land and mark it out, and return to me: that I may cast lots for you before the Lord in Silo.'
       v:009: 'JOS:18:9 | 9 | 9 | So they went and surveying it divided it into seven parts, writing them down in a book. And they returned to Josue, to the camp in Silo.'
@@ -675,7 +702,8 @@ chapters:
   c:021:
     footnotes:
       v:036:
-        - note: 'There are no more, though there be five names: for Misor is the same city as Bosor, which is to be observed in some other places, where the number of names exceeds the number of cities.</p>'
+        - match: four cities
+          note: 'There are no more, though there be five names: for Misor is the same city as Bosor, which is to be observed in some other places, where the number of names exceeds the number of cities.</p>'
           quote: Four cities
     intro: Cities with their suburbs are assigned for the priests and Levites.
     verses:
@@ -714,7 +742,7 @@ chapters:
       v:033: 'JOS:21:33 | 33 | 33 | All the cities of the families of Gerson, were thirteen, with their suburbs.'
       v:034: 'JOS:21:34 | 34 | 34 | And to the children of Merari, Levites of the inferior degree, by their families were given of the tribe of Zabulon, Jecnam and Cartha,'
       v:035: 'JOS:21:35 | 35 | 35 | And Damna and Naalol, four cities with their suburbs.'
-      v:036: 'JOS:21:36 | 36 | 36 | Of the tribe of Ruben beyond the Jordan over against Jericho, Bosor in the wilderness, one of the cities of refuge, Misor and Jaser and Jethson and Mephaath, four cities with their suburbs.'
+      v:036: 'JOS:21:36 | 36 | 36 | Of the tribe of Ruben beyond the Jordan over against Jericho, Bosor in the wilderness, one of the cities of refuge, Misor and Jaser and Jethson and Mephaath, {NF:BEGIN 0}four cities{NF:END} with their suburbs.'
       v:037: 'JOS:21:37 | 37 | 37 | Of the tribe of Gad, Ramoth in Galaad, one of the cities of refuge, and Manaim and Hesebon and Jaser, four cities with their suburbs,'
       v:038: 'JOS:21:38 | 38 | 38 | All the cities of the children of Merari by their families and kindreds, were twelve.'
       v:039: 'JOS:21:39 | 39 | 39 | So all the cities of the Levites within the possession of the children of Israel were forty-eight,'
@@ -783,21 +811,25 @@ chapters:
   c:024:
     footnotes:
       v:002:
-        - note: 'The Euphrates.</p>'
+        - match: of the river
+          note: 'The Euphrates.</p>'
           quote: Of the river
       v:019:
-        - note: 'This was not said by way of discouraging them; but rather to make them more earnest and resolute, by setting before them the greatness of the undertaking, and the courage and constancy necessary to go through with it.</p>'
+        - match: you will not be able to serve the lord
+          note: 'This was not said by way of discouraging them; but rather to make them more earnest and resolute, by setting before them the greatness of the undertaking, and the courage and constancy necessary to go through with it.</p>'
           quote: You will not be able to serve the Lord
       v:027:
-        - note: 'This is a figure of speech, by which sensation is attributed to inanimate things; and they are called upon, as it were, to bear witness in favour of the great Creator, whom they on their part constantly obey.</p>'
+        - match: it hath heard
+          note: 'This is a figure of speech, by which sensation is attributed to inanimate things; and they are called upon, as it were, to bear witness in favour of the great Creator, whom they on their part constantly obey.</p>'
           quote: It hath heard
       v:029:
-        - note: 'If Josue wrote this book, as is commonly believed, these last verses were added by Samuel, or some other prophet.</p>'
+        - match: and after
+          note: 'If Josue wrote this book, as is commonly believed, these last verses were added by Samuel, or some other prophet.</p>'
           quote: And after
     intro: 'Josue assembleth the people, and reneweth the covenant between them and God. His death and burial.'
     verses:
       v:001: 'JOS:24:1 | 1 | 1 | And Josue gathered together all the tribes of Israel in Sichem, and called for the ancients, and the princes and the judges, and the masters: and they stood in the sight of the Lord:'
-      v:002: 'JOS:24:2 | 2 | 2 | And he spoke thus to the people: Thus saith the Lord the God of Israel: Your fathers dwelt of old on the other side of the river, Thare the father of Abraham, and Nachor: and they served strange gods.'
+      v:002: 'JOS:24:2 | 2 | 2 | And he spoke thus to the people: Thus saith the Lord the God of Israel: Your fathers dwelt of old on the other side {NF:BEGIN 0}of the river{NF:END}, Thare the father of Abraham, and Nachor: and they served strange gods.'
       v:003: 'JOS:24:3 | 3 | 3 | And I took your father Abraham from the borders of Mesopotamia: and brought him into the land of Chanaan: and I multiplied his seed,'
       v:004: 'JOS:24:4 | 4 | 4 | And gave him Isaac: and to him again I gave Jacob and Esau. And I gave to Esau mount Seir for his possession: but Jacob and his children went down into Egypt.'
       v:005: 'JOS:24:5 | 5 | 5 | And I sent Moses and Aaron, and I struck Egypt with many signs and wonders.'
@@ -814,7 +846,7 @@ chapters:
       v:016: 'JOS:24:16 | 16 | 16 | And the people answered, and said, God forbid we should leave the Lord, and serve strange gods.'
       v:017: 'JOS:24:17 | 17 | 17 | The Lord our God he brought us and our fathers out of the land of Egypt, out of the house of bondage: and did very great signs in our sight, and preserved us in all the way by which we journeyed, and among all the people through whom we passed.'
       v:018: 'JOS:24:18 | 18 | 18 | And he hath cast out all the nations, the Amorrhite the inhabitant of the land into which we are come. Therefore we will serve the Lord, for he is our God.'
-      v:019: 'JOS:24:19 | 19 | 19 | And Josue said to the people: You will not be able to serve the Lord: for he is a holy God, and mighty and jealous, and will not forgive your wickedness and sins.'
+      v:019: 'JOS:24:19 | 19 | 19 | And Josue said to the people: {NF:BEGIN 0}You will not be able to serve the Lord{NF:END}: for he is a holy God, and mighty and jealous, and will not forgive your wickedness and sins.'
       v:020: 'JOS:24:20 | 20 | 20 | If you leave the Lord, and serve strange gods, he will turn, and will afflict you, and will destroy you after all the good he hath done you.'
       v:021: 'JOS:24:21 | 21 | 21 | And the people said to Josue: No, it shall not be so as thou sayest, but we will serve the Lord.'
       v:022: 'JOS:24:22 | 22 | 22 | And Josue said to the people, You are witnesses, that you yourselves have chosen you the Lord to serve him. And they answered: We are witnesses.'
@@ -822,9 +854,9 @@ chapters:
       v:024: 'JOS:24:24 | 24 | 24 | And the people said to Josue: We will serve the Lord our God, and we will be obedient to his commandments.{VS:P}'
       v:025: 'JOS:24:25 | 25 | 25 | Josue therefore on that day made a covenant, and set before the people commandments and judgments in Sichem.'
       v:026: 'JOS:24:26 | 26 | 26 | And he wrote all these things in the volume of the law of the Lord: and he took a great stone, and set it under the oak that was in the sanctuary of the Lord.'
-      v:027: 'JOS:24:27 | 27 | 27 | And he said to all the people: Behold this stone shall be a testimony unto you, that it hath heard all the words of the Lord, which he hath spoken to you: lest perhaps hereafter you will deny it, and lie to the Lord your God.'
+      v:027: 'JOS:24:27 | 27 | 27 | And he said to all the people: Behold this stone shall be a testimony unto you, that {NF:BEGIN 0}it hath heard{NF:END} all the words of the Lord, which he hath spoken to you: lest perhaps hereafter you will deny it, and lie to the Lord your God.'
       v:028: 'JOS:24:28 | 28 | 28 | And he sent the people away every one to their own possession,{VS:P}'
-      v:029: 'JOS:24:29 | 29 | 29 | And after these things Josue the son of Nun the servant of the Lord died, being a hundred and ten years old:'
+      v:029: 'JOS:24:29 | 29 | 29 | {NF:BEGIN 0}And after{NF:END} these things Josue the son of Nun the servant of the Lord died, being a hundred and ten years old:'
       v:030: 'JOS:24:30 | 30 | 30 | And they buried him in the border of his possession in Thamnathsare, which is situate in mount Ephraim, on the north side of mount Gaas.'
       v:031: 'JOS:24:31 | 31 | 31 | And Israel served the Lord all the days of Josue, and of the ancients that lived a long time after Josue, and that had known all the works of the Lord which he had done in Israel.{VS:P}'
       v:032: 'JOS:24:32 | 32 | 32 | And the bones of Joseph which the children of Israel had taken out of Egypt, they buried in Sichem, in that part of the field which Jacob had bought of the sons of Hemor the father of Sichem, for a hundred young ewes, and it was in the possession of the sons of Joseph.'
