@@ -133,10 +133,10 @@ sub build_chapters {
                 $text = make_footnote_tags($chap_out, $v_tag, $v_index, $text);
             }
 
-            $text = apply_vscodes($text, $vscodes_count, $c_index, $v_index);
             if (book_has_red_letters($book_id)) {
                 $text = apply_redletters($v_tag, $text, $red_letter_map);
             }
+            $text = apply_vscodes($text, $vscodes_count, $c_index, $v_index);
 
             my $entry = join(' | ', $v_tag, $v_num, $display_v, $text);
             $chap_out->{verses}->{$v_index} = $entry;
@@ -223,7 +223,7 @@ sub apply_redletters {
 
 sub book_has_red_letters {
     my ($book_id) = @_;
-    grep(/^$book_id$/, (qw( MAT MRK LUK JHN )));
+    grep(/^$book_id$/, (qw( MAT MRK LUK JHN ACT 1CO 2CO REV )));
 }
 
 sub choose_display_v {

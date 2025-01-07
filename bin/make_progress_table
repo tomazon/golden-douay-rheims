@@ -1,0 +1,178 @@
+#! /usr/bin/perl
+
+use strict;
+use warnings;
+
+use File::Slurp;
+use String::Trim;
+use YAML;
+
+use feature 'say';
+
+
+my @red_letter_books = (qw( MAT MRK LUK JHN ACT 1CO 2CO REV ));
+my @torah_books      = (qw( GEN EXO LEV NUM DEU ));
+my @ot_books         = (qw( GEN EXO LEV NUM DEU JOS JDG RUT 1SA 2SA 1KI 2KI
+                            1CH 2CH EZR NEH TOB JDT ESG JOB PSA PRO ECC SNG
+                            WIS SIR ISA JER LAM BAR EZK DAG HOS JOL AMO OBA
+                            JON MIC NAM HAB ZEP HAG ZEC MAL 1MA 2MA ));
+my @nt_books         = (qw( MAT MRK LUK JHN ACT ROM 1CO 2CO GAL
+                            EPH PHP COL 1TH 2TH 1TI 2TI TIT PHM
+                            HEB JAS 1PE 2PE 1JN 2JN 3JN JUD REV ));
+my @all_books       = (@ot_books, @nt_books);
+my @other_ot = subtract_list(\@ot_books, \@torah_books);
+my @other_nt = subtract_list(\@nt_books, \@red_letter_books);
+
+my $info = {};
+for my $book_id (@all_books) {
+    my $vscode_count = count_interier_vs_codes($book_id);
+    my $diff_count = count_diffs($book_id);
+    my $red_count = 0;
+    if (member_of($book_id, @red_letter_books)) {
+        $red_count = red_letter_verses($book_id);
+    }
+
+    my $combined = $vscode_count + $diff_count + $red_count;
+
+    $info->{$book_id}->{diffs} = $diff_count;
+    $info->{$book_id}->{vscodes} = $vscode_count;
+    $info->{$book_id}->{red} = $red_count;
+    $info->{$book_id}->{weight} = $combined;
+
+
+    #print "$combined | $book_id | $vscode_count | $diff_count\n";
+}
+
+say "## Gospel and other Red-Letter books";
+table('', 'red', @red_letter_books);
+say "## Torah";
+table('', '', @torah_books);
+say "## Other New Testament books (ordered by effort weight)";
+table('sort', '', @other_nt);
+say "## Other Old Testament books (ordered by effort weight)";
+table('sort', '',  @other_ot);
+
+
+sub table {
+    my ($sort, $red_letter, @books) = @_;
+
+    my @header_1_fields = (
+        'Book ID',
+        'Weight<br>of<br>Effort',
+        '# of<br>Audit<br>Diffs<br>',
+        '# of<br>format<br>codes',
+        '# of<br>red<br>lines',
+        'Import<br>PG1581<br>Verses',
+        'Import<br>DRBO<br>Footnotes',
+        'Audit<br>Against<br>DRBO',
+        'Which<br>Matches<br>1971-TAN',
+        'Apply<br>Audit<br>Diffs',
+        'Apply<br>format<br>Codes',
+    );
+
+    my @header_2_fields = (
+        ' :---: ',
+        ' ---:  ',
+        ' ---:  ',
+        ' ---:  ',
+        ' ---:  ',
+        ' :---: ',
+        ' :---: ',
+        ' :---: ',
+        ' :---: ',
+        ' :---: ',
+        ' :---: ',
+    );
+
+    my $red_field = '';
+    if ($sort) {
+        @books = (sort {$info->{$a}->{weight} <=> $info->{$b}->{weight}} @books);
+    }
+    if ($red_letter) {
+        push(@header_1_fields, 'Apply<br>Red<br>Codes');
+        push(@header_2_fields, ' :---: ');
+        $red_field = '    | ';
+
+
+    }
+
+
+
+    print "\n";
+    print "|". join(' | ', @header_1_fields) . " |\n";
+    print "|". join(' | ', @header_2_fields) . " |\n";
+    for my $book_id (@books) {
+        printf("| $book_id | %4d | %4d | %4d | %4d | DONE | DONE | DONE |      |      |      |$red_field\n",
+            $info->{$book_id}->{weight},
+            $info->{$book_id}->{diffs},
+            $info->{$book_id}->{vscodes},
+            $info->{$book_id}->{red},
+        );
+    }
+    print "\n";
+}
+
+sub subtract_list {
+    my ($a, $b) = @_;
+    my @out = ();
+
+    for my $i (@{$a}) {
+        push(@out,$i) unless member_of($i, @{$b});
+    }
+
+    @out;
+}
+
+sub count_interier_vs_codes {
+    my ($book_id) = @_;
+
+    my $count=0;
+    my $file = "./sources/vulsearch_vulgate/out_vscode_counts/$book_id.yaml";
+    for my $line (read_file($file)) {
+        $count++ if $line =~ /interier/;
+    }
+
+    $count;
+}
+
+sub count_diffs {
+    my ($book_id) = @_;
+
+    return 0 if member_of($book_id, (qw( OBA )));
+
+    my $count=0;
+    my $file = "./etc/diff_sheets/drbo_pg1581/$book_id.dif";
+    for my $line (read_file($file)) {
+        $count++ if $line =~ / which /;
+    }
+
+    $count;
+}
+
+
+sub red_letter_verses {
+    my ($book_id) = @_;
+
+    return 0 if member_of($book_id, (qw( OBA )));
+
+    my $count=0;
+    my $file = "./etc/red_letters/$book_id.yaml";
+    for my $line (read_file($file)) {
+        $count++ if $line =~ /^\s*\d/;
+    }
+
+    $count;
+}
+
+sub member_of {
+    my ($item, @list) = @_;
+    grep(/^$item$/, @list);
+}
+
+sub not_member_of {
+    my ($item, @list) = @_;
+    (member_of($item, @list)?0:1);
+}
+
+
+

@@ -1,0 +1,53 @@
+#! /usr/lib/perl
+
+use strict;
+use warnings;
+
+use File::Slurp;
+use String::Trim;
+
+use feature 'say';
+
+my $file = shift();
+my $contents = read_file($file);
+$contents =~ s/<li>/\n<li>/ig;
+
+my $out = '';
+my $last_book = 0;
+for my $line (split(/\n/, $contents)) {
+    trim($line);
+    $line =~ tr/\xa0//d;
+    $line =~ tr/\xc2//d;
+    $line =~ s/\(KJV\)//g;
+    $line =~ s/<br\/>//g;
+
+    if ($line =~ /<li>(([12] )?[A-Z][a-z]+)\s+(\d+):(\d+)\s*<\/li>/) {
+        my ($book,$c,$v) = ($1, $3, $4);
+        $out .= "\n### $book\n\n" if $book ne $last_book;
+        $out .= "${c}:${v}: \n\n";
+        $last_book = $book;
+    } elsif ($line =~ /<li>(([12] )?[A-Z][a-z]+)\s+(\d+):(\d+)[\-\-\-](\d+)\s*<\/li>/) {
+        my ($book,$c,$v1,$v2) = ($1, $3, $4, $5);
+        $out .= "\n### $book\n\n" if $book ne $last_book;
+        #print "${c}:${v1}-${v2}: \n\n";
+        for (my $v=$v1; $v<=$v2; $v++) {
+            $out .= "${c}:${v}: \n";
+        }
+        $out .= "\n";
+        $last_book = $book;
+    } elsif ($line =~ /<li><(|strong)>\s*(\S.*\S)\s+\| Red Words Of Jesus<\/(b|strong)>/) {
+        $out .= "#  $1\n\n";
+    } elsif ($line =~ /<li><b>\s*(\S.*\S)\s*\| Red Words Of Jesus<\/b>/) {
+        $out .=  "#  $1\n\n";
+    } elsif ($line =~ /<li><(strong|b)>\s*(\S.*\S)\s*\| The Red Letter Scriptures of Jesus<\/(b|strong)>/) {
+        $out .= "#  $1\n\n";
+    } elsif ($line =~ /^\s*<li>\s*$/) {
+        1;
+    } elsif ($line =~ /<li>/) {
+        1; #print "!!! $line\n";
+    }
+
+
+}
+
+print "$out";

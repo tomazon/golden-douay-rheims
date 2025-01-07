@@ -1,0 +1,76 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use File::Slurp;
+use YAML;
+
+require "./sources/lib/perl5/shared.pl";
+
+use feature 'say';
+
+my $book_order_file = "./etc/book_order.yaml";
+my $in_dir = "./sources/vulsearch_vulgate/out_vscode_counts";
+my $out_dir = "./etc/vscode_sheets";
+
+die "Already ran and made $out_dir/\n";
+
+###
+$::args = {hilite => 'ansi-colors'};
+
+my %map = (
+    'interier_versebegin' => 'VB',
+    'interier_versebegin' => 'VE',
+    'interier_p' => 'P',
+    'interier_br' => 'BR',
+);
+
+for my $book_id (book_list($book_order_file, qw( OT NT ))) {
+    my $out_file = "$out_dir/$book_id.internal_vscodes";
+
+    my $contents = make_sheet($in_dir, $book_id);
+    say _blue("Writing: $out_file");
+    write_file($out_file, $contents);
+
+}
+
+sub make_sheet{
+    my ($in_dir, $book_id) = @_;
+    my $out = '';
+
+    my $data = YAML::LoadFile("$in_dir/$book_id.yaml");
+
+    my $last_c = '';
+    my $last_cv = '';
+    for my $c_index (sort keys %{$data->{chapters}}) {
+        my $c = index_to_num($c_index);
+        my $chap = $data->{chapters}->{$c_index};
+        for my $v_index (sort keys %{$chap->{verses}}) {
+            my $v = index_to_num($v_index);
+            my $cv = "$c:$v";
+            my $entry = $chap->{verses}->{$v_index};
+
+            for my $key (sort keys %map) {
+                my $val = $map{$key};
+                if (defined(my $c = $entry->{$key})) {
+                    $out .= "\n#=====\n" if $c ne $last_c;
+                    $out .=  "\n" if $cv ne $last_cv;
+                    for my $i (1..$c) {
+                        $out .= "$book_id $cv: $val\n";
+                    }
+                    $last_cv = $cv;
+                    $last_c = $c;
+                }
+            }
+        }
+    }
+
+    $out
+}
+
+sub index_to_num {
+    my $out = $_[0];
+    $out =~ s/^[cv]:0*//;
+    $out;
+}
