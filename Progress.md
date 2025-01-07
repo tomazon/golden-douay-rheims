@@ -17,10 +17,11 @@
 
 ### Letters without red-letters
 
+
 ## Gospel and other Red-Letter books
 
-|Book ID | Edit<br>Effort<br>Weight | Number of<br>Audit<br>Diffs<br> | Number of<br>Inline<br>VS_codes | Import<br>PG1581 | Audit<br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Import<br>DRBO<br>Footnotes | Red<br>Letter | Red<br>Letter |
-| :---:  |  ---:   |  ---:   |  ---:   |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
+|Book ID | Weight<br>of<br>Effort | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | Import<br>PG1581<br>Verses | Import<br>DRBO<br>Footnotes | Audit<br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Apply<br>Audit<br>Diffs | Apply<br>format<br>Codes | Apply<br>Red<br>Letters |
+| :---:  |  ---:   |  ---:   |  ---:   |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
 | MAT |  475 |   27 |  448 | DONE | DONE |      | DONE |     | 
 | MRK |  355 |    6 |  349 | DONE | DONE |      | DONE |     | 
 | LUK |  794 |   27 |  767 | DONE | DONE |      | DONE |     | 
@@ -32,8 +33,8 @@
 
 ## Torah
 
-|Book ID | Edit<br>Effort<br>Weight | Number of<br>Audit<br>Diffs<br> | Number of<br>Inline<br>VS_codes | Import<br>PG1581 | Audit<br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Import<br>DRBO<br>Footnotes | Red<br>Letter |
-| :---:  |  ---:   |  ---:   |  ---:   |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
+|Book ID | Weight<br>of<br>Effort | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | Import<br>PG1581<br>Verses | Import<br>DRBO<br>Footnotes | Audit<br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Apply<br>Audit<br>Diffs | Apply<br>format<br>Codes |
+| :---:  |  ---:   |  ---:   |  ---:   |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
 | GEN |  753 |   49 |  704 | DONE | DONE |      | DONE | 
 | EXO |  562 |   23 |  539 | DONE | DONE |      | DONE | 
 | LEV |  469 |    1 |  468 | DONE | DONE |      | DONE | 
@@ -42,8 +43,8 @@
 
 ## Other New Testament books (ordered by effort weight)
 
-|Book ID | Edit<br>Effort<br>Weight | Number of<br>Audit<br>Diffs<br> | Number of<br>Inline<br>VS_codes | Import<br>PG1581 | Audit<br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Import<br>DRBO<br>Footnotes | Red<br>Letter |
-| :---:  |  ---:   |  ---:   |  ---:   |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
+|Book ID | Weight<br>of<br>Effort | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | Import<br>PG1581<br>Verses | Import<br>DRBO<br>Footnotes | Audit<br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Apply<br>Audit<br>Diffs | Apply<br>format<br>Codes |
+| :---:  |  ---:   |  ---:   |  ---:   |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
 | 2JN |   10 |    0 |   10 | DONE | DONE |      | DONE | 
 | 3JN |   12 |    0 |   12 | DONE | DONE |      | DONE | 
 | PHM |   17 |    0 |   17 | DONE | DONE |      | DONE | 
@@ -66,8 +67,8 @@
 
 ## Other Old Testament books (ordered by effort weight)
 
-|Book ID | Edit<br>Effort<br>Weight | Number of<br>Audit<br>Diffs<br> | Number of<br>Inline<br>VS_codes | Import<br>PG1581 | Audit<br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Import<br>DRBO<br>Footnotes | Red<br>Letter |
-| :---:  |  ---:   |  ---:   |  ---:   |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
+|Book ID | Weight<br>of<br>Effort | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | Import<br>PG1581<br>Verses | Import<br>DRBO<br>Footnotes | Audit<br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Apply<br>Audit<br>Diffs | Apply<br>format<br>Codes |
+| :---:  |  ---:   |  ---:   |  ---:   |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
 | MAL |   13 |    0 |   13 | DONE | DONE |      | DONE | 
 | EZR |   18 |    0 |   18 | DONE | DONE |      | DONE | 
 | OBA |   22 |   22 |    0 | DONE | DONE |      | DONE | 
