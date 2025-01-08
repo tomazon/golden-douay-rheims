@@ -1,0 +1,17 @@
+#! /bin/sh
+
+
+BOOK=$1
+CV=$2
+TAG="$BOOK:$CV"
+
+(
+    cd ./library/vulsearch_vulgate && grep "$TAG |" $BOOK.yaml | rg '\{[^}]+}'
+)
+(
+    cd ./library/golden-douay-rheims && grep "$TAG |" $BOOK.yaml | rg '\{[^}]+}'
+)
+#grep "$PAT "
+
+
+#golden-douay-rheims vulsearch_vulgate

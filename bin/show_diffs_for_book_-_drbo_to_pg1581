@@ -1,0 +1,11 @@
+#! /bin/sh
+
+BOOK=$1
+CV=$2
+TAG="$BOOK:$CV"
+
+if [ -z "$CV" ] ; then
+    ./bin/diff_yamldirs sources/drbo/out sources/pg1581/out --no-strip-punc $BOOK | less
+else
+    ./bin/diff_yamldirs sources/drbo/out sources/pg1581/out --no-strip-punc $BOOK | grep "$TAG"
+fi
