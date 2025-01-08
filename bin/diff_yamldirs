@@ -416,7 +416,7 @@ sub print_output_store {
         print run_in_out({}, $ps, @ps2pdf_cmd);
     } elsif ($args->{output_as} eq 'diff-sheet') {
         for my $key (sort keys %diff_sheets) {
-            my $file = "./etc/diff_sheets/drbo_pg1581/$key.dif";
+            my $file = "./etc/diff_sheets/$key.dif";
             say "Saving: $file";
             write_file($file, $diff_sheets{$key});
         }

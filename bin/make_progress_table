@@ -141,7 +141,7 @@ sub count_diffs {
     return 0 if member_of($book_id, (qw( OBA )));
 
     my $count=0;
-    my $file = "./etc/diff_sheets/drbo_pg1581/$book_id.dif";
+    my $file = "./etc/diff_sheets/$book_id.dif";
     for my $line (read_file($file)) {
         $count++ if $line =~ / which /;
     }

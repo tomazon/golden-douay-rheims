@@ -15,7 +15,7 @@ use feature 'say';
 my $usage = "Usage: $0 book_id\n";
 my $book_id = shift() || die $usage;
 
-my $diff_file = "./etc/diff_sheets/drbo_pg1581/$book_id.dif";
+my $diff_file = "./etc/diff_sheets/$book_id.dif";
 my $drbo_file = "./sources/drbo/out/$book_id.yaml";
 my $pg1581_file = "./sources/pg1581/out/$book_id.yaml";
 
