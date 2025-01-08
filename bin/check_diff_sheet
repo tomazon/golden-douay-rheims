@@ -38,7 +38,19 @@ for my $line (read_file($diff_file)) {
             my $label = $cols[1];
             my $string = $cols[2];
 
-            next if !defined($string) || $string eq ''; # TODO: make a flag
+            if (!defined($cols[2])) {
+                say "$label $book_id:$c:$v UNDEF_STRING";
+                next;
+            }
+
+            #next if !defined($string) || $string eq ''; 
+            if ($string eq '') {
+                say "$label $book_id:$c:$v EMPTY_STRING";
+                next;
+            } elsif (!defined($string)) {
+                say "$label $book_id:$c:$v UNDEF2_STRING";
+                next;
+            }
 
             check_letter_label($diff_file, $line_num, $letter, $label);
             check_string_in_verse($b,$c,$v, $label, $string);
@@ -62,6 +74,8 @@ sub check_string_in_verse {
     my $c_index = "c:".num_to_3digits($c);
     my $v_index = "v:".num_to_3digits($v);
 
+    my $const_label = sprintf("%-6s", $label);
+
     my $tag = "$b:$c:$v";
 
     my $entry='';
@@ -73,23 +87,29 @@ sub check_string_in_verse {
     #     print ":::: $line\n";
     }
 
-    die "NOMATCH: $label $tag | $c_index $v_index | $string \n"
+    die "$const_label $tag | NOMATCH: | $c_index $v_index | $string \n"
         unless defined($entry);
 
     my($e_tag, $e_chap, $e_c_display, $e_text) = split(/\s*\|\s*/, $entry);
     #say "$tag | $c_index $v_index | $e_tag | $string | $e_text\n";
 
 
-    my $matches = () = $e_text =~ m{$string};
+    my $regex = $string;
+    $regex =~ s/\?/\\?/g;
+    $regex =~ s/\./\\./g;
+    $regex =~ s/\(/\\(/g;
+    $regex =~ s/\)/\\)/g;
+
+    my $matches = () = $e_text =~ m{$regex};
     #say "$matches | $tag | $string | $e_text"
     #say "$b:$c:$v  -- $string";
 
     if ($string =~ / \.\.\. /) {
-        say "$tag NEED_TO_SPLIT | $string";
+        say "$const_label  $tag NEED_TO_SPLIT | $string";
     } elsif ($matches > 1) {
-        say "$tag MULTIPLE MATCHES OF | $string | $e_text";
+        say "$const_label $tag MULTIPLE MATCHES OF | $string | $e_text";
     } elsif ($matches != 1) {
-        say  "$tag NO MATCHES OF | $string | $e_text";
+        say  "$const_label $tag NO MATCHES OF | $string | $e_text";
     }
 
 
