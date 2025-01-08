@@ -142,6 +142,9 @@ sub do_diff {
                 my ($tag_a, $ch_a, $dis_a, $text_a) = split(/\s*\|\s*/, $vers_a);
                 my ($tag_b, $ch_b, $dis_b, $text_b) = split(/\s*\|\s*/, $vers_b);
 
+                $text_a =~ s/<\/?u>//g;
+                $text_b =~ s/<\/?u>//g;
+
                 my ($diff_a, $diff_b) = diff_text($args, $v_tag, $text_a, $text_b);
                 if ($diff_a || $diff_b) {
                     if ($args->{output_as} eq 'diff-sheet') {
@@ -413,7 +416,7 @@ sub print_output_store {
         print run_in_out({}, $ps, @ps2pdf_cmd);
     } elsif ($args->{output_as} eq 'diff-sheet') {
         for my $key (sort keys %diff_sheets) {
-            my $file = "diff_sheets/drbo_pg1581/$key.dif";
+            my $file = "./etc/diff_sheets/drbo_pg1581/$key.dif";
             say "Saving: $file";
             write_file($file, $diff_sheets{$key});
         }
