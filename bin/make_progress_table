@@ -34,17 +34,23 @@ sub out {
     }
 }
 
+for my $line (<DATA>) {
+    chomp($line);
+    out $line;
+}
 for my $book_id (@all_books) {
     my $vscode_count = count_interier_vs_codes($book_id);
     my $diff_count = count_diffs($book_id);
+    my $splits_count = count_diff_splits($book_id);
     my $red_count = 0;
     if (member_of($book_id, @red_letter_books)) {
         $red_count = red_letter_verses($book_id);
     }
 
-    my $combined = $vscode_count + ($diff_count * 2) + $red_count;
+    my $combined = $vscode_count + ($diff_count * 2)  + ($splits_count * 2) + $red_count;
 
     $info->{$book_id}->{diffs} = $diff_count;
+    $info->{$book_id}->{splits} = $splits_count;
     $info->{$book_id}->{vscodes} = $vscode_count;
     $info->{$book_id}->{red} = $red_count;
     $info->{$book_id}->{weight} = $combined;
@@ -62,7 +68,7 @@ out table('sort', '', @other_nt);
 out "## Other Old Testament books (ordered by effort weight)";
 out table('sort', '',  @other_ot);
 
-say "=============";
+#say "=============";
 say $::pgm_out;
 
 exit();
@@ -81,6 +87,7 @@ sub table {
         my @cols = (
             $book_id,
             $info->{$book_id}->{weight},
+            $info->{$book_id}->{splits},
             $info->{$book_id}->{diffs},
             $info->{$book_id}->{vscodes},
             $info->{$book_id}->{red},
@@ -155,10 +162,27 @@ sub count_diffs {
     my $file = "./etc/diff_sheets/$book_id.dif";
     for my $line (read_file($file)) {
         #$count++ if $line =~ / which /;
-        if ($line =~ /\|\s*[A-Z]:/) {
+        if ($line =~ /\|\s*[A]:/) {
             $count++;
-            my $parts = () = $line =~ /\.\.\./;
-            $count += $parts;
+            #$count++ if $line =~ /\.\.\./;
+        }
+    }
+
+    $count;
+}
+
+
+sub count_diff_splits {
+    my ($book_id) = @_;
+
+    return 0 if member_of($book_id, (qw( OBA )));
+
+    my $count=0;
+    my $file = "./etc/diff_sheets/$book_id.dif";
+    for my $line (read_file($file)) {
+        #$count++ if $line =~ / which /;
+        if ($line =~ /\|\s*[A]:/) {
+            $count++ if $line =~ /\.\.\./;
         }
     }
 
@@ -189,3 +213,12 @@ sub not_member_of {
     my ($item, @list) = @_;
     (member_of($item, @list)?0:1);
 }
+
+__DATA__
+
+Project Status
+==============
+
+# Overview
+
+# Manually Intensive Effort

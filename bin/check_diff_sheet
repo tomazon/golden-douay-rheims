@@ -26,6 +26,7 @@ my $line_num = 0;
 for my $line (read_file($diff_file)) {
     $line_num++;
     trim($line);
+    next if $line =~ /^#/;
     next unless $line =~ /\S/;
     my @cols = split(/\s*\|\s*/, $line);
     my ($b,$v,$c);

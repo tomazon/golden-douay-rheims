@@ -1,0 +1,124 @@
+---
+
+stati:
+
+   - name: book_id
+     title: 'BookID'
+   - name: num_weight
+     title: 'Weight/of/Effort'
+   - name: num_diff_splits
+     title: '# of/Diff/Splits/'
+   - name: num_diffs
+     title: '# of/Audit/Diffs/'
+   - name: num_vscodes
+     title: '# of/format/codes'
+   - name: num_red
+     title: '# of/red/lines'
+  #  - name: import_verses
+  #    title: 'Import/PG1581/Verses'
+  #  - name: import_footnotes
+  #    title: 'Import/DRBO/Footnotes'
+   - name: split_diffs
+     title: 'Split/Diffs'
+   - name: determine_matches
+     title: 'Which/Matches/1971-TAN'
+   - name: apply_vscodes
+     title: 'Apply/format/Codes'
+   - name: apply_red
+     title: 'Apply/Red/Codes'
+     only: red_letter_books
+
+
+status:
+
+    # Red Letter Books
+
+    MAT:
+        split_diffs: 'WIP'
+        determine_matches: ''
+        apply_vscodes: 'DONE'
+        apply_red: 'WIP'
+    MRK: 
+        apply_vscodes: 'WIP'
+        #apply_red: 'WIP'
+    LUK: {}
+    JHN: {}
+    ACT: {}
+    1CO: {}
+    2CO: {}
+    REV: {}
+
+    # Torah
+
+    GEN: {}
+    EXO: {}
+    LEV: {}
+    NUM: {}
+    DEU: {}
+
+    # New Testament
+
+    2JN: {}
+    3JN: {}
+    PHM: {}
+    JUD: {}
+    TIT: {}
+    2TH: {}
+    2PE: {}
+    1TH: {}
+    COL: {}
+    2TI: {}
+    1PE: {}
+    1TI: {}
+    JAS: {}
+    PHP: {}
+    1JN: {}
+    GAL: {}
+    EPH: {}
+    HEB: {}
+    ROM: {}
+
+    # Old Testament
+
+    MAL: {}
+    EZR: {}
+    OBA: {}
+    HAG: {}
+    JON: {}
+    RUT: {}
+    NEH: {}
+    ESG: {}
+    NAM: {}
+    ZEP: {}
+    HAB: {}
+    JDT: {}
+    TOB: {}
+    2CH: {}
+    JOL: {}
+    ZEC: {}
+    SNG: {}
+    BAR: {}
+    MIC: {}
+    AMO: {}
+    2SA: {}
+    LAM: {}
+    1CH: {}
+    JOS: {}
+    HOS: {}
+    ECC: {}
+    2MA: {}
+    DAG: {}
+    JDG: {}
+    1SA: {}
+    1MA: {}
+    2KI: {}
+    1KI: {}
+    WIS: {}
+    EZK: {}
+    PRO: {}
+    JER: {}
+    JOB: {}
+    ISA: {}
+    SIR: {}
+    PSA: {}
+
