@@ -1,9 +1,9 @@
 =============
 ## Gospel and other Red-Letter books
-| BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Fix<br>Diff<br>Sheets | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
+| BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diff | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | 
-| MAT | 2322 | 235 | 599 | 27 | 627 |  |  | DONE | WIP |
-| MRK | 1866 | 254 | 533 | 6 | 286 |  |  | WIP | WIP |
+| MAT | 2322 | 235 | 599 | 27 | 627 | WIP |  | DONE | WIP |
+| MRK | 1866 | 254 | 533 | 6 | 286 |  |  | WIP |  |
 | LUK | 4265 | 621 | 1205 | 27 | 586 |  |  |  |  |
 | JHN | 3245 | 476 | 925 | 22 | 421 |  |  |  |  |
 | ACT | 3616 | 610 | 1170 | 29 | 27 |  |  |  |  |
@@ -12,7 +12,7 @@
 | REV | 2629 | 544 | 737 | 0 | 67 |  |  |  |  |
 
 ## Torah
-| BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Fix<br>Diff<br>Sheets | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
+| BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diff | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | 
 | GEN | 2155 | 186 | 867 | 49 | 0 |  |  |  |  |
 | EXO | 1907 | 217 | 725 | 23 | 0 |  |  |  |  |
@@ -21,7 +21,7 @@
 | DEU | 284 | 6 | 93 | 86 | 0 |  |  |  |  |
 
 ## Other New Testament books (ordered by effort weight)
-| BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Fix<br>Diff<br>Sheets | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
+| BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diff | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | 
 | PHM | 44 | 3 | 19 | 0 | 0 |  |  |  |  |
 | 3JN | 52 | 10 | 16 | 0 | 0 |  |  |  |  |
@@ -44,7 +44,7 @@
 | ROM | 1638 | 287 | 528 | 8 | 0 |  |  |  |  |
 
 ## Other Old Testament books (ordered by effort weight)
-| BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Fix<br>Diff<br>Sheets | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
+| BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diff | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | 
 | MAL | 16 | 0 | 8 | 0 | 0 |  |  |  |  |
 | OBA | 22 | 0 | 0 | 22 | 0 |  |  |  |  |
