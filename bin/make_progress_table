@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 
+use Data::Dumper;
 use File::Slurp;
 use String::Trim;
 use YAML;
@@ -23,7 +24,16 @@ my @all_books       = (@ot_books, @nt_books);
 my @other_ot = subtract_list(\@ot_books, \@torah_books);
 my @other_nt = subtract_list(\@nt_books, \@red_letter_books);
 
+my $config = YAML::LoadFile('./etc/status.yaml');
 my $info = {};
+
+$::pgm_out .= "";
+sub out {
+    for my $i (@_) {
+        $::pgm_out .= "$i\n";
+    }
+}
+
 for my $book_id (@all_books) {
     my $vscode_count = count_interier_vs_codes($book_id);
     my $diff_count = count_diffs($book_id);
@@ -32,7 +42,7 @@ for my $book_id (@all_books) {
         $red_count = red_letter_verses($book_id);
     }
 
-    my $combined = $vscode_count + $diff_count + $red_count;
+    my $combined = $vscode_count + ($diff_count * 2) + $red_count;
 
     $info->{$book_id}->{diffs} = $diff_count;
     $info->{$book_id}->{vscodes} = $vscode_count;
@@ -43,75 +53,76 @@ for my $book_id (@all_books) {
     #print "$combined | $book_id | $vscode_count | $diff_count\n";
 }
 
-say "## Gospel and other Red-Letter books";
-table('', 'red', @red_letter_books);
-say "## Torah";
-table('', '', @torah_books);
-say "## Other New Testament books (ordered by effort weight)";
-table('sort', '', @other_nt);
-say "## Other Old Testament books (ordered by effort weight)";
-table('sort', '',  @other_ot);
+out "## Gospel and other Red-Letter books";
+out table('', 'do_red', @red_letter_books);
+out "## Torah";
+out table('', '', @torah_books);
+out "## Other New Testament books (ordered by effort weight)";
+out table('sort', '', @other_nt);
+out "## Other Old Testament books (ordered by effort weight)";
+out table('sort', '',  @other_ot);
+
+say "=============";
+say $::pgm_out;
+
+exit();
 
 
 sub table {
-    my ($sort, $red_letter, @books) = @_;
+    my ($sort, $do_red, @books) = @_;
+    my $out .= gen_headers($do_red);
 
-    my @header_1_fields = (
-        'Book ID',
-        'Weight<br>of<br>Effort',
-        '# of<br>Audit<br>Diffs<br>',
-        '# of<br>format<br>codes',
-        '# of<br>red<br>lines',
-        'Import<br>PG1581<br>Verses',
-        'Import<br>DRBO<br>Footnotes',
-        'Audit<br>Against<br>DRBO',
-        'Which<br>Matches<br>1971-TAN',
-        'Apply<br>Audit<br>Diffs',
-        'Apply<br>format<br>Codes',
-    );
-
-    my @header_2_fields = (
-        ' :---: ',
-        ' ---:  ',
-        ' ---:  ',
-        ' ---:  ',
-        ' ---:  ',
-        ' :---: ',
-        ' :---: ',
-        ' :---: ',
-        ' :---: ',
-        ' :---: ',
-        ' :---: ',
-    );
-
-    my $red_field = '';
     if ($sort) {
         @books = (sort {$info->{$a}->{weight} <=> $info->{$b}->{weight}} @books);
     }
-    if ($red_letter) {
-        push(@header_1_fields, 'Apply<br>Red<br>Codes');
-        push(@header_2_fields, ' :---: ');
-        $red_field = '    | ';
 
-
-    }
-
-
-
-    print "\n";
-    print "|". join(' | ', @header_1_fields) . " |\n";
-    print "|". join(' | ', @header_2_fields) . " |\n";
     for my $book_id (@books) {
-        printf("| $book_id | %4d | %4d | %4d | %4d | DONE | DONE | DONE |      |      |      |$red_field\n",
+        my $status = $config->{status}->{$book_id};
+        my @cols = (
+            $book_id,
             $info->{$book_id}->{weight},
             $info->{$book_id}->{diffs},
             $info->{$book_id}->{vscodes},
             $info->{$book_id}->{red},
         );
+
+        for my $field (@{$config->{stati}}) {
+            next if $field->{only_red} && !$do_red;
+            my $name = $field->{name};
+            next if $name =~ /^num_/;
+            next if $name eq 'book_id';
+            if (defined(my $s = $status->{$name})) {
+                push(@cols, $s);
+            } else {
+                push(@cols, '');
+            }
+        }
+
+        $out .= "| ". join(" | ", @cols) ." |\n";
     }
-    print "\n";
+
+    $out;
 }
 
+sub gen_headers {
+    my ($do_red) = @_;
+    my $header_1 = '| ';
+    my $header_2 = '| ';
+
+    for my $field (@{$config->{stati}}) {
+        next if $field->{only_red} && !$do_red;
+        $header_1 .= $field->{title} .' | ';
+        if ($field->{name} =~ /^num_/) {
+            $header_2 .= ' ---: | ';
+        } else {
+            $header_2 .= ':---: | ';
+        }
+    }
+
+    $header_1 =~ s/\//<br>/g;
+
+    "$header_1\n$header_2\n";
+}
 sub subtract_list {
     my ($a, $b) = @_;
     my @out = ();
@@ -143,7 +154,12 @@ sub count_diffs {
     my $count=0;
     my $file = "./etc/diff_sheets/$book_id.dif";
     for my $line (read_file($file)) {
-        $count++ if $line =~ / which /;
+        #$count++ if $line =~ / which /;
+        if ($line =~ /\|\s*[A-Z]:/) {
+            $count++;
+            my $parts = () = $line =~ /\.\.\./;
+            $count += $parts;
+        }
     }
 
     $count;
@@ -173,6 +189,3 @@ sub not_member_of {
     my ($item, @list) = @_;
     (member_of($item, @list)?0:1);
 }
-
-
-
