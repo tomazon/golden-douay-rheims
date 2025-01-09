@@ -1,97 +1,91 @@
-
-
-## Per Book Progress
-
+=============
 ## Gospel and other Red-Letter books
-
-|Book ID | Weight<br>of<br>Effort | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Import<br>PG1581<br>Verses | Import<br>DRBO<br>Footnotes | Audit<br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Apply<br>Audit<br>Diffs | Apply<br>format<br>Codes | Apply<br>Red<br>Codes |
-| :---:  |  ---:   |  ---:   |  ---:   |  ---:   |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
-| MAT | 1106 |  448 |   27 |  631 | DONE | DONE | DONE |      |      |      |    | 
-| MRK |  641 |  349 |    6 |  286 | DONE | DONE | DONE |      |      |      |    | 
-| LUK | 1380 |  767 |   27 |  586 | DONE | DONE | DONE |      |      |      |    | 
-| JHN | 1039 |  596 |   22 |  421 | DONE | DONE | DONE |      |      |      |    | 
-| ACT |  783 |  727 |   29 |   27 | DONE | DONE | DONE |      |      |      |    | 
-| 1CO |  315 |  312 |    1 |    2 | DONE | DONE | DONE |      |      |      |    | 
-| 2CO |  195 |  190 |    4 |    1 | DONE | DONE | DONE |      |      |      |    | 
-| REV |  439 |  372 |    0 |   67 | DONE | DONE | DONE |      |      |      |    | 
+| BookID | Weight/of/Effort | # of/Audit/Diffs/ | # of/format/codes | # of/red/lines | Import/PG1581/Verses | Import/DRBO/Footnotes | Fix/Diff/Sheets | Which/Matches/1971-TAN | Apply/Audit/Diffs | Apply/format/Codes | Apply/Red/Codes | 
+| :---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| MAT | 1102 | 448 | 27 | 627 |  |  |  | WIP |  |  | DONE | WIP |
+| MRK | 637 | 345 | 6 | 286 |  |  |  |  |  |  | WIP | WIP |
+| LUK | 1378 | 765 | 27 | 586 |  |  |  |  |  |  |  |  |
+| JHN | 1032 | 589 | 22 | 421 |  |  |  |  |  |  |  |  |
+| ACT | 781 | 725 | 29 | 27 |  |  |  |  |  |  |  |  |
+| 1CO | 309 | 306 | 1 | 2 |  |  |  |  |  |  |  |  |
+| 2CO | 193 | 188 | 4 | 1 |  |  |  |  |  |  |  |  |
+| REV | 435 | 368 | 0 | 67 |  |  |  |  |  |  |  |  |
 
 ## Torah
-
-|Book ID | Weight<br>of<br>Effort | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Import<br>PG1581<br>Verses | Import<br>DRBO<br>Footnotes | Audit<br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Apply<br>Audit<br>Diffs | Apply<br>format<br>Codes |
-| :---:  |  ---:   |  ---:   |  ---:   |  ---:   |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
-| GEN |  753 |  704 |   49 |    0 | DONE | DONE | DONE |      |      |      |
-| EXO |  562 |  539 |   23 |    0 | DONE | DONE | DONE |      |      |      |
-| LEV |  469 |  468 |    1 |    0 | DONE | DONE | DONE |      |      |      |
-| NUM |  193 |  144 |   49 |    0 | DONE | DONE | DONE |      |      |      |
-| DEU |  188 |  102 |   86 |    0 | DONE | DONE | DONE |      |      |      |
+| BookID | Weight/of/Effort | # of/Audit/Diffs/ | # of/format/codes | # of/red/lines | Import/PG1581/Verses | Import/DRBO/Footnotes | Fix/Diff/Sheets | Which/Matches/1971-TAN | Apply/Audit/Diffs | Apply/format/Codes | Apply/Red/Codes | 
+| :---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| GEN | 719 | 670 | 49 | 0 |  |  |  |  |  |  |  |  |
+| EXO | 547 | 524 | 23 | 0 |  |  |  |  |  |  |  |  |
+| LEV | 466 | 465 | 1 | 0 |  |  |  |  |  |  |  |  |
+| NUM | 168 | 119 | 49 | 0 |  |  |  |  |  |  |  |  |
+| DEU | 179 | 93 | 86 | 0 |  |  |  |  |  |  |  |  |
 
 ## Other New Testament books (ordered by effort weight)
-
-|Book ID | Weight<br>of<br>Effort | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Import<br>PG1581<br>Verses | Import<br>DRBO<br>Footnotes | Audit<br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Apply<br>Audit<br>Diffs | Apply<br>format<br>Codes |
-| :---:  |  ---:   |  ---:   |  ---:   |  ---:   |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
-| 2JN |   10 |   10 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| 3JN |   12 |   12 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| PHM |   17 |   17 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| JUD |   20 |   20 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| TIT |   32 |   32 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| 2TH |   42 |   42 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| 2PE |   44 |   44 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| 1TH |   55 |   54 |    1 |    0 | DONE | DONE | DONE |      |      |      |
-| COL |   61 |   60 |    1 |    0 | DONE | DONE | DONE |      |      |      |
-| 2TI |   64 |   63 |    1 |    0 | DONE | DONE | DONE |      |      |      |
-| 1PE |   74 |   73 |    1 |    0 | DONE | DONE | DONE |      |      |      |
-| 1TI |   76 |   76 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| JAS |   77 |   77 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| PHP |   79 |   79 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| 1JN |   87 |   87 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| GAL |  100 |   98 |    2 |    0 | DONE | DONE | DONE |      |      |      |
-| EPH |  104 |  104 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| HEB |  228 |  228 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| ROM |  340 |  332 |    8 |    0 | DONE | DONE | DONE |      |      |      |
+| BookID | Weight/of/Effort | # of/Audit/Diffs/ | # of/format/codes | # of/red/lines | Import/PG1581/Verses | Import/DRBO/Footnotes | Fix/Diff/Sheets | Which/Matches/1971-TAN | Apply/Audit/Diffs | Apply/format/Codes | Apply/Red/Codes | 
+| :---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| 2JN | 10 | 10 | 0 | 0 |  |  |  |  |  |  |  |  |
+| 3JN | 11 | 11 | 0 | 0 |  |  |  |  |  |  |  |  |
+| PHM | 17 | 17 | 0 | 0 |  |  |  |  |  |  |  |  |
+| JUD | 17 | 17 | 0 | 0 |  |  |  |  |  |  |  |  |
+| TIT | 32 | 32 | 0 | 0 |  |  |  |  |  |  |  |  |
+| 2TH | 42 | 42 | 0 | 0 |  |  |  |  |  |  |  |  |
+| 2PE | 43 | 43 | 0 | 0 |  |  |  |  |  |  |  |  |
+| 1TH | 55 | 54 | 1 | 0 |  |  |  |  |  |  |  |  |
+| COL | 60 | 59 | 1 | 0 |  |  |  |  |  |  |  |  |
+| 2TI | 64 | 63 | 1 | 0 |  |  |  |  |  |  |  |  |
+| 1TI | 71 | 71 | 0 | 0 |  |  |  |  |  |  |  |  |
+| 1PE | 73 | 72 | 1 | 0 |  |  |  |  |  |  |  |  |
+| JAS | 76 | 76 | 0 | 0 |  |  |  |  |  |  |  |  |
+| PHP | 78 | 78 | 0 | 0 |  |  |  |  |  |  |  |  |
+| 1JN | 84 | 84 | 0 | 0 |  |  |  |  |  |  |  |  |
+| GAL | 98 | 96 | 2 | 0 |  |  |  |  |  |  |  |  |
+| EPH | 99 | 99 | 0 | 0 |  |  |  |  |  |  |  |  |
+| HEB | 224 | 224 | 0 | 0 |  |  |  |  |  |  |  |  |
+| ROM | 331 | 323 | 8 | 0 |  |  |  |  |  |  |  |  |
 
 ## Other Old Testament books (ordered by effort weight)
+| BookID | Weight/of/Effort | # of/Audit/Diffs/ | # of/format/codes | # of/red/lines | Import/PG1581/Verses | Import/DRBO/Footnotes | Fix/Diff/Sheets | Which/Matches/1971-TAN | Apply/Audit/Diffs | Apply/format/Codes | Apply/Red/Codes | 
+| :---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| MAL | 8 | 8 | 0 | 0 |  |  |  |  |  |  |  |  |
+| EZR | 17 | 17 | 0 | 0 |  |  |  |  |  |  |  |  |
+| OBA | 22 | 0 | 22 | 0 |  |  |  |  |  |  |  |  |
+| HAG | 30 | 3 | 27 | 0 |  |  |  |  |  |  |  |  |
+| JON | 31 | 22 | 9 | 0 |  |  |  |  |  |  |  |  |
+| RUT | 40 | 40 | 0 | 0 |  |  |  |  |  |  |  |  |
+| NEH | 41 | 40 | 1 | 0 |  |  |  |  |  |  |  |  |
+| ESG | 42 | 42 | 0 | 0 |  |  |  |  |  |  |  |  |
+| NAM | 54 | 8 | 46 | 0 |  |  |  |  |  |  |  |  |
+| HAB | 58 | 1 | 57 | 0 |  |  |  |  |  |  |  |  |
+| ZEP | 58 | 10 | 48 | 0 |  |  |  |  |  |  |  |  |
+| JDT | 70 | 49 | 21 | 0 |  |  |  |  |  |  |  |  |
+| TOB | 82 | 53 | 29 | 0 |  |  |  |  |  |  |  |  |
+| ZEC | 93 | 12 | 81 | 0 |  |  |  |  |  |  |  |  |
+| 2CH | 98 | 97 | 1 | 0 |  |  |  |  |  |  |  |  |
+| JOL | 107 | 34 | 73 | 0 |  |  |  |  |  |  |  |  |
+| SNG | 126 | 10 | 116 | 0 |  |  |  |  |  |  |  |  |
+| BAR | 145 | 20 | 125 | 0 |  |  |  |  |  |  |  |  |
+| MIC | 150 | 45 | 105 | 0 |  |  |  |  |  |  |  |  |
+| AMO | 152 | 11 | 141 | 0 |  |  |  |  |  |  |  |  |
+| 2SA | 166 | 88 | 78 | 0 |  |  |  |  |  |  |  |  |
+| LAM | 180 | 24 | 156 | 0 |  |  |  |  |  |  |  |  |
+| 1CH | 182 | 152 | 30 | 0 |  |  |  |  |  |  |  |  |
+| JOS | 211 | 207 | 4 | 0 |  |  |  |  |  |  |  |  |
+| HOS | 217 | 37 | 180 | 0 |  |  |  |  |  |  |  |  |
+| ECC | 252 | 18 | 234 | 0 |  |  |  |  |  |  |  |  |
+| 2MA | 266 | 265 | 1 | 0 |  |  |  |  |  |  |  |  |
+| DAG | 316 | 255 | 61 | 0 |  |  |  |  |  |  |  |  |
+| JDG | 398 | 357 | 41 | 0 |  |  |  |  |  |  |  |  |
+| 1SA | 414 | 393 | 21 | 0 |  |  |  |  |  |  |  |  |
+| 1MA | 454 | 445 | 9 | 0 |  |  |  |  |  |  |  |  |
+| 2KI | 512 | 496 | 16 | 0 |  |  |  |  |  |  |  |  |
+| 1KI | 559 | 558 | 1 | 0 |  |  |  |  |  |  |  |  |
+| WIS | 575 | 149 | 426 | 0 |  |  |  |  |  |  |  |  |
+| EZK | 654 | 130 | 524 | 0 |  |  |  |  |  |  |  |  |
+| JER | 1150 | 221 | 929 | 0 |  |  |  |  |  |  |  |  |
+| JOB | 1155 | 163 | 992 | 0 |  |  |  |  |  |  |  |  |
+| PRO | 1171 | 202 | 969 | 0 |  |  |  |  |  |  |  |  |
+| ISA | 1396 | 138 | 1258 | 0 |  |  |  |  |  |  |  |  |
+| SIR | 1719 | 132 | 1587 | 0 |  |  |  |  |  |  |  |  |
+| PSA | 2770 | 296 | 2474 | 0 |  |  |  |  |  |  |  |  |
 
-|Book ID | Weight<br>of<br>Effort | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Import<br>PG1581<br>Verses | Import<br>DRBO<br>Footnotes | Audit<br>Against<br>DRBO | Which<br>Matches<br>1971-TAN | Apply<br>Audit<br>Diffs | Apply<br>format<br>Codes |
-| :---:  |  ---:   |  ---:   |  ---:   |  ---:   |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
-| MAL |   13 |   13 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| EZR |   18 |   18 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| OBA |   22 |    0 |   22 |    0 | DONE | DONE | DONE |      |      |      |
-| HAG |   30 |    3 |   27 |    0 | DONE | DONE | DONE |      |      |      |
-| JON |   35 |   26 |    9 |    0 | DONE | DONE | DONE |      |      |      |
-| RUT |   41 |   41 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| NEH |   41 |   40 |    1 |    0 | DONE | DONE | DONE |      |      |      |
-| ESG |   44 |   44 |    0 |    0 | DONE | DONE | DONE |      |      |      |
-| NAM |   59 |   13 |   46 |    0 | DONE | DONE | DONE |      |      |      |
-| ZEP |   62 |   14 |   48 |    0 | DONE | DONE | DONE |      |      |      |
-| HAB |   66 |    9 |   57 |    0 | DONE | DONE | DONE |      |      |      |
-| JDT |   71 |   50 |   21 |    0 | DONE | DONE | DONE |      |      |      |
-| TOB |   86 |   57 |   29 |    0 | DONE | DONE | DONE |      |      |      |
-| 2CH |  104 |  103 |    1 |    0 | DONE | DONE | DONE |      |      |      |
-| JOL |  110 |   37 |   73 |    0 | DONE | DONE | DONE |      |      |      |
-| ZEC |  120 |   39 |   81 |    0 | DONE | DONE | DONE |      |      |      |
-| SNG |  138 |   22 |  116 |    0 | DONE | DONE | DONE |      |      |      |
-| BAR |  149 |   24 |  125 |    0 | DONE | DONE | DONE |      |      |      |
-| MIC |  157 |   52 |  105 |    0 | DONE | DONE | DONE |      |      |      |
-| AMO |  160 |   19 |  141 |    0 | DONE | DONE | DONE |      |      |      |
-| 2SA |  180 |  102 |   78 |    0 | DONE | DONE | DONE |      |      |      |
-| LAM |  181 |   25 |  156 |    0 | DONE | DONE | DONE |      |      |      |
-| 1CH |  193 |  163 |   30 |    0 | DONE | DONE | DONE |      |      |      |
-| JOS |  221 |  217 |    4 |    0 | DONE | DONE | DONE |      |      |      |
-| HOS |  232 |   52 |  180 |    0 | DONE | DONE | DONE |      |      |      |
-| ECC |  259 |   25 |  234 |    0 | DONE | DONE | DONE |      |      |      |
-| 2MA |  280 |  279 |    1 |    0 | DONE | DONE | DONE |      |      |      |
-| DAG |  335 |  274 |   61 |    0 | DONE | DONE | DONE |      |      |      |
-| JDG |  409 |  368 |   41 |    0 | DONE | DONE | DONE |      |      |      |
-| 1SA |  429 |  408 |   21 |    0 | DONE | DONE | DONE |      |      |      |
-| 1MA |  459 |  450 |    9 |    0 | DONE | DONE | DONE |      |      |      |
-| 2KI |  519 |  503 |   16 |    0 | DONE | DONE | DONE |      |      |      |
-| 1KI |  572 |  571 |    1 |    0 | DONE | DONE | DONE |      |      |      |
-| WIS |  584 |  158 |  426 |    0 | DONE | DONE | DONE |      |      |      |
-| EZK |  705 |  181 |  524 |    0 | DONE | DONE | DONE |      |      |      |
-| PRO | 1174 |  205 |  969 |    0 | DONE | DONE | DONE |      |      |      |
-| JER | 1179 |  250 |  929 |    0 | DONE | DONE | DONE |      |      |      |
-| JOB | 1181 |  189 |  992 |    0 | DONE | DONE | DONE |      |      |      |
-| ISA | 1435 |  177 | 1258 |    0 | DONE | DONE | DONE |      |      |      |
-| SIR | 1742 |  155 | 1587 |    0 | DONE | DONE | DONE |      |      |      |
-| PSA | 2849 |  375 | 2474 |    0 | DONE | DONE | DONE |      |      |      |
 
