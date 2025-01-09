@@ -182,7 +182,11 @@ sub count_diff_splits {
     for my $line (read_file($file)) {
         #$count++ if $line =~ / which /;
         if ($line =~ /#.+\|\s*[A]:/) {  # use comment link case the won't be edited away
-            $count++ if $line =~ /\.\.\./;
+            if ($line =~ /\.\.\./) {
+                my $number_of_splits = () = $line =~ /\.\.\./g;
+                $count += $number_of_splits + 1;
+
+            }
         }
     }
 
