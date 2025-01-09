@@ -39,7 +39,7 @@ GetOptions (
 if ($args->{output_as} =~ /^pdf/) {
     $args->{hilite} = 'enscript-colors';
 } elsif ($args->{output_as} eq 'diff-sheet') {
-    $args->{hilite} = 'none';
+    $args->{hilite} = 'sheet-tags';
     $args->{squish_keep_size} = '15';
     $args->{strip_punc} = 0;
 }
@@ -155,6 +155,18 @@ sub do_diff {
                         #output("$v_tag || $diff_a || $diff_b ||\n")
                         my ($book_id) = split(/:/, $v_tag);
                         #$diff_sheets{$book_id} .= join(' | ', $v_tag, $diff_a, $diff_b)." |\n";
+                        if ($diff_a eq "") {
+                            $diff_a = $diff_b;
+                        } elsif ($diff_b eq "") {
+                            $diff_b = $diff_a;
+                        }
+
+                        $diff_a =~ s/<\+.+?\+>//g;
+                        $diff_a =~ s/<-|->//g;
+
+                        $diff_b =~ s/<-.+?->//g;
+                        $diff_b =~ s/<\+|\+>//g;
+
                         $diff_sheets{$book_id} .= "$v_tag | A: drbo   | $diff_a |\n"
                                                 . "$v_tag | B: pg1581 | $diff_b |\n"
                                                 . "$v_tag | which     | 1941-DouayHouse:_ | 1971-Tan:_ | 2024-Loreto:_ |\n\n";
@@ -217,6 +229,9 @@ sub diff_text {
     } elsif ($args->{hilite} eq 'enscript-colors') {
         $diff_a = enscript_colors_to_diff($diff_a);
         $diff_b = enscript_colors_to_diff($diff_b);
+    } elsif ($args->{hilite} eq 'sheet-tags') {
+        $diff_a = sheet_tags_to_diff($diff_a);
+        $diff_b = sheet_tags_to_diff($diff_b);
     } else {
         die "Unknown --hilite: $args->{hilite}\n";
     }
@@ -239,6 +254,17 @@ sub squish_diff {
 
 }
 
+
+sub sheet_tags_to_diff {
+    my ($text) = @_;
+
+    $text =~ s/\{REMOVE_OPEN}/<-/g;
+    $text =~ s/\{REMOVE_CLOSE}/->/g;
+    $text =~ s/\{APPEND_OPEN}/<\+/g;
+    $text =~ s/\{APPEND_CLOSE}/\+>/g;
+
+    $text
+}
 
 sub ansi_colors_to_diff {
     my ($text) = @_;
@@ -340,6 +366,8 @@ sub color_code {
         return $ansi{$color};
     } elsif ($args->{hilite} eq 'enscript-colors') {
         return $enscript{$color};
+    } elsif ($args->{hilite} eq 'sheet-tags') {
+        return('');
     } else {
         die "Unknown --hilite: $args->{hilite}\n";
     }
@@ -416,9 +444,10 @@ sub print_output_store {
         print run_in_out({}, $ps, @ps2pdf_cmd);
     } elsif ($args->{output_as} eq 'diff-sheet') {
         for my $key (sort keys %diff_sheets) {
-            my $file = "./etc/diff_sheets/$key.dif";
-            say "Saving: $file";
-            write_file($file, $diff_sheets{$key});
+            #my $out_file = "./etc/diff_sheets/$key.dif";
+            my $out_file = "/tmp/$key.dif";
+            say "Saving: $out_file";
+            write_file($out_file, $diff_sheets{$key});
         }
         #print $output_store;
     }
