@@ -105,6 +105,7 @@ while (my $line = shift(@lines)) {
     $line =~ s{<p class="expl">(A copy of the epistle that Jeremias sent to.+)</p>}{<chapter_note>$1</p>};
 
 
+
     if (defined($out->{book_id}) && $out->{book_id} eq 'PRO' && $chap_num == 12) {
         # combine 2 lines into one with a linebreak marker ('/')
         if ($line =~ /12:11. /) {
@@ -372,6 +373,9 @@ sub out_verse {
     my $v_index = "v:".num_to_3digits($v);
 
     $text = our_fixes("$chap_num:$v", $text);
+
+    $text =~ s{\[[^\]]+\]}{}g;
+    $text =~ tr{/}{}d;
 
     my $entry = "$out->{book_id}:$chap_num:$v | $v | $display_v | $text";
     $out->{chapters}->{$c_index}->{verses}->{$v_index} = $entry;
