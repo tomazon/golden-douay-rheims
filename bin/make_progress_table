@@ -181,7 +181,7 @@ sub count_diff_splits {
     my $file = "./etc/diff_sheets/$book_id.dif";
     for my $line (read_file($file)) {
         #$count++ if $line =~ / which /;
-        if ($line =~ /\|\s*[A]:/) {
+        if ($line =~ /#.+\|\s*[A]:/) {  # use comment link case the won't be edited away
             $count++ if $line =~ /\.\.\./;
         }
     }
