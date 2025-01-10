@@ -8,7 +8,7 @@ Project Status
 ## Gospel and other Red-Letter books
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | 
-| MAT | 2170 | 159 | 599 | 27 | 627 | WIP |  | DONE | WIP |
+| MAT | 2286 | 159 | 657 | 27 | 627 | DONE |  | DONE | WIP |
 | MRK | 1700 | 171 | 533 | 6 | 286 |  |  | WIP |  |
 | LUK | 3865 | 421 | 1205 | 27 | 586 |  |  |  |  |
 | JHN | 2937 | 322 | 925 | 22 | 421 |  |  |  |  |
@@ -87,11 +87,11 @@ Project Status
 | 1MA | 1401 | 103 | 593 | 9 | 0 |  |  |  |  |
 | JOB | 1416 | 21 | 191 | 992 | 0 |  |  |  |  |
 | JER | 1471 | 20 | 251 | 929 | 0 |  |  |  |  |
-| PRO | 1479 | 24 | 231 | 969 | 0 |  |  |  |  |
+| PRO | 1477 | 24 | 230 | 969 | 0 |  |  |  |  |
 | ISA | 1546 | 4 | 140 | 1258 | 0 |  |  |  |  |
 | SIR | 1867 | 6 | 134 | 1587 | 0 |  |  |  |  |
 | 2KI | 2220 | 258 | 844 | 16 | 0 |  |  |  |  |
 | 1KI | 2251 | 232 | 893 | 1 | 0 |  |  |  |  |
-| PSA | 3186 | 26 | 330 | 2474 | 0 |  |  |  |  |
+| PSA | 3164 | 24 | 321 | 2474 | 0 |  |  |  |  |
 
 

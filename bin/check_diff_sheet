@@ -3,7 +3,9 @@
 use strict;
 use warnings;
 
+use Data::Dumper;
 use File::Slurp;
+use List::Util qw( max );
 use String::Trim;
 use YAML;
 
@@ -15,6 +17,7 @@ sub issue ($);
 
 my $usage = "Usage: $0 book_id\n";
 my $book_id = shift() || die $usage;
+
 
 my $diff_file = "./etc/diff_sheets/$book_id.dif";
 my $drbo_file = "./sources/drbo/out/$book_id.yaml";
@@ -76,6 +79,7 @@ for my $line (read_file($diff_file)) {
             $last_tag = $tag;
         } elsif ($cols[1] eq 'which') {
            put_which_into_struct($b,$c,$v, $index, \@cols);
+           $index++;
         } else {
             issue "??? $line";
         }
@@ -95,13 +99,20 @@ print YAML::Dump($struct);
 sub start_chars {
     # return $1 if $_[0] =~ /^(...)/;
     # ""
-    my ($string) = @_;
-    return $1 if $string =~ /^(...)/;
+    return '^' if $_[0] =~ /^\^/;
+    my $tmp = lc($_[0]);
+    $tmp =~ s/\s+//g;
+    $tmp =~ tr/\.\,:;//d;
+    return $1 if $tmp =~ /^(......)/;
     ""
 }
 
 sub end_chars {
-    return $1 if $_[0] =~ /(...)$/;
+    return '$' if $_[0] =~ /\$$/;
+    my $tmp = lc($_[0]);
+    $tmp =~ s/\s+//g;
+    $tmp =~ tr/\.\,:;//d;
+    return $1 if $tmp =~ /(......)$/;
     ""
 }
 
@@ -118,7 +129,15 @@ sub check_struct {
                 if ($comments->{A} !~ /\.\.\./ && $comments->{B} !~ /\.\.\./) {
                     issue "$tag COMMENTS_HAVE_NO_SEPERATOR";
                 }
+                my $splits_a = () = $comments->{A} =~ /\.\.\./g;
+                my $splits_b = () = $comments->{B} =~ /\.\.\./g;
+                my $splits = max($splits_a, $splits_b) + 1;
+
+                my $diff_count = int(@{$entry->{diffs}});
+                issue "$tag TOO_FEW_SPLITS  $diff_count < $splits" if $diff_count < $splits;
             }
+
+
 
             issue "${tag} has no diffs" unless $entry->{diffs};
             my $i = 0;
@@ -133,10 +152,19 @@ sub check_struct {
 
                 my $a_start = start_chars($d->{varients}->{A});
                 my $a_end   = end_chars($d->{varients}->{A});
-
+                #my $len_a = length($d->{varients}->{A});
                 #say "${tag}[$i] | A | $a_start | $a_end | $d->{varients}->{A} |";
 
                 for my $let (sort keys %{$d->{varients}}) {
+                    my $len_a = length($d->{varients}->{A});
+                    next if $let eq 'A';
+                    my $len_b = length($d->{varients}->{B});
+                    my $len_diff = abs($len_a - $len_b);
+
+                    if ($len_diff > 5) {
+                        issue "${tag}:[$i] lengths differ by $len_diff"
+                    }
+
                     next if $let eq 'A';
                     my $start = start_chars($d->{varients}->{$let});
                     my $end = end_chars($d->{varients}->{$let});
@@ -193,7 +221,7 @@ sub check_comment {
     } elsif ($comment =~ /^#=+\s*$/) {
         1;
     } else {
-        die "ODD_COMMENT: $comment, stopped\n";
+        issue "ODD_COMMENT: $comment, stopped";
     }
 }
 
