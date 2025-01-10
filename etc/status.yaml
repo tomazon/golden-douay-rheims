@@ -39,6 +39,7 @@ status:
         apply_vscodes: 'DONE'
         apply_red: 'WIP'
     MRK: 
+        split_diffs: 'WIP'
         apply_vscodes: 'WIP'
         #apply_red: 'WIP'
     LUK: {}
@@ -50,7 +51,8 @@ status:
 
     # Torah
 
-    GEN: {}
+    GEN: 
+        split_diffs: 'WIP'
     EXO: {}
     LEV: {}
     NUM: {}

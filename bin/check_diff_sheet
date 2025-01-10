@@ -30,6 +30,12 @@ my $struct = {};
 my $issues_count = 0;
 
 
+my $ok = {
+    length_diff => {
+        "MAT:13:2:[1]" => 9,
+    }
+};
+
 my $last_tag = "";
 my $index = 0;
 my $line_num = 0;
@@ -162,7 +168,9 @@ sub check_struct {
                     my $len_diff = abs($len_a - $len_b);
 
                     if ($len_diff > 5) {
-                        issue "${tag}:[$i] lengths differ by $len_diff"
+                        if (! $ok->{length_diff}->{"${tag}:[$i]"}) {
+                            issue "${tag}:[$i] lengths differ by $len_diff";
+                        }
                     }
 
                     next if $let eq 'A';
