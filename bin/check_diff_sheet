@@ -11,6 +11,7 @@ require "./sources/lib/perl5/shared.pl";
 
 use feature 'say';
 
+sub issue ($);
 
 my $usage = "Usage: $0 book_id\n";
 my $book_id = shift() || die $usage;
@@ -22,16 +23,29 @@ my $pg1581_file = "./sources/pg1581/out/$book_id.yaml";
 my $drbo   = YAML::LoadFile($drbo_file);
 my $pg1581 = YAML::LoadFile($pg1581_file);
 
+my $struct = {};
+my $issues_count = 0;
+
+
+my $last_tag = "";
+my $index = 0;
 my $line_num = 0;
 for my $line (read_file($diff_file)) {
     $line_num++;
     trim($line);
-    next if $line =~ /^#/;
+
     next unless $line =~ /\S/;
+    if ($line =~ /^#/) {
+        check_comment($line);
+        next;
+    }
     my @cols = split(/\s*\|\s*/, $line);
-    my ($b,$v,$c);
+    #my ($b,$v,$c);
+
     if ($cols[0] =~ /^([A-Z1-4][A-Z]{2}):(\d+):(\d+)$/) {
-        ($b,$c,$v) = ($1,$2,$3);
+        my ($b,$c,$v) = ($1,$2,$3);
+        my $tag = bcv_tag($b,$c,$v);
+
         $v =~ s/^0//g;
         $c =~ s/^0//g;
         if ($cols[1] =~ s/^([A-Z]):\s*//) {
@@ -39,36 +53,183 @@ for my $line (read_file($diff_file)) {
             my $label = $cols[1];
             my $string = $cols[2];
 
+            $index = 0 if $tag ne $last_tag;
+
             if (!defined($cols[2])) {
-                say "$label $book_id:$c:$v UNDEF_STRING";
+                issue "$label $book_id:$c:$v UNDEF_STRING";
                 next;
             }
 
             #next if !defined($string) || $string eq ''; 
             if ($string eq '') {
-                say "$label $book_id:$c:$v EMPTY_STRING";
+                issue "$label $book_id:$c:$v EMPTY_STRING";
                 next;
             } elsif (!defined($string)) {
-                say "$label $book_id:$c:$v UNDEF2_STRING";
+                issue "$label $book_id:$c:$v UNDEF2_STRING";
                 next;
             }
 
             check_letter_label($diff_file, $line_num, $letter, $label);
             check_string_in_verse($b,$c,$v, $label, $string);
+            put_verse_into_struct($b,$c,$v, $index, $letter, $label, $string);
 
+            $last_tag = $tag;
         } elsif ($cols[1] eq 'which') {
-           1;
+           put_which_into_struct($b,$c,$v, $index, \@cols);
         } else {
-            say "??? $line";
+            issue "??? $line";
         }
     } else {
-        say "$cols[0]";
+        issue "ODD COL[0]:  $cols[0]";
         die "${diff_file}[$line_num]: ODD_LINE: $line\n";
     }
-    #print "$line\n";
-
-    #exit if $line_num >= 10;
 }
+
+check_struct($struct, $b);
+
+print YAML::Dump($struct);
+
+#=========================================================================================
+
+
+sub start_chars {
+    # return $1 if $_[0] =~ /^(...)/;
+    # ""
+    my ($string) = @_;
+    return $1 if $string =~ /^(...)/;
+    ""
+}
+
+sub end_chars {
+    return $1 if $_[0] =~ /(...)$/;
+    ""
+}
+
+sub check_struct {
+    my($struct, $book_id) = @_;
+
+    for my $c_index (sort keys %{$struct}) {
+        for my $v_index (sort keys %{$struct->{$c_index}}) {
+            my $entry = $struct->{$c_index}->{$v_index};
+            my $tag = $entry->{tag};
+
+            #my $comments = $entry->{comments};
+            if (defined(my $comments = $entry->{comments})) {
+                if ($comments->{A} !~ /\.\.\./ && $comments->{B} !~ /\.\.\./) {
+                    issue "$tag COMMENTS_HAVE_NO_SEPERATOR";
+                }
+            }
+
+            issue "${tag} has no diffs" unless $entry->{diffs};
+            my $i = 0;
+            for my $d (@{$entry->{diffs}}) {
+                $i++;
+                if (!$d->{varients}{A}) {
+                    issue "${tag}[$i] has no A: entry";
+                } elsif (!$d->{varients}->{B}) {
+                    issue "${tag}[$i] has no B: entry";
+                }
+                issue "${tag}[$i] has no '1971-Tan' which" if !$d->{which}->{"1971-Tan"};
+
+                my $a_start = start_chars($d->{varients}->{A});
+                my $a_end   = end_chars($d->{varients}->{A});
+
+                #say "${tag}[$i] | A | $a_start | $a_end | $d->{varients}->{A} |";
+
+                for my $let (sort keys %{$d->{varients}}) {
+                    next if $let eq 'A';
+                    my $start = start_chars($d->{varients}->{$let});
+                    my $end = end_chars($d->{varients}->{$let});
+
+                    #say "${tag}[$i] | $let | $start | $end | $d->{varients}->{$let} |";
+
+                    if ($start ne $a_start && $end ne $a_end) {
+                        issue join(' | ',
+                            "${tag}[$i]  A and $let start and finish differently",
+                            $d->{varients}->{A},
+                            $d->{varients}->{B},
+                        );
+                    } elsif ($start ne $a_start) {
+                        issue join(' | ',
+                            "${tag}[$i]  A and $let start differently",
+                            $d->{varients}->{A},
+                            $d->{varients}->{B},
+                        );
+                    } elsif ($end ne $a_end) {
+                        issue join(' | ',
+                            "${tag}[$i]  A and $let end differently",
+                            $d->{varients}->{A},
+                            $d->{varients}->{B},
+                        );
+                    }
+
+                }
+
+
+
+
+            }
+
+        # TODO: check varient count >= comment splits;
+
+        }
+    }
+}
+
+
+sub check_comment {
+    my ($comment) = @_;
+
+    if ($comment =~ /^# ([A-Z1-4]{3}):(\d+):(\d+) \| ([AB]): (\S+)\s+\|\s+(.+?)\s+\|\s*$/) {
+        my ($b,$c,$v,$let,$label,$string) = ($1,$2,$3,$4,$5,$6);
+        my $c_index = "c:".num_to_3digits($c);
+        my $v_index = "v:".num_to_3digits($v);
+        my $tag = bcv_tag($b,$c,$v);
+
+        $struct->{$c_index}->{$v_index}->{tag} = $tag;
+        $struct->{$c_index}->{$v_index}->{comments}->{$let} = $string;
+    } elsif ($comment =~ /^#\s*$/) {
+        1;
+    } elsif ($comment =~ /^#=+\s*$/) {
+        1;
+    } else {
+        die "ODD_COMMENT: $comment, stopped\n";
+    }
+}
+
+sub put_verse_into_struct {
+    my ($b,$c,$v, $index, $letter, $label, $string) = @_;
+    my $c_index = "c:".num_to_3digits($c);
+    my $v_index = "v:".num_to_3digits($v);
+    my $tag = bcv_tag($b,$c,$v);
+
+    $struct->{$c_index}->{$v_index}->{tag} = $tag;
+    $struct->{$c_index}->{$v_index}->{diffs}->[$index]->{varients}->{$letter} = $string;
+}
+
+sub put_which_into_struct {
+    my ($b,$c,$v, $index, $cols) = @_;
+    my $c_index = "c:".num_to_3digits($c);
+    my $v_index = "v:".num_to_3digits($v);
+    my $tag = bcv_tag($b,$c,$v);
+
+    my $cols_tag = shift(@{$cols});
+    my $verb = shift(@{$cols});
+    $cols_tag =~ s/:0+/:/g;
+
+    die "ODD which tag:  '$cols_tag' != '$tag'\n" unless $cols_tag eq $tag;
+    die "ODD which cols: verb = '$verb'\n" unless $verb eq 'which';
+
+    for my $entry (@{$cols}) {
+        if ($entry =~ /^([\w-]+):([A-Z_])?$/) {
+            my ($tag, $choice) = ($1,$2);
+            $struct->{$c_index}->{$v_index}->{diffs}->[$index]->{which}->{$tag} = $choice;
+        } else {
+            die "ODD which entry: ${tag}[$index]:  $entry Stopped";
+        }
+    }
+}
+
 
 sub check_string_in_verse {
     my ($b,$c, $v, $label, $string) = @_;
@@ -102,15 +263,13 @@ sub check_string_in_verse {
     $regex =~ s/\)/\\)/g;
 
     my $matches = () = $e_text =~ m{$regex};
-    #say "$matches | $tag | $string | $e_text"
-    #say "$b:$c:$v  -- $string";
 
     if ($string =~ / \.\.\. /) {
-        say "$const_label  $tag NEED_TO_SPLIT | $string";
+        issue "$const_label  $tag NEED_TO_SPLIT | $string";
     } elsif ($matches > 1) {
-        say "$const_label $tag MULTIPLE MATCHES OF | $string | $e_text";
+        issue "$const_label $tag MULTIPLE MATCHES OF | $string | $e_text";
     } elsif ($matches != 1) {
-        say  "$const_label $tag NO MATCHES OF | $string | $e_text";
+        issue "$const_label $tag NO MATCHES OF | $string | $e_text";
     }
 
 
@@ -129,8 +288,16 @@ sub check_letter_label {
         if $letter ne 'A' && $label =~ /drbo/i;
     die "${file}[$line_num]: ODD LETTER LABEL: $letter: $label\n" 
         if $letter ne 'B' && $label =~ /1581/i;
+}
 
-    #print "$letter: $label\n" unless $letter eq 'A' || $letter eq 'B';
+sub bcv_tag {
+    my ($b,$c,$v) = @_;
 
+    sprintf("%3s:%d:%d", $b, $c, $v);
+}
+
+sub issue ($) {
+    say $_[0];
+    $issues_count++
 }
 
