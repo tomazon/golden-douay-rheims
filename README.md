@@ -78,6 +78,12 @@ There are many options for the publisher of a bible to make:
   * in red
   * other markup
 * Bold and/or small-caps "THE LORD"
+* Bold and/or small-caps "Jesus"
+* Make it dyslexia friendly:
+  * OpenDyslexic typeface
+  * add space between words, lines, and paragraphs
+  * short lines
+  * consistant spacing between words (non-full justificatins)
 
 
 # Initial Personal Reason
