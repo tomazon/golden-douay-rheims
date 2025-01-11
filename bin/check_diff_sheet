@@ -65,16 +65,16 @@ for my $line (read_file($diff_file)) {
             $index = 0 if $tag ne $last_tag;
 
             if (!defined($cols[2])) {
-                issue "$label $book_id:$c:$v UNDEF_STRING";
+                issue "$book_id:$c:$v $label UNDEF_STRING";
                 next;
             }
 
             #next if !defined($string) || $string eq ''; 
             if ($string eq '') {
-                issue "$label $book_id:$c:$v EMPTY_STRING";
+                issue "$$book_id:$c:$v $label EMPTY_STRING";
                 next;
             } elsif (!defined($string)) {
-                issue "$label $book_id:$c:$v UNDEF2_STRING";
+                issue "$book_id:$c:$v $label UNDEF2_STRING";
                 next;
             }
 
@@ -97,7 +97,7 @@ for my $line (read_file($diff_file)) {
 
 check_struct($struct, $b);
 
-print YAML::Dump($struct);
+##print YAML::Dump($struct);
 
 #=========================================================================================
 
@@ -301,11 +301,11 @@ sub check_string_in_verse {
     my $matches = () = $e_text =~ m{$regex};
 
     if ($string =~ / \.\.\. /) {
-        issue "$const_label  $tag NEED_TO_SPLIT | $string";
+        issue "$tag $const_label  NEED_TO_SPLIT | $string";
     } elsif ($matches > 1) {
-        issue "$const_label $tag MULTIPLE MATCHES OF | $string | $e_text";
+        issue "$tag $const_label  MULTIPLE MATCHES OF | $string | $e_text";
     } elsif ($matches != 1) {
-        issue "$const_label $tag NO MATCHES OF | $string | $e_text";
+        issue "$tag $const_label  NO MATCHES OF | $string | $e_text";
     }
 
 
