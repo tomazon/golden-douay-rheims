@@ -341,12 +341,12 @@ GEN:10:32 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:11:03 | A: drbo   | neighbour: Come, let us make br ... stead of mortar. |
 # GEN:11:03 | B: pg1581 | stead of mortar: |
 
-GEN:11:03 | A: drbo   | neighbour: Come, let us make br ... stead of mortar. |
-GEN:11:03 | B: pg1581 | stead of mortar: |
+GEN:11:03 | A: drbo   | neighbour: Come, let us make br |
+GEN:11:03 | B: pg1581 | neighbour: Come let us make br|
 GEN:11:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:11:03 | A: drbo   | neighbour: Come, let us make br ... stead of mortar. |
-GEN:11:03 | B: pg1581 | stead of mortar: |
+GEN:11:03 | A: drbo   | stead of mortar.$ |
+GEN:11:03 | B: pg1581 | stead of mortar:$ |
 GEN:11:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -382,9 +382,17 @@ GEN:11:31 | A: drbo   | hare took Abram, his son, and L |
 GEN:11:31 | B: pg1581 | hare took Abram his son, and L |
 GEN:11:31 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:12:03 | A: drbo   | arth be blessed: |
-GEN:12:03 | B: pg1581 | all the kindreds of the earth be blessed. |
+
+
+GEN:12:03 | A: drbo   | all the kindred of the earth |
+GEN:12:03 | B: pg1581 | all the kindreds of the earth |
 GEN:12:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:12:03 | A: drbo   | earth be blessed:$ |
+GEN:12:03 | B: pg1581 | earth be blessed.$ |
+GEN:12:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 GEN:12:06 | A: drbo   | gh the country into the place o |
 GEN:12:06 | B: pg1581 | gh the country unto the place o |
@@ -402,8 +410,8 @@ GEN:12:10 | A: drbo   |  in the country; and Abram went |
 GEN:12:10 | B: pg1581 |  in the country: and Abram went |
 GEN:12:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:12:16 | A: drbo   |  sheep and oxen, and he asses,  |
-GEN:12:16 | B: pg1581 | nd men servants, and maid serva |
+GEN:12:16 | A: drbo   | sheep and oxen, and he asses, and men servants and maid |
+GEN:12:16 | B: pg1581 | sheep and oxen and he asses, and men servants, and maid |
 GEN:12:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 GEN:12:19 | A: drbo   | to my wife? Now, therefore, there is thy w |
@@ -424,12 +432,12 @@ GEN:13:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:13:03 | A: drbo   |  Bethel and Hai: |
 # GEN:13:03 | B: pg1581 | rned by the way, that he came,  ...  Bethel and Hai, |
 
-GEN:13:03 | A: drbo   |  Bethel and Hai: |
-GEN:13:03 | B: pg1581 | rned by the way, that he came,  ...  Bethel and Hai, |
+GEN:13:03 | A: drbo   | rned by the way that he came, |
+GEN:13:03 | B: pg1581 | rned by the way, that he came, |
 GEN:13:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:13:03 | A: drbo   |  Bethel and Hai: |
-GEN:13:03 | B: pg1581 | rned by the way, that he came,  ...  Bethel and Hai, |
+GEN:13:03 | A: drbo   |  Bethel and Hai:$ |
+GEN:13:03 | B: pg1581 |  Bethel and Hai,$ |
 GEN:13:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -449,7 +457,7 @@ GEN:13:10 | A: drbo   | And Lot, lifting up his |
 GEN:13:10 | B: pg1581 | And Lot lifting up his |
 GEN:13:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:13:12 | A: drbo   | land of Chanaan; and Lot abode  |
+GEN:13:12 | A: drbo   | land of Chanaan; and Lot abode in the towns that were abou |
 GEN:13:12 | B: pg1581 | land of Chanaan: and Lot abode in the towns, that were abou |
 GEN:13:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -471,16 +479,16 @@ GEN:13:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:14:01 | A: drbo   | , that Amraphel king of Sennaar, and Arioch king of Pontus ... d Chodorlahomor king of the El ... tes, and Thadal king of nation |
 # GEN:14:01 | B: pg1581 | , that Amraphel, king of Sennaar, and Arioch, king of Pontus ... d Chodorlahomor, king of the El ... tes, and Thadal, king of nation |
 
-GEN:14:01 | A: drbo   | , that Amraphel king of Sennaar, and Arioch king of Pontus ... d Chodorlahomor king of the El ... tes, and Thadal king of nation |
-GEN:14:01 | B: pg1581 | , that Amraphel, king of Sennaar, and Arioch, king of Pontus ... d Chodorlahomor, king of the El ... tes, and Thadal, king of nation |
+GEN:14:01 | A: drbo   | , that Amraphel king of Sennaar, and Arioch king of Pontus |
+GEN:14:01 | B: pg1581 | , that Amraphel, king of Sennaar, and Arioch, king of Pontus |
 GEN:14:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:14:01 | A: drbo   | , that Amraphel king of Sennaar, and Arioch king of Pontus ... d Chodorlahomor king of the El ... tes, and Thadal king of nation |
-GEN:14:01 | B: pg1581 | , that Amraphel, king of Sennaar, and Arioch, king of Pontus ... d Chodorlahomor, king of the El ... tes, and Thadal, king of nation |
+GEN:14:01 | A: drbo   |  d Chodorlahomor king of the El |
+GEN:14:01 | B: pg1581 |  d Chodorlahomor, king of the El |
 GEN:14:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:14:01 | A: drbo   | , that Amraphel king of Sennaar, and Arioch king of Pontus ... d Chodorlahomor king of the El ... tes, and Thadal king of nation |
-GEN:14:01 | B: pg1581 | , that Amraphel, king of Sennaar, and Arioch, king of Pontus ... d Chodorlahomor, king of the El ... tes, and Thadal, king of nation |
+GEN:14:01 | A: drbo   | tes, and Thadal king of nation |
+GEN:14:01 | B: pg1581 | tes, and Thadal, king of nation |
 GEN:14:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -494,20 +502,20 @@ GEN:14:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:14:02 | A: drbo   | ar against Bara king of Sodom, ... d against Bersa king of Gomorr ... against Sennaab king of Adama, ... against Semeber king of Seboim |
 # GEN:14:02 | B: pg1581 | ar against Bara, king of Sodom, ... d against Bersa, king of Gomorr ... against Sennaab, king of Adama, ... against Semeber, king of Seboim |
 
-GEN:14:02 | A: drbo   | ar against Bara king of Sodom, ... d against Bersa king of Gomorr ... against Sennaab king of Adama, ... against Semeber king of Seboim |
-GEN:14:02 | B: pg1581 | ar against Bara, king of Sodom, ... d against Bersa, king of Gomorr ... against Sennaab, king of Adama, ... against Semeber, king of Seboim |
+GEN:14:02 | A: drbo   | ar against Bara king of Sodom, |
+GEN:14:02 | B: pg1581 | ar against Bara, king of Sodom, |
 GEN:14:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:14:02 | A: drbo   | ar against Bara king of Sodom, ... d against Bersa king of Gomorr ... against Sennaab king of Adama, ... against Semeber king of Seboim |
-GEN:14:02 | B: pg1581 | ar against Bara, king of Sodom, ... d against Bersa, king of Gomorr ... against Sennaab, king of Adama, ... against Semeber, king of Seboim |
+GEN:14:02 | A: drbo   | d against Bersa king of Gomorr  |
+GEN:14:02 | B: pg1581 | d against Bersa, king of Gomorr |
 GEN:14:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:14:02 | A: drbo   | ar against Bara king of Sodom, ... d against Bersa king of Gomorr ... against Sennaab king of Adama, ... against Semeber king of Seboim |
-GEN:14:02 | B: pg1581 | ar against Bara, king of Sodom, ... d against Bersa, king of Gomorr ... against Sennaab, king of Adama, ... against Semeber, king of Seboim |
+GEN:14:02 | A: drbo   | against Sennaab king of Adama, |
+GEN:14:02 | B: pg1581 | against Sennaab, king of Adama, |
 GEN:14:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:14:02 | A: drbo   | ar against Bara king of Sodom, ... d against Bersa king of Gomorr ... against Sennaab king of Adama, ... against Semeber king of Seboim |
-GEN:14:02 | B: pg1581 | ar against Bara, king of Sodom, ... d against Bersa, king of Gomorr ... against Sennaab, king of Adama, ... against Semeber, king of Seboim |
+GEN:14:02 | A: drbo   | against Semeber king of Seboim |
+GEN:14:02 | B: pg1581 | against Semeber, king of Seboim |
 GEN:14:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -525,12 +533,12 @@ GEN:14:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:14:10 | A: drbo   | ned their backs and were overt ... y that remained fled to the mo |
 # GEN:14:10 | B: pg1581 | ned their backs, and were overt ... y that remained, fled to the mo |
 
-GEN:14:10 | A: drbo   | ned their backs and were overt ... y that remained fled to the mo |
-GEN:14:10 | B: pg1581 | ned their backs, and were overt ... y that remained, fled to the mo |
+GEN:14:10 | A: drbo   | ned their backs and were overt |
+GEN:14:10 | B: pg1581 | ned their backs, and were overt |
 GEN:14:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:14:10 | A: drbo   | ned their backs and were overt ... y that remained fled to the mo |
-GEN:14:10 | B: pg1581 | ned their backs, and were overt ... y that remained, fled to the mo |
+GEN:14:10 | A: drbo   | y that remained fled to the mo |
+GEN:14:10 | B: pg1581 | y that remained, fled to the mo |
 GEN:14:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -544,12 +552,12 @@ GEN:14:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:14:13 | A: drbo   | And behold one that had escaped told Abram the ...  these had made league with Ab |
 # GEN:14:13 | B: pg1581 | And behold one, that had escaped, told Abram the ...  these had made a league with Ab |
 
-GEN:14:13 | A: drbo   | And behold one that had escaped told Abram the ...  these had made league with Ab |
-GEN:14:13 | B: pg1581 | And behold one, that had escaped, told Abram the ...  these had made a league with Ab |
+GEN:14:13 | A: drbo   | And behold one that had escaped told Abram the |
+GEN:14:13 | B: pg1581 | And behold one, that had escaped, told Abram the |
 GEN:14:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:14:13 | A: drbo   | And behold one that had escaped told Abram the ...  these had made league with Ab |
-GEN:14:13 | B: pg1581 | And behold one, that had escaped, told Abram the ...  these had made a league with Ab |
+GEN:14:13 | A: drbo   | these had made league with Ab |
+GEN:14:13 | B: pg1581 | these had made a league with Ab |
 GEN:14:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -577,8 +585,8 @@ GEN:14:20 | A: drbo   | hose protection the enemies ar |
 GEN:14:20 | B: pg1581 | hose protection, the enemies ar |
 GEN:14:20 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:14:23 | A: drbo   |  enriched Abram: |
-GEN:14:23 | B: pg1581 | , lest thou say: I have enriched Abram. |
+GEN:14:23 | A: drbo   | , lest thou say I have enriched Abram:$ |
+GEN:14:23 | B: pg1581 | , lest thou say: I have enriched Abram.$|
 GEN:14:23 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 GEN:15:03 | A: drbo   | d lo my servant, born in my hou |
@@ -601,7 +609,7 @@ GEN:15:17 | A: drbo   | smoking furnace and a lamp of  |
 GEN:15:17 | B: pg1581 | smoking furnace, and a lamp of  |
 GEN:15:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:15:18 | A: drbo   | rom the river of Egypt even to  |
+GEN:15:18 | A: drbo   | from the river of Egypt even to  |
 GEN:15:18 | B: pg1581 | from the river to Egypt even to |
 GEN:15:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -615,12 +623,12 @@ GEN:15:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:16:01 | A: drbo   | rth no children; but having a h |
 # GEN:16:01 | B: pg1581 | Now Sarai, the wife of Ab ... rth no children: but having a h |
 
-GEN:16:01 | A: drbo   | rth no children; but having a h |
-GEN:16:01 | B: pg1581 | Now Sarai, the wife of Ab ... rth no children: but having a h |
+GEN:16:01 | A: drbo   | Now Sarai the wife of Ab |
+GEN:16:01 | B: pg1581 | Now Sarai, the wife of Ab |
 GEN:16:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 GEN:16:01 | A: drbo   | rth no children; but having a h |
-GEN:16:01 | B: pg1581 | Now Sarai, the wife of Ab ... rth no children: but having a h |
+GEN:16:01 | B: pg1581 | rth no children: but having a h |
 GEN:16:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -632,7 +640,7 @@ GEN:16:04 | A: drbo   | to her. But she, perceiving tha |
 GEN:16:04 | B: pg1581 | to her. But she perceiving tha |
 GEN:16:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:16:13 | A: drbo   |  hast seen me. For she said: Ve |
+GEN:16:13 | A: drbo   |  hast seen me. For she said: Verily here have I se|
 GEN:16:13 | B: pg1581 |  hast seen me. for she said: Verily, here have I se |
 GEN:16:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -658,16 +666,16 @@ GEN:17:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:17:10 | A: drbo   | u shall observe, between me and ... e: All the male kind of you sha ...  be circumcised: |
 # GEN:17:10 | B: pg1581 | e: All the male-kind of you sha ...  be circumcised. |
 
-GEN:17:10 | A: drbo   | u shall observe, between me and ... e: All the male kind of you sha ...  be circumcised: |
-GEN:17:10 | B: pg1581 | e: All the male-kind of you sha ...  be circumcised. |
+GEN:17:10 | A: drbo   | u shall observe, between me and |
+GEN:17:10 | B: pg1581 | u shall observe between me and |
 GEN:17:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:17:10 | A: drbo   | u shall observe, between me and ... e: All the male kind of you sha ...  be circumcised: |
-GEN:17:10 | B: pg1581 | e: All the male-kind of you sha ...  be circumcised. |
+GEN:17:10 | A: drbo   | e: All the male kind of you sha |
+GEN:17:10 | B: pg1581 | e: All the male-kind of you sha |
 GEN:17:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:17:10 | A: drbo   | u shall observe, between me and ... e: All the male kind of you sha ...  be circumcised: |
-GEN:17:10 | B: pg1581 | e: All the male-kind of you sha ...  be circumcised. |
+GEN:17:10 | A: drbo   | be circumcised:$ |
+GEN:17:10 | B: pg1581 | be circumcised.$ |
 GEN:17:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -676,8 +684,14 @@ GEN:17:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 GEN:17:12 | A: drbo   |  you, every man child in your g |
+GEN:17:12 | B: pg1581 |  you, every manchild in your g |
+GEN:17:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:17:12 | A: drbo   |  bought servant shall be circu |
 GEN:17:12 | B: pg1581 |  bought servant, shall be circu |
 GEN:17:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 GEN:17:14 | A: drbo   | The male, whose flesh of |
 GEN:17:14 | B: pg1581 | The male whose flesh of |
@@ -697,12 +711,12 @@ GEN:17:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:18:02 | A: drbo   |  standing near him: and as soo ...  as he saw them he ran to meet |
 # GEN:18:02 | B: pg1581 |  standing near to him: and as soo ...  as he saw them, he ran to meet |
 
-GEN:18:02 | A: drbo   |  standing near him: and as soo ...  as he saw them he ran to meet |
-GEN:18:02 | B: pg1581 |  standing near to him: and as soo ...  as he saw them, he ran to meet |
+GEN:18:02 | A: drbo   |  standing near him: and as soo |
+GEN:18:02 | B: pg1581 |  standing near to him: and as soo |
 GEN:18:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:18:02 | A: drbo   |  standing near him: and as soo ...  as he saw them he ran to meet |
-GEN:18:02 | B: pg1581 |  standing near to him: and as soo ...  as he saw them, he ran to meet |
+GEN:18:02 | A: drbo   |  as he saw them he ran to meet |
+GEN:18:02 | B: pg1581 |  as he saw them, he ran to meet |
 GEN:18:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -710,8 +724,8 @@ GEN:18:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 
-GEN:18:03 | A: drbo   | rom thy servant: |
-GEN:18:03 | B: pg1581 | rom thy servant. |
+GEN:18:03 | A: drbo   | rom thy servant:$ |
+GEN:18:03 | B: pg1581 | rom thy servant.$ |
 GEN:18:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -720,12 +734,12 @@ GEN:18:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:18:07 | A: drbo   |  to a young man: who made haste |
 # GEN:18:07 | B: pg1581 | m thence a calf, very tender an ...  to a young man, who made haste |
 
-GEN:18:07 | A: drbo   |  to a young man: who made haste |
-GEN:18:07 | B: pg1581 | m thence a calf, very tender an ...  to a young man, who made haste |
+GEN:18:07 | A: drbo   | m thence a calf very tender an  |
+GEN:18:07 | B: pg1581 | m thence a calf, very tender an |
 GEN:18:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:18:07 | A: drbo   |  to a young man: who made haste |
-GEN:18:07 | B: pg1581 | m thence a calf, very tender an ...  to a young man, who made haste |
+GEN:18:07 | A: drbo   | to a young man: who made haste |
+GEN:18:07 | B: pg1581 | to a young man, who made haste |
 GEN:18:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -759,12 +773,12 @@ GEN:18:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:18:19 | A: drbo   | ehold after him to keep the wa ...  Abraham's sake the Lord may b |
 # GEN:18:19 | B: pg1581 | ehold after him, to keep the wa ...  Abraham's sake, the Lord may b |
 
-GEN:18:19 | A: drbo   | ehold after him to keep the wa ...  Abraham's sake the Lord may b |
-GEN:18:19 | B: pg1581 | ehold after him, to keep the wa ...  Abraham's sake, the Lord may b |
+GEN:18:19 | A: drbo   | ehold after him to keep the wa  |
+GEN:18:19 | B: pg1581 | ehold after him, to keep the wa  |
 GEN:18:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:18:19 | A: drbo   | ehold after him to keep the wa ...  Abraham's sake the Lord may b |
-GEN:18:19 | B: pg1581 | ehold after him, to keep the wa ...  Abraham's sake, the Lord may b |
+GEN:18:19 | A: drbo   | Abraham's sake the Lord may b |
+GEN:18:19 | B: pg1581 | Abraham's sake, the Lord may b |
 GEN:18:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -812,7 +826,7 @@ GEN:19:05 | A: drbo   | them out hither that we may kn |
 GEN:19:05 | B: pg1581 | them out hither, that we may kn |
 GEN:19:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:19:08 | A: drbo   | e not known man: I will bring t |
+GEN:19:08 | A: drbo   | o daughters who as yet have not known man: I will bring t |
 GEN:19:08 | B: pg1581 | o daughters who, as yet, have not known man; I will bring t |
 GEN:19:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -840,7 +854,7 @@ GEN:19:19 | A: drbo   | e me, and I die: |
 GEN:19:19 | B: pg1581 | e me, and I die. |
 GEN:19:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:19:22 | A: drbo   |  be saved there, because I cann |
+GEN:19:22 | A: drbo   | Make haste and be saved there, because I cann |
 GEN:19:22 | B: pg1581 | Make haste, and be saved there: because I cann |
 GEN:19:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -850,12 +864,12 @@ GEN:19:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:19:27 | A: drbo   | e with the Lord, |
 # GEN:19:27 | B: pg1581 |  in the morning, and in the pla ... e with the Lord: |
 
-GEN:19:27 | A: drbo   | e with the Lord, |
-GEN:19:27 | B: pg1581 |  in the morning, and in the pla ... e with the Lord: |
+GEN:19:27 | A: drbo   | in the morning and in the pla |
+GEN:19:27 | B: pg1581 | in the morning, and in the pla |
 GEN:19:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:19:27 | A: drbo   | e with the Lord, |
-GEN:19:27 | B: pg1581 |  in the morning, and in the pla ... e with the Lord: |
+GEN:19:27 | A: drbo   | e with the Lord,$ |
+GEN:19:27 | B: pg1581 | e with the Lord:$ |
 GEN:19:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -869,12 +883,12 @@ GEN:19:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:19:30 | A: drbo   | ghters with him, (for he was af ... o stay in Segor,) and he dwelt  |
 # GEN:19:30 | B: pg1581 | ghters with him (for he was af ... o stay in Segor) and he dwelt  |
 
-GEN:19:30 | A: drbo   | ghters with him, (for he was af ... o stay in Segor,) and he dwelt  |
-GEN:19:30 | B: pg1581 | ghters with him (for he was af ... o stay in Segor) and he dwelt  |
+GEN:19:30 | A: drbo   | ghters with him, (for he was af |
+GEN:19:30 | B: pg1581 | ghters with him (for he was af |
 GEN:19:30 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:19:30 | A: drbo   | ghters with him, (for he was af ... o stay in Segor,) and he dwelt  |
-GEN:19:30 | B: pg1581 | ghters with him (for he was af ... o stay in Segor) and he dwelt  |
+GEN:19:30 | A: drbo   | o stay in Segor,) and he dwelt  |
+GEN:19:30 | B: pg1581 | o stay in Segor) and he dwelt  |
 GEN:19:30 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -888,12 +902,12 @@ GEN:19:30 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:19:33 | A: drbo   | e elder went in and lay with h ... e perceived not neither when h |
 # GEN:19:33 | B: pg1581 | e elder went in, and lay with h ... e perceived not, neither when h |
 
-GEN:19:33 | A: drbo   | e elder went in and lay with h ... e perceived not neither when h |
-GEN:19:33 | B: pg1581 | e elder went in, and lay with h ... e perceived not, neither when h |
+GEN:19:33 | A: drbo   | e elder went in and lay with h |
+GEN:19:33 | B: pg1581 | e elder went in, and lay with h |
 GEN:19:33 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:19:33 | A: drbo   | e elder went in and lay with h ... e perceived not neither when h |
-GEN:19:33 | B: pg1581 | e elder went in, and lay with h ... e perceived not, neither when h |
+GEN:19:33 | A: drbo   | e perceived not neither when h |
+GEN:19:33 | B: pg1581 | e perceived not, neither when h |
 GEN:19:33 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -917,8 +931,8 @@ GEN:20:10 | A: drbo   | h him, and said, What sawest th |
 GEN:20:10 | B: pg1581 | h him, and said: What sawest th |
 GEN:20:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:20:14 | A: drbo   | red to him Sara, his wife. |
-GEN:20:14 | B: pg1581 | m Sara his wife, |
+GEN:20:14 | A: drbo   | red to him Sara, his wife.$ |
+GEN:20:14 | B: pg1581 | red to him Sara his wife,$ |
 GEN:20:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 GEN:20:16 | A: drbo   | ieces of silver: this shall ser |
@@ -933,8 +947,8 @@ GEN:21:05 | A: drbo   | e of his father was Isaac born |
 GEN:21:05 | B: pg1581 | e of his father, was Isaac born |
 GEN:21:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:21:07 | A: drbo   |  in his old age. |
-GEN:21:07 | B: pg1581 |  in his old age? |
+GEN:21:07 | A: drbo   |  in his old age.$ |
+GEN:21:07 | B: pg1581 |  in his old age?$ |
 GEN:21:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 GEN:21:08 | A: drbo   |  the child grew and was weaned |
@@ -945,9 +959,17 @@ GEN:21:09 | A: drbo   | the son of Agar the Egyptian playing with Isaac her son,
 GEN:21:09 | B: pg1581 | the son of Agar, the Egyptian, playing with Isaac, her son, she s |
 GEN:21:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:21:10 | A: drbo   |  this bondwoman, and her son: for the son of |
-GEN:21:10 | B: pg1581 | man and her son; for the son of |
+
+
+GEN:21:10 | A: drbo   |  this bondwoman, and |
+GEN:21:10 | B: pg1581 |  this bondwoman and |
 GEN:21:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:21:10 | A: drbo   |   her son: for the son of |
+GEN:21:10 | B: pg1581 |   her son; for the son of |
+GEN:21:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 GEN:21:16 | A: drbo   | a great way off as far as a bo |
 GEN:21:16 | B: pg1581 | a great way off, as far as a bo |
@@ -965,9 +987,15 @@ GEN:21:22 | A: drbo   | ral of his army said to Abraha |
 GEN:21:22 | B: pg1581 | ral of his army, said to Abraha |
 GEN:21:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:21:27 | A: drbo   | And Abraham took s |
-GEN:21:27 | B: pg1581 | Then Abraham took sheep and oxen, and gave them  |
+
+GEN:21:27 | A: drbo   | ^And Abraham took  |
+GEN:21:27 | B: pg1581 | ^Then Abraham took  |
 GEN:21:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:21:27 | A: drbo   | and oxen and gave them  |
+GEN:21:27 | B: pg1581 | and oxen, and gave them  |
+GEN:21:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 GEN:21:28 | A: drbo   | apart seven ewe lambs of the fl |
 GEN:21:28 | B: pg1581 | apart seven ewelambs of the fl |
@@ -985,9 +1013,20 @@ GEN:21:31 | A: drbo   | called Bersabee: because there  |
 GEN:21:31 | B: pg1581 | called Bersabee; because there  |
 GEN:21:31 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
+
+
 GEN:21:33 | A: drbo   | And Abimelech, and Phicol the |
-GEN:21:33 | B: pg1581 | lech and Phicol, the general of his army, arose and retu |
+GEN:21:33 | B: pg1581 | And Abimelech and Phicol, the |
 GEN:21:33 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:21:33 | A: drbo   | and Phicol the general  |
+GEN:21:33 | B: pg1581 | and Phicol, the general  |
+GEN:21:33 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:21:33 | A: drbo   | of his army arose and retu |
+GEN:21:33 | B: pg1581 | of his army, arose and retu |
+GEN:21:33 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 GEN:22:02 | A: drbo   |  land of vision: and there thou |
 GEN:22:02 | B: pg1581 |  land of vision; and there thou |
@@ -1000,11 +1039,11 @@ GEN:22:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:22:03 | B: pg1581 | saddled his ass, and took with  ... r the holocaust, he went his wa |
 
 GEN:22:03 | A: drbo   | saddled his ass: and took with  |
-GEN:22:03 | B: pg1581 | saddled his ass, and took with  ... r the holocaust, he went his wa |
+GEN:22:03 | B: pg1581 | saddled his ass, and took with  |
 GEN:22:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:22:03 | A: drbo   | saddled his ass: and took with  |
-GEN:22:03 | B: pg1581 | saddled his ass, and took with  ... r the holocaust, he went his wa |
+GEN:22:03 | A: drbo   | r the holocaust he went his wa |
+GEN:22:03 | B: pg1581 | r the holocaust, he went his wa |
 GEN:22:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1059,11 +1098,11 @@ GEN:22:21 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:22:23 | B: pg1581 |  born Rebecca: these eight did  ...  bear to Nachor, Abraham's brot |
 
 GEN:22:23 | A: drbo   |  born Rebecca: These eight did  |
-GEN:22:23 | B: pg1581 |  born Rebecca: these eight did  ...  bear to Nachor, Abraham's brot |
+GEN:22:23 | B: pg1581 |  born Rebecca: these eight did  |
 GEN:22:23 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:22:23 | A: drbo   |  born Rebecca: These eight did  |
-GEN:22:23 | B: pg1581 |  born Rebecca: these eight did  ...  bear to Nachor, Abraham's brot |
+GEN:22:23 | A: drbo   |  bear to Nachor Abraham's brot |
+GEN:22:23 | B: pg1581 |  bear to Nachor, Abraham's brot |
 GEN:22:23 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1087,7 +1126,7 @@ GEN:23:12 | A: drbo   | ple of the land, |
 GEN:23:12 | B: pg1581 | ple of the land. |
 GEN:23:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:23:13 | A: drbo   | y for the field: take it, and so I will bury my de |
+GEN:23:13 | A: drbo   | y for the field: take it, and so I will bury my dead i |
 GEN:23:13 | B: pg1581 | y for the field; take it, and so will I bury my dead i |
 GEN:23:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -1099,9 +1138,16 @@ GEN:23:17 | A: drbo   | e trees thereof in all its lim |
 GEN:23:17 | B: pg1581 | e trees thereof, in all its lim |
 GEN:23:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:23:19 | A: drbo   | a his wife, in a double cave of |
-GEN:23:19 | B: pg1581 | ham buried Sara, his wife, in the double cave of |
+
+GEN:23:19 | A: drbo   | ham buried Sara his |
+GEN:23:19 | B: pg1581 | ham buried Sara, his |
 GEN:23:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:23:19 | A: drbo   | wife, in a double cave of |
+GEN:23:19 | B: pg1581 | wife, in the double cave of |
+GEN:23:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 GEN:24:01 | A: drbo   | Abraham was old; and advanced in age: and the Lord h |
 GEN:24:01 | B: pg1581 | Abraham was old, and advanced in age; and the Lord h |
@@ -1125,12 +1171,16 @@ GEN:24:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:24:09 | A: drbo   | re to him upon this word. |
 # GEN:24:09 | B: pg1581 | The servant, therefore, put his hand u ... high of Abraham, his lord, and  |
 
-GEN:24:09 | A: drbo   | re to him upon this word. |
-GEN:24:09 | B: pg1581 | The servant, therefore, put his hand u ... high of Abraham, his lord, and  |
+GEN:24:09 | A: drbo   | The servant therefore put his |
+GEN:24:09 | B: pg1581 | The servant, therefore, put his |
+GEN:24:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:24:09 | A: drbo   | high of Abraham his lord |
+GEN:24:09 | B: pg1581 | high of Abraham, his lord |
 GEN:24:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 GEN:24:09 | A: drbo   | re to him upon this word. |
-GEN:24:09 | B: pg1581 | The servant, therefore, put his hand u ... high of Abraham, his lord, and  |
+GEN:24:09 | B: pg1581 | re to him upon his word. |
 GEN:24:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1152,12 +1202,12 @@ GEN:24:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:24:12 | A: drbo   | O Lord the God of my master Abraham, meet  ... ss to my master Abraham. |
 # GEN:24:12 | B: pg1581 | O Lord, the God of my master, Abraham, meet  ... ss to my master, Abraham. |
 
-GEN:24:12 | A: drbo   | O Lord the God of my master Abraham, meet  ... ss to my master Abraham. |
-GEN:24:12 | B: pg1581 | O Lord, the God of my master, Abraham, meet  ... ss to my master, Abraham. |
+GEN:24:12 | A: drbo   | O Lord the God of my master Abraham, meet  |
+GEN:24:12 | B: pg1581 | O Lord, the God of my master, Abraham, meet   |
 GEN:24:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:24:12 | A: drbo   | O Lord the God of my master Abraham, meet  ... ss to my master Abraham. |
-GEN:24:12 | B: pg1581 | O Lord, the God of my master, Abraham, meet  ... ss to my master, Abraham. |
+GEN:24:12 | A: drbo   |  ss to my master Abraham. |
+GEN:24:12 | B: pg1581 |  ss to my master, Abraham. |
 GEN:24:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1171,12 +1221,12 @@ GEN:24:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:24:13 | A: drbo   | t to draw water. |
 # GEN:24:13 | B: pg1581 | Behold, I stand nigh t ... t to draw water: |
 
-GEN:24:13 | A: drbo   | t to draw water. |
-GEN:24:13 | B: pg1581 | Behold, I stand nigh t ... t to draw water: |
+GEN:24:13 | A: drbo   | Behold I stand nigh |
+GEN:24:13 | B: pg1581 | Behold, I stand nigh  |
 GEN:24:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:24:13 | A: drbo   | t to draw water. |
-GEN:24:13 | B: pg1581 | Behold, I stand nigh t ... t to draw water: |
+GEN:24:13 | A: drbo   | t to draw water.$ |
+GEN:24:13 | B: pg1581 | t to draw water:$ |
 GEN:24:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1185,24 +1235,41 @@ GEN:24:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 GEN:24:14 | A: drbo   | hall understand, that thou hast |
+GEN:24:14 | B: pg1581 | hall understand that thou hast |
+GEN:24:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:24:14 | A: drbo   | ac: and by this I shall unders |
 GEN:24:14 | B: pg1581 | ac: and by this, I shall unders |
 GEN:24:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 GEN:24:16 | A: drbo   | led her pitcher and was coming |
 GEN:24:16 | B: pg1581 | led her pitcher, and was coming |
 GEN:24:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:24:20 | A: drbo   | l to draw water: and having dra |
-GEN:24:20 | B: pg1581 | l to draw water; and having drawn, she gave to al |
+
+GEN:24:20 | A: drbo   | l to draw water: and  |
+GEN:24:20 | B: pg1581 | l to draw water; and  |
 GEN:24:20 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:24:20 | A: drbo   | having drawn she gave to al |
+GEN:24:20 | B: pg1581 | having drawn, she gave to al |
+GEN:24:20 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 GEN:24:21 | A: drbo   | But he musing beheld her wit |
 GEN:24:21 | B: pg1581 | But he musing, beheld her wit |
 GEN:24:21 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:24:22 | A: drbo   | hing two sicles: and as many br |
-GEN:24:22 | B: pg1581 | hing two sicles; and as many bracelets, of ten sicles  |
+
+GEN:24:22 | A: drbo   | hing two sicles: and as |
+GEN:24:22 | B: pg1581 | hing two sicles; and as |
 GEN:24:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:24:22 | A: drbo   | many bracelets of ten sicles |
+GEN:24:22 | B: pg1581 | many bracelets, of ten sicles  |
+GEN:24:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 GEN:24:25 | A: drbo   | And she said moreover to him: We hav |
 GEN:24:25 | B: pg1581 | And she said, moreover, to him: We hav |
@@ -1224,9 +1291,20 @@ GEN:24:31 | A: drbo   | sed of the Lord: why standest t |
 GEN:24:31 | B: pg1581 | sed of the Lord; why standest t |
 GEN:24:31 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:24:32 | A: drbo   |  brought him in into his lodging: and he unharne |
-GEN:24:32 | B: pg1581 | nto his lodging; and he unharnessed the camels, and gave straw |
+
+
+GEN:24:32 | A: drbo   |  brought him in into his  |
+GEN:24:32 | B: pg1581 |  brought him into his |
 GEN:24:32 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:24:32 | A: drbo   |  his lodging: and he unharne |
+GEN:24:32 | B: pg1581 |  his lodging; and he unharne |
+GEN:24:32 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:24:32 | A: drbo   |  unharnessed the camels and gave straw |
+GEN:24:32 | B: pg1581 |  unharnessed the camels, and gave straw |
+GEN:24:32 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 GEN:24:36 | A: drbo   | And Sara my master's wife hath borne my  |
 GEN:24:36 | B: pg1581 | And Sara, my master's wife, hath borne my  |
@@ -1250,12 +1328,12 @@ GEN:24:45 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:24:48 | A: drbo   | nd falling down I adored the L ... od of my master Abraham, who h |
 # GEN:24:48 | B: pg1581 | nd falling down, I adored the L ... od of my master, Abraham, who h |
 
-GEN:24:48 | A: drbo   | nd falling down I adored the L ... od of my master Abraham, who h |
-GEN:24:48 | B: pg1581 | nd falling down, I adored the L ... od of my master, Abraham, who h |
+GEN:24:48 | A: drbo   | nd falling down I adored the L |
+GEN:24:48 | B: pg1581 | nd falling down, I adored the L |
 GEN:24:48 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:24:48 | A: drbo   | nd falling down I adored the L ... od of my master Abraham, who h |
-GEN:24:48 | B: pg1581 | nd falling down, I adored the L ... od of my master, Abraham, who h |
+GEN:24:48 | A: drbo   | od of my master Abraham, who h |
+GEN:24:48 | B: pg1581 | od of my master, Abraham, who h |
 GEN:24:48 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1287,8 +1365,8 @@ GEN:24:55 | A: drbo   | t the maid stay at least ten days with  |
 GEN:24:55 | B: pg1581 | t the maid stay, at least, ten days with  |
 GEN:24:55 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:24:59 | A: drbo   | and his company, |
-GEN:24:59 | B: pg1581 | and his company. |
+GEN:24:59 | A: drbo   | and his company,$ |
+GEN:24:59 | B: pg1581 | and his company.$ |
 GEN:24:59 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 GEN:24:60 | A: drbo   | ds of thousands, and may thy se |
@@ -1301,12 +1379,12 @@ GEN:24:60 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:24:62 | A: drbo   | e south country. |
 # GEN:24:62 | B: pg1581 | t the same time, Isaac was walk ... e south country: |
 
-GEN:24:62 | A: drbo   | e south country. |
-GEN:24:62 | B: pg1581 | t the same time, Isaac was walk ... e south country: |
+GEN:24:62 | A: drbo   | t the same time Isaac was walk|
+GEN:24:62 | B: pg1581 | t the same time, Isaac was walk |
 GEN:24:62 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:24:62 | A: drbo   | e south country. |
-GEN:24:62 | B: pg1581 | t the same time, Isaac was walk ... e south country: |
+GEN:24:62 | A: drbo   | e south country.$ |
+GEN:24:62 | B: pg1581 | e south country:$ |
 GEN:24:62 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1328,12 +1406,12 @@ GEN:25:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:25:03 | A: drbo   | usim, and Loomin. |
 # GEN:25:03 | B: pg1581 | also begot Saba, and Dadan. The ... usim, and Loomim. |
 
-GEN:25:03 | A: drbo   | usim, and Loomin. |
-GEN:25:03 | B: pg1581 | also begot Saba, and Dadan. The ... usim, and Loomim. |
+GEN:25:03 | A: drbo   | also begot Saba and Dadan |
+GEN:25:03 | B: pg1581 | also begot Saba, and Dadan |
 GEN:25:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:25:03 | A: drbo   | usim, and Loomin. |
-GEN:25:03 | B: pg1581 | also begot Saba, and Dadan. The ... usim, and Loomim. |
+GEN:25:03 | A: drbo   | usim, and Loomin.$ |
+GEN:25:03 | B: pg1581 | usim, and Loomim.$ |
 GEN:25:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1369,9 +1447,34 @@ GEN:25:25 | A: drbo   | oot in his hand, and therefore  |
 GEN:25:25 | B: pg1581 | oot in his hand: and therefore  |
 GEN:25:25 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:25:27 | A: drbo   | u became a skillful hunter, and a husbandman, but Jacob a pl |
-GEN:25:27 | B: pg1581 | nd a husbandman: but Jacob, a plain man, dwelt in tents |
+
+
+GEN:25:27 | A: drbo   | u became a skillful hunter, |
+GEN:25:27 | B: pg1581 | u became a skilful hunter, |
 GEN:25:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:25:27 | A: drbo   | nd a husbandman, but |
+GEN:25:27 | B: pg1581 | nd a husbandman: but |
+GEN:25:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+GEN:25:27 | A: drbo   | became a skillful hunter |
+GEN:25:27 | B: pg1581 | became a skilful hunter |
+GEN:25:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:25:27 | A: drbo   | husbandman, but Jacob |
+GEN:25:27 | B: pg1581 | husbandman: but Jacob |
+GEN:25:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:25:27 | A: drbo   | but Jacob a plain |
+GEN:25:27 | B: pg1581 | but Jacob, a plain |
+GEN:25:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:25:27 | A: drbo   | a plain man dwelt in tents |
+GEN:25:27 | B: pg1581 | a plain man, dwelt in tents |
+GEN:25:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 GEN:25:30 | A: drbo   | ceeding faint. For which reason |
 GEN:25:30 | B: pg1581 | ceeding faint. for which reason |
@@ -1403,12 +1506,16 @@ GEN:26:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:26:08 | A: drbo   | here, Abimelech king of the Palestines looking out th ... ng with Rebecca his wife. |
 # GEN:26:08 | B: pg1581 | here, Abimelech, king of the Palestines, looking out th ... ng with Rebecca, his wife. |
 
-GEN:26:08 | A: drbo   | here, Abimelech king of the Palestines looking out th ... ng with Rebecca his wife. |
-GEN:26:08 | B: pg1581 | here, Abimelech, king of the Palestines, looking out th ... ng with Rebecca, his wife. |
+GEN:26:08 | A: drbo   | Palestines looking out th |
+GEN:26:08 | B: pg1581 | Palestines, looking out th |
 GEN:26:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:26:08 | A: drbo   | here, Abimelech king of the Palestines looking out th ... ng with Rebecca his wife. |
-GEN:26:08 | B: pg1581 | here, Abimelech, king of the Palestines, looking out th ... ng with Rebecca, his wife. |
+GEN:26:08 | A: drbo   | here, Abimelech king of the  |
+GEN:26:08 | B: pg1581 | here, Abimelech, king of the  |#
+GEN:26:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:26:08 | A: drbo   | ng with Rebecca his wife. |
+GEN:26:08 | B: pg1581 | ng with Rebecca, his wife. |
 GEN:26:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1434,16 +1541,16 @@ GEN:26:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:26:18 | A: drbo   | is death, the Palestines had of o |
 # GEN:26:18 | B: pg1581 | s of his father, Abraham, had digged, an ... is death, the Philistines had of o ...  the same names, by which his f |
 
-GEN:26:18 | A: drbo   | is death, the Palestines had of o |
-GEN:26:18 | B: pg1581 | s of his father, Abraham, had digged, an ... is death, the Philistines had of o ...  the same names, by which his f |
+GEN:26:18 | A: drbo   | s of his father Abraham had digged, an   |
+GEN:26:18 | B: pg1581 | s of his father, Abraham, had digged, an  |
 GEN:26:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 GEN:26:18 | A: drbo   | is death, the Palestines had of o |
-GEN:26:18 | B: pg1581 | s of his father, Abraham, had digged, an ... is death, the Philistines had of o ...  the same names, by which his f |
+GEN:26:18 | B: pg1581 | is death, the Philistines had of o |
 GEN:26:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:26:18 | A: drbo   | is death, the Palestines had of o |
-GEN:26:18 | B: pg1581 | s of his father, Abraham, had digged, an ... is death, the Philistines had of o ...  the same names, by which his f |
+GEN:26:18 | A: drbo   | the same names by which his f  |
+GEN:26:18 | B: pg1581 | the same names, by which his f |
 GEN:26:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1478,11 +1585,11 @@ GEN:26:26 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:26:29 | B: pg1581 | ng to hurt thee; but with peace ...  sent thee away, increased with |
 
 GEN:26:29 | A: drbo   | ng to hurt thee: but with peace |
-GEN:26:29 | B: pg1581 | ng to hurt thee; but with peace ...  sent thee away, increased with |
+GEN:26:29 | B: pg1581 | ng to hurt thee; but with peace |
 GEN:26:29 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:26:29 | A: drbo   | ng to hurt thee: but with peace |
-GEN:26:29 | B: pg1581 | ng to hurt thee; but with peace ...  sent thee away, increased with |
+GEN:26:29 | A: drbo   | sent thee away increased with |
+GEN:26:29 | B: pg1581 | sent thee away, increased with |
 GEN:26:29 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1502,22 +1609,30 @@ GEN:27:02 | A: drbo   | her said to him: Thou seest tha |
 GEN:27:02 | B: pg1581 | her said to him, Thou seest tha |
 GEN:27:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:27:03 | A: drbo   | , and go abroad: and when thou hast taken some thing by huntin |
+
+GEN:27:03 | A: drbo   | , and go abroad: and when thou  |
 GEN:27:03 | B: pg1581 | , and go abroad; and when thou  |
 GEN:27:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
+GEN:27:03 | A: drbo   |  taken some thing by huntin |
+GEN:27:03 | B: pg1581 |  taken something by huntin |
+GEN:27:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
 #===============================
 # GEN:27:04 | A: drbo   | e, and bring it, that I may eat |
 # GEN:27:04 | B: pg1581 | Make me a savoury meat th ...  may bless thee, before I die. |
 
-GEN:27:04 | A: drbo   | e, and bring it, that I may eat |
-GEN:27:04 | B: pg1581 | Make me a savoury meat th ...  may bless thee, before I die. |
+GEN:27:04 | A: drbo   | Make me savoury meat th |
+GEN:27:04 | B: pg1581 | Make me a savoury meat th |
 GEN:27:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 GEN:27:04 | A: drbo   | e, and bring it, that I may eat |
-GEN:27:04 | B: pg1581 | Make me a savoury meat th ...  may bless thee, before I die. |
+GEN:27:04 | B: pg1581 | e, and bring it that I may eat |
+GEN:27:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:27:04 | A: drbo   | may bless thee before I die. |
+GEN:27:04 | B: pg1581 | may bless thee, before I die. |
 GEN:27:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1547,12 +1662,12 @@ GEN:27:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:27:11 | A: drbo   | and I am smooth. |
 # GEN:27:11 | B: pg1581 | owest that Esau, my brother, is a hairy man ... and I am smooth: |
 
-GEN:27:11 | A: drbo   | and I am smooth. |
-GEN:27:11 | B: pg1581 | owest that Esau, my brother, is a hairy man ... and I am smooth: |
+GEN:27:11 | A: drbo   | owest that Esau my brother is a hairy man |
+GEN:27:11 | B: pg1581 | owest that Esau, my brother, is a hairy man |
 GEN:27:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:27:11 | A: drbo   | and I am smooth. |
-GEN:27:11 | B: pg1581 | owest that Esau, my brother, is a hairy man ... and I am smooth: |
+GEN:27:11 | A: drbo   | and I am smooth.$ |
+GEN:27:11 | B: pg1581 | and I am smooth:$ |
 GEN:27:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1564,9 +1679,16 @@ GEN:27:12 | A: drbo   | If my father shall feel me, and p |
 GEN:27:12 | B: pg1581 | If my father should feel me, and p |
 GEN:27:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:27:19 | A: drbo   |  me: arise, sit, and eat of my  |
+
+GEN:27:19 | A: drbo   | said: I am Esau thy firstborn: |
 GEN:27:19 | B: pg1581 | said: I am Esau, thy firstborn: |
 GEN:27:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:27:19 | A: drbo   |  me: arise, sit, and eat of my |
+GEN:27:19 | B: pg1581 |  me: arise, sit and eat of my |
+GEN:27:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 GEN:27:20 | A: drbo   | ickly in my way. |
 GEN:27:20 | B: pg1581 | ickly in my way: |
@@ -1607,11 +1729,11 @@ GEN:27:32 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:27:33 | B: pg1581 | hed exceedingly; and wondering  ...  believed, said: Who is he then |
 
 GEN:27:33 | A: drbo   | hed exceedingly: and wondering  |
-GEN:27:33 | B: pg1581 | hed exceedingly; and wondering  ...  believed, said: Who is he then |
+GEN:27:33 | B: pg1581 | hed exceedingly; and wondering  |
 GEN:27:33 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:27:33 | A: drbo   | hed exceedingly: and wondering  |
-GEN:27:33 | B: pg1581 | hed exceedingly; and wondering  ...  believed, said: Who is he then |
+GEN:27:33 | A: drbo   | believed, said Who is he then  |
+GEN:27:33 | B: pg1581 | believed, said: Who is he then |
 GEN:27:33 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1637,16 +1759,16 @@ GEN:27:40 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:27:41 | A: drbo   | had blessed him: and he said in ... f the mourning of my father, an |
 # GEN:27:41 | B: pg1581 | ays hated Jacob, for the blessi ... had blessed him; and he said in ...  the mourning for my father, and |
 
-GEN:27:41 | A: drbo   | had blessed him: and he said in ... f the mourning of my father, an |
-GEN:27:41 | B: pg1581 | ays hated Jacob, for the blessi ... had blessed him; and he said in ...  the mourning for my father, and |
+GEN:27:41 | A: drbo   | ays hated Jacob for the blessi |
+GEN:27:41 | B: pg1581 | ays hated Jacob, for the blessi |
 GEN:27:41 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:27:41 | A: drbo   | had blessed him: and he said in ... f the mourning of my father, an |
-GEN:27:41 | B: pg1581 | ays hated Jacob, for the blessi ... had blessed him; and he said in ...  the mourning for my father, and |
+GEN:27:41 | A: drbo   | had blessed him: and he said in |
+GEN:27:41 | B: pg1581 | had blessed him; and he said in |
 GEN:27:41 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:27:41 | A: drbo   | had blessed him: and he said in ... f the mourning of my father, an |
-GEN:27:41 | B: pg1581 | ays hated Jacob, for the blessi ... had blessed him; and he said in ...  the mourning for my father, and |
+GEN:27:41 | A: drbo   | the mourning of my father, and |
+GEN:27:41 | B: pg1581 | the mourning for my father, and |
 GEN:27:41 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1660,12 +1782,12 @@ GEN:27:41 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:27:42 | A: drbo   | nd called Jacob her son, and s ... im: Behold Esau thy brother threateneth to |
 # GEN:27:42 | B: pg1581 | nd called Jacob, her son, and s ... im: Behold Esau, thy brother, threateneth to |
 
-GEN:27:42 | A: drbo   | nd called Jacob her son, and s ... im: Behold Esau thy brother threateneth to |
-GEN:27:42 | B: pg1581 | nd called Jacob, her son, and s ... im: Behold Esau, thy brother, threateneth to |
+GEN:27:42 | A: drbo   | nd called Jacob her son, and s  |
+GEN:27:42 | B: pg1581 | nd called Jacob, her son, and s  |
 GEN:27:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:27:42 | A: drbo   | nd called Jacob her son, and s ... im: Behold Esau thy brother threateneth to |
-GEN:27:42 | B: pg1581 | nd called Jacob, her son, and s ... im: Behold Esau, thy brother, threateneth to |
+GEN:27:42 | A: drbo   | im: Behold Esau thy brother threateneth to |
+GEN:27:42 | B: pg1581 | im: Behold Esau, thy brother, threateneth to |
 GEN:27:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1674,8 +1796,14 @@ GEN:27:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 GEN:27:43 | A: drbo   | , hear my voice: arise and flee |
-GEN:27:43 | B: pg1581 | , hear my voice, arise and flee to Laban, my brother, to Haran: |
+GEN:27:43 | B: pg1581 | , hear my voice, arise and flee |
 GEN:27:43 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+GEN:27:43 | A: drbo   | flee to Laban my brother to Haran: |
+GEN:27:43 | B: pg1581 | flee to Laban, my brother, to Haran: |
+GEN:27:43 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 GEN:27:46 | A: drbo   | eary of my life because of the |
 GEN:27:46 | B: pg1581 | eary of my life, because of the |
@@ -1687,12 +1815,12 @@ GEN:27:46 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:28:02 | A: drbo   | ouse of Bathuel thy mother's f ... ghters of Laban thy uncle. |
 # GEN:28:02 | B: pg1581 | ouse of Bathuel, thy mother's f ... ghters of Laban, thy uncle. |
 
-GEN:28:02 | A: drbo   | ouse of Bathuel thy mother's f ... ghters of Laban thy uncle. |
-GEN:28:02 | B: pg1581 | ouse of Bathuel, thy mother's f ... ghters of Laban, thy uncle. |
+GEN:28:02 | A: drbo   | ouse of Bathuel thy mother's f  |
+GEN:28:02 | B: pg1581 | ouse of Bathuel, thy mother's f  |
 GEN:28:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:28:02 | A: drbo   | ouse of Bathuel thy mother's f ... ghters of Laban thy uncle. |
-GEN:28:02 | B: pg1581 | ouse of Bathuel, thy mother's f ... ghters of Laban, thy uncle. |
+GEN:28:02 | A: drbo   | ghters of Laban thy uncle. |
+GEN:28:02 | B: pg1581 | ghters of Laban, thy uncle. |
 GEN:28:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1714,12 +1842,16 @@ GEN:28:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:28:05 | A: drbo   | otamia of Syria to Laban the son of Bathuel the Syrian, br ... ther to Rebecca his mother. |
 # GEN:28:05 | B: pg1581 | otamia of Syria, to Laban, the son of Bathuel, the Syrian, br ... ther to Rebecca, his mother. |
 
-GEN:28:05 | A: drbo   | otamia of Syria to Laban the son of Bathuel the Syrian, br ... ther to Rebecca his mother. |
-GEN:28:05 | B: pg1581 | otamia of Syria, to Laban, the son of Bathuel, the Syrian, br ... ther to Rebecca, his mother. |
+GEN:28:05 | A: drbo   | otamia of Syria to Laban the son  |
+GEN:28:05 | B: pg1581 | otamia of Syria, to Laban, the son  |
 GEN:28:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:28:05 | A: drbo   | otamia of Syria to Laban the son of Bathuel the Syrian, br ... ther to Rebecca his mother. |
-GEN:28:05 | B: pg1581 | otamia of Syria, to Laban, the son of Bathuel, the Syrian, br ... ther to Rebecca, his mother. |
+GEN:28:05 | A: drbo   | of Bathuel the Syrian |
+GEN:28:05 | B: pg1581 | of Bathuel, the Syrian |
+GEN:28:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:28:05 | A: drbo   | ther to Rebecca his mother. |
+GEN:28:05 | B: pg1581 | ther to Rebecca, his mother. |
 GEN:28:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1749,11 +1881,11 @@ GEN:28:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:28:13 | A: drbo   | upon the ladder, saying to him: ... he God of Isaac; the land, wherei |
 # GEN:28:13 | B: pg1581 | he God of Isaac: The land, wherei |
 
-GEN:28:13 | A: drbo   | upon the ladder, saying to him: ... he God of Isaac; the land, wherei |
-GEN:28:13 | B: pg1581 | he God of Isaac: The land, wherei |
+GEN:28:13 | A: drbo   | upon the ladder, saying to him:  |
+GEN:28:13 | B: pg1581 | upon the ladder saying to him: |
 GEN:28:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:28:13 | A: drbo   | upon the ladder, saying to him: ... he God of Isaac; the land, wherei |
+GEN:28:13 | A: drbo   | he God of Isaac; the land, wherei |
 GEN:28:13 | B: pg1581 | he God of Isaac: The land, wherei |
 GEN:28:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -1858,12 +1990,12 @@ GEN:29:23 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:29:24 | A: drbo   |  saw it was Lia: |
 # GEN:29:24 | B: pg1581 | rding to custom, when morning w ...  saw it was Lia. |
 
-GEN:29:24 | A: drbo   |  saw it was Lia: |
-GEN:29:24 | B: pg1581 | rding to custom, when morning w ...  saw it was Lia. |
+GEN:29:24 | A: drbo   | rding to custom when morning w |
+GEN:29:24 | B: pg1581 | rding to custom, when morning w  |
 GEN:29:24 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:29:24 | A: drbo   |  saw it was Lia: |
-GEN:29:24 | B: pg1581 | rding to custom, when morning w ...  saw it was Lia. |
+GEN:29:24 | A: drbo   |  saw it was Lia:$ |
+GEN:29:24 | B: pg1581 |  saw it was Lia.$ |
 GEN:29:24 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1899,8 +2031,8 @@ GEN:30:07 | A: drbo   |  Bala conceived and bore anoth |
 GEN:30:07 | B: pg1581 |  Bala conceived, and bore anoth |
 GEN:30:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:30:08 | A: drbo   | alled him Nephtali. |
-GEN:30:08 | B: pg1581 | alled him Nephthali. |
+GEN:30:08 | A: drbo   | alled him Nephtali.$ |
+GEN:30:08 | B: pg1581 | alled him Nephthali.$ |
 GEN:30:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -1909,12 +2041,16 @@ GEN:30:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # GEN:30:09 | A: drbo   | Lia, perceiving tha ... she had left off bearing, gave  |
 # GEN:30:09 | B: pg1581 | ng, gave Zelpha, her handmaid, to her husband |
 
-GEN:30:09 | A: drbo   | Lia, perceiving tha ... she had left off bearing, gave  |
-GEN:30:09 | B: pg1581 | ng, gave Zelpha, her handmaid, to her husband |
+GEN:30:09 | A: drbo   | Lia, perceiving tha  |
+GEN:30:09 | B: pg1581 | Lia perceiving tha |
 GEN:30:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:30:09 | A: drbo   | Lia, perceiving tha ... she had left off bearing, gave  |
-GEN:30:09 | B: pg1581 | ng, gave Zelpha, her handmaid, to her husband |
+GEN:30:09 | A: drbo   | she had left off bearing, gave Zelpha |
+GEN:30:09 | B: pg1581 | she had left of bearing, gave Zelpha |
+GEN:30:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:30:09 | A: drbo   | gave Zelpha her handmaid to her husband |
+GEN:30:09 | B: pg1581 | gave Zelpha, her handmaid, to her husband |
 GEN:30:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1930,8 +2066,8 @@ GEN:30:14 | A: drbo   | And Ruben, going out in t |
 GEN:30:14 | B: pg1581 | And Ruben going out in t |
 GEN:30:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:30:17 | A: drbo   | ard her prayers: and she conceived and bore the fifth son, |
-GEN:30:17 | B: pg1581 | ard her prayers; and she conceived: and bore a fifth son: |
+GEN:30:17 | A: drbo   | ard her prayers: and she conceived and bore the fifth son,$ |
+GEN:30:17 | B: pg1581 | ard her prayers; and she conceived: and bore a fifth son:$ |
 GEN:30:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 GEN:30:20 | A: drbo   | th a good dowry: this turn also |
@@ -1942,9 +2078,14 @@ GEN:30:24 | A: drbo   | his name Joseph, saying: The Lo |
 GEN:30:24 | B: pg1581 | his name Joseph: saying: The Lo |
 GEN:30:24 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-GEN:30:25 | A: drbo   | d to his father in law: Send me aw |
-GEN:30:25 | B: pg1581 | d to his father-in-law: Send me away, that I may ret |
+GEN:30:25 | A: drbo   | d to his father in law: Send me  |
+GEN:30:25 | B: pg1581 | d to his father-in-law: Send me  |
 GEN:30:25 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+GEN:30:25 | A: drbo   | Send me away that I may ret |
+GEN:30:25 | B: pg1581 | Send me away, that I may ret |
+GEN:30:25 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 GEN:30:27 | A: drbo   |  I have learned by experience, |
 GEN:30:27 | B: pg1581 |  I have learned, by experience, |
