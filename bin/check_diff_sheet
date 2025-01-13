@@ -16,6 +16,10 @@ use feature 'say';
 sub issue ($);
 
 my $usage = "Usage: $0 book_id\n";
+my $args = {
+    "yaml" => 0,
+};
+
 my $book_id = shift() || die $usage;
 
 
@@ -98,8 +102,11 @@ for my $line (read_file($diff_file)) {
 }
 
 check_struct($struct, $b);
+exit 1 if $issues_count;
 
-##print YAML::Dump($struct);
+YAML::Dump($struct) if $args->{yaml};
+
+exit 0;
 
 #=========================================================================================
 

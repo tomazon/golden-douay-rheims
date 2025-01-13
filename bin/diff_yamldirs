@@ -18,7 +18,7 @@ use feature 'say';
 my $book_order_file = './etc/book_order.yaml';
 my $output_store = '';
 my $args = {
-    do_verses => 1, 
+    do_verses => 1,
     hilite => 'ansi-colors',
     strip_punc => 1,
     squish => 1,
@@ -50,6 +50,7 @@ my %diff_sheets = ();
 my $dir_a = shift();
 my $dir_b = shift();
 my $limit = shift();
+
 #my $book = shift();
 
 if (!$args->{title}) {
@@ -74,14 +75,32 @@ if (!$args->{title}) {
 
 my @books = book_list($book_order_file);
 
+
+my ($b_limit, $c, $v) = split_limit($limit);
+
+say join(':', $b_limit, $c, $v);
+
 for my $book (@books) {
-    next if $limit and $book ne $limit;
-    do_diff ($args, $dir_a, $dir_b, $book);
+    next if $limit and $book ne $b_limit;
+    do_diff ($args, $dir_a, $dir_b, $book, $c, $v);
 }
 
 print_output_store();
 
 ###########################################################################
+
+
+sub split_limit {
+    my ($limit) = @_;
+    my ($b, $c, $v) = ('','','');
+
+    if ($limit) {
+        ($b, $c, $v) = map {s/^0+// ; $_} split(/:/, $limit);
+    }
+
+    ($b,$c,$v);
+}
+
 
 sub book_list {
     my ($book_order_file, @list) = @_;
@@ -98,7 +117,7 @@ sub book_list {
 }
 
 sub do_diff {
-    my ($args, $dir_a, $dir_b, $book) = @_;
+    my ($args, $dir_a, $dir_b, $book, $c_limit, $v_limit) = @_;
     my $errors = '';
 
     die "No such directory: $dir_a" unless -d $dir_a;
@@ -120,6 +139,10 @@ sub do_diff {
     output ("");
 
     for my $c_num (combined_keys($data_a->{chapters}, $data_b->{chapters})) {
+        $c = $c_num;
+        $c =~ s/^c:0*//;
+        next if $c_limit && $c ne $c_limit;
+
         my $c_tag = num_to_tag('c', $book, $c_num);
 
         my $chap_a = $data_a->{chapters}->{$c_num};
@@ -127,6 +150,10 @@ sub do_diff {
 
         if ($args->{do_verses}) {
             for my $v_num (combined_keys($chap_a->{verses}, $chap_b->{verses})) {
+                my $v = $v_num;
+                $v =~ s/^v:0*//;
+                next if $v_limit && $v ne $v_limit;
+
                 my $v_tag = num_to_tag('v', $c_tag, $v_num);
                 my $vers_a = $chap_a->{verses}->{$v_num};
                 my $vers_b = $chap_b->{verses}->{$v_num};
