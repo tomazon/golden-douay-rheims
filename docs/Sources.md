@@ -1,9 +1,8 @@
 
 
-# Sources
+# Douay Rheims
 
-## Books
-
+## Printed Books
 
 ### 1750-Challoner
 * Printed: in the year 1750
@@ -84,8 +83,45 @@
 * Reproduced by: TAN Books and Publishers Inc, Rockford Illinois, 1971
 * Approbation: James Cardinal Gibbons, Archbishop of Baltimore, Sept 1st 1899
 
+## On-Line Freely Available
+
+### pg1581
+
+Project Gutenberg - Book #1581
+
+* https://www.gutenberg.org/ebooks/1581
+  * https://www.gutenberg.org/cache/epub/1581/pg1581-images.html
+  * https://www.gutenberg.org/files/1581/
+  * https://www.gutenberg.org/cache/epub/1581/
+
+### pg8300
+
+Project Gutenberg -- Book #8300
+
+* https://www.gutenberg.org/ebooks/8300
+  * https://www.gutenberg.org/cache/epub/8300/
 
 
+## On-Line Copyright Restricted
+
+### cbol
+
+
+### drbo
+
+# Clementine Vulgate
+
+## Printed Books (Vulgate)
+
+### 2021-ChurchLatin
+
+https://www.churchlatin.com/bs1901
+
+Photographic Facsimile of a 1901 Desclee, Lefebvre, & Assoc Clementine Vulgate
+
+## Online Freely Available (Vulgate)
+
+### vulsearch
 
 
 ===============
@@ -93,12 +129,6 @@
 
 ## Text and notes
 
-### Project Gutenberg -- 1581
-
-* https://www.gutenberg.org/ebooks/1581
-  * https://www.gutenberg.org/cache/epub/1581/pg1581-images.html
-  * https://www.gutenberg.org/files/1581/
-  * https://www.gutenberg.org/cache/epub/1581/
 
 ### Project Gutenberg -- 8300
 
