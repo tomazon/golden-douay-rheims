@@ -79,8 +79,8 @@
 * Copyright: 1941 Douay Bible House
 * Imprimentor: Francis J Spellman, DD, Archbishop of New York, Feb 3rd 1941
 
-### 1971-tan
-* Reproduced: Photographically reproduced from the 1899 edition of the John Murray Company, Baltimore Maryland
+### 1971-Tan
+* Reproduced: Photographically reproduced from the 1899 edition of the John Murray Company, Baltimore Maryland [1899-Murray](#1899-murray)
 * Reproduced by: TAN Books and Publishers Inc, Rockford Illinois, 1971
 * Approbation: James Cardinal Gibbons, Archbishop of Baltimore, Sept 1st 1899
 
