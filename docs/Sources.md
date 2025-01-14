@@ -43,7 +43,10 @@
 * URL: https://archive.org/details/holybibletransla0000chal (1548 pages)
 
 
-### 1899-TAN
+### 1899-Murphy
+* Mystery:  Havent been able to track down
+  * Claimed source of [1971-Tan](#1971-tan)
+* 
 * Reproduced: Photographically reproduced from the 1899 edition of the John Murray Company, Baltimore Maryland
 * Reproduced by: TAN Books and Publishers Inc, Rockford Illinois, 1971
 * Approbation: James Cardinal Gibbons, Archbishop of Baltimore, Sept 1st 1899
@@ -76,7 +79,10 @@
 * Copyright: 1941 Douay Bible House
 * Imprimentor: Francis J Spellman, DD, Archbishop of New York, Feb 3rd 1941
 
-
+### 1971-tan
+* Reproduced: Photographically reproduced from the 1899 edition of the John Murray Company, Baltimore Maryland
+* Reproduced by: TAN Books and Publishers Inc, Rockford Illinois, 1971
+* Approbation: James Cardinal Gibbons, Archbishop of Baltimore, Sept 1st 1899
 
 
 
