@@ -59,7 +59,7 @@ There were several Douay Rheims Bibles published with an Approbation or Imprimen
     * Copywrite: 1914 John Murray Company
   * other?
 * Publications that make this unclear claim are:
-  * [\[1971-Tan\]](#1971-tan) - (Facsimile with printer replaced on title page)
+  * [\[1971-TAN\]](#1971-tan) - (Facsimile with printer replaced on title page)
   * [\[2002-Baronius\]](#2002-baronius) - (Re-typeset)
   * [\[2009-TAN\]](#2009-TAN) - (Re-typeset)
 
