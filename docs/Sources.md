@@ -44,7 +44,7 @@
 
 ### 1899-Murphy
 * Havent been able to track down a copy or scan
-* See: [\[1899\-Unclear]](#1899-unclear)
+* See: [\[1899\-Unclear\]](#1899-unclear)
 
 ### 1899-Unclear
 There were several Douay Rheims Bibles published with an Approbation or Imprimentor from:
