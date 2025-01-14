@@ -45,7 +45,7 @@
 
 ### 1899-Murphy
 * Mystery:  Havent been able to track down
-  * Claimed source of [1971-Tan](#1971-tan)
+  * Claimed source of [\[1971-Tan\]](#1971-tan)
 * 
 * Reproduced: Photographically reproduced from the 1899 edition of the John Murray Company, Baltimore Maryland
 * Reproduced by: TAN Books and Publishers Inc, Rockford Illinois, 1971
