@@ -2,7 +2,7 @@
 
 # Douay Rheims
 
-## Printed Books
+## Printed Douay Rheims
 
 ### 1750-Challoner
 * Printed: in the year 1750
@@ -83,7 +83,7 @@
 * Reproduced by: TAN Books and Publishers Inc, Rockford Illinois, 1971
 * Approbation: James Cardinal Gibbons, Archbishop of Baltimore, Sept 1st 1899
 
-## On-Line Freely Available
+## On-Line Freely Available Douay Rheims
 
 ### pg1581
 
@@ -102,7 +102,7 @@ Project Gutenberg -- Book #8300
   * https://www.gutenberg.org/cache/epub/8300/
 
 
-## On-Line Copyright Restricted
+## On-Line Copyright Restricted Douay Rheims
 
 ### cbol
 
@@ -111,7 +111,7 @@ Project Gutenberg -- Book #8300
 
 # Clementine Vulgate
 
-## Printed Books (Vulgate)
+## Printed Vulgates
 
 ### 2021-ChurchLatin
 
@@ -119,7 +119,7 @@ https://www.churchlatin.com/bs1901
 
 Photographic Facsimile of a 1901 Desclee, Lefebvre, & Assoc Clementine Vulgate
 
-## Online Freely Available (Vulgate)
+## Online Freely Available Vulgates
 
 ### vulsearch
 
