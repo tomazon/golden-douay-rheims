@@ -37,10 +37,15 @@ my $issues_count = 0;
 my $ok = {
     length_diff => {
         "MAT:13:2:[1]" => 9,
+        "MRK:2:15:[1]" => 6,
+        "MRK:8:6:[2]" => 55,
         "GEN:27:34:[2]" => 6,
         "GEN:27:36:[1]" => 6,
         "GEN:45:16:[1]" => 7,
-    }
+    },
+    no_matches => {
+        "MRK:8:27 pg1581" => 1, # non utf8 char
+    },
 };
 
 my $last_tag = "";
@@ -291,6 +296,8 @@ sub check_string_in_verse {
         $entry = $drbo->{chapters}->{$c_index}->{verses}->{$v_index};
     } elsif ($label eq 'pg1581') {
         $entry = $pg1581->{chapters}->{$c_index}->{verses}->{$v_index};
+    } elsif ($label eq 'manual') {
+        return;
     # } else {
     #     print ":::: $line\n";
     }
@@ -315,7 +322,9 @@ sub check_string_in_verse {
     } elsif ($matches > 1) {
         issue "$tag $const_label  MULTIPLE MATCHES OF | $string | $e_text";
     } elsif ($matches != 1) {
-        issue "$tag $const_label  NO MATCHES OF | $string | $e_text";
+        if (! $ok->{no_matches}->{"$tag $const_label"}) {
+            issue "$tag $const_label  NO MATCHES OF | $string | $e_text";
+        }
     }
 
 
