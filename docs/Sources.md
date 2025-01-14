@@ -104,14 +104,20 @@ There were several Douay Rheims Bibles published with an Approbation or Imprimen
 * URL: https://www.baronius.com/douay-rheims-bible.html
 
 ### 2009-TAN
-*  Saint Benedict Press / TAN Books
+* Saint Benedict Press / TAN Books
 * Digitally Re-Typeset
 * Imprimentor: James Cardinal Gibbons, Archbishop of Baltimore, Sept 1st 1899
 * URL: https://tanbooks.com/
 
+### 2018-Loreto
+* Loreto Publications -- https://loretopubs.org/
+* Retypeset from [\[1941-Daleiton\]](#1941-daleiton)
+* Imprimentor: Francis J Spellman, DD, Archbishop of New York, New York, February 3rd 1941
+* 
+
 ### ????-Biretta
 * Photographic Facsimile of [\[1914-Kenedy\]](#1914-kenedy)
-    * based on the 1914 P. J. Kenedy & Sons edition [\[1914-Kenedy\]](#1914-kenedy) , which was a reissue of the John Murphy Co. edition of 1899 [\[1914-Murphy\]](#1899-murphy). The pages were scanned from the original edition and cleaned up.  
+  * "based on the 1914 P. J. Kenedy & Sons edition [\[1914-Kenedy\]](#1914-kenedy) , which was a reissue of the John Murphy Co. edition of 1899 [\[1914-Murphy\]](#1899-murphy). The pages were scanned from the original edition and cleaned up." 
 * URL: https://www.birettabooks.com/douay-rheims-bible.html
 
 
