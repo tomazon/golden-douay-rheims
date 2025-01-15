@@ -68,8 +68,8 @@ while(1) {
                 push(@stack, [$letter, $label, $string]);
             } elsif ($cols[1] eq 'which') {
 
-                say ">>> | $cols[2] |";
-                if ($cols[2] =~ /^1971-Tan:[A-D]$/) {
+                #say ">>> | $cols[2] |";
+                if ($cols[2] =~ /^1971-Tan:[A-DZ]$/) {
                     @stack = ();
                     next;
                 }
@@ -167,6 +167,7 @@ sub prompt {
         $key = uc($key);
         say "";
         exit if $key eq 'Q';
+        return 'Z' if $key eq 'Z';
 
         return $key if grep {/^$key$/} @expected;
     }
