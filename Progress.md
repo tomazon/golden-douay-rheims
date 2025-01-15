@@ -8,9 +8,9 @@ Project Status
 ## Gospel and other Red-Letter books
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | 
-| MAT | 2286 | 159 | 657 | 27 | 627 | DONE |  | DONE | WIP |
-| MRK | 1700 | 171 | 533 | 6 | 286 |  |  | WIP |  |
-| LUK | 3865 | 421 | 1205 | 27 | 586 |  |  |  |  |
+| MAT | 2286 | 159 | 657 | 27 | 627 | DONE | WIP | WIP | WIP |
+| MRK | 1810 | 171 | 588 | 6 | 286 | DONE |  | WIP |  |
+| LUK | 3959 | 421 | 1252 | 27 | 586 | WIP |  |  |  |
 | JHN | 2937 | 322 | 925 | 22 | 421 |  |  |  |  |
 | ACT | 3220 | 412 | 1170 | 29 | 27 |  |  |  |  |
 | 1CO | 1323 | 169 | 491 | 1 | 2 |  |  |  |  |
@@ -20,7 +20,7 @@ Project Status
 ## Torah
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | 
-| GEN | 2031 | 124 | 867 | 49 | 0 |  |  |  |  |
+| GEN | 2165 | 124 | 934 | 49 | 0 | DONE |  |  |  |
 | EXO | 1759 | 143 | 725 | 23 | 0 |  |  |  |  |
 | LEV | 1761 | 199 | 681 | 1 | 0 |  |  |  |  |
 | NUM | 329 | 10 | 130 | 49 | 0 |  |  |  |  |
