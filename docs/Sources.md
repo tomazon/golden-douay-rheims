@@ -1,9 +1,8 @@
 
 
-# Sources
+# Douay Rheims
 
-## Books
-
+## Printed Douay Rheims
 
 ### 1750-Challoner
 * Printed: in the year 1750
@@ -43,10 +42,26 @@
 * URL: https://archive.org/details/holybibletransla0000chal (1548 pages)
 
 
-### 1899-TAN
-* Reproduced: Photographically reproduced from the 1899 edition of the John Murray Company, Baltimore Maryland
-* Reproduced by: TAN Books and Publishers Inc, Rockford Illinois, 1971
-* Approbation: James Cardinal Gibbons, Archbishop of Baltimore, Sept 1st 1899
+### 1899-Murphy
+* Havent been able to track down a copy or scan
+* See: [\[1899\-Unclear\]](#1899-unclear)
+
+### 1899-Unclear
+There were several Douay Rheims Bibles published with an Approbation or Imprimentor from:
+* James Cardinal Gibbons, Archbishop of Baltimore, Sept 1st 1899
+
+* When newer sources refer to their source being the 1889  might the mean of of:
+  * [\[1899-Murphy\]](#1899-murphy)
+    * haven't be able to find a copy or scan
+  * [\[1914-Kenedy\]](#1914-kenedy)
+    * Copywrite: 1914 John Murray Company
+  * [\[1914-Murphy\]](#1914-murphy)
+    * Copywrite: 1914 John Murray Company
+  * other?
+* Publications that make this unclear claim are:
+  * [\[1971-TAN\]](#1971-tan) - (Facsimile with printer replaced on title page)
+  * [\[2002-Baronius\]](#2002-baronius) - (Re-typeset)
+  * [\[2009-TAN\]](#2009-TAN) - (Re-typeset)
 
 
 ### 1914-Kenedy
@@ -76,10 +91,86 @@
 * Copyright: 1941 Douay Bible House
 * Imprimentor: Francis J Spellman, DD, Archbishop of New York, Feb 3rd 1941
 
+### 1971-TAN
+* Reproduced: Photographically reproduced from the 1899 edition of the John Murray Company, Baltimore Maryland [\[1899-Murphy\]](#1899-murphy)
+* Reproduced by: TAN Books and Publishers Inc, Rockford Illinois, 1971
+* Approbation: James Cardinal Gibbons, Archbishop of Baltimore, Sept 1st 1899
+
+### 2002-Baronius
+* Digitally Re-Typeset:
+  * "Completely retypeset to reproduce the original 1899 edition, making reading much easier"
+  * Is this the mystery [\[1899-Murphy\]](#1899-murphy)
+* Imprimentor: James Cardinal Gibbons, Archbishop of Baltimore, Sept 1st 1899
+* URL: https://www.baronius.com/douay-rheims-bible.html
+
+### 2009-TAN
+* Saint Benedict Press / TAN Books
+* Digitally Re-Typeset
+* Imprimentor: James Cardinal Gibbons, Archbishop of Baltimore, Sept 1st 1899
+* URL: https://tanbooks.com/
+
+### 2018-Loreto
+* Loreto Publications -- https://loretopubs.org/
+* Retypeset from [\[1941-Daleiton\]](#1941-daleiton)
+* Imprimentor: Francis J Spellman, DD, Archbishop of New York, New York, February 3rd 1941
+* 
+
+### ????-Biretta
+* Photographic Facsimile of [\[1914-Kenedy\]](#1914-kenedy)
+  * "based on the 1914 P. J. Kenedy & Sons edition [\[1914-Kenedy\]](#1914-kenedy) , which was a reissue of the John Murphy Co. edition of 1899 [\[1914-Murphy\]](#1899-murphy). The pages were scanned from the original edition and cleaned up." 
+* URL: https://www.birettabooks.com/douay-rheims-bible.html
 
 
+  
+## On-Line Freely Available Douay Rheims
+
+### pg1581
+
+Project Gutenberg - Book #1581
+
+* https://www.gutenberg.org/ebooks/1581
+  * https://www.gutenberg.org/cache/epub/1581/pg1581-images.html
+  * https://www.gutenberg.org/files/1581/
+  * https://www.gutenberg.org/cache/epub/1581/
+
+### pg8300
+
+Project Gutenberg -- Book #8300
+
+* https://www.gutenberg.org/ebooks/8300
+  * https://www.gutenberg.org/cache/epub/8300/
 
 
+## On-Line Copyright Restricted Douay Rheims
+
+### cbol
+Catholic Bible Online:
+* URL: https://catholicbible.online/
+* Copyright: 2015 - 2024 © CatholicBible.online, Baronius Press
+
+
+### drbo
+
+https://www.drbo.org/
+* URL: https://www.drbo.org/index.htm
+* Copyright: DRBO.ORG 2001-2023.  All rights reserved.
+* Scanned from [\[1971-Tan\]](#1971-tan)
+  * According to [https://www.drbo.org/about.htm]
+
+
+# Clementine Vulgates
+
+## Printed Vulgates
+
+### 2021-ChurchLatin
+
+https://www.churchlatin.com/bs1901
+
+Photographic Facsimile of a 1901 Desclee, Lefebvre, & Assoc Clementine Vulgate
+
+## Online Freely Available Vulgates
+
+### vulsearch
 
 
 ===============
@@ -87,12 +178,6 @@
 
 ## Text and notes
 
-### Project Gutenberg -- 1581
-
-* https://www.gutenberg.org/ebooks/1581
-  * https://www.gutenberg.org/cache/epub/1581/pg1581-images.html
-  * https://www.gutenberg.org/files/1581/
-  * https://www.gutenberg.org/cache/epub/1581/
 
 ### Project Gutenberg -- 8300
 
