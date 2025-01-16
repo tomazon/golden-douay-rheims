@@ -195,12 +195,13 @@ Douay-Rheims offerings:
       * John Cardinal Farley, Archbishop of New York
       * William Cardinal O’Conner, Archbishop of Boston
 
-
+<!--
 $\texttt{+ This {\color{red}is} Courier font.}$  
 $\texttt{+ This {\color{green}was} Courier font.}$  
 $foo \bgcolor{blue}{blue} bar$  
 ${\texttt + This {\color{red}is} Courier font.}$  
 ${\tt + This {\color{red}is} Courier font.}$ 
+ -->
 
 
 [^1]: From https://www.churchlatin.com/ ,  A photographic facsimile of a 1909 Descelle "Biblia Sacra" vulgate -- beautifully typeset and illustrated Clementine version of the Latin Vulgate Bible (see https://www.churchlatin.com/the-vulgate)
