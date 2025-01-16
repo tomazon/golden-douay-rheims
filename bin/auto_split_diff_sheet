@@ -1,0 +1,202 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use Data::Dumper;
+use File::Slurp;
+use String::Diff qw( diff );
+use String::Trim;
+
+use feature 'say';
+
+my $usage = "Usage: $0 book_id\n";
+my $book_id = shift() || die "$usage";
+my $diff_file = "./etc/diff_sheets/$book_id.dif";
+
+
+my $line_num = 0;
+my $last_line = '';
+my $last_fixed_tag = '';
+
+for my $line (read_file($diff_file)) {
+    $line_num++;
+    trim($line);
+
+
+    if ($line =~ /^#\s[A-Z[0-4]/) {
+        say $line;
+        my @cols = split(/\s*\|\s*/, $line);
+        if ($cols[0] =~ m/# ([A-Z0-9][A-Z]{2}:\d+:\d+)$/) {
+            if ($cols[1] =~ /^A:/) {
+                $last_line = $line;
+                next;
+            } elsif ($cols[1] =~ /^B:/) {
+                $last_fixed_tag = process_split($last_line, $line);
+                $last_line = '';
+                next;
+            } else {
+                die "ODD COMMANT - bad letter [$line_num]: $line\n";
+            }
+        } else {
+            die "ODD COMMENT - bad tag [$line_num]: $line\n";
+        }
+    }
+}
+
+sub process_split {
+    my ($line_a, $line_b) = @_;
+
+    my ($tag_a, $letter_a, $label_a, $cols_a) = split_comment_line($line_a);
+    my ($tag_b, $letter_b, $label_b, $cols_b) = split_comment_line($line_b);
+
+    die "Tags don't match [$line_num]:\n\t# $line_a\n\t# $line_b\n" if $tag_a ne $tag_b;
+    die "NOT A: [$line_num]: $line_a\n" if $letter_a ne 'A';
+    die "NOT B: [$line_num]: $line_b\n" if $letter_b ne 'B';
+
+    my @col_a = split(/\s*\.\.\.\s*/, $cols_a);
+    my @col_b = split(/\s*\.\.\.\s*/, $cols_b);
+    my $count_a = int(@col_a);
+    my $count_b = int(@col_b);
+
+    if ($count_a == $count_b) {
+        if (all_cols_match(\@col_a, \@col_b)) {
+            while (int(@col_a)) {
+                my $a = shift(@col_a);
+                my $b = shift(@col_b);
+                print_new_edits($tag_a, $a, $b);
+            }
+            say "";
+        }
+    } elsif ($count_a == 2 && $count_b == 1) {
+        my ($a1, $a2) = @col_a;
+        my ($b) = @col_b;
+        if (selections_match($a1, $b)) {
+            print_new_edits($tag_a, $a1, $b);
+            print_new_edits($tag_a, $a2, "$a2 FIX_1");
+            say "";
+        } elsif (selections_match($a2, $b)) {
+            print_new_edits($tag_a, $a1, "$a1 FIX_2");
+            print_new_edits($tag_a, $a2, $b);
+            say "";
+        }
+    } elsif ($count_a == 1 && $count_b == 2) {
+        my ($a) = @col_a;
+        my ($b1, $b2) = @col_b;
+        if (selections_match($a, $b1)) {
+            print_new_edits($tag_a, $a, $b1);
+            print_new_edits($tag_a, $b2, "$b2 FIX_3");
+            say "";
+        } elsif (selections_match($a, $b2)) {
+            print_new_edits($tag_a, $a, $b2);
+            print_new_edits($tag_a, $b1, "$b1 FIX_4");
+            say "";
+        }
+    }
+
+    "" # return empty tag to avoid cleaning up old splits (suto or manual)
+}
+
+sub print_new_edits {
+    my ($tag, $text_a, $text_b) = @_;
+    say "";
+    say "$tag | a: drbo     | $text_a |";
+    say "$tag | b: pg1581   | $text_b |";
+
+}
+
+sub all_cols_match {
+    my ($cols_a, $cols_b) = @_;
+    my @cols_a = @{$cols_a};
+    my @cols_b = @{$cols_b};
+
+    die "DIFF COL COUNT:\n\t"
+        . join('|', @cols_a) ."\n\t"
+        . join('|', @cols_b) ."\n"
+        if int(@cols_a) != int(@cols_b);
+
+    while (int(@cols_a)) {
+        my $a = shift(@cols_a);
+        my $b = shift(@cols_b);
+        if (!selections_match($a, $b)) {
+            say 'XXX';
+            return 0;
+        }
+    }
+
+    1
+}
+
+sub selections_match {
+    my ($text_a, $text_b) = @_;
+
+    my $len_a = length($text_a);
+    my $len_b = length($text_b);
+    my $len_diff = abs($len_a - $len_b);
+    return 0 if $len_diff > 5;
+
+    my $start_a = start_chars($text_a);
+    my $start_b = start_chars($text_a);
+    return 0 if $start_a ne $start_b;
+
+    my $end_a   = end_chars($text_a);
+    my $end_b   = end_chars($text_b);
+    return 0 if $end_a ne $end_b;
+
+    1
+}
+
+
+sub split_comment_line {
+    my ($line) = @_;
+
+    $line =~ s/^#\s+// || die "Not a comment [$line_num]: $line\n";
+
+    split_letter_line($line);
+}
+
+
+sub split_letter_line {
+    my ($line) = @_;
+
+    my ($tag, $which, $cols) = split(/\s*\|\s*/, $line);
+    my $letter = '';
+    my $label = '';
+    if ($which =~ /^([A-D]):$/) {
+        $letter = $1;
+    } elsif ($which =~ /^([A-D]):\s+(\w+)$/) {
+        ($letter, $label) = ($1,$2);
+    } else {
+        die "ODD chouce line - no letter/label [$line_num]: $line\n";
+    }
+
+    if ($letter eq 'A' && $label ne 'drbo') {
+        die "LET 'A' SHOULD BE 'drbo' not '$label' [$line_num]: $line\n";
+    } elsif ($letter eq 'B' && $label ne 'pg1581') {
+        die "LET 'B' SHOULD BE 'pg1581' not '$label' [$line_num]: $line\n";
+    }
+
+    trim($cols);
+
+    return ($tag, $letter, $label, $cols);
+}
+
+sub start_chars {
+    # return $1 if $_[0] =~ /^(...)/;
+    # ""
+    return '^' if $_[0] =~ /^\^/;
+    my $tmp = lc($_[0]);
+    $tmp =~ s/\s+//g;
+    $tmp =~ tr/\.\,:;//d;
+    return $1 if $tmp =~ /^(......)/;
+    ""
+}
+
+sub end_chars {
+    return '$' if $_[0] =~ /\$$/;
+    my $tmp = lc($_[0]);
+    $tmp =~ s/\s+//g;
+    $tmp =~ tr/\.\,:;//d;
+    return $1 if $tmp =~ /(......)$/;
+    ""
+}
