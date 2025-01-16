@@ -35,14 +35,15 @@ status:
 
     MAT:
         split_diffs: 'DONE'
-        determine_matches: ''
-        apply_vscodes: 'DONE'
+        determine_matches: 'WIP'
+        apply_vscodes: 'WIP'
         apply_red: 'WIP'
     MRK: 
-        split_diffs: 'WIP'
+        split_diffs: 'DONE'
         apply_vscodes: 'WIP'
         #apply_red: 'WIP'
-    LUK: {}
+    LUK:
+        split_diffs: 'WIP'
     JHN: {}
     ACT: {}
     1CO: {}
@@ -52,7 +53,7 @@ status:
     # Torah
 
     GEN: 
-        split_diffs: 'WIP'
+        split_diffs: 'DONE'
     EXO: {}
     LEV: {}
     NUM: {}
