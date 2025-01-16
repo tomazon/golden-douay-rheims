@@ -243,6 +243,8 @@ sub check_comment {
         1;
     } elsif ($comment =~ /^#=+\s*$/) {
         1;
+    } elsif ($comment =~ /^#########  /) {
+        1;
     } else {
         issue "ODD_COMMENT: $comment, stopped";
     }
