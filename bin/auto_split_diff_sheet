@@ -24,6 +24,7 @@ for my $line (read_file($diff_file)) {
     trim($line);
 
 
+
     if ($line =~ /^#\s[A-Z[0-4]/) {
         say $line;
         my @cols = split(/\s*\|\s*/, $line);
@@ -42,6 +43,42 @@ for my $line (read_file($diff_file)) {
             die "ODD COMMENT - bad tag [$line_num]: $line\n";
         }
     }
+
+    #if ($line =~ /\| [AB]: / && $last_fixed_tag && $line =~ /^ $last_fixed_tag \|/) {
+
+    # if ($last_fixed_tag) {
+    #     say "LFT:  $last_fixed_tag";
+    # }
+
+    if ($line =~ /^$last_fixed_tag \| [AB]: /) {
+        say "#- $line | CLEARED";
+    } elsif ($line =~ /^$last_fixed_tag \| which /) {
+        if ($line =~ /\| 1971-Tan:_ \|/) {
+             ;
+        } else {
+             say "#- $line | CLEARED";
+        }
+    } elsif ($line !~ /\S/) {
+        say $line;
+    } elsif ($line =~ /^#/) {
+        say $line;
+    } elsif ($line =~ /^([A-Z]{3}:\d+:\d+) \| ([A-Z]:[^\|]+?)\s?\|\s*([^\|]+)(.*)$/) { ##\s*([^\|]+)|(.*)$/) {
+        my ($tag, $lnl, $text, $rest) = ($1, $2, $3, $4);
+        my $comment = "";
+        trim($text);
+        if (length($text) <= 25) {
+            if ($text =~ /[\.,:;\?]$/) {
+                $text .= '$';
+                $comment = " | ADDED:\$";
+            } elsif ($text =~ /^[A-Z]/) {
+                $text = "^$text";
+                $comment = " | ADDED:^";
+            }
+        }
+        say "$tag | $lnl | $text $rest$comment";
+    } else {
+        say $line;
+    }
 }
 
 sub process_split {
@@ -59,49 +96,69 @@ sub process_split {
     my $count_a = int(@col_a);
     my $count_b = int(@col_b);
 
+    my $clear_tag = "";
+
     if ($count_a == $count_b) {
         if (all_cols_match(\@col_a, \@col_b)) {
             while (int(@col_a)) {
                 my $a = shift(@col_a);
                 my $b = shift(@col_b);
-                print_new_edits($tag_a, $a, $b);
+                print_new_edits({}, $tag_a, $a, $b);
             }
             say "";
+            $clear_tag = $tag_a;
         }
     } elsif ($count_a == 2 && $count_b == 1) {
         my ($a1, $a2) = @col_a;
         my ($b) = @col_b;
         if (selections_match($a1, $b)) {
-            print_new_edits($tag_a, $a1, $b);
-            print_new_edits($tag_a, $a2, "$a2 FIX_1");
+            print_new_edits({}, $tag_a, $a1, $b);
+            print_new_edits({}, $tag_a, $a2, "$a2 FIX_1");
             say "";
+            $clear_tag = $tag_a;
         } elsif (selections_match($a2, $b)) {
-            print_new_edits($tag_a, $a1, "$a1 FIX_2");
-            print_new_edits($tag_a, $a2, $b);
+            print_new_edits({}, $tag_a, $a1, "$a1 FIX_2");
+            print_new_edits({}, $tag_a, $a2, $b);
             say "";
+            $clear_tag = $tag_a;
         }
     } elsif ($count_a == 1 && $count_b == 2) {
         my ($a) = @col_a;
         my ($b1, $b2) = @col_b;
         if (selections_match($a, $b1)) {
-            print_new_edits($tag_a, $a, $b1);
-            print_new_edits($tag_a, $b2, "$b2 FIX_3");
+            print_new_edits({}, $tag_a, $a, $b1);
+            print_new_edits({}, $tag_a, $b2, "$b2 FIX_3");
             say "";
+            $clear_tag = $tag_a;
         } elsif (selections_match($a, $b2)) {
-            print_new_edits($tag_a, $a, $b2);
-            print_new_edits($tag_a, $b1, "$b1 FIX_4");
+            print_new_edits({}, $tag_a, $b1, "$b1 FIX_4");
+            print_new_edits({}, $tag_a, $a, $b2);
             say "";
+            $clear_tag = $tag_a;
         }
     }
 
-    "" # return empty tag to avoid cleaning up old splits (suto or manual)
+    $clear_tag
 }
 
 sub print_new_edits {
-    my ($tag, $text_a, $text_b) = @_;
+    my ($args, $tag, $text_a, $text_b) = @_;
+
+    if (length($text_a) <= 25 && length($text_b) <= 25) {
+
+        if ($text_a =~ /[\.,:;\?]$/ || $text_b =~ /[\.,:;\?]$/) {
+            $text_a .= '$';
+            $text_b .= '$';
+        } elsif ($text_a =~ /^[A-Z]/ && $text_b =~ /^[A-Z]/) {
+            $text_a = "^$text_a";
+            $text_b = "^$text_b";
+        }
+    }
+
     say "";
-    say "$tag | a: drbo     | $text_a |";
-    say "$tag | b: pg1581   | $text_b |";
+    say "$tag | A: drbo   | $text_a |";
+    say "$tag | B: pg1581 | $text_b |";
+    say "$tag | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |"
 
 }
 
