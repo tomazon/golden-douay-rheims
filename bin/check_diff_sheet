@@ -46,6 +46,11 @@ my $ok = {
     no_matches => {
         "MRK:8:27 pg1581" => 1, # non utf8 char
     },
+    start_differently => {
+        "LUK:12:28[3]" => 1,
+    },
+    end_differently => {
+    },
 };
 
 my $last_tag = "";
@@ -200,13 +205,13 @@ sub check_struct {
                             $d->{varients}->{A},
                             $d->{varients}->{B},
                         );
-                    } elsif ($start ne $a_start) {
+                    } elsif ($start ne $a_start && !$ok->{start_differently}->{"${tag}[$i]"}) {
                         issue join(' | ',
                             "${tag}[$i]  A and $let start differently",
                             $d->{varients}->{A},
                             $d->{varients}->{B},
                         );
-                    } elsif ($end ne $a_end) {
+                    } elsif ($end ne $a_end && !$ok->{end_differently}->{"${tag}[$i]"}) {
                         issue join(' | ',
                             "${tag}[$i]  A and $let end differently",
                             $d->{varients}->{A},

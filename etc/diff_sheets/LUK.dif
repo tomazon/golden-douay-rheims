@@ -3555,8 +3555,8 @@ LUK:11:37 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # LUK:11:39 | A: drbo   |  of the platter; but your insid |
 # LUK:11:39 | B: pg1581 | to him: Now you, Pharisees, make clean the ...  of the platter: but your insid |
 
-LUK:11:39 | A: drbo   | to him: Now you, Pharisees, make clean the |
-LUK:11:39 | B: pg1581 | to him: Now you Pharisees make clean the |
+LUK:11:39 | A: drbo   | to him: Now you Pharisees make clean the |
+LUK:11:39 | B: pg1581 | to him: Now you, Pharisees, make clean the |
 LUK:11:39 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 LUK:11:39 | A: drbo   | of the platter; but your insid |
@@ -3695,12 +3695,12 @@ LUK:12:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # LUK:12:05 | A: drbo   | ou shall fear: fear ye him, who after he h ... a, I say to you, fear him. |
 # LUK:12:05 | B: pg1581 | ou shall fear: Fear ye him who, after he hath  ... a, I say to you: Fear him. |
 
-LUK:12:05 | A: drbo   | ou shall fear: fear ye him, who after he h ... a, I say to you, fear him. |
-LUK:12:05 | B: pg1581 | ou shall fear: Fear ye him who, after he hath  ... a, I say to you: Fear him. |
+LUK:12:05 | A: drbo   | ou shall fear: fear ye him, who after he hath |
+LUK:12:05 | B: pg1581 | ou shall fear: Fear ye him who, after he hath |
 LUK:12:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-LUK:12:05 | A: drbo   | ou shall fear: fear ye him, who after he h ... a, I say to you, fear him. |
-LUK:12:05 | B: pg1581 | ou shall fear: Fear ye him who, after he hath  ... a, I say to you: Fear him. |
+LUK:12:05 | A: drbo   | a, I say to you, fear him. |
+LUK:12:05 | B: pg1581 | a, I say to you: Fear him. |
 LUK:12:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -3752,12 +3752,16 @@ LUK:12:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # LUK:12:18 | A: drbo   | l down my barns, and will build greater; and into them  ... are grown to me, and my goods. |
 # LUK:12:18 | B: pg1581 | l build greater: and into them  |
 
-LUK:12:18 | A: drbo   | l down my barns, and will build greater; and into them  ... are grown to me, and my goods. |
+LUK:12:18 | A: drbo   | l down my barns, and will build |
+LUK:12:18 | B: pg1581 | l down my barns and will build |
+LUK:12:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+LUK:12:18 | A: drbo   | l build greater; and into them |
 LUK:12:18 | B: pg1581 | l build greater: and into them |
 LUK:12:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-LUK:12:18 | A: drbo   | l down my barns, and will build greater; and into them  ... are grown to me, and my goods. |
-LUK:12:18 | B: pg1581 | l build greater: and into them |
+LUK:12:18 | A: drbo   | are grown to me, and my goods. |
+LUK:12:18 | B: pg1581 | are grown to me and my goods. |
 LUK:12:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -3813,12 +3817,20 @@ LUK:12:25 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # LUK:12:28 | A: drbo   | ay in the field, and tomorrow i ... t into the oven; how much more  |
 # LUK:12:28 | B: pg1581 | Now, if God clothe  ... rass that is to-day in the field and to-morrow is cast into the oven: how much more  |
 
-LUK:12:28 | A: drbo   | ay in the field, and tomorrow i ... t into the oven; how much more |
-LUK:12:28 | B: pg1581 | Now, if God clothe  ... rass that is to-day in the field and to-morrow is cast into the oven: how much more |
+LUK:12:28 | A: drbo   | ^Now if God clothe |
+LUK:12:28 | B: pg1581 | ^Now, if God clothe |
 LUK:12:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-LUK:12:28 | A: drbo   | ay in the field, and tomorrow i ... t into the oven; how much more |
-LUK:12:28 | B: pg1581 | Now, if God clothe  ... rass that is to-day in the field and to-morrow is cast into the oven: how much more |
+LUK:12:28 | A: drbo   | rass that is today in the field |
+LUK:12:28 | B: pg1581 | rass that is to-day in the field  |
+LUK:12:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+LUK:12:28 | A: drbo   | and tomorrow is cast |
+LUK:12:28 | B: pg1581 | and to-morrow is cast |
+LUK:12:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+LUK:12:28 | A: drbo   | into the oven; how much more |
+LUK:12:28 | B: pg1581 | into the oven: how much more |
 LUK:12:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -3844,17 +3856,26 @@ LUK:12:35 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # LUK:12:37 | A: drbo   |  those servants, whom the Lord  ... en I say to you, that he will gird himself, and make them  ... it down to meat, and passing wi |
 # LUK:12:37 | B: pg1581 | s whom the Lord, when he cometh |
 
-LUK:12:37 | A: drbo   | those servants, whom the Lord  ... en I say to you, that he will gird himself, and make them  ... it down to meat, and passing wi |
-LUK:12:37 | B: pg1581 | s whom the Lord, when he cometh |
+LUK:12:37 | A: drbo   | those servants, whom the Lord |
+LUK:12:37 | B: pg1581 | those servants whom the Lord |
 LUK:12:37 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-LUK:12:37 | A: drbo   | those servants, whom the Lord  ... en I say to you, that he will gird himself, and make them  ... it down to meat, and passing wi |
-LUK:12:37 | B: pg1581 | s whom the Lord, when he cometh |
+LUK:12:37 | A: drbo   | whom the Lord when he cometh |
+LUK:12:37 | B: pg1581 | whom the Lord, when he cometh |
 LUK:12:37 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-LUK:12:37 | A: drbo   | those servants, whom the Lord  ... en I say to you, that he will gird himself, and make them  ... it down to meat, and passing wi |
-LUK:12:37 | B: pg1581 | s whom the Lord, when he cometh |
+LUK:12:37 | A: drbo   | en I say to you, that he will gird  |
+LUK:12:37 | B: pg1581 | en I say to you that he will gird|
 LUK:12:37 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+LUK:12:37 | A: drbo   | will gird himself, and make them  |
+LUK:12:37 | B: pg1581 | will gird himself and make them|
+LUK:12:37 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+LUK:12:37 | A: drbo   | it down to meat, and passing wi |
+LUK:12:37 | B: pg1581 | it down to meat and passing wi |
+LUK:12:37 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 #
 #===============================
@@ -3877,22 +3898,34 @@ LUK:12:42 | A: drbo   | Lord said: Who (thinkest thou) is the faithfu |
 LUK:12:42 | B: pg1581 | Lord said: Who thinkest thou is the faithfu |
 LUK:12:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-LUK:12:43 | A: drbo   | is that servant, whom when his |
-LUK:12:43 | B: pg1581 | at servant whom, when his lord |
+
+
+LUK:12:43 | A: drbo   | is that servant, whom when his lord |
+LUK:12:43 | B: pg1581 | is that servant whom, when his lord |
 LUK:12:43 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 LUK:12:45 | A: drbo   | strike the menservants and maidservants, and t |
 LUK:12:45 | B: pg1581 | strike the men-servants and maid-servants, and t |
 LUK:12:45 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-LUK:12:46 | A: drbo   | he knoweth not, and shall separate him, and shall appo |
-LUK:12:46 | B: pg1581 | he knoweth not: and shall sepa |
+LUK:12:46 | A: drbo   | he knoweth not, and shall separate |
+LUK:12:46 | B: pg1581 | he knoweth not: and shall separate |
 LUK:12:46 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-LUK:12:47 | A: drbo   | ill of his lord, and prepared not himself, and did not ac |
+LUK:12:46 | A: drbo   | separate him, and shall appo |
+LUK:12:46 | B: pg1581 | separate him and shall appo |
+LUK:12:46 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+LUK:12:47 | A: drbo   | nd that servant who knew the w |
 LUK:12:47 | B: pg1581 | nd that servant, who knew the w |
 LUK:12:47 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
+LUK:12:47 | A: drbo   | ill of his lord, and prepared not himself, and did not ac |
+LUK:12:47 | B: pg1581 | ill of his lord and prepared not himself and did not ac |
+LUK:12:47 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
 #===============================
@@ -3929,16 +3962,32 @@ LUK:12:50 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # LUK:12:53 | A: drbo   | against the son, and the son ag ... inst his father, the mother aga ... st the daughter, and the daughter against the mother, the mother in law against her daughter in law, and the daughter in law against her mother in law. |
 # LUK:12:53 | B: pg1581 | inst his father: the mother aga ... hter against her mother: the mother-in-law against the daughter-in-law and the daughter-in-law against her mother-in-law. |
 
-LUK:12:53 | A: drbo   | against the son, and the son ag ... inst his father, the mother aga ... st the daughter, and the daughter against the mother, the mother in law against her daughter in law, and the daughter in law against her mother in law. |
-LUK:12:53 | B: pg1581 | inst his father: the mother aga ... hter against her mother: the mother-in-law against the daughter-in-law and the daughter-in-law against her mother-in-law. |
+LUK:12:53 | A: drbo   | against the son, and the son ag  |
+LUK:12:53 | B: pg1581 | against the son and the son ag  |
 LUK:12:53 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-LUK:12:53 | A: drbo   | against the son, and the son ag ... inst his father, the mother aga ... st the daughter, and the daughter against the mother, the mother in law against her daughter in law, and the daughter in law against her mother in law. |
-LUK:12:53 | B: pg1581 | inst his father: the mother aga ... hter against her mother: the mother-in-law against the daughter-in-law and the daughter-in-law against her mother-in-law. |
+LUK:12:53 | A: drbo   | inst his father, the mother aga  |
+LUK:12:53 | B: pg1581 | inst his father: the mother aga  |
 LUK:12:53 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-LUK:12:53 | A: drbo   | against the son, and the son ag ... inst his father, the mother aga ... st the daughter, and the daughter against the mother, the mother in law against her daughter in law, and the daughter in law against her mother in law. |
-LUK:12:53 | B: pg1581 | inst his father: the mother aga ... hter against her mother: the mother-in-law against the daughter-in-law and the daughter-in-law against her mother-in-law. |
+LUK:12:53 | A: drbo   | the mother against the daughter, and the daughter against |
+LUK:12:53 | B: pg1581 | the mother against the daughter and the daughter against |
+LUK:12:53 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+LUK:12:53 | A: drbo   | and the daughter against the mother |
+LUK:12:53 | B: pg1581 | and the daughter against her mother |
+LUK:12:53 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+LUK:12:53 | A: drbo   | mother, the mother |
+LUK:12:53 | B: pg1581 | mother: the mother |
+LUK:12:53 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+LUK:12:53 | A: drbo   | the mother in law against her daughter in law, and the |
+LUK:12:53 | B: pg1581 | the mother-in-law against the daughter-in-law and the |
+LUK:12:53 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+LUK:12:53 | A: drbo   | and the daughter in law against her mother in law.$ |
+LUK:12:53 | B: pg1581 | and the daughter-in-law against her mother-in-law.$ |
 LUK:12:53 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
