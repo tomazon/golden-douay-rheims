@@ -2,16 +2,16 @@ RUT:01:02 | A: drbo   | h, and his wife, Noemi: and his |
 RUT:01:02 | B: pg1581 | h, and his wife Noemi: and his |
 RUT:01:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:01:04 | A: drbo   | there ten years. |
-RUT:01:04 | B: pg1581 | there ten years, |
+RUT:01:04 | A: drbo   | there ten years.$ | | ADDED:$
+RUT:01:04 | B: pg1581 | there ten years,$ | | ADDED:$
 RUT:01:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:01:06 | A: drbo   | her own country with both her  |
-RUT:01:06 | B: pg1581 | her own country, with both her  |
+RUT:01:06 | A: drbo   | her own country with both her |
+RUT:01:06 | B: pg1581 | her own country, with both her |
 RUT:01:06 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:01:08 | A: drbo   | to your mothers: the Lord deal  |
-RUT:01:08 | B: pg1581 | to your mothers, the Lord deal  |
+RUT:01:08 | A: drbo   | to your mothers: the Lord deal |
+RUT:01:08 | B: pg1581 | to your mothers, the Lord deal |
 RUT:01:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -21,24 +21,27 @@ RUT:01:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # RUT:01:09 | B: pg1581 | the husbands whom you shall take ...  up their voice, and began to w |
 
 RUT:01:09 | A: drbo   | the husbands which you shall take |
-RUT:01:09 | B: pg1581 | the husbands whom you shall take ...  up their voice, and began to w |
+RUT:01:09 | B: pg1581 | the husbands whom you shall take |
 RUT:01:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:01:09 | A: drbo   | the husbands which you shall take |
-RUT:01:09 | B: pg1581 | the husbands whom you shall take ...  up their voice, and began to w |
+RUT:01:09 | A: drbo   | up their voice, and began to w |
+RUT:01:09 | B: pg1581 | up their voice, and began to w FIX_3 |
 RUT:01:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
 
 
 
-RUT:01:14 | A: drbo   | r mother in law and returned:  |
-RUT:01:14 | B: pg1581 | r mother in law, and returned:  |
+RUT:01:14 | A: drbo   | r mother in law and returned: |
+RUT:01:14 | B: pg1581 | r mother in law, and returned: |
 RUT:01:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 RUT:01:18 | A: drbo   | Then Noemi, seeing that Ru |
-RUT:01:18 | B: pg1581 | Then Noemi seeing that Ru |
+RUT:01:18 | B: pg1581 | ^Then Noemi seeing that Ru | | ADDED:^
 RUT:01:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 RUT:01:19 | A: drbo   | y went together and came to Be |
@@ -68,8 +71,8 @@ RUT:01:21 | A: drbo   | I went out full, and the Lord h |
 RUT:01:21 | B: pg1581 | rd hath humbled, and the Almigh |
 RUT:01:21 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:01:22 | A: drbo   |  came with Ruth the Moabitess her daughter i |
-RUT:01:22 | B: pg1581 |  came with Ruth, the Moabitess, her daughter i |
+RUT:01:22 | A: drbo   | came with Ruth the Moabitess her daughter i |
+RUT:01:22 | B: pg1581 | came with Ruth, the Moabitess, her daughter i |
 RUT:01:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -78,13 +81,16 @@ RUT:01:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # RUT:02:02 | A: drbo   | And Ruth the Moabitess said to her mo ... h a householder that will be f |
 # RUT:02:02 | B: pg1581 | And Ruth, the Moabitess, said to her mo ... h a householder, that will be f |
 
-RUT:02:02 | A: drbo   | And Ruth the Moabitess said to her mo ... h a householder that will be f |
-RUT:02:02 | B: pg1581 | And Ruth, the Moabitess, said to her mo ... h a householder, that will be f |
+RUT:02:02 | A: drbo   | And Ruth the Moabitess said to her mo |
+RUT:02:02 | B: pg1581 | And Ruth, the Moabitess, said to her mo |
 RUT:02:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:02:02 | A: drbo   | And Ruth the Moabitess said to her mo ... h a householder that will be f |
-RUT:02:02 | B: pg1581 | And Ruth, the Moabitess, said to her mo ... h a householder, that will be f |
+RUT:02:02 | A: drbo   | h a householder that will be f |
+RUT:02:02 | B: pg1581 | h a householder, that will be f |
 RUT:02:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -95,8 +101,8 @@ RUT:02:03 | A: drbo   | She went therefore and gleaned th |
 RUT:02:03 | B: pg1581 | She went, therefore, and gleaned th |
 RUT:02:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:02:06 | A: drbo   | s the Moabitess who came with  |
-RUT:02:06 | B: pg1581 | s the Moabitess, who came with  |
+RUT:02:06 | A: drbo   | s the Moabitess who came with |
+RUT:02:06 | B: pg1581 | s the Moabitess, who came with |
 RUT:02:06 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 RUT:02:09 | A: drbo   | ere they reap. For I have charg |
@@ -109,13 +115,16 @@ RUT:02:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # RUT:02:10 | A: drbo   | ell on her face and worshippin ... ke notice of me a woman of ano |
 # RUT:02:10 | B: pg1581 | ell on her face, and worshippin ... ke notice of me, a woman of ano |
 
-RUT:02:10 | A: drbo   | ell on her face and worshippin ... ke notice of me a woman of ano |
-RUT:02:10 | B: pg1581 | ell on her face, and worshippin ... ke notice of me, a woman of ano |
+RUT:02:10 | A: drbo   | ell on her face and worshippin |
+RUT:02:10 | B: pg1581 | ell on her face, and worshippin |
 RUT:02:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:02:10 | A: drbo   | ell on her face and worshippin ... ke notice of me a woman of ano |
-RUT:02:10 | B: pg1581 | ell on her face, and worshippin ... ke notice of me, a woman of ano |
+RUT:02:10 | A: drbo   | ke notice of me a woman of ano |
+RUT:02:10 | B: pg1581 | ke notice of me, a woman of ano |
 RUT:02:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -130,8 +139,8 @@ RUT:02:13 | A: drbo   | st comforted me and hast spoke |
 RUT:02:13 | B: pg1581 | st comforted me, and hast spoke |
 RUT:02:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:02:17 | A: drbo   |  out with a rod and threshing  |
-RUT:02:17 | B: pg1581 |  out with a rod, and threshing  |
+RUT:02:17 | A: drbo   | out with a rod and threshing |
+RUT:02:17 | B: pg1581 | out with a rod, and threshing |
 RUT:02:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -140,13 +149,16 @@ RUT:02:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # RUT:02:18 | A: drbo   | ich she took up and returned i ... n law: moreover she brought ou |
 # RUT:02:18 | B: pg1581 | ich she took up, and returned i ... n law: moreover, she brought ou |
 
-RUT:02:18 | A: drbo   | ich she took up and returned i ... n law: moreover she brought ou |
-RUT:02:18 | B: pg1581 | ich she took up, and returned i ... n law: moreover, she brought ou |
+RUT:02:18 | A: drbo   | ich she took up and returned i |
+RUT:02:18 | B: pg1581 | ich she took up, and returned i |
 RUT:02:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:02:18 | A: drbo   | ich she took up and returned i ... n law: moreover she brought ou |
-RUT:02:18 | B: pg1581 | ich she took up, and returned i ... n law: moreover, she brought ou |
+RUT:02:18 | A: drbo   | n law: moreover she brought ou |
+RUT:02:18 | B: pg1581 | n law: moreover, she brought ou |
 RUT:02:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -161,16 +173,16 @@ RUT:03:07 | A: drbo   | she came softly and uncovering |
 RUT:03:07 | B: pg1581 | she came softly, and uncovering |
 RUT:03:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:03:09 | A: drbo   | ered: I am Ruth thy handmaid:  |
-RUT:03:09 | B: pg1581 | ered: I am Ruth, thy handmaid:  |
+RUT:03:09 | A: drbo   | ered: I am Ruth thy handmaid: |
+RUT:03:09 | B: pg1581 | ered: I am Ruth, thy handmaid: |
 RUT:03:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 RUT:03:11 | A: drbo   | ll do to thee. For all the peop |
 RUT:03:11 | B: pg1581 | ll do to thee. for all the peop |
 RUT:03:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:03:15 | A: drbo   |  she carried it and went into  |
-RUT:03:15 | B: pg1581 |  she carried it, and went into  |
+RUT:03:15 | A: drbo   | she carried it and went into |
+RUT:03:15 | B: pg1581 | she carried it, and went into |
 RUT:03:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -179,21 +191,24 @@ RUT:03:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # RUT:03:18 | A: drbo   | ing will have. For the man will |
 # RUT:03:18 | B: pg1581 | oemi said: Wait, my daughter, t ... ing will have. for the man will |
 
-RUT:03:18 | A: drbo   | ing will have. For the man will |
-RUT:03:18 | B: pg1581 | oemi said: Wait, my daughter, t ... ing will have. for the man will |
+RUT:03:18 | A: drbo   | oemi said: Wait, my daughter, t |
+RUT:03:18 | B: pg1581 | oemi said: Wait, my daughter, t FIX_4 |
 RUT:03:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 RUT:03:18 | A: drbo   | ing will have. For the man will |
-RUT:03:18 | B: pg1581 | oemi said: Wait, my daughter, t ... ing will have. for the man will |
+RUT:03:18 | B: pg1581 | ing will have. for the man will |
 RUT:03:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
 
 
 
-RUT:04:02 | A: drbo   | And Booz taking ten men |
-RUT:04:02 | B: pg1581 | And Booz, taking ten men |
+RUT:04:02 | A: drbo   | ^And Booz taking ten men | | ADDED:^
+RUT:04:02 | B: pg1581 | ^And Booz, taking ten men | | ADDED:^
 RUT:04:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 RUT:04:03 | A: drbo   | country of Moab, will sell a pa |
@@ -206,21 +221,24 @@ RUT:04:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # RUT:04:04 | A: drbo   |  I have to do. For there is no  |
 # RUT:04:04 | B: pg1581 | kindred: buy it, and possess it ...  I have to do. for there is no  |
 
-RUT:04:04 | A: drbo   |  I have to do. For there is no  |
-RUT:04:04 | B: pg1581 | kindred: buy it, and possess it ...  I have to do. for there is no  |
+RUT:04:04 | A: drbo   | kindred: buy it, and possess it |
+RUT:04:04 | B: pg1581 | kindred: buy it, and possess it FIX_4 |
 RUT:04:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:04:04 | A: drbo   |  I have to do. For there is no  |
-RUT:04:04 | B: pg1581 | kindred: buy it, and possess it ...  I have to do. for there is no  |
+RUT:04:04 | A: drbo   | I have to do. For there is no |
+RUT:04:04 | B: pg1581 | I have to do. for there is no |
 RUT:04:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
 
 
 
-RUT:04:05 | A: drbo   |  take also Ruth the Moabitess, |
-RUT:04:05 | B: pg1581 |  take also Ruth, the Moabitess, |
+RUT:04:05 | A: drbo   | take also Ruth the Moabitess, |
+RUT:04:05 | B: pg1581 | take also Ruth, the Moabitess, |
 RUT:04:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 RUT:04:07 | A: drbo   | ut off his shoe, and gave it to his neighhour; this was a |
@@ -239,12 +257,12 @@ RUT:04:11 | A: drbo   | nd the ancients answered: We a |
 RUT:04:11 | B: pg1581 | nd the ancients, answered: We a |
 RUT:04:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:04:13 | A: drbo   | her to conceive and to bear a  |
-RUT:04:13 | B: pg1581 | her to conceive, and to bear a  |
+RUT:04:13 | A: drbo   | her to conceive and to bear a |
+RUT:04:13 | B: pg1581 | her to conceive, and to bear a |
 RUT:04:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:04:14 | A: drbo   | ant a successor, that his name  |
-RUT:04:14 | B: pg1581 | ant a successor: that his name  |
+RUT:04:14 | A: drbo   | ant a successor, that his name |
+RUT:04:14 | B: pg1581 | ant a successor: that his name |
 RUT:04:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 RUT:04:15 | A: drbo   | h thy old age. For he is born o |
@@ -261,11 +279,11 @@ RUT:04:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # RUT:04:17 | A: drbo   |  her and saying: There is a son born to Noemi: called his nam |
 # RUT:04:17 | B: pg1581 | And the women, her neighbours ... lating with her, and saying, There is a son born to Noemi, called his nam |
 
-RUT:04:17 | A: drbo   |  her and saying: There is a son born to Noemi: called his nam |
+RUT:04:17 | A: drbo   | her and saying: There is a son born to Noemi: called his nam |
 RUT:04:17 | B: pg1581 | And the women, her neighbours ... lating with her, and saying, There is a son born to Noemi, called his nam |
 RUT:04:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-RUT:04:17 | A: drbo   |  her and saying: There is a son born to Noemi: called his nam |
+RUT:04:17 | A: drbo   | her and saying: There is a son born to Noemi: called his nam |
 RUT:04:17 | B: pg1581 | And the women, her neighbours ... lating with her, and saying, There is a son born to Noemi, called his nam |
 RUT:04:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 

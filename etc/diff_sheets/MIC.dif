@@ -16,13 +16,16 @@ MIC:01:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # MIC:01:11 | A: drbo   | wellest in the Beautiful place, ...  confines: the House adjoining  |
 # MIC:01:11 | B: pg1581 | wellest in the beautiful place, ...  confines: the house adjoining  |
 
-MIC:01:11 | A: drbo   | wellest in the Beautiful place, ...  confines: the House adjoining  |
-MIC:01:11 | B: pg1581 | wellest in the beautiful place, ...  confines: the house adjoining  |
+MIC:01:11 | A: drbo   | wellest in the Beautiful place, |
+MIC:01:11 | B: pg1581 | wellest in the beautiful place, |
 MIC:01:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:01:11 | A: drbo   | wellest in the Beautiful place, ...  confines: the House adjoining  |
-MIC:01:11 | B: pg1581 | wellest in the beautiful place, ...  confines: the house adjoining  |
+MIC:01:11 | A: drbo   | confines: the House adjoining |
+MIC:01:11 | B: pg1581 | confines: the house adjoining |
 MIC:01:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -37,16 +40,16 @@ MIC:02:03 | A: drbo   | he Lord: Behold, I devise an ev |
 MIC:02:03 | B: pg1581 | he Lord: Behold I devise an ev |
 MIC:02:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:02:07 | A: drbo   |  saith: Is the spirit of the Lord straitened, or are these h |
-MIC:02:07 | B: pg1581 |  saith: Is the Spirit of the Lo |
+MIC:02:07 | A: drbo   | saith: Is the spirit of the Lord straitened, or are these h |
+MIC:02:07 | B: pg1581 | saith: Is the Spirit of the Lo |
 MIC:02:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MIC:02:09 | A: drbo   | n my praise for ever from their |
 MIC:02:09 | B: pg1581 | n my praise forever from their |
 MIC:02:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:02:10 | A: drbo   |  here for you. For that unclean |
-MIC:02:10 | B: pg1581 |  here for you. for that unclean |
+MIC:02:10 | A: drbo   | here for you. For that unclean |
+MIC:02:10 | B: pg1581 | here for you. for that unclean |
 MIC:02:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MIC:02:12 | A: drbo   | n the fold, as the sheep in the mi |
@@ -75,41 +78,44 @@ MIC:03:06 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # MIC:03:08 | A: drbo   | , with judgment, and power: to  ...  his wickedness, and to Israel  |
 # MIC:03:08 | B: pg1581 | , with judgment and power: to  ...  his wickedness and to Israel  |
 
-MIC:03:08 | A: drbo   | , with judgment, and power: to  ...  his wickedness, and to Israel  |
-MIC:03:08 | B: pg1581 | , with judgment and power: to  ...  his wickedness and to Israel  |
+MIC:03:08 | A: drbo   | , with judgment, and power: to |
+MIC:03:08 | B: pg1581 | , with judgment and power: to |
 MIC:03:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:03:08 | A: drbo   | , with judgment, and power: to  ...  his wickedness, and to Israel  |
-MIC:03:08 | B: pg1581 | , with judgment and power: to  ...  his wickedness and to Israel  |
+MIC:03:08 | A: drbo   | his wickedness, and to Israel |
+MIC:03:08 | B: pg1581 | his wickedness and to Israel |
 MIC:03:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
 
 
 
-MIC:03:09 | A: drbo   |  abhor judgment, and pervert al |
-MIC:03:09 | B: pg1581 |  abhor judgment and pervert al |
+MIC:03:09 | A: drbo   | abhor judgment, and pervert al |
+MIC:03:09 | B: pg1581 | abhor judgment and pervert al |
 MIC:03:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MIC:03:11 | A: drbo   | dged for bribes, and her priest |
 MIC:03:11 | B: pg1581 | dged for bribes: and her priest |
 MIC:03:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:03:12 | A: drbo   | Therefore, because of you |
-MIC:03:12 | B: pg1581 | Therefore because of you |
+MIC:03:12 | A: drbo   | ^Therefore, because of you | | ADDED:^
+MIC:03:12 | B: pg1581 | ^Therefore because of you | | ADDED:^
 MIC:03:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:04:01 | A: drbo   |  in the top of mountains, and  |
-MIC:04:01 | B: pg1581 |  in the top of the mountains, and  |
+MIC:04:01 | A: drbo   | in the top of mountains, and |
+MIC:04:01 | B: pg1581 | in the top of the mountains, and |
 MIC:04:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:04:03 | A: drbo   | y learn war any more. |
-MIC:04:03 | B: pg1581 | y learn war anymore. |
+MIC:04:03 | A: drbo   | y learn war any more.$ | | ADDED:$
+MIC:04:03 | B: pg1581 | y learn war anymore.$ | | ADDED:$
 MIC:04:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:04:04 | A: drbo   | ake them afraid: for the mouth  |
-MIC:04:04 | B: pg1581 | ake them afraid, for the mouth  |
+MIC:04:04 | A: drbo   | ake them afraid: for the mouth |
+MIC:04:04 | B: pg1581 | ake them afraid, for the mouth |
 MIC:04:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MIC:04:05 | A: drbo   | ame of the Lord our God for ever and e |
@@ -145,12 +151,12 @@ MIC:04:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # MIC:04:09 | A: drbo   |  is thy counsellor perished, be ... woman in labour? |
 # MIC:04:09 | B: pg1581 | woman in labour. |
 
-MIC:04:09 | A: drbo   |  is thy counsellor perished, be ... woman in labour? |
-MIC:04:09 | B: pg1581 | woman in labour. |
+MIC:04:09 | A: drbo   | is thy counsellor perished, be ... woman in labour? |
+MIC:04:09 | B: pg1581 | woman in labour.$ | | ADDED:$
 MIC:04:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:04:09 | A: drbo   |  is thy counsellor perished, be ... woman in labour? |
-MIC:04:09 | B: pg1581 | woman in labour. |
+MIC:04:09 | A: drbo   | is thy counsellor perished, be ... woman in labour? |
+MIC:04:09 | B: pg1581 | woman in labour.$ | | ADDED:$
 MIC:04:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -164,13 +170,16 @@ MIC:04:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # MIC:05:02 | A: drbo   | AND THOU, BETHLEHEM Ephrata, art a ... ousands of Juda: out of thee sh |
 # MIC:05:02 | B: pg1581 | And thou Bethlehem Ephrata, art a ... ousands of Juda, out of thee sh |
 
-MIC:05:02 | A: drbo   | AND THOU, BETHLEHEM Ephrata, art a ... ousands of Juda: out of thee sh |
-MIC:05:02 | B: pg1581 | And thou Bethlehem Ephrata, art a ... ousands of Juda, out of thee sh |
+MIC:05:02 | A: drbo   | AND THOU, BETHLEHEM Ephrata, art a |
+MIC:05:02 | B: pg1581 | And thou Bethlehem Ephrata, art a |
 MIC:05:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:05:02 | A: drbo   | AND THOU, BETHLEHEM Ephrata, art a ... ousands of Juda: out of thee sh |
-MIC:05:02 | B: pg1581 | And thou Bethlehem Ephrata, art a ... ousands of Juda, out of thee sh |
+MIC:05:02 | A: drbo   | ousands of Juda: out of thee sh |
+MIC:05:02 | B: pg1581 | ousands of Juda, out of thee sh |
 MIC:05:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -181,12 +190,12 @@ MIC:05:04 | A: drbo   | ame of the Lord his God: and t |
 MIC:05:04 | B: pg1581 | ame of the Lord, his God: and t |
 MIC:05:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:05:06 | A: drbo   | om the Assyrian, when he shall  |
-MIC:05:06 | B: pg1581 | om the Assyrian when he shall  |
+MIC:05:06 | A: drbo   | om the Assyrian, when he shall |
+MIC:05:06 | B: pg1581 | om the Assyrian when he shall |
 MIC:05:06 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:05:07 | A: drbo   | of many peoples as a dew from  |
-MIC:05:07 | B: pg1581 | of many peoples, as a dew from  |
+MIC:05:07 | A: drbo   | of many peoples as a dew from |
+MIC:05:07 | B: pg1581 | of many peoples, as a dew from |
 MIC:05:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -195,11 +204,11 @@ MIC:05:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # MIC:05:08 | A: drbo   |  down, and take, there is none  |
 # MIC:05:08 | B: pg1581 | ng the Gentiles, in the midst of many peoples, as a lion amon ... s of sheep: who, when he shall go through, and tread down |
 
-MIC:05:08 | A: drbo   |  down, and take, there is none  |
+MIC:05:08 | A: drbo   | down, and take, there is none |
 MIC:05:08 | B: pg1581 | ng the Gentiles, in the midst of many peoples, as a lion amon ... s of sheep: who, when he shall go through, and tread down |
 MIC:05:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:05:08 | A: drbo   |  down, and take, there is none  |
+MIC:05:08 | A: drbo   | down, and take, there is none |
 MIC:05:08 | B: pg1581 | ng the Gentiles, in the midst of many peoples, as a lion amon ... s of sheep: who, when he shall go through, and tread down |
 MIC:05:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -212,23 +221,23 @@ MIC:05:12 | A: drbo   | and thy statues out of the mid |
 MIC:05:12 | B: pg1581 | and thy statues, out of the mid |
 MIC:05:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:05:14 | A: drbo   | geance in wrath and in indignation among all the  |
-MIC:05:14 | B: pg1581 | geance in wrath, and in indignation, among all the  |
+MIC:05:14 | A: drbo   | geance in wrath and in indignation among all the |
+MIC:05:14 | B: pg1581 | geance in wrath, and in indignation, among all the |
 MIC:05:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MIC:06:05 | A: drbo   | now the justices of the Lord. |
-MIC:06:05 | B: pg1581 | ee, what Balach, the king of Moab, purposed: and what Balaam, the son of Beor, answered him,  |
+MIC:06:05 | B: pg1581 | ee, what Balach, the king of Moab, purposed: and what Balaam, the son of Beor, answered him, |
 MIC:06:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MIC:06:08 | A: drbo   | of thee: Verily, to do judgment |
 MIC:06:08 | B: pg1581 | of thee: Verily to do judgment |
 MIC:06:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:06:09 | A: drbo   |  thy name: hear, O ye tribes, a |
-MIC:06:09 | B: pg1581 |  thy name: hear O ye tribes, a |
+MIC:06:09 | A: drbo   | thy name: hear, O ye tribes, a |
+MIC:06:09 | B: pg1581 | thy name: hear O ye tribes, a |
 MIC:06:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:07:01 | A: drbo   | sired the firstripe figs. |
+MIC:07:01 | A: drbo   | sired the firstripe figs.$ | | ADDED:$
 MIC:07:01 | B: pg1581 | sired the first ripe figs. |
 MIC:07:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -236,8 +245,8 @@ MIC:07:04 | A: drbo   | , is as a brier: and he that is |
 MIC:07:04 | B: pg1581 | , is as a brier, and he that is |
 MIC:07:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:07:07 | A: drbo   | ait for God my Saviour: my God  |
-MIC:07:07 | B: pg1581 | ll wait for God, my saviour: my God  |
+MIC:07:07 | A: drbo   | ait for God my Saviour: my God |
+MIC:07:07 | B: pg1581 | ll wait for God, my saviour: my God |
 MIC:07:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MIC:07:08 | A: drbo   | joice not, thou, my enemy, over |
@@ -248,8 +257,8 @@ MIC:07:09 | A: drbo   | ned against him; until he judge |
 MIC:07:09 | B: pg1581 | ned against him: until he judge my cause, and execute ju |
 MIC:07:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:07:10 | A: drbo   |  Lord thy God? My eyes shall lo |
-MIC:07:10 | B: pg1581 |  Lord thy God? my eyes shall lo |
+MIC:07:10 | A: drbo   | Lord thy God? My eyes shall lo |
+MIC:07:10 | B: pg1581 | Lord thy God? my eyes shall lo |
 MIC:07:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MIC:07:13 | A: drbo   | e made desolate, because of the |
@@ -264,8 +273,8 @@ MIC:07:15 | A: drbo   | e land of Egypt I will shew hi |
 MIC:07:15 | B: pg1581 | e land of Egypt, I will shew hi |
 MIC:07:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MIC:07:17 | A: drbo   |  dread the Lord our God, and s |
-MIC:07:17 | B: pg1581 |  dread the Lord, our God, and s |
+MIC:07:17 | A: drbo   | dread the Lord our God, and s |
+MIC:07:17 | B: pg1581 | dread the Lord, our God, and s |
 MIC:07:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MIC:07:20 | A: drbo   | orm the truth of Jacob, the mer |

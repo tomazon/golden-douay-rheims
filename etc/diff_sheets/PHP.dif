@@ -4,13 +4,16 @@
 # PHP:01:01 | A: drbo   | of Jesus Christ; to all the sai ... in Christ Jesus, who are at Phi |
 # PHP:01:01 | B: pg1581 | of Jesus Christ: to all the sai |
 
-PHP:01:01 | A: drbo   | of Jesus Christ; to all the sai ... in Christ Jesus, who are at Phi |
+PHP:01:01 | A: drbo   | of Jesus Christ; to all the sai |
 PHP:01:01 | B: pg1581 | of Jesus Christ: to all the sai |
 PHP:01:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:01:01 | A: drbo   | of Jesus Christ; to all the sai ... in Christ Jesus, who are at Phi |
-PHP:01:01 | B: pg1581 | of Jesus Christ: to all the sai |
+PHP:01:01 | A: drbo   | in Christ Jesus, who are at Phi |
+PHP:01:01 | B: pg1581 | in Christ Jesus, who are at Phi FIX_1 |
 PHP:01:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -21,12 +24,12 @@ PHP:01:02 | A: drbo   | ace be unto you, and peace from God our Father, and from
 PHP:01:02 | B: pg1581 | o you and peace, from God our F |
 PHP:01:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:01:03 | A: drbo   | embrance of you, |
-PHP:01:03 | B: pg1581 | embrance of you: |
+PHP:01:03 | A: drbo   | embrance of you,$ | | ADDED:$
+PHP:01:03 | B: pg1581 | embrance of you:$ | | ADDED:$
 PHP:01:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:01:04 | A: drbo   | ion for you all, with joy; |
-PHP:01:04 | B: pg1581 | ou all with joy: |
+PHP:01:04 | B: pg1581 | ou all with joy:$ | | ADDED:$
 PHP:01:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:01:05 | A: drbo   | ospel of Christ from the first |
@@ -66,13 +69,16 @@ PHP:01:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:01:09 | A: drbo   | And this I pray, that your charit ... nd in knowledge, and in all und |
 # PHP:01:09 | B: pg1581 | And this I pray: That your charit |
 
-PHP:01:09 | A: drbo   | And this I pray, that your charit ... nd in knowledge, and in all und |
+PHP:01:09 | A: drbo   | And this I pray, that your charit |
 PHP:01:09 | B: pg1581 | And this I pray: That your charit |
 PHP:01:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:01:09 | A: drbo   | And this I pray, that your charit ... nd in knowledge, and in all und |
-PHP:01:09 | B: pg1581 | And this I pray: That your charit |
+PHP:01:09 | A: drbo   | nd in knowledge, and in all und |
+PHP:01:09 | B: pg1581 | nd in knowledge, and in all und FIX_1 |
 PHP:01:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -85,13 +91,16 @@ PHP:01:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:01:10 | A: drbo   | e better things, that you may b ... e day of Christ, |
 # PHP:01:10 | B: pg1581 | e better things: that you may b ... e day of Christ: |
 
-PHP:01:10 | A: drbo   | e better things, that you may b ... e day of Christ, |
-PHP:01:10 | B: pg1581 | e better things: that you may b ... e day of Christ: |
+PHP:01:10 | A: drbo   | e better things, that you may b |
+PHP:01:10 | B: pg1581 | e better things: that you may b |
 PHP:01:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:01:10 | A: drbo   | e better things, that you may b ... e day of Christ, |
-PHP:01:10 | B: pg1581 | e better things: that you may b ... e day of Christ: |
+PHP:01:10 | A: drbo   | e day of Christ,$ |
+PHP:01:10 | B: pg1581 | e day of Christ:$ |
 PHP:01:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -104,13 +113,16 @@ PHP:01:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:01:12 | A: drbo   | you should know, that the thing ...  happened to me, have fallen ou |
 # PHP:01:12 | B: pg1581 | you should know that the thing ...  happened to me have fallen ou |
 
-PHP:01:12 | A: drbo   | you should know, that the thing ...  happened to me, have fallen ou |
-PHP:01:12 | B: pg1581 | you should know that the thing ...  happened to me have fallen ou |
+PHP:01:12 | A: drbo   | you should know, that the thing |
+PHP:01:12 | B: pg1581 | you should know that the thing |
 PHP:01:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:01:12 | A: drbo   | you should know, that the thing ...  happened to me, have fallen ou |
-PHP:01:12 | B: pg1581 | you should know that the thing ...  happened to me have fallen ou |
+PHP:01:12 | A: drbo   | happened to me, have fallen ou |
+PHP:01:12 | B: pg1581 | happened to me have fallen ou |
 PHP:01:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -118,11 +130,11 @@ PHP:01:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 PHP:01:13 | A: drbo   | n all the court, and in all other places; |
-PHP:01:13 | B: pg1581 | ll other places. |
+PHP:01:13 | B: pg1581 | ll other places.$ | | ADDED:$
 PHP:01:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:01:15 | A: drbo   |  and contention; but some also  |
-PHP:01:15 | B: pg1581 |  and contention: but some also  |
+PHP:01:15 | A: drbo   | and contention; but some also |
+PHP:01:15 | B: pg1581 | and contention: but some also |
 PHP:01:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:01:18 | A: drbo   | her by occasion, or by truth, C |
@@ -152,8 +164,8 @@ PHP:01:20 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 
-PHP:01:21 | A: drbo   |  live is Christ; and to die is  |
-PHP:01:21 | B: pg1581 |  live is Christ: and to die is  |
+PHP:01:21 | A: drbo   | live is Christ; and to die is |
+PHP:01:21 | B: pg1581 | live is Christ: and to die is |
 PHP:01:21 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -162,13 +174,16 @@ PHP:01:21 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:01:22 | A: drbo   | ve in the flesh, this is to me  ... fruit of labour, and what I shall |
 # PHP:01:22 | B: pg1581 | ve in the flesh: this is to me  ... fruit of labour. And what I shall |
 
-PHP:01:22 | A: drbo   | ve in the flesh, this is to me  ... fruit of labour, and what I shall |
-PHP:01:22 | B: pg1581 | ve in the flesh: this is to me  ... fruit of labour. And what I shall |
+PHP:01:22 | A: drbo   | ve in the flesh, this is to me |
+PHP:01:22 | B: pg1581 | ve in the flesh: this is to me |
 PHP:01:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:01:22 | A: drbo   | ve in the flesh, this is to me  ... fruit of labour, and what I shall |
-PHP:01:22 | B: pg1581 | ve in the flesh: this is to me  ... fruit of labour. And what I shall |
+PHP:01:22 | A: drbo   | fruit of labour, and what I shall |
+PHP:01:22 | B: pg1581 | fruit of labour. And what I shall |
 PHP:01:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -183,12 +198,12 @@ PHP:01:25 | A: drbo   | t I shall abide, and continue w |
 PHP:01:25 | B: pg1581 | t I shall abide and continue w |
 PHP:01:25 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:01:28 | A: drbo   | d this from God: |
-PHP:01:28 | B: pg1581 | d this from God. |
+PHP:01:28 | A: drbo   | d this from God:$ | | ADDED:$
+PHP:01:28 | B: pg1581 | d this from God.$ | | ADDED:$
 PHP:01:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:01:29 | A: drbo   |  suffer for him. |
-PHP:01:29 | B: pg1581 |  suffer for him: |
+PHP:01:29 | A: drbo   | suffer for him.$ | | ADDED:$
+PHP:01:29 | B: pg1581 | suffer for him:$ | | ADDED:$
 PHP:01:29 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:01:30 | A: drbo   | have seen in me, and now have h |
@@ -204,7 +219,7 @@ PHP:02:03 | B: pg1581 | ough contention: neither by vain glory. But in humility,
 PHP:02:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:02:09 | A: drbo   | ath exalted him, and hath given |
-PHP:02:09 | B: pg1581 | For which cause, God also hath  |
+PHP:02:09 | B: pg1581 | For which cause, God also hath |
 PHP:02:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -213,21 +228,24 @@ PHP:02:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:02:12 | A: drbo   | y presence only, but much more  ... w in my absence,) with fear and |
 # PHP:02:12 | B: pg1581 | y presence only but much more  ... w in my absence) with fear and |
 
-PHP:02:12 | A: drbo   | y presence only, but much more  ... w in my absence,) with fear and |
-PHP:02:12 | B: pg1581 | y presence only but much more  ... w in my absence) with fear and |
+PHP:02:12 | A: drbo   | y presence only, but much more |
+PHP:02:12 | B: pg1581 | y presence only but much more |
 PHP:02:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:02:12 | A: drbo   | y presence only, but much more  ... w in my absence,) with fear and |
-PHP:02:12 | B: pg1581 | y presence only but much more  ... w in my absence) with fear and |
+PHP:02:12 | A: drbo   | w in my absence,) with fear and |
+PHP:02:12 | B: pg1581 | w in my absence) with fear and |
 PHP:02:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
 
 
 
-PHP:02:14 | A: drbo   | and hesitations; |
-PHP:02:14 | B: pg1581 | and hesitations: |
+PHP:02:14 | A: drbo   | and hesitations;$ | | ADDED:$
+PHP:02:14 | B: pg1581 | and hesitations:$ | | ADDED:$
 PHP:02:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -236,13 +254,16 @@ PHP:02:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:02:15 | A: drbo   | ay be blameless, and sincere ch ... erse generation; among whom you |
 # PHP:02:15 | B: pg1581 | erse generation: among whom you |
 
-PHP:02:15 | A: drbo   | ay be blameless, and sincere ch ... erse generation; among whom you |
+PHP:02:15 | A: drbo   | ay be blameless, and sincere ch |
+PHP:02:15 | B: pg1581 | ay be blameless, and sincere ch FIX_2 |
+PHP:02:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+PHP:02:15 | A: drbo   | erse generation; among whom you |
 PHP:02:15 | B: pg1581 | erse generation: among whom you |
 PHP:02:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:02:15 | A: drbo   | ay be blameless, and sincere ch ... erse generation; among whom you |
-PHP:02:15 | B: pg1581 | erse generation: among whom you |
-PHP:02:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 #
 #===============================
@@ -258,23 +279,23 @@ PHP:02:17 | B: pg1581 | aith, I rejoice and congratula |
 PHP:02:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:02:18 | A: drbo   | ou also rejoice, and congratula |
-PHP:02:18 | B: pg1581 |  selfsame thing, do you also re |
+PHP:02:18 | B: pg1581 | selfsame thing, do you also re |
 PHP:02:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:02:21 | A: drbo   | t are their own; not the things |
 PHP:02:21 | B: pg1581 | t are their own not the things |
 PHP:02:21 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:02:22 | A: drbo   | he proof of him, that as a son  |
-PHP:02:22 | B: pg1581 | he proof of him: that as a son  |
+PHP:02:22 | A: drbo   | he proof of him, that as a son |
+PHP:02:22 | B: pg1581 | he proof of him: that as a son |
 PHP:02:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:02:23 | A: drbo   | you immediately, so soon as I s |
 PHP:02:23 | B: pg1581 | you immediately: so soon as I s |
 PHP:02:23 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:02:24 | A: drbo   | ust in the Lord, that I myself  |
-PHP:02:24 | B: pg1581 | ust in the Lord that I myself  |
+PHP:02:24 | A: drbo   | ust in the Lord, that I myself |
+PHP:02:24 | B: pg1581 | ust in the Lord that I myself |
 PHP:02:24 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -283,53 +304,56 @@ PHP:02:24 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:02:25 | A: drbo   | fellow labourer, and fellow sol ... ut your apostle, and he that ha |
 # PHP:02:25 | B: pg1581 | ut your apostle: and he that ha |
 
-PHP:02:25 | A: drbo   | fellow labourer, and fellow sol ... ut your apostle, and he that ha |
+PHP:02:25 | A: drbo   | fellow labourer, and fellow sol |
+PHP:02:25 | B: pg1581 | fellow labourer, and fellow sol FIX_2 |
+PHP:02:25 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+PHP:02:25 | A: drbo   | ut your apostle, and he that ha |
 PHP:02:25 | B: pg1581 | ut your apostle: and he that ha |
 PHP:02:25 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:02:25 | A: drbo   | fellow labourer, and fellow sol ... ut your apostle, and he that ha |
-PHP:02:25 | B: pg1581 | ut your apostle: and he that ha |
-PHP:02:25 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 #
 #===============================
 
 
 
-PHP:02:27 | A: drbo   | nigh unto death; but God had mercy on him; and not only on  |
-PHP:02:27 | B: pg1581 | nigh unto death: but God had mercy on him. And not only on  |
+PHP:02:27 | A: drbo   | nigh unto death; but God had mercy on him; and not only on |
+PHP:02:27 | B: pg1581 | nigh unto death: but God had mercy on him. And not only on |
 PHP:02:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:02:28 | A: drbo   | Therefore I sent him the |
-PHP:02:28 | B: pg1581 | Therefore, I sent him the |
+PHP:02:28 | A: drbo   | ^Therefore I sent him the | | ADDED:^
+PHP:02:28 | B: pg1581 | ^Therefore, I sent him the | | ADDED:^
 PHP:02:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:02:29 | A: drbo   | joy in the Lord; and treat with |
 PHP:02:29 | B: pg1581 | joy in the Lord: and treat with |
 PHP:02:29 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:02:30 | A: drbo   | he might fulfill that which on  |
-PHP:02:30 | B: pg1581 | he might fulfil that which on  |
+PHP:02:30 | A: drbo   | he might fulfill that which on |
+PHP:02:30 | B: pg1581 | he might fulfil that which on |
 PHP:02:30 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:03:01 | A: drbo   | e, but to you it is necessary. |
 PHP:03:01 | B: pg1581 | e, but to you is necessary. |
 PHP:03:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:03:02 | A: drbo   | Beware of dogs, beware of evil workers, beware of the  |
-PHP:03:02 | B: pg1581 | Beware of dogs: beware of evil workers: beware of the  |
+PHP:03:02 | A: drbo   | Beware of dogs, beware of evil workers, beware of the |
+PHP:03:02 | B: pg1581 | Beware of dogs: beware of evil workers: beware of the |
 PHP:03:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:03:03 | A: drbo   | pirit serve God; and glory in C |
 PHP:03:03 | B: pg1581 | pirit serve God and glory in C |
 PHP:03:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:03:04 | A: drbo   | e flesh, I more, |
-PHP:03:04 | B: pg1581 | e flesh, I more: |
+PHP:03:04 | A: drbo   | e flesh, I more,$ | | ADDED:$
+PHP:03:04 | B: pg1581 | e flesh, I more:$ | | ADDED:$
 PHP:03:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:03:05 | A: drbo   |  of the Hebrews; according to the |
-PHP:03:05 | B: pg1581 |  of the Hebrews. According to the |
+PHP:03:05 | A: drbo   | of the Hebrews; according to the |
+PHP:03:05 | B: pg1581 | of the Hebrews. According to the |
 PHP:03:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:03:06 | A: drbo   | e church of God; according to the |
@@ -342,15 +366,15 @@ PHP:03:06 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:03:08 | A: drbo   |  Christ my Lord; for whom I hav ... s of all things, and count them ... may gain Christ: |
 # PHP:03:08 | B: pg1581 | Furthermore, I count all th ... of Jesus Christ, my Lord: for whom I hav ... may gain Christ. |
 
-PHP:03:08 | A: drbo   |  Christ my Lord; for whom I hav ... s of all things, and count them ... may gain Christ: |
+PHP:03:08 | A: drbo   | Christ my Lord; for whom I hav ... s of all things, and count them ... may gain Christ: |
 PHP:03:08 | B: pg1581 | Furthermore, I count all th ... of Jesus Christ, my Lord: for whom I hav ... may gain Christ. |
 PHP:03:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:03:08 | A: drbo   |  Christ my Lord; for whom I hav ... s of all things, and count them ... may gain Christ: |
+PHP:03:08 | A: drbo   | Christ my Lord; for whom I hav ... s of all things, and count them ... may gain Christ: |
 PHP:03:08 | B: pg1581 | Furthermore, I count all th ... of Jesus Christ, my Lord: for whom I hav ... may gain Christ. |
 PHP:03:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:03:08 | A: drbo   |  Christ my Lord; for whom I hav ... s of all things, and count them ... may gain Christ: |
+PHP:03:08 | A: drbo   | Christ my Lord; for whom I hav ... s of all things, and count them ... may gain Christ: |
 PHP:03:08 | B: pg1581 | Furthermore, I count all th ... of Jesus Christ, my Lord: for whom I hav ... may gain Christ. |
 PHP:03:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -369,16 +393,16 @@ PHP:03:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:03:10 | A: drbo   |  I may know him, and the power  ... is resurrection, and the fellow ...  his sufferings, being made con |
 # PHP:03:10 | B: pg1581 |  his sufferings: being made con |
 
-PHP:03:10 | A: drbo   |  I may know him, and the power  ... is resurrection, and the fellow ...  his sufferings, being made con |
-PHP:03:10 | B: pg1581 |  his sufferings: being made con |
+PHP:03:10 | A: drbo   | I may know him, and the power  ... is resurrection, and the fellow ...  his sufferings, being made con |
+PHP:03:10 | B: pg1581 | his sufferings: being made con |
 PHP:03:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:03:10 | A: drbo   |  I may know him, and the power  ... is resurrection, and the fellow ...  his sufferings, being made con |
-PHP:03:10 | B: pg1581 |  his sufferings: being made con |
+PHP:03:10 | A: drbo   | I may know him, and the power  ... is resurrection, and the fellow ...  his sufferings, being made con |
+PHP:03:10 | B: pg1581 | his sufferings: being made con |
 PHP:03:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:03:10 | A: drbo   |  I may know him, and the power  ... is resurrection, and the fellow ...  his sufferings, being made con |
-PHP:03:10 | B: pg1581 |  his sufferings: being made con |
+PHP:03:10 | A: drbo   | I may know him, and the power  ... is resurrection, and the fellow ...  his sufferings, being made con |
+PHP:03:10 | B: pg1581 | his sufferings: being made con |
 PHP:03:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -396,13 +420,16 @@ PHP:03:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:03:13 | A: drbo   | ne thing I do: forgetting the t ... that are behind, and stretching |
 # PHP:03:13 | B: pg1581 | ne thing I do: Forgetting the t |
 
-PHP:03:13 | A: drbo   | ne thing I do: forgetting the t ... that are behind, and stretching |
+PHP:03:13 | A: drbo   | ne thing I do: forgetting the t |
 PHP:03:13 | B: pg1581 | ne thing I do: Forgetting the t |
 PHP:03:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:03:13 | A: drbo   | ne thing I do: forgetting the t ... that are behind, and stretching |
-PHP:03:13 | B: pg1581 | ne thing I do: Forgetting the t |
+PHP:03:13 | A: drbo   | that are behind, and stretching |
+PHP:03:13 | B: pg1581 | that are behind, and stretching FIX_1 |
 PHP:03:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -415,13 +442,16 @@ PHP:03:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:03:15 | A: drbo   |  be thus minded; and if in any  ... l reveal to you. |
 # PHP:03:15 | B: pg1581 |  be thus minded: and if in any  ... l reveal to you, |
 
-PHP:03:15 | A: drbo   |  be thus minded; and if in any  ... l reveal to you. |
-PHP:03:15 | B: pg1581 |  be thus minded: and if in any  ... l reveal to you, |
+PHP:03:15 | A: drbo   | be thus minded; and if in any |
+PHP:03:15 | B: pg1581 | be thus minded: and if in any |
 PHP:03:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:03:15 | A: drbo   |  be thus minded; and if in any  ... l reveal to you. |
-PHP:03:15 | B: pg1581 |  be thus minded: and if in any  ... l reveal to you, |
+PHP:03:15 | A: drbo   | l reveal to you.$ |
+PHP:03:15 | B: pg1581 | l reveal to you,$ |
 PHP:03:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -442,13 +472,16 @@ PHP:03:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:03:18 | A: drbo   | ll you weeping), that they are  ... cross of Christ; |
 # PHP:03:18 | B: pg1581 | cross of Christ: |
 
-PHP:03:18 | A: drbo   | ll you weeping), that they are  ... cross of Christ; |
-PHP:03:18 | B: pg1581 | cross of Christ: |
+PHP:03:18 | A: drbo   | ll you weeping), that they are |
+PHP:03:18 | B: pg1581 | ll you weeping), that they are FIX_2 |
 PHP:03:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:03:18 | A: drbo   | ll you weeping), that they are  ... cross of Christ; |
-PHP:03:18 | B: pg1581 | cross of Christ: |
+PHP:03:18 | A: drbo   | cross of Christ;$ |
+PHP:03:18 | B: pg1581 | cross of Christ:$ |
 PHP:03:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -461,13 +494,16 @@ PHP:03:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:03:19 | A: drbo   |  is destruction; whose God is their belly; and whose glor ...  in their shame; who mind earth |
 # PHP:03:19 | B: pg1581 |  is destruction: whose God is their belly: and whose glor ...  in their shame: who mind earth |
 
-PHP:03:19 | A: drbo   |  is destruction; whose God is their belly; and whose glor ...  in their shame; who mind earth |
-PHP:03:19 | B: pg1581 |  is destruction: whose God is their belly: and whose glor ...  in their shame: who mind earth |
+PHP:03:19 | A: drbo   | is destruction; whose God is their belly; and whose glor |
+PHP:03:19 | B: pg1581 | is destruction: whose God is their belly: and whose glor |
 PHP:03:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:03:19 | A: drbo   |  is destruction; whose God is their belly; and whose glor ...  in their shame; who mind earth |
-PHP:03:19 | B: pg1581 |  is destruction: whose God is their belly: and whose glor ...  in their shame: who mind earth |
+PHP:03:19 | A: drbo   | in their shame; who mind earth |
+PHP:03:19 | B: pg1581 | in their shame: who mind earth |
 PHP:03:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -484,13 +520,16 @@ PHP:03:20 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:04:01 | A: drbo   | Therefore, my dearly beloved brethren, and most desir ... oy and my crown; so stand fast  |
 # PHP:04:01 | B: pg1581 | oy and my crown: so stand fast  |
 
-PHP:04:01 | A: drbo   | Therefore, my dearly beloved brethren, and most desir ... oy and my crown; so stand fast  |
-PHP:04:01 | B: pg1581 | oy and my crown: so stand fast  |
+PHP:04:01 | A: drbo   | Therefore, my dearly beloved brethren, and most desir |
+PHP:04:01 | B: pg1581 | Therefore, my dearly beloved brethren, and most desir FIX_2 |
 PHP:04:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:04:01 | A: drbo   | Therefore, my dearly beloved brethren, and most desir ... oy and my crown; so stand fast  |
-PHP:04:01 | B: pg1581 | oy and my crown: so stand fast  |
+PHP:04:01 | A: drbo   | oy and my crown; so stand fast |
+PHP:04:01 | B: pg1581 | oy and my crown: so stand fast |
 PHP:04:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -501,8 +540,8 @@ PHP:04:02 | A: drbo   | I beg of Evodia, and I beseech Syntyche, to be of one m 
 PHP:04:02 | B: pg1581 | I beg of Evodia and I beseech Syntyche to be of one m |
 PHP:04:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:04:04 | A: drbo   | the Lord always; again, I say,  |
-PHP:04:04 | B: pg1581 | the Lord always: again, I say,  |
+PHP:04:04 | A: drbo   | the Lord always; again, I say, |
+PHP:04:04 | B: pg1581 | the Lord always: again, I say, |
 PHP:04:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:04:06 | A: drbo   | hing solicitous; but in every t |
@@ -531,15 +570,15 @@ PHP:04:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:04:12 | A: drbo   | w how to abound: (everywhere, and in all thi ... both to be full, and to be hungry; both to abound, and to suffer  |
 # PHP:04:12 | B: pg1581 | o abound (every where and in al ...  am instructed): both to be ful ... nd to be hungry: both to abound |
 
-PHP:04:12 | A: drbo   | w how to abound: (everywhere, and in all thi ... both to be full, and to be hungry; both to abound, and to suffer  |
+PHP:04:12 | A: drbo   | w how to abound: (everywhere, and in all thi ... both to be full, and to be hungry; both to abound, and to suffer |
 PHP:04:12 | B: pg1581 | o abound (every where and in al ...  am instructed): both to be ful ... nd to be hungry: both to abound |
 PHP:04:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:04:12 | A: drbo   | w how to abound: (everywhere, and in all thi ... both to be full, and to be hungry; both to abound, and to suffer  |
+PHP:04:12 | A: drbo   | w how to abound: (everywhere, and in all thi ... both to be full, and to be hungry; both to abound, and to suffer |
 PHP:04:12 | B: pg1581 | o abound (every where and in al ...  am instructed): both to be ful ... nd to be hungry: both to abound |
 PHP:04:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:04:12 | A: drbo   | w how to abound: (everywhere, and in all thi ... both to be full, and to be hungry; both to abound, and to suffer  |
+PHP:04:12 | A: drbo   | w how to abound: (everywhere, and in all thi ... both to be full, and to be hungry; both to abound, and to suffer |
 PHP:04:12 | B: pg1581 | o abound (every where and in al ...  am instructed): both to be ful ... nd to be hungry: both to abound |
 PHP:04:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -552,24 +591,24 @@ PHP:04:13 | A: drbo   | I can do all these things in him who |
 PHP:04:13 | B: pg1581 | I can do all things in him who |
 PHP:04:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:04:14 | A: drbo   | Nevertheless you have done  |
-PHP:04:14 | B: pg1581 | Nevertheless, you have done  |
+PHP:04:14 | A: drbo   | Nevertheless you have done |
+PHP:04:14 | B: pg1581 | Nevertheless, you have done |
 PHP:04:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:04:15 | A: drbo   | g, but you only: |
-PHP:04:15 | B: pg1581 | g, but you only. |
+PHP:04:15 | A: drbo   | g, but you only:$ | | ADDED:$
+PHP:04:15 | B: pg1581 | g, but you only.$ | | ADDED:$
 PHP:04:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 PHP:04:17 | A: drbo   | I seek the gift, but I seek the |
 PHP:04:17 | B: pg1581 | I seek the gift: but I seek the |
 PHP:04:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:04:18 | A: drbo   | But I have all, and abound: I  |
-PHP:04:18 | B: pg1581 | But I have all and abound: I  |
+PHP:04:18 | A: drbo   | But I have all, and abound: I |
+PHP:04:18 | B: pg1581 | But I have all and abound: I |
 PHP:04:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:04:20 | A: drbo   | Father be glory world without  |
-PHP:04:20 | B: pg1581 | Father be glory, world without  |
+PHP:04:20 | A: drbo   | Father be glory world without |
+PHP:04:20 | B: pg1581 | Father be glory, world without |
 PHP:04:20 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -578,13 +617,16 @@ PHP:04:20 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # PHP:04:22 | A: drbo   | who are with me, salute you. Al ... ints salute you; especially the |
 # PHP:04:22 | B: pg1581 | ints salute you: especially the |
 
-PHP:04:22 | A: drbo   | who are with me, salute you. Al ... ints salute you; especially the |
+PHP:04:22 | A: drbo   | who are with me, salute you. Al |
+PHP:04:22 | B: pg1581 | who are with me, salute you. Al FIX_2 |
+PHP:04:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+PHP:04:22 | A: drbo   | ints salute you; especially the |
 PHP:04:22 | B: pg1581 | ints salute you: especially the |
 PHP:04:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-PHP:04:22 | A: drbo   | who are with me, salute you. Al ... ints salute you; especially the |
-PHP:04:22 | B: pg1581 | ints salute you: especially the |
-PHP:04:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 #
 #===============================

@@ -10,8 +10,8 @@ ESG:02:10 | A: drbo   | r her country. For Mardochai ha |
 ESG:02:10 | B: pg1581 | r her country. for Mardochai ha |
 ESG:02:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-ESG:02:15 | A: drbo   |  to adorn her. For she was exce |
-ESG:02:15 | B: pg1581 |  to adorn her. for she was exce |
+ESG:02:15 | A: drbo   | to adorn her. For she was exce |
+ESG:02:15 | B: pg1581 | to adorn her. for she was exce |
 ESG:02:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ESG:02:18 | A: drbo   | dding of Esther. And he gave re |
@@ -30,8 +30,8 @@ ESG:03:07 | A: drbo   | e twelfth year a of the reign of |
 ESG:03:07 | B: pg1581 | e twelfth year of the reign of |
 ESG:03:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-ESG:03:09 | A: drbo   |  that they may he destroyed, an |
-ESG:03:09 | B: pg1581 |  that they may be destroyed, an |
+ESG:03:09 | A: drbo   | that they may he destroyed, an |
+ESG:03:09 | B: pg1581 | that they may be destroyed, an |
 ESG:03:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ESG:03:15 | A: drbo   | haste to fulfill the king's com |
@@ -84,13 +84,16 @@ ESG:08:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # ESG:08:08 | A: drbo   | it pleaseth you, in the king's  ...  with my ring. For this was the |
 # ESG:08:08 | B: pg1581 |  with my ring. for this was the |
 
-ESG:08:08 | A: drbo   | it pleaseth you, in the king's  ...  with my ring. For this was the |
-ESG:08:08 | B: pg1581 |  with my ring. for this was the |
+ESG:08:08 | A: drbo   | it pleaseth you, in the king's |
+ESG:08:08 | B: pg1581 | it pleaseth you, in the king's FIX_2 |
 ESG:08:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-ESG:08:08 | A: drbo   | it pleaseth you, in the king's  ...  with my ring. For this was the |
-ESG:08:08 | B: pg1581 |  with my ring. for this was the |
+ESG:08:08 | A: drbo   | with my ring. For this was the |
+ESG:08:08 | B: pg1581 | with my ring. for this was the |
 ESG:08:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -111,20 +114,23 @@ ESG:08:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # ESG:08:17 | A: drbo   | ping holy day: insomuch that ma ... nd ceremonies. For a great drea |
 # ESG:08:17 | B: pg1581 | ping holy day: Insomuch that ma ... nd ceremonies. for a great drea |
 
-ESG:08:17 | A: drbo   | ping holy day: insomuch that ma ... nd ceremonies. For a great drea |
-ESG:08:17 | B: pg1581 | ping holy day: Insomuch that ma ... nd ceremonies. for a great drea |
+ESG:08:17 | A: drbo   | ping holy day: insomuch that ma |
+ESG:08:17 | B: pg1581 | ping holy day: Insomuch that ma |
 ESG:08:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-ESG:08:17 | A: drbo   | ping holy day: insomuch that ma ... nd ceremonies. For a great drea |
-ESG:08:17 | B: pg1581 | ping holy day: Insomuch that ma ... nd ceremonies. for a great drea |
+ESG:08:17 | A: drbo   | nd ceremonies. For a great drea |
+ESG:08:17 | B: pg1581 | nd ceremonies. for a great drea |
 ESG:08:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
 
 
 
-ESG:09:07 | A: drbo   | n, and Esphatha, |
+ESG:09:07 | A: drbo   | n, and Esphatha,$ | | ADDED:$
 ESG:09:07 | B: pg1581 | n, and Esphatha |
 ESG:09:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -134,13 +140,16 @@ ESG:09:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # ESG:09:13 | A: drbo   |  Jews, to do tomorrow in Susan ... ey have done today, and that t |
 # ESG:09:13 | B: pg1581 |  Jews, to do to morrow in Susan ... ey have done to day, and that t |
 
-ESG:09:13 | A: drbo   |  Jews, to do tomorrow in Susan ... ey have done today, and that t |
-ESG:09:13 | B: pg1581 |  Jews, to do to morrow in Susan ... ey have done to day, and that t |
+ESG:09:13 | A: drbo   | Jews, to do tomorrow in Susan |
+ESG:09:13 | B: pg1581 | Jews, to do to morrow in Susan |
 ESG:09:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-ESG:09:13 | A: drbo   |  Jews, to do tomorrow in Susan ... ey have done today, and that t |
-ESG:09:13 | B: pg1581 |  Jews, to do to morrow in Susan ... ey have done to day, and that t |
+ESG:09:13 | A: drbo   | ey have done today, and that t |
+ESG:09:13 | B: pg1581 | ey have done to day, and that t |
 ESG:09:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -155,8 +164,8 @@ ESG:09:24 | A: drbo   | nd destroy them: and had cast P |
 ESG:09:24 | B: pg1581 | nd destroy them; and had cast P |
 ESG:09:24 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-ESG:10:13 | A: drbo   |  the same month. with all dilig |
-ESG:10:13 | B: pg1581 |  the same month, with all dilig |
+ESG:10:13 | A: drbo   | the same month. with all dilig |
+ESG:10:13 | B: pg1581 | the same month, with all dilig |
 ESG:10:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -194,8 +203,8 @@ ESG:13:12 | A: drbo   | t of pride and contempt, or any desire o |
 ESG:13:12 | B: pg1581 | t of pride and or any desire o |
 ESG:13:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-ESG:14:08 | A: drbo   |  of their idols, |
-ESG:14:08 | B: pg1581 |  of their idols. |
+ESG:14:08 | A: drbo   | of their idols,$ | | ADDED:$
+ESG:14:08 | B: pg1581 | of their idols.$ | | ADDED:$
 ESG:14:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ESG:14:18 | A: drbo   | r unto this day, but in thee, O |
@@ -222,7 +231,7 @@ ESG:16:10 | A: drbo   | d what we say, I Aman the son of |
 ESG:16:10 | B: pg1581 | d what we say, Aman the son of |
 ESG:16:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-ESG:16:13 | A: drbo   |  of our kingdom, with all their |
-ESG:16:13 | B: pg1581 |  of our kingdom with all their |
+ESG:16:13 | A: drbo   | of our kingdom, with all their |
+ESG:16:13 | B: pg1581 | of our kingdom with all their |
 ESG:16:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 

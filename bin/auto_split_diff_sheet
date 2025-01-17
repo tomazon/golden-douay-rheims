@@ -176,7 +176,6 @@ sub all_cols_match {
         my $a = shift(@cols_a);
         my $b = shift(@cols_b);
         if (!selections_match($a, $b)) {
-            say 'XXX';
             return 0;
         }
     }

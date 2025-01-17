@@ -44,13 +44,16 @@
 # 1MA:01:19 | A: drbo   | e king of Egypt, but Ptolemee w ... at his presence, and fled, and  |
 # 1MA:01:19 | B: pg1581 | e king of Egypt; but Ptolemee w |
 
-1MA:01:19 | A: drbo   | e king of Egypt, but Ptolemee w ... at his presence, and fled, and  |
+1MA:01:19 | A: drbo   | e king of Egypt, but Ptolemee w |
 1MA:01:19 | B: pg1581 | e king of Egypt; but Ptolemee w |
 1MA:01:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:01:19 | A: drbo   | e king of Egypt, but Ptolemee w ... at his presence, and fled, and  |
-1MA:01:19 | B: pg1581 | e king of Egypt; but Ptolemee w |
+1MA:01:19 | A: drbo   | at his presence, and fled, and |
+1MA:01:19 | B: pg1581 | at his presence, and fled, and FIX_1 |
 1MA:01:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -71,13 +74,16 @@
 # 1MA:01:24 | A: drbo   | idden treasures which he found ...  taken all away he departed in |
 # 1MA:01:24 | B: pg1581 | idden treasures, which he found ...  taken all away, he departed in |
 
-1MA:01:24 | A: drbo   | idden treasures which he found ...  taken all away he departed in |
-1MA:01:24 | B: pg1581 | idden treasures, which he found ...  taken all away, he departed in |
+1MA:01:24 | A: drbo   | idden treasures which he found |
+1MA:01:24 | B: pg1581 | idden treasures, which he found |
 1MA:01:24 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:01:24 | A: drbo   | idden treasures which he found ...  taken all away he departed in |
-1MA:01:24 | B: pg1581 | idden treasures, which he found ...  taken all away, he departed in |
+1MA:01:24 | A: drbo   | taken all away he departed in |
+1MA:01:24 | B: pg1581 | taken all away, he departed in |
 1MA:01:24 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -114,13 +120,16 @@
 # 1MA:01:46 | A: drbo   |  cities of Juda: that they shou ... ns of the earth, |
 # 1MA:01:46 | B: pg1581 |  cities of Juda; that they shou ... ns of the earth. |
 
-1MA:01:46 | A: drbo   |  cities of Juda: that they shou ... ns of the earth, |
-1MA:01:46 | B: pg1581 |  cities of Juda; that they shou ... ns of the earth. |
+1MA:01:46 | A: drbo   | cities of Juda: that they shou |
+1MA:01:46 | B: pg1581 | cities of Juda; that they shou |
 1MA:01:46 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:01:46 | A: drbo   |  cities of Juda: that they shou ... ns of the earth, |
-1MA:01:46 | B: pg1581 |  cities of Juda; that they shou ... ns of the earth. |
+1MA:01:46 | A: drbo   | ns of the earth,$ |
+1MA:01:46 | B: pg1581 | ns of the earth.$ |
 1MA:01:46 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -157,13 +166,16 @@
 # 1MA:01:63 | A: drbo   |  their children, were slain acc ...  king Antiochus. |
 # 1MA:01:63 | B: pg1581 |  king Antiochus, |
 
-1MA:01:63 | A: drbo   |  their children, were slain acc ...  king Antiochus. |
-1MA:01:63 | B: pg1581 |  king Antiochus, |
+1MA:01:63 | A: drbo   | their children, were slain acc |
+1MA:01:63 | B: pg1581 | their children, were slain acc FIX_2 |
 1MA:01:63 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:01:63 | A: drbo   |  their children, were slain acc ...  king Antiochus. |
-1MA:01:63 | B: pg1581 |  king Antiochus, |
+1MA:01:63 | A: drbo   | king Antiochus.$ |
+1MA:01:63 | B: pg1581 | king Antiochus,$ |
 1MA:01:63 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -176,13 +188,16 @@
 # 1MA:01:65 | A: drbo   | h unclean meats. |
 # 1MA:01:65 | B: pg1581 | e rather to die, than to be def ... h unclean meats: |
 
-1MA:01:65 | A: drbo   | h unclean meats. |
-1MA:01:65 | B: pg1581 | e rather to die, than to be def ... h unclean meats: |
+1MA:01:65 | A: drbo   | e rather to die, than to be def |
+1MA:01:65 | B: pg1581 | e rather to die, than to be def FIX_4 |
 1MA:01:65 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:01:65 | A: drbo   | h unclean meats. |
-1MA:01:65 | B: pg1581 | e rather to die, than to be def ... h unclean meats: |
+1MA:01:65 | A: drbo   | h unclean meats.$ |
+1MA:01:65 | B: pg1581 | h unclean meats:$ |
 1MA:01:65 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -199,13 +214,16 @@
 # 1MA:02:01 | A: drbo   | untain of Modin. |
 # 1MA:02:01 | B: pg1581 | rose Mathathias, the son of Joh ... untain of Modin: |
 
-1MA:02:01 | A: drbo   | untain of Modin. |
-1MA:02:01 | B: pg1581 | rose Mathathias, the son of Joh ... untain of Modin: |
+1MA:02:01 | A: drbo   | rose Mathathias, the son of Joh |
+1MA:02:01 | B: pg1581 | rose Mathathias, the son of Joh FIX_4 |
 1MA:02:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:02:01 | A: drbo   | untain of Modin. |
-1MA:02:01 | B: pg1581 | rose Mathathias, the son of Joh ... untain of Modin: |
+1MA:02:01 | A: drbo   | untain of Modin.$ |
+1MA:02:01 | B: pg1581 | untain of Modin:$ |
 1MA:02:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -274,13 +292,16 @@
 # 1MA:02:31 | A: drbo   | as in Jerusalem in the city of ... hat certain men who had broken |
 # 1MA:02:31 | B: pg1581 | as in Jerusalem, in the city of ... hat certain men, who had broken |
 
-1MA:02:31 | A: drbo   | as in Jerusalem in the city of ... hat certain men who had broken |
-1MA:02:31 | B: pg1581 | as in Jerusalem, in the city of ... hat certain men, who had broken |
+1MA:02:31 | A: drbo   | as in Jerusalem in the city of |
+1MA:02:31 | B: pg1581 | as in Jerusalem, in the city of |
 1MA:02:31 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:02:31 | A: drbo   | as in Jerusalem in the city of ... hat certain men who had broken |
-1MA:02:31 | B: pg1581 | as in Jerusalem, in the city of ... hat certain men, who had broken |
+1MA:02:31 | A: drbo   | hat certain men who had broken |
+1MA:02:31 | B: pg1581 | hat certain men, who had broken |
 1MA:02:31 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -333,13 +354,16 @@
 # 1MA:02:61 | A: drbo   | d thus consider through all ge ... at trust in him fail in streng |
 # 1MA:02:61 | B: pg1581 | d thus consider, through all ge ... at trust in him, fail in streng |
 
-1MA:02:61 | A: drbo   | d thus consider through all ge ... at trust in him fail in streng |
-1MA:02:61 | B: pg1581 | d thus consider, through all ge ... at trust in him, fail in streng |
+1MA:02:61 | A: drbo   | d thus consider through all ge |
+1MA:02:61 | B: pg1581 | d thus consider, through all ge |
 1MA:02:61 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:02:61 | A: drbo   | d thus consider through all ge ... at trust in him fail in streng |
-1MA:02:61 | B: pg1581 | d thus consider, through all ge ... at trust in him, fail in streng |
+1MA:02:61 | A: drbo   | at trust in him fail in streng |
+1MA:02:61 | B: pg1581 | at trust in him, fail in streng |
 1MA:02:61 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -408,13 +432,16 @@
 # 1MA:03:25 | A: drbo   | e fear of Judas and of his bre ... e dread of them fell upon all  |
 # 1MA:03:25 | B: pg1581 | e fear of Judas, and of his bre ... e dread of them, fell upon all  |
 
-1MA:03:25 | A: drbo   | e fear of Judas and of his bre ... e dread of them fell upon all  |
-1MA:03:25 | B: pg1581 | e fear of Judas, and of his bre ... e dread of them, fell upon all  |
+1MA:03:25 | A: drbo   | e fear of Judas and of his bre |
+1MA:03:25 | B: pg1581 | e fear of Judas, and of his bre |
 1MA:03:25 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:03:25 | A: drbo   | e fear of Judas and of his bre ... e dread of them fell upon all  |
-1MA:03:25 | B: pg1581 | e fear of Judas, and of his bre ... e dread of them, fell upon all  |
+1MA:03:25 | A: drbo   | e dread of them fell upon all |
+1MA:03:25 | B: pg1581 | e dread of them, fell upon all |
 1MA:03:25 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -439,13 +466,16 @@
 # 1MA:03:32 | A: drbo   | the blood royal, to oversee the ...  of the kingdom, from the river |
 # 1MA:03:32 | B: pg1581 | the blood royal to oversee the ...  of the kingdom from the river |
 
-1MA:03:32 | A: drbo   | the blood royal, to oversee the ...  of the kingdom, from the river |
-1MA:03:32 | B: pg1581 | the blood royal to oversee the ...  of the kingdom from the river |
+1MA:03:32 | A: drbo   | the blood royal, to oversee the |
+1MA:03:32 | B: pg1581 | the blood royal to oversee the |
 1MA:03:32 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:03:32 | A: drbo   | the blood royal, to oversee the ...  of the kingdom, from the river |
-1MA:03:32 | B: pg1581 | the blood royal to oversee the ...  of the kingdom from the river |
+1MA:03:32 | A: drbo   | of the kingdom, from the river |
+1MA:03:32 | B: pg1581 | of the kingdom from the river |
 1MA:03:32 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -466,13 +496,16 @@
 # 1MA:03:35 | A: drbo   | my against them, to destroy and ... from that place: |
 # 1MA:03:35 | B: pg1581 | from that place. |
 
-1MA:03:35 | A: drbo   | my against them, to destroy and ... from that place: |
-1MA:03:35 | B: pg1581 | from that place. |
+1MA:03:35 | A: drbo   | my against them, to destroy and |
+1MA:03:35 | B: pg1581 | my against them, to destroy and FIX_2 |
 1MA:03:35 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:03:35 | A: drbo   | my against them, to destroy and ... from that place: |
-1MA:03:35 | B: pg1581 | from that place. |
+1MA:03:35 | A: drbo   | from that place:$ |
+1MA:03:35 | B: pg1581 | from that place.$ |
 1MA:03:35 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -505,13 +538,16 @@
 # 1MA:03:42 | A: drbo   | And Judas and his brethren saw that evils ... troy the people and utterly ab |
 # 1MA:03:42 | B: pg1581 | And Judas, and his brethren, saw that evils ... troy the people, and utterly ab |
 
-1MA:03:42 | A: drbo   | And Judas and his brethren saw that evils ... troy the people and utterly ab |
-1MA:03:42 | B: pg1581 | And Judas, and his brethren, saw that evils ... troy the people, and utterly ab |
+1MA:03:42 | A: drbo   | And Judas and his brethren saw that evils |
+1MA:03:42 | B: pg1581 | And Judas, and his brethren, saw that evils |
 1MA:03:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:03:42 | A: drbo   | And Judas and his brethren saw that evils ... troy the people and utterly ab |
-1MA:03:42 | B: pg1581 | And Judas, and his brethren, saw that evils ... troy the people, and utterly ab |
+1MA:03:42 | A: drbo   | troy the people and utterly ab |
+1MA:03:42 | B: pg1581 | troy the people, and utterly ab |
 1MA:03:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -528,13 +564,16 @@
 # 1MA:03:44 | A: drbo   | eady for battle: and that they  |
 # 1MA:03:44 | B: pg1581 | ly was gathered, that they migh ... eady for battle, and that they  |
 
-1MA:03:44 | A: drbo   | eady for battle: and that they  |
-1MA:03:44 | B: pg1581 | ly was gathered, that they migh ... eady for battle, and that they  |
+1MA:03:44 | A: drbo   | ly was gathered, that they migh |
+1MA:03:44 | B: pg1581 | ly was gathered, that they migh FIX_4 |
 1MA:03:44 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:03:44 | A: drbo   | eady for battle: and that they  |
-1MA:03:44 | B: pg1581 | ly was gathered, that they migh ... eady for battle, and that they  |
+1MA:03:44 | A: drbo   | eady for battle: and that they |
+1MA:03:44 | B: pg1581 | eady for battle, and that they |
 1MA:03:44 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -563,13 +602,16 @@
 # 1MA:03:60 | A: drbo   | Nevertheless as it shall be ... f God in heaven so be it done. |
 # 1MA:03:60 | B: pg1581 | Nevertheless, as it shall be ... f God in heaven, so be it done. |
 
-1MA:03:60 | A: drbo   | Nevertheless as it shall be ... f God in heaven so be it done. |
-1MA:03:60 | B: pg1581 | Nevertheless, as it shall be ... f God in heaven, so be it done. |
+1MA:03:60 | A: drbo   | Nevertheless as it shall be |
+1MA:03:60 | B: pg1581 | Nevertheless, as it shall be |
 1MA:03:60 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:03:60 | A: drbo   | Nevertheless as it shall be ... f God in heaven so be it done. |
-1MA:03:60 | B: pg1581 | Nevertheless, as it shall be ... f God in heaven, so be it done. |
+1MA:03:60 | A: drbo   | f God in heaven so be it done. |
+1MA:03:60 | B: pg1581 | f God in heaven, so be it done. |
 1MA:03:60 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -702,12 +744,15 @@
 # 1MA:04:60 | B: pg1581 | o at that time Mount Sion, with ... d tread it down, as they did be |
 
 1MA:04:60 | A: drbo   | o at that time mount Sion, with |
-1MA:04:60 | B: pg1581 | o at that time Mount Sion, with ... d tread it down, as they did be |
+1MA:04:60 | B: pg1581 | o at that time Mount Sion, with |
 1MA:04:60 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:04:60 | A: drbo   | o at that time mount Sion, with |
-1MA:04:60 | B: pg1581 | o at that time Mount Sion, with ... d tread it down, as they did be |
+1MA:04:60 | A: drbo   | d tread it down, as they did be |
+1MA:04:60 | B: pg1581 | d tread it down, as they did be FIX_3 |
 1MA:04:60 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -720,13 +765,16 @@
 # 1MA:04:61 | A: drbo   |  garrison there to keep it, an ... he fortified it to secure Beth |
 # 1MA:04:61 | B: pg1581 |  garrison there, to keep it, an ... he fortified it, to secure Beth |
 
-1MA:04:61 | A: drbo   |  garrison there to keep it, an ... he fortified it to secure Beth |
-1MA:04:61 | B: pg1581 |  garrison there, to keep it, an ... he fortified it, to secure Beth |
+1MA:04:61 | A: drbo   | garrison there to keep it, an |
+1MA:04:61 | B: pg1581 | garrison there, to keep it, an |
 1MA:04:61 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:04:61 | A: drbo   |  garrison there to keep it, an ... he fortified it to secure Beth |
-1MA:04:61 | B: pg1581 |  garrison there, to keep it, an ... he fortified it, to secure Beth |
+1MA:04:61 | A: drbo   | he fortified it to secure Beth |
+1MA:04:61 | B: pg1581 | he fortified it, to secure Beth |
 1MA:04:61 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -797,17 +845,21 @@
 # 1MA:05:18 | A: drbo   |  he left Joseph the son of Zac ... as, and Azarias captains of the people with the remna ... e army in Judea to keep it: |
 # 1MA:05:18 | B: pg1581 |  he left Joseph, the son of Zac ... as, and Azarias, captains of the people, with the remna ... e army in Judea, to keep it: |
 
-1MA:05:18 | A: drbo   |  he left Joseph the son of Zac ... as, and Azarias captains of the people with the remna ... e army in Judea to keep it: |
-1MA:05:18 | B: pg1581 |  he left Joseph, the son of Zac ... as, and Azarias, captains of the people, with the remna ... e army in Judea, to keep it: |
+1MA:05:18 | A: drbo   | he left Joseph the son of Zac |
+1MA:05:18 | B: pg1581 | he left Joseph, the son of Zac |
 1MA:05:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:05:18 | A: drbo   |  he left Joseph the son of Zac ... as, and Azarias captains of the people with the remna ... e army in Judea to keep it: |
-1MA:05:18 | B: pg1581 |  he left Joseph, the son of Zac ... as, and Azarias, captains of the people, with the remna ... e army in Judea, to keep it: |
+1MA:05:18 | A: drbo   | as, and Azarias captains of the people with the remna |
+1MA:05:18 | B: pg1581 | as, and Azarias, captains of the people, with the remna |
 1MA:05:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:05:18 | A: drbo   |  he left Joseph the son of Zac ... as, and Azarias captains of the people with the remna ... e army in Judea to keep it: |
-1MA:05:18 | B: pg1581 |  he left Joseph, the son of Zac ... as, and Azarias, captains of the people, with the remna ... e army in Judea, to keep it: |
+1MA:05:18 | A: drbo   | e army in Judea to keep it: |
+1MA:05:18 | B: pg1581 | e army in Judea, to keep it: |
 1MA:05:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
+
 
 #
 #===============================
@@ -848,13 +900,16 @@
 # 1MA:05:34 | A: drbo   | before his face: and they made  ... aughter of them: and there fell |
 # 1MA:05:34 | B: pg1581 | aughter of them, and there fell |
 
-1MA:05:34 | A: drbo   | before his face: and they made  ... aughter of them: and there fell |
+1MA:05:34 | A: drbo   | before his face: and they made |
+1MA:05:34 | B: pg1581 | before his face: and they made FIX_2 |
+1MA:05:34 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+1MA:05:34 | A: drbo   | aughter of them: and there fell |
 1MA:05:34 | B: pg1581 | aughter of them, and there fell |
 1MA:05:34 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:05:34 | A: drbo   | before his face: and they made  ... aughter of them: and there fell |
-1MA:05:34 | B: pg1581 | aughter of them, and there fell |
-1MA:05:34 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 #
 #===============================
@@ -965,13 +1020,16 @@
 # 1MA:06:01 | A: drbo   | silver and gold. |
 # 1MA:06:01 | B: pg1581 | ymais in Persia, was greatly re ... silver and gold, |
 
-1MA:06:01 | A: drbo   | silver and gold. |
-1MA:06:01 | B: pg1581 | ymais in Persia, was greatly re ... silver and gold, |
+1MA:06:01 | A: drbo   | ymais in Persia, was greatly re |
+1MA:06:01 | B: pg1581 | ymais in Persia, was greatly re FIX_4 |
 1MA:06:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:06:01 | A: drbo   | silver and gold. |
-1MA:06:01 | B: pg1581 | ymais in Persia, was greatly re ... silver and gold, |
+1MA:06:01 | A: drbo   | silver and gold.$ |
+1MA:06:01 | B: pg1581 | silver and gold,$ |
 1MA:06:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -1129,13 +1187,16 @@
 # 1MA:06:43 | A: drbo   | he other beasts: and it seemed  |
 # 1MA:06:43 | B: pg1581 | And Eleazar, the son of Saura, saw one of the ... he other beasts; and it seemed  |
 
-1MA:06:43 | A: drbo   | he other beasts: and it seemed  |
-1MA:06:43 | B: pg1581 | And Eleazar, the son of Saura, saw one of the ... he other beasts; and it seemed  |
+1MA:06:43 | A: drbo   | And Eleazar, the son of Saura, saw one of the |
+1MA:06:43 | B: pg1581 | And Eleazar, the son of Saura, saw one of the FIX_4 |
 1MA:06:43 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:06:43 | A: drbo   | he other beasts: and it seemed  |
-1MA:06:43 | B: pg1581 | And Eleazar, the son of Saura, saw one of the ... he other beasts; and it seemed  |
+1MA:06:43 | A: drbo   | he other beasts: and it seemed |
+1MA:06:43 | B: pg1581 | he other beasts; and it seemed |
 1MA:06:43 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -1310,13 +1371,16 @@
 # 1MA:08:06 | A: drbo   |  routed by them: |
 # 1MA:08:06 | B: pg1581 | d how Antiochus, the great king ...  routed by them. |
 
-1MA:08:06 | A: drbo   |  routed by them: |
-1MA:08:06 | B: pg1581 | d how Antiochus, the great king ...  routed by them. |
+1MA:08:06 | A: drbo   | d how Antiochus, the great king |
+1MA:08:06 | B: pg1581 | d how Antiochus, the great king FIX_4 |
 1MA:08:06 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:08:06 | A: drbo   |  routed by them: |
-1MA:08:06 | B: pg1581 | d how Antiochus, the great king ...  routed by them. |
+1MA:08:06 | A: drbo   | routed by them:$ |
+1MA:08:06 | B: pg1581 | routed by them.$ |
 1MA:08:06 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -1345,13 +1409,16 @@
 # 1MA:08:15 | A: drbo   | that were right. |
 # 1MA:08:15 | B: pg1581 | And that they had made themselves ... that were right: |
 
-1MA:08:15 | A: drbo   | that were right. |
-1MA:08:15 | B: pg1581 | And that they had made themselves ... that were right: |
+1MA:08:15 | A: drbo   | And that they had made themselves |
+1MA:08:15 | B: pg1581 | And that they had made themselves FIX_4 |
 1MA:08:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:08:15 | A: drbo   | that were right. |
-1MA:08:15 | B: pg1581 | And that they had made themselves ... that were right: |
+1MA:08:15 | A: drbo   | that were right.$ |
+1MA:08:15 | B: pg1581 | that were right:$ |
 1MA:08:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -1407,13 +1474,16 @@
 # 1MA:08:30 | A: drbo   | And if after this one party or t ... r take away anything, they may |
 # 1MA:08:30 | B: pg1581 | And, if after this, one party or t ... r take away any thing, they may |
 
-1MA:08:30 | A: drbo   | And if after this one party or t ... r take away anything, they may |
-1MA:08:30 | B: pg1581 | And, if after this, one party or t ... r take away any thing, they may |
+1MA:08:30 | A: drbo   | And if after this one party or t |
+1MA:08:30 | B: pg1581 | And, if after this, one party or t |
 1MA:08:30 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:08:30 | A: drbo   | And if after this one party or t ... r take away anything, they may |
-1MA:08:30 | B: pg1581 | And, if after this, one party or t ... r take away any thing, they may |
+1MA:08:30 | A: drbo   | r take away anything, they may |
+1MA:08:30 | B: pg1581 | r take away any thing, they may |
 1MA:08:30 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -1465,13 +1535,16 @@
 # 1MA:09:19 | A: drbo   | imon took Judas their brother, ... f their fathers in the city of |
 # 1MA:09:19 | B: pg1581 | imon took Judas, their brother, ... f their fathers, in the city of |
 
-1MA:09:19 | A: drbo   | imon took Judas their brother, ... f their fathers in the city of |
-1MA:09:19 | B: pg1581 | imon took Judas, their brother, ... f their fathers, in the city of |
+1MA:09:19 | A: drbo   | imon took Judas their brother, |
+1MA:09:19 | B: pg1581 | imon took Judas, their brother, |
 1MA:09:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:09:19 | A: drbo   | imon took Judas their brother, ... f their fathers in the city of |
-1MA:09:19 | B: pg1581 | imon took Judas, their brother, ... f their fathers, in the city of |
+1MA:09:19 | A: drbo   | f their fathers in the city of |
+1MA:09:19 | B: pg1581 | f their fathers, in the city of |
 1MA:09:19 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -1492,13 +1565,16 @@
 # 1MA:09:30 | A: drbo   | Now therefore we have chosen ... ce, and captain in his stead to fight our b |
 # 1MA:09:30 | B: pg1581 | Now, therefore, we have chosen ... ce, and captain, in his stead, to fight our b |
 
-1MA:09:30 | A: drbo   | Now therefore we have chosen ... ce, and captain in his stead to fight our b |
-1MA:09:30 | B: pg1581 | Now, therefore, we have chosen ... ce, and captain, in his stead, to fight our b |
+1MA:09:30 | A: drbo   | Now therefore we have chosen |
+1MA:09:30 | B: pg1581 | Now, therefore, we have chosen |
 1MA:09:30 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:09:30 | A: drbo   | Now therefore we have chosen ... ce, and captain in his stead to fight our b |
-1MA:09:30 | B: pg1581 | Now, therefore, we have chosen ... ce, and captain, in his stead, to fight our b |
+1MA:09:30 | A: drbo   | ce, and captain in his stead to fight our b |
+1MA:09:30 | B: pg1581 | ce, and captain, in his stead, to fight our b |
 1MA:09:30 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -1551,13 +1627,16 @@
 # 1MA:09:48 | A: drbo   | e with him leaped into the Jorda ...  Jordan to them: |
 # 1MA:09:48 | B: pg1581 | t were with him, leapt into the Jorda ...  Jordan to them. |
 
-1MA:09:48 | A: drbo   | e with him leaped into the Jorda ...  Jordan to them: |
-1MA:09:48 | B: pg1581 | t were with him, leapt into the Jorda ...  Jordan to them. |
+1MA:09:48 | A: drbo   | e with him leaped into the Jorda |
+1MA:09:48 | B: pg1581 | t were with him, leapt into the Jorda |
 1MA:09:48 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:09:48 | A: drbo   | e with him leaped into the Jorda ...  Jordan to them: |
-1MA:09:48 | B: pg1581 | t were with him, leapt into the Jorda ...  Jordan to them. |
+1MA:09:48 | A: drbo   | Jordan to them:$ |
+1MA:09:48 | B: pg1581 | Jordan to them.$ |
 1MA:09:48 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -1613,13 +1692,16 @@
 # 1MA:09:67 | A: drbo   | rnt the engines. |
 # 1MA:09:67 | B: pg1581 | But Simon, and they that  ... rnt the engines, |
 
-1MA:09:67 | A: drbo   | rnt the engines. |
-1MA:09:67 | B: pg1581 | But Simon, and they that  ... rnt the engines, |
+1MA:09:67 | A: drbo   | But Simon, and they that |
+1MA:09:67 | B: pg1581 | But Simon, and they that FIX_4 |
 1MA:09:67 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:09:67 | A: drbo   | rnt the engines. |
-1MA:09:67 | B: pg1581 | But Simon, and they that  ... rnt the engines, |
+1MA:09:67 | A: drbo   | rnt the engines.$ |
+1MA:09:67 | B: pg1581 | rnt the engines,$ |
 1MA:09:67 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -1680,13 +1762,16 @@
 # 1MA:10:39 | A: drbo   | Ptolemais, and the confin ... the holy places, that are in Je |
 # 1MA:10:39 | B: pg1581 | Ptolemais and the confin ... the holy places that are in Je |
 
-1MA:10:39 | A: drbo   | Ptolemais, and the confin ... the holy places, that are in Je |
-1MA:10:39 | B: pg1581 | Ptolemais and the confin ... the holy places that are in Je |
+1MA:10:39 | A: drbo   | ^Ptolemais, and the confin |
+1MA:10:39 | B: pg1581 | ^Ptolemais and the confin |
 1MA:10:39 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:10:39 | A: drbo   | Ptolemais, and the confin ... the holy places, that are in Je |
-1MA:10:39 | B: pg1581 | Ptolemais and the confin ... the holy places that are in Je |
+1MA:10:39 | A: drbo   | the holy places, that are in Je |
+1MA:10:39 | B: pg1581 | the holy places that are in Je |
 1MA:10:39 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -1939,13 +2024,16 @@
 # 1MA:11:60 | A: drbo   | eyond the river: and all the fo |
 # 1MA:11:60 | B: pg1581 | than went forth, and passed thr ... eyond the river, and all the fo |
 
-1MA:11:60 | A: drbo   | eyond the river: and all the fo |
-1MA:11:60 | B: pg1581 | than went forth, and passed thr ... eyond the river, and all the fo |
+1MA:11:60 | A: drbo   | than went forth, and passed thr |
+1MA:11:60 | B: pg1581 | than went forth, and passed thr FIX_4 |
 1MA:11:60 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 1MA:11:60 | A: drbo   | eyond the river: and all the fo |
-1MA:11:60 | B: pg1581 | than went forth, and passed thr ... eyond the river, and all the fo |
+1MA:11:60 | B: pg1581 | eyond the river, and all the fo |
 1MA:11:60 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -1994,17 +2082,21 @@
 # 1MA:12:03 | A: drbo   |  said: Jonathan the high pries ... ion of the Jews have sent us t ... y, and alliance as it was befo |
 # 1MA:12:03 | B: pg1581 |  said: Jonathan, the high pries ... ion of the Jews, have sent us t ... y, and alliance, as it was befo |
 
-1MA:12:03 | A: drbo   |  said: Jonathan the high pries ... ion of the Jews have sent us t ... y, and alliance as it was befo |
-1MA:12:03 | B: pg1581 |  said: Jonathan, the high pries ... ion of the Jews, have sent us t ... y, and alliance, as it was befo |
+1MA:12:03 | A: drbo   | said: Jonathan the high pries |
+1MA:12:03 | B: pg1581 | said: Jonathan, the high pries |
 1MA:12:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:12:03 | A: drbo   |  said: Jonathan the high pries ... ion of the Jews have sent us t ... y, and alliance as it was befo |
-1MA:12:03 | B: pg1581 |  said: Jonathan, the high pries ... ion of the Jews, have sent us t ... y, and alliance, as it was befo |
+1MA:12:03 | A: drbo   | ion of the Jews have sent us t |
+1MA:12:03 | B: pg1581 | ion of the Jews, have sent us t |
 1MA:12:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:12:03 | A: drbo   |  said: Jonathan the high pries ... ion of the Jews have sent us t ... y, and alliance as it was befo |
-1MA:12:03 | B: pg1581 |  said: Jonathan, the high pries ... ion of the Jews, have sent us t ... y, and alliance, as it was befo |
+1MA:12:03 | A: drbo   | y, and alliance as it was befo |
+1MA:12:03 | B: pg1581 | y, and alliance, as it was befo |
 1MA:12:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
+
 
 #
 #===============================
@@ -2052,13 +2144,16 @@
 # 1MA:12:13 | A: drbo   | s on every side, and the kings  ...  round about us, have fought ag |
 # 1MA:12:13 | B: pg1581 | s on every side; and the kings  |
 
-1MA:12:13 | A: drbo   | s on every side, and the kings  ...  round about us, have fought ag |
-1MA:12:13 | B: pg1581 | s on every side; and the kings  |
+1MA:12:13 | A: drbo   | s on every side, and the kings |
+1MA:12:13 | B: pg1581 | s on every side; and the kings |
 1MA:12:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:12:13 | A: drbo   | s on every side, and the kings  ...  round about us, have fought ag |
-1MA:12:13 | B: pg1581 | s on every side; and the kings  |
+1MA:12:13 | A: drbo   | round about us, have fought ag |
+1MA:12:13 | B: pg1581 | round about us, have fought ag FIX_1 |
 1MA:12:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2071,13 +2166,16 @@
 # 1MA:12:14 | A: drbo   | e to you, nor the rest of our  ... ies and friends in these wars. |
 # 1MA:12:14 | B: pg1581 | e to you, nor to the rest of our  ... ies and friends, in these wars. |
 
-1MA:12:14 | A: drbo   | e to you, nor the rest of our  ... ies and friends in these wars. |
-1MA:12:14 | B: pg1581 | e to you, nor to the rest of our  ... ies and friends, in these wars. |
+1MA:12:14 | A: drbo   | e to you, nor the rest of our |
+1MA:12:14 | B: pg1581 | e to you, nor to the rest of our |
 1MA:12:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:12:14 | A: drbo   | e to you, nor the rest of our  ... ies and friends in these wars. |
-1MA:12:14 | B: pg1581 | e to you, nor to the rest of our  ... ies and friends, in these wars. |
+1MA:12:14 | A: drbo   | ies and friends in these wars. |
+1MA:12:14 | B: pg1581 | ies and friends, in these wars. |
 1MA:12:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2090,17 +2188,21 @@
 # 1MA:12:16 | A: drbo   | We have chosen therefore Numenius the s ... , and Antipater the son of Jas ... m to the Romans to renew with  |
 # 1MA:12:16 | B: pg1581 | We have chosen, therefore, Numenius the s ... , and Antipater, the son of Jas ... m to the Romans, to renew with  |
 
-1MA:12:16 | A: drbo   | We have chosen therefore Numenius the s ... , and Antipater the son of Jas ... m to the Romans to renew with  |
-1MA:12:16 | B: pg1581 | We have chosen, therefore, Numenius the s ... , and Antipater, the son of Jas ... m to the Romans, to renew with  |
+1MA:12:16 | A: drbo   | We have chosen therefore Numenius the s |
+1MA:12:16 | B: pg1581 | We have chosen, therefore, Numenius the s |
 1MA:12:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:12:16 | A: drbo   | We have chosen therefore Numenius the s ... , and Antipater the son of Jas ... m to the Romans to renew with  |
-1MA:12:16 | B: pg1581 | We have chosen, therefore, Numenius the s ... , and Antipater, the son of Jas ... m to the Romans, to renew with  |
+1MA:12:16 | A: drbo   | , and Antipater the son of Jas |
+1MA:12:16 | B: pg1581 | , and Antipater, the son of Jas |
 1MA:12:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:12:16 | A: drbo   | We have chosen therefore Numenius the s ... , and Antipater the son of Jas ... m to the Romans to renew with  |
-1MA:12:16 | B: pg1581 | We have chosen, therefore, Numenius the s ... , and Antipater, the son of Jas ... m to the Romans, to renew with  |
+1MA:12:16 | A: drbo   | m to the Romans to renew with |
+1MA:12:16 | B: pg1581 | m to the Romans, to renew with |
 1MA:12:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
+
 
 #
 #===============================
@@ -2148,13 +2250,16 @@
 # 1MA:12:28 | A: drbo   | eady for battle, and they were  ... truck with fear, and dread in t |
 # 1MA:12:28 | B: pg1581 | eady for battle: and they were  |
 
-1MA:12:28 | A: drbo   | eady for battle, and they were  ... truck with fear, and dread in t |
-1MA:12:28 | B: pg1581 | eady for battle: and they were  |
+1MA:12:28 | A: drbo   | eady for battle, and they were |
+1MA:12:28 | B: pg1581 | eady for battle: and they were |
 1MA:12:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:12:28 | A: drbo   | eady for battle, and they were  ... truck with fear, and dread in t |
-1MA:12:28 | B: pg1581 | eady for battle: and they were  |
+1MA:12:28 | A: drbo   | truck with fear, and dread in t |
+1MA:12:28 | B: pg1581 | truck with fear, and dread in t FIX_1 |
 1MA:12:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2223,13 +2328,16 @@
 # 1MA:13:02 | A: drbo   | le was in dread, and in fear, h ... bled the people: |
 # 1MA:13:02 | B: pg1581 | bled the people, |
 
-1MA:13:02 | A: drbo   | le was in dread, and in fear, h ... bled the people: |
-1MA:13:02 | B: pg1581 | bled the people, |
+1MA:13:02 | A: drbo   | le was in dread, and in fear, h |
+1MA:13:02 | B: pg1581 | le was in dread, and in fear, h FIX_2 |
 1MA:13:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:13:02 | A: drbo   | le was in dread, and in fear, h ... bled the people: |
-1MA:13:02 | B: pg1581 | bled the people, |
+1MA:13:02 | A: drbo   | bled the people:$ |
+1MA:13:02 | B: pg1581 | bled the people,$ |
 1MA:13:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2250,13 +2358,16 @@
 # 1MA:13:11 | A: drbo   | e sent Jonathan the son of Abs ...  him a new army into Joppe, an |
 # 1MA:13:11 | B: pg1581 | e sent Jonathan, the son of Abs ...  him a new army, into Joppe, an |
 
-1MA:13:11 | A: drbo   | e sent Jonathan the son of Abs ...  him a new army into Joppe, an |
-1MA:13:11 | B: pg1581 | e sent Jonathan, the son of Abs ...  him a new army, into Joppe, an |
+1MA:13:11 | A: drbo   | e sent Jonathan the son of Abs |
+1MA:13:11 | B: pg1581 | e sent Jonathan, the son of Abs |
 1MA:13:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:13:11 | A: drbo   | e sent Jonathan the son of Abs ...  him a new army into Joppe, an |
-1MA:13:11 | B: pg1581 | e sent Jonathan, the son of Abs ...  him a new army, into Joppe, an |
+1MA:13:11 | A: drbo   | him a new army into Joppe, an |
+1MA:13:11 | B: pg1581 | him a new army, into Joppe, an |
 1MA:13:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2347,13 +2458,16 @@
 # 1MA:13:31 | A: drbo   | But Tryphon when he was up ...  the young king Antiochus, tre |
 # 1MA:13:31 | B: pg1581 | But Tryphon, when he was up ...  the young king, Antiochus, tre |
 
-1MA:13:31 | A: drbo   | But Tryphon when he was up ...  the young king Antiochus, tre |
-1MA:13:31 | B: pg1581 | But Tryphon, when he was up ...  the young king, Antiochus, tre |
+1MA:13:31 | A: drbo   | But Tryphon when he was up |
+1MA:13:31 | B: pg1581 | But Tryphon, when he was up |
 1MA:13:31 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:13:31 | A: drbo   | But Tryphon when he was up ...  the young king Antiochus, tre |
-1MA:13:31 | B: pg1581 | But Tryphon, when he was up ...  the young king, Antiochus, tre |
+1MA:13:31 | A: drbo   | the young king Antiochus, tre |
+1MA:13:31 | B: pg1581 | the young king, Antiochus, tre |
 1MA:13:31 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2393,13 +2507,16 @@
 # 1MA:13:36 | A: drbo   |  Jews, greeting. |
 # 1MA:13:36 | B: pg1581 | etrius to Simon, the high pries ...  Jews, greeting: |
 
-1MA:13:36 | A: drbo   |  Jews, greeting. |
-1MA:13:36 | B: pg1581 | etrius to Simon, the high pries ...  Jews, greeting: |
+1MA:13:36 | A: drbo   | etrius to Simon, the high pries |
+1MA:13:36 | B: pg1581 | etrius to Simon, the high pries FIX_4 |
 1MA:13:36 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:13:36 | A: drbo   |  Jews, greeting. |
-1MA:13:36 | B: pg1581 | etrius to Simon, the high pries ...  Jews, greeting: |
+1MA:13:36 | A: drbo   | Jews, greeting.$ |
+1MA:13:36 | B: pg1581 | Jews, greeting:$ |
 1MA:13:36 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2424,13 +2541,16 @@
 # 1MA:13:42 | A: drbo   | ear under Simon the high pries ... e great captain and prince of  |
 # 1MA:13:42 | B: pg1581 | ear under Simon, the high pries ... e great captain, and prince of  |
 
-1MA:13:42 | A: drbo   | ear under Simon the high pries ... e great captain and prince of  |
-1MA:13:42 | B: pg1581 | ear under Simon, the high pries ... e great captain, and prince of  |
+1MA:13:42 | A: drbo   | ear under Simon the high pries |
+1MA:13:42 | B: pg1581 | ear under Simon, the high pries |
 1MA:13:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:13:42 | A: drbo   | ear under Simon the high pries ... e great captain and prince of  |
-1MA:13:42 | B: pg1581 | ear under Simon, the high pries ... e great captain, and prince of  |
+1MA:13:42 | A: drbo   | e great captain and prince of |
+1MA:13:42 | B: pg1581 | e great captain, and prince of |
 1MA:13:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2451,13 +2571,16 @@
 # 1MA:13:47 | A: drbo   | ot destroy them: but yet he cas ... essing the Lord. |
 # 1MA:13:47 | B: pg1581 | essing the Lord: |
 
-1MA:13:47 | A: drbo   | ot destroy them: but yet he cas ... essing the Lord. |
-1MA:13:47 | B: pg1581 | essing the Lord: |
+1MA:13:47 | A: drbo   | ot destroy them: but yet he cas |
+1MA:13:47 | B: pg1581 | ot destroy them: but yet he cas FIX_2 |
 1MA:13:47 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:13:47 | A: drbo   | ot destroy them: but yet he cas ... essing the Lord. |
-1MA:13:47 | B: pg1581 | essing the Lord: |
+1MA:13:47 | A: drbo   | essing the Lord.$ |
+1MA:13:47 | B: pg1581 | essing the Lord:$ |
 1MA:13:47 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2506,13 +2629,16 @@
 # 1MA:14:20 | A: drbo   | of the Spartans to Simon the high pries ... ple of the Jews their brethren |
 # 1MA:14:20 | B: pg1581 | of the Spartans, to Simon, the high pries ... ple of the Jews, their brethren |
 
-1MA:14:20 | A: drbo   | of the Spartans to Simon the high pries ... ple of the Jews their brethren |
-1MA:14:20 | B: pg1581 | of the Spartans, to Simon, the high pries ... ple of the Jews, their brethren |
+1MA:14:20 | A: drbo   | of the Spartans to Simon the high pries |
+1MA:14:20 | B: pg1581 | of the Spartans, to Simon, the high pries |
 1MA:14:20 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:14:20 | A: drbo   | of the Spartans to Simon the high pries ... ple of the Jews their brethren |
-1MA:14:20 | B: pg1581 | of the Spartans, to Simon, the high pries ... ple of the Jews, their brethren |
+1MA:14:20 | A: drbo   | ple of the Jews their brethren |
+1MA:14:20 | B: pg1581 | ple of the Jews, their brethren |
 1MA:14:20 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2529,13 +2655,16 @@
 # 1MA:14:22 | A: drbo   | s of the people in this manner: Numenius the son of Ant ... , and Antipater the son of Jas |
 # 1MA:14:22 | B: pg1581 | s of the people, in this manner: Numenius, the son of Ant ... , and Antipater, the son of Jas |
 
-1MA:14:22 | A: drbo   | s of the people in this manner: Numenius the son of Ant ... , and Antipater the son of Jas |
-1MA:14:22 | B: pg1581 | s of the people, in this manner: Numenius, the son of Ant ... , and Antipater, the son of Jas |
+1MA:14:22 | A: drbo   | s of the people in this manner: Numenius the son of Ant |
+1MA:14:22 | B: pg1581 | s of the people, in this manner: Numenius, the son of Ant |
 1MA:14:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:14:22 | A: drbo   | s of the people in this manner: Numenius the son of Ant ... , and Antipater the son of Jas |
-1MA:14:22 | B: pg1581 | s of the people, in this manner: Numenius, the son of Ant ... , and Antipater, the son of Jas |
+1MA:14:22 | A: drbo   | , and Antipater the son of Jas |
+1MA:14:22 | B: pg1581 | , and Antipater, the son of Jas |
 1MA:14:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2556,13 +2685,16 @@
 # 1MA:14:27 | A: drbo   |  of the writing: The eighteenth |
 # 1MA:14:27 | B: pg1581 |  of the writing. The eighteenth ... ear under Simon, the high priest, at Asaramel, |
 
-1MA:14:27 | A: drbo   |  of the writing: The eighteenth |
-1MA:14:27 | B: pg1581 |  of the writing. The eighteenth ... ear under Simon, the high priest, at Asaramel, |
+1MA:14:27 | A: drbo   | of the writing: The eighteenth |
+1MA:14:27 | B: pg1581 | of the writing. The eighteenth |
 1MA:14:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:14:27 | A: drbo   |  of the writing: The eighteenth |
-1MA:14:27 | B: pg1581 |  of the writing. The eighteenth ... ear under Simon, the high priest, at Asaramel, |
+1MA:14:27 | A: drbo   | ear under Simon, the high priest, at Asaramel, |
+1MA:14:27 | B: pg1581 | ear under Simon, the high priest, at Asaramel, FIX_3 |
 1MA:14:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2606,13 +2738,16 @@
 # 1MA:14:35 | A: drbo   | im their prince, and high pries ... for the justice, and faith, which he kept  |
 # 1MA:14:35 | B: pg1581 | im their prince and high pries ... for the justice and faith which he kept  |
 
-1MA:14:35 | A: drbo   | im their prince, and high pries ... for the justice, and faith, which he kept  |
-1MA:14:35 | B: pg1581 | im their prince and high pries ... for the justice and faith which he kept  |
+1MA:14:35 | A: drbo   | im their prince, and high pries |
+1MA:14:35 | B: pg1581 | im their prince and high pries |
 1MA:14:35 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:14:35 | A: drbo   | im their prince, and high pries ... for the justice, and faith, which he kept  |
-1MA:14:35 | B: pg1581 | im their prince and high pries ... for the justice and faith which he kept  |
+1MA:14:35 | A: drbo   | for the justice, and faith, which he kept |
+1MA:14:35 | B: pg1581 | for the justice and faith which he kept |
 1MA:14:35 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2672,13 +2807,16 @@
 # 1MA:15:01 | A: drbo   |  king Antiochus the son of Demetrius sent letters f ... he sea to Simon the priest, an |
 # 1MA:15:01 | B: pg1581 |  king Antiochus, the son of Demetrius, sent letters f ... he sea to Simon, the priest, an |
 
-1MA:15:01 | A: drbo   |  king Antiochus the son of Demetrius sent letters f ... he sea to Simon the priest, an |
-1MA:15:01 | B: pg1581 |  king Antiochus, the son of Demetrius, sent letters f ... he sea to Simon, the priest, an |
+1MA:15:01 | A: drbo   | king Antiochus the son of Demetrius sent letters f |
+1MA:15:01 | B: pg1581 | king Antiochus, the son of Demetrius, sent letters f |
 1MA:15:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:15:01 | A: drbo   |  king Antiochus the son of Demetrius sent letters f ... he sea to Simon the priest, an |
-1MA:15:01 | B: pg1581 |  king Antiochus, the son of Demetrius, sent letters f ... he sea to Simon, the priest, an |
+1MA:15:01 | A: drbo   | he sea to Simon the priest, an |
+1MA:15:01 | B: pg1581 | he sea to Simon, the priest, an |
 1MA:15:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2719,13 +2857,16 @@
 # 1MA:15:17 | A: drbo   | ors of the Jews our friends came to us, to ... sent from Simon the high pries |
 # 1MA:15:17 | B: pg1581 | ors of the Jews, our friends, came to us, to ... sent from Simon, the high pries |
 
-1MA:15:17 | A: drbo   | ors of the Jews our friends came to us, to ... sent from Simon the high pries |
-1MA:15:17 | B: pg1581 | ors of the Jews, our friends, came to us, to ... sent from Simon, the high pries |
+1MA:15:17 | A: drbo   | ors of the Jews our friends came to us, to |
+1MA:15:17 | B: pg1581 | ors of the Jews, our friends, came to us, to |
 1MA:15:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:15:17 | A: drbo   | ors of the Jews our friends came to us, to ... sent from Simon the high pries |
-1MA:15:17 | B: pg1581 | ors of the Jews, our friends, came to us, to ... sent from Simon, the high pries |
+1MA:15:17 | A: drbo   | sent from Simon the high pries |
+1MA:15:17 | B: pg1581 | sent from Simon, the high pries |
 1MA:15:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2742,13 +2883,16 @@
 # 1MA:15:21 | A: drbo   | If therefore any pestilent  ... r them to Simon the high pries |
 # 1MA:15:21 | B: pg1581 | If, therefore, any pestilent  ... r them to Simon, the high pries |
 
-1MA:15:21 | A: drbo   | If therefore any pestilent  ... r them to Simon the high pries |
-1MA:15:21 | B: pg1581 | If, therefore, any pestilent  ... r them to Simon, the high pries |
+1MA:15:21 | A: drbo   | If therefore any pestilent |
+1MA:15:21 | B: pg1581 | If, therefore, any pestilent |
 1MA:15:21 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:15:21 | A: drbo   | If therefore any pestilent  ... r them to Simon the high pries |
-1MA:15:21 | B: pg1581 | If, therefore, any pestilent  ... r them to Simon, the high pries |
+1MA:15:21 | A: drbo   | r them to Simon the high pries |
+1MA:15:21 | B: pg1581 | r them to Simon, the high pries |
 1MA:15:21 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2817,13 +2961,16 @@
 # 1MA:16:11 | A: drbo   | silver and gold, |
 # 1MA:16:11 | B: pg1581 | Now Ptolemee, the son of Abobus, was appointed  ... silver and gold. |
 
-1MA:16:11 | A: drbo   | silver and gold, |
-1MA:16:11 | B: pg1581 | Now Ptolemee, the son of Abobus, was appointed  ... silver and gold. |
+1MA:16:11 | A: drbo   | Now Ptolemee, the son of Abobus, was appointed |
+1MA:16:11 | B: pg1581 | Now Ptolemee, the son of Abobus, was appointed FIX_4 |
 1MA:16:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:16:11 | A: drbo   | silver and gold, |
-1MA:16:11 | B: pg1581 | Now Ptolemee, the son of Abobus, was appointed  ... silver and gold. |
+1MA:16:11 | A: drbo   | silver and gold,$ |
+1MA:16:11 | B: pg1581 | silver and gold.$ |
 1MA:16:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2856,13 +3003,16 @@
 # 1MA:16:22 | A: drbo   | they sought to take him away. |
 # 1MA:16:22 | B: pg1581 | hen he heard it, he was exceedi ... they sought to make him away. |
 
-1MA:16:22 | A: drbo   | they sought to take him away. |
-1MA:16:22 | B: pg1581 | hen he heard it, he was exceedi ... they sought to make him away. |
+1MA:16:22 | A: drbo   | hen he heard it, he was exceedi |
+1MA:16:22 | B: pg1581 | hen he heard it, he was exceedi FIX_4 |
 1MA:16:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 1MA:16:22 | A: drbo   | they sought to take him away. |
-1MA:16:22 | B: pg1581 | hen he heard it, he was exceedi ... they sought to make him away. |
+1MA:16:22 | B: pg1581 | they sought to make him away. |
 1MA:16:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
@@ -2875,13 +3025,16 @@
 # 1MA:16:24 | A: drbo   | Behold these are writ ... , from the time he was made hi |
 # 1MA:16:24 | B: pg1581 | Behold, these are writ ... , from the time that he was made hi |
 
-1MA:16:24 | A: drbo   | Behold these are writ ... , from the time he was made hi |
-1MA:16:24 | B: pg1581 | Behold, these are writ ... , from the time that he was made hi |
+1MA:16:24 | A: drbo   | ^Behold these are writ |
+1MA:16:24 | B: pg1581 | ^Behold, these are writ |
 1MA:16:24 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-1MA:16:24 | A: drbo   | Behold these are writ ... , from the time he was made hi |
-1MA:16:24 | B: pg1581 | Behold, these are writ ... , from the time that he was made hi |
+1MA:16:24 | A: drbo   | , from the time he was made hi |
+1MA:16:24 | B: pg1581 | , from the time that he was made hi |
 1MA:16:24 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 #
 #===============================
