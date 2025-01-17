@@ -322,7 +322,9 @@ sub check_string_in_verse {
     $regex =~ s/\(/\\(/g;
     $regex =~ s/\)/\\)/g;
 
-    my $matches = () = $e_text =~ m{$regex};
+    my $matches = () = $e_text =~ m{$regex}g;
+
+    #say "$tag == MATCHES: $matches | $string | $e_text";
 
     if ($string =~ / \.\.\. /) {
         issue "$tag $const_label  NEED_TO_SPLIT | $string";
