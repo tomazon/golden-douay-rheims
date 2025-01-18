@@ -44,6 +44,7 @@ my $ok = {
         "GEN:45:16:[1]" => 7,
         "LUK:23:40:[2]" => 10,
         "LUK:24:33:[1]" => 8,
+        "JHN:7:31:[3]" => 12,
     },
     no_matches => {
         "MRK:8:27 pg1581" => 1, # non utf8 char
@@ -305,7 +306,7 @@ sub check_string_in_verse {
         $entry = $drbo->{chapters}->{$c_index}->{verses}->{$v_index};
     } elsif ($label eq 'pg1581') {
         $entry = $pg1581->{chapters}->{$c_index}->{verses}->{$v_index};
-    } elsif ($label eq 'manual') {
+    } elsif ($label eq 'tan') {
         return;
     # } else {
     #     print ":::: $line\n";
@@ -349,11 +350,15 @@ sub check_letter_label {
         if $letter eq 'A' && $label ne 'drbo';
     die "${file}[$line_num]: ODD LETTER LABEL: $letter: $label\n" 
         if $letter eq 'B' && $label ne 'pg1581';
+    die "${file}[$line_num]: ODD LETTER LABEL: $letter: $label\n" 
+        if $letter eq 'C' && $label ne 'tan';
 
     die "${file}[$line_num]: ODD LETTER LABEL: $letter: $label\n" 
         if $letter ne 'A' && $label =~ /drbo/i;
     die "${file}[$line_num]: ODD LETTER LABEL: $letter: $label\n" 
-        if $letter ne 'B' && $label =~ /1581/i;
+        if $letter ne 'B' && $label =~ /pg1581/i;
+    die "${file}[$line_num]: ODD LETTER LABEL: $letter: $label\n" 
+        if $letter ne 'C' && $label =~ /tan/i;
 }
 
 sub bcv_tag {
