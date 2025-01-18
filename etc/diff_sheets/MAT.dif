@@ -29,9 +29,10 @@ MAT:01:25 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 
-MAT:02:01 | A: drbo   | e men from the east to Jerusalem.$ |
-MAT:02:01 | B: pg1581 | e men from the East to Jerusalem,$ |
-MAT:02:01 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MAT:02:01 | A: drbo        | e men from the east to Jerusalem.$ |
+MAT:02:01 | B: pg1581      | e men from the East to Jerusalem,$ |
+MAT:02:01 | D: 1899-murphy | e men from the East to Jerusalem,$ | # NOTE: TAN was smudged, Murphy is clear
+MAT:02:01 | which          | 1971-Tan:D | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
 
@@ -258,9 +259,9 @@ MAT:05:42 | A: drbo   |  asketh of thee and from him t |
 MAT:05:42 | B: pg1581 |  asketh of thee, and from him t |
 MAT:05:42 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MAT:06:02 | A: drbo   | ou dost an almsdeed, sound not |
+MAT:06:02 | A: drbo   | ou dost an almsdeed, sound not | # NOTE: Tan has hypen at end of line indicating splitting a word
 MAT:06:02 | B: pg1581 | ou dost an alms-deed, sound not |
-MAT:06:02 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MAT:06:02 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MAT:06:06 | A: drbo   | ather in secret: and thy Father who seeth |
 MAT:06:06 | B: pg1581 | ather in secret, and thy father who seeth |
@@ -388,8 +389,8 @@ MAT:09:06 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # MAT:09:09 | B: pg1581 | passed on from thence, he saw a ... low me. And he arose up and fol |
 
 MAT:09:09 | A: drbo   | passed on from hence, he saw a |
-MAT:09:09 | B: pg1581 | passed on from thence, he saw a |
-MAT:09:09 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MAT:09:09 | B: pg1581 | passed on from thence, he saw a | # NOTE: TAN was smudged, Murphy is clear
+MAT:09:09 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MAT:09:09 | A: drbo   | low me. And he rose up and fol |
 MAT:09:09 | B: pg1581 | low me. And he arose up and fol |
@@ -1317,9 +1318,10 @@ MAT:22:03 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # MAT:22:04 | A: drbo   | pared my dinner; my calves and fatling ... hings are ready: come ye to the m |
 # MAT:22:04 | B: pg1581 | pared my dinner: my beeves and fatling ... hings are ready. Come ye to the m |
 
-MAT:22:04 | A: drbo   | pared my dinner; my calves and fatling |
-MAT:22:04 | B: pg1581 | pared my dinner: my beeves and fatling |
-MAT:22:04 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MAT:22:04 | A: drbo     | pared my dinner; my calves and fatling |
+MAT:22:04 | B: pg1581   | pared my dinner: my beeves and fatling |
+MAT:22:04 | C: 1971-tan | pared my dinner; my beeves and fatling |
+MAT:22:04 | which       | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MAT:22:04 | A: drbo   | hings are ready: come ye to the m |
 MAT:22:04 | B: pg1581 | hings are ready. Come ye to the m |
@@ -1355,9 +1357,9 @@ MAT:22:06 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # MAT:22:07 | A: drbo   | t, he was angry, and sending hi ... those murderers, and burnt thei |
 # MAT:22:07 | B: pg1581 | t, he was angry: and sending hi |
 
-MAT:22:07 | A: drbo   | t, he was angry, and sending hi  |
+MAT:22:07 | A: drbo   | t, he was angry, and sending hi  | # NOTE: TAN was smudged, Murphy is clear
 MAT:22:07 | B: pg1581 | t, he was angry: and sending hi |
-MAT:22:07 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MAT:22:07 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MAT:22:07 | A: drbo   |  those murderers, and burnt thei |
 MAT:22:07 | B: pg1581 |  those murderers and burnt thei |
@@ -2266,9 +2268,10 @@ MAT:25:27 | A: drbo   |  to the bankers, and at my comi |
 MAT:25:27 | B: pg1581 |  to the bankers: and at my comi |
 MAT:25:27 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MAT:25:28 | A: drbo   | talent from him, and give it to him that hath  |
-MAT:25:28 | B: pg1581 | talent from him and give it him that hath  |
-MAT:25:28 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MAT:25:28 | A: drbo     | talent from him, and give it to him that hath  |
+MAT:25:28 | B: pg1581   | talent from him and give it him that hath  |
+MAT:25:28 | C: 1971-tan | talent from him, and give it him that hath  |
+MAT:25:28 | which       | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MAT:25:30 | A: drbo   | fitable servant cast ye out in |
 MAT:25:30 | B: pg1581 | fitable servant, cast ye out in |
@@ -2466,9 +2469,10 @@ MAT:26:14 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # MAT:26:18 | A: drbo   | o a certain man, and say to him: the master saith ... is near at hand, with thee I make |
 # MAT:26:18 | B: pg1581 | nd say to him: The master saith ... is near at hand. With thee I make |
 
-MAT:26:18 | A: drbo   | o a certain man, and say to him: the master saith |
-MAT:26:18 | B: pg1581 | o a certain man and say to him: The master saith |
-MAT:26:18 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MAT:26:18 | A: drbo     | o a certain man, and say to him: the master saith |
+MAT:26:18 | B: pg1581   | o a certain man and say to him: The master saith |
+MAT:26:18 | C: 1971-tan | o a certain man, and say to him: The master saith |
+MAT:26:18 | which       | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MAT:26:18 | A: drbo   | is near at hand, with thee I make |
 MAT:26:18 | B: pg1581 | is near at hand. With thee I make |
@@ -2757,8 +2761,8 @@ MAT:26:71 | B: pg1581 | er maid saw him; and she saith  |
 MAT:26:71 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MAT:26:72 | A: drbo   | ed with an oath, I know not the |
-MAT:26:72 | B: pg1581 | ed with an oath: I know not the |
-MAT:26:72 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MAT:26:72 | B: pg1581 | ed with an oath: I know not the | # NOTE: TAN was smudged, Murphy is clear
+MAT:26:72 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
 
@@ -2836,9 +2840,10 @@ MAT:27:20 | A: drbo   | should ask for Barabbas |
 MAT:27:20 | B: pg1581 | should ask Barabbas |
 MAT:27:20 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MAT:27:20 | A: drbo   | Barabbas, and take Jesus away. |
-MAT:27:20 | B: pg1581 | Barabbas and make Jesus away. |
-MAT:27:20 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MAT:27:20 | A: drbo     | Barabbas, and take Jesus away. |
+MAT:27:20 | B: pg1581   | Barabbas and make Jesus away. |
+MAT:27:20 | C: 1971-tan | Barabbas, and make Jesus away. |
+MAT:27:20 | which       | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
 
@@ -2937,9 +2942,9 @@ MAT:27:40 | A: drbo   | e temple of God, and in three d |
 MAT:27:40 | B: pg1581 | e temple of God and in three d |
 MAT:27:40 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-MAT:27:40 | A: drbo   | ve thy own self: if thou be the S |
+MAT:27:40 | A: drbo   | ve thy own self: if thou be the S | # NOTE: TAN was smudged, Murphy is clear
 MAT:27:40 | B: pg1581 | ve thy own self. If thou be the S |
-MAT:27:40 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MAT:27:40 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
 #===============================

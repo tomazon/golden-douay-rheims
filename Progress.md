@@ -8,7 +8,7 @@ Project Status
 ## Gospel and other Red-Letter books
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | 
-| MAT | 2286 | 159 | 657 | 27 | 627 | DONE | WIP | WIP | WIP |
+| MAT | 2286 | 159 | 657 | 27 | 627 | DONE | DONE | WIP | WIP |
 | MRK | 1810 | 171 | 588 | 6 | 286 | DONE |  | WIP |  |
 | LUK | 4145 | 421 | 1345 | 27 | 586 | DONE |  |  |  |
 | JHN | 3207 | 322 | 1060 | 22 | 421 | DONE |  |  |  |
