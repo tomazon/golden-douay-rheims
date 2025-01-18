@@ -116,8 +116,8 @@ JHN:01:29 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 
-JHN:01:30 | A: drbo   | This is he, of whom I said |
-JHN:01:30 | B: pg1581 | ^This is he of whom I said | | ADDED:^
+JHN:01:30 | A: drbo   | ^This is he, of whom I said |
+JHN:01:30 | B: pg1581 | ^This is he of whom I said |
 JHN:01:30 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 JHN:01:31 | A: drbo   | I knew him not, but that he ma |
@@ -151,9 +151,15 @@ JHN:01:33 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 
-JHN:01:34 | A: drbo   | And I saw, and I gave testimony, that this is t |
-JHN:01:34 | B: pg1581 | ^And I saw: and I gave tes | | ADDED:^
+JHN:01:34 | A: drbo   | ^And I saw, and I gave  |
+JHN:01:34 | B: pg1581 | ^And I saw: and I gave  |
 JHN:01:34 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:01:34 | A: drbo   | testimony, that this is t |
+JHN:01:34 | B: pg1581 | testimony that this is t |
+JHN:01:34 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 JHN:01:35 | A: drbo   | gain John stood, and two of his |
 JHN:01:35 | B: pg1581 | gain John stood and two of his |
@@ -178,7 +184,7 @@ JHN:01:38 | B: pg1581 | Who said to him: Rabbi (which |
 JHN:01:38 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 JHN:01:38 | A: drbo   | rpreted, Master,) where dwellest |
-JHN:01:38 | B: pg1581 | preted, Master), where dwellest |
+JHN:01:38 | B: pg1581 | rpreted, Master), where dwellest |
 JHN:01:38 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -256,17 +262,37 @@ JHN:01:48 | A: drbo   | Jesus answered, and said to hi |
 JHN:01:48 | B: pg1581 | Jesus answered and said to hi |
 JHN:01:48 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:01:49 | A: drbo   | el answered him, and said: Rabbi, thou art the Son of God, thou art the Kin |
-JHN:01:49 | B: pg1581 | and said: Rabbi: Thou art the Son of God. Thou art the Kin |
+
+
+JHN:01:49 | A: drbo   | el answered him, and said |
+JHN:01:49 | B: pg1581 | el answered him and said |
 JHN:01:49 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:01:49 | A: drbo   | and said: Rabbi, thou art the Son  |
+JHN:01:49 | B: pg1581 | and said: Rabbi: Thou art the Son  |
+JHN:01:49 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:01:49 | A: drbo   | the Son of God, thou art the Kin |
+JHN:01:49 | B: pg1581 | the Son of God. Thou art the Kin |
+JHN:01:49 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 JHN:01:50 | A: drbo   | Jesus answered, and said to hi |
 JHN:01:50 | B: pg1581 | Jesus answered and said to hi |
 JHN:01:50 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:01:51 | A: drbo   | e heaven opened, and the angels |
+
+
+JHN:01:51 | A: drbo   | him: Amen, amen I say to you, |
 JHN:01:51 | B: pg1581 | him: Amen, amen, I say to you, |
 JHN:01:51 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:01:51 | A: drbo   | e heaven opened, and the angels |
+JHN:01:51 | B: pg1581 | e heaven opened and the angels |
+JHN:01:51 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 JHN:02:04 | A: drbo   | e and to thee? my hour is not y |
 JHN:02:04 | B: pg1581 | e and to thee? My hour is not y |
@@ -298,13 +324,26 @@ JHN:02:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 
-JHN:02:11 | A: drbo   | Cana of Galilee; and manifested his glory, and his disciple |
-JHN:02:11 | B: pg1581 | ested his glory. And his disciple |
+JHN:02:11 | A: drbo   | Cana of Galilee; and manifested |
+JHN:02:11 | B: pg1581 | Cana of Galilee and manifested |
 JHN:02:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:02:12 | A: drbo   | and his mother, and his brethren, and his discip |
+JHN:02:11 | A: drbo   | manifested his glory, and his disciple |
+JHN:02:11 | B: pg1581 | manifested his glory. And his disciple |
+JHN:02:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
+JHN:02:12 | A: drbo   | After this he went down t |
 JHN:02:12 | B: pg1581 | After this, he went down t |
 JHN:02:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:02:12 | A: drbo   | and his mother, and his brethren, and his discip |
+JHN:02:12 | B: pg1581 | and his mother and his brethren and his discip |
+JHN:02:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 JHN:02:13 | A: drbo   | ews was at hand, and Jesus went |
 JHN:02:13 | B: pg1581 | ews was at hand: and Jesus went |
@@ -1678,7 +1717,7 @@ JHN:07:03 | A: drbo   | rethren said to him: Pass |
 JHN:07:03 | B: pg1581 | rethren said to, him: Pass |
 JHN:07:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:07:03 | A: drbo   | Pass from hence, and go into |
+JHN:07:03 | A: drbo   | Pass from hence, and go into  |
 JHN:07:03 | B: pg1581 | Pass from hence and go into |
 JHN:07:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -1848,16 +1887,26 @@ JHN:07:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 #===============================
-# JHN:07:28 | A: drbo   | emple, teaching, and saying: Yo ... now whence I am: and I am not come of myself; but he that sent me, is true, whom  |
+# JHN:07:28 | A: drbo   | emple, teaching, and saying: Yo ... now whence I am: and I am not come of myself; but he that sent me, is true, whom |
 # JHN:07:28 | B: pg1581 | now whence I am. And I am not come of myself: but he that se |
 
-JHN:07:28 | A: drbo   | emple, teaching, and saying: Yo ... now whence I am: and I am not come of myself; but he that sent me, is true, whom |
-JHN:07:28 | B: pg1581 | now whence I am. And I am not come of myself: but he that se |
+
+JHN:07:28 | A: drbo   | temple, teaching, and saying |
+JHN:07:28 | B: pg1581 | temple, teaching and saying |
 JHN:07:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:07:28 | A: drbo   | emple, teaching, and saying: Yo ... now whence I am: and I am not come of myself; but he that sent me, is true, whom |
-JHN:07:28 | B: pg1581 | now whence I am. And I am not come of myself: but he that se |
+JHN:07:28 | A: drbo   | now whence I am: and I am not |
+JHN:07:28 | B: pg1581 | now whence I am. And I am not |
 JHN:07:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:07:28 | A: drbo   | come of myself; but he that |
+JHN:07:28 | B: pg1581 | come of myself: but he that |
+JHN:07:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:07:28 | A: drbo   | he that sent me, is true, whom |
+JHN:07:28 | B: pg1581 | he that sent me is true, whom |
+JHN:07:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 #
 #===============================
@@ -1874,13 +1923,18 @@ JHN:07:29 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # JHN:07:31 | A: drbo   | believed in him, and said: When ... o more miracles, than these which this man doth? |
 # JHN:07:31 | B: pg1581 | believed in him and said: When ... o more miracles than this man doth? |
 
-JHN:07:31 | A: drbo   | believed in him, and said: When ... o more miracles, than these which this man doth? |
-JHN:07:31 | B: pg1581 | believed in him and said: When ... o more miracles than this man doth? |
+JHN:07:31 | A: drbo   | believed in him, and said |
+JHN:07:31 | B: pg1581 | believed in him and said |
 JHN:07:31 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:07:31 | A: drbo   | believed in him, and said: When ... o more miracles, than these which this man doth? |
-JHN:07:31 | B: pg1581 | believed in him and said: When ... o more miracles than this man doth? |
+JHN:07:31 | A: drbo   | do more miracles, than  |
+JHN:07:31 | B: pg1581 | do more miracles than  |
 JHN:07:31 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:07:31 | A: drbo   | than these which this man doth? |
+JHN:07:31 | B: pg1581 | than this man doth? |
+JHN:07:31 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 #
 #===============================
@@ -2019,14 +2073,18 @@ JHN:08:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 #===============================
 # JHN:08:12 | A: drbo   | ht of the world: he that followeth me, walketh not in |
-# JHN:08:12 | B: pg1581 |  Jesus spoke to: them, saying:  ... ht of the world. He that followet |
+# JHN:08:12 | B: pg1581 | Jesus spoke to: them, saying:  ... ht of the world. He that followet |
 
-JHN:08:12 | A: drbo   | ht of the world: he that followeth me, walketh not in |
-JHN:08:12 | B: pg1581 | Jesus spoke to: them, saying:  ... ht of the world. He that followet |
+JHN:08:12 | A: drbo   |  Jesus spoke to them, saying: |
+JHN:08:12 | B: pg1581 |  Jesus spoke to: them, saying: |
 JHN:08:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:08:12 | A: drbo   | ht of the world: he that followeth me, walketh not in |
-JHN:08:12 | B: pg1581 | Jesus spoke to: them, saying:  ... ht of the world. He that followet |
+JHN:08:12 | A: drbo   | of the world: he that followeth  |
+JHN:08:12 | B: pg1581 | of the world. He that followeth |
+JHN:08:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:08:12 | A: drbo   | that followeth me, walketh not |
+JHN:08:12 | B: pg1581 | that followeth me walketh not |
 JHN:08:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -2109,20 +2167,30 @@ JHN:08:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 #===============================
-# JHN:08:28 | A: drbo   |  shall you know, that I am he, and that I do  ... thing of myself, but as the Fathe ...  things I speak: |
-# JHN:08:28 | B: pg1581 |  have lifted up, the Son of man ... thing of myself. But as the Fathe ...  things I speak. |
+# JHN:08:28 | A: drbo   | shall you know, that I am he, and that I do  ... thing of myself, but as the Fathe ...  things I speak: |
+# JHN:08:28 | B: pg1581 | have lifted up, the Son of man ... thing of myself. But as the Fathe ...  things I speak. |
 
-JHN:08:28 | A: drbo   | shall you know, that I am he, and that I do  ... thing of myself, but as the Fathe ...  things I speak: |
-JHN:08:28 | B: pg1581 | have lifted up, the Son of man ... thing of myself. But as the Fathe ...  things I speak. |
+
+JHN:08:28 | A: drbo   | have lifted up the Son of man |
+JHN:08:28 | B: pg1581 | have lifted up, the Son of man  |
 JHN:08:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:08:28 | A: drbo   | shall you know, that I am he, and that I do  ... thing of myself, but as the Fathe ...  things I speak: |
-JHN:08:28 | B: pg1581 | have lifted up, the Son of man ... thing of myself. But as the Fathe ...  things I speak. |
+JHN:08:28 | A: drbo   |  shall you know, that I am  |
+JHN:08:28 | B: pg1581 |  shall you know that I am  |
 JHN:08:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:08:28 | A: drbo   | shall you know, that I am he, and that I do  ... thing of myself, but as the Fathe ...  things I speak: |
-JHN:08:28 | B: pg1581 | have lifted up, the Son of man ... thing of myself. But as the Fathe ...  things I speak. |
+JHN:08:28 | A: drbo   | that I am he, and that I do |
+JHN:08:28 | B: pg1581 | that I am he and that I do |
 JHN:08:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:08:28 | A: drbo   | thing of myself, but as the Fathe  |
+JHN:08:28 | B: pg1581 | thing of myself. But as the Fathe  |
+JHN:08:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:08:28 | A: drbo   | things I speak:$ |
+JHN:08:28 | B: pg1581 | things I speak.$ |
+JHN:08:28 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 #
 #===============================
@@ -2181,13 +2249,27 @@ JHN:08:39 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # JHN:08:42 | A: drbo   | ndeed love me. For from God I proceeded, and came; for I came not of myself, but he sent me: |
 # JHN:08:42 | B: pg1581 | ndeed love me. for from God I p ... ceeded and came. for I came not of myself: but he sent me. |
 
-JHN:08:42 | A: drbo   | ndeed love me. For from God I proceeded, and came; for I came not of myself, but he sent me: |
-JHN:08:42 | B: pg1581 | ndeed love me. for from God I p ... ceeded and came. for I came not of myself: but he sent me. |
+JHN:08:42 | A: drbo   | ndeed love me. For from God  |
+JHN:08:42 | B: pg1581 | ndeed love me. for from God  |
 JHN:08:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:08:42 | A: drbo   | ndeed love me. For from God I proceeded, and came; for I came not of myself, but he sent me: |
-JHN:08:42 | B: pg1581 | ndeed love me. for from God I p ... ceeded and came. for I came not of myself: but he sent me. |
+JHN:08:42 | A: drbo   | I proceeded, and came |
+JHN:08:42 | B: pg1581 | I proceeded and came |
 JHN:08:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:08:42 | A: drbo   | and came; for I came not |
+JHN:08:42 | B: pg1581 | and came. for I came not |
+JHN:08:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+JHN:08:42 | A: drbo   | not of myself, but he sent |
+JHN:08:42 | B: pg1581 | not of myself: but he sent |
+JHN:08:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:08:42 | A: drbo   | but he sent me:$ |
+JHN:08:42 | B: pg1581 | but he sent me.$ |
+JHN:08:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 #
 #===============================
@@ -2222,12 +2304,12 @@ JHN:08:44 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # JHN:08:46 | A: drbo   | ou shall convict me of sin? If  ...  not believe me? |
 # JHN:08:46 | B: pg1581 | you shall convince me of sin? If  ...  not believe me: |
 
-JHN:08:46 | A: drbo   | ou shall convict me of sin? If  ...  not believe me? |
-JHN:08:46 | B: pg1581 | you shall convince me of sin? If  ...  not believe me: |
+JHN:08:46 | A: drbo   | you shall convict me of sin? If |
+JHN:08:46 | B: pg1581 | you shall convince me of sin? If |
 JHN:08:46 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:08:46 | A: drbo   | ou shall convict me of sin? If  ...  not believe me? |
-JHN:08:46 | B: pg1581 | you shall convince me of sin? If  ...  not believe me: |
+JHN:08:46 | A: drbo   | not believe me?$ |
+JHN:08:46 | B: pg1581 | not believe me:$ |
 JHN:08:46 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -2265,9 +2347,13 @@ JHN:08:49 | A: drbo   | onour my Father, and you have dis |
 JHN:08:49 | B: pg1581 | onour my Father. And you have dis |
 JHN:08:49 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:08:51 | A: drbo   | Amen, amen I say to you:$ | | ADDED:$
-JHN:08:51 | B: pg1581 | Amen, amen, I say to you:$ | | ADDED:$
+
+
+JHN:08:51 | A: drbo   | Amen, amen I say to you |
+JHN:08:51 | B: pg1581 | Amen, amen, I say to you |
 JHN:08:51 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 JHN:08:52 | A: drbo   | nd the prophets; and thou sayes |
 JHN:08:52 | B: pg1581 | nd the prophets: and thou sayes |
@@ -2313,8 +2399,8 @@ JHN:08:57 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # JHN:08:58 | A: drbo   | am was made, I am. |
 # JHN:08:58 | B: pg1581 | hem: Amen, amen, I say to you,  ... am was made, I AM. |
 
-JHN:08:58 | A: drbo   | hem: Amen, amen, I say to you, |
-JHN:08:58 | B: pg1581 | hem: Amen, amen I say to you, |
+JHN:08:58 | A: drbo   | hem: Amen, amen I say to you, |
+JHN:08:58 | B: pg1581 | hem: Amen, amen, I say to you, |
 JHN:08:58 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 JHN:08:58 | A: drbo   | am was made, I am.$ |
@@ -2359,13 +2445,26 @@ JHN:09:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # JHN:09:11 | A: drbo   | Jesus made clay, and anointed my eyes, and said to me ... e pool of Siloe, and wash. And I went, I washed, and I see. |
 # JHN:09:11 | B: pg1581 | ash. And I went: I washed: and I see. |
 
-JHN:09:11 | A: drbo   | Jesus made clay, and anointed my eyes, and said to me ... e pool of Siloe, and wash. And I went, I washed, and I see. |
-JHN:09:11 | B: pg1581 | ash. And I went: I washed: and I see. |
+JHN:09:11 | A: drbo   | Jesus made clay, and anointed  |
+JHN:09:11 | B: pg1581 | Jesus made clay and anointed |
 JHN:09:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:09:11 | A: drbo   | Jesus made clay, and anointed my eyes, and said to me ... e pool of Siloe, and wash. And I went, I washed, and I see. |
-JHN:09:11 | B: pg1581 | ash. And I went: I washed: and I see. |
+JHN:09:11 | A: drbo   | anointed my eyes, and said to me  |
+JHN:09:11 | B: pg1581 | anointed my eyes and said to me |
 JHN:09:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:09:11 | A: drbo   |  pool of Siloe, and wash.  |
+JHN:09:11 | B: pg1581 |  pool of Siloe and wash.|
+JHN:09:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:09:11 | A: drbo   | ash. And I went, I washed |
+JHN:09:11 | B: pg1581 | ash. And I went: I washed |
+JHN:09:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:09:11 | A: drbo   | I washed, and I see.$ |
+JHN:09:11 | B: pg1581 | I washed: and I see.$ |
+JHN:09:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 #
 #===============================
@@ -2532,13 +2631,22 @@ JHN:09:35 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # JHN:09:39 | A: drbo   | nd Jesus said: For judgment I a ... into this world; that they who see not, may see; and they who see, may become bli |
 # JHN:09:39 | B: pg1581 | nd Jesus said: for judgment I a ... into this world: that they who  |
 
-JHN:09:39 | A: drbo   | nd Jesus said: For judgment I a ... into this world; that they who see not, may see; and they who see, may become bli |
-JHN:09:39 | B: pg1581 | nd Jesus said: for judgment I a ... into this world: that they who |
+JHN:09:39 | A: drbo   | nd Jesus said: For judgment I a  |
+JHN:09:39 | B: pg1581 | nd Jesus said: for judgment I a  |
 JHN:09:39 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:09:39 | A: drbo   | nd Jesus said: For judgment I a ... into this world; that they who see not, may see; and they who see, may become bli |
-JHN:09:39 | B: pg1581 | nd Jesus said: for judgment I a ... into this world: that they who |
+JHN:09:39 | A: drbo   | into this world; that they who  |
+JHN:09:39 | B: pg1581 | into this world: that they who |
 JHN:09:39 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:09:39 | A: drbo   | they who see not, may see |
+JHN:09:39 | B: pg1581 | they who see not may see |
+JHN:09:39 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:09:39 | A: drbo   | and they who see, may become bli |
+JHN:09:39 | B: pg1581 | and they who see may become bli |
+JHN:09:39 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 #
 #===============================
@@ -5154,15 +5262,19 @@ JHN:20:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # JHN:20:02 | A: drbo   | She ran, therefore, and cometh to Simon Peter, and to the oth ... hom Jesus loved, and saith to t ... f the sepulchre, and we know no |
 # JHN:20:02 | B: pg1581 | f the sepulchre: and we know no |
 
-JHN:20:02 | A: drbo   | She ran, therefore, and cometh to Simon Peter, and to the oth ... hom Jesus loved, and saith to t ... f the sepulchre, and we know no |
-JHN:20:02 | B: pg1581 | f the sepulchre: and we know no |
+JHN:20:02 | A: drbo   | She ran, therefore, and cometh to  |
+JHN:20:02 | B: pg1581 | She ran therefore and cometh to  |
 JHN:20:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:20:02 | A: drbo   | She ran, therefore, and cometh to Simon Peter, and to the oth ... hom Jesus loved, and saith to t ... f the sepulchre, and we know no |
-JHN:20:02 | B: pg1581 | f the sepulchre: and we know no |
+JHN:20:02 | A: drbo   | Simon Peter, and to the oth |
+JHN:20:02 | B: pg1581 | Simon Peter and to the oth |
 JHN:20:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:20:02 | A: drbo   | She ran, therefore, and cometh to Simon Peter, and to the oth ... hom Jesus loved, and saith to t ... f the sepulchre, and we know no |
+JHN:20:02 | A: drbo   | hom Jesus loved, and saith to t  |
+JHN:20:02 | B: pg1581 | hom Jesus loved and saith to t |
+JHN:20:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:20:02 | A: drbo   | f the sepulchre, and we know no |
 JHN:20:02 | B: pg1581 | f the sepulchre: and we know no |
 JHN:20:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -5227,16 +5339,16 @@ JHN:20:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # JHN:20:15 | A: drbo   |  weepest thou? whom seekest tho ... u hast laid him, and I will tak |
 # JHN:20:15 | B: pg1581 |  weepest thou? Whom seekest tho ...  She, thinking that it was the gard ... u hast laid him: and I will tak |
 
-JHN:20:15 | A: drbo   | weepest thou? whom seekest tho ... u hast laid him, and I will tak |
-JHN:20:15 | B: pg1581 | weepest thou? Whom seekest tho ...  She, thinking that it was the gard ... u hast laid him: and I will tak |
+JHN:20:15 | A: drbo   | weepest thou? whom seekest tho  |
+JHN:20:15 | B: pg1581 | weepest thou? Whom seekest tho  |
 JHN:20:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:20:15 | A: drbo   | weepest thou? whom seekest tho ... u hast laid him, and I will tak |
-JHN:20:15 | B: pg1581 | weepest thou? Whom seekest tho ...  She, thinking that it was the gard ... u hast laid him: and I will tak |
+JHN:20:15 | A: drbo   | She, thinking it was the gard |
+JHN:20:15 | B: pg1581 | She, thinking that it was the gard |
 JHN:20:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:20:15 | A: drbo   | weepest thou? whom seekest tho ... u hast laid him, and I will tak |
-JHN:20:15 | B: pg1581 | weepest thou? Whom seekest tho ...  She, thinking that it was the gard ... u hast laid him: and I will tak |
+JHN:20:15 | A: drbo   | u hast laid him, and I will tak |
+JHN:20:15 | B: pg1581 | u hast laid him: and I will tak |
 JHN:20:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -5250,12 +5362,16 @@ JHN:20:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # JHN:20:17 | A: drbo   | Do not touch me, for I am not y ...  to my brethren, and say to the |
 # JHN:20:17 | B: pg1581 | Do not touch me: for I am not y ... , to my God and to your God. |
 
-JHN:20:17 | A: drbo   | Do not touch me, for I am not y ...  to my brethren, and say to the |
-JHN:20:17 | B: pg1581 | Do not touch me: for I am not y ... , to my God and to your God. |
+JHN:20:17 | A: drbo   | Do not touch me, for I am not y  |
+JHN:20:17 | B: pg1581 | Do not touch me: for I am not y  |
 JHN:20:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:20:17 | A: drbo   | Do not touch me, for I am not y ...  to my brethren, and say to the |
-JHN:20:17 | B: pg1581 | Do not touch me: for I am not y ... , to my God and to your God. |
+JHN:20:17 | A: drbo   | to my brethren, and say to the |
+JHN:20:17 | B: pg1581 | to my brethren and say to the |
+JHN:20:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:20:17 | A: drbo   | to my God and your God. |
+JHN:20:17 | B: pg1581 | to my God and to your God. |
 JHN:20:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -5343,18 +5459,25 @@ JHN:20:26 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # JHN:20:27 | A: drbo   | Then he saith to Thomas: Put ... y finger hither, and see my hands; and bring hither thy hand, and put it into my side; and be not faith |
 # JHN:20:27 | B: pg1581 | Then he said to Thomas: Put ... nd see my hands. And bring hither ... it into my side. And be not faith |
 
-JHN:20:27 | A: drbo   | Then he saith to Thomas: Put ... y finger hither, and see my hands; and bring hither thy hand, and put it into my side; and be not faith |
-JHN:20:27 | B: pg1581 | Then he said to Thomas: Put ... nd see my hands. And bring hither ... it into my side. And be not faith |
+JHN:20:27 | A: drbo   | Then he saith to Thomas: Put  |
+JHN:20:27 | B: pg1581 | Then he said to Thomas: Put  |
 JHN:20:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:20:27 | A: drbo   | Then he saith to Thomas: Put ... y finger hither, and see my hands; and bring hither thy hand, and put it into my side; and be not faith |
-JHN:20:27 | B: pg1581 | Then he said to Thomas: Put ... nd see my hands. And bring hither ... it into my side. And be not faith |
+JHN:20:27 | A: drbo   | thy finger hither, and see my hands |
+JHN:20:27 | B: pg1581 | thy finger hither and see my hands|
 JHN:20:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:20:27 | A: drbo   | Then he saith to Thomas: Put ... y finger hither, and see my hands; and bring hither thy hand, and put it into my side; and be not faith |
-JHN:20:27 | B: pg1581 | Then he said to Thomas: Put ... nd see my hands. And bring hither ... it into my side. And be not faith |
+JHN:20:27 | A: drbo   | nd see my hands; and bring hither |
+JHN:20:27 | B: pg1581 | nd see my hands. And bring hither  |
 JHN:20:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
+JHN:20:27 | A: drbo   | hither thy hand, and put it into |
+JHN:20:27 | B: pg1581 | hither thy hand and put it into |
+JHN:20:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:20:27 | A: drbo   | it into my side; and be not faith |
+JHN:20:27 | B: pg1581 | it into my side. And be not faith |
+JHN:20:27 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 #
 #===============================
 
@@ -5374,12 +5497,16 @@ JHN:20:29 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # JHN:21:02 | A: drbo   | her Simon Peter, and Thomas, wh ... sons of Zebedee, and two others |
 # JHN:21:02 | B: pg1581 | e were together: Simon Peter an |
 
-JHN:21:02 | A: drbo   | her Simon Peter, and Thomas, wh ... sons of Zebedee, and two others |
-JHN:21:02 | B: pg1581 | e were together: Simon Peter an |
+JHN:21:02 | A: drbo   | e were together Simon Peter |
+JHN:21:02 | B: pg1581 | e were together: Simon Peter |
 JHN:21:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:21:02 | A: drbo   | her Simon Peter, and Thomas, wh ... sons of Zebedee, and two others |
-JHN:21:02 | B: pg1581 | e were together: Simon Peter an |
+JHN:21:02 | A: drbo   | Simon Peter, and Thomas |
+JHN:21:02 | B: pg1581 | Simon Peter and Thomas |
+JHN:21:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:21:02 | A: drbo   | sons of Zebedee, and two others |
+JHN:21:02 | B: pg1581 | sons of Zebedee and two others |
 JHN:21:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -5509,16 +5636,20 @@ JHN:21:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # JHN:21:18 | A: drbo   | I say to thee, when thou wast y ... st gird thyself, and didst walk ... shall gird thee, and lead thee  |
 # JHN:21:18 | B: pg1581 | Amen, amen, I say to thee, When thou wast y |
 
-JHN:21:18 | A: drbo   | I say to thee, when thou wast y ... st gird thyself, and didst walk ... shall gird thee, and lead thee |
-JHN:21:18 | B: pg1581 | Amen, amen, I say to thee, When thou wast y |
+JHN:21:18 | A: drbo   | Amen, amen I say to thee  |
+JHN:21:18 | B: pg1581 | Amen, amen, I say to thee |
 JHN:21:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:21:18 | A: drbo   | I say to thee, when thou wast y ... st gird thyself, and didst walk ... shall gird thee, and lead thee |
-JHN:21:18 | B: pg1581 | Amen, amen, I say to thee, When thou wast y |
+JHN:21:18 | A: drbo   | to thee, when thou wast y  |
+JHN:21:18 | B: pg1581 | to thee, When thou wast y |
 JHN:21:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-JHN:21:18 | A: drbo   | I say to thee, when thou wast y ... st gird thyself, and didst walk ... shall gird thee, and lead thee |
-JHN:21:18 | B: pg1581 | Amen, amen, I say to thee, When thou wast y |
+JHN:21:18 | A: drbo   | st gird thyself, and didst walk |
+JHN:21:18 | B: pg1581 | st gird thyself and didst walk|
+JHN:21:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+JHN:21:18 | A: drbo   | another shall gird thee, and lead thee |
+JHN:21:18 | B: pg1581 | another shall gird thee and lead thee |
 JHN:21:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -5549,7 +5680,7 @@ JHN:21:24 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # JHN:21:25 | B: pg1581 | he world itself. I think, would |
 
 JHN:21:25 | A: drbo   | which Jesus did; which, if they |
-JHN:21:25 | B: pg1581 | which Jesus did; which if they |
+JHN:21:25 | B: pg1581 | which Jesus did which, if they |
 JHN:21:25 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 JHN:21:25 | A: drbo   | he world itself, I think, would |
