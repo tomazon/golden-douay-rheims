@@ -7,7 +7,10 @@ use Data::Dumper;
 use File::Slurp;
 use List::Util qw( max );
 use String::Trim;
+use utf8;
 use YAML;
+
+binmode *STDOUT, ':utf8';
 
 require "./sources/lib/perl5/shared.pl";
 
@@ -36,23 +39,40 @@ my $issues_count = 0;
 
 my $ok = {
     length_diff => {
-        "MAT:13:2:[1]" => 9,
-        "MRK:2:15:[1]" => 6,
-        "MRK:8:6:[2]" => 55,
+        "MAT:13:02:[1]" => 9,
+        "MRK:02:15:[1]" => 6,
+        "MRK:08:06:[2]" => 55,
+        "LUK:23:40:[2]" => 10,
+        "LUK:24:33:[1]" => 8,
+        "JHN:07:31:[3]" => 12,
+        "ACT:02:20:[2]" => 6,
         "GEN:27:34:[2]" => 6,
         "GEN:27:36:[1]" => 6,
         "GEN:45:16:[1]" => 7,
-        "LUK:23:40:[2]" => 10,
-        "LUK:24:33:[1]" => 8,
-        "JHN:7:31:[3]" => 12,
     },
     no_matches => {
-        "MRK:8:27 pg1581" => "non-utf8 character",
+        "MRK:08:27 pg1581" => "non-utf8 character",
+        "ACT:08:40 pg1581" => "non-utf8 character",
+        "ACT:09:30 pg1581" => "non-utf8 character",
+        "ACT:10:01 pg1581" => "non-utf8 character",
+        "ACT:10:24 pg1581" => "non-utf8 character",
+        "ACT:11:11 pg1581" => "non-utf8 character",
+        "ACT:12:19 pg1581" => "non-utf8 character",
+        "ACT:18:22 pg1581" => "non-utf8 character",
+        "ACT:21:08 pg1581" => "non-utf8 character",
+        "ACT:21:16 pg1581" => "non-utf8 character",
+        "ACT:23:23 pg1581" => "non-utf8 character",
+        "ACT:23:33 pg1581" => "non-utf8 character",
+        "ACT:25:01 pg1581" => "non-utf8 character",
+        "ACT:25:04 pg1581" => "non-utf8 character",
+        "ACT:25:06 pg1581" => "non-utf8 character",
+        "ACT:25:13 pg1581" => "non-utf8 character",
     },
     start_differently => {
         "LUK:12:28[3]" => 1,
     },
     end_differently => {
+        "ACT:02:20[2]" => 1,
     },
 };
 
@@ -62,6 +82,10 @@ my $line_num = 0;
 for my $line (read_file($diff_file)) {
     $line_num++;
     trim($line);
+    
+    #$line =~ s/\xef\xbf\xbd/\x{00E6}/g;
+    # say $line;
+    # next;
 
     next unless $line =~ /\S/;
     if ($line =~ /^#/) {
@@ -85,16 +109,16 @@ for my $line (read_file($diff_file)) {
             $index = 0 if $tag ne $last_tag;
 
             if (!defined($cols[2])) {
-                issue "$book_id:$c:$v $label UNDEF_STRING";
+                issue bcv2tag($book_id,$c,$v) ."$label UNDEF_STRING";
                 next;
             }
 
             #next if !defined($string) || $string eq ''; 
             if ($string eq '') {
-                issue "$$book_id:$c:$v $label EMPTY_STRING";
+                issue bcv2tag($book_id,$c,$v) ."$label EMPTY_STRING";
                 next;
             } elsif (!defined($string)) {
-                issue "$book_id:$c:$v $label UNDEF2_STRING";
+                issue bcv2tag($book_id,$c,$v) ."$label UNDEF2_STRING";
                 next;
             }
 
@@ -115,7 +139,7 @@ for my $line (read_file($diff_file)) {
     }
 }
 
-check_struct($struct, $b);
+check_struct($struct, $book_id);
 exit 1 if $issues_count;
 
 YAML::Dump($struct) if $args->{yaml};
@@ -123,6 +147,20 @@ YAML::Dump($struct) if $args->{yaml};
 exit 0;
 
 #=========================================================================================
+
+
+sub index2num {
+    my ($out) = @_;
+    $out =~ s/^[vc]:0*//;
+    $out
+}
+
+sub bcv2tag {
+    my ($book_id, $c, $v) = @_;
+    $c =~ s/^c://;
+    $v =~ s/^v://;
+    sprintf("%s:%02d:%02d", $book_id, $c, $v);
+}
 
 
 sub start_chars {
@@ -152,6 +190,8 @@ sub check_struct {
         for my $v_index (sort keys %{$struct->{$c_index}}) {
             my $entry = $struct->{$c_index}->{$v_index};
             my $tag = $entry->{tag};
+            #$tag = sprintf("%s:%02d:%02d", $book_id, index2num($c_index), index2num($v_index));
+            $tag = bcv2tag(split(/:/,$tag));
 
             #my $comments = $entry->{comments};
             if (defined(my $comments = $entry->{comments})) {
@@ -253,6 +293,8 @@ sub check_comment {
         1;
     } elsif ($comment =~ /^#########  /) {
         1;
+    } elsif ($comment =~ /^#- [A-Z1-4]{3}:\d+:\d+ \|/) {
+        1;
     } else {
         issue "ODD_COMMENT: $comment, stopped";
     }
@@ -300,6 +342,7 @@ sub check_string_in_verse {
     my $const_label = sprintf("%-6s", $label);
 
     my $tag = "$b:$c:$v";
+    $tag = bcv2tag($b,$c,$v);
 
     my $entry='';
     if ($label eq 'drbo') {
