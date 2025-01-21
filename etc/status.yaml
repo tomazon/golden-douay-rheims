@@ -40,13 +40,17 @@ status:
         apply_red: 'WIP'
     MRK: 
         split_diffs: 'DONE'
+        determine_matches: 'DONE'
         apply_vscodes: 'WIP'
         #apply_red: 'WIP'
     LUK:
         split_diffs: 'DONE'
+        determine_matches: 'DONE'
     JHN: 
         split_diffs: 'DONE'
-    ACT: {}
+        determine_matches: 'WIP'
+    ACT: 
+        split_diffs: 'WIP'
     1CO: {}
     2CO: {}
     REV: {}

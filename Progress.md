@@ -9,10 +9,10 @@ Project Status
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | 
 | MAT | 2286 | 159 | 657 | 27 | 627 | DONE | DONE | WIP | WIP |
-| MRK | 1810 | 171 | 588 | 6 | 286 | DONE |  | WIP |  |
-| LUK | 4145 | 421 | 1345 | 27 | 586 | DONE |  |  |  |
-| JHN | 3207 | 322 | 1060 | 22 | 421 | DONE |  |  |  |
-| ACT | 3220 | 412 | 1170 | 29 | 27 |  |  |  |  |
+| MRK | 1810 | 171 | 588 | 6 | 286 | DONE | DONE | WIP |  |
+| LUK | 4145 | 421 | 1345 | 27 | 586 | DONE | DONE |  |  |
+| JHN | 3207 | 322 | 1060 | 22 | 421 | DONE | WIP |  |  |
+| ACT | 3270 | 411 | 1196 | 29 | 27 | WIP |  |  |  |
 | 1CO | 1323 | 169 | 491 | 1 | 2 |  |  |  |  |
 | 2CO | 793 | 100 | 294 | 4 | 1 |  |  |  |  |
 | REV | 2297 | 378 | 737 | 0 | 67 |  |  |  |  |
