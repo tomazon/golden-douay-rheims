@@ -51,9 +51,12 @@ status:
         determine_matches: 'WIP'
     ACT: 
         split_diffs: 'DONE'
-    1CO: {}
-    2CO: {}
-    REV: {}
+    1CO: 
+        split_diffs: 'DONE'
+    2CO: 
+        split_diffs: 'DONE'
+    REV: 
+        split_diffs: 'WIP'
 
     # Torah
 
