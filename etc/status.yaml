@@ -62,16 +62,20 @@ status:
 
     GEN: 
         split_diffs: 'DONE'
-    EXO: {}
+    EXO:
+        split_diffs: 'WIP'
     LEV: {}
     NUM: {}
     DEU: {}
 
     # New Testament
 
-    2JN: {}
-    3JN: {}
-    PHM: {}
+    PHM: 
+        split_diffs: 'DONE'
+    2JN:
+        split_diffs: 'DONE'
+    3JN:
+        split_diffs: 'DONE'
     JUD: {}
     TIT: {}
     2TH: {}
