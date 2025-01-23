@@ -15,7 +15,7 @@ Project Status
 | ACT | 3330 | 411 | 1226 | 29 | 27 | DONE |  |  |  |
 | 1CO | 1351 | 169 | 505 | 1 | 2 | DONE |  |  |  |
 | 2CO | 807 | 100 | 301 | 4 | 1 | DONE |  |  |  |
-| REV | 2297 | 378 | 737 | 0 | 67 | WIP |  |  |  |
+| REV | 2377 | 378 | 777 | 0 | 67 | DONE |  |  |  |
 
 ## Torah
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
