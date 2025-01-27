@@ -21,7 +21,7 @@ Project Status
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | 
 | GEN | 2165 | 124 | 934 | 49 | 0 | DONE |  |  |  |
-| EXO | 1771 | 143 | 731 | 23 | 0 | WIP |  |  |  |
+| EXO | 1823 | 143 | 757 | 23 | 0 | DONE |  |  |  |
 | LEV | 1763 | 199 | 682 | 1 | 0 |  |  |  |  |
 | NUM | 329 | 10 | 130 | 49 | 0 |  |  |  |  |
 | DEU | 280 | 4 | 93 | 86 | 0 |  |  |  |  |
@@ -92,6 +92,6 @@ Project Status
 | SIR | 1867 | 6 | 134 | 1587 | 0 |  |  |  |  |
 | 2KI | 2232 | 258 | 850 | 16 | 0 |  |  |  |  |
 | 1KI | 2257 | 232 | 896 | 1 | 0 |  |  |  |  |
-| PSA | 3164 | 24 | 321 | 2474 | 0 |  |  |  |  |
+| PSA | 3178 | 24 | 328 | 2474 | 0 | DONE |  |  |  |
 
 

@@ -64,7 +64,7 @@ status:
     GEN: 
         split_diffs: 'DONE'
     EXO:
-        split_diffs: 'WIP'
+        split_diffs: 'DONE'
     LEV: {}
     NUM: {}
     DEU: {}
@@ -139,5 +139,6 @@ status:
     JOB: {}
     ISA: {}
     SIR: {}
-    PSA: {}
+    PSA: 
+        split_diffs: 'DONE'
 
