@@ -11,8 +11,8 @@ Project Status
 | MAT | 2286 | 159 | 657 | 27 | 627 | DONE | DONE | WIP | WIP |
 | MRK | 1810 | 171 | 588 | 6 | 286 | DONE | DONE | WIP |  |
 | LUK | 4145 | 421 | 1345 | 27 | 586 | DONE | DONE |  |  |
-| JHN | 3207 | 322 | 1060 | 22 | 421 | DONE | WIP |  |  |
-| ACT | 3330 | 411 | 1226 | 29 | 27 | DONE |  |  |  |
+| JHN | 3207 | 322 | 1060 | 22 | 421 | DONE | DONE |  |  |
+| ACT | 3330 | 411 | 1226 | 29 | 27 | DONE | WIP |  |  |
 | 1CO | 1351 | 169 | 505 | 1 | 2 | DONE |  |  |  |
 | 2CO | 807 | 100 | 301 | 4 | 1 | DONE |  |  |  |
 | REV | 2377 | 378 | 777 | 0 | 67 | DONE |  |  |  |
@@ -21,7 +21,7 @@ Project Status
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | 
 | GEN | 2165 | 124 | 934 | 49 | 0 | DONE |  |  |  |
-| EXO | 1759 | 143 | 725 | 23 | 0 |  |  |  |  |
+| EXO | 1771 | 143 | 731 | 23 | 0 | WIP |  |  |  |
 | LEV | 1763 | 199 | 682 | 1 | 0 |  |  |  |  |
 | NUM | 329 | 10 | 130 | 49 | 0 |  |  |  |  |
 | DEU | 280 | 4 | 93 | 86 | 0 |  |  |  |  |
@@ -29,9 +29,9 @@ Project Status
 ## Other New Testament books (ordered by effort weight)
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | 
-| PHM | 42 | 2 | 19 | 0 | 0 |  |  |  |  |
-| 3JN | 46 | 6 | 17 | 0 | 0 |  |  |  |  |
-| 2JN | 70 | 12 | 23 | 0 | 0 |  |  |  |  |
+| PHM | 46 | 2 | 21 | 0 | 0 | DONE |  |  |  |
+| 3JN | 46 | 6 | 17 | 0 | 0 | DONE |  |  |  |
+| 2JN | 72 | 12 | 24 | 0 | 0 | DONE |  |  |  |
 | JUD | 106 | 17 | 36 | 0 | 0 |  |  |  |  |
 | TIT | 110 | 11 | 44 | 0 | 0 |  |  |  |  |
 | 2PE | 174 | 22 | 65 | 0 | 0 |  |  |  |  |
@@ -45,9 +45,9 @@ Project Status
 | COL | 327 | 52 | 111 | 1 | 0 |  |  |  |  |
 | EPH | 360 | 40 | 140 | 0 | 0 |  |  |  |  |
 | GAL | 390 | 54 | 140 | 2 | 0 |  |  |  |  |
-| 1JN | 462 | 74 | 157 | 0 | 0 |  |  |  |  |
-| HEB | 804 | 90 | 312 | 0 | 0 |  |  |  |  |
-| ROM | 1458 | 193 | 532 | 8 | 0 |  |  |  |  |
+| 1JN | 462 | 74 | 157 | 0 | 0 | DONE |  |  |  |
+| HEB | 830 | 90 | 325 | 0 | 0 | DONE |  |  |  |
+| ROM | 1476 | 193 | 541 | 8 | 0 | DONE |  |  |  |
 
 ## Other Old Testament books (ordered by effort weight)
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 

@@ -48,9 +48,10 @@ status:
         determine_matches: 'DONE'
     JHN: 
         split_diffs: 'DONE'
-        determine_matches: 'WIP'
+        determine_matches: 'DONE'
     ACT: 
         split_diffs: 'DONE'
+        determine_matches: 'WIP'
     1CO: 
         split_diffs: 'DONE'
     2CO: 
@@ -87,11 +88,14 @@ status:
     1TI: {}
     JAS: {}
     PHP: {}
-    1JN: {}
+    1JN:
+        split_diffs: 'DONE'
     GAL: {}
     EPH: {}
-    HEB: {}
-    ROM: {}
+    HEB:
+        split_diffs: 'DONE'
+    ROM:
+        split_diffs: 'DONE'
 
     # Old Testament
 
