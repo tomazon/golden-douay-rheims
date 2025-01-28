@@ -65,9 +65,12 @@ status:
         split_diffs: 'DONE'
     EXO:
         split_diffs: 'DONE'
-    LEV: {}
-    NUM: {}
-    DEU: {}
+    LEV:
+        split_diffs: 'DONE'
+    NUM:
+        split_diffs: 'DONE'
+    DEU:
+        split_diffs: 'DONE'
 
     # New Testament
 
@@ -90,7 +93,8 @@ status:
     PHP: {}
     1JN:
         split_diffs: 'DONE'
-    GAL: {}
+    GAL:
+        split_diffs: 'DONE'
     EPH: {}
     HEB:
         split_diffs: 'DONE'
