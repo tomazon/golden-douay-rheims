@@ -8,12 +8,12 @@ TIT:01:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # TIT:01:04 | A: drbo   |  my beloved son, according to t ...  God the Father, and from Chris |
 # TIT:01:04 | B: pg1581 | To Titus, my beloved son ... grace and peace, from God the F |
 
-TIT:01:04 | A: drbo   | my beloved son, according to t ...  God the Father, and from Chris |
-TIT:01:04 | B: pg1581 | To Titus, my beloved son ... grace and peace, from God the F |
+TIT:01:04 | A: drbo   | To Titus my beloved son, according to t  |
+TIT:01:04 | B: pg1581 | To Titus, my beloved son according to t |
 TIT:01:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-TIT:01:04 | A: drbo   | my beloved son, according to t ...  God the Father, and from Chris |
-TIT:01:04 | B: pg1581 | To Titus, my beloved son ... grace and peace, from God the F |
+TIT:01:04 | A: drbo   | grace and peace from God the Father, and from Chris |
+TIT:01:04 | B: pg1581 | grace and peace, from God the Father and from Chris |
 TIT:01:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -73,8 +73,12 @@ TIT:01:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 
-TIT:01:12 | A: drbo   | their own, said, The Cretians are always |
-TIT:01:12 | B: pg1581 | their own, said: The Cretans ar |
+TIT:01:12 | A: drbo   | their own, said, The Cret |
+TIT:01:12 | B: pg1581 | their own, said: The Cret |
+TIT:01:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+TIT:01:12 | A: drbo   | The Cretians are always |
+TIT:01:12 | B: pg1581 | The Cretans are always |
 TIT:01:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -108,7 +112,7 @@ TIT:01:15 | B: pg1581 | hat are defiled and to unbelie |
 TIT:01:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 TIT:01:16 | A: drbo   | s they deny him; being abominable, and incredulous, and to every g |
-TIT:01:16 | B: pg1581 | s they deny him: being abominab |
+TIT:01:16 | B: pg1581 | s they deny him: being abominable and incredulous and to every g |
 TIT:01:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 TIT:02:04 | A: drbo   | their children,$ | | ADDED:$
@@ -165,15 +169,17 @@ TIT:03:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # TIT:03:05 | A: drbo   | orks of justice, which we have  ... of regeneration, and renovation ...  the Holy Ghost; |
 # TIT:03:05 | B: pg1581 |  the Holy Ghost. |
 
-TIT:03:05 | A: drbo   | orks of justice, which we have  ... of regeneration, and renovation ...  the Holy Ghost; |
-TIT:03:05 | B: pg1581 | the Holy Ghost.$ | | ADDED:$
+
+TIT:03:05 | A: drbo   | orks of justice, which we have    |
+TIT:03:05 | B: pg1581 | orks of justice which we have  |
 TIT:03:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-TIT:03:05 | A: drbo   | orks of justice, which we have  ... of regeneration, and renovation ...  the Holy Ghost; |
-TIT:03:05 | B: pg1581 | the Holy Ghost.$ | | ADDED:$
+TIT:03:05 | A: drbo   | of regeneration, and renovation  |
+TIT:03:05 | B: pg1581 | of regeneration and renovation  |
 TIT:03:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-TIT:03:05 | A: drbo   | orks of justice, which we have  ... of regeneration, and renovation ...  the Holy Ghost; |
+
+TIT:03:05 | A: drbo   | the Holy Ghost;$ |
 TIT:03:05 | B: pg1581 | the Holy Ghost.$ | | ADDED:$
 TIT:03:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -192,12 +198,12 @@ TIT:03:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # TIT:03:08 | A: drbo   | faithful saying: and these things ... firm constantly: that they, who believe in God, may be careful |
 # TIT:03:08 | B: pg1581 | faithful saying. And these things ... firm constantly, that they who  |
 
-TIT:03:08 | A: drbo   | faithful saying: and these things ... firm constantly: that they, who believe in God, may be careful |
-TIT:03:08 | B: pg1581 | faithful saying. And these things ... firm constantly, that they who |
+TIT:03:08 | A: drbo   | faithful saying: and these things  |
+TIT:03:08 | B: pg1581 | faithful saying. And these things  |
 TIT:03:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-TIT:03:08 | A: drbo   | faithful saying: and these things ... firm constantly: that they, who believe in God, may be careful |
-TIT:03:08 | B: pg1581 | faithful saying. And these things ... firm constantly, that they who |
+TIT:03:08 | A: drbo   | firm constantly: that they, who believe in God, may be careful |
+TIT:03:08 | B: pg1581 | firm constantly, that they who believe in God may be careful |
 TIT:03:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -206,7 +212,7 @@ TIT:03:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 TIT:03:09 | A: drbo   | olish questions, and genealogies, and contentions, and strivings about the law. For they are unp |
-TIT:03:09 | B: pg1581 | about the law. for they are unp |
+TIT:03:09 | B: pg1581 | olish questions and genealogies and contentions and strivings about the law. for they are unp |
 TIT:03:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 TIT:03:11 | A: drbo   | Knowing that he, that is such an one, is subverted, and sinneth, b |
