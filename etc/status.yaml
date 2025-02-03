@@ -146,8 +146,10 @@ status:
     JDG: {}
     1SA: {}
     1MA: {}
-    2KI: {}
-    1KI: {}
+    2KI:
+        split_diffs: 'DONE'
+    1KI:
+        split_diffs: 'DONE'
     WIS: {}
     EZK: {}
     PRO: {}
