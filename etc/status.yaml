@@ -138,14 +138,19 @@ status:
     2SA: {}
     LAM: {}
     1CH: {}
-    JOS: {}
+    JOS:
+        split_diffs: 'DONE'
     HOS: {}
     ECC: {}
-    2MA: {}
+    2MA:
+        split_diffs: 'DONE'
     DAG: {}
-    JDG: {}
-    1SA: {}
-    1MA: {}
+    JDG:
+        split_diffs: 'DONE'
+    1SA:
+        split_diffs: 'DONE'
+    1MA:
+        split_diffs: 'DONE'
     2KI:
         split_diffs: 'DONE'
     1KI:
