@@ -102,8 +102,8 @@ DAG:02:06 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 
-DAG:02:08 | A: drbo   | e king answered, and said: I kn |
-DAG:02:08 | B: pg1581 | now for certain, that you seek |
+DAG:02:08 | A: drbo   | e king answered, and said: I know for certain that you seek |
+DAG:02:08 | B: pg1581 | e king answered and said: I know for certain, that you seek |
 DAG:02:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -180,12 +180,12 @@ DAG:02:20 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # DAG:02:21 | A: drbo   | tablisheth them, giveth wisdom  ... e understanding. |
 # DAG:02:21 | B: pg1581 | h away kingdoms, and establisheth them: giveth wisdom  ... e understanding: |
 
-DAG:02:21 | A: drbo   | tablisheth them, giveth wisdom  ... e understanding. |
-DAG:02:21 | B: pg1581 | h away kingdoms, and establisheth them: giveth wisdom  ... e understanding: |
+DAG:02:21 | A: drbo   | h away kingdoms and establisheth them, giveth wisdom  |
+DAG:02:21 | B: pg1581 | h away kingdoms, and establisheth them: giveth wisdom |
 DAG:02:21 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:02:21 | A: drbo   | tablisheth them, giveth wisdom  ... e understanding. |
-DAG:02:21 | B: pg1581 | h away kingdoms, and establisheth them: giveth wisdom  ... e understanding: |
+DAG:02:21 | A: drbo   | e understanding. |
+DAG:02:21 | B: pg1581 | e understanding: |
 DAG:02:21 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -209,9 +209,17 @@ DAG:02:34 | A: drbo   | re of iron and of clay, and broke |
 DAG:02:34 | B: pg1581 | re of iron and clay, and broke |
 DAG:02:34 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:02:35 | A: drbo   | ruck the statue, became a great |
+
+
+DAG:02:35 | A: drbo   | mer's threshingfloor, and they |
 DAG:02:35 | B: pg1581 | mer's threshing floor, and they |
 DAG:02:35 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+DAG:02:35 | A: drbo   | ruck the statue, became a great |
+DAG:02:35 | B: pg1581 | ruck the statue became a great |
+DAG:02:35 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 DAG:02:38 | A: drbo   | thy power: thou therefore art the head o |
 DAG:02:38 | B: pg1581 | thy power: thou, therefore, art the head o |
@@ -231,16 +239,16 @@ DAG:02:42 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # DAG:02:44 | A: drbo   |  another people, and it shall b ...  these kingdoms, and itself sha |
 # DAG:02:44 | B: pg1581 |  those kingdoms, the God of hea ...  another people: and it shall b ...  these kingdoms: and itself sha |
 
-DAG:02:44 | A: drbo   | another people, and it shall b ...  these kingdoms, and itself sha |
-DAG:02:44 | B: pg1581 | those kingdoms, the God of hea ...  another people: and it shall b ...  these kingdoms: and itself sha |
+DAG:02:44 | A: drbo   | those kingdoms the God of hea |
+DAG:02:44 | B: pg1581 | those kingdoms, the God of hea  |
 DAG:02:44 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:02:44 | A: drbo   | another people, and it shall b ...  these kingdoms, and itself sha |
-DAG:02:44 | B: pg1581 | those kingdoms, the God of hea ...  another people: and it shall b ...  these kingdoms: and itself sha |
+DAG:02:44 | A: drbo   | another people, and it shall b  |
+DAG:02:44 | B: pg1581 | another people: and it shall b  |
 DAG:02:44 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:02:44 | A: drbo   | another people, and it shall b ...  these kingdoms, and itself sha |
-DAG:02:44 | B: pg1581 | those kingdoms, the God of hea ...  another people: and it shall b ...  these kingdoms: and itself sha |
+DAG:02:44 | A: drbo   | these kingdoms, and itself sha |
+DAG:02:44 | B: pg1581 | these kingdoms: and itself sha |
 DAG:02:44 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -248,9 +256,16 @@ DAG:02:44 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 
-DAG:02:45 | A: drbo   | broke in pieces, the clay, and the iron, |
+DAG:02:45 | A: drbo   | as thou sawest that the stone  |
 DAG:02:45 | B: pg1581 | as thou sawest, that the stone |
 DAG:02:45 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+DAG:02:45 | A: drbo   | broke in pieces, the clay, and the iron, |
+DAG:02:45 | B: pg1581 | broke in pieces the clay and the iron, |
+DAG:02:45 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 DAG:02:47 | A: drbo   | nd said: Verily your God is th |
 DAG:02:47 | B: pg1581 | nd said: Verily, your God is th |
@@ -376,12 +391,16 @@ DAG:03:46 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # DAG:03:51 | A: drbo   | e mouth praised, and glorified, and blessed Go |
 # DAG:03:51 | B: pg1581 | hen these three, as with one mouth, praised and gl ... and blessed God, in the furnace |
 
-DAG:03:51 | A: drbo   | e mouth praised, and glorified, and blessed Go |
-DAG:03:51 | B: pg1581 | hen these three, as with one mouth, praised and gl ... and blessed God, in the furnace |
+DAG:03:51 | A: drbo   | hen these three as with one mouth praised |
+DAG:03:51 | B: pg1581 | hen these three, as with one mouth, praised  |
 DAG:03:51 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:03:51 | A: drbo   | e mouth praised, and glorified, and blessed Go |
-DAG:03:51 | B: pg1581 | hen these three, as with one mouth, praised and gl ... and blessed God, in the furnace |
+DAG:03:51 | A: drbo   | praised, and glorified, and blessed Go |
+DAG:03:51 | B: pg1581 | praised and glorified and blessed Go  |
+DAG:03:51 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+DAG:03:51 | A: drbo   | and blessed God in the furnace |
+DAG:03:51 | B: pg1581 | and blessed God, in the furnace |
 DAG:03:51 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -395,12 +414,16 @@ DAG:03:51 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # DAG:03:52 | A: drbo   |  of our fathers: and worthy to  ... y to be praised, and exalted ab |
 # DAG:03:52 | B: pg1581 | rt thou, O Lord, the God of our fathers; and worthy to  ... alted above all, in all ages. |
 
-DAG:03:52 | A: drbo   | of our fathers: and worthy to  ... y to be praised, and exalted ab |
-DAG:03:52 | B: pg1581 | rt thou, O Lord, the God of our fathers; and worthy to  ... alted above all, in all ages. |
+DAG:03:52 | A: drbo   | rt thou, O Lord the God of our fathers: and worthy to  |
+DAG:03:52 | B: pg1581 | rt thou, O Lord, the God of our fathers; and worthy to   |
 DAG:03:52 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:03:52 | A: drbo   | of our fathers: and worthy to  ... y to be praised, and exalted ab |
-DAG:03:52 | B: pg1581 | rt thou, O Lord, the God of our fathers; and worthy to  ... alted above all, in all ages. |
+DAG:03:52 | A: drbo   | y to be praised, and exalted ab |
+DAG:03:52 | B: pg1581 | y to be praised and exalted ab |
+DAG:03:52 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+DAG:03:52 | A: drbo   | alted above all in all ages. |
+DAG:03:52 | B: pg1581 | alted above all, in all ages. |
 DAG:03:52 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -409,7 +432,7 @@ DAG:03:52 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 DAG:03:53 | A: drbo   | y to be praised, and exceeding glorious for ever. |
-DAG:03:53 | B: pg1581 | praised and exalted above all for ever. |
+DAG:03:53 | B: pg1581 | y to be praised and exalted above all for ever. |
 DAG:03:53 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 DAG:03:54 | A: drbo   | y to be praised, and exalted ab |
@@ -478,13 +501,24 @@ DAG:03:94 | A: drbo   | men of the king being gathered |
 DAG:03:94 | B: pg1581 | men of the king, being gathered |
 DAG:03:94 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:03:95 | A: drbo   | might not serve, nor adore any god, except their o |
+
+
+DAG:03:95 | A: drbo   | up their bodies that they migh |
 DAG:03:95 | B: pg1581 | up their bodies, that they migh |
 DAG:03:95 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:03:96 | A: drbo   | decree is made, that every peopl |
+DAG:03:95 | A: drbo   | might not serve, nor adore any god, except their o |
+DAG:03:95 | B: pg1581 | might not serve nor adore any god except their o |
+DAG:03:95 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
+DAG:03:96 | A: drbo   | By me therefore this decree is made, that every peopl |
 DAG:03:96 | B: pg1581 | By me, therefore, this decree is made: That every peopl |
 DAG:03:96 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 DAG:03:98 | A: drbo   | Nabuchodonosor the king, to a |
 DAG:03:98 | B: pg1581 | Nabuchodonosor, the king, to a |
@@ -511,15 +545,19 @@ DAG:04:06 | B: pg1581 | ossible to thee, tell me the vi |
 DAG:04:06 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 DAG:04:08 | A: drbo   | tree was great, and strong: and the height |
-DAG:04:08 | B: pg1581 | reat and strong, and the height |
+DAG:04:08 | B: pg1581 | tree was great and strong, and the height |
 DAG:04:08 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 DAG:04:09 | A: drbo   | it dwelt cattle, and beasts, an |
 DAG:04:09 | B: pg1581 | it dwelt cattle and beasts, an |
 DAG:04:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:04:12 | A: drbo   | a band of iron, and of brass, |
+DAG:04:12 | A: drbo   | Nevertheless leave the stum |
 DAG:04:12 | B: pg1581 | Nevertheless, leave the stum |
+DAG:04:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+DAG:04:12 | A: drbo   | a band of iron, and of brass, |
+DAG:04:12 | B: pg1581 | a band of iron and of brass, |
 DAG:04:12 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 DAG:04:13 | A: drbo   | rt be given him; and let seven |
@@ -532,12 +570,12 @@ DAG:04:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # DAG:04:14 | A: drbo   | f the holy ones; till the livin ...  kingdom of men; and he will gi |
 # DAG:04:14 | B: pg1581 | f the holy ones: till the living know, that the most  ...  kingdom of men: and he will gi |
 
-DAG:04:14 | A: drbo   | f the holy ones; till the livin ...  kingdom of men; and he will gi |
-DAG:04:14 | B: pg1581 | f the holy ones: till the living know, that the most  ...  kingdom of men: and he will gi |
+DAG:04:14 | A: drbo   | f the holy ones; till the living know that the most  |
+DAG:04:14 | B: pg1581 | f the holy ones: till the living know, that the most |
 DAG:04:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:04:14 | A: drbo   | f the holy ones; till the livin ...  kingdom of men; and he will gi |
-DAG:04:14 | B: pg1581 | f the holy ones: till the living know, that the most  ...  kingdom of men: and he will gi |
+DAG:04:14 | A: drbo   | kingdom of men; and he will gi |
+DAG:04:14 | B: pg1581 | kingdom of men: and he will gi |
 DAG:04:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -583,7 +621,7 @@ DAG:04:20 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 
-DAG:04:21 | A: drbo   | me upon my lord the king.$ | | ADDED:$
+DAG:04:21 | A: drbo   | me upon my lord the king. |
 DAG:04:21 | B: pg1581 | me upon my lord, the king. |
 DAG:04:21 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -676,7 +714,7 @@ DAG:05:05 | A: drbo   | the candlestick upon the surfa |
 DAG:05:05 | B: pg1581 | the candlestick, upon the surfa |
 DAG:05:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:05:10 | A: drbo   | nto the banquet house: and she |
+DAG:05:10 | A: drbo   | nto the banquet house: and she spoke and said: O ki |
 DAG:05:10 | B: pg1581 | nto the banquet-house: and she spoke, and said: O ki |
 DAG:05:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -779,15 +817,15 @@ DAG:06:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # DAG:06:04 | B: pg1581 | all the kingdom; whereupon the  ... d the governors, sought to find ...  against Daniel, with regard to |
 
 DAG:06:04 | A: drbo   | all the kingdom: whereupon the |
-DAG:06:04 | B: pg1581 | all the kingdom; whereupon the  ... d the governors, sought to find ...  against Daniel, with regard to |
+DAG:06:04 | B: pg1581 | all the kingdom; whereupon the |
 DAG:06:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:06:04 | A: drbo   | all the kingdom: whereupon the |
-DAG:06:04 | B: pg1581 | all the kingdom; whereupon the  ... d the governors, sought to find ...  against Daniel, with regard to |
+DAG:06:04 | A: drbo   | d the governors sought to find   |
+DAG:06:04 | B: pg1581 | d the governors, sought to find  |
 DAG:06:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:06:04 | A: drbo   | all the kingdom: whereupon the |
-DAG:06:04 | B: pg1581 | all the kingdom; whereupon the  ... d the governors, sought to find ...  against Daniel, with regard to |
+DAG:06:04 | A: drbo   | against Daniel with regard to  |
+DAG:06:04 | B: pg1581 | against Daniel, with regard to |
 DAG:06:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -805,22 +843,27 @@ DAG:06:06 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # DAG:06:07 | A: drbo   | ors, and judges have consulted ... into the den of lions. |
 # DAG:06:07 | B: pg1581 | ors, and judges, have consulted ... into the den of the lions. |
 
-DAG:06:07 | A: drbo   | ors, and judges have consulted ... into the den of lions. |
-DAG:06:07 | B: pg1581 | ors, and judges, have consulted ... into the den of the lions. |
+DAG:06:07 | A: drbo   | ors, and judges have consulted  |
+DAG:06:07 | B: pg1581 | ors, and judges, have consulted  |
 DAG:06:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:06:07 | A: drbo   | ors, and judges have consulted ... into the den of lions. |
-DAG:06:07 | B: pg1581 | ors, and judges, have consulted ... into the den of the lions. |
+DAG:06:07 | A: drbo   | into the den of lions.$ |
+DAG:06:07 | B: pg1581 | into the den of the lions.$ |
 DAG:06:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
 #===============================
 
 
+DAG:06:10 | A: drbo   | Now when Daniel kn |
+DAG:06:10 | B: pg1581 | Now, when Daniel kn |
+DAG:06:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 DAG:06:10 | A: drbo   | day, and adored, and gave thank |
-DAG:06:10 | B: pg1581 | ^Now, when Daniel kn | | ADDED:^
+DAG:06:10 | B: pg1581 | day, and adored and gave thank |
 DAG:06:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 DAG:06:12 | A: drbo   | he word is true according to t |
 DAG:06:12 | B: pg1581 | he word is true, according to t |
@@ -908,16 +951,16 @@ DAG:07:11 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # DAG:07:13 | A: drbo   | , one like the son of man came  ... me even to the Ancient of days: |
 # DAG:07:13 | B: pg1581 | I beheld, therefore, in the vision  ... , one like the Son of man came  ... me even to the ancient of days: |
 
-DAG:07:13 | A: drbo   | , one like the son of man came  ... me even to the Ancient of days: |
-DAG:07:13 | B: pg1581 | I beheld, therefore, in the vision  ... , one like the Son of man came  ... me even to the ancient of days: |
+DAG:07:13 | A: drbo   | I beheld therefore in the vision |
+DAG:07:13 | B: pg1581 | I beheld, therefore, in the vision |
 DAG:07:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:07:13 | A: drbo   | , one like the son of man came  ... me even to the Ancient of days: |
-DAG:07:13 | B: pg1581 | I beheld, therefore, in the vision  ... , one like the Son of man came  ... me even to the ancient of days: |
+DAG:07:13 | A: drbo   | , one like the son of man came |
+DAG:07:13 | B: pg1581 | , one like the Son of man came |
 DAG:07:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:07:13 | A: drbo   | , one like the son of man came  ... me even to the Ancient of days: |
-DAG:07:13 | B: pg1581 | I beheld, therefore, in the vision  ... , one like the Son of man came  ... me even to the ancient of days: |
+DAG:07:13 | A: drbo   | me even to the Ancient of days: |
+DAG:07:13 | B: pg1581 | me even to the ancient of days: |
 DAG:07:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -929,7 +972,7 @@ DAG:07:14 | A: drbo   | peoples, tribes and tongues sh |
 DAG:07:14 | B: pg1581 | peoples, tribes, and tongues sh |
 DAG:07:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:07:15 | A: drbo   | spirit trembled, I Daniel was a |
+DAG:07:15 | A: drbo   | spirit trembled, I Daniel was affrighted |
 DAG:07:15 | B: pg1581 | spirit trembled; I, Daniel, was affrighted |
 DAG:07:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -953,17 +996,24 @@ DAG:08:01 | A: drbo   | peared to me. I Daniel, after |
 DAG:08:01 | B: pg1581 | peared to me. I, Daniel, after |
 DAG:08:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:08:03 | A: drbo   | and growing up.$ | | ADDED:$
-DAG:08:03 | B: pg1581 | and growing up. Afterward |
+DAG:08:03 | A: drbo   | and growing up.$ | 
+DAG:08:03 | B: pg1581 | and growing up. Afterward$ |
 DAG:08:03 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:08:04 | A: drbo   | ^Afterward I saw the ram p | | ADDED:^
-DAG:08:04 | B: pg1581 | ^I saw the ram p | | ADDED:^
+DAG:08:04 | A: drbo   | ^Afterward I saw the ram p |
+DAG:08:04 | B: pg1581 | ^I saw the ram p |
 DAG:08:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
+
+
 DAG:08:13 | A: drbo   | said to another, I know not to |
+DAG:08:13 | B: pg1581 | said to another I know not to |
+DAG:08:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+DAG:08:13 | A: drbo   | now not to whom that was speak |
 DAG:08:13 | B: pg1581 | now not to whom, that was speak |
 DAG:08:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
 
 DAG:08:15 | A: drbo   | to pass when I Daniel saw the vision |
 DAG:08:15 | B: pg1581 | to pass when I, Daniel, saw the vision |
@@ -1035,12 +1085,12 @@ DAG:09:01 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # DAG:09:02 | A: drbo   | ar of his reign, I Daniel under |
 # DAG:09:02 | B: pg1581 |  of his reign I, Daniel, understood by  ... ame to Jeremias, the prophet, t |
 
-DAG:09:02 | A: drbo   | ar of his reign, I Daniel under |
-DAG:09:02 | B: pg1581 | of his reign I, Daniel, understood by  ... ame to Jeremias, the prophet, t |
+DAG:09:02 | A: drbo   | ar of his reign, I Daniel understood by |
+DAG:09:02 | B: pg1581 | ar of his reign I, Daniel, understood by |
 DAG:09:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:09:02 | A: drbo   | ar of his reign, I Daniel under |
-DAG:09:02 | B: pg1581 | of his reign I, Daniel, understood by  ... ame to Jeremias, the prophet, t |
+DAG:09:02 | A: drbo   | ame to Jeremias the prophet, t |
+DAG:09:02 | B: pg1581 | ame to Jeremias, the prophet, t |
 DAG:09:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1149,16 +1199,16 @@ DAG:09:15 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # DAG:09:16 | A: drbo   | holy mountain. For by reason of |
 # DAG:09:16 | B: pg1581 | , from thy city, Jerusalem, and ... holy mountain. for by reason of ...  and thy people, are a reproach |
 
-DAG:09:16 | A: drbo   | holy mountain. For by reason of |
-DAG:09:16 | B: pg1581 | , from thy city, Jerusalem, and ... holy mountain. for by reason of ...  and thy people, are a reproach |
+DAG:09:16 | A: drbo   | , from thy city Jerusalem, and |
+DAG:09:16 | B: pg1581 | , from thy city, Jerusalem, and  |
 DAG:09:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 DAG:09:16 | A: drbo   | holy mountain. For by reason of |
-DAG:09:16 | B: pg1581 | , from thy city, Jerusalem, and ... holy mountain. for by reason of ...  and thy people, are a reproach |
+DAG:09:16 | B: pg1581 | holy mountain. for by reason of |
 DAG:09:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:09:16 | A: drbo   | holy mountain. For by reason of |
-DAG:09:16 | B: pg1581 | , from thy city, Jerusalem, and ... holy mountain. for by reason of ...  and thy people, are a reproach |
+DAG:09:16 | A: drbo   | and thy people are a reproach |
+DAG:09:16 | B: pg1581 | and thy people, are a reproach |
 DAG:09:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
@@ -1319,15 +1369,15 @@ DAG:10:09 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 # DAG:10:16 | A: drbo   | And behold, as it were the ... opened my mouth, and spoke, and ... efore me: O my Lord, at the sig |
 # DAG:10:16 | B: pg1581 | efore me: O my lord, at the sig |
 
-DAG:10:16 | A: drbo   | And behold, as it were the ... opened my mouth, and spoke, and ... efore me: O my Lord, at the sig |
-DAG:10:16 | B: pg1581 | efore me: O my lord, at the sig |
+DAG:10:16 | A: drbo   | And behold, as it were the  |
+DAG:10:16 | B: pg1581 | And behold as it were the |
 DAG:10:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:10:16 | A: drbo   | And behold, as it were the ... opened my mouth, and spoke, and ... efore me: O my Lord, at the sig |
-DAG:10:16 | B: pg1581 | efore me: O my lord, at the sig |
+DAG:10:16 | A: drbo   | opened my mouth, and spoke, and |
+DAG:10:16 | B: pg1581 | opened my mouth and spoke, and|
 DAG:10:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:10:16 | A: drbo   | And behold, as it were the ... opened my mouth, and spoke, and ... efore me: O my Lord, at the sig |
+DAG:10:16 | A: drbo   | efore me: O my Lord, at the sig |
 DAG:10:16 | B: pg1581 | efore me: O my lord, at the sig |
 DAG:10:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -1336,7 +1386,7 @@ DAG:10:16 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 
-DAG:10:17 | A: drbo   | remaineth in me, moreover my br |
+DAG:10:17 | A: drbo   | remaineth in me, moreover my breath is s |
 DAG:10:17 | B: pg1581 | remaineth in me; moreover, my breath is s |
 DAG:10:17 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -1388,8 +1438,8 @@ DAG:11:04 | A: drbo   | hich he ruled. For his kingdom |
 DAG:11:04 | B: pg1581 | hich he ruled. for his kingdom |
 DAG:11:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:11:04 | A: drbo   | rangers, beside these. |
-DAG:11:04 | B: pg1581 | rangers, besides these. |
+DAG:11:04 | A: drbo   | rangers, beside these.$ |
+DAG:11:04 | B: pg1581 | rangers, besides these.$ |
 DAG:11:04 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -1404,9 +1454,17 @@ DAG:11:07 | A: drbo   | ud of her roots, shall stand up |
 DAG:11:07 | B: pg1581 | ud of her roots shall stand up |
 DAG:11:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:11:10 | A: drbo   | with his forces.$ | | ADDED:$
+
+
+DAG:11:10 | A: drbo   | he shall return and be stirred|
 DAG:11:10 | B: pg1581 | he shall return, and be stirred |
 DAG:11:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+DAG:11:10 | A: drbo   | with his forces.$ |
+DAG:11:10 | B: pg1581 | with his force.$ |
+DAG:11:10 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 DAG:11:11 | A: drbo   | being provoked shall go forth |
 DAG:11:11 | B: pg1581 | being provoked, shall go forth |
@@ -1446,7 +1504,7 @@ DAG:11:20 | A: drbo   | up in his place, one most vile, |
 DAG:11:20 | B: pg1581 | up in his place one most vile, |
 DAG:11:20 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:11:22 | A: drbo   | shall be broken; yea also the p |
+DAG:11:22 | A: drbo   | shall be broken; yea also the princ |
 DAG:11:22 | B: pg1581 | shall be broken: yea, also the princ |
 DAG:11:22 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -1488,9 +1546,15 @@ DAG:11:34 | A: drbo   | all have fallen they shall be |
 DAG:11:34 | B: pg1581 | all have fallen, they shall be |
 DAG:11:34 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:11:35 | A: drbo   | appointed time, because yet th |
+
+
+
+DAG:11:35 | A: drbo   | and made white even to the appointed time, because yet th |
 DAG:11:35 | B: pg1581 | and made white, even to the appointed time: because yet th |
 DAG:11:35 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
+
 
 DAG:11:36 | A: drbo   | accomplished. For the determin |
 DAG:11:36 | B: pg1581 | accomplished. for the determin |
@@ -1504,7 +1568,7 @@ DAG:11:39 | A: drbo   | increase glory and shall give |
 DAG:11:39 | B: pg1581 | increase glory, and shall give |
 DAG:11:39 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:11:43 | A: drbo   | pass through Libya, and Ethiopi |
+DAG:11:43 | A: drbo   | pass through Libya, and Ethiopia |
 DAG:11:43 | B: pg1581 | pass through Lybia, and Ethiopia |
 DAG:11:43 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -1580,7 +1644,7 @@ DAG:13:02 | A: drbo   | he took a wife whose name was |
 DAG:13:02 | B: pg1581 | he took a wife, whose name was |
 DAG:13:02 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:13:05 | A: drbo   | the Lord said: Iniquity came ou |
+DAG:13:05 | A: drbo   | the Lord said: Iniquity came out from Babylon from the ancie |
 DAG:13:05 | B: pg1581 | the Lord said: That iniquity came out from Babylon, from the ancie |
 DAG:13:05 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -1600,7 +1664,7 @@ DAG:13:13 | A: drbo   | e. So going out they departed |
 DAG:13:13 | B: pg1581 | e. So going out, they departed |
 DAG:13:13 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:13:14 | A: drbo   | dged their lust; and then they |
+DAG:13:14 | A: drbo   | dged their lust; and then they agreed upon a time, w |
 DAG:13:14 | B: pg1581 | dged their lust: and then they agreed together upon a time, w |
 DAG:13:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -1712,7 +1776,7 @@ DAG:13:64 | A: drbo   | day, and thenceforward.$ | | ADDED:$
 DAG:13:64 | B: pg1581 | day, and thence forward.$ | | ADDED:$
 DAG:13:64 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:13:65 | A: drbo   | to his fathers, and Cyrus the |
+DAG:13:65 | A: drbo   | to his fathers, and Cyrus the Persian received his k |
 DAG:13:65 | B: pg1581 | to his fathers; and Cyrus, the Persian, received his k |
 DAG:13:65 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
@@ -1742,9 +1806,17 @@ DAG:14:06 | A: drbo   | n Daniel smiled and said: O ki |
 DAG:14:06 | B: pg1581 | n Daniel smiled, and said: O ki |
 DAG:14:06 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:14:07 | A: drbo   | you tell me not, who it is that |
+
+
+DAG:14:07 | A: drbo   | ing being angry called for his|
 DAG:14:07 | B: pg1581 | ing being angry, called for his |
 DAG:14:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+DAG:14:07 | A: drbo   | you tell me not, who it is that |
+DAG:14:07 | B: pg1581 | you tell me not who it is that |
+DAG:14:07 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+
+
 
 DAG:14:10 | A: drbo   | el said: Behold we go out: and |
 DAG:14:10 | B: pg1581 | el said: Behold, we go out: and |
@@ -1766,10 +1838,15 @@ DAG:14:18 | A: drbo   | e held the king that he should |
 DAG:14:18 | B: pg1581 | e held the king, that he should |
 DAG:14:18 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
-DAG:14:21 | A: drbo   | o destroyed him, and his temple |
+
+
+DAG:14:21 | A: drbo   | The king therefore put them to de|
 DAG:14:21 | B: pg1581 | The king, therefore, put them to de |
 DAG:14:21 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
+DAG:14:21 | A: drbo   | o destroyed him, and his temple |
+DAG:14:21 | B: pg1581 | o destroyed him and his temple |
+DAG:14:21 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
 #===============================

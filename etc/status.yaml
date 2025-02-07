@@ -128,7 +128,8 @@ status:
     HAB: {}
     JDT: {}
     TOB: {}
-    2CH: {}
+    2CH:
+        split_diffs: 'DONE'
     JOL: {}
     ZEC: {}
     SNG: {}
@@ -144,7 +145,8 @@ status:
     ECC: {}
     2MA:
         split_diffs: 'DONE'
-    DAG: {}
+    DAG:
+        split_diffs: 'DONE'
     JDG:
         split_diffs: 'DONE'
     1SA:
@@ -155,11 +157,15 @@ status:
         split_diffs: 'DONE'
     1KI:
         split_diffs: 'DONE'
-    WIS: {}
+    WIS:
+        split_diffs: 'DONE'
     EZK: {}
-    PRO: {}
-    JER: {}
-    JOB: {}
+    PRO:
+        split_diffs: 'DONE'
+    JER:
+        split_diffs: 'DONE'
+    JOB:
+        split_diffs: 'DONE'
     ISA: {}
     SIR: {}
     PSA: 
