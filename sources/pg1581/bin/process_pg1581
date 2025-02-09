@@ -201,9 +201,9 @@ while (my $line = shift(@lines)) {
                 }
             }
         } elsif ($state eq 'in_book') {
-            $out->{book_intro} = $text;
+            $out->{book_intro} = our_fixes('', $text);
         } elsif ($state eq 'in_chapter') {
-            $out->{chapters}->{"c:".num_to_3digits($chap_num)}->{intro} = $text;
+            $out->{chapters}->{"c:".num_to_3digits($chap_num)}->{intro} = our_fixes('', $text);
         } else {
             print "  "x($level + 2) ."$line\n";
         }
@@ -346,8 +346,8 @@ sub out_footnote {
             if ($note =~ s/\s+\S+Ibid\.//) {
                 $tmp->{note_ends_in_etc} = 'true';
             }
-            $tmp->{quote} = $quote;
-            $tmp->{note} = $note;
+            $tmp->{quote} = our_fixes('', $quote);
+            $tmp->{note} = our_fixes('', $note);
             if ($note =~ /^This shows how sinful it is to intermarry/) {
                 $tmp->{multiple_verses} = '1,2';
             } elsif ($note =~ /^shew Job\x{2019}s explicit belief in his Redeemer/){ #mod 
@@ -392,10 +392,15 @@ sub num_to_3digits {
 sub our_fixes {
     my ($tag, $text) = @_;
 
-    my ($b, $c, $v) = split(/:/, $tag);
-    my $chap_tag = "$b:$c";
+    # my ($b, $c, $v) = split(/:/, $tag);
+    # my $chap_tag = "$b:$c";
 
-    $text =~ s/\x{2019}/'/g;  # Right Single Quotation Mark
+    # $text =~ s/\x{2014}/{em}/g;  # Right Single Quotation Mark
+    $text =~ s/\x{2019}/\047/g;  # Right Single Quotation Mark
+    # $text =~ s/\x{2018}/\047/g;  # Left Single Quotation Mark
+    # $text =~ s/\x{201C}/"/g;     # Left Double Quotation Mark
+    # $text =~ s/\x{201D}/"/g;     # Right Double Quotation Mark
+    $text =~ s/\x{00e6}/{ae}/g; # ae ligature
     # TODO: Read changes from a diff file
     #$text =~ s/ And / and /g;
     $text =~ s/ For / for /g;

@@ -724,9 +724,8 @@ MRK:08:27 | B: pg1581 | d his disciples into the towns |
 MRK:08:27 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MRK:08:27 | A: drbo     |  the towns of Caesarea Philippi. |
-MRK:08:27 | B: pg1581   |  the towns of C�sarea Philippi. | # NOTE: pg1581 had an odd non-utf8 character
-MRK:08:27 | C: 1971-tan |  the towns of Cæsarea Philippi. |
-MRK:08:27 | which       | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MRK:08:27 | B: pg1581   |  the towns of C{ae}sarea Philippi. | # NOTE: pg1581 had an odd non-utf8 character
+MRK:08:27 | which       | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
 
@@ -1353,9 +1352,9 @@ MRK:10:29 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 
-MRK:10:30 | A: drbo   | now in this time; houses, and brethren, and sisters, and mothers, and children, and lands, with |
-MRK:10:30 | B: pg1581 | now in this time: houses and brethren and sisters and mothers and children and lands, with |
-MRK:10:30 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+#- MRK:10:30 | A: drbo   | now in this time; houses, and brethren, and sisters, and mothers, and children, and lands, with |
+#- MRK:10:30 | B: pg1581 | now in this time: houses and brethren and sisters and mothers and children and lands, with |
+
 
 MRK:10:30 | A: drbo   | now in this time; houses |
 MRK:10:30 | B: pg1581 | now in this time: houses |
@@ -1888,8 +1887,8 @@ MRK:12:14 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 MRK:12:14 | A: drbo   | ibute to Caesar; or shall we not  |
 MRK:12:14 | B: pg1581 | ibute to Caesar? Or shall we not  |
-MRK:12:14 | B: pg1581 | ibute to Cæsar? Or shall we not  |
-MRK:12:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MRK:12:14 | C: 1971-tan | ibute to C{ae}sar? Or shall we not  |
+MRK:12:14 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
 #===============================
@@ -1902,7 +1901,7 @@ MRK:12:15 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 MRK:12:17 | A: drbo   | at are Caesar's, and to God the |
 MRK:12:17 | B: pg1581 | at are Caesar's and to God the |
-MRK:12:17 | C: 1971-tan | at are Cæsar's, and to God the |
+MRK:12:17 | C: 1971-tan | at are C{ae}sar's, and to God the |
 MRK:12:17 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MRK:12:18 | A: drbo   | no resurrection; and they asked h |

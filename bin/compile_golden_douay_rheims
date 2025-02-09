@@ -8,6 +8,7 @@ use File::Copy;
 use File::Slurp;
 use Getopt::Long;
 use IPC::Run3;
+use Storable qw( dclone );
 use String::Diff qw( diff );
 use String::ShellQuote;
 use String::Trim;
@@ -21,6 +22,11 @@ use feature 'say';
 # binmode *STDOUT, ':utf8';
 
 require "./sources/lib/perl5/shared.pl";
+require "./etc/diff_sheet_okays.pl";
+
+$|++;
+
+$::ok = fetch_okays();
 
 my $book_order_file = './etc/book_order.yaml';
 my $top_out_dir = "./library";
@@ -35,7 +41,15 @@ my %source_dirs = (
     'pg8300_info'       => './sources/pg8300/etc/by_id.yaml',
     'vscodes_count'     => './sources/vulsearch_vulgate/out_vscode_counts',
     'match_of_drbo_or_pg1581' => './etc/diff_sheets',
+    'cache'                                       => '/tmp/gold_douay_cache',
+    'cache_load_verses_from_pg1581'               => '/tmp/gold_douay_cache/load_verses_from_pg1581',
+    'cache_overlay_TAN_match_of_drbo_or_pg1581'   => '/tmp/gold_douay_cache/overlay_TAN_match_of_drbo_or_pg1581',
 );
+
+mkdir($source_dirs{cache});
+mkdir($source_dirs{cache_load_verses_from_pg1581});
+mkdir($source_dirs{cache_overlay_TAN_match_of_drbo_or_pg1581});
+
 
 my %programs = (
     'check_match_drbo_or_pg1581' => './bin/check_diff_sheet'
@@ -72,12 +86,25 @@ for my $book_id (@books) {
 
     load_book_info_from_pg1581($book, $pg1581);
 
+
+    say "=== load_chap_intro_from_pg1581";
     for my $c_index (@chapter_list) {
-        #say "   C: $c_index";
         load_chap_intro_from_pg1581($book, $pg1581, $c_index);
+    }
+
+
+    say "=== load_verses_from_pg1581";
+    for my $c_index (@chapter_list) {
         load_verses_from_pg1581($book, $pg1581, $c_index);
+    }
+    YAML::DumpFile("$source_dirs{cache_load_verses_from_pg1581}/$book_id.yaml", $book);
+
+
+    say "=== overlay_TAN_match_of_drbo_or_pg1581";
+    for my $c_index (@chapter_list) {
         overlay_TAN_match_of_drbo_or_pg1581($book, $c_index, $drbo, $pg1581);
     }
+    YAML::DumpFile("$source_dirs{cache_overlay_TAN_match_of_drbo_or_pg1581}/$book_id.yaml", $book);
 
 
 
@@ -112,6 +139,8 @@ sub load_book_info_from_pg1581 {
 sub load_verses_from_pg1581 {
     my ($book, $pg1581, $c_index) = @_;
 
+    #   say "=== load_verses_from_pg1581";
+
     my $chap = $pg1581->{chapters}->{$c_index};
     for my $v_index (sort keys %{$chap->{verses}}) {
         $book->{chapters}->{$c_index}->{verses}->{$v_index} = $chap->{verses}->{$v_index};
@@ -119,6 +148,7 @@ sub load_verses_from_pg1581 {
 }
 
 sub load_chap_intro_from_pg1581 {
+    # load_chap_intro_from_pg1581";
     my ($book, $pg1581, $c_index) = @_;
 
     my $chap = $pg1581->{chapters}->{$c_index};
@@ -127,11 +157,14 @@ sub load_chap_intro_from_pg1581 {
 
 sub overlay_TAN_match_of_drbo_or_pg1581 {
     my ($book, $c_index, $drbo, $pg1581) = @_;
+
+    #say "=== overlay_TAN_match_of_drbo_or_pg158";
+
     my $dir = $source_dirs{'match_of_drbo_or_pg1581'};
     my $file = "$dir/$book->{book_id}.dif";
 
     my $want_c = $c_index;
-    $want_c =~ s/c:0+//;
+    $want_c =~ s/c:0*//;
 
     #check_match_drbo_or_pg1581($book->{book_id});
 
@@ -148,10 +181,16 @@ sub overlay_TAN_match_of_drbo_or_pg1581 {
         my @cols = split(/\s*\|\s*/, $line);
 
         if ($cols[0] =~ /^([A-Z1-4][A-Z]{2}):(\d+):(\d+)$/) {
+            #say "HASa: ". join(' | ', @cols);
             my ($b,$c,$v) = ($1,$2,$3);
             my $tag = bcv2tag($b,$c,$v);
 
-            next if $c ne $want_c;
+            my $small_c = $c;
+            $small_c =~ s/^0+//;
+
+            next if $small_c ne $want_c;
+
+            #say "HASb: ". join(' | ', @cols);
 
             $v =~ s/^0//g;
             $c =~ s/^0//g;
@@ -168,23 +207,25 @@ sub overlay_TAN_match_of_drbo_or_pg1581 {
 
                 $last_tag = $tag;
             } elsif ($cols[1] eq 'which') {
+                #say "WHICH:  ". join(' | ', @cols);
                 #put_which_into_struct($b,$c,$v, $index, \@cols);
                 if ($cols[2] =~ /^1971-Tan:([A-Z_])$/) {
                     my $letter = $1;
                     #say "$tag: $letter -- "; ##. Dumper($choices);
-
+                    #say "LET $letter: $tag";
                     check_choices($book, $choices, $drbo, $pg1581, $b, $c, $v, $index, $tag);
 
                     if ($letter eq 'A') {
                         #confirm_match($book, $choices, $b, $c, $v, $index, $tag,  'A');
-                        replace_with('A')
+                        replace_with($book, $choices, $b, $c, $v, 'A');
                     } elsif ($letter eq 'B') {
                         #confirm_match($book, $choices, $b, $c, $v, $index, $tag,  'B');
                     } elsif ($letter eq 'C') {
-                        replace_with('C');
+                        #say "IS C:  $tag";
+                        replace_with($book, $choices, $b, $c, $v, 'C');
                         #say Dumper($choices);
                     } elsif ($letter eq 'D') {
-                        replace_with('D');
+                        #replace_with('D');
                         #say Dumper($choices);
                     } elsif ($letter eq 'Z') {
                         #say Dumper($choices);
@@ -250,9 +291,9 @@ sub check_choices {
     my $pg1581_count = match_count($choices->{letters}->{B}, $pg1581_vals[3]);
 
     die "$tag NO_MATCH A in DRBO:       | $choices->{letters}->{A} | $drbo_vals[3] |  Stopped"   if $drbo_count   == 0;
-    die "$tag NO_MATCH B in PG1581:     | $choices->{letters}->{B} | $pg1581_vals[3] |  Stopped" if $pg1581_count == 0;
-    die "$tag MULTI_MATCHS A in DRBO:   | $choices->{letters}->{A} | $drbo_vals[3] |  Stopped"   if $drbo_count   != 1;
-    die "$tag MULTI_MATCHS B in PG1581: | $choices->{letters}->{B} | $pg1581_vals[3] |  Stopped" if $pg1581_count != 1;
+    die ">1> $tag NO_MATCH B in PG1581:     | $choices->{letters}->{B} | $pg1581_vals[3] |  Stopped" if $pg1581_count == 0 && !$::ok->{no_matches}->{"$tag pg1581"};
+    die "$tag MULTI_MATCHS A in DRBO:   | $choices->{letters}->{A} | $drbo_vals[3] |  Stopped"   if $drbo_count   > 1;
+    die "$tag MULTI_MATCHS B in PG1581: | $choices->{letters}->{B} | $pg1581_vals[3] |  Stopped" if $pg1581_count > 1;
     #say ">>>>  $drbo_vals[3]";
 
     #say "--- $tag ---";
@@ -270,18 +311,27 @@ sub check_choices {
 }
 
 
-sub match_count {
-    my ($regex, $string) = @_;
-
+sub regex_safe {
+    my ($regex) = @_;
     $regex =~ s/\?/\\?/g;
     $regex =~ s/\./\\./g;
     $regex =~ s/\(/\\(/g;
     $regex =~ s/\)/\\)/g;
+    $regex =~ s/\{/\\{/g;
+    $regex =~ s/\}/\\}/g;
+    #$regex =~ s/\:/:/g;
+    $regex;
+}
+
+
+sub match_count {
+    my ($regex, $string) = @_;
+
+    $regex = regex_safe($regex);
 
     my $count = () = $string =~ m{$regex}g;
-
-    #say "MATCH COUNT $count | $regex | $string |";
-
+    #say "MC| $regex | $string | $count |";
+    
     $count;
 }
 
@@ -290,8 +340,42 @@ sub confirm_match {
 
 }
 
+
 sub  replace_with {
-    my ($letter) = @_;
+    my ($book, $choices, $b, $c, $v, $letter) = @_;
+    my $c_index = sprintf("c:%03d", $c);
+    my $v_index = sprintf("v:%03d", $v);
+    my @entry = split(/\s*\|\s*/, $book->{chapters}->{$c_index}->{verses}->{$v_index});
+    my $tag = bcv2tag($b, $c, $v);
+
+    my $to = $choices->{letters}->{$letter};
+    my $from_regex = $choices->{letters}->{B};
+
+    my $pre = $entry[3];
+
+    #return if $from_regex !~ /:/;
+
+    
+
+    $to =~ s/^\^//;
+    $to =~ s/\$$//;
+    
+    my $string = $entry[3];
+    my $match_count = match_count($from_regex, $string);
+    die "$tag REPLACE: MULTI_MATCH | $from_regex | $string |\n" if $match_count > 1;
+    say "$tag REPLACE: NO_MATCH | $from_regex | $string |\n" if $match_count != 1;
+
+    #$entry[3] =~ s/
+    #say "REGEX: $tag - $from_regex -> $to";
+    
+    $from_regex = regex_safe($from_regex);
+    $string =~ s{$from_regex}{$to};
+    $string =~ s/\s+$//;
+    $entry[3] = $string;
+
+    $book->{chapters}->{$c_index}->{verses}->{$v_index} = join(' | ', @entry);
+    my $post = $entry[3];
+    #die "REPLACE: NO_CHANGE | $from_regex | $entry[3]\n" if $pre ne $post;
 
 }
 
@@ -622,12 +706,17 @@ sub check_string_in_verse {
 
 
     my $regex = $string;
-    $regex =~ s/\?/\\?/g;
-    $regex =~ s/\./\\./g;
-    $regex =~ s/\(/\\(/g;
-    $regex =~ s/\)/\\)/g;
+    # $regex =~ s/\?/\\?/g;
+    # $regex =~ s/\./\\./g;
+    # $regex =~ s/\(/\\(/g;
+    # $regex =~ s/\)/\\)/g;
 
-    my $matches = () = $e_text =~ m{$regex}g;
+
+    # $regex = regex_safe($regex);
+
+    # my $matches = () = $e_text =~ m{$regex}g;
+
+    my $matches = match_count($regex, $e_text);
 
     #say "$tag == MATCHES: $matches | $string | $e_text";
 
@@ -635,8 +724,10 @@ sub check_string_in_verse {
         die "$tag $const_label  NEED_TO_SPLIT | $string\n";
     } elsif ($matches > 1) {
         die "$tag $const_label  MULTIPLE MATCHES OF | $string | $e_text\n";
-    } elsif ($matches != 1) {
-        die "$tag $const_label  NO MATCHES OF | $string | $e_text\n";
+    } elsif ($matches == 0 && !$::ok->{no_matches}->{"$tag $const_label"}) {
+        say "KEY: ->$tag $const_label<-";
+        say Dumper($::ok->{no_matches});
+        die ">2> $tag $const_label  NO MATCHES OF | $string | $e_text\n";
     }
 }
 

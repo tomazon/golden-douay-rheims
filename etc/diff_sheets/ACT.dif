@@ -1850,16 +1850,15 @@ ACT:08:39 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 #===============================
 # ACT:08:40 | A: drbo   | found in Azotus; and passing th ... ll he came to Caesarea. |
-# ACT:08:40 | B: pg1581 | found in Azotus: and passing th ... ll he came to C�sarea. |
+# ACT:08:40 | B: pg1581 | found in Azotus: and passing th ... ll he came to C{ae}sarea. |
 
 ACT:08:40 | A: drbo   | found in Azotus; and passing th  |
 ACT:08:40 | B: pg1581 | found in Azotus: and passing th  |
 ACT:08:40 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:08:40 | A: drbo   | ll he came to Caesarea.$ |
-ACT:08:40 | B: pg1581 | ll he came to C�sarea.$ |
-ACT:08:40 | C: 1971-tan | ll he came to Cæsarea.$ |
-ACT:08:40 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+ACT:08:40 | B: pg1581 | ll he came to C{ae}sarea.$ |
+ACT:08:40 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
 #===============================
@@ -2079,8 +2078,8 @@ ACT:09:29 | B: pg1581 | to the Gentiles and disputed with the Greeks. But they s
 ACT:09:29 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:09:30 | A: drbo   | t him down to Caesarea, and sent him a |
-ACT:09:30 | B: pg1581 | t him down to C�sarea and sent him a |
-ACT:09:30 | C: 1971-tan | t him down to Cæsarea, and sent him a |
+ACT:09:30 | B: pg1581 | t him down to C{ae}sarea and sent him a |
+ACT:09:30 | C: 1971-tan | t him down to C{ae}sarea, and sent him a |
 ACT:09:30 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -2174,21 +2173,20 @@ ACT:09:43 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 #===============================
 # ACT:10:01 | A: drbo   | ertain man in Caesarea, named Co ... he Italian band; |
-# ACT:10:01 | B: pg1581 | ertain man in C�sarea, named Co ... he Italian band: |
+# ACT:10:01 | B: pg1581 | ertain man in C{ae}sarea, named Co ... he Italian band: |
 
 ACT:10:01 | A: drbo   | ertain man in Caesarea, named Co |
-ACT:10:01 | B: pg1581 | ertain man in C�sarea, named Co |
-ACT:10:01 | C: 1971-tan | ertain man in Cæsarea, named Co |
-ACT:10:01 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+ACT:10:01 | B: pg1581 | ertain man in C{ae}sarea, named Co |
+ACT:10:01 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:10:01 | A: drbo   | he Italian band;$ |
 ACT:10:01 | B: pg1581 | he Italian band:$ |
 ACT:10:01 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
-#- ACT:10:01 | B: pg1581 | ertain man in C�sarea, named Co ... he Italian band: | | CLEARED
+#- ACT:10:01 | B: pg1581 | ertain man in C{ae}sarea, named Co ... he Italian band: | | CLEARED
 
-#- ACT:10:01 | B: pg1581 | ertain man in C�sarea, named Co ... he Italian band: | | CLEARED
+#- ACT:10:01 | B: pg1581 | ertain man in C{ae}sarea, named Co ... he Italian band: | | CLEARED
 
 #
 #===============================
@@ -2314,9 +2312,8 @@ ACT:10:23 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 ACT:10:24 | A: drbo   | entered into Caesarea. And Corn |
-ACT:10:24 | B: pg1581 | entered into C�sarea. And Corn |
-ACT:10:24 | C: 1971-tan | entered into Cæsarea. And Corn |
-ACT:10:24 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+ACT:10:24 | B: pg1581 | entered into C{ae}sarea. And Corn |
+ACT:10:24 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
 
@@ -2587,9 +2584,8 @@ ACT:11:10 | B: pg1581 | one three times. And all were tak |
 ACT:11:10 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:11:11 | A: drbo   | nt to me from Caesarea.$ | | ADDED:$
-ACT:11:11 | B: pg1581 | nt to me from C�sarea.$ | | ADDED:$
-ACT:11:11 | C: 1971-tan | nt to me from Cæsarea.$ | | ADDED:$
-ACT:11:11 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+ACT:11:11 | B: pg1581 | nt to me from C{ae}sarea.$ | | ADDED:$
+ACT:11:11 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:11:12 | A: drbo   | irit said to me, that I should |
 ACT:11:12 | B: pg1581 | irit said to me that I should |
@@ -2846,7 +2842,7 @@ ACT:12:17 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 #===============================
 # ACT:12:19 | A: drbo   |  sought for him, and found him not; having examine ... be put to death; and going down from Judea to Caesarea, he abode |
-# ACT:12:19 | B: pg1581 | d found him not, having examine ... be put to death. And going down from Judea to C�sarea, he abode |
+# ACT:12:19 | B: pg1581 | d found him not, having examine ... be put to death. And going down from Judea to C{ae}sarea, he abode |
 
 ACT:12:19 | A: drbo   | sought for him, and found him not; having examine |
 ACT:12:19 | B: pg1581 | sought for him and found him not, having examine |
@@ -2857,9 +2853,8 @@ ACT:12:19 | B: pg1581 | be put to death. And going down |
 ACT:12:19 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:12:19 | A: drbo   | from Judea to Caesarea, he abode |
-ACT:12:19 | B: pg1581 | from Judea to C�sarea, he abode |
-ACT:12:19 | C: 1971-tan | from Judea to Cæsarea, he abode |
-ACT:12:19 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+ACT:12:19 | B: pg1581 | from Judea to C{ae}sarea, he abode |
+ACT:12:19 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
 #===============================
@@ -4382,12 +4377,11 @@ ACT:18:21 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 #===============================
 # ACT:18:22 | A: drbo   | going down to Caesarea, he went up to Jerusalem, and saluted the church, and so came do |
-# ACT:18:22 | B: pg1581 | going down to C�sarea, he went  ... uted the church: and so came do |
+# ACT:18:22 | B: pg1581 | going down to C{ae}sarea, he went  ... uted the church: and so came do |
 
 ACT:18:22 | A: drbo   | going down to Caesarea, he went  |
-ACT:18:22 | B: pg1581 | going down to C�sarea, he went  |
-ACT:18:22 | C: 1971-tan | going down to Cæsarea, he went  |
-ACT:18:22 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+ACT:18:22 | B: pg1581 | going down to C{ae}sarea, he went  |
+ACT:18:22 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:18:22 | A: drbo   | up to Jerusalem, and saluted the church, and so came do |
 ACT:18:22 | B: pg1581 | up to Jerusalem and saluted the church: and so came do |
@@ -5095,9 +5089,8 @@ ACT:21:07 | B: pg1581 | ^But we, having finishe | | ADDED:^
 ACT:21:07 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:21:08 | A: drbo   | g, we came to Caesarea. And ente |
-ACT:21:08 | B: pg1581 | g, we came to C�sarea. And ente |
-ACT:21:08 | C: 1971-tan | g, we came to Cæsarea. And ente |
-ACT:21:08 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+ACT:21:08 | B: pg1581 | g, we came to C{ae}sarea. And ente |
+ACT:21:08 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:21:11 | A: drbo   | er in Jerusalem, and shall deli |
 ACT:21:11 | B: pg1581 | er in Jerusalem and shall deli |
@@ -5130,21 +5123,20 @@ ACT:21:13 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 #===============================
 # ACT:21:16 | A: drbo   | isciples from Caesarea, bringing ... with them one Manson a Cyprian, |
-# ACT:21:16 | B: pg1581 | isciples from C�sarea, bringing ... ith them one Mnason a Cyprian,  |
+# ACT:21:16 | B: pg1581 | isciples from C{ae}sarea, bringing ... ith them one Mnason a Cyprian,  |
 
 ACT:21:16 | A: drbo   | isciples from Caesarea, bringing |
-ACT:21:16 | B: pg1581 | isciples from C�sarea, bringing |
-ACT:21:16 | C: 1971-tan | isciples from Cæsarea, bringing |
-ACT:21:16 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+ACT:21:16 | B: pg1581 | isciples from C{ae}sarea, bringing |
+ACT:21:16 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:21:16 | A: drbo   | with them one Manson a Cyprian, |
 ACT:21:16 | B: pg1581 | with them one Mnason a Cyprian, |
 ACT:21:16 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
-#- ACT:21:16 | B: pg1581 | isciples from C�sarea, bringing ... ith them one Mnason a Cyprian,  | | CLEARED
+#- ACT:21:16 | B: pg1581 | isciples from C{ae}sarea, bringing ... ith them one Mnason a Cyprian,  | | CLEARED
 
-#- ACT:21:16 | B: pg1581 | isciples from C�sarea, bringing ... ith them one Mnason a Cyprian,  | | CLEARED
+#- ACT:21:16 | B: pg1581 | isciples from C{ae}sarea, bringing ... ith them one Mnason a Cyprian,  | | CLEARED
 
 #
 #===============================
@@ -5648,11 +5640,11 @@ ACT:23:22 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 #===============================
 # ACT:23:23 | A: drbo   |  go as far as Caesarea, and seventy horsemen, and two hundre ... ur of the night: |
-# ACT:23:23 | B: pg1581 |  go as far as C�sarea: and seventy ho ... undred spearmen, for the third  ... ur of the night. |
+# ACT:23:23 | B: pg1581 |  go as far as C{ae}sarea: and seventy ho ... undred spearmen, for the third  ... ur of the night. |
 
 ACT:23:23 | A: drbo   | go as far as Caesarea, and seventy ho |
-ACT:23:23 | B: pg1581 | go as far as C�sarea: and seventy ho   |
-ACT:23:23 | C: 1971-tan | go as far as Cæsarea, and seventy ho   |
+ACT:23:23 | B: pg1581 | go as far as C{ae}sarea: and seventy ho   |
+ACT:23:23 | C: 1971-tan | go as far as C{ae}sarea, and seventy ho   |
 ACT:23:23 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:23:23 | A: drbo   | undred spearmen for the third  |
@@ -5704,8 +5696,8 @@ ACT:23:27 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 ACT:23:33 | A: drbo   | were come to Caesarea, and had delive |
-ACT:23:33 | B: pg1581 | were come to C�sarea and had delive |
-ACT:23:33 | C: 1971-tan | were come to Cæsarea, and had delive |
+ACT:23:33 | B: pg1581 | were come to C{ae}sarea and had delive |
+ACT:23:33 | C: 1971-tan | were come to C{ae}sarea, and had delive |
 ACT:23:33 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
@@ -5997,17 +5989,16 @@ ACT:24:26 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 
 ACT:25:01 | A: drbo   | erusalem from Caesarea.$ | | ADDED:$
-ACT:25:01 | B: pg1581 | erusalem from C�sarea.$ | | ADDED:$
-ACT:25:01 | C: 1971-tan| erusalem from Cæsarea.$ | | ADDED:$
-ACT:25:01 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+ACT:25:01 | B: pg1581 | erusalem from C{ae}sarea.$ | | ADDED:$
+ACT:25:01 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:25:02 | A: drbo   | e chief priests, and principal men of the Jews, went unto him |
 ACT:25:02 | B: pg1581 | e chief priests and principal men of the Jews went unto him |
 ACT:25:02 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:25:04 | A: drbo   | l was kept in Caesarea, and that he hi |
-ACT:25:04 | B: pg1581 | l was kept in C�sarea: and that he hi |
-ACT:25:04 | C: 1971-tan | l was kept in Cæsarea, and that he hi |
+ACT:25:04 | B: pg1581 | l was kept in C{ae}sarea: and that he hi |
+ACT:25:04 | C: 1971-tan | l was kept in C{ae}sarea, and that he hi |
 ACT:25:04 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:25:05 | A: drbo   | go down with me, and accuse him |
@@ -6018,11 +6009,11 @@ ACT:25:05 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 #===============================
 # ACT:25:06 | A: drbo   |  went down to Caesarea, and the next day ... e judgment seat; and commanded  |
-# ACT:25:06 | B: pg1581 |  went down to C�sarea. And the next day, he sat in the  |
+# ACT:25:06 | B: pg1581 |  went down to C{ae}sarea. And the next day, he sat in the  |
 
 ACT:25:06 | A: drbo   | went down to Caesarea, and the next day he sat in the |
-ACT:25:06 | B: pg1581 | went down to C�sarea. And the next day, he sat in the |
-ACT:25:06 | C: 1971-tan | went down to Cæsarea, and the next day, he sat in the |
+ACT:25:06 | B: pg1581 | went down to C{ae}sarea. And the next day, he sat in the |
+ACT:25:06 | C: 1971-tan | went down to C{ae}sarea, and the next day, he sat in the |
 ACT:25:06 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:25:06 | A: drbo   | e judgment seat; and commanded |
@@ -6087,8 +6078,8 @@ ACT:25:12 | B: pg1581 | Then Festus, having conferr |
 ACT:25:12 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:25:13 | A: drbo   | came down to Caesarea to salute Fest |
-ACT:25:13 | B: pg1581 | came down to C�sarea, to salute Fest |
-ACT:25:13 | C: 1971-tan | came down to Cæsarea to salute Fest |
+ACT:25:13 | B: pg1581 | came down to C{ae}sarea, to salute Fest |
+ACT:25:13 | C: 1971-tan | came down to C{ae}sarea to salute Fest |
 ACT:25:13 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:25:15 | A: drbo   | e chief priests, and the ancients of the Jews, came unto me, |
@@ -6853,7 +6844,7 @@ ACT:28:18 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 ACT:28:19 | A: drbo   | eal unto Caesar; not that  |
 ACT:28:19 | B: pg1581 | eal unto Caesar: not that  |
-ACT:28:19 | C: 1971-tan | eal unto Cæsar; not that  |
+ACT:28:19 | C: 1971-tan | eal unto C{ae}sar; not that  |
 ACT:28:19 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 ACT:28:19 | A: drbo   | that I had any thing to accuse |

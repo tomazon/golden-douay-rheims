@@ -15,6 +15,8 @@ use utf8;
 
 use feature 'say';
 
+binmode *STDOUT, ':utf8';
+
 my $book_order_file = './etc/book_order.yaml';
 my $output_store = '';
 my $args = {
@@ -252,10 +254,22 @@ sub combined_keys {
 sub diff_text {
     my ($args, $tag, $text_a, $text_b) = @_;
 
+    $text_a =~ s/\{ae\}/\x{00E6}/g;
+    $text_b =~ s/\{ae\}/\x{00E6}/g;
+
     $text_a = strip_text($args, $text_a);
     $text_b = strip_text($args, $text_b);
 
     return("","") if $text_a eq $text_b;
+
+    # $text_a =~ s/\{/\\\{/;
+    # $text_a =~ s/\}/\\\}/;
+    # $text_b =~ s/\{/\\\{/;
+    # $text_b =~ s/\}/\\\}/;
+
+    # $text_a =~ s/\{ae\}/AE/g;
+    # $text_b =~ s/\{ae\}/AE/g;
+
 
     my $diff = String::Diff::diff(($text_a,$text_b),
         remove_open  => '{REMOVE_OPEN}',
