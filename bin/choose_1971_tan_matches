@@ -65,7 +65,11 @@ while(1) {
                 my $label = $cols[1];
                 my $string = $cols[2];
 
+                #say "$tag | $letter | $label | $string";
+
                 push(@stack, [$letter, $label, $string]);
+
+                #say Dumper(\@stack);
             } elsif ($cols[1] eq 'which') {
 
                 #say ">>> | $cols[2] |";
@@ -81,15 +85,24 @@ while(1) {
                 say "$book_id:$c:$v -- [$line_num]";
 
                 my %seen = ();
+                #my $first = $stack[0];
                 my $first = shift(@stack);
 
                 $seen{$first->[0]}++;
+                #say Dumper(\@stack);
                 for my $e (@stack) {
+                    #say Dumper($e);
                     my $letter = $e->[0];
-                    die "\nERROR line $line_num: DUP Letter for Choice: $letter : " if $seen{$letter};
+                    if ($seen{$letter} && $letter ne 'A') {
+                        die "\nERROR line $line_num: DUP Letter for Choice: $letter : ";
+                    }
                     $seen{$letter}++;
 
                     say differ($first, $e);
+                    if ($letter ne 'A' && $letter ne 'B') {
+                        say differ($stack[0], $e);
+                    }
+
                 }
 
                 my $choice = prompt('Which? ', (keys %seen));
@@ -152,7 +165,11 @@ sub differ {
         append_close => "\e[0m",
     );
 
-    "    A: $diff->[0]\n    B: $diff->[1]";
+    if ($b_letter ne 'A' && $b_letter ne 'B') {
+        return "    $b_letter: $diff->[1]";
+    } else {
+        "    $a_letter: $diff->[0]\n    $b_letter: $diff->[1]";
+    }
 }
 
 sub prompt {

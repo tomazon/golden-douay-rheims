@@ -17,7 +17,8 @@ use utf8;
 
 use feature 'say';
 
-binmode STDOUT, ":raw";
+# binmode STDOUT, ":raw";
+# binmode *STDOUT, ':utf8';
 
 require "./sources/lib/perl5/shared.pl";
 
@@ -33,32 +34,66 @@ my %source_dirs = (
     'vulsearch'         => './sources/vulsearch_vulgate/out',
     'pg8300_info'       => './sources/pg8300/etc/by_id.yaml',
     'vscodes_count'     => './sources/vulsearch_vulgate/out_vscode_counts',
+    'match_of_drbo_or_pg1581' => './etc/diff_sheets',
+);
+
+my %programs = (
+    'check_match_drbo_or_pg1581' => './bin/check_diff_sheet'
 );
 
 
 my $drbo_dir = $source_dirs{drbo};
 my $pg1581_dir = $source_dirs{pg1581};
 
+
+my $choices = {};
 my @books = book_list($book_order_file, qw( OT NT ));
+
 
 for my $book_id (@books) {
     next unless book_has_red_letters($book_id);
+
+    say '#'x70;
+    #say "# $book_id";
+
+    my $pg1581 = read_source_book($pg1581_dir, $book_id);
+    my $drbo   = read_source_book($drbo_dir, $book_id);
     my $out_file = "$golden_out_dir/$book_id.yaml";
+    my @chapter_list = (combined_keys($drbo->{chapters}, $pg1581->{chapters}));
+
+    check_match_drbo_or_pg1581($book_id);
+
     my $book = {
         book_id => $book_id,
         titles => {},
         chapters => {},
-        intro => "",
+        intro => {},
     };
-    build_chapters($book, $drbo_dir, $pg1581_dir, $book_id);
-    $book->{intro} = fetch_book_field($pg1581_dir, $book_id, 'book_intro');
-    $book->{titles} = get_titles(\%source_dirs, $book_id);
 
+    load_book_info_from_pg1581($book, $pg1581);
+
+    for my $c_index (@chapter_list) {
+        #say "   C: $c_index";
+        load_chap_intro_from_pg1581($book, $pg1581, $c_index);
+        load_verses_from_pg1581($book, $pg1581, $c_index);
+        overlay_TAN_match_of_drbo_or_pg1581($book, $c_index, $drbo, $pg1581);
+    }
+
+
+
+    #build_chapters($book, $drbo_dir, $pg1581_dir, $book_id);
+    #$book->{intro} = fetch_book_field($pg1581_dir, $book_id, 'book_intro');
+    #$book->{titles} = get_titles(\%source_dirs, $book_id);
+
+    say "Writing: $out_file";
     YAML::DumpFile($out_file, $book);
 }
 
 say "Reenable CP";
 #copy_vulsearsh_files($source_dirs{'vulsearch'}, "$top_out_dir/vulsearch_vulgate");
+
+exit(0);
+
 
 ###########################################################################
 
@@ -67,28 +102,231 @@ sub book_yaml_file {
     "$dir/$book_id.yaml";
 }
 
-sub build_chapters {
+sub load_book_info_from_pg1581 {
+    my ($book, $pg1581) = @_;
+
+    $book->{intro} = $pg1581->{book_intro};
+}
+
+
+sub load_verses_from_pg1581 {
+    my ($book, $pg1581, $c_index) = @_;
+
+    my $chap = $pg1581->{chapters}->{$c_index};
+    for my $v_index (sort keys %{$chap->{verses}}) {
+        $book->{chapters}->{$c_index}->{verses}->{$v_index} = $chap->{verses}->{$v_index};
+    }
+}
+
+sub load_chap_intro_from_pg1581 {
+    my ($book, $pg1581, $c_index) = @_;
+
+    my $chap = $pg1581->{chapters}->{$c_index};
+    $book->{chapters}->{$c_index}->{intro} = $chap->{intro};
+}
+
+sub overlay_TAN_match_of_drbo_or_pg1581 {
+    my ($book, $c_index, $drbo, $pg1581) = @_;
+    my $dir = $source_dirs{'match_of_drbo_or_pg1581'};
+    my $file = "$dir/$book->{book_id}.dif";
+
+    my $want_c = $c_index;
+    $want_c =~ s/c:0+//;
+
+    #check_match_drbo_or_pg1581($book->{book_id});
+
+    my $last_tag = "";
+    my $index = 0;
+    my $line_num = 0;
+    for my $line (read_file($file)) {
+        $line_num++;
+        trim($line);
+
+        next if $line =~ /^#/;
+        next unless $line =~ /\S/;
+
+        my @cols = split(/\s*\|\s*/, $line);
+
+        if ($cols[0] =~ /^([A-Z1-4][A-Z]{2}):(\d+):(\d+)$/) {
+            my ($b,$c,$v) = ($1,$2,$3);
+            my $tag = bcv2tag($b,$c,$v);
+
+            next if $c ne $want_c;
+
+            $v =~ s/^0//g;
+            $c =~ s/^0//g;
+            if ($cols[1] =~ s/^([A-Z]):\s*//) {
+                my $letter = $1;
+                my $label = $cols[1];
+                my $string = $cols[2];
+                $index = 0 if $tag ne $last_tag;
+
+                if ($letter eq 'A' || $letter eq 'B') {
+                    check_string_in_verse($b,$c,$v, $label, $string, $drbo, $pg1581);
+                }
+                put_verse_into_choices($b,$c,$v, $index, $letter, $label, $string);
+
+                $last_tag = $tag;
+            } elsif ($cols[1] eq 'which') {
+                #put_which_into_struct($b,$c,$v, $index, \@cols);
+                if ($cols[2] =~ /^1971-Tan:([A-Z_])$/) {
+                    my $letter = $1;
+                    #say "$tag: $letter -- "; ##. Dumper($choices);
+
+                    check_choices($book, $choices, $drbo, $pg1581, $b, $c, $v, $index, $tag);
+
+                    if ($letter eq 'A') {
+                        #confirm_match($book, $choices, $b, $c, $v, $index, $tag,  'A');
+                        replace_with('A')
+                    } elsif ($letter eq 'B') {
+                        #confirm_match($book, $choices, $b, $c, $v, $index, $tag,  'B');
+                    } elsif ($letter eq 'C') {
+                        replace_with('C');
+                        #say Dumper($choices);
+                    } elsif ($letter eq 'D') {
+                        replace_with('D');
+                        #say Dumper($choices);
+                    } elsif ($letter eq 'Z') {
+                        #say Dumper($choices);
+                    } elsif ($letter eq '_') {
+                        1;
+                    } else {
+                        die "$tag: Unknown letter: $letter\n";
+                    }
+                } else {
+                    die "$tag: Unknown which: no 1971-Tan -- $cols[2]\n";
+                }
+                $choices = {};
+                $index++;
+            }
+        }
+    }
+}
+
+
+sub bcv2tag {
+    my ($book_id, $c, $v) = @_;
+    $c =~ s/^c://;
+    $v =~ s/^v://;
+    sprintf("%s:%02d:%02d", $book_id, $c, $v);
+}
+
+sub OLD_bcv_tag {
+    my ($b,$c,$v) = @_;
+
+    sprintf("%3s:%d:%d", $b, $c, $v);
+}
+
+sub check_match_drbo_or_pg1581 {
+    my ($book_id) = @_;
+
+    my $pgm = $programs{check_match_drbo_or_pg1581};
+    run_cmd({}, $pgm, $book_id);
+
+
+}
+
+
+sub check_choices {
+    my ($book, $choices, $drbo, $pg1581, $b, $c, $v, $index, $tag) = @_;
+
+    my $c_index = sprintf("c:%03d", $c);
+    my $v_index = sprintf("v:%03d", $v);
+
+    for my $field (qw( b c v index tag)) {
+        my $value = eval("\$$field");
+        my $in_choices = $choices->{$field};
+        if ($value ne $in_choices) {
+            die "Check_choices mismatch: $field --  '$value' ne '$in_choices', Stopped";
+        }
+    }
+
+    #say Dumper($drbo->{chapters}->{$c_index}->{verses}->{$v_index});
+
+    my @drbo_vals = split(/\s*\|\s*/, $drbo->{chapters}->{$c_index}->{verses}->{$v_index});
+    my @pg1581_vals = split(/\s*\|\s*/, $pg1581->{chapters}->{$c_index}->{verses}->{$v_index});
+
+    my $drbo_count   = match_count($choices->{letters}->{A}, $drbo_vals[3]);
+    my $pg1581_count = match_count($choices->{letters}->{B}, $pg1581_vals[3]);
+
+    die "$tag NO_MATCH A in DRBO:       | $choices->{letters}->{A} | $drbo_vals[3] |  Stopped"   if $drbo_count   == 0;
+    die "$tag NO_MATCH B in PG1581:     | $choices->{letters}->{B} | $pg1581_vals[3] |  Stopped" if $pg1581_count == 0;
+    die "$tag MULTI_MATCHS A in DRBO:   | $choices->{letters}->{A} | $drbo_vals[3] |  Stopped"   if $drbo_count   != 1;
+    die "$tag MULTI_MATCHS B in PG1581: | $choices->{letters}->{B} | $pg1581_vals[3] |  Stopped" if $pg1581_count != 1;
+    #say ">>>>  $drbo_vals[3]";
+
+    #say "--- $tag ---";
+    for my $let (sort keys %{$choices->{letters}}) {
+        next if $let eq 'A' || $let eq 'B';
+        my $A_val = $choices->{letters}->{A};
+        my $B_val = $choices->{letters}->{B};
+        my $val = $choices->{letters}->{$let};
+        die "$tag $let eq A | $val | $A_val | Stopped" if $val eq $A_val;
+        die "$tag $let eq B | $val | $B_val | Stopped" if $val eq $B_val;
+        die "$tag $let actually in drbo | $val | $drbo_vals[3]\n"    if match_count($val, $drbo_vals[3]);
+        die "$tag $let actually in drbo | $val | $pg1581_vals[3]\n"  if match_count($val, $pg1581_vals[3]);
+    }
+
+}
+
+
+sub match_count {
+    my ($regex, $string) = @_;
+
+    $regex =~ s/\?/\\?/g;
+    $regex =~ s/\./\\./g;
+    $regex =~ s/\(/\\(/g;
+    $regex =~ s/\)/\\)/g;
+
+    my $count = () = $string =~ m{$regex}g;
+
+    #say "MATCH COUNT $count | $regex | $string |";
+
+    $count;
+}
+
+sub confirm_match {
+    my ($letter) = @_;
+
+}
+
+sub  replace_with {
+    my ($letter) = @_;
+
+}
+
+sub read_source_book {
+    my ($dir, $book_id) = @_;
+    my $out = load_yaml_file("$dir/$book_id.yaml");
+
+    $out;
+}
+
+
+sub OLD_build_chapters {
     my ($book, $drbo_dir, $pg1581_dir, $book_id) = @_;
     my $drbo_file =   "$drbo_dir/$book_id.yaml";
     my $pg1581_file = "$pg1581_dir/$book_id.yaml";
     my $vscodes_count_file = "$source_dirs{vscodes_count}/$book_id.yaml";
 
-    my $footnote_fixes = YAML::LoadFile('./etc/footnote_fixes.yaml');
+    my $footnote_fixes = load_yaml_file('./etc/footnote_fixes.yaml');
     my $red_letter_map = {};
     if (book_has_red_letters($book_id)) {
-        $red_letter_map  = YAML::LoadFile("./etc/red_letters/$book_id.yaml");
+        $red_letter_map  = load_yaml_file("./etc/red_letters/$book_id.yaml");
     }
 
-    say "Processing: $book_id";
+    say "########################################################";
+    say "# Processing: $book_id";
+    say "########################################################";
 
     die "No such directory: $drbo_dir" unless -d $drbo_dir;
     die "No such directory: $pg1581_dir" unless -d $pg1581_dir;
     die "No_such_file: $drbo_file\n" unless -f $drbo_file;
     die "No_such_file: $pg1581_file\n" unless -f $pg1581_file;
 
-    my $drbo_data     = YAML::LoadFile($drbo_file);
-    my $pg1581_data   = YAML::LoadFile($pg1581_file);
-    my $vscodes_count = YAML::LoadFile($vscodes_count_file);
+    my $drbo_data     = load_yaml_file($drbo_file);
+    my $pg1581_data   = load_yaml_file($pg1581_file);
+    my $vscodes_count = load_yaml_file($vscodes_count_file);
 
     for my $c_index (combined_keys($drbo_data->{chapters}, $pg1581_data->{chapters})) {
         my $c_tag = num_to_tag('c', $book_id, $c_index);
@@ -109,11 +347,11 @@ sub build_chapters {
             my $pg1581_vers = $pg1581_chap->{verses}->{$v_index};
 
             if (!defined($drbo_vers) || $drbo_vers eq '') {
-                warn "Only in $pg1581_file: $v_tag\n";
+                die "Only in $pg1581_file: $v_tag\n";
                 next;
             }
             if (!defined($pg1581_vers) || $pg1581_vers eq '') {
-                warn "Only in $drbo_file: $v_tag\n";
+                die "Only in $drbo_file: $v_tag\n";
                 next;
             }
 
@@ -228,6 +466,8 @@ sub book_has_red_letters {
 
 sub choose_display_v {
     my ($v_tag, $v_num, $drbo_dis, $pg1581_dis) = @_;
+
+
     #TODO: use some logic
 
     $pg1581_dis;
@@ -302,7 +542,7 @@ sub get_titles {
         $titles->{$src} = $title;
     }
     {
-        my $pg8300 = YAML::LoadFile($source_dirs->{'pg8300_info'});
+        my $pg8300 = load_yaml_file($source_dirs->{'pg8300_info'});
         $titles->{pg8300} = $pg8300->{$book_id}->{title};
         $titles->{'pg8300_short'} = $pg8300->{$book_id}->{short};
     }
@@ -316,7 +556,114 @@ sub fetch_book_field {
 
     my $file_name = book_yaml_file($dir, $book_id);
     #say "LOADING: $file_name FIELD: $field\n";
-    my $data = YAML::LoadFile($file_name);
+    my $data = load_yaml_file($file_name);
     $data->{$field};
 }
 
+sub load_yaml_file {
+    my ($file) = @_;
+
+    print "Opening YAML file: $file\n";
+    YAML::LoadFile($file)
+}
+
+sub run_cmd {
+    my ($args, @cmd) = @_;
+
+    my $cmd_str = shell_quote(@cmd);
+
+    say "Running: $cmd_str";
+    system(@cmd);
+
+    if ($? == -1) { # Failed to start program / error of the wait(2) system call
+        die "Failed to execute '$cmd_str': $!";
+    } elsif ($? & 127) { # Check for non-zero signal
+        die "'$cmd_str' died with signal", ($? & 127), ($? & 128) ? 'with' : 'without', " coredump";
+    } else { # No kill signal, check exit code.
+        my $exit_code = $? >> 8; # This is the number you said to be 255.
+        # print "'$runCmd' exited with value ", $exit_code, "\n";
+
+        if ($exit_code == 255) {
+            die("Failed to run \"$cmd_str\": $!");
+        } elsif ($exit_code != 0) {
+            die "\"$cmd_str\" exited with exit code: $exit_code\n";
+        }
+    }
+}
+
+sub check_string_in_verse {
+    my ($b,$c, $v, $label, $string, $drbo, $pg1581) = @_;
+    my $c_index = "c:".num_to_3digits($c);
+    my $v_index = "v:".num_to_3digits($v);
+
+    my $const_label = sprintf("%-6s", $label);
+
+    my $tag = "$b:$c:$v";
+    $tag = bcv2tag($b,$c,$v);
+
+    my $entry='';
+    if ($label eq 'drbo') {
+        $entry = $drbo->{chapters}->{$c_index}->{verses}->{$v_index};
+    } elsif ($label eq 'pg1581') {
+        $entry = $pg1581->{chapters}->{$c_index}->{verses}->{$v_index};
+    } elsif ($label eq '1971-tan') {
+        return;
+    } elsif ($label eq '1899-murphy') {
+        return;
+    # } else {
+    #     print ":::: $line\n";
+    }
+
+    die "$const_label $tag | NOMATCH: | $c_index $v_index | $string \n"
+        unless defined($entry);
+
+    my($e_tag, $e_chap, $e_c_display, $e_text) = split(/\s*\|\s*/, $entry);
+    #say "$tag | $c_index $v_index | $e_tag | $string | $e_text\n";
+
+
+    my $regex = $string;
+    $regex =~ s/\?/\\?/g;
+    $regex =~ s/\./\\./g;
+    $regex =~ s/\(/\\(/g;
+    $regex =~ s/\)/\\)/g;
+
+    my $matches = () = $e_text =~ m{$regex}g;
+
+    #say "$tag == MATCHES: $matches | $string | $e_text";
+
+    if ($string =~ / \.\.\. /) {
+        die "$tag $const_label  NEED_TO_SPLIT | $string\n";
+    } elsif ($matches > 1) {
+        die "$tag $const_label  MULTIPLE MATCHES OF | $string | $e_text\n";
+    } elsif ($matches != 1) {
+        die "$tag $const_label  NO MATCHES OF | $string | $e_text\n";
+    }
+}
+
+sub put_verse_into_choices {
+    my ($b,$c,$v, $index, $letter, $label, $string) = @_;
+    my $c_index = "c:".num_to_3digits($c);
+    my $v_index = "v:".num_to_3digits($v);
+    my $tag = bcv2tag($b,$c,$v);
+
+    if (int(%$choices)) {
+        for my $field (qw( b c v index tag )) {
+            my $value = eval("\$$field");
+            my $in_choices = $choices->{$field};
+            if ($value ne $in_choices) {
+                die "Mismatch in choices: $field -- '$value' ne '$in_choices', Stopped";
+            }
+        }
+    } else {
+        for my $field (qw( b c v index tag )) {
+            my $value = eval("\$$field");
+            $choices->{$field} = $value;
+        }
+    }
+
+    if (defined($choices->{letters}->{$letter})) {
+        die "Letter $letter already defined, Stopped";
+    }
+
+    $choices->{letters}->{$letter} = $string;
+}

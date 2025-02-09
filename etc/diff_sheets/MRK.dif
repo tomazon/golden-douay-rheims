@@ -721,12 +721,12 @@ MRK:08:25 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 MRK:08:27 | A: drbo   | d his disciples, into the towns |
 MRK:08:27 | B: pg1581 | d his disciples into the towns |
-MRK:08:27 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MRK:08:27 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MRK:08:27 | A: drbo     |  the towns of Caesarea Philippi. |
 MRK:08:27 | B: pg1581   |  the towns of C�sarea Philippi. | # NOTE: pg1581 had an odd non-utf8 character
 MRK:08:27 | C: 1971-tan |  the towns of Cæsarea Philippi. |
-MRK:08:27 | which       | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MRK:08:27 | which       | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 
 
@@ -1155,7 +1155,8 @@ MRK:09:46 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 MRK:09:49 | A: drbo   | if the salt became unsavoury; wherewith will  |
 MRK:09:49 | B: pg1581 | if the salt become unsavoury, wherewith will  |
-MRK:09:49 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MRK:09:49 | C: 1971-tan | if the salt become unsavoury; wherewith will |
+MRK:09:49 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MRK:09:49 | A: drbo   |  ave salt in you, and have peace |
 MRK:09:49 | B: pg1581 |  ave salt in you: and have peace |
@@ -1793,8 +1794,8 @@ MRK:12:01 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 MRK:12:01 | A: drbo     | for the winevat, and built a tower  |
 MRK:12:01 | B: pg1581   | for the winefat and built a tower  |
-MRK:12:01 | C: 1971-tan | for the winefat,q and built a tower  |
-MRK:12:01 | which       | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MRK:12:01 | C: 1971-tan | for the winefat, and built a tower  |
+MRK:12:01 | which       | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MRK:12:01 | A: drbo   | and built a tower, and let it to   |
 MRK:12:01 | B: pg1581 | and built a tower and let it to  |
@@ -1887,7 +1888,8 @@ MRK:12:14 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 MRK:12:14 | A: drbo   | ibute to Caesar; or shall we not  |
 MRK:12:14 | B: pg1581 | ibute to Caesar? Or shall we not  |
-MRK:12:14 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MRK:12:14 | B: pg1581 | ibute to Cæsar? Or shall we not  |
+MRK:12:14 | which     | 1971-Tan:_ | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 #
 #===============================
@@ -1900,7 +1902,8 @@ MRK:12:15 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 MRK:12:17 | A: drbo   | at are Caesar's, and to God the |
 MRK:12:17 | B: pg1581 | at are Caesar's and to God the |
-MRK:12:17 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MRK:12:17 | C: 1971-tan | at are Cæsar's, and to God the |
+MRK:12:17 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MRK:12:18 | A: drbo   | no resurrection; and they asked h |
 MRK:12:18 | B: pg1581 | no resurrection. And they asked h |
@@ -2045,7 +2048,7 @@ MRK:13:05 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 MRK:13:06 | A: drbo   | come in my name, saying,  |
 MRK:13:06 | B: pg1581 | come in my name saying, |
-MRK:13:06 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MRK:13:06 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MRK:13:06 | A: drbo   | saying, I am he; and they shall |
 MRK:13:06 | B: pg1581 | saying, I am he: and they shall |
@@ -2254,7 +2257,8 @@ MRK:13:28 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 MRK:13:30 | A: drbo   | ^Amen I say to you, that this |
 MRK:13:30 | B: pg1581 | ^Amen, I say to you that this |
-MRK:13:30 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MRK:13:30 | C: 1971-tan | ^Amen, I say to you, that this |
+MRK:13:30 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MRK:13:30 | A: drbo   | shall not pass, until all thes |
 MRK:13:30 | B: pg1581 | shall not pass until all thes |
@@ -2474,7 +2478,8 @@ MRK:14:27 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 MRK:14:30 | A: drbo   | say to thee, today, even in th  |
 MRK:14:30 | B: pg1581 | say to thee, to-day, even in th  |
-MRK:14:30 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MRK:14:30 | C: 1971-tan | say to thee, to day, even in th  |
+MRK:14:30 | which     | 1971-Tan:C | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 
 MRK:14:30 | A: drbo   | wice, thou shall deny me thrice |
 MRK:14:30 | B: pg1581 | wice, thou shalt deny me thrice |
@@ -3012,5 +3017,5 @@ MRK:16:19 | which     | 1971-Tan:A | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A
 
 MRK:16:20 | A: drbo   |  preached everywhere: the Lord |
 MRK:16:20 | B: pg1581 |  preached every where: the Lord |
-MRK:16:20 | which     | 1971-Tan:Z | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
+MRK:16:20 | which     | 1971-Tan:B | 1941-DouayHouse:_ | 2024-Loreto:_ | Other-A:_ | Other-B:_ | Other-C:_ |
 

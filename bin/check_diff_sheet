@@ -151,6 +151,7 @@ my $ok = {
     },
     no_matches => {
         "MRK:08:27 pg1581" => "non-utf8 character",
+        "MRK:12:14 pg1581" => "non-utf8 character",
         "ACT:08:40 pg1581" => "non-utf8 character",
         "ACT:09:30 pg1581" => "non-utf8 character",
         "ACT:10:01 pg1581" => "non-utf8 character",
@@ -175,6 +176,7 @@ my $ok = {
         "1KI:07:11[2]" => 1,
         "2KI:05:18[3]" => 1,
         "JDG:09:32[3]" => 1,
+        "LUK:02:01[2]" => 1,
     },
     end_differently => {
         "ACT:02:20[2]" => 1,
