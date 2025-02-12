@@ -12,19 +12,19 @@ Project Status
 | MRK | 1810 | 171 | 588 | 6 | 286 | DONE | DONE | WIP |  |
 | LUK | 4145 | 421 | 1345 | 27 | 586 | DONE | DONE |  |  |
 | JHN | 3207 | 322 | 1060 | 22 | 421 | DONE | DONE |  |  |
-| ACT | 3330 | 411 | 1226 | 29 | 27 | DONE | DONE |  |  |
-| 1CO | 1351 | 169 | 505 | 1 | 2 | DONE |  |  |  |
-| 2CO | 807 | 100 | 301 | 4 | 1 | DONE |  |  |  |
-| REV | 2377 | 378 | 777 | 0 | 67 | DONE |  |  |  |
+| ACT | 3332 | 411 | 1227 | 29 | 27 | DONE | DONE |  |  |
+| 1CO | 1353 | 169 | 506 | 1 | 2 | DONE | DONE |  |  |
+| 2CO | 805 | 100 | 300 | 4 | 1 | DONE | DONE |  |  |
+| REV | 2381 | 378 | 779 | 0 | 67 | DONE | DONE |  |  |
 
 ## Torah
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | 
-| GEN | 2165 | 124 | 934 | 49 | 0 | DONE |  |  |  |
+| GEN | 2169 | 124 | 936 | 49 | 0 | DONE | DONE |  |  |
 | EXO | 1823 | 143 | 757 | 23 | 0 | DONE |  |  |  |
 | LEV | 1771 | 199 | 686 | 1 | 0 | DONE |  |  |  |
 | NUM | 329 | 10 | 130 | 49 | 0 | DONE |  |  |  |
-| DEU | 280 | 4 | 93 | 86 | 0 | DONE |  |  |  |
+| DEU | 282 | 4 | 94 | 86 | 0 | DONE | DONE |  |  |
 
 ## Other New Testament books (ordered by effort weight)
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 

@@ -545,7 +545,7 @@ sub apply_redletters {
 
 sub book_has_red_letters {
     my ($book_id) = @_;
-    grep(/^$book_id$/, (qw( MAT MRK LUK JHN ACT 1CO 2CO REV )));
+    grep(/^$book_id$/, (qw( MAT MRK LUK JHN ACT 1CO 2CO REV GEN DEU)));
 }
 
 sub choose_display_v {
