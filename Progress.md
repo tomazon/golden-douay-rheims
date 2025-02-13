@@ -29,25 +29,25 @@ Project Status
 ## Other New Testament books (ordered by effort weight)
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>italics | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | :---: | 
-| PHM | 46 | 2 | 21 | 0 | 0 | DONE |  |  |  |  |
-| 3JN | 46 | 6 | 17 | 0 | 0 | DONE |  |  |  |  |
-| 2JN | 72 | 12 | 24 | 0 | 0 | DONE |  |  |  |  |
-| JUD | 108 | 17 | 37 | 0 | 0 | DONE |  |  |  |  |
-| TIT | 112 | 11 | 45 | 0 | 0 | DONE |  |  |  |  |
-| 2PE | 178 | 22 | 67 | 0 | 0 | DONE |  |  |  |  |
-| 2TH | 190 | 27 | 68 | 0 | 0 | DONE |  |  |  |  |
-| 2TI | 211 | 23 | 82 | 1 | 0 | DONE |  |  |  |  |
-| 1TH | 243 | 33 | 88 | 1 | 0 | DONE |  |  |  |  |
-| 1TI | 278 | 31 | 108 | 0 | 0 | DONE |  |  |  |  |
-| 1PE | 293 | 33 | 113 | 1 | 0 | DONE |  |  |  |  |
-| PHP | 316 | 40 | 118 | 0 | 0 | DONE |  |  |  |  |
-| JAS | 320 | 38 | 122 | 0 | 0 | DONE |  |  |  |  |
-| COL | 329 | 52 | 112 | 1 | 0 | DONE |  |  |  |  |
-| EPH | 370 | 40 | 145 | 0 | 0 | DONE |  |  |  |  |
-| GAL | 398 | 54 | 144 | 2 | 0 | DONE |  |  |  |  |
-| 1JN | 462 | 74 | 157 | 0 | 0 | DONE |  |  |  |  |
-| HEB | 830 | 90 | 325 | 0 | 0 | DONE |  |  |  |  |
-| ROM | 1476 | 193 | 541 | 8 | 0 | DONE |  |  |  |  |
+| PHM | 46 | 2 | 21 | 0 | 0 | DONE | DONE |  |  |  |
+| 3JN | 46 | 6 | 17 | 0 | 0 | DONE | DONE |  |  |  |
+| 2JN | 72 | 12 | 24 | 0 | 0 | DONE | DONE |  |  |  |
+| JUD | 108 | 17 | 37 | 0 | 0 | DONE | DONE |  |  |  |
+| TIT | 112 | 11 | 45 | 0 | 0 | DONE | DONE |  |  |  |
+| 2PE | 178 | 22 | 67 | 0 | 0 | DONE | DONE |  |  |  |
+| 2TH | 190 | 27 | 68 | 0 | 0 | DONE | DONE |  |  |  |
+| 2TI | 211 | 23 | 82 | 1 | 0 | DONE | DONE |  |  |  |
+| 1TH | 243 | 33 | 88 | 1 | 0 | DONE | DONE |  |  |  |
+| 1TI | 278 | 31 | 108 | 0 | 0 | DONE | DONE |  |  |  |
+| 1PE | 293 | 33 | 113 | 1 | 0 | DONE | DONE |  |  |  |
+| PHP | 318 | 40 | 119 | 0 | 0 | DONE | DONE |  |  |  |
+| JAS | 318 | 38 | 121 | 0 | 0 | DONE | DONE |  |  |  |
+| COL | 329 | 52 | 112 | 1 | 0 | DONE | DONE |  |  |  |
+| EPH | 372 | 40 | 146 | 0 | 0 | DONE | DONE |  |  |  |
+| GAL | 398 | 54 | 144 | 2 | 0 | DONE | DONE |  |  |  |
+| 1JN | 462 | 74 | 157 | 0 | 0 | DONE | DONE |  |  |  |
+| HEB | 834 | 90 | 327 | 0 | 0 | DONE | DONE |  |  |  |
+| ROM | 1480 | 193 | 543 | 8 | 0 | DONE | DONE |  |  |  |
 
 ## Other Old Testament books (ordered by effort weight)
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>italics | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
