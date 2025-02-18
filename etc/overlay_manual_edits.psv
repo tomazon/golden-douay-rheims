@@ -2,15 +2,19 @@
 
 GEN:12:16 | men servants | menservants |
 GEN:12:16 | maid servants | maid servants |
-GEN:24:35 | men servants | menservants |
-GEN:24:35 | maid servants | maid servants |
+GEN:24:35 | gold, men servants | gold, menservants |
+GEN:24:35 | women servants | womenservants |
 
 
 # GEN:27:33.VERSE_DISPLAY | 33 | 38 |
 
 GEN:30:33 | tomorrow | to morrow |  ## TODO Look for more
-ACT:18:18 | Cenchrae. | Cenchr<ae>. | ## TODO Look for more
+ACT:18:18 | Cenchrae: | Cenchr{ae}: | ## TODO Look for more
+ROM:16:1  | Cenchrae: | Cenchr{ae}: | 
+EXO:10:4  | to-morrow | to morrow | TODO Look for more
 
+
+MAR:8:27 | Caesarea | C{ae}sarea |
 ##
 ## !!!!! TODO: Need to check agaisn't book
 ##
@@ -22,12 +26,15 @@ MAT:22:21 | to Caesar the things | to C{ae}sar the things |
 MAT:22:21 | that are Caesar's; and to | that are C{ae}sar's; and to
 
 MRK:12:Intro | Caesar | C{ae}sar |
+#MRK:12:14 | Caesar | C{ae}sar | # already from diff-sheet
 MRK:12:16 | Caesar | C{ae}sar |
-MRK:12:17 | Caesar | C{ae}sar |
+MRK:12:17 | Caesar | C{ae}sar | #multi
+
 
 LUK:3:1 | Caesar | C{ae}sar |
 LUK:20:Intro | Caesar | C{ae}sar |
 LUK:20:22 | Caesar | C{ae}sar |
+# LUK:20:24 | Caesar's | C{ae}sar's | # already from diff-sheet
 LUK:20:25 | to Caesar the | to C{ae}sar the |
 LUK:20:25 | are Caesar's: and | are C{ae}sar's: and | 
 
@@ -51,4 +58,6 @@ PHP:4:22 | Caesar | C{ae}sar |
 1ES:2:24 | Caelesyria | C{ae}lesyria |
 1ES:2:27 | Caelesyria | C{ae}lesyria |
 
+
+MAT:19:04 | the beginning, made them | the beginning, Made them |
 

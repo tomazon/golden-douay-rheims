@@ -98,7 +98,18 @@ sub table {
             my $name = $field->{name};
             next if $name =~ /^num_/;
             next if $name eq 'book_id';
-            if (defined(my $s = $status->{$name})) {
+            # if (defined(my $s = $status->{$name})) {
+            #     push(@cols, $s);
+            say Dumper($field);
+            if ($field->{name} eq 'apply_italics') {
+                my $file = "./etc/overlay_italics/$book_id";
+                if (-f $file) {
+                    my $status = get_apply_italics_progress($file);
+                    push(@cols, $status); 
+                } else {
+                    push(@cols, '');
+                }
+            } elsif (defined(my $s = $status->{$name})) {
                 push(@cols, $s);
             } else {
                 push(@cols, '');
@@ -106,6 +117,16 @@ sub table {
         }
 
         $out .= "| ". join(" | ", @cols) ." |\n";
+    }
+
+    $out;
+}
+
+sub get_apply_italics_progress {
+    my ($file) = @_;
+    my $out = 'WIP';
+    for my $line (read_file($file)) {
+        $out = $1 if $line =~ /^__(\w+)__/;
     }
 
     $out;

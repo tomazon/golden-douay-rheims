@@ -40,15 +40,24 @@ my %source_dirs = (
     'vulsearch'         => './sources/vulsearch_vulgate/out',
     'pg8300_info'       => './sources/pg8300/etc/by_id.yaml',
     'vscodes_count'     => './sources/vulsearch_vulgate/out_vscode_counts',
-    'match_of_drbo_or_pg1581' => './etc/diff_sheets',
-    'cache'                                       => '/tmp/gold_douay_cache',
-    'cache_load_verses_from_pg1581'               => '/tmp/gold_douay_cache/load_verses_from_pg1581',
-    'cache_overlay_TAN_match_of_drbo_or_pg1581'   => '/tmp/gold_douay_cache/overlay_TAN_match_of_drbo_or_pg1581',
+    'match_of_drbo_or_pg1581'  => './etc/diff_sheets',
+    'cache'                    => '/tmp/gold_douay_cache',
+    'overlay_manual_edits.psv'  => './etc/overlay_manual_edits.psv',
+    'overlay_italics_d' => './etc/overlay_italics',
 );
 
+my @steps = (qw(
+    load_intros_from_pg1581
+    load_verses_from_pg1581
+    overlay_tan_matches_from_drbo_pg1581_diffs
+    overlay_manual_edits
+    overlay_italics
+    #overlay_vulsearch_formatting
+    #overlay_red_letters
+));
+
+
 mkdir($source_dirs{cache});
-mkdir($source_dirs{cache_load_verses_from_pg1581});
-mkdir($source_dirs{cache_overlay_TAN_match_of_drbo_or_pg1581});
 
 
 my %programs = (
@@ -64,11 +73,11 @@ my $choices = {};
 my @books = book_list($book_order_file, qw( OT NT ));
 
 
+
 for my $book_id (@books) {
     next unless book_has_red_letters($book_id);
 
     say '#'x70;
-    #say "# $book_id";
 
     my $pg1581 = read_source_book($pg1581_dir, $book_id);
     my $drbo   = read_source_book($drbo_dir, $book_id);
@@ -84,36 +93,20 @@ for my $book_id (@books) {
         intro => {},
     };
 
-    load_book_info_from_pg1581($book, $pg1581);
+    my $step_index=0;
+    for my $step (@steps) {
+        $step_index++;
+        next if $step =~ /^#/;
 
+        say "#### Step $step_index -- $step";
 
-    say "=== load_chap_intro_from_pg1581";
-    for my $c_index (@chapter_list) {
-        load_chap_intro_from_pg1581($book, $pg1581, $c_index);
+        no strict 'refs';
+        my $subroutine = "step_$step";
+        &$subroutine($book, $book_id, \%source_dirs, $pg1581, $drbo);
+
+        write_step_cache_file($source_dirs{cache}, $step_index, $step, $book_id, $book);
     }
 
-
-    say "=== load_verses_from_pg1581";
-    for my $c_index (@chapter_list) {
-        load_verses_from_pg1581($book, $pg1581, $c_index);
-    }
-    YAML::DumpFile("$source_dirs{cache_load_verses_from_pg1581}/$book_id.yaml", $book);
-
-
-    say "=== overlay_TAN_match_of_drbo_or_pg1581";
-    for my $c_index (@chapter_list) {
-        overlay_TAN_match_of_drbo_or_pg1581($book, $c_index, $drbo, $pg1581);
-    }
-    YAML::DumpFile("$source_dirs{cache_overlay_TAN_match_of_drbo_or_pg1581}/$book_id.yaml", $book);
-
-
-
-    #build_chapters($book, $drbo_dir, $pg1581_dir, $book_id);
-    #$book->{intro} = fetch_book_field($pg1581_dir, $book_id, 'book_intro');
-    #$book->{titles} = get_titles(\%source_dirs, $book_id);
-
-    say "Writing: $out_file";
-    YAML::DumpFile($out_file, $book);
 }
 
 say "Reenable CP";
@@ -129,23 +122,33 @@ sub book_yaml_file {
     "$dir/$book_id.yaml";
 }
 
-sub load_book_info_from_pg1581 {
-    my ($book, $pg1581) = @_;
+sub step_load_intros_from_pg1581 {
+    my ($book, $book_id, $source_dirs, $pg1581, $drbo) = @_;
+    my @chapter_list = (combined_keys($drbo->{chapters}, $pg1581->{chapters}));
 
     $book->{intro} = $pg1581->{book_intro};
-}
 
-
-sub load_verses_from_pg1581 {
-    my ($book, $pg1581, $c_index) = @_;
-
-    #   say "=== load_verses_from_pg1581";
-
-    my $chap = $pg1581->{chapters}->{$c_index};
-    for my $v_index (sort keys %{$chap->{verses}}) {
-        $book->{chapters}->{$c_index}->{verses}->{$v_index} = $chap->{verses}->{$v_index};
+    for my $c_index (@chapter_list) {
+        load_chap_intro_from_pg1581($book, $pg1581, $c_index);
     }
+
+    $book;
 }
+
+sub step_load_verses_from_pg1581 {
+    my ($book, $book_id, $source_dirs, $pg1581, $drbo) = @_;
+    my @chapter_list = (combined_keys($drbo->{chapters}, $pg1581->{chapters}));
+
+    for my $c_index (@chapter_list) {
+        my $chap = $pg1581->{chapters}->{$c_index};
+        for my $v_index (sort keys %{$chap->{verses}}) {
+            $book->{chapters}->{$c_index}->{verses}->{$v_index} = $chap->{verses}->{$v_index};
+        }
+    }
+
+    $book;
+}
+
 
 sub load_chap_intro_from_pg1581 {
     # load_chap_intro_from_pg1581";
@@ -155,7 +158,111 @@ sub load_chap_intro_from_pg1581 {
     $book->{chapters}->{$c_index}->{intro} = $chap->{intro};
 }
 
-sub overlay_TAN_match_of_drbo_or_pg1581 {
+
+sub step_overlay_tan_matches_from_drbo_pg1581_diffs {
+    my ($book, $book_id, $source_dirs, $pg1581, $drbo) = @_;
+    my @chapter_list = (combined_keys($drbo->{chapters}, $pg1581->{chapters}));
+
+    for my $c_index (@chapter_list) {
+       chapter_overlay_TAN_match_of_drbo_or_pg1581($book, $c_index, $drbo, $pg1581);
+    }
+
+    $book;
+}
+
+sub is_num {
+    $_[0] =~ /^\d/;
+}
+
+sub step_overlay_manual_edits {
+    my ($book, $book_id, $source_dirs, $pg1581, $drbo) = @_;
+    my @chapter_list = (combined_keys($drbo->{chapters}, $pg1581->{chapters}));
+    my $file = $source_dirs->{'overlay_manual_edits.psv'};
+    my $line_num = 0;
+    for my $line (read_file($file)) {
+        $line_num++;
+        $line =~ s/#.*$//;
+        trim($line);
+        next unless $line =~ /\S/;
+
+        if (my ($who, $from, $to) = split(/\s*\|\s*/, $line)) {
+            my ($b, $c, $v) = split(/:/, $who);
+            next if $b ne $book_id;
+            if ($c eq 'Intro') {
+            } elsif ($v eq 'Intro') {
+            } elsif (is_num($c) && is_num($v)) {
+                say "---> $line";
+                my $choices = {
+                    b=>$b, c=>$c, v=>$v, tag=>bcv2tag($b,$c,$v), index=>0,
+                    letters => {'B'=>$from, 'M'=>$to}
+                };
+                replace_verse_with_choice($book, $choices, $b, $c, $v, 'M');
+            } else {
+                die "ODD_LINE: ${file}[$line_num]: $line\n";
+            }
+        } else {
+            die "ODD_LINE: ${file}[$line_num]: $line\n";
+        }
+
+
+    }
+    $book;
+}
+
+sub step_overlay_italics {
+    my ($book, $book_id, $source_dirs, $pg1581, $drbo) = @_;
+    my @chapter_list = (combined_keys($drbo->{chapters}, $pg1581->{chapters}));
+    my $dir = $source_dirs->{'overlay_italics_d'};
+    my $file = "$dir/$book_id";
+
+    if (! -f $file) {
+        say "  skip -- no such file: $file";
+        return;
+    }
+    my $line_num = 0;
+    for my $line (read_file($file)) {
+        $line_num++;
+        $line =~ s/#.*$//;
+        trim($line);
+        next unless $line =~ /\S/;
+        if ($line =~ /^0*([1-9]\d*):0*([1-9]\d*)\s+(\S.*)$/) {
+            my ($c, $v, $string) = ($1, $2, $3);
+            my ($from_regex, $to) = ('', '');
+            if ($string eq '*') {
+                $from_regex = '^()(.*)()$';
+                $to = '<i>$1</i>';
+            } elsif ($string =~ s/(.+)<(.+)\*$//) {
+                $from_regex = "($1)($2.+)()\$";
+                $to = '$1<i>$2</i>' 
+            } elsif ($string =~ s/^\*(.+)>(.+)//) {
+                $from_regex = "^()(.+$1)($2)";
+                $to = '<i>$1</i>$2';
+            } elsif ($string =~ s/^\^(\S+)>(.+)//) {
+                $from_regex = "^()($1)($2)";
+                $to = '<i>$1</i>$2';
+            } elsif ($string =~ m/^(.*)<(.+)>(.*)$/) {
+                #$from_regex = "($1)($2)($3)";
+                my ($pre, $match, $post) = ($1, $2, $3);
+                $match =~ s/ \* / .+ /;
+                $from_regex = "($pre)($match)($post)";
+                $to = '$1<i>$2</i>$3';
+            } else {
+                say "!!!! $book_id | $line";
+            }
+            #say ">>> $line | $from_regex | $to |";
+            replace_verse_with_regex({mode=>'italics'}, $book, $book_id,$c,$v, $from_regex, $to);
+        } elsif ( $line =~ /^__[A-Z]+__/) {
+            1;
+        } else {
+            die "ODD LINE: $file\[$line_num\]: $line\n";
+        }
+
+        # TODO:
+    }
+}
+
+##########################################################################################
+sub chapter_overlay_TAN_match_of_drbo_or_pg1581 {
     my ($book, $c_index, $drbo, $pg1581) = @_;
 
     #say "=== overlay_TAN_match_of_drbo_or_pg158";
@@ -217,15 +324,15 @@ sub overlay_TAN_match_of_drbo_or_pg1581 {
 
                     if ($letter eq 'A') {
                         #confirm_match($book, $choices, $b, $c, $v, $index, $tag,  'A');
-                        replace_with($book, $choices, $b, $c, $v, 'A');
+                        replace_verse_with_choice($book, $choices, $b, $c, $v, 'A');
                     } elsif ($letter eq 'B') {
                         #confirm_match($book, $choices, $b, $c, $v, $index, $tag,  'B');
                     } elsif ($letter eq 'C') {
                         #say "IS C:  $tag";
-                        replace_with($book, $choices, $b, $c, $v, 'C');
+                        replace_verse_with_choice($book, $choices, $b, $c, $v, 'C');
                         #say Dumper($choices);
                     } elsif ($letter eq 'D') {
-                        #replace_with('D');
+                        #replace_verse_with_choice('D');
                         #say Dumper($choices);
                     } elsif ($letter eq 'Z') {
                         #say Dumper($choices);
@@ -252,11 +359,6 @@ sub bcv2tag {
     sprintf("%s:%02d:%02d", $book_id, $c, $v);
 }
 
-sub OLD_bcv_tag {
-    my ($b,$c,$v) = @_;
-
-    sprintf("%3s:%d:%d", $b, $c, $v);
-}
 
 sub check_match_drbo_or_pg1581 {
     my ($book_id) = @_;
@@ -335,47 +437,82 @@ sub match_count {
     $count;
 }
 
+sub match_count_raw_regex {
+    my ($regex, $string) = @_;
+
+    #$regex = regex_safe($regex);
+
+    #$regex =~ tr/\(\)//d;
+
+
+    my $count = () = $string =~ m{$regex}g;
+    ##say "MCRR| $regex | $string | $count |";
+
+    #say "MATCH_COUNT_RAW_REGEX | $regex | $string | $count |";
+    $count;
+}
+
+
 sub confirm_match {
     my ($letter) = @_;
 
 }
 
 
-sub  replace_with {
-    my ($book, $choices, $b, $c, $v, $letter) = @_;
+sub rg_sub_string {
+    my ($args, $from_regex, $to, $string, $label) = @_;
+    my $match_count = 0;
+
+    $to =~ s/^\^//;
+    $to =~ s/\$$//;
+
+    # my $match_count = match_count($from_regex, $string);
+    # die "$label REPLACE: MULTI_MATCH | $from_regex | $string |\n" if $match_count > 1;
+    # say "$label REPLACE: NO_MATCH | $from_regex | $string |\n" if $match_count != 1;
+
+    if (defined($args->{mode}) && $args->{mode} eq 'italics') {
+        #$from_regex =~ s/\?/\\?/;
+        my $match_regex = $from_regex;
+        $match_regex =~ tr/\(\)//d;
+        $match_count = match_count_raw_regex($match_regex, $string);
+    } else {
+        $from_regex = regex_safe($from_regex);
+        $match_count = match_count_raw_regex($from_regex, $string);
+    }
+
+    say "$label REPLACE: MULTI_MATCH | $from_regex | $string |\n" if $match_count > 1;
+    say "$label REPLACE: NO_MATCH | $from_regex | $string |\n" if $match_count != 1;
+
+    if (defined($args->{mode}) && $args->{mode} eq 'italics') {
+        $string =~ s{$from_regex}{$1<i>$2</i>$3};
+    } else {
+        $string =~ s{$from_regex}{$to};
+    }
+    $string =~ s/\s+$//;
+
+    $string;
+}
+
+
+sub replace_verse_with_regex {
+    my ($args, $book, $b,$c,$v, $from_regex, $to) = @_;
     my $c_index = sprintf("c:%03d", $c);
     my $v_index = sprintf("v:%03d", $v);
     my @entry = split(/\s*\|\s*/, $book->{chapters}->{$c_index}->{verses}->{$v_index});
     my $tag = bcv2tag($b, $c, $v);
 
+    $entry[3] = rg_sub_string($args, $from_regex, $to, $entry[3], $tag);
+    $book->{chapters}->{$c_index}->{verses}->{$v_index} = join(' | ', @entry);
+}
+
+
+sub replace_verse_with_choice {
+    my ($book, $choices, $b, $c, $v, $letter) = @_;
+
     my $to = $choices->{letters}->{$letter};
     my $from_regex = $choices->{letters}->{B};
 
-    my $pre = $entry[3];
-
-    #return if $from_regex !~ /:/;
-
-    
-
-    $to =~ s/^\^//;
-    $to =~ s/\$$//;
-    
-    my $string = $entry[3];
-    my $match_count = match_count($from_regex, $string);
-    die "$tag REPLACE: MULTI_MATCH | $from_regex | $string |\n" if $match_count > 1;
-    say "$tag REPLACE: NO_MATCH | $from_regex | $string |\n" if $match_count != 1;
-
-    #$entry[3] =~ s/
-    #say "REGEX: $tag - $from_regex -> $to";
-    
-    $from_regex = regex_safe($from_regex);
-    $string =~ s{$from_regex}{$to};
-    $string =~ s/\s+$//;
-    $entry[3] = $string;
-
-    $book->{chapters}->{$c_index}->{verses}->{$v_index} = join(' | ', @entry);
-    my $post = $entry[3];
-    #die "REPLACE: NO_CHANGE | $from_regex | $entry[3]\n" if $pre ne $post;
+    replace_verse_with_regex({}, $book, $b,$c,$v, $from_regex, $to);
 
 }
 
@@ -546,11 +683,18 @@ sub apply_redletters {
 sub book_has_red_letters {
     my ($book_id) = @_;
     grep(/^$book_id$/, (qw( 
-        MAT MRK LUK JHN ACT 1CO 2CO REV 
+        MAT MRK LUK JHN ACT 
+        1CO 2CO REV 
         1JN 1PE 1TH 1TI 2JN 2PE 2TH 2TI 3JN
         COL EPH GAL HEB JAS JUD PHM PHP ROM TIT
         GEN DEU
     )));
+        
+    #     1CO 2CO REV 
+    #     1JN 1PE 1TH 1TI 2JN 2PE 2TH 2TI 3JN
+    #     COL EPH GAL HEB JAS JUD PHM PHP ROM TIT
+    #     GEN DEU
+    # )));
 }
 
 sub choose_display_v {
@@ -763,3 +907,17 @@ sub put_verse_into_choices {
 
     $choices->{letters}->{$letter} = $string;
 }
+
+
+
+
+sub write_step_cache_file {
+    my ($caches_dir, $step_index, $step, $book_id, $book) = @_;
+    my $cache_dir = sprintf("%s/step_%02d_-_%s", $caches_dir, $step_index, $step);
+    my $cache_file = "$cache_dir/$book_id.yaml";
+
+    mkdir($cache_dir);
+    YAML::DumpFile($cache_file, $book);
+}
+
+

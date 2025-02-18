@@ -1,3 +1,1901 @@
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
+$VAR1 = {
+          'title' => 'Split/Diffs',
+          'name' => 'split_diffs'
+        };
+
+$VAR1 = {
+          'title' => 'Which/Matches/1971-TAN',
+          'name' => 'determine_matches'
+        };
+
+$VAR1 = {
+          'name' => 'apply_italics',
+          'title' => 'Apply/italics'
+        };
+
+$VAR1 = {
+          'name' => 'apply_vscodes',
+          'title' => 'Apply/format/Codes'
+        };
+
+$VAR1 = {
+          'title' => 'Apply/Red/Codes',
+          'only' => 'red_letter_books',
+          'name' => 'apply_red'
+        };
+
 
 Project Status
 ==============
@@ -8,11 +1906,11 @@ Project Status
 ## Gospel and other Red-Letter books
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>italics | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | :---: | 
-| MAT | 2286 | 159 | 657 | 27 | 627 | DONE | DONE |  | WIP | WIP |
-| MRK | 1810 | 171 | 588 | 6 | 286 | DONE | DONE |  | WIP |  |
-| LUK | 4145 | 421 | 1345 | 27 | 586 | DONE | DONE |  |  |  |
-| JHN | 3207 | 322 | 1060 | 22 | 421 | DONE | DONE |  |  |  |
-| ACT | 3332 | 411 | 1227 | 29 | 27 | DONE | DONE |  |  |  |
+| MAT | 2286 | 159 | 657 | 27 | 627 | DONE | DONE | 2ND | WIP | WIP |
+| MRK | 1810 | 171 | 588 | 6 | 286 | DONE | DONE | 1ST | WIP |  |
+| LUK | 4145 | 421 | 1345 | 27 | 586 | DONE | DONE | 1ST |  |  |
+| JHN | 3207 | 322 | 1060 | 22 | 421 | DONE | DONE | 1ST |  |  |
+| ACT | 3332 | 411 | 1227 | 29 | 27 | DONE | DONE | WIP |  |  |
 | 1CO | 1353 | 169 | 506 | 1 | 2 | DONE | DONE |  |  |  |
 | 2CO | 805 | 100 | 300 | 4 | 1 | DONE | DONE |  |  |  |
 | REV | 2381 | 378 | 779 | 0 | 67 | DONE | DONE |  |  |  |
