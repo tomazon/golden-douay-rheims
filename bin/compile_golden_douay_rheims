@@ -251,7 +251,7 @@ sub step_overlay_italics {
             }
             #say ">>> $line | $from_regex | $to |";
             replace_verse_with_regex({mode=>'italics'}, $book, $book_id,$c,$v, $from_regex, $to);
-        } elsif ( $line =~ /^__[A-Z]+__/) {
+        } elsif ( $line =~ /^__[1-3]?[A-Z]+__/) {
             1;
         } else {
             die "ODD LINE: $file\[$line_num\]: $line\n";

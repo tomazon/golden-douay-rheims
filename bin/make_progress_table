@@ -100,7 +100,7 @@ sub table {
             next if $name eq 'book_id';
             # if (defined(my $s = $status->{$name})) {
             #     push(@cols, $s);
-            say Dumper($field);
+            #say Dumper($field);
             if ($field->{name} eq 'apply_italics') {
                 my $file = "./etc/overlay_italics/$book_id";
                 if (-f $file) {
