@@ -1,0 +1,325 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Latin Vulgate Bible – Biblia Sacra Vulgata</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+	};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Vulgate</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=2&book_no=7&chapter_no=7" class="menu-item active">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=2&book_no=7&chapter_no=7" class="menu-item ">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=2&book_no=7&chapter_no=7" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=2&book_no=7&chapter_no=7" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">1 Corinthios</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/vulgate/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/vulgate/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Mt">Matthæum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Mc">Marcum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Lc">Lucam</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Jo">Joannem</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Act">Actus Apostolorum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Rom">Romanos</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/vulgate/NT/1Cor">1 Corinthios</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/2Cor">2 Corinthios</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Gal">Galatas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Eph">Ephesios</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Phlp">Philippenses</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Col">Colossenses</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/1Thes">1 Thessalonicenses</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/2Thes">2 Thessalonicenses</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/1Tim">1 Timotheum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/2Tim">2 Timotheum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Tit">Titum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Phlm">Philemonem</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Hbr">Hebræos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Jac">Jacobi</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/1Ptr">1 Petri</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/2Ptr">2 Petri</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/1Jo">1 Joannis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/2Jo">2 Joannis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/3Jo">3 Joannis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Jud">Judæ</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Apc">Apocalypsis</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/vulgate/NT/1Cor/698?vers_inline=0"><img src="https://catholicbible.online/assets/img/verses.jpg" alt="" /></a>									</div>
+				<div class="bible-name">Biblia Sacra Vulgata</div>
+				<div class="book-name">Epistola B. Pauli Apostoli ad Corinthios Prima </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/vulgate/NT/1Cor/697">&lt; prev</a></div>|
+					<div class="chapter">Capitulum 7</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/vulgate/NT/1Cor/699">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/vulgate/NT/1Cor/ch_1">1</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_2">2</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_3">3</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_4">4</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_5">5</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_6">6</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_7" class="active">7</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_8">8</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_9">9</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_10">10</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_11">11</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_12">12</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_13">13</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_14">14</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_15">15</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_16">16</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers19829" class="vers vers-inline">
+												<div class="vers-no">1</div>
+						<div class="vers-content">De quibus autem scripsistis mihi: Bonum est homini mulierem non tangere:</div>
+					</div>
+									<div id="vers19830" class="vers vers-inline">
+												<div class="vers-no">2</div>
+						<div class="vers-content">propter fornicationem autem unusquisque suam uxorem habeat, et unaquæque suum virum habeat.</div>
+					</div>
+									<div id="vers19831" class="vers vers-inline">
+												<div class="vers-no">3</div>
+						<div class="vers-content">Uxori vir debitum reddat: similiter autem et uxor viro.</div>
+					</div>
+									<div id="vers19832" class="vers vers-inline">
+												<div class="vers-no">4</div>
+						<div class="vers-content">Mulier sui corporis potestatem non habet, sed vir. Similiter autem et vir sui corporis potestatem non habet, sed mulier.</div>
+					</div>
+									<div id="vers19833" class="vers vers-inline">
+												<div class="vers-no">5</div>
+						<div class="vers-content">Nolite fraudare invicem, nisi forte ex consensu ad tempus, ut vacetis orationi: et iterum revertimini in idipsum, ne tentet vos Satanas propter incontinentiam vestram.</div>
+					</div>
+									<div id="vers19834" class="vers vers-inline">
+												<div class="vers-no">6</div>
+						<div class="vers-content">Hoc autem dico secundum indulgentiam, non secundum imperium.</div>
+					</div>
+									<div id="vers19835" class="vers vers-inline">
+												<div class="vers-no">7</div>
+						<div class="vers-content">Volo enim omnes vos esse sicut meipsum: sed unusquisque proprium donum habet ex Deo: alius quidem sic, alius vero sic.</div>
+					</div>
+									<div id="vers19836" class="vers vers-inline">
+												<div class="vers-no">8</div>
+						<div class="vers-content">Dico autem non nuptis, et viduis: bonum est illis si sic permaneant, sicut et ego.</div>
+					</div>
+									<div id="vers19837" class="vers vers-inline">
+												<div class="vers-no">9</div>
+						<div class="vers-content">Quod si non se continent, nubant. Melius est enim nubere, quam uri.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers19838" class="vers vers-inline">
+												<div class="vers-no">10</div>
+						<div class="vers-content">Iis autem qui matrimonio juncti sunt, præcipio non ego, sed Dominus, uxorem a viro non discedere:</div>
+					</div>
+									<div id="vers19839" class="vers vers-inline">
+												<div class="vers-no">11</div>
+						<div class="vers-content">quod si discesserit, manere innuptam, aut viro suo reconciliari. Et vir uxorem non dimittat.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers19840" class="vers vers-inline">
+												<div class="vers-no">12</div>
+						<div class="vers-content">Nam ceteris ego dico, non Dominus. Si quis frater uxorem habet infidelem, et hæc consentit habitare cum illo, non dimittat illam.</div>
+					</div>
+									<div id="vers19841" class="vers vers-inline">
+												<div class="vers-no">13</div>
+						<div class="vers-content">Et si qua mulier fidelis habet virum infidelem, et hic consentit habitare cum illa, non dimittat virum:</div>
+					</div>
+									<div id="vers19842" class="vers vers-inline">
+												<div class="vers-no">14</div>
+						<div class="vers-content">sanctificatus est enim vir infidelis per mulierem fidelem, et sanctificata est mulier infidelis per virum fidelem: alioquin filii vestri immundi essent, nunc autem sancti sunt.</div>
+					</div>
+									<div id="vers19843" class="vers vers-inline">
+												<div class="vers-no">15</div>
+						<div class="vers-content">Quod si infidelis discedit, discedat: non enim servituti subjectus est frater, aut soror in hujusmodi: in pace autem vocavit nos Deus.</div>
+					</div>
+									<div id="vers19844" class="vers vers-inline">
+												<div class="vers-no">16</div>
+						<div class="vers-content">Unde enim scis mulier, si virum salvum facies? aut unde scis vir, si mulierem salvam facies?<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers19845" class="vers vers-inline">
+												<div class="vers-no">17</div>
+						<div class="vers-content">Nisi unicuique sicut divisit Dominus, unumquemque sicut vocavit Deus, ita ambulet, et sicut in omnibus ecclesiis doceo.</div>
+					</div>
+									<div id="vers19846" class="vers vers-inline">
+												<div class="vers-no">18</div>
+						<div class="vers-content">Circumcisus aliquis vocatus est? non adducat præputium. In præputio aliquis vocatus est? non circumcidatur.</div>
+					</div>
+									<div id="vers19847" class="vers vers-inline">
+												<div class="vers-no">19</div>
+						<div class="vers-content">Circumcisio nihil est, et præputium nihil est: sed observatio mandatorum Dei.</div>
+					</div>
+									<div id="vers19848" class="vers vers-inline">
+												<div class="vers-no">20</div>
+						<div class="vers-content">Unusquisque in qua vocatione vocatus est, in ea permaneat.</div>
+					</div>
+									<div id="vers19849" class="vers vers-inline">
+												<div class="vers-no">21</div>
+						<div class="vers-content">Servus vocatus es? non sit tibi curæ: sed et si potes fieri liber, magis utere.</div>
+					</div>
+									<div id="vers19850" class="vers vers-inline">
+												<div class="vers-no">22</div>
+						<div class="vers-content">Qui enim in Domino vocatus est servus, libertus est Domini: similiter qui liber vocatus est, servus est Christi.</div>
+					</div>
+									<div id="vers19851" class="vers vers-inline">
+												<div class="vers-no">23</div>
+						<div class="vers-content">Pretio empti estis: nolite fieri servi hominum.</div>
+					</div>
+									<div id="vers19852" class="vers vers-inline">
+												<div class="vers-no">24</div>
+						<div class="vers-content">Unusquisque in quo vocatus est, fratres, in hoc permaneat apud Deum.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers19853" class="vers vers-inline">
+												<div class="vers-no">25</div>
+						<div class="vers-content">De virginibus autem præceptum Domini non habeo: consilium autem do, tamquam misericordiam consecutus a Domino, ut sim fidelis.</div>
+					</div>
+									<div id="vers19854" class="vers vers-inline">
+												<div class="vers-no">26</div>
+						<div class="vers-content">Existimo ergo hoc bonum esse propter instantem necessitatem, quoniam bonum est homini sic esse.</div>
+					</div>
+									<div id="vers19855" class="vers vers-inline">
+												<div class="vers-no">27</div>
+						<div class="vers-content">Alligatus es uxori? noli quærere solutionem. Solutus es ab uxore? noli quærere uxorem.</div>
+					</div>
+									<div id="vers19856" class="vers vers-inline">
+												<div class="vers-no">28</div>
+						<div class="vers-content">Si autem acceperis uxorem, non peccasti. Et si nupserit virgo, non peccavit: tribulationem tamen carnis habebunt hujusmodi. Ego autem vobis parco.</div>
+					</div>
+									<div id="vers19857" class="vers vers-inline">
+												<div class="vers-no">29</div>
+						<div class="vers-content">Hoc itaque dico, fratres: tempus breve est: reliquum est, ut et qui habent uxores, tamquam non habentes sint:</div>
+					</div>
+									<div id="vers19858" class="vers vers-inline">
+												<div class="vers-no">30</div>
+						<div class="vers-content">et qui flent, tamquam non flentes: et qui gaudent, tamquam non gaudentes: et qui emunt, tamquam non possidentes:</div>
+					</div>
+									<div id="vers19859" class="vers vers-inline">
+												<div class="vers-no">31</div>
+						<div class="vers-content">et qui utuntur hoc mundo, tamquam non utantur: præterit enim figura hujus mundi.</div>
+					</div>
+									<div id="vers19860" class="vers vers-inline">
+												<div class="vers-no">32</div>
+						<div class="vers-content">Volo autem vos sine sollicitudine esse. Qui sine uxore est, sollicitus est quæ Domini sunt, quomodo placeat Deo.</div>
+					</div>
+									<div id="vers19861" class="vers vers-inline">
+												<div class="vers-no">33</div>
+						<div class="vers-content">Qui autem cum uxore est, sollicitus est quæ sunt mundi, quomodo placeat uxori, et divisus est.</div>
+					</div>
+									<div id="vers19862" class="vers vers-inline">
+												<div class="vers-no">34</div>
+						<div class="vers-content">Et mulier innupta, et virgo, cogitat quæ Domini sunt, ut sit sancta corpore, et spiritu. Quæ autem nupta est, cogitat quæ sunt mundi, quomodo placeat viro.</div>
+					</div>
+									<div id="vers19863" class="vers vers-inline">
+												<div class="vers-no">35</div>
+						<div class="vers-content">Porro hoc ad utilitatem vestram dico: non ut laqueum vobis injiciam, sed ad id, quod honestum est, et quod facultatem præbeat sine impedimento Dominum obsecrandi.</div>
+					</div>
+									<div id="vers19864" class="vers vers-inline">
+												<div class="vers-no">36</div>
+						<div class="vers-content">Si quis autem turpem se videri existimat super virgine sua, quod sit superadulta, et ita oportet fieri: quod vult faciat: non peccat, si nubat.</div>
+					</div>
+									<div id="vers19865" class="vers vers-inline">
+												<div class="vers-no">37</div>
+						<div class="vers-content">Nam qui statuit in corde suo firmus, non habens necessitatem, potestatem autem habens suæ voluntatis, et hoc judicavit in corde suo, servare virginem suam, bene facit.</div>
+					</div>
+									<div id="vers19866" class="vers vers-inline">
+												<div class="vers-no">38</div>
+						<div class="vers-content">Igitur et qui matrimonio jungit virginem suam, bene facit: et qui non jungit, melius facit.</div>
+					</div>
+									<div id="vers19867" class="vers vers-inline">
+												<div class="vers-no">39</div>
+						<div class="vers-content">Mulier alligata est legi quanto tempore vir ejus vivit, quod si dormierit vir ejus, liberata est: cui vult nubat, tantum in Domino.</div>
+					</div>
+									<div id="vers19868" class="vers vers-inline">
+												<div class="vers-no">40</div>
+						<div class="vers-content">Beatior autem erit si sic permanserit secundum meum consilium: puto autem quod et ego Spiritum Dei habeam.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/vulgate/NT/1Cor/ch_6">&lt; prev</a></div>|
+					<div class="chapter">Capitulum 7</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/vulgate/NT/1Cor/ch_8">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/vulgate/NT/1Cor/ch_1">1</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_2">2</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_3">3</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_4">4</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_5">5</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_6">6</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_7" class="active">7</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_8">8</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_9">9</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_10">10</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_11">11</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_12">12</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_13">13</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_14">14</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_15">15</a> <a href="https://catholicbible.online/vulgate/NT/1Cor/ch_16">16</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="144" height="220" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br />
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-clementina-vulgata.html" class="btn">SHOP NOW</a> </p>
+</div>
+</div>
+<script>
+	var openAllComments = 1;
+</script>		<div class="copyright">2015 - 2024 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/vulgate/NT/1Cor/ch_7"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>HASH(0x12680c020)

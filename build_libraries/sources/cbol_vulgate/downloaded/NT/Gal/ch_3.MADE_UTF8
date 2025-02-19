@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Latin Vulgate Bible – Biblia Sacra Vulgata</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+	};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Vulgate</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=2&book_no=9&chapter_no=3" class="menu-item active">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=2&book_no=9&chapter_no=3" class="menu-item ">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=2&book_no=9&chapter_no=3" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=2&book_no=9&chapter_no=3" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Galatas</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/vulgate/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/vulgate/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Mt">Matthæum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Mc">Marcum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Lc">Lucam</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Jo">Joannem</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Act">Actus Apostolorum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Rom">Romanos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/1Cor">1 Corinthios</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/2Cor">2 Corinthios</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/vulgate/NT/Gal">Galatas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Eph">Ephesios</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Phlp">Philippenses</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Col">Colossenses</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/1Thes">1 Thessalonicenses</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/2Thes">2 Thessalonicenses</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/1Tim">1 Timotheum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/2Tim">2 Timotheum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Tit">Titum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Phlm">Philemonem</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Hbr">Hebræos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Jac">Jacobi</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/1Ptr">1 Petri</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/2Ptr">2 Petri</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/1Jo">1 Joannis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/2Jo">2 Joannis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/3Jo">3 Joannis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Jud">Judæ</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/NT/Apc">Apocalypsis</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/vulgate/NT/Gal/2010?vers_inline=0"><img src="https://catholicbible.online/assets/img/verses.jpg" alt="" /></a>									</div>
+				<div class="bible-name">Biblia Sacra Vulgata</div>
+				<div class="book-name">Epistola B. Pauli Apostoli ad Galatas </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/vulgate/NT/Gal/2009">&lt; prev</a></div>|
+					<div class="chapter">Capitulum 3</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/vulgate/NT/Gal/2011">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/vulgate/NT/Gal/ch_1">1</a> <a href="https://catholicbible.online/vulgate/NT/Gal/ch_2">2</a> <a href="https://catholicbible.online/vulgate/NT/Gal/ch_3" class="active">3</a> <a href="https://catholicbible.online/vulgate/NT/Gal/ch_4">4</a> <a href="https://catholicbible.online/vulgate/NT/Gal/ch_5">5</a> <a href="https://catholicbible.online/vulgate/NT/Gal/ch_6">6</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers57459" class="vers vers-inline">
+												<div class="vers-no">1</div>
+						<div class="vers-content">O insensati Galatæ, quis vos fascinavit non obedire veritati, ante quorum oculos Jesus Christus præscriptus est, in vobis crucifixus?</div>
+					</div>
+									<div id="vers57460" class="vers vers-inline">
+												<div class="vers-no">2</div>
+						<div class="vers-content">Hoc solum a vobis volo discere: ex operibus legis Spiritum accepistis, an ex auditu fidei?</div>
+					</div>
+									<div id="vers57461" class="vers vers-inline">
+												<div class="vers-no">3</div>
+						<div class="vers-content">sic stulti estis, ut cum Spiritu cœperitis, nunc carne consummemini?</div>
+					</div>
+									<div id="vers57462" class="vers vers-inline">
+												<div class="vers-no">4</div>
+						<div class="vers-content">tanta passi estis sine causa? si tamen sine causa.</div>
+					</div>
+									<div id="vers57463" class="vers vers-inline">
+												<div class="vers-no">5</div>
+						<div class="vers-content">Qui ergo tribuit vobis Spiritum, et operatur virtutes in vobis: ex operibus legis, an ex auditu fidei?<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers57464" class="vers vers-inline">
+												<div class="vers-no">6</div>
+						<div class="vers-content">Sicut scriptum est: Abraham credidit Deo, et reputatum est illi ad justitiam:</div>
+					</div>
+									<div id="vers57465" class="vers vers-inline">
+												<div class="vers-no">7</div>
+						<div class="vers-content">cognoscite ergo quia qui ex fide sunt, ii sunt filii Abrahæ.</div>
+					</div>
+									<div id="vers57466" class="vers vers-inline">
+												<div class="vers-no">8</div>
+						<div class="vers-content">Providens autem Scriptura quia ex fide justificat gentes Deus, prænuntiavit Abrahæ: Quia benedicentur in te omnes gentes.</div>
+					</div>
+									<div id="vers57467" class="vers vers-inline">
+												<div class="vers-no">9</div>
+						<div class="vers-content">Igitur qui ex fide sunt, benedicentur cum fideli Abraham.</div>
+					</div>
+									<div id="vers57468" class="vers vers-inline">
+												<div class="vers-no">10</div>
+						<div class="vers-content">Quicumque enim ex operibus legis sunt, sub maledicto sunt. Scriptum est enim: Maledictus omnis qui non permanserit in omnibus quæ scripta sunt in libro legis ut faciat ea.</div>
+					</div>
+									<div id="vers57469" class="vers vers-inline">
+												<div class="vers-no">11</div>
+						<div class="vers-content">Quoniam autem in lege nemo justificatur apud Deum, manifestum est: quia justus ex fide vivit.</div>
+					</div>
+									<div id="vers57470" class="vers vers-inline">
+												<div class="vers-no">12</div>
+						<div class="vers-content">Lex autem non est ex fide, sed: Qui fecerit ea, vivet in illis.</div>
+					</div>
+									<div id="vers57471" class="vers vers-inline">
+												<div class="vers-no">13</div>
+						<div class="vers-content">Christus nos redemit de maledicto legis, factus pro nobis maledictum: quia scriptum est: Maledictus omnis qui pendet in ligno:</div>
+					</div>
+									<div id="vers57472" class="vers vers-inline">
+												<div class="vers-no">14</div>
+						<div class="vers-content">ut in gentibus benedictio Abrahæ fieret in Christo Jesu, ut pollicitationem Spiritus accipiamus per fidem.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers57473" class="vers vers-inline">
+												<div class="vers-no">15</div>
+						<div class="vers-content">Fratres (secundum hominem dico) tamen hominis confirmatum testamentum nemo spernit, aut superordinat.</div>
+					</div>
+									<div id="vers57474" class="vers vers-inline">
+												<div class="vers-no">16</div>
+						<div class="vers-content">Abrahæ dictæ sunt promissiones, et semini ejus. Non dicit: Et seminibus, quasi in multis: sed quasi in uno: Et semini tuo, qui est Christus.</div>
+					</div>
+									<div id="vers57475" class="vers vers-inline">
+												<div class="vers-no">17</div>
+						<div class="vers-content">Hoc autem dico, testamentum confirmatum a Deo: quæ post quadringentos et triginta annos facta est lex, non irritum facit ad evacuandam promissionem.</div>
+					</div>
+									<div id="vers57476" class="vers vers-inline">
+												<div class="vers-no">18</div>
+						<div class="vers-content">Nam si ex lege hæreditas, jam non ex promissione. Abrahæ autem per repromissionem donavit Deus.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers57477" class="vers vers-inline">
+												<div class="vers-no">19</div>
+						<div class="vers-content">Quid igitur lex? Propter transgressiones posita est donec veniret semen, cui promiserat, ordinata per angelos in manu mediatoris.</div>
+					</div>
+									<div id="vers57478" class="vers vers-inline">
+												<div class="vers-no">20</div>
+						<div class="vers-content">Mediator autem unius non est: Deus autem unus est.</div>
+					</div>
+									<div id="vers57479" class="vers vers-inline">
+												<div class="vers-no">21</div>
+						<div class="vers-content">Lex ergo adversus promissa Dei? Absit. Si enim data esset lex, quæ posset vivificare, vere ex lege esset justitia.</div>
+					</div>
+									<div id="vers57480" class="vers vers-inline">
+												<div class="vers-no">22</div>
+						<div class="vers-content">Sed conclusit Scriptura omnia sub peccato, ut promissio ex fide Jesu Christi daretur credentibus.</div>
+					</div>
+									<div id="vers57481" class="vers vers-inline">
+												<div class="vers-no">23</div>
+						<div class="vers-content">Prius autem quam veniret fides, sub lege custodiebamur conclusi in eam fidem quæ revelanda erat.</div>
+					</div>
+									<div id="vers57482" class="vers vers-inline">
+												<div class="vers-no">24</div>
+						<div class="vers-content">Itaque lex pædagogus noster fuit in Christo, ut ex fide justificemur.</div>
+					</div>
+									<div id="vers57483" class="vers vers-inline">
+												<div class="vers-no">25</div>
+						<div class="vers-content">At ubi venit fides, jam non sumus sub pædagogo.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers57484" class="vers vers-inline">
+												<div class="vers-no">26</div>
+						<div class="vers-content">Omnes enim filii Dei estis per fidem, quæ est in Christo Jesu.</div>
+					</div>
+									<div id="vers57485" class="vers vers-inline">
+												<div class="vers-no">27</div>
+						<div class="vers-content">Quicumque enim in Christo baptizati estis, Christum induistis.</div>
+					</div>
+									<div id="vers57486" class="vers vers-inline">
+												<div class="vers-no">28</div>
+						<div class="vers-content">Non est Judæus, neque Græcus: non est servus, neque liber: non est masculus, neque femina. Omnes enim vos unum estis in Christo Jesu.</div>
+					</div>
+									<div id="vers57487" class="vers vers-inline">
+												<div class="vers-no">29</div>
+						<div class="vers-content">Si autem vos Christi, ergo semen Abrahæ estis, secundum promissionem hæredes.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/vulgate/NT/Gal/ch_2">&lt; prev</a></div>|
+					<div class="chapter">Capitulum 3</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/vulgate/NT/Gal/ch_4">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/vulgate/NT/Gal/ch_1">1</a> <a href="https://catholicbible.online/vulgate/NT/Gal/ch_2">2</a> <a href="https://catholicbible.online/vulgate/NT/Gal/ch_3" class="active">3</a> <a href="https://catholicbible.online/vulgate/NT/Gal/ch_4">4</a> <a href="https://catholicbible.online/vulgate/NT/Gal/ch_5">5</a> <a href="https://catholicbible.online/vulgate/NT/Gal/ch_6">6</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="144" height="220" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br />
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-clementina-vulgata.html" class="btn">SHOP NOW</a> </p>
+</div>
+</div>
+<script>
+	var openAllComments = 1;
+</script>		<div class="copyright">2015 - 2024 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/vulgate/NT/Gal/ch_3"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>HASH(0x12680c020)

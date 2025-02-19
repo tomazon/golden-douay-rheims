@@ -1,0 +1,489 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app219.us.archive.org';v.server_ms=347;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://catholicbible.online/douay_rheims/OT/Gen/ch_4","20210802211321","https://web.archive.org/","web","/_static/",
+	      "1627938801");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20210802211321cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20210802211321cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20210802211321cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20210802211321js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210802211321js_/http://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210802211321js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210802211321js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210802211321js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210802211321js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20210802211321/https%3A//catholicbible.online/douay_rheims/OT/Gen/ch_4"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="https://catholicbible.online/douay_rheims/OT/Gen/ch_4" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20210802211321" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20210802211321*/https://catholicbible.online/douay_rheims/OT/Gen/ch_4" title="See a list of every capture for this URL">16 captures</a>
+          <div class="r" title="Timespan for captures of this URL">13 Mar 2017 - 21 Oct 2021</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20200218175210/http://catholicbible.online:80/douay_rheims/OT/Gen/ch_4" title="18 Feb 2020"><strong>Feb</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 21:13:21 Aug 02, 2021">AUG</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20211021110736/http://catholicbible.online/douay_rheims/OT/Gen/ch_4" title="21 Oct 2021"><strong>Oct</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20200218175210/http://catholicbible.online:80/douay_rheims/OT/Gen/ch_4" title="17:52:10 Feb 18, 2020"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 21:13:21 Aug 02, 2021">02</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20211021110736/http://catholicbible.online/douay_rheims/OT/Gen/ch_4" title="11:07:36 Oct 21, 2021"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20200218175210/http://catholicbible.online:80/douay_rheims/OT/Gen/ch_4" title="18 Feb 2020"><strong>2020</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 21:13:21 Aug 02, 2021">2021</td>
+            <td class="f" nowrap="nowrap">2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20210802211321/http://web.archive.org/screenshot/https://catholicbible.online/douay_rheims/OT/Gen/ch_4"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20210802211321/https://catholicbible.online/douay_rheims/OT/Gen/ch_4" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20210802211321/https://catholicbible.online/douay_rheims/OT/Gen/ch_4" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20210802211321/https://catholicbible.online/douay_rheims/OT/Gen/ch_4</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","https://catholicbible.online/douay_rheims/OT/Gen/ch_4","20210802211321",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<script>
+	var comments={
+			3679: {
+				id_comment: 3679,
+				source_str: 'had respect',
+				caption: 'Had respect.',
+				content: "That is, shewed his acceptance of his sacrifice (as coming from a heart full of devotion): and that, as we may suppose, by some visible token, such as sending fire from heaven upon his offerings."
+			},
+					3680: {
+				id_comment: 3680,
+				source_str: 'every one, therefore, that findeth me, shall kill me',
+				caption: 'Every one, therefore, that findeth me, shall kill me.',
+				content: "His guilty conscience made him fear his own brothers and nephews; of whom, by this time, there might be a good number upon the earth; which had now endured near 130 years; as may be gathered from Gen. 5. 3, compared with chap. 4. 25, though in the compendious account given in the scriptures, only Cain and Abel are mentioned."
+			},
+					3681: {
+				id_comment: 3681,
+				source_str: 'set a mark',
+				caption: 'Set a mark &c.',
+				content: "The more common opinion of the interpreters of holy writ supposes this mark to have been a trembling of the body; or a horror and consternation in his countenance."
+			},
+					3682: {
+				id_comment: 3682,
+				source_str: 'his wife',
+				caption: 'His wife.',
+				content: "She was a daughter of Adam, and Cain’s own sister; God dispensing with such marriages in the beginning of the world, as mankind could not otherwise be propagated."
+			},
+					3683: {
+				id_comment: 3683,
+				source_str: 'he built a city',
+				caption: 'He built a city, ',
+				content: "viz., In process of time, when his race was multiplied, so as to be numerous enough to people it. For in the many hundred years he lived, his race might be multiplied even to millions."
+			},
+					3684: {
+				id_comment: 3684,
+				source_str: 'I have slain a man',
+				caption: 'I have slain a man, &c.',
+				content: "It is the tradition of the Hebrews, that Lamech in hunting slew Cain, mistaking him for a wild beast; and that having discovered what he had done, he beat so unmercifully the youth, by whom he was led into that mistake, that he died of the blows."
+			},
+					3685: {
+				id_comment: 3685,
+				source_str: 'began to call upon',
+				caption: 'Began to call upon, &c.',
+				content: "Not that Adam and Seth had not called upon God, before the birth of Enos; but that Enos used more solemnity in the worship and invocation of God."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=1&amp;chapter_no=4" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=1&amp;chapter_no=4" class="menu-item active">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=1&amp;chapter_no=4" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=1&amp;chapter_no=4" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20210802211321/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Genesis</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item active"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/9251?vers_inline=1"><img src="https://web.archive.org/web/20210802211321im_/http://catholicbible.online/assets/img/para.jpg" alt=""/></a>					<a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/9251?comments_open=1"><img src="https://web.archive.org/web/20210802211321im_/http://catholicbible.online/assets/img/C-off.gif" alt=""/></a>				</div>
+				<div class="bible-name">The Holy Bible – Douay‐Rheims version</div>
+				<div class="book-name">The Book of Genesis</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/9250">&lt; prev</a></div>|
+					<div class="chapter">Chapter 4</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/9252">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_1">1</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_2">2</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_3">3</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_4" class="active">4</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_5">5</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_6">6</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_7">7</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_8">8</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_9">9</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_10">10</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_11">11</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_12">12</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_13">13</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_14">14</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_15">15</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_16">16</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_17">17</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_18">18</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_19">19</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_20">20</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_21">21</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_22">22</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_23">23</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_24">24</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_25">25</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_26">26</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_27">27</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_28">28</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_29">29</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_30">30</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_31">31</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_32">32</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_33">33</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_34">34</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_35">35</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_36">36</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_37">37</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_38">38</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_39">39</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_40">40</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_41">41</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_42">42</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_43">43</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_44">44</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_45">45</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_46">46</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_47">47</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_48">48</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_49">49</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_50">50</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers208748" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">And  Adam knew Eve his wife: who conceived and brought forth Cain, saying: I have gotten a man through God.</div>
+					</div>
+									<div id="vers208749" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">And again she brought forth his brother Abel. And Abel was a shepherd, and Cain a husbandman.</div>
+					</div>
+									<div id="vers208750" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">And it came to pass after many days, that Cain offered, of the fruits of the earth, gifts to the Lord.</div>
+					</div>
+									<div id="vers208751" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">Abel also offered of the firstlings of his flock, and of their fat: and the Lord <a href="" class="inline-comment" data-comment-id="3679">had respect</a> to Abel, and to his offerings.</div>
+					</div>
+									<div id="vers208752" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">But to Cain and his offerings he had no respect: and Cain was exceedingly angry, and his countenance fell.</div>
+					</div>
+									<div id="vers208753" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">And the Lord said to him: Why art thou angry? and why is thy countenance fallen?</div>
+					</div>
+									<div id="vers208754" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">If thou do well, shalt thou not receive? but if ill, shall not sin forthwith be present at the door? but the lust thereof shall be under thee, and thou shalt have dominion over it.</div>
+					</div>
+									<div id="vers208755" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">And Cain said to Abel his brother: Let us go forth abroad. And when they were in the field, Cain rose up against his brother Abel, and slew him.</div>
+					</div>
+									<div id="vers208756" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">And the Lord said to Cain: Where is thy brother Abel? And he answered, I know not: am I my brother’s keeper?</div>
+					</div>
+									<div id="vers208757" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">And he said to him: What hast thou done? the voice of thy brother’s blood crieth to me from the earth.</div>
+					</div>
+									<div id="vers208758" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">Now, therefore, cursed shalt thou be upon the earth, which hath opened her mouth and received the blood of thy brother at thy hand.</div>
+					</div>
+									<div id="vers208759" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">When thou shalt till it, it shall not yield to thee its fruit: a fugitive and a vagabond shalt thou be upon the earth.</div>
+					</div>
+									<div id="vers208760" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">And Cain said to the Lord: My iniquity is greater than that I may deserve pardon.</div>
+					</div>
+									<div id="vers208761" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">Behold thou dost cast me out this day from the face of the earth, and I shall be hidden from thy face, and I shall be a vagabond and a fugitive on the earth: <a href="" class="inline-comment" data-comment-id="3680">every one, therefore, that findeth me, shall kill me</a>.</div>
+					</div>
+									<div id="vers208762" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">And the Lord said to him: No, it shall not be so: but whosoever shall kill Cain, shall be punished sevenfold. And the Lord <a href="" class="inline-comment" data-comment-id="3681">set a mark</a> upon Cain, that whosoever found him should not kill him.</div>
+					</div>
+									<div id="vers208763" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">And Cain went out from the face of the Lord, and dwelt as a fugitive on the earth, at the east side of Eden.</div>
+					</div>
+									<div id="vers208764" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">And Cain knew <a href="" class="inline-comment" data-comment-id="3682">his wife</a>, and she conceived, and brought forth Henoch: and <a href="" class="inline-comment" data-comment-id="3683">he built a city</a>, and called the name thereof by the name of his son Henoch.</div>
+					</div>
+									<div id="vers208765" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">And Henoch begot Irad, and Irad begot Maviael, and Maviael begot Mathusael, and Mathusael begot Lamech:</div>
+					</div>
+									<div id="vers208766" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">Who took two wives: the name of the one was Ada, and the name of the other Sella.</div>
+					</div>
+									<div id="vers208767" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">And Ada brought forth Jabel: who was the father of such as dwell in tents, and of herdsmen.</div>
+					</div>
+									<div id="vers208768" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">And his brother’s name was Jubal; he was the father of them that play upon the harp and the organs.</div>
+					</div>
+									<div id="vers208769" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">Sella also brought forth Tubalcain, who was a hammerer and artificer in every work of brass and iron. And the sister of Tubalcain was Noema.</div>
+					</div>
+									<div id="vers208770" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">And Lamech said to his wives Ada and Sella: Hear my voice, ye wives of Lamech, hearken to my speech: for <a href="" class="inline-comment" data-comment-id="3684">I have slain a man</a> to the wounding of myself, and a stripling to my own bruising.</div>
+					</div>
+									<div id="vers208771" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">Sevenfold vengeance shall be taken for Cain: but for Lamech seventy times sevenfold.</div>
+					</div>
+									<div id="vers208772" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">Adam also knew his wife again: and she brought forth a son, and called his name Seth, saying: God hath given me another seed, for Abel whom Cain slew.</div>
+					</div>
+									<div id="vers208773" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">But to Seth also was born a son, whom he called Enos; this man <a href="" class="inline-comment" data-comment-id="3685">began to call upon</a> the name of the Lord.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_3">&lt; prev</a></div>|
+					<div class="chapter">Chapter 4</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_5">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_1">1</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_2">2</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_3">3</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_4" class="active">4</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_5">5</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_6">6</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_7">7</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_8">8</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_9">9</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_10">10</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_11">11</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_12">12</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_13">13</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_14">14</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_15">15</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_16">16</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_17">17</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_18">18</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_19">19</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_20">20</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_21">21</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_22">22</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_23">23</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_24">24</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_25">25</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_26">26</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_27">27</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_28">28</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_29">29</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_30">30</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_31">31</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_32">32</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_33">33</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_34">34</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_35">35</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_36">36</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_37">37</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_38">38</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_39">39</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_40">40</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_41">41</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_42">42</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_43">43</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_44">44</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_45">45</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_46">46</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_47">47</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_48">48</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_49">49</a> <a href="https://web.archive.org/web/20210802211321/http://catholicbible.online/douay_rheims/OT/Gen/ch_50">50</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20210802211321im_/http://catholicbible.online/assets/img/douay.jpg" alt="" width="130" height="210"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br/>
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br/>
+        Flexible Cover</span></p>
+	<p><a href="https://web.archive.org/web/20210802211321/https://www.baroniuspress.com/category.php?wid=58&amp;cid=1" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20210802211321/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/douay_rheims/OT/Gen/ch_4"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20210802211321/https://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20210802211321im_/https://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 21:13:21 Aug 02, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:26:02 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.627
+  exclusion.robots: 0.034
+  exclusion.robots.policy: 0.021
+  esindex: 0.011
+  cdx.remote: 7.811
+  LoadShardBlock: 58.521 (3)
+  PetaboxLoader3.datanode: 72.021 (4)
+  load_resource: 246.803
+  PetaboxLoader3.resolve: 200.998
+-->

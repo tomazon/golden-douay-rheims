@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+	};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=1&book_no=4&chapter_no=23" class="menu-item ">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=1&book_no=4&chapter_no=23" class="menu-item active">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=1&book_no=4&chapter_no=23" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=1&book_no=4&chapter_no=23" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Numbers</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Lev">Leviticus</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/douay_rheims/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/douay_rheims/OT/Num/9387?vers_inline=1"><img src="https://catholicbible.online/assets/img/para.jpg" alt="" /></a>					<a href="https://catholicbible.online/douay_rheims/OT/Num/9387?comments_open=1"><img src="https://catholicbible.online/assets/img/C-off.gif" alt="" /></a>				</div>
+				<div class="bible-name">The Holy Bible – Douay‐Rheims version</div>
+				<div class="book-name">The Book of Numbers</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Num/9386">&lt; prev</a></div>|
+					<div class="chapter">Chapter 23</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Num/9388">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/OT/Num/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_3">3</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_4">4</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_5">5</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_6">6</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_7">7</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_8">8</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_9">9</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_10">10</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_11">11</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_12">12</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_13">13</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_14">14</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_15">15</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_16">16</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_17">17</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_18">18</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_19">19</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_20">20</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_21">21</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_22">22</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_23" class="active">23</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_24">24</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_25">25</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_26">26</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_27">27</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_28">28</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_29">29</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_30">30</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_31">31</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_32">32</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_33">33</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_34">34</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_35">35</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_36">36</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers213079" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">And  Balaam said to Balac: Build me here seven altars, and prepare as many calves, and the same number of rams.</div>
+					</div>
+									<div id="vers213080" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">And when he had done according to the word of Balaam, they laid together a calf and a ram upon every altar.</div>
+					</div>
+									<div id="vers213081" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">And Balaam said to Balac: Stand a while by thy burnt offering, until I go, to see if perhaps the Lord will meet me, and whatsoever he shall command, I will speak to thee.</div>
+					</div>
+									<div id="vers213082" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">And when he was gone with speed, God met him. And Balaam speaking to him, said: I have erected seven altars, and have laid on every one a calf and a ram.</div>
+					</div>
+									<div id="vers213083" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">And the Lord put the word in his mouth, and said: Return to Balac, and thus shalt thou speak.</div>
+					</div>
+									<div id="vers213084" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">Returning he found Balac standing by his burnt offering, with all the princes of the Moabites:</div>
+					</div>
+									<div id="vers213085" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">And taking up his parable, he said: Balac king of the Moabites hath brought me from Aram, from the mountains of the east: Come, said he, and curse Jacob: make haste and detest Israel.</div>
+					</div>
+									<div id="vers213086" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">How shall I curse him, whom God hath not cursed? By what means should I detest him, whom the Lord detesteth not?</div>
+					</div>
+									<div id="vers213087" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">I shall see him from the tops of the rocks, and shall consider him from the hills. This people shall dwell alone, and shall not be reckoned among the nations.</div>
+					</div>
+									<div id="vers213088" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">Who can count the dust of Jacob, and know the number of the stock of Israel? Let my soul die the death of the just, and my last end be like to them.</div>
+					</div>
+									<div id="vers213089" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">And Balac said to Balaam: What is this that thou dost? I sent for thee to curse my enemies: and thou contrariwise blessest them.</div>
+					</div>
+									<div id="vers213090" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">He answered him: Can I speak any thing else but what the Lord commandeth?</div>
+					</div>
+									<div id="vers213091" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">Balac therefore said: Come with me to another place from whence thou mayest see part of Israel, and canst not see them all: curse them from thence.</div>
+					</div>
+									<div id="vers213092" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">And when he had brought him to a high place, upon the top of mount Phasga, Balaam built seven altars, and laying on every one a calf and a ram,</div>
+					</div>
+									<div id="vers213093" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">He said to Balac: Stand here by thy burnt offering while I go to meet him.</div>
+					</div>
+									<div id="vers213094" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">And when the Lord had met him, and had put the word in his mouth, he said: Return to Balac, and thus shalt thou say to him.</div>
+					</div>
+									<div id="vers213095" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">Returning he found him standing by his burnt sacrifice, and the princes of the Moabites with him. And Balac said to him: What hath the Lord spoken?</div>
+					</div>
+									<div id="vers213096" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">But he taking up his parable, said: Stand, O Balac, and give ear: hear, thou son of Sephor:</div>
+					</div>
+									<div id="vers213097" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">God is not a man, that he should lie, nor as the son of man, that he should be changed. Hath he said then, and will he not do? hath he spoken, and will he not fulfil?</div>
+					</div>
+									<div id="vers213098" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">I was brought to bless, the blessing I am not able to hinder.</div>
+					</div>
+									<div id="vers213099" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">There is no idol in Jacob, neither is there an image god to be seen in Israel. The Lord his God is with him, and the sound of the victory of the king in him.</div>
+					</div>
+									<div id="vers213100" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">God hath brought him out of Egypt, whose strength is like to the rhinoceros.</div>
+					</div>
+									<div id="vers213101" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">There is no soothsaying in Jacob, nor divination in Israel. In their times it shall be told to Jacob and to Israel what God hath wrought.</div>
+					</div>
+									<div id="vers213102" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">Behold the people shall rise up as a lioness, and shall lift itself up as a lion: it shall not lie down till it devour the prey, and drink the blood of the slain.</div>
+					</div>
+									<div id="vers213103" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">And Balac said to Balaam: Neither curse, nor bless him.</div>
+					</div>
+									<div id="vers213104" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">And he said: Did I not tell thee, that whatsoever God should command me, that I would do?</div>
+					</div>
+									<div id="vers213105" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">And Balac said to him: Come and I will bring thee to another place; if peradventure it please God that thou mayest curse them from thence.</div>
+					</div>
+									<div id="vers213106" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">And when he had brought him upon the top of mount Phogor, which looketh towards the wilderness,</div>
+					</div>
+									<div id="vers213107" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">Balaam said to him: Build me here seven altars, and prepare as many calves, and the same number of rams.</div>
+					</div>
+									<div id="vers213108" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">Balac did as Balaam had said: and he laid on every altar, a calf and a ram.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Num/ch_22">&lt; prev</a></div>|
+					<div class="chapter">Chapter 23</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Num/ch_24">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/OT/Num/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_3">3</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_4">4</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_5">5</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_6">6</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_7">7</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_8">8</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_9">9</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_10">10</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_11">11</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_12">12</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_13">13</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_14">14</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_15">15</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_16">16</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_17">17</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_18">18</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_19">19</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_20">20</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_21">21</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_22">22</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_23" class="active">23</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_24">24</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_25">25</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_26">26</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_27">27</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_28">28</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_29">29</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_30">30</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_31">31</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_32">32</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_33">33</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_34">34</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_35">35</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_36">36</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="130" height="210" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br />
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br />
+        Flexible Cover</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-bible.html" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = 0;
+</script>		<div class="copyright">2015 - 2024 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/douay_rheims/OT/Num/ch_23"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>HASH(0x12680c020)

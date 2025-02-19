@@ -1,0 +1,408 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app204.us.archive.org';v.server_ms=977;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/side_by_side/OT/Ru/ch_2","20210928222123","https://web.archive.org/","web","/_static/",
+	      "1632867683");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20210928222123cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20210928222123cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20210928222123cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20210928222123js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210928222123js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210928222123js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210928222123js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210928222123js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20210928222123/http%3A//catholicbible.online/side_by_side/OT/Ru/ch_2"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/OT/Ru/ch_2" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20210928222123" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20210928222123*/http://catholicbible.online/side_by_side/OT/Ru/ch_2" title="See a list of every capture for this URL">4 captures</a>
+          <div class="r" title="Timespan for captures of this URL">13 Mar 2017 - 28 Sep 2021</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20210620194207/https://catholicbible.online/side_by_side/OT/Ru/ch_2" title="20 Jun 2021"><strong>Jun</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 22:21:23 Sep 28, 2021">SEP</td>
+            <td class="f" nowrap="nowrap">Oct</td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20210620194207/https://catholicbible.online/side_by_side/OT/Ru/ch_2" title="19:42:07 Jun 20, 2021"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 22:21:23 Sep 28, 2021">28</td>
+            <td class="f" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0" /></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170313232833/http://catholicbible.online/side_by_side/OT/Ru/ch_2" title="13 Mar 2017"><strong>2017</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 22:21:23 Sep 28, 2021">2021</td>
+            <td class="f" nowrap="nowrap">2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20210928222123/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/OT/Ru/ch_2"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_2" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_2" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_2</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/OT/Ru/ch_2","20210928222123",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=8&amp;chapter_no=2" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=8&amp;chapter_no=2" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=8&amp;chapter_no=2" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=8&amp;chapter_no=2" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20210928222123/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Ruth</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Judg">Judges</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Book of Ruth — Liber Ruth </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_1">&lt; prev</a></div>|
+					<div class="chapter">Chapter 2</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_3">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_1">1</a> <a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_2" class="active">2</a> <a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_3">3</a> <a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_4">4</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_2?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_2?act_indx=1&amp;act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_2?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_2?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Erat autem viro Elimelech consanguineus, homo potens, et magnarum opum, nomine Booz.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Now  her husband Elimelech had a kinsman, a powerful man, and very rich, whose name was Booz.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Elimelech had a kinsman called Booz, a man of great influence and wealth.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Dixitque Ruth Moabitis ad socrum suam: Si jubes, vadam in agrum, et colligam spicas quæ fugerint manus metentium, ubicumque clementis in me patrisfamilias reperero gratiam. Cui illa respondit: Vade, filia mea.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">And Ruth the Moabitess said to her mother in law: If thou wilt, I will go into the field, and glean the ears of corn that escape the hands of the reapers, wheresoever I shall find grace with a householder that will be favourable to me. And she answered her: Go, my daughter.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">And now Ruth, the Moabitess, asked leave of her mother-in-law to go out and glean after the reapers, by some rich man’s favour. Go then, daughter, said she;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Abiit itaque et colligebat spicas post terga metentium. Accidit autem ut ager ille haberet dominum nomine Booz, qui erat de cognatione Elimelech.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">She went therefore and gleaned the ears of corn after the reapers. And it happened that the owner of that field was Booz, who was of the kindred of Elimelech.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">and it so chanced that the field in which Ruth went to glean after the reapers belonged to no other than Booz, Elimelech’s kinsman.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Et ecce, ipse veniebat de Bethlehem, dixitque messoribus: Dominus vobiscum. Qui responderunt ei: Benedicat tibi Dominus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">And behold, he came out of Bethlehem, and said to the reapers: The Lord be with you. And they answered him: The Lord bless thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">After a while, he himself came out from Bethlehem, and when he had greeted the reapers, The Lord be with you, and they had wished him God’s blessing in return,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Dixitque Booz juveni, qui messoribus præerat: Cujus est hæc puella?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">And Booz said to the young man that was set over the reapers: Whose maid is this ?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">he asked the man in charge of them, a servant of his own, whose daughter this maid might be?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Cui respondit: Hæc est Moabitis, quæ venit cum Noëmi, de regione Moabitide,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">And he answered him: This is the Moabitess who came with Noemi, from the land of Moab,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">It is Ruth, said he, the Moabitess, that came here from Moab with Noemi;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">et rogavit ut spicas colligeret remanentes, sequens messorum vestigia: et de mane usque nunc stat in agro, et ne ad momentum quidem domum reversa est.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">And she desired leave to glean the ears of corn that remain, following the steps of the reapers: and she hath been in the field from morning till now, and hath not gone home for one moment.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">she asked leave to glean after the reapers, and here she has been, ever since morning, without once going home to rest.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Et ait Booz ad Ruth: Audi, filia, ne vadas in alterum agrum ad colligendum, nec recedas ab hoc loco: sed jungere puellis meis,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">And Booz said to Ruth: Hear me, daughter, do not go to glean in any other field, and do not depart from this place: but keep with my maids,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Listen, my daughter, Booz said to Ruth; do not look for any other field to glean in; stay here and keep my maidens company,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">et ubi messuerint, sequere. Mandavi enim pueris meis, ut nemo molestus sit tibi: sed etiam si sitieris, vade ad sarcinulas, et bibe aquas, de quibus et pueri bibunt.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">And follow where they reap. For I have charged my young men, not to molest thee: and if thou art thirsty, go to the vessels, and drink of the waters whereof the servants drink.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">following ever where they reap. My servants have orders not to interfere with thee; if thou art thirsty, go to the buckets yonder and share the water they drink.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Quæ cadens in faciem suam et adorans super terram, dixit ad eum: Unde mihi hoc, ut invenirem gratiam ante oculos tuos, et nosse me dignareris peregrinam mulierem?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">She fell on her face and worshipping upon the ground, said to him: Whence cometh this to me, that I should find grace before thy eyes, and that thou shouldst vouchsafe to take notice of me a woman of another country?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">At this, Ruth bowed low, face to ground; How have I deserved any favour of thine? she asked. Why wouldst thou take notice of an alien woman such as I am?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Cui ille respondit: Nuntiata sunt mihi omnia quæ feceris socrui tuæ post mortem viri tui: et quod reliqueris parentes tuos, et terram in qua nata es, et veneris ad populum, quem antea nesciebas.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">And he answered her: All hath been told me, that thou hast done to thy mother in law after the death of thy husband: and how thou hast left thy parents, and the land wherein thou wast born, and art come to a people which thou knewest not heretofore.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">I have had word, he answered, of thy goodness to thy mother-in-law since thy husband’s death; how thou didst leave kindred and country, to dwell among strangers.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Reddat tibi Dominus pro opere tuo, et plenam mercedem recipias a Domino Deo Israël, ad quem venisti, et sub cujus confugisti alas.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">The Lord render unto thee for thy work, and mayst thou receive a full reward of the Lord the God of Israel, to whom thou art come, and under whose wings thou art fled.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">May the Lord reward thee for what thou hast done; may the Lord God of Israel, in whose shelter thou hast learned to trust, make thee full return for it!</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Quæ ait: Inveni gratiam apud oculos tuos, domine mi, qui consolatus es me, et locutus es ad cor ancillæ tuæ, quæ non sum similis unius puellarum tuarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">And she said: I have found grace in thy eyes, my lord, who hast comforted me and hast spoken to the heart of thy handmaid, who am not like to one of thy maids.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Then she said, This is great kindness in thee, my lord, so to comfort and encourage me, thy poor servant that cannot compare with these handmaids of thine.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Dixitque ad eam Booz: Quando hora vescendi fuerit, veni huc, et comede panem, et intinge buccellam tuam in aceto. Sedit itaque ad messorum latus, et congessit polentam sibi, comeditque et saturata est, et tulit reliquias.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">And Booz said to her: At mealtime come thou hither, and eat of the bread, and dip thy morsel in the vinegar. So she sat at the side of the reapers, and she heaped to herself frumenty, and ate and was filled, and took the leavings.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">He bade her come back when it was time for a meal, to eat bread there and dip her crust in the vinegar. So there she sat with the reapers, and still at her side the heap of parched corn grew, till she had eaten her fill, and had more to carry away. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Atque inde surrexit, ut spicas ex more colligeret. Præcepit autem Booz pueris suis, dicens: Etiamsi vobiscum metere voluerit, ne prohibeatis eam:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">And she arose from thence, to glean the ears of corn as before. And Booz commanded his servants, saying: If she would even reap with you, hinder her not:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">By the time she had risen up to go on with her gleaning, Booz had given orders to his servants that they were to put no hindrance in her way, though she were to go reaping in their company;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">et de vestris quoque manipulis projicite de industria, et remanere permittite, ut absque rubore colligat, et colligentem nemo corripiat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">And let fall some of your handfuls of purpose, and leave them, that she may gather them without shame, and let no man rebuke her when she gathereth them.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">and of set purpose they were to drop some of the handfuls they gathered, and leave them there for her to glean, never shaming her by a rebuke.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Collegit ergo in agro usque ad vesperam: et quæ collegerat virga cædens et excutiens, invenit hordei quasi ephi mensuram, id est, tres modios.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">She gleaned therefore in the field till evening: and beating out with a rod and threshing what she had gleaned, she found about the measure of an ephi of barley, that is, three bushels:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">So it was that when she had worked till evening, and took her rod to beat out what she had gathered, she found it was a whole ephi, that is a bushel.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Quos portans reversa est in civitatem, et ostendit socrui suæ: insuper protulit, et dedit ei de reliquiis cibi sui, quo saturata fuerat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Which she took up and returned into the city, and shewed it to her mother in law: moreover she brought out, and gave her of the remains of her meat, wherewith she had been filled.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Such were the earnings she brought back with her to the city, and shewed to her mother-in-law; offering her besides some of the food that was left over when she had finished her meal.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Dixitque ei socrus sua: Ubi hodie collegisti, et ubi fecisti opus? sit benedictus qui misertus est tui. Indicavitque ei apud quem fuisset operata: et nomen dixit viri, quod Booz vocaretur.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">And her mother in law said to her: Where hast thou gleaned to day, and where hast thou wrought? blessed be he that hath had pity on thee. And she told her with whom she had wrought: and she told the man’s name, that he was called Booz.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Why, said Noemi, where hast thou been gleaning to-day? Where didst thou find so much work to do? Blessed be the man that has so befriended thee! And Ruth told her whose field it was she had worked in, It was a man called Booz, she said.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Cui respondit Noëmi: Benedictus sit a Domino: quoniam eamdem gratiam, quam præbuerat vivis, servavit et mortuis. Rursumque ait: Propinquus noster est homo.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">And Noemi answered her: Blessed be he of the Lord: because the same kindness which he shewed to the living, he hath kept also to the dead. And again she said: The man is our kinsman.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">May the Lord bless him, answered Noemi; here is a man that is generous to his own, living as well as dead. And she told Ruth that Booz was their near kinsman.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Et ait Ruth: Hoc quoque, inquit, præcepit mihi, ut tamdiu messoribus ejus jungerer, donec omnes segetes meterentur.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">And Ruth said, He also charged me, that I should keep close to his reapers, till all the corn should be reaped.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">This too, said Ruth, was his bidding, that I should keep close to his men till all the reaping is done.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Cui dixit socrus: Melius est, filia mea, ut cum puellis ejus exeas ad metendum, ne in alieno agro quispiam resistat tibi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">And her mother in law said to her: It is better for thee, my daughter, to go out to reap with his maids, lest in another man’s field some one may resist thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">That is best, daughter, said her mother-in-law, that thou shouldst go out to glean with those maidens of his; in some other field they might say thee nay.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Juncta est itaque puellis Booz: et tamdiu cum eis messuit, donec hordea et triticum in horreis conderentur.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">So she kept close to the maids of Booz: and continued to glean with them, till all the barley and the wheat were laid up in the barns.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">And with the maid-servants of Booz she still kept company, till barley and wheat were both carried.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_1">&lt; prev</a></div>|
+					<div class="chapter">Chapter 2</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_3">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_1">1</a> <a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_2" class="active">2</a> <a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_3">3</a> <a href="https://web.archive.org/web/20210928222123/http://catholicbible.online/side_by_side/OT/Ru/ch_4">4</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20210928222123im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20210928222123/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20210928222123/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/OT/Ru/ch_2"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20210928222123/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20210928222123im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 22:21:23 Sep 28, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:32 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.548
+  exclusion.robots: 0.029
+  exclusion.robots.policy: 0.019
+  esindex: 0.009
+  cdx.remote: 6.282
+  LoadShardBlock: 638.801 (3)
+  PetaboxLoader3.datanode: 117.808 (4)
+  PetaboxLoader3.resolve: 769.281 (2)
+  load_resource: 299.197
+-->

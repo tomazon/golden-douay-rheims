@@ -1,0 +1,543 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app226.us.archive.org';v.server_ms=311;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/side_by_side/OT/Dt/ch_28","20220630102424","https://web.archive.org/","web","/_static/",
+	      "1656584664");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20220630102424cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20220630102424cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20220630102424cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20220630102424js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220630102424js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220630102424js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220630102424js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220630102424js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20220630102424/http%3A//catholicbible.online/side_by_side/OT/Dt/ch_28"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/OT/Dt/ch_28" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20220630102424" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20220630102424*/http://catholicbible.online/side_by_side/OT/Dt/ch_28" title="See a list of every capture for this URL">17 captures</a>
+          <div class="r" title="Timespan for captures of this URL">13 Mar 2017 - 06 Dec 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20200219083753/http://catholicbible.online:80/side_by_side/OT/Dt/ch_28" title="19 Feb 2020"><strong>Feb</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 10:24:24 Jun 30, 2022">JUN</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20221206105118/http://catholicbible.online/side_by_side/OT/Dt/ch_28" title="06 Dec 2022"><strong>Dec</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20200219083753/http://catholicbible.online:80/side_by_side/OT/Dt/ch_28" title="08:37:53 Feb 19, 2020"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 10:24:24 Jun 30, 2022">30</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20221206105118/http://catholicbible.online/side_by_side/OT/Dt/ch_28" title="10:51:18 Dec 06, 2022"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20200219083753/http://catholicbible.online:80/side_by_side/OT/Dt/ch_28" title="19 Feb 2020"><strong>2020</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 10:24:24 Jun 30, 2022">2022</td>
+            <td class="f" nowrap="nowrap">2023</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20220630102424/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/OT/Dt/ch_28"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_28" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_28" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_28</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/OT/Dt/ch_28","20220630102424",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=5&amp;chapter_no=28" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=5&amp;chapter_no=28" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=5&amp;chapter_no=28" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=5&amp;chapter_no=28" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20220630102424/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Deuteronomy</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Num">Numbers</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Book of Deuteronomy — Liber Deuteronomii </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_27">&lt; prev</a></div>|
+					<div class="chapter">Chapter 28</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_29">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_1">1</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_2">2</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_3">3</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_4">4</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_5">5</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_6">6</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_7">7</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_8">8</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_9">9</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_10">10</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_11">11</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_12">12</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_13">13</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_14">14</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_15">15</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_16">16</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_17">17</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_18">18</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_19">19</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_20">20</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_21">21</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_22">22</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_23">23</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_24">24</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_25">25</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_26">26</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_27">27</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_28" class="active">28</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_29">29</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_30">30</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_31">31</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_32">32</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_33">33</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_34">34</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_28?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_28?act_indx=1&amp;act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_28?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_28?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Si autem audieris vocem Domini Dei tui, ut facias atque custodias omnia mandata ejus, quæ ego præcipio tibi hodie, faciet te Dominus Deus tuus excelsiorem cunctis gentibus, quæ versantur in terra.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Now  if thou wilt hear the voice of the Lord thy God, to do and keep all his commandments, which I command thee this day, the Lord thy God will make thee higher than all the nations that are on the earth.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">And now, if thou wilt listen to the Lord thy God, carrying out faithfully all those commandments of his which I enjoin upon thee, the Lord thy God will make thee greater than any other nation on earth;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Venientque super te universæ benedictiones istæ, et apprehendent te: si tamen præcepta ejus audieris.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">And all these blessings shall come upon thee and overtake thee: yet so if thou hear his precepts,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">and all these blessings which follow shall come to meet thee, if only thou wilt obey his will.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Benedictus tu in civitate, et benedictus in agro.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Blessed shalt thou be in the city, and blessed in the field.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Blessed shalt thou be in town and country,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Benedictus fructus ventris tui, et fructus terræ tuæ, fructusque jumentorum tuorum, greges armentorum tuorum, et caulæ ovium tuarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Blessed shall be the fruit of thy womb, and the fruit of thy ground, and the fruit of thy cattle, the droves of thy herds, and the folds of thy sheep.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">blessed with fertility of womb and of soil, with increase of thy stock in byre and sheep-fold,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Benedicta horrea tua, et benedictæ reliquiæ tuæ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Blessed shall be thy barns and blessed thy stores.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">with rich store in barn and granary,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Benedictus eris tu ingrediens et egrediens.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Blessed shalt thou be coming in and going out.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">blessed in thy journey and blessed in thy coming home.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Dabit Dominus inimicos tuos, qui consurgunt adversum te, corruentes in conspectu tuo: per unam viam venient contra te, et per septem fugient a facie tua.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">The Lord shall cause thy enemies, that rise up against thee, to fall down before thy face: one way shall they come out against thee, and seven ways shall they flee before thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">When thy enemies raise war against thee, the Lord will make them cower before thy onslaught; the host that came out against thee in one company shall flee away in seven.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Emittet Dominus benedictionem super cellaria tua, et super omnia opera manuum tuarum: benedicetque tibi in terra, quam acceperis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">The Lord will send forth a blessing upon thy storehouses, and upon all the works of thy hands: and will bless thee in the land that thou shalt receive.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Upon all thy store-houses, upon every enterprise of thine, the Lord will send down his blessing; a land of blessing shall be thine.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Suscitabit te Dominus sibi in populum sanctum, sicut juravit tibi: si custodieris mandata Domini Dei tui, et ambulaveris in viis ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">The Lord will raise thee up to be a holy people to himself, as he swore to thee: if thou keep the commandments of the Lord thy God, and walk in his ways.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">If only thou wilt be true to the commandments of the Lord thy God, and follow the paths he has chosen, he will fulfil his promise, and make thee a people set apart for himself;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Videbuntque omnes terrarum populi quod nomen Domini invocatum sit super te, et timebunt te.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">And all the people of the earth shall see that the name of the Lord is invocated upon thee, and they shall fear thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">so that all the nations of the world will go in fear of thee, the people that is named by such a name as his.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Abundare te faciet Dominus omnibus bonis, fructu uteri tui, et fructu jumentorum tuorum, fructu terræ tuæ, quam juravit Dominus patribus tuis ut daret tibi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">The Lord will make thee abound with all goods, with the fruit of thy womb, and the fruit of thy cattle, with the fruit of thy land, which the Lord swore to thy fathers that he would give thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">The Lord will make thee rich in all good things; fruitful thy own race, fruitful thy cattle, fruitful this land, his promised gift to thy fathers.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Aperiet Dominus thesaurum suum optimum, cælum, ut tribuat pluviam terræ tuæ in tempore suo: benedicetque cunctis operibus manuum tuarum. Et fœnerabis gentibus multis, et ipse a nullo fœnus accipies.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">The Lord will open his excellent treasure, the heaven, that it may give rain in due season: and he will bless all the works of thy hands. And thou shalt lend to many nations, and shalt not borrow of any one.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">The Lord will open to thee the rich stores of heaven, and grant thy land rain when the season comes for it; he will prosper all thy enterprises, making thee the creditor of many nations, the debtor of none;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Constituet te Dominus in caput, et non in caudam: et eris semper supra, et non subter: si tamen audieris mandata Domini Dei tui quæ ego præcipio tibi hodie, et custodieris et feceris,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">And the Lord shall make thee the head and not the tail: and thou shalt be always above, and not beneath: yet so if thou wilt hear the commandments of the Lord thy God which I command thee this day, and keep and do them,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">for thee to lead, for others to follow; for thee the heights, for them the lower place. All this, if thou wilt obey the commandments of the Lord that I enjoin on thee this day, holding fast to them and living by them,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">ac non declinaveris ab eis nec ad dexteram, nec ad sinistram, nec secutus fueris deos alienos, neque colueris eos.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">And turn not away from them neither to the right hand, nor to the left, nor follow strange gods, nor worship them.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">not swerving to right or left, not following the worship of other gods than thine.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Quod si audire nolueris vocem Domini Dei tui, ut custodias, et facias omnia mandata ejus et cæremonias, quas ego præcipio tibi hodie, venient super te omnes maledictiones istæ, et apprehendent te.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">But if thou wilt not hear the voice of the Lord thy God, to keep and to do all his commandments and ceremonies, which I command thee this day, all these curses shall come upon thee, and overtake thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">But if thou dost refuse to listen to him, and carry out faithfully all the commandments and observances I now enjoin on thee, all these curses that follow shall come to meet thee instead.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Maledictus eris in civitate, maledictus in agro.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Cursed shalt thou be in the city, cursed in the field.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Cursed shalt thou be in town and country,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Maledictum horreum tuum, et maledictæ reliquiæ tuæ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Cursed shall be thy barn, and cursed thy stores.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">cursed with empty barn and bare granary,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Maledictus fructus ventris tui, et fructus terræ tuæ, armenta boum tuorum, et greges ovium tuarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Cursed shall be the fruit of thy womb, and the fruit of thy ground, the herds of thy oxen, and the flocks of thy sheep.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">with barrenness of womb and of soil, with leanness of thy stock in byre and sheep-fold,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Maledictus eris ingrediens, et maledictus egrediens.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Cursed shalt thou be coming in, and cursed going out.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">cursed in thy journey and cursed in thy coming home.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Mittet Dominus super te famem et esuriem, et increpationem in omnia opera tua, quæ tu facies: donec conterat te, et perdat velociter, propter adinventiones tuas pessimas in quibus reliquisti me.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">The Lord shall send upon thee famine and hunger, and a rebuke upon all the works which thou shalt do: until he consume and destroy thee quickly, for thy most wicked inventions, by which thou hast forsaken me.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Want and distress the Lord will send thee, and failure in all thy enterprises, to crush thee down and make a quick end of thee, still faithless, still following thy own devices.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Adjungat tibi Dominus pestilentiam, donec consumat te de terra ad quam ingredieris possidendam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">May the Lord set the pestilence upon thee, until he consume thee out of the land, which thou shalt go in to possess.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">The Lord will infect thee with plague, till the land thou hast won knows thee no more;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Percutiat te Dominus egestate, febri et frigore, ardore et æstu, et aëre corrupto ac rubigine, et persequatur donec pereas.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">May the Lord afflict thee with miserable want, with the fever and with cold, with burning and with heat, and with corrupted air and with blasting, and pursue thee till thou perish.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">the Lord will smite thee with wasting, and fever, and ague, with burning heat, with blight and mildew, hunting thee to the death.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Sit cælum, quod supra te est, æneum: et terra, quam calcas, ferrea.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Be the heaven, that is over thee, of brass: and the ground thou treadest on, of iron.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Heaven above thee shall be bronze, and earth iron under thy feet;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Det Dominus imbrem terræ tuæ pulverem, et de cælo descendat super te cinis, donec conteraris.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">The Lord give thee dust for rain upon thy land, and let ashes come down from heaven upon thee, till thou be consumed.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">dust will be all the rain he gives thee, and ashes shall fall from the skies to overwhelm thee.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Tradat te Dominus corruentem ante hostes tuos: per unam viam egrediaris contra eos, et per septem fugias, et dispergaris per omnia regna terræ,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">The Lord make thee to fall down before thy enemies, one way mayst thou go out against them, and flee seven ways, and be scattered throughout all the kingdoms of the earth.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">The Lord will make thee cower before the onslaught of thy enemies; the host that went out against them in one company shall flee away in seven, till thy race is scattered over all the kingdoms of the world,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">sitque cadaver tuum in escam cunctis volatilibus cæli, et bestiis terræ, et non sit qui abigat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">And be thy carcass meat for all the fowls of the air, and the beasts of the earth, and be there none to drive them away.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">and the carcase that is left of thee will be left for every bird in heaven and every beast on earth to prey upon, with none to drive them away.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">Percutiat te Dominus ulcere Ægypti, et partem corporis, per quam stercora egeruntur, scabie quoque et prurigine: ita ut curari nequeas.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">The Lord strike thee with the ulcer of Egypt, and the part of thy body, by which the dung is cast out, with the scab and with the itch: so that thou canst not be healed.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">The Lord will smite thee with the Egyptian scab, and swelling in the groin, and the itch; there shall be no curing thee.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Percutiat te Dominus amentia et cæcitate ac furore mentis,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">The Lord strike thee with madness and blindness and fury of mind.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">The Lord will drive thee distracted, all benighted and crazed in thy wits,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">et palpes in meridie sicut palpare solet cæcus in tenebris, et non dirigas vias tuas. Omnique tempore calumniam sustineas, et opprimaris violentia, nec habeas qui liberet te.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">And mayst thou grope at midday as the blind is wont to grope in the dark, and not make straight thy ways. And mayst thou at all times suffer wrong, and be oppressed with violence, and mayst thou have no one to deliver thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">till thou wilt grope thy way at noon like a blind man in the dark, and lose thyself; never a day when thou art not wronged and oppressed, and there shall be none to deliver thee.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Uxorem accipias, et alius dormiat cum ea. Domum ædifices, et non habites in ea. Plantes vineam, et non vindemies eam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Mayst thou take a wife, and another sleep with her. Mayst thou build a house, and not dwell therein. Mayest thou plant a vineyard and not gather the vintage thereof.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Wed a wife, and another shall bed her, build a house, and thou shalt not dwell in it, plant a vineyard, and the vintage shall not be thine.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Bos tuus immoletur coram te, et non comedas ex eo. Asinus tuus rapiatur in conspectu tuo, et non reddatur tibi. Oves tuæ dentur inimicis tuis, et non sit qui te adjuvet.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">May thy ox be slain before thee, and thou not eat thereof. May thy ass be taken away in thy sight, and not restored to thee. May thy sheep be given to thy enemies, and may there be none to help thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Thou wilt see thy own ox slain, and never a morsel for thee, thy ass carried off, and never restored, thy sheep given to thy enemies, and no help for it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">Filii tui et filiæ tuæ tradantur alteri populo, videntibus oculis tuis, et deficientibus ad conspectum eorum tota die, et non sit fortitudo in manu tua.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">May thy sons and thy daughters be given to another people, thy eyes looking on, and languishing at the sight of them all the day, and may there be no strength in thy hand.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">Nay, thy sons and daughters will be enslaved to alien masters, and thy own eyes shall see it, and ache continually at the sight; no power left thee to resist it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">Fructus terræ tuæ, et omnes labores tuos, comedat populus quem ignoras: et sis semper calumniam sustinens, et oppressus cunctis diebus,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">May a people which thou knowest not, eat the fruits of thy land, and all thy labours: and mayst thou always suffer oppression, and be crushed at all times.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">Thy crops, too, the fruit of thy own toil, will be carried off by a people till now unknown to thee; always thou wilt be suffering some wrong, always oppressed,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">et stupens ad terrorem eorum quæ videbunt oculi tui.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">And be astonished at the terror of those things which thy eyes shall see:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">till thou art numb with terror at the sights thy own eyes have witnessed.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Percutiat te Dominus ulcere pessimo in genibus et in suris, sanarique non possis a planta pedis usque ad verticem tuum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">May the Lord strike thee with a very sore ulcer in the knees and in the legs, and be thou incurable from the sole of the foot to the top of the head.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">The Lord will smite knee and calf of thine with the foul scab, till it covers thee from head to foot, past all remedy. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Ducet te Dominus, et regem tuum, quem constitueris super te, in gentem, quam ignoras tu et patres tui: et servies ibi diis alienis, ligno et lapidi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">The Lord shall bring thee, and thy king, whom thou shalt have appointed over thee, into a nation which thou and thy fathers know not: and there thou shalt serve strange gods, wood and stone.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Exile awaits thee, awaits the king thou hast chosen to rule over thee; the Lord will carry thee away into a land thou and thy fathers never heard of, where thou must needs worship alien gods, of wood and stone;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Et eris perditus in proverbium ac fabulam omnibus populis, ad quos te introduxerit Dominus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">And thou shalt be lost, as a proverb and a byword to all people, among whom the Lord shall bring thee in.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">and to all the nations among whom the Lord bids thee dwell, thy name shall be a proverb and a by-word.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Sementem multam jacies in terram, et modicum congregabis: quia locustæ devorabunt omnia.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Thou shalt cast much seed into the ground, and gather little: because the locusts shall consume all.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Much sown and little reaped, where the locust has eaten;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Vineam plantabis, et fodies: et vinum non bibes, nec colliges ex ea quippiam: quoniam vastabitur vermibus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Thou shalt plant a vineyard, and dig it, and shalt not drink the wine, nor gather any thing thereof: because it shall be wasted with worms.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">vines planted and dressed, and no vintage gathered, no wine drunk, because the weevil has ravaged them;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">Olivas habebis in omnibus terminis tuis, et non ungeris oleo: quia defluent, et peribunt.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">Thou shalt have olive trees in all thy borders, and shalt not be anointed with the oil: for the olives shall fall off and perish.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">olives everywhere, and no oil to anoint thee, because they drooped and withered away;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">Filios generabis et filias, et non frueris eis: quoniam ducentur in captivitatem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">Thou shalt beget sons and daughters, and shalt not enjoy them: because they shall be led into captivity.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">sons and daughters born, and no comfort to thee, all carried away into exile.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Omnes arbores tuas et fruges terræ tuæ rubigo consumet.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">The blast shall consume all the trees and the fruits of thy ground.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">No tree of thine, no crop of thine, but the mildew shall spoil it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">Advena, qui tecum versatur in terra, ascendet super te, eritque sublimior: tu autem descendes, et eris inferior.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">The stranger that liveth with thee in the land, shall rise up over thee, and shall be higher: and thou shalt go down, and be lower.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">The aliens that dwell in thy land will outpass and over-shadow thee, humbled now and no match for them;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">Ipse fœnerabit tibi, et tu non fœnerabis ei. Ipse erit in caput, et tu eris in caudam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">He shall lend to thee, and thou shalt not lend to him. He shall be as the head, and thou shalt be the tail.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">they shall be the creditors now, and thou the debtor; it is for them to lead, for thee to follow.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">Et venient super te omnes maledictiones istæ, et persequentes apprehendent te, donec intereas: quia non audisti vocem Domini Dei tui, nec servasti mandata ejus et cæremonias, quas præcepit tibi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">And all these curses shall come upon thee, and shall pursue and overtake thee, till thou perish: because thou heardst not the voice of the Lord thy God, and didst not keep his commandments and ceremonies which he commanded thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">And other curses shall befall thee, hunting thee down until they overtake thee, for thy utter ruin; and all because thou wouldst not listen to the Lord thy God, and hold fast to the commandments and observances he enjoined upon thee.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">Et erunt in te signa atque prodigia, et in semine tuo usque in sempiternum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">And they shall be as signs and wonders on thee, and on thy seed for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">It shall be a warning and a prodigy, the fate that shall come upon thee, and upon thy race in perpetuity.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">eo quod non servieris Domino Deo tuo in gaudio, cordisque lætitia, propter rerum omnium abundantiam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">Because thou didst not serve the Lord thy God with joy and gladness of heart, for the abundance of all things:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">Because thou wouldst not obey the Lord thy God in happiness and content, when thou hadst enough and to spare,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">Servies inimico tuo, quem immittet tibi Dominus, in fame, et siti, et nuditate, et omni penuria: et ponet jugum ferreum super cervicem tuam, donec te conterat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">Thou shalt serve thy enemy, whom the Lord will send upon thee, in hunger, and thirst, and nakedness, and in want of all things: and he shall put an iron yoke upon thy neck, till he consume thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">thou must learn, now, to obey those enemies the Lord will send out to conquer thee; obey them in hunger, and thirst, and nakedness, and every kind of want; a yoke of iron shall be fastened on thy neck, and shall crush thee down.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">Adducet Dominus super te gentem de longinquo, et de extremis terræ finibus in similitudinem aquilæ volantis cum impetu, cujus linguam intelligere non possis:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">The Lord will bring upon thee a nation from afar, and from the uttermost ends of the earth, like an eagle that flyeth swiftly, whose tongue thou canst not understand,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">From far away, from the very ends of the earth, the Lord will send a nation to sweep down on thee like a bird of prey; a nation whose very speech is unknown to thee;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">gentem procacissimam, quæ non deferat seni, nec misereatur parvuli,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">A most insolent nation, that will shew no regard to the ancients, nor have pity on the infant,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">hard-hearted, with no respect for age, no pity for helpless children.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">et devoret fructum jumentorum tuorum, ac fruges terræ tuæ: donec intereas, et non relinquat tibi triticum, vinum, et oleum, armenta boum, et greges ovium: donec te disperdat,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">And will devour the fruit of thy cattle, and the fruits of thy land: until thou be destroyed, and will leave thee no wheat, nor wine, nor oil, nor herds of oxen, nor flocks of sheep: until he destroy thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">All that thy herds, all that thy lands yield, they will take for food, careless of thy ruin; neither wheat nor wine nor soil nor herd nor flock shall be left to thee; all will be laid waste.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">et conterat in cunctis urbibus tuis, et destruantur muri tui firmi atque sublimes, in quibus habebas fiduciam in omni terra tua. Obsideberis intra portas tuas in omni terra tua, quam dabit tibi Dominus Deus tuus:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">And consume thee in all thy cities, and thy strong and high wall be brought down, wherein thou trustedst in all thy land. Thou shalt be besieged within thy gates in all thy land which the Lord thy God will give thee:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">In thy cities, too, they will press hard on thee, battering down everywhere those high walls, those strong walls; all over this land, which the Lord thy God is now giving thee, there shall be siege at thy gates.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">et comedes fructum uteri tui, et carnes filiorum tuorum et filiarum tuarum, quas dederit tibi Dominus Deus tuus, in angustia et vastitate qua opprimet te hostis tuus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">And thou shalt eat the fruit of thy womb, and the flesh of thy sons and of thy daughters, which the Lord thy God shall give thee, in the distress and extremity wherewith thy enemy shall oppress thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">Thou wilt be fain to eat thy own offspring, the flesh of thy own sons and daughters, the Lord’s gift to thee; so bitter the stress and the want these enemies of thine shall bring upon thee.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">Homo delicatus in te, et luxuriosus valde, invidebit fratri suo, et uxori, quæ cubat in sinu suo,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">The man that is nice among you, and very delicate, shall envy his own brother, and his wife, that lieth in his bosom,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">The man that lived softly hitherto, in all comfort, will grudge food to his own brother, to the wife that lay in his bosom,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">ne det eis de carnibus filiorum suorum, quas comedet: eo quod nihil aliud habeat in obsidione et penuria, qua vastaverint te inimici tui intra omnes portas tuas.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">So that he will not give them of the flesh of his children, which he shall eat: because he hath nothing else in the siege and the want, wherewith thy enemies shall distress thee within all thy gates.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">and that food the flesh of his own sons; nothing else is left him, so hard the siege is pressed against all thy cities.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">Tenera mulier et delicata, quæ super terram ingredi non valebat, nec pedis vestigium figere, propter mollitiem et teneritudinem nimiam, invidebit viro suo, qui cubat in sinu ejus, super filii et filiæ carnibus,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">The tender and delicate woman, that could not go upon the ground, nor set down her foot for over much niceness and tenderness, will envy her husband who lieth in her bosom, the flesh of her son, and of her daughter,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">The woman, so tender, so dainty, that would not put her foot to the ground, would not walk a single step, too delicately nurtured for that, will grudge the flesh of her own sons and daughters to the husband that lay in her bosom.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">et illuvie secundarum, quæ egrediuntur de medio feminum ejus, et super liberis qui eadem hora nati sunt. Comedent enim eos clam propter rerum omnium penuriam in obsidione et vastitate, qua opprimet te inimicus tuus intra portas tuas.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">And the filth of the afterbirths, that come forth from between her thighs, and the children that are born the same hour. For they shall eat them secretly for the want of all things, in the siege and dissress, wherewith thy enemy shall oppress thee within thy gates.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">She will eat what comes out from her own body, eat her own son that is newly born, there in secret; what else has she, hard pressed by the siege that is brought against these cities of thine?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">Nisi custodieris et feceris omnia verba legis hujus, quæ scripta sunt in hoc volumine, et timueris nomen ejus gloriosum et terribile, hoc est, Dominum Deum tuum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">If thou wilt not keep, and fulfil all the words of this law, that are written in this volume, and fear his glorious and terrible name: that is, The Lord thy God:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">If thou dost not carry out faithfully every word of the law this book contains, going in fear of the great name, the terrible name, the Lord thy God,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">augebit Dominus plagas tuas, et plagas seminis tui, plagas magnas et perseverantes, infirmitates pessimas et perpetuas:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">The Lord shall increase thy plagues, and the plagues of thy seed, plagues great and lasting, infirmities grievous and perpetual.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">then the Lord will send worse plagues still on thee and on thy posterity, heavy plagues and of long continuance, grievous and lasting visitations.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">et convertet in te omnes afflictiones Ægypti, quas timuisti, et adhærebunt tibi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">And he shall bring back on thee all the afflictions of Egypt, which thou wast afraid of, and they shall stick fast to thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">The fierce afflictions of Egypt (thou hast dreaded them ere now) shall be thine instead.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">Insuper et universos languores, et plagas, quæ non sunt scriptæ in volumine legis hujus, inducet Dominus super te, donec te conterat:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">Moreover the Lord will bring upon thee all the diseases, and plagues, that are not written in the volume of this law till he consume thee:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">And all the sicknesses and plagues of which this book makes no mention the Lord will bring thee, till he has crushed thee down;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">et remanebitis pauci numero, qui prius eratis sicut astra cæli præ multitudine, quoniam non audisti vocem Domini Dei tui.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">And you shall remain few in number, who before were as the stars of heaven for multitude, because thou heardst not the voice of the Lord thy God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">only a few will be left out of a number that was countless once as the stars in heaven, because thou wouldst not listen to the Lord thy God.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">Et sicut ante lætatus est Dominus super vos, bene vobis faciens, vosque multiplicans: sic lætabitur disperdens vos atque subvertens, ut auferamini de terra, ad quam ingredieris possidendam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">And as the Lord rejoiced upon you before doing good to you, and multiplying you: so he shall rejoice destroying and bringing you to nought, so that you shall be taken away from the land which thou shalt go in to possess.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">Hitherto the Lord had taken delight in blessing thy race and increasing it; now he will take delight in destroying and overwhelming it, dispossessing it of the land he has given thee for thy home.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">64</div> <div class="vers-content">Disperget te Dominus in omnes populos, a summitate terræ usque ad terminos ejus: et servies ibi diis alienis, quos et tu ignoras et patres tui, lignis et lapidibus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">64</div> <div class="vers-content">The Lord shall scatter thee among all people, from the farthest parts of the earth to the ends thereof: and there thou shalt serve strange gods, which both thou art ignorant of and thy fathers, wood and stone.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">64</div> <div class="vers-content">This way and that, among all the nations from earth’s end to earth’s end, the Lord will scatter it; and in exile thou wilt worship such alien gods as thou and thy fathers never heard of, gods of wood and stone.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">65</div> <div class="vers-content">In gentibus quoque illis non quiesces, neque erit requies vestigio pedis tui. Dabit enim tibi Dominus ibi cor pavidum, et deficientes oculos, et animam consumptam mœrore:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">65</div> <div class="vers-content">Neither shalt thou be quiet, even in those nations, nor shall there be any rest for the sole of thy foot. For the Lord will give thee a fearful heart, and languishing eyes, and a soul consumed with pensiveness:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">65</div> <div class="vers-content">And even there thou wilt find no rest, no sure ground under thy feet. Nought will the Lord leave thee but cowed spirits, and eyes that fail, and a heart eaten up with sorrow.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">66</div> <div class="vers-content">et erit vita tua quasi pendens ante te. Timebis nocte et die, et non credes vitæ tuæ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">66</div> <div class="vers-content">And thy life shall be as it were hanging before thee. Thou shalt fear night and day, neither shalt thou trust thy life.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">66</div> <div class="vers-content">Thou wilt see thy life hanging on a thread; day and night thou wilt go in fear, not counting life itself thy own.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">67</div> <div class="vers-content">Mane dices: Quis mihi det vesperum? et vespere: Quis mihi det mane? propter cordis tui formidinem, qua terreberis, et propter ea, quæ tuis videbis oculis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">67</div> <div class="vers-content">In the morning thou shalt say: Who will grant me evening? and at evening: Who will grant me morning? for the fearfulness of thy heart, wherewith thou shalt be terrified, and for those things which thou shalt see with thy eyes.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">67</div> <div class="vers-content">In the morning thou wilt say? Will it never be evening? and in the evening, Will it never be morning? such will be the terrors that daunt thee, so cruel the sights that meet thy eyes.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">68</div> <div class="vers-content">Reducet te Dominus classibus in Ægyptum per viam de qua dixit tibi ut eam amplius non videres. Ibi venderis inimicis tuis in servos et ancillas, et non erit qui emat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">68</div> <div class="vers-content">The Lord shall bring thee again with ships into Egypt, by the way whereof he said to thee that thou shouldst see it no more. There shalt thou be set to sale to thy enemies for bondmen and bondwomen, and no man shall buy you.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">68</div> <div class="vers-content">The Lord will carry thee back over the sea to Egypt, the Lord who once told thee thou shouldst never see that road again. There the men and women of your race shall be slaves, on sale to their enemies, and find no master to buy them.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_27">&lt; prev</a></div>|
+					<div class="chapter">Chapter 28</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_29">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_1">1</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_2">2</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_3">3</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_4">4</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_5">5</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_6">6</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_7">7</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_8">8</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_9">9</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_10">10</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_11">11</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_12">12</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_13">13</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_14">14</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_15">15</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_16">16</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_17">17</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_18">18</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_19">19</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_20">20</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_21">21</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_22">22</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_23">23</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_24">24</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_25">25</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_26">26</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_27">27</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_28" class="active">28</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_29">29</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_30">30</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_31">31</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_32">32</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_33">33</a> <a href="https://web.archive.org/web/20220630102424/http://catholicbible.online/side_by_side/OT/Dt/ch_34">34</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20220630102424im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20220630102424/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20220630102424/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/OT/Dt/ch_28"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20220630102424/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20220630102424im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 10:24:24 Jun 30, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:40:23 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.528
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.013
+  esindex: 0.011
+  cdx.remote: 10.757
+  LoadShardBlock: 124.594 (3)
+  PetaboxLoader3.datanode: 134.394 (4)
+  PetaboxLoader3.resolve: 111.02 (2)
+  load_resource: 138.864
+-->

@@ -1,0 +1,391 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app203.us.archive.org';v.server_ms=536;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online:80/side_by_side/NT/Apoc/ch_22","20191220125201","https://web.archive.org/","web","/_static/",
+	      "1576846321");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20191220125201cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20191220125201cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20191220125201cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20191220125201js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20191220125201js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20191220125201js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20191220125201js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20191220125201js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20191220125201/http%3A//catholicbible.online/side_by_side/NT/Apoc/ch_22"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/NT/Apoc/ch_22" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20191220125201" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20191220125201*/http://catholicbible.online/side_by_side/NT/Apoc/ch_22" title="See a list of every capture for this URL">15 captures</a>
+          <div class="r" title="Timespan for captures of this URL">28 Jul 2017 - 24 May 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20191021040035/http://catholicbible.online:80/side_by_side/NT/Apoc/ch_22" title="21 Oct 2019"><strong>Oct</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 12:52:01 Dec 20, 2019">DEC</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20200218163222/http://catholicbible.online:80/side_by_side/NT/Apoc/ch_22" title="18 Feb 2020"><strong>Feb</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20191021040035/http://catholicbible.online:80/side_by_side/NT/Apoc/ch_22" title="04:00:35 Oct 21, 2019"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 12:52:01 Dec 20, 2019">20</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20200218163222/http://catholicbible.online:80/side_by_side/NT/Apoc/ch_22" title="16:32:22 Feb 18, 2020"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20181028153637/http://catholicbible.online:80/side_by_side/NT/Apoc/ch_22" title="28 Oct 2018"><strong>2018</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 12:52:01 Dec 20, 2019">2019</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20211207120902/http://catholicbible.online/side_by_side/NT/Apoc/ch_22" title="07 Dec 2021"><strong>2021</strong></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20191220125201/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/NT/Apoc/ch_22"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20191220125201/http://catholicbible.online:80/side_by_side/NT/Apoc/ch_22" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20191220125201/http://catholicbible.online:80/side_by_side/NT/Apoc/ch_22" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20191220125201/http://catholicbible.online:80/side_by_side/NT/Apoc/ch_22</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/NT/Apoc/ch_22","20191220125201",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/vulgate?bible_part_no=2&amp;book_no=27&amp;chapter_no=22" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/douay_rheims?bible_part_no=2&amp;book_no=27&amp;chapter_no=22" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/knox?bible_part_no=2&amp;book_no=27&amp;chapter_no=22" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side?bible_part_no=2&amp;book_no=27&amp;chapter_no=22" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20191220125201/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Apocalypse</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Lk">Luke</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Jud">Jude</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Apocalypse of St. John the Apostle — Apocalypsis B. Joannis Apostoli </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_21">&lt; prev</a></div>|
+					<div class="chapter">Chapter 22</div>
+					|<div class="next-chapter"></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_1">1</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_2">2</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_3">3</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_4">4</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_5">5</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_6">6</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_7">7</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_8">8</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_9">9</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_10">10</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_11">11</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_12">12</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_13">13</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_14">14</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_15">15</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_16">16</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_17">17</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_18">18</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_19">19</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_20">20</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_21">21</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_22" class="active">22</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Douay-Rheims<a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_22?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_22?act_indx=1&amp;act=-1" class="left">&lt;</a>Knox Bible<a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_22?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_22?act_indx=2&amp;act=-1" class="left">&lt;</a>Vulgate</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">And  he shewed me a river of water of life, clear as crystal, proceeding from the throne of God and of the Lamb.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">He shewed me, too, a river, whose waters give life; it flows, clear as crystal, from the throne of God, from the throne of the Lamb.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Et ostendit mihi fluvium aquæ vitæ, splendidum tamquam crystallum, procedentem de sede Dei et Agni.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">In the midst of the street thereof, and on both sides of the river, was the tree of life, bearing twelve fruits, yielding its fruits every month, and the leaves of the tree were for the healing of the nations.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">On either side of the river, mid-way along the city street, grows the tree that gives life, bearing its fruit twelvefold, one yield for each month. And the leaves of this tree bring health to all the nations. </div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">In medio plateæ ejus, et ex utraque parte fluminis, lignum vitæ, afferens fructus duodecim per menses singulos, reddens fructum suum et folia ligni ad sanitatem gentium.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">And there shall be no curse any more; but the throne of God and of the Lamb shall be in it, and his servants shall serve him.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">No longer can there be any profanation in that city; God’s throne (which is the Lamb’s throne) will be there, with his servants to worship him,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Et omne maledictum non erit amplius: sed sedes Dei et Agni in illa erunt, et servi ejus servient illi.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">And they shall see his face: and his name shall be on their foreheads.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">and to see his face, his name written on their foreheads.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Et videbunt faciem ejus: et nomen ejus in frontibus eorum.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">And night shall be no more: and they shall not need the light of the lamp, nor the light of the sun, because the Lord God shall enlighten them, and they shall reign for ever and ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">There will be no more night, no more need of light from lamp or sun; the Lord God will shed his light on them, and they will reign for ever and ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Et nox ultra non erit: et non egebunt lumine lucernæ, neque lumine solis, quoniam Dominus Deus illuminabit illos, et regnabunt in sæcula sæculorum.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">And he said to me: These words are most faithful and true. And the Lord God of the spirits of the prophets sent his angel to shew his servant the things which must be done shortly.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Then the angel said to me, These words are sure and true. The Lord God who inspires his prophets has sent his angel to tell his servants what must soon find its due accomplishment. </div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Et dixit mihi: Hæc verba fidelissima sunt, et vera. Et Dominus Deus spirituum prophetarum misit angelum suum ostendere servis suis quæ oportet fieri cito.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">And, Behold I come quickly. Blessed is he that keepeth the words of the prophecy of this book.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Patience, I am coming soon. Blessed is he who holds fast the words of prophecy this book contains.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Et ecce venio velociter. Beatus, qui custodit verba prophetiæ libri hujus.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">And I, John, who have heard and seen these things. And after I had heard and seen, I fell down to adore before the feet of the angel, who shewed me these things.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">All this I, John, heard and saw, till, hearing and seeing it, I fell down as if to worship at the feet of the angel who revealed it to me.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Et ego Joannes, qui audivi, et vidi hæc. Et postquam audissem, et vidissem, cecidi ut adorarem ante pedes angeli, qui mihi hæc ostendebat:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">And he said to me: See thou do it not: for I am thy fellow servant, and of thy brethren the prophets, and of them that keep the words of the prophecy of this book. Adore God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">But he said, Never that; I am only a fellow servant of thine, and of thy brother prophets, and of all who hold fast the words which this book contains. Keep thy worship for God.  </div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">et dixit mihi: Vide ne feceris: conservus enim tuus sum, et fratrum tuorum prophetarum, et eorum qui servant verba prophetiæ libri hujus: Deum adora.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">And he saith to me: Seal not the words of the prophecy of this book: for the time is at hand.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Then the command came to me, Do not seal up the words of prophecy that are contained in this book; the time is close at hand. </div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Et dicit mihi: Ne signaveris verba prophetiæ libri hujus: tempus enim prope est.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">He that hurteth, let him hurt still: and he that is filthy, let him be filthy still: and he that is just, let him be justified still: and he that is holy, let him be sanctified still.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Meanwhile, the wrong-doer must persist in his deeds of wrong, the corrupt in his corruption, the just man in winning his justification, the holy in his life of holiness.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Qui nocet, noceat adhuc: et qui in sordibus est, sordescat adhuc: et qui justus est, justificetur adhuc: et sanctus, sanctificetur adhuc.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Behold, I come quickly; and my reward is with me, to render to every man according to his works.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Patience, I am coming soon; and with me comes the award I make, repaying each man according to the life he has lived.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Ecce venio cito, et merces mea mecum est, reddere unicuique secundum opera sua.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">I am Alpha and Omega, the first and the last, the beginning and the end.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">I am Alpha, I am Omega, I am before all, I am at the end of all, the beginning of all things and their end.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Ego sum alpha et omega, primus et novissimus, principium et finis.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Blessed are they that wash their robes in the blood of the Lamb: that they may have a right to the tree of life, and may enter in by the gates into the city.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Blessed are those who wash their garments in the blood of the Lamb; so they will have access to the tree which gives life, and find their way through the gates into the city. </div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Beati, qui lavant stolas suas in sanguine Agni: ut sit potestas eorum in ligno vitæ, et per portas intrent in civitatem.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Without are dogs, and sorcerers, and unchaste, and murderers, and servers of idols, and every one that loveth and maketh a lie.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">No room there for prowling dogs, for sorcerers and wantons and murderers and idolaters, for anyone who loves falsehood and lives in it.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Foris canes, et venefici, et impudici, et homicidæ, et idolis servientes, et omnis qui amat et facit mendacium.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">I Jesus have sent my angel, to testify to you these things in the churches. I am the root and stock of David, the bright and morning star.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">I, Jesus, have sent my angel to give you the assurance of this in your churches; I, the root, I, the offspring of David’s race, I, the bright star that brings in the day.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Ego Jesus misi angelum meum testificari vobis hæc in ecclesiis. Ego sum radix, et genus David, stella splendida et matutina.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">And the spirit and the bride say: Come. And he that heareth, let him say: Come. And he that thirsteth, let him come: and he that will, let him take the water of life, freely.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">The Spirit and my bride bid me come; let everyone who hears this read out say, Come. Come, you who are thirsty, take, you who will, the water of life; it is my free gift.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Et spiritus, et sponsa dicunt: Veni. Et qui audit, dicat: Veni. Et qui sitit, veniat: et qui vult, accipiat aquam vitæ, gratis.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">For I testify to every one that heareth the words of the prophecy of this book: If any man shall add to these things. God shall add unto him the plagues written in this book.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">To all who hear the words of prophecy this book contains, I give this warning. If anyone adds to them, God will add to his punishment the plagues which this book threatens;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Contestor enim omni audienti verba prophetiæ libri hujus: si quis apposuerit ad hæc, apponet Deus super illum plagas scriptas in libro isto.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">And if any man shall take away from the words of the book of this prophecy, God shall take away his part out of the book of life, and out of the holy city, and from these things that are written in this book.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">and if anyone cancels a word in this book of prophecy, God will cancel his share in the book of life, in the holy city, in all that this book promises. </div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Et si quis diminuerit de verbis libri prophetiæ hujus, auferet Deus partem ejus de libro vitæ, et de civitate sancta, et de his quæ scripta sunt in libro isto:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">He that giveth testimony of these things, saith, Surely I come quickly: Amen. Come, Lord Jesus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">And he who gives this warning says, Indeed I am coming soon. Be it so, then; come, Lord Jesus. </div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">dicit qui testimonium perhibet istorum. Etiam venio cito: amen. Veni, Domine Jesu.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">The grace of our Lord Jesus Christ be with you all. Amen.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">May the grace of our Lord Jesus Christ be with you all. Amen.  </div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Gratia Domini nostri Jesu Christi cum omnibus vobis. Amen.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_21">&lt; prev</a></div>|
+					<div class="chapter">Chapter 22</div>
+					|<div class="next-chapter"></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_1">1</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_2">2</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_3">3</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_4">4</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_5">5</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_6">6</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_7">7</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_8">8</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_9">9</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_10">10</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_11">11</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_12">12</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_13">13</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_14">14</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_15">15</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_16">16</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_17">17</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_18">18</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_19">19</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_20">20</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_21">21</a> <a href="https://web.archive.org/web/20191220125201/http://catholicbible.online/side_by_side/NT/Apoc/ch_22" class="active">22</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20191220125201im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20191220125201/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20191220125201/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/NT/Apoc/ch_22"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20191220125201/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20191220125201im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 12:52:01 Dec 20, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:24:41 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.468
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.015
+  esindex: 0.01
+  cdx.remote: 271.889
+  LoadShardBlock: 119.661 (3)
+  PetaboxLoader3.datanode: 152.145 (4)
+  load_resource: 117.7
+  PetaboxLoader3.resolve: 73.639
+-->

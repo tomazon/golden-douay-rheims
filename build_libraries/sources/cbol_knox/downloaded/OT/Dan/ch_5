@@ -1,0 +1,479 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app219.us.archive.org';v.server_ms=252;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/knox/OT/Dan/ch_5","20220702014309","https://web.archive.org/","web","/_static/",
+	      "1656726189");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Knox Bible</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20220702014309cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20220702014309cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20220702014309cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20220702014309js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220702014309js_/http://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220702014309js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220702014309js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220702014309js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220702014309js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20220702014309/http%3A//catholicbible.online/knox/OT/Dan/ch_5"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/knox/OT/Dan/ch_5" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20220702014309" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20220702014309*/http://catholicbible.online/knox/OT/Dan/ch_5" title="See a list of every capture for this URL">2 captures</a>
+          <div class="r" title="Timespan for captures of this URL">18 Jan 2022 - 02 Jul 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20220118220730/http://catholicbible.online/knox/OT/Dan/ch_5" title="18 Jan 2022"><strong>Jan</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 01:43:09 Jul 02, 2022">JUL</td>
+            <td class="f" nowrap="nowrap">Aug</td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20220118220730/http://catholicbible.online/knox/OT/Dan/ch_5" title="22:07:30 Jan 18, 2022"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 01:43:09 Jul 02, 2022">02</td>
+            <td class="f" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0" /></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap">2021</td>
+            <td class="c" id="displayYearEl" title="You are here: 01:43:09 Jul 02, 2022">2022</td>
+            <td class="f" nowrap="nowrap">2023</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20220702014309/http://web.archive.org/screenshot/http://catholicbible.online/knox/OT/Dan/ch_5"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_5" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_5" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_5</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/knox/OT/Dan/ch_5","20220702014309",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<script>
+	var comments={
+			1950: {
+				id_comment: 1950,
+				source_str: '✻',
+				caption: '',
+				content: "In the Aramaic text, ‘and (the king) drank wine in the presence of all the thousand’."
+			},
+					1951: {
+				id_comment: 1951,
+				source_str: '✻',
+				caption: '',
+				content: "If the event here referred to is the well-known capture of Babylon by Cyrus, Darius the Mede should perhaps be identified with Gobryas, a general of his who took command of the city after its capture. It is not impossible that a short-lived ‘Median’ empire may have intervened between that of Babylon and that of Persia, but the monuments reveal no trace of it; and the sacred writers appear to regard the Medes and Persians as already, for political purposes, a single nation."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Knox Bible</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=32&amp;chapter_no=5" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=32&amp;chapter_no=5" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=32&amp;chapter_no=5" class="menu-item active">Knox Bible</a>
+					<a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=32&amp;chapter_no=5" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20220702014309/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Daniel</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Jos">Josue</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/1_Par">1 Paralipomena</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/2_Par">2 Paralipomena</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Neh">2 Esdras (Nehemias)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Cant">Song of Songs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Eccle">Ecclesiasticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Eze">Ezechiel</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Mic">Michaeas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Agg">Aggaeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/7805?vers_inline=1"><img src="https://web.archive.org/web/20220702014309im_/http://catholicbible.online/assets/img/para.jpg" alt=""/></a>					<a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/7805?comments_open=1"><img src="https://web.archive.org/web/20220702014309im_/http://catholicbible.online/assets/img/C-off.gif" alt=""/></a>				</div>
+				<div class="bible-name">The Holy Bible – Knox Translation</div>
+				<div class="book-name">The Prophecy of Daniel </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/7804">&lt; prev</a></div>|
+					<div class="chapter">Chapter 5</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/7806">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_1">1</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_2">2</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_3">3</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_4">4</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_5" class="active">5</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_6">6</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_7">7</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_8">8</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_9">9</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_10">10</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_11">11</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_12">12</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_13">13</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_14">14</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers169392" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">Now turn we to king Baltassar, that made great cheer for courtiers of his a thousand, each man drinking wine as his rank entitled him.<a href="" class="inline-comment" data-comment-id="1950">✻</a></div>
+					</div>
+									<div id="vers169393" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">And he, in his cups, would have the spoils of the old temple at Jerusalem brought in, cups of gold, cups of silver that his father Nabuchodonosor had carried away; king and court, wife and concubine should drink from them.</div>
+					</div>
+									<div id="vers169394" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">Brought in they were, all the spoils of Jerusalem; king and courtier, wife and concubine, drank from those vessels;</div>
+					</div>
+									<div id="vers169395" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">drank, and to their own gods gave the praise, gods of gold and silver, bronze and iron, wood and stone.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers169396" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">Then, in that hour, an apparition came to them. They saw the fingers of a man’s hand writing on the plaster of the palace wall, full in the lamp’s light; joints of a hand that wrote there the king could not choose but see.</div>
+					</div>
+									<div id="vers169397" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">All at once he changed colour, a prey to anxious thoughts; melted his heart within him, and his knees knocked together.</div>
+					</div>
+									<div id="vers169398" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">With a loud cry, he bade them summon the wise men of Babylon, sage and astrologer and diviner; and to these he made proclamation: Who reads me yonder writing, and tells me the meaning of it, shall go clad in purple, a gold chain about his neck, and hold the third place in my kingdom.</div>
+					</div>
+									<div id="vers169399" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">But when they came into the banqueting-hall, never a wise head among them could read the characters, nor tell the king what they meant;</div>
+					</div>
+									<div id="vers169400" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">whereupon king Baltassar was in a great taking of fear, his cheeks paler yet, and his princes were no easier in mind than himself.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers169401" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">But now all this ado brought the queen-mother down into the banqueting-hall; Long life to the king’s grace! cried she; here is no need for daunted hearts and pale looks!</div>
+					</div>
+									<div id="vers169402" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">One man thou hast in thy realm the holy gods inspire; in thy father’s time, good proof he gave of the wisdom and learning that were his. Did not thy father, king Nabuchodonosor, put him at the head of his wise men one and all, sage nor wizard nor astrologer nor soothsayer to match him? In such renown thy royal father held him, my lord king;</div>
+					</div>
+									<div id="vers169403" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">no common spirit is his, no common prudence and discernment, dreams to interpret, hidden things to reveal, spells to unbind. For his name, it is Daniel; thy father called him Baltassar. Let Daniel be summoned, and thy riddle shall not long go unread.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers169404" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">So Daniel was brought into the king’s presence, and the king asked him if Daniel he were, one of the Jewish exiles his father had brought to Babylon?</div>
+					</div>
+									<div id="vers169405" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">Great things were told of him; that he had the spirit of the gods, gave proof of skill, discernment and wisdom above the common.</div>
+					</div>
+									<div id="vers169406" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">And here was certain writing, that had baffled sage and diviner called in to read them; meaning of it they could not tell.</div>
+					</div>
+									<div id="vers169407" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">If Daniel had skill indeed to reveal mysteries and unbind spells, let him read those characters and interpret them; robe of purple he should have, and a gold chain about his neck, and hold the third place in the kingdom.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers169408" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">But Daniel spoke out, there in the king’s presence: Purple and gold keep for thyself; and for thy honours, let him have them who will. But for the writing, I will read it willingly, and tell thee the meaning of it.</div>
+					</div>
+									<div id="vers169409" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">Sir king, thy father was Nabuchodonosor; to him the most High gave royal state, and splendid renown;</div>
+					</div>
+									<div id="vers169410" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">for that renown of his, every people and race and tribe must tremble in awe of him; slew he, smote he, exalted he, abased he, all he would.</div>
+					</div>
+									<div id="vers169411" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">With that, his heart beat high; proud grew his will and obstinate; and the issue of it? From that throne he must come down, be shorn of that glory;</div>
+					</div>
+									<div id="vers169412" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">cast out henceforth from the haunts of men. Heart of beast the heart of him; dwelling-place of wild ass should be his, food of the ox; and the dews of heaven should drench him, till he had learned that the most High is overlord of all human kingship, grants it to whom he will.</div>
+					</div>
+									<div id="vers169413" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">All this, Baltassar, thou knewest, yet son no more than father would abate his pride;</div>
+					</div>
+									<div id="vers169414" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">heaven’s Ruler defying, thou wouldst bring out yonder cups, the spoil of his temple, to serve wine for thee and thy court, for wife and concubine. Gods of silver and gold, bronze and iron, stone and wood, that cannot see or hear or feel, thou wouldst magnify; for the God that holds thy life, thy fortunes, in his keeping, never a word of praise.</div>
+					</div>
+									<div id="vers169415" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">That is why the hand appeared to thee, fingers that wrote what there stands written.</div>
+					</div>
+									<div id="vers169416" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">This is the charactery of it: Mané, Thecel, Phares.</div>
+					</div>
+									<div id="vers169417" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">Mané betokens numbering; so many years allotted to thy empire, and now God has brought them to an end.</div>
+					</div>
+									<div id="vers169418" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">And thecel, weighing; the equal of his benefits God demands, and has not found in thee.</div>
+					</div>
+									<div id="vers169419" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">And phares, rending; Persian and Mede shall be thy successors in the kingdom that is torn from thy grasp.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers169420" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">With that, at the royal bidding, they clothed Daniel in purple, and hung a chain of gold about his neck; proclamation, too, was made that he held the third place in the kingdom.</div>
+					</div>
+									<div id="vers169421" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">But that same night Baltassar, the Chaldaean king, was slain,</div>
+					</div>
+									<div id="vers169422" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">and his crown passed to Darius, a Mede, then in the sixty-third year of his age.<a href="" class="inline-comment" data-comment-id="1951">✻</a> <span class="content-paragraph"><br><br></span></div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_4">&lt; prev</a></div>|
+					<div class="chapter">Chapter 5</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_6">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_1">1</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_2">2</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_3">3</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_4">4</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_5" class="active">5</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_6">6</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_7">7</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_8">8</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_9">9</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_10">10</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_11">11</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_12">12</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_13">13</a> <a href="https://web.archive.org/web/20220702014309/http://catholicbible.online/knox/OT/Dan/ch_14">14</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20220702014309im_/http://catholicbible.online/assets/img/knox.jpg" alt="" width="130" height="210"/></p>
+	<p><span class="advert-text"><strong>The Holy Bible </strong> <br/>
+          Knox Translation</span><br/>
+	</p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20220702014309/https://www.baroniuspress.com/book.php?wid=56&amp;bid=60#tab=tab-1" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20220702014309/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/knox/OT/Dan/ch_5"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20220702014309/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20220702014309im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 01:43:09 Jul 02, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:20:24 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.47
+  exclusion.robots: 0.027
+  exclusion.robots.policy: 0.016
+  esindex: 0.01
+  cdx.remote: 19.056
+  LoadShardBlock: 101.761 (3)
+  PetaboxLoader3.datanode: 107.681 (4)
+  PetaboxLoader3.resolve: 69.05 (2)
+  load_resource: 99.881
+-->

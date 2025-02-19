@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online â Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+	};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=1&book_no=10&chapter_no=11" class="menu-item ">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=1&book_no=10&chapter_no=11" class="menu-item active">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=1&book_no=10&chapter_no=11" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=1&book_no=10&chapter_no=11" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">2 Kings</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/douay_rheims/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/10470?vers_inline=1"><img src="https://catholicbible.online/assets/img/para.jpg" alt="" /></a>					<a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/10470?comments_open=1"><img src="https://catholicbible.online/assets/img/C-off.gif" alt="" /></a>				</div>
+				<div class="bible-name">The Holy Bible â DouayâRheims version</div>
+				<div class="book-name">The Second Book of Kings</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/10469">&lt; prev</a></div>|
+					<div class="chapter">Chapter 11</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/10471">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_3">3</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_4">4</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_5">5</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_6">6</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_7">7</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_8">8</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_9">9</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_10">10</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_11" class="active">11</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_12">12</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_13">13</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_14">14</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_15">15</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_16">16</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_17">17</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_18">18</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_19">19</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_20">20</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_21">21</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_22">22</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_23">23</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_24">24</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers240278" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">And  it came to pass at the return of the year, at the time when kings go forth to war, that David sent Joab and his servants with him, and all Israel, and they spoiled the children of Ammon, and besieged Rabba: but David remained in Jerusalem.</div>
+					</div>
+									<div id="vers240279" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">In the mean time it happened that David arose from his bed after noon, and walked upon the roof of the kingâs house: and he saw from the roof of his house a woman washing herself, over against him: and the woman was very beautiful.</div>
+					</div>
+									<div id="vers240280" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">And the king sent, and inquired who the woman was. And it was told him, that she was Bethsabee the daughter of Eliam, the wife of Urias the Hethite.</div>
+					</div>
+									<div id="vers240281" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">And David sent messengers, and took her, and she came in to him, and he slept with her: and presently she was purified from her uncleanness:</div>
+					</div>
+									<div id="vers240282" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">And she returned to her house having conceived. And she sent and told David, and said: I have conceived.</div>
+					</div>
+									<div id="vers240283" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">And David sent to Joab, saying: Send me Urias the Hethite. And Joab sent Urias to David.</div>
+					</div>
+									<div id="vers240284" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">And Urias came to David. And David asked how Joab did, and the people, and how the war was carried on.</div>
+					</div>
+									<div id="vers240285" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">And David said to Urias: Go into thy house, and wash thy feet. And Urias went out from the kingâs house, and there went out after him a mess of meat from the king.</div>
+					</div>
+									<div id="vers240286" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">But Urias slept before the gate of the kingâs house, with the other servants of his lord, and went not down to his own house.</div>
+					</div>
+									<div id="vers240287" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">And it was told David by some that said: Urias went not to his house. And David said to Urias: Didst thou not come from thy journey? why didst thou not go down to thy house?</div>
+					</div>
+									<div id="vers240288" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">And Urias said to David: The ark of God and Israel and Juda dwell in tents, and my lord Joab and the servants of my lord abide upon the face of the earth: and shall I go into my house, to eat and to drink, and to sleep with my wife? By thy welfare and by the welfare of thy soul I will not do this thing.</div>
+					</div>
+									<div id="vers240289" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">Then David said to Urias: Tarry here to day, and to morrow I will send thee away. Urias tarried in Jerusalem that day and the next.</div>
+					</div>
+									<div id="vers240290" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">And David called him to eat and to drink before him, and he made him drunk: and he went out in the evening, and slept on his couch with the servants of his lord, and went not down into his house.</div>
+					</div>
+									<div id="vers240291" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">And when the morning was come, David wrote a letter to Joab: and sent it by the hand of Urias,</div>
+					</div>
+									<div id="vers240292" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">Writing in the letter: Set ye Urias in the front of the battle, where the fight is strongest: and leave ye him, that he may be wounded and die.</div>
+					</div>
+									<div id="vers240293" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">Wherefore as Joab was besieging the city, he put Urias in the place where he knew the bravest men were.</div>
+					</div>
+									<div id="vers240294" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">And the men coming out of the city, fought against Joab, and there fell some of the people of the servants of David, and Urias the Hethite was killed also.</div>
+					</div>
+									<div id="vers240295" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">Then Joab sent, and told David all things concerning the battle.</div>
+					</div>
+									<div id="vers240296" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">And he charged the messenger, saying: When thou hast told all the words of the battle to the king,</div>
+					</div>
+									<div id="vers240297" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">If thou see him to be angry, and he shall say: Why did you approach so near to the wall to fight? knew you not that many darts are thrown from above off the wall?</div>
+					</div>
+									<div id="vers240298" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">Who killed Abimelech the son of Jerobaal? did not a woman cast a piece of a millstone upon him from the wall, and slew him in Thebes? Why did you go near the wall? Thou shalt say: Thy servant Urias the Hethite is also slain.</div>
+					</div>
+									<div id="vers240299" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">So the messenger departed, and came and told David all that Joab had commanded him.</div>
+					</div>
+									<div id="vers240300" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">And the messenger said to David: The men prevailed against us, and they came out to us into the field: and we vigorously charged and pursued them even to the gate of the city.</div>
+					</div>
+									<div id="vers240301" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">And the archers shot their arrows at thy servants from off the wall above: and some of the kingâs servants are slain, and thy servant Urias the Hethite is also dead.</div>
+					</div>
+									<div id="vers240302" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">And David said to the messenger: Thus shalt thou say to Joab: Let not this thing discourage thee: for various is the event of war: and sometimes one, sometimes another is consumed by the sword: encourage thy warriors against the city, and exhort them that thou mayest overthrow it.</div>
+					</div>
+									<div id="vers240303" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">And the wife of Urias heard that Urias her husband was dead, and she mourned for him.</div>
+					</div>
+									<div id="vers240304" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">And the mourning being over, David sent and brought her into his house, and she became his wife, and she bore him a son: and this thing which David had done, was displeasing to the Lord.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_10">&lt; prev</a></div>|
+					<div class="chapter">Chapter 11</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_12">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_3">3</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_4">4</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_5">5</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_6">6</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_7">7</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_8">8</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_9">9</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_10">10</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_11" class="active">11</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_12">12</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_13">13</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_14">14</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_15">15</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_16">16</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_17">17</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_18">18</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_19">19</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_20">20</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_21">21</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_22">22</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_23">23</a> <a href="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_24">24</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="130" height="210" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br />
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br />
+        Flexible Cover</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-bible.html" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = 0;
+</script>		<div class="copyright">2015 - 2024 Â© CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/douay_rheims/OT/2_Kgs/ch_11"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>

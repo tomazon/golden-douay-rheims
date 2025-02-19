@@ -1,0 +1,427 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app202.us.archive.org';v.server_ms=1376;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/douay_rheims/OT/Zac/ch_6","20220126164704","https://web.archive.org/","web","/_static/",
+	      "1643215624");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20220126164704cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20220126164704cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20220126164704cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20220126164704js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220126164704js_/http://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220126164704js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220126164704js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220126164704js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220126164704js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20220126164704/http%3A//catholicbible.online/douay_rheims/OT/Zac/ch_6"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/douay_rheims/OT/Zac/ch_6" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20220126164704" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20220126164704*/http://catholicbible.online/douay_rheims/OT/Zac/ch_6" title="See a list of every capture for this URL">1 capture</a>
+          <div class="r" title="Timespan for captures of this URL">26 Jan 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap">Dec</td>
+            <td class="c" id="displayMonthEl" title="You are here: 16:47:04 Jan 26, 2022">JAN</td>
+            <td class="f" nowrap="nowrap">Feb</td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" /></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 16:47:04 Jan 26, 2022">26</td>
+            <td class="f" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0" /></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap">2021</td>
+            <td class="c" id="displayYearEl" title="You are here: 16:47:04 Jan 26, 2022">2022</td>
+            <td class="f" nowrap="nowrap">2023</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20220126164704/http://web.archive.org/screenshot/http://catholicbible.online/douay_rheims/OT/Zac/ch_6"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_6" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_6" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_6</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/douay_rheims/OT/Zac/ch_6","20220126164704",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<script>
+	var comments={
+			5040: {
+				id_comment: 5040,
+				source_str: 'four chariots',
+				caption: 'Four chariots.',
+				content: "The four great empires of the Chaldeans, Persians, Grecians, and Romans. Or perhaps by the fourth chariot are represented the kings of Egypt and of Asia, the descendants of Ptolemeus and Seleucus."
+			},
+					5041: {
+				id_comment: 5041,
+				source_str: 'the land of the north',
+				caption: 'The land of the north.',
+				content: "So<I> Babylon</I> is called; because it lay to the north in respect of Jerusalem. The black horses, that is, the Medes and Persians: and after them Alexander and his Greeks, signified by the white horses, went thither because they conquered Babylon, executed upon it the judgments of God, which is signified, ver. 8, by the expression of <I>quieting his spirit</I>. "
+			},
+					5042: {
+				id_comment: 5042,
+				source_str: 'the land of the south',
+				caption: 'The land of the south.',
+				content: "Egypt, which lay to the south of Jerusalem, and was occupied first by Ptolemeus, and then by the Romans."
+			},
+					5043: {
+				id_comment: 5043,
+				source_str: 'between them both',
+				caption: 'Between them both.',
+				content: "That is, he shall unite in himself the two offices or dignities of king and priest."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=43&amp;chapter_no=6" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=43&amp;chapter_no=6" class="menu-item active">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=43&amp;chapter_no=6" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=43&amp;chapter_no=6" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20220126164704/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Zacharias</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Agg">Aggeus</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/10186?vers_inline=1"><img src="https://web.archive.org/web/20220126164704im_/http://catholicbible.online/assets/img/para.jpg" alt=""/></a>					<a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/10186?comments_open=1"><img src="https://web.archive.org/web/20220126164704im_/http://catholicbible.online/assets/img/C-off.gif" alt=""/></a>				</div>
+				<div class="bible-name">The Holy Bible – Douay‐Rheims version</div>
+				<div class="book-name">The Prophecy of Zacharias</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/10185">&lt; prev</a></div>|
+					<div class="chapter">Chapter 6</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/10187">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_1">1</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_2">2</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_3">3</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_4">4</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_5">5</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_6" class="active">6</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_7">7</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_8">8</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_9">9</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_10">10</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_11">11</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_12">12</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_13">13</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_14">14</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers232307" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">And I turned, and lifted up my eyes, and saw: and behold <a href="" class="inline-comment" data-comment-id="5040">four chariots</a> came out from the midst of two mountains: and the mountains were mountains of brass.</div>
+					</div>
+									<div id="vers232308" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">In the first chariot were red horses, and in the second chariot black horses.</div>
+					</div>
+									<div id="vers232309" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">And in the third chariot white horses, and in the fourth chariot grisled horses, and strong ones.</div>
+					</div>
+									<div id="vers232310" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">And I answered, and said to the angel that spoke in me: What are these, my lord?</div>
+					</div>
+									<div id="vers232311" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">And the angel answered, and said to me: These are the four winds of the heaven, which go forth to stand before the Lord of all the earth.</div>
+					</div>
+									<div id="vers232312" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">That in which were the black horses went forth into <a href="" class="inline-comment" data-comment-id="5041">the land of the north</a>, and the white went forth after them: and the grisled went forth to <a href="" class="inline-comment" data-comment-id="5042">the land of the south</a>.</div>
+					</div>
+									<div id="vers232313" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">And they that were most strong, went out, and sought to go, and to run to and fro through all the earth. And he said: Go, walk throughout the earth: and they walked throughout the earth.</div>
+					</div>
+									<div id="vers232314" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">And he called me, and spoke to me, saying: Behold they that go forth into the land of the north, have quieted my spirit in the land of the north.</div>
+					</div>
+									<div id="vers232315" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">And the word of the Lord came to me, saying:</div>
+					</div>
+									<div id="vers232316" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">Take of them of the captivity, of Holdai, and of Tobias, and of Idaias; thou shalt come in that day, and shalt go into the house of Josias, the son of Sophonias, who came out of Babylon.</div>
+					</div>
+									<div id="vers232317" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">And thou shalt take gold and silver: and shalt make crowns, and thou shalt set them on the head of Jesus the son ofJosedec, the high priest.</div>
+					</div>
+									<div id="vers232318" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">And thou shalt speak to him, saying: Thus saith the Lord of hosts, saying: BEHOLD A MAN, THE ORIENT IS HIS NAME: and under him shall he spring up, and shall build a temple to the Lord.</div>
+					</div>
+									<div id="vers232319" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">Yea, he shall build a temple to the Lord: and he shall bear the glory, and shall sit, and rule upon his throne: and he shall be a priest upon his throne, and the counsel of peace shall be <a href="" class="inline-comment" data-comment-id="5043">between them both</a>.</div>
+					</div>
+									<div id="vers232320" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">And the crowns shall be to Helem, and Tobias, and Idaias, and to Hem, the son of Sophonias, a memorial in the temple of the Lord.</div>
+					</div>
+									<div id="vers232321" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">And they that are far off, shall come and shall build in the temple of the Lord: and you shall know that the Lord of hosts sent me to you. But this shall come to pass, if hearing you will hear the voice of the Lord your God.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_5">&lt; prev</a></div>|
+					<div class="chapter">Chapter 6</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_7">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_1">1</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_2">2</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_3">3</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_4">4</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_5">5</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_6" class="active">6</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_7">7</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_8">8</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_9">9</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_10">10</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_11">11</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_12">12</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_13">13</a> <a href="https://web.archive.org/web/20220126164704/http://catholicbible.online/douay_rheims/OT/Zac/ch_14">14</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20220126164704im_/http://catholicbible.online/assets/img/douay.jpg" alt="" width="130" height="210"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br/>
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br/>
+        Flexible Cover</span></p>
+	<p><a href="https://web.archive.org/web/20220126164704/https://www.baroniuspress.com/category.php?wid=58&amp;cid=1" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20220126164704/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/douay_rheims/OT/Zac/ch_6"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20220126164704/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20220126164704im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 16:47:04 Jan 26, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:40:36 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.707
+  exclusion.robots: 0.046
+  exclusion.robots.policy: 0.034
+  esindex: 0.013
+  cdx.remote: 13.072
+  LoadShardBlock: 211.818 (3)
+  PetaboxLoader3.datanode: 115.235 (4)
+  PetaboxLoader3.resolve: 1164.093 (2)
+  load_resource: 1121.079
+-->

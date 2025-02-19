@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=2&book_no=22&chapter_no=1" class="menu-item ">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=2&book_no=22&chapter_no=1" class="menu-item ">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=2&book_no=22&chapter_no=1" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=2&book_no=22&chapter_no=1" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">2 Peter</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Lk">Luke</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/side_by_side/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Second Epistle of St. Peter the Apostle — Epistola B. Petri Apostoli Secunda </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"></div>|
+					<div class="chapter">Chapter 1</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/side_by_side/NT/2_Pet/ch_2">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/side_by_side/NT/2_Pet/ch_1" class="active">1</a> <a href="https://catholicbible.online/side_by_side/NT/2_Pet/ch_2">2</a> <a href="https://catholicbible.online/side_by_side/NT/2_Pet/ch_3">3</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://catholicbible.online/side_by_side/NT/2_Pet/ch_1?act_indx=0&act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://catholicbible.online/side_by_side/NT/2_Pet/ch_1?act_indx=1&act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://catholicbible.online/side_by_side/NT/2_Pet/ch_1?act_indx=1&act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://catholicbible.online/side_by_side/NT/2_Pet/ch_1?act_indx=2&act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Simon Petrus, servus et apostolus Jesu Christi, iis qui coæqualem nobiscum sortiti sunt fidem in justitia Dei nostri, et Salvatoris Jesu Christi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Simon  Peter, servant and apostle of Jesus Christ, to them that have obtained equal faith with us in the justice of our God and Saviour Jesus Christ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Simon Peter, a servant and apostle of Jesus Christ, to those who share with us the common privilege of faith, justified as we are by our God and Saviour Jesus Christ; </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Gratia vobis, et pax adimpleatur in cognitione Dei, et Christi Jesu Domini nostri:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Grace to you and peace be accomplished in the knowledge of God and of Christ Jesus our Lord:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Grace and peace be yours abundantly, as you gain fuller knowledge of God, and of Christ Jesus our Lord.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Quomodo omnia nobis divinæ virtutis suæ, quæ ad vitam et pietatem donata sunt, per cognitionem ejus, qui vocavit nos propria gloria, et virtute,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">As all things of his divine power which appertain to life and godliness, are given us, through the knowledge of him who hath called us by his own proper glory and virtue.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">See how all the gifts that make for life and holiness in us belong to his divine power; come to us through fuller knowledge of him, whose own glory and sovereignty have drawn us to himself! </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">per quem maxima, et pretiosa nobis promissa donavit: ut per hæc efficiamini divinæ consortes naturæ: fugientes ejus, quæ in mundo est, concupiscentiæ corruptionem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">By whom he hath given us most great and precious promises: that by these you may be made partakers of the divine nature: flying the corruption of that concupiscence which is in the world.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Through him  God has bestowed on us high and treasured promises; you are to share the divine nature, with the world’s corruption, the world’s passions, left behind.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Vos autem curam omnem subinferentes, ministrate in fide vestra virtutem, in virtute autem scientiam,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">And you, employing all care, minister in your faith, virtue; and in virtue, knowledge;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">And you too have to contribute every effort on your own part, crowning your faith with virtue, and virtue with enlightenment,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">in scientia autem abstinentiam, in abstinentia autem patientiam, in patientia autem pietatem,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">And in knowledge, abstinence; and in abstinence, patience; and in patience, godliness;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">and enlightenment with continence, and continence with endurance, and endurance with holiness,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">in pietate autem amorem fraternitatis, in amore autem fraternitatis caritatem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">And in godliness, love of brotherhood; and in love of brotherhood, charity.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">and holiness with brotherly love, and brotherly love with charity.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Hæc enim si vobiscum adsint, et superent, non vacuos nec sine fructu vos constituent in Domini nostri Jesu Christi cognitione.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">For if these things be with you and abound, they will make you to be neither empty nor unfruitful in the knowledge of our Lord Jesus Christ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Such gifts, when they are yours in full measure, will make you quick and successful pupils, reaching ever closer knowledge of our Lord Jesus Christ;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Cui enim non præsto sunt hæc, cæcus est, et manu tentans, oblivionem accipiens purgationis veterum suorum delictorum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">For he that hath not these things with him, is blind, and groping, having forgotten that he was purged from his old sins.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">he who lacks them is no better than a blind man feeling his way about; his old sins have been purged away, and he has forgotten it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Quapropter fratres, magis satagite ut per bona opera certam vestram vocationem, et electionem faciatis: hæc enim facientes, non peccabitis aliquando.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Wherefore, brethren, labour the more, that by good works you may make sure your calling and election. For doing these things, you shall not sin at any time.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Bestir yourselves then, brethren, ever more eagerly, to ratify God’s calling and choice of you by a life well lived; if you do this, you will make no false step,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Sic enim abundanter ministrabitur vobis introitus in æternum regnum Domini nostri et Salvatoris Jesu Christi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">For so an entrance shall be ministered to you abundantly into the everlasting kingdom of our Lord and Saviour Jesus Christ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">and it will be no grudging entrance that is afforded to you into the kingdom of our Lord and Saviour Jesus Christ.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Propter quod incipiam vos semper commonere de his: et quidem scientes et confirmatos vos in præsenti veritate.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">For which cause I will begin to put you always in remembrance of these things: though indeed you know them, and are confirmed in the present truth.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">I shall never fail, then, to go on reminding you of this, although you know it well, and are firmly grounded in a truth that is present to your minds.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Justum autem arbitror quamdiu sum in hoc tabernaculo, suscitare vos in commonitione:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">But I think it meet as long as I am in this tabernacle, to stir you up by putting you in remembrance.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">I hold it my duty to keep the memory awake in you, while I am still in this brief dwelling-place;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">certus quod velox est depositio tabernaculi mei secundum quod et Dominus noster Jesus Christus significavit mihi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Being assured that the laying away of this my tabernacle is at hand, according as our Lord Jesus Christ also hath signified to me.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">I am assured, by what our Lord Jesus Christ has made known to me, that I must fold my tent before long.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Dabo autem operam et frequenter habere vos post obitum meum, ut horum memoriam faciatis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">And I will endeavour, that you frequently have after my decease, whereby you may keep a memory of these things.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">And I will see to it that, when I am gone, you shall always be able to remember what I have been saying. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Non enim doctas fabulas secuti notam fecimus vobis Domini nostri Jesu Christi virtutem et præsentiam: sed speculatores facti illius magnitudinis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">For we have not by following artificial fables, made known to you the power, and presence of our Lord Jesus Christ; but we were eyewitnesses of his greatness.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">We were not crediting fables of man’s invention, when we preached to you about the power of our Lord Jesus Christ, and about his coming; we had been eye-witnesses of his exaltation.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Accipiens enim a Deo Patre honorem et gloriam, voce delapsa ad eum hujuscemodi a magnifica gloria: Hic est Filius meus dilectus, in quo mihi complacui, ipsum audite.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">For he received from God the Father honour and glory: this voice coming down to him from the excellent glory: This is my beloved Son, in whom I am well pleased; hear ye him.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Such honour, such glory was bestowed on him by God the Father, that a voice came to him out of the splendour which dazzles human eyes; This, it said, is my beloved Son, in whom I am well pleased; to him, then, listen. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Et hanc vocem nos audivimus de cælo allatam, cum essemus cum ipso in monte sancto.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">And this voice we heard brought from heaven, when we were with him in the holy mount.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">We, his companions on the holy mountain, heard that voice coming from heaven,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Et habemus firmiorem propheticum sermonem: cui benefacitis attendentes quasi lucernæ lucenti in caliginoso loco donec dies elucescat, et lucifer oriatur in cordibus vestris:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">And we have the more firm prophetical word: whereunto you do well to attend, as to a light that shineth in a dark place, until the day dawn, and the day star arise in your hearts:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">and now the word of the prophets gives us more confidence than ever.  It is with good reason that you are paying so much attention to that word; it will go on shining, like a lamp in some darkened room, until the dawn breaks, and the day-star rises in your hearts.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">hoc primum intelligentes quod omnis prophetia Scripturæ propria interpretatione non fit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Understanding this first, that no prophecy of scripture is made by private interpretation.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Yet always you must remember this, that no prophecy in scripture is the subject of private interpretation.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Non enim voluntate humana allata est aliquando prophetia: sed Spiritu Sancto inspirati, locuti sunt sancti Dei homines.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">For prophecy came not by the will of man at any time: but the holy men of God spoke, inspired by the Holy Ghost.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">It was never man’s impulse, after all, that gave us prophecy; men gave it utterance, but they were men whom God had sanctified, carried away, as they spoke, by the Holy Spirit.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"></div>|
+					<div class="chapter">Chapter 1</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/side_by_side/NT/2_Pet/ch_2">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/side_by_side/NT/2_Pet/ch_1" class="active">1</a> <a href="https://catholicbible.online/side_by_side/NT/2_Pet/ch_2">2</a> <a href="https://catholicbible.online/side_by_side/NT/2_Pet/ch_3">3</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="144" height="220" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br />
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-clementina-vulgata.html" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2015 - 2024 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/side_by_side/NT/2_Pet/ch_1"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>

@@ -1,0 +1,599 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app210.us.archive.org';v.server_ms=358;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/douay_rheims/OT/Jer/ch_51","20220928100724","https://web.archive.org/","web","/_static/",
+	      "1664359644");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20220928100724cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20220928100724cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20220928100724cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20220928100724js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220928100724js_/http://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220928100724js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220928100724js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220928100724js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220928100724js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20220928100724/http%3A//catholicbible.online/douay_rheims/OT/Jer/ch_51"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/douay_rheims/OT/Jer/ch_51" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20220928100724" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20220928100724*/http://catholicbible.online/douay_rheims/OT/Jer/ch_51" title="See a list of every capture for this URL">3 captures</a>
+          <div class="r" title="Timespan for captures of this URL">26 Jun 2022 - 25 Sep 2023</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20220626143905/http://catholicbible.online/douay_rheims/OT/Jer/ch_51" title="26 Jun 2022"><strong>Jun</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 10:07:24 Sep 28, 2022">SEP</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20230925033511/http://catholicbible.online/douay_rheims/OT/Jer/ch_51" title="25 Sep 2023"><strong>Sep</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20220626143905/http://catholicbible.online/douay_rheims/OT/Jer/ch_51" title="14:39:05 Jun 26, 2022"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 10:07:24 Sep 28, 2022">28</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20230925033511/http://catholicbible.online/douay_rheims/OT/Jer/ch_51" title="03:35:11 Sep 25, 2023"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap">2021</td>
+            <td class="c" id="displayYearEl" title="You are here: 10:07:24 Sep 28, 2022">2022</td>
+            <td class="f" nowrap="nowrap">2023</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20220928100724/http://web.archive.org/screenshot/http://catholicbible.online/douay_rheims/OT/Jer/ch_51"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/ch_51" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/ch_51" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/ch_51</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/douay_rheims/OT/Jer/ch_51","20220928100724",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<script>
+	var comments={
+	};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=28&amp;chapter_no=51" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=28&amp;chapter_no=51" class="menu-item active">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=28&amp;chapter_no=51" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=28&amp;chapter_no=51" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20220928100724/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Jeremias</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Isa">Isaias</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/10057?vers_inline=1"><img src="https://web.archive.org/web/20220928100724im_/http://catholicbible.online/assets/img/para.jpg" alt=""/></a>					<a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/10057?comments_open=1"><img src="https://web.archive.org/web/20220928100724im_/http://catholicbible.online/assets/img/C-off.gif" alt=""/></a>				</div>
+				<div class="bible-name">The Holy Bible – Douay‐Rheims version</div>
+				<div class="book-name">The Prophecy of Jeremias</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/10056">&lt; prev</a></div>|
+					<div class="chapter">Chapter 51</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/10058">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/ch_1">1-50</a> <a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/ch_51" class="active">51</a> <a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/ch_52">52</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers229185" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">Thus  saith the Lord: Behold I will raise up as it were a pestilential wind against Babylon and against the inhabitants thereof, who have lifted up their heart against me.</div>
+					</div>
+									<div id="vers229186" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">And I will send to Babylon fanners, and they shall fan her, and shall destroy her land: for they are come upon her on every side in the day of her affliction.</div>
+					</div>
+									<div id="vers229187" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">Let not him that bendeth, bend his bow, and let not him go up that is armed with a coat of mail: spare not her young men, destroy all her army.</div>
+					</div>
+									<div id="vers229188" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">And the slain shall fall in the land of the Chaldeans, and the wounded in the regions thereof.</div>
+					</div>
+									<div id="vers229189" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">For Israel and Juda have not been forsaken by their God the Lord of hosts: but their land hath been filled with sin against the Holy One of Israel.</div>
+					</div>
+									<div id="vers229190" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">Flee ye from the midst of Babylon, and let every one save his own life: be not silent upon her iniquity: for it is the time of revenge from the Lord, he will render unto her what she hath deserved.</div>
+					</div>
+									<div id="vers229191" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">Babylon hath been a golden cup in the hand of the Lord, that made all the earth drunk: the nations have drunk of her wine, and therefore they have staggered.</div>
+					</div>
+									<div id="vers229192" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">Babylon is suddenly fallen, and destroyed: howl for her, take balm for her pain, if so she may be healed.</div>
+					</div>
+									<div id="vers229193" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">We would have cured Babylon, but she is not healed: let us forsake her, and let us go every man to his own land: because her judgment hath reached even to the heavens, and is lifted up to the clouds.</div>
+					</div>
+									<div id="vers229194" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">The Lord hath brought forth our justices: Come, and let us declare in Sion the work of the Lord our God.</div>
+					</div>
+									<div id="vers229195" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">Sharpen the arrows, fill the quivers, the Lord hath raised up the spirit of the kings of the Medes: and his mind is against Babylon to destroy it, because it is the vengeance of the Lord, the vengeance of his temple.</div>
+					</div>
+									<div id="vers229196" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">Upon the walls of Babylon set up the standard, strengthen the watch: set up the watchmen, prepare the ambushes: for the Lord hath both purposed, and done all that he spoke against the inhabitants of Babylon.</div>
+					</div>
+									<div id="vers229197" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">O thou that dwellest upon many waters, rich in treasures, thy end is come for thy entire destruction.</div>
+					</div>
+									<div id="vers229198" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">The Lord of hosts hath sworn by himself, saying: I will fill thee with men as with locusts, and they shall lift up a joyful shout against thee.</div>
+					</div>
+									<div id="vers229199" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">He that made the earth by his power, that hath prepared the world by his wisdom, and stretched out the heavens by his understanding.</div>
+					</div>
+									<div id="vers229200" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">When he uttereth his voice the waters are multiplied in heaven: he lifteth up the clouds from the ends of the earth, he hath turned lightning into rain: and hath brought forth the wind out of his treasures.</div>
+					</div>
+									<div id="vers229201" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">Every man is become foolish by his knowledge: every founder is confounded by his idol, for what he hath cast is a lie, and there is no breath in them.</div>
+					</div>
+									<div id="vers229202" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">They are vain works, and worthy to be laughed at, in the time of their visitation they shall perish.</div>
+					</div>
+									<div id="vers229203" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">The portion of Jacob is not like them: for he that made all things he it is, and Israel is the sceptre of his inheritance: the Lord of hosts is his name.</div>
+					</div>
+									<div id="vers229204" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">Thou dashest together for me the weapons of war, and with thee I will dash nations together, and with thee I will destroy kingdoms:</div>
+					</div>
+									<div id="vers229205" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">And with thee I will break in pieces the horse, and his rider, and with thee I will break in pieces the chariot, and him that getteth up into it:</div>
+					</div>
+									<div id="vers229206" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">And with thee I will break in pieces man and woman, and with thee I will break in pieces the old man and the child, and with thee I will break in pieces the young man and the virgin:</div>
+					</div>
+									<div id="vers229207" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">And with thee I will break in pieces the shepherd and his flock, and with thee I will break in pieces the husbandmen and his yoke of oxen, and with thee I will break in pieces captains and rulers.</div>
+					</div>
+									<div id="vers229208" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">And I will render to Babylon, and to all the inhabitants of Chaldea all their evil, that they have done in Sion, before your eyes, saith the Lord.</div>
+					</div>
+									<div id="vers229209" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">Behold I come against thee, thou destroying mountain, saith the Lord, which corruptest the whole earth: and I will stretch out my hand upon thee, and will roll thee down from the rocks, and will make thee a burnt mountain.</div>
+					</div>
+									<div id="vers229210" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">And they shall not take of thee a stone for the corner, nor a stone for foundations, but thou shalt be destroyed for ever, saith the Lord.</div>
+					</div>
+									<div id="vers229211" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">Set ye up a standard in the land: sound with the trumpet among the nations: prepare the nations against her: call together against her the kings of Ararat, Menni, and Ascenez: number Taphsar against her, bring the horse as the stinging locust.</div>
+					</div>
+									<div id="vers229212" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">Prepare the nations against her, the kings of Media, their captains, and all their rulers, and all the land of their dominion.</div>
+					</div>
+									<div id="vers229213" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">And the land shall be in a commotion, and shall be troubled: for the design of the Lord against Babylon shall awake, to make the land of Babylon desert and uninhabitable.</div>
+					</div>
+									<div id="vers229214" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">The valiant men of Babylon have forborne to fight, they have dwelt in holds: their strength hath failed, and they are become as women: her dwelling places are burnt, her bars are broken.</div>
+					</div>
+									<div id="vers229215" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">One running post shall meet another, and messenger shall meet messenger: to tell the king of Babylon that his city is taken from one end to the other:</div>
+					</div>
+									<div id="vers229216" class="vers">
+												<div class="vers-no">32</div>
+						<div class="vers-content">And that the fords are taken, and the marshes are burnt with fire, and the men of war are affrighted.</div>
+					</div>
+									<div id="vers229217" class="vers">
+												<div class="vers-no">33</div>
+						<div class="vers-content">For thus saith the Lord of hosts the God of Israel: The daughter of Babylon is like a thrashingfloor, this is the time of her thrashing: yet a little while, and the time of her harvest shall come.</div>
+					</div>
+									<div id="vers229218" class="vers">
+												<div class="vers-no">34</div>
+						<div class="vers-content">Nabuchodonosor king of Babylon hath eaten me up, he hath devoured me: he hath made me as an empty vessel: he hath swallowed me up like a dragon, he hath filled his belly with my delicate meats, and he hath cast me out.</div>
+					</div>
+									<div id="vers229219" class="vers">
+												<div class="vers-no">35</div>
+						<div class="vers-content">The wrong done to me, and my flesh be upon Babylon, saith the habitation of Sion: and my blood upon the inhabitants of Chaldea, saith Jerusalem.</div>
+					</div>
+									<div id="vers229220" class="vers">
+												<div class="vers-no">36</div>
+						<div class="vers-content">Therefore thus saith the Lord: Behold I will judge thy cause, and will take vengeance for thee, and I will make her sea desolate, and will dry up her spring.</div>
+					</div>
+									<div id="vers229221" class="vers">
+												<div class="vers-no">37</div>
+						<div class="vers-content">And Babylon shall be reduced to heaps, a dwelling place for dragons, an astonishment and a hissing, because there is no inhabitant.</div>
+					</div>
+									<div id="vers229222" class="vers">
+												<div class="vers-no">38</div>
+						<div class="vers-content">They shall roar together like lions, they shall shake their manes like young lions.</div>
+					</div>
+									<div id="vers229223" class="vers">
+												<div class="vers-no">39</div>
+						<div class="vers-content">In their heat I will set them drink: and I will make them drunk, that they may slumber, and sleep an everlasting sleep, and awake no more, saith the Lord.</div>
+					</div>
+									<div id="vers229224" class="vers">
+												<div class="vers-no">40</div>
+						<div class="vers-content">I will bring them down like lambs to the slaughter, and like rams with kids.</div>
+					</div>
+									<div id="vers229225" class="vers">
+												<div class="vers-no">41</div>
+						<div class="vers-content">How is Sesach taken, and the renowned one of all the earth surprised? How is Babylon become an astonishment among the nations?</div>
+					</div>
+									<div id="vers229226" class="vers">
+												<div class="vers-no">42</div>
+						<div class="vers-content">The sea is come up over Babylon: she is covered with the multitude of the waves thereof.</div>
+					</div>
+									<div id="vers229227" class="vers">
+												<div class="vers-no">43</div>
+						<div class="vers-content">Her cities are become an astonishment, a land uninhabited and desolate, a land wherein none can dwell, nor son of man pass through it.</div>
+					</div>
+									<div id="vers229228" class="vers">
+												<div class="vers-no">44</div>
+						<div class="vers-content">And I will visit against Bel in Babylon, and I will bring forth out of his mouth that which he had swallowed down: and the nations shall no more flow together to him, for the wall also of Babylon shall fall.</div>
+					</div>
+									<div id="vers229229" class="vers">
+												<div class="vers-no">45</div>
+						<div class="vers-content">Go out of the midst of her, my people: that every man may save his life from the fierce wrath of the Lord.</div>
+					</div>
+									<div id="vers229230" class="vers">
+												<div class="vers-no">46</div>
+						<div class="vers-content">And lest your hearts faint, and ye fear for the rumour that shall be heard in the land: and a rumour shall come in one year, and after this year another rumour: and iniquity in the land, and ruler upon ruler.</div>
+					</div>
+									<div id="vers229231" class="vers">
+												<div class="vers-no">47</div>
+						<div class="vers-content">Therefore behold the days come, and I will visit the idols of Babylon: and her whole land shall be confounded, and all her slain shall fall in the midst of her.</div>
+					</div>
+									<div id="vers229232" class="vers">
+												<div class="vers-no">48</div>
+						<div class="vers-content">And the heavens and the earth, and all things that are in them shall give praise for Babylon: for spoilers shall come to her from the north, saith the Lord.</div>
+					</div>
+									<div id="vers229233" class="vers">
+												<div class="vers-no">49</div>
+						<div class="vers-content">And as Babylon caused that there should fall slain in Israel: so of Babylon there shall fall slain in all the earth.</div>
+					</div>
+									<div id="vers229234" class="vers">
+												<div class="vers-no">50</div>
+						<div class="vers-content">You that have escaped the sword, come away, stand not still: remember the Lord afar off, and let Jerusalem come into your mind.</div>
+					</div>
+									<div id="vers229235" class="vers">
+												<div class="vers-no">51</div>
+						<div class="vers-content">We are confounded, because we have heard reproach: shame hath covered our faces: because strangers are come upon the sanctuaries of the house of the Lord.</div>
+					</div>
+									<div id="vers229236" class="vers">
+												<div class="vers-no">52</div>
+						<div class="vers-content">Therefore behold the days come, saith the Lord, and I will visit her graven things, and in all her land the wounded shall groan:</div>
+					</div>
+									<div id="vers229237" class="vers">
+												<div class="vers-no">53</div>
+						<div class="vers-content">If Babylon should mount up to heaven, and establish her strength on high: from me there should come spoilers upon her, saith the Lord.</div>
+					</div>
+									<div id="vers229238" class="vers">
+												<div class="vers-no">54</div>
+						<div class="vers-content">The noise of a cry from Babylon, and great destruction from the land of the Chaldeans:</div>
+					</div>
+									<div id="vers229239" class="vers">
+												<div class="vers-no">55</div>
+						<div class="vers-content">Because the Lord hath laid Babylon waste, and destroyed out of her the great voice: and their wave shall roar like many waters: their voice hath made a noise:</div>
+					</div>
+									<div id="vers229240" class="vers">
+												<div class="vers-no">56</div>
+						<div class="vers-content">Because the spoiler is come upon her, that is, upon Babylon, and her valiant men are taken, and their bow is weakened, because the Lord, who is a strong revenger, will surely repay.</div>
+					</div>
+									<div id="vers229241" class="vers">
+												<div class="vers-no">57</div>
+						<div class="vers-content">And I will make her princes drunk, and her wise men, and her captains, and her rulers, and her valiant men: and they shall sleep an everlasting sleep, and shall awake no more, saith the king whose name is Lord of hosts.</div>
+					</div>
+									<div id="vers229242" class="vers">
+												<div class="vers-no">58</div>
+						<div class="vers-content">Thus saith the Lord of hosts: That broad wall of Babylon shall be utterly broken down, and her high gates shall be burnt with fire, and the labours of the people shall come to nothing, and of the nations shall go to the fire, and shall perish.</div>
+					</div>
+									<div id="vers229243" class="vers">
+												<div class="vers-no">59</div>
+						<div class="vers-content">The word that Jeremias the prophet commanded Saraias the son of Nerias, the son of Maasias, when he went with king Sedecias to Babylon, in the fourth year of his reign: now Saraias was chief over the prophecy.</div>
+					</div>
+									<div id="vers229244" class="vers">
+												<div class="vers-no">60</div>
+						<div class="vers-content">And Jeremias wrote in one book all the evil that was to come upon Babylon: all these words that are written against Babylon.</div>
+					</div>
+									<div id="vers229245" class="vers">
+												<div class="vers-no">61</div>
+						<div class="vers-content">And Jeremias said to Saraias: When thou shalt come into Babylon, and shalt see, and shalt read all these words,</div>
+					</div>
+									<div id="vers229246" class="vers">
+												<div class="vers-no">62</div>
+						<div class="vers-content">Thou shalt say: O Lord, thou hast spoken against this place to destroy it: so that there should be neither man nor beast to dwell therein, and that it should be desolate for ever.</div>
+					</div>
+									<div id="vers229247" class="vers">
+												<div class="vers-no">63</div>
+						<div class="vers-content">And when thou shalt have made an end of reading this book, thou shalt tie a stone to it, and shalt throw it into the midst of the Euphrates:</div>
+					</div>
+									<div id="vers229248" class="vers">
+												<div class="vers-no">64</div>
+						<div class="vers-content">And thou shalt say: Thus shall Babylon sink, and she shall not rise up from the affliction that I will bring upon her, and she shall be utterly destroyed. Thus far are the words of Jeremias.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/ch_50">&lt; prev</a></div>|
+					<div class="chapter">Chapter 51</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/ch_52">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/ch_1">1-50</a> <a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/ch_51" class="active">51</a> <a href="https://web.archive.org/web/20220928100724/http://catholicbible.online/douay_rheims/OT/Jer/ch_52">52</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20220928100724im_/http://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="130" height="210"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br/>
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br/>
+        Flexible Cover</span></p>
+	<p><a href="https://web.archive.org/web/20220928100724/https://www.baronius.com/douay-rheims-bible.html" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20220928100724/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/douay_rheims/OT/Jer/ch_51"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20220928100724/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20220928100724im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 10:07:24 Sep 28, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:47 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.699
+  exclusion.robots: 0.033
+  exclusion.robots.policy: 0.021
+  esindex: 0.012
+  cdx.remote: 19.062
+  LoadShardBlock: 223.247 (3)
+  PetaboxLoader3.datanode: 208.451 (4)
+  PetaboxLoader3.resolve: 66.216 (2)
+  load_resource: 87.418
+-->

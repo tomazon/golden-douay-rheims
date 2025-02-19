@@ -1,0 +1,639 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app224.us.archive.org';v.server_ms=602;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/side_by_side/OT/Dan/ch_3","20211015202803","https://web.archive.org/","web","/_static/",
+	      "1634329683");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20211015202803cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20211015202803cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20211015202803cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20211015202803js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211015202803js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211015202803js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211015202803js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211015202803js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20211015202803/http%3A//catholicbible.online/side_by_side/OT/Dan/ch_3"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/OT/Dan/ch_3" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20211015202803" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20211015202803*/http://catholicbible.online/side_by_side/OT/Dan/ch_3" title="See a list of every capture for this URL">2 captures</a>
+          <div class="r" title="Timespan for captures of this URL">13 Mar 2017 - 15 Oct 2021</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170313174942/http://catholicbible.online/side_by_side/OT/Dan/ch_3" title="13 Mar 2017"><strong>Mar</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 20:28:03 Oct 15, 2021">OCT</td>
+            <td class="f" nowrap="nowrap">Nov</td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170313174942/http://catholicbible.online/side_by_side/OT/Dan/ch_3" title="17:49:42 Mar 13, 2017"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 20:28:03 Oct 15, 2021">15</td>
+            <td class="f" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0" /></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170313174942/http://catholicbible.online/side_by_side/OT/Dan/ch_3" title="13 Mar 2017"><strong>2017</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 20:28:03 Oct 15, 2021">2021</td>
+            <td class="f" nowrap="nowrap">2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20211015202803/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/OT/Dan/ch_3"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_3" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_3" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_3</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/OT/Dan/ch_3","20211015202803",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=32&amp;chapter_no=3" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=32&amp;chapter_no=3" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=32&amp;chapter_no=3" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=32&amp;chapter_no=3" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20211015202803/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Daniel</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Eze">Ezechiel</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Prophecy of Daniel — Prophetia Danielis </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_2">&lt; prev</a></div>|
+					<div class="chapter">Chapter 3</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_4">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_1">1</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_2">2</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_3" class="active">3</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_4">4</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_5">5</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_6">6</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_7">7</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_8">8</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_9">9</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_10">10</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_11">11</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_12">12</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_13">13</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_14">14</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_3?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_3?act_indx=1&amp;act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_3?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_3?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Nabuchodonosor rex fecit statuam auream, altitudine cubitorum sexaginta, latitudine cubitorum sex, et statuit eam in campo Dura, provinciæ Babylonis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">King  Nabuchodonosor made a statue of gold, of sixty cubits high, and six cubits broad, and he set it up in the plain of Dura of the province of Babylon.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">It was this king Nabuchodonosor made a golden image, sixty cubits high and six cubits broad, which he set up on the plain of Dura, in the province of Babylon;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Itaque Nabuchodonosor rex misit ad congregandos satrapas, magistratus, et judices, duces, et tyrannos, et præfectos, omnesque principes regionum, ut convenirent ad dedicationem statuæ quam erexerat Nabuchodonosor rex.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Then Nabuchodonosor the king sent to call together the nobles, the magistrates, and the judges, the captains, the rulers, and governors, and all the chief men of the provinces, to come to the dedication of the statue which king Nabuchodonosor had set up.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">and word went round in king Nabuchodonosor’s name, summoning all the governors, magistrates, judges, chieftains, rulers, prefects and leading men from every part of his dominions, to be present at the dedication of the image king Nabuchodonosor had set up.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Tunc congregati sunt satrapæ, magistratus, et judices, duces, et tyranni, et optimates, qui erant in potestatibus constituti, et universi principes regionum, ut convenirent ad dedicationem statuæ, quam erexerat Nabuchodonosor rex. Stabant autem in conspectu statuæ, quam posuerat Nabuchodonosor rex:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Then the nobles, the magistrates, and the judges, the captains, and rulers, and the great men that were placed in authority, and all the princes of the provinces, were gathered together to come to the dedication of the statue, which king Nabuchodonosor had set up. And they stood before the statue which king Nabuchodonosor had set up.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">So they gathered there, governors, magistrates, judges, chieftains, rulers, noblemen in high office, and leading men from every part, for the dedication of king Nabuchodonosor’s image. And, as they stood before the image he had set up,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">et præco clamabat valenter: Vobis dicitur populis, tribubus, et linguis:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Then a herald cried with a strong voice: To you it is commanded, O nations, tribes, and languages:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">a herald cried lustily to men of all peoples, nations and languages:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">in hora qua audieritis sonitum tubæ, et fistulæ, et citharæ, sambucæ, et psalterii, et symphoniæ, et universi generis musicorum, cadentes adorate statuam auream, quam constituit Nabuchodonosor rex.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">That in the hour that you shall hear the sound of the trumpet, and of the flute, and of the harp, of the sackbut, and of the psaltery, and of the symphony, and of all kind of music; ye fall down and adore the golden statue which king Nabuchodonosor hath set up.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">As soon as you hear the sound of horn, flute, harp, zither, dulcimer, pipe and other instruments of music, you are to fall down and worship the image of gold which king Nabuchodonosor has set up.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Si quis autem non prostratus adoraverit, eadem hora mittetur in fornacem ignis ardentis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">But if any man shall not fall down and adore, he shall the same hour be cast into a furnace of burning fire.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Whoever does not fall down in worship will be thrown, there and then, into the heart of a raging furnace.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Post hæc igitur, statim ut audierunt omnes populi sonitum tubæ, fistulæ, et citharæ, sambucæ, et psalterii, et symphoniæ, et omnis generis musicorum, cadentes omnes populi, tribus, et linguæ adoraverunt statuam auream, quam constituerat Nabuchodonosor rex.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Upon this therefore, at the time when all the people heard the sound of the trumpet, the flute, and the harp, of the sackbut, and the psaltery, of the symphony, and of all kind of music: all the nations, tribes, and languages fell down and adored the golden statue which king Nabuchodonosor had set up.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">No sooner, then, did the sound of horn, flute, harp, zither, dulcimer, pipe and the rest reach the assembly than all of them, whatever their tribe, people or language, fell down in worship of king Nabuchodonosor’s image.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Statimque in ipso tempore accedentes viri Chaldæi accusaverunt Judæos:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">And presently at that very time some Chaldeans came and accused the Jews,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">It was then that certain Chaldaeans came forward with malicious accusations against the Jews.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">dixeruntque Nabuchodonosor regi: Rex, in æternum vive!</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">And said to king Nabuchodonosor: O king, live for ever:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">They wished long life to king Nabuchodonosor,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">tu, rex, posuisti decretum, ut omnis homo, qui audierit sonitum tubæ, fistulæ, et citharæ, sambucæ, et psalterii, et symphoniæ, et universi generis musicorum, prosternat se, et adoret statuam auream:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Thou, O king, hast made a decree that every man that shall hear the sound of the trumpet, the flute, and the harp, of the sackbut, and the psaltery, of the symphony, and of all kind of music, shall prostrate himself, and adore the golden statue:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">and said, Lord King, thy command was that all men, at the sound of horn, flute, harp, zither, dulcimer, pipe and the rest, should fall down and worship the golden image,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">si quis autem non procidens adoraverit, mittatur in fornacem ignis ardentis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">And that if any man shall not fall down and adore, he should be cast into a furnace of burning fire.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">on pain of being thrown into a raging furnace.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Sunt ergo viri Judæi, quos constituisti super opera regionis Babylonis, Sidrach, Misach, et Abdenago: viri isti contempserunt, rex, decretum tuum: deos tuos non colunt, et statuam auream, quam erexisti, non adorant.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Now there are certain Jews whom thou hast set over the works of the province of Babylon, Sidrach, Misach, and Abdenago: these men, O king, have slighted thy decree: they worship not thy gods, nor do they adore the golden statue which thou hast set up.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">And here are certain Jews, entrusted by thee with the affairs of Babylon province, to wit, Sidrach, Misach and Abdenago, who have set the royal command at defiance, and will not reverence thy gods, or worship the golden image thou hast set up.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Tunc Nabuchodonosor, in furore et in ira, præcepit ut adducerentur Sidrach, Misach, et Abdenago: qui confestim adducti sunt in conspectu regis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Then Nabuchodonosor in fury, and in wrath, commanded that Sidrach, Misach, and Abdenago should be brought: who immediately were brought before the king.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Upon this, in a transport of rage, Nabuchodonosor sent for Sidrach, Misach and Abdenago; and when they were brought, without delay, into his presence,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Pronuntiansque Nabuchodonosor rex, ait eis: Verene Sidrach, Misach, et Abdenago, deos meos non colitis, et statuam auream, quam constitui, non adoratis?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">And Nabuchodonosor the king spoke to them, and said: Is it true, O Sidrach, Misach, and Abdenago, that you do not worship my gods, nor adore the golden statue that I have set up?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">this was the threat king Nabuchodonosor uttered: So Sidrach, Misach and Abdenago will not reverence my gods, or worship this golden image of mine?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">nunc ergo si estis parati, quacumque hora audieritis sonitum tubæ, fistulæ, citharæ, sambucæ, et psalterii, et symphoniæ, omnisque generis musicorum, prosternite vos, et adorate statuam, quam feci: quod si non adoraveritis, eadem hora mittemini in fornacem ignis ardentis: et quis est Deus, qui eripiet vos de manu mea?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Now therefore if you be ready at what hour soever you shall hear the sound of the trumpet, flute, harp, sackbut, and psaltery, and symphony, and of all kind of music, prostrate yourselves, and adore the statue which I have made: but if you do not adore, you shall be cast the same hour into the furnace of burning fire: and who is the God that shall deliver you out of my hand?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Here is your choice, then; either you will fall down and worship this image of mine when the sound of horn, flute, harp, zither, dulcimer, pipe and the other music reaches you, or then and there you shall be thrown into a raging furnace. You are in my power; what God can deliver you?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Respondentes Sidrach, Misach, et Abdenago, dixerunt regi Nabuchodonosor: Non oportet nos de hac re respondere tibi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Sidrach, Misach, and Abdenago answered and said to king Nabuchodonosor: We have no occasion to answer thee concerning this matter.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Then Sidrach, Misach and Abdenago said to king Nabuchodonosor, There is no need for any answer of ours to that question;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Ecce enim Deus noster, quem colimus, potest eripere nos de camino ignis ardentis, et de manibus tuis, o rex, liberare.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">For behold our God, whom we worship, is able to save us from the furnace of burning fire, and to deliver us out of thy hands, O king.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">thou wilt see for thyself whether the God we worship is able to rescue us from the raging fire, and from thy royal power.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Quod si noluerit, notum sit tibi, rex, quia deos tuos non colimus, et statuam auream, quam erexisti, non adoramus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">But if he will not, be it known to thee, O king, that we will not worship thy gods, nor adore the golden statue which thou hast set up.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">But, whether he rescues us or no, be assured, sir king, here are men who do not reverence thy gods, or worship any image of thine.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Tunc Nabuchodonosor repletus est furore, et aspectus faciei illius immutatus est super Sidrach, Misach, et Abdenago: et præcepit ut succenderetur fornax septuplum quam succendi consueverat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Then was Nabuchodonosor filled with fury: and the countenance of his face was changed against Sidrach, Misach, and Abdenago, and he commanded that the furnace should be heated seven times more than it had been accustomed to be heated.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">At this, Nabuchodonosor fell into a rage; his features, as he glared at Sidrach, Misach and Abdenago, were distorted with fury. He would have the furnace heated seven times hotter than its wont;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Et viris fortissimis de exercitu suo jussit ut ligatis pedibus Sidrach, Misach, et Abdenago, mitterent eos in fornacem ignis ardentis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">And he commanded the strongest men that were in his army, to bind the feet of Sidrach, Misach, and Abdenago, and to cast them into the furnace of burning fire.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">and into this raging furnace he bade the most stalwart of his fighting men throw Sidrach, Misach and Abdenago with their feet tied together.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Et confestim viri illi vincti, cum braccis suis, et tiaris, et calceamentis, et vestibus, missi sunt in medium fornacis ignis ardentis:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">And immediately these men were bound and were cast into the furnace of burning fire, with their coats, and their caps, and their shoes, and their garments.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">So they were bound just as they were, in breeches and turban, shoes and coat, and thrown into the heart of the raging furnace;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">nam jussio regis urgebat. Fornax autem succensa erat nimis: porro viros illos, qui miserant Sidrach, Misach, et Abdenago, interfecit flamma ignis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">For the king’s commandment was urgent, and the furnace was heated exceedingly. And the flame of the fire slew those men that had cast in Sidrach, Misach, and Abdenago.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">the king’s order admitted no delay. So fiercely was the furnace heated that those who threw them in were burned to death.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Viri autem hi tres, id est, Sidrach, Misach, et Abdenago, ceciderunt in medio camino ignis ardentis, colligati.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">But these three men, that is, Sidrach, Misach, and Abdenago, fell down bound in the midst of the furnace of burning fire.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Meanwhile these three, Sidrach, Misach and Abdenago, fell fast bound into the heart of the fires that raged in it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Et ambulabant in medio flammæ, laudantes Deum, et benedicentes Domino.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">And they walked in the midst of the flame, praising God and blessing the Lord.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">And there, in the hottest of the flames, they walked to and fro, singing to God their praises, blessing the Lord.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Stans autem Azarias oravit sic, aperiensque os suum in medio ignis, ait:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Then Azarias standing up prayed in this manner, and opening his mouth in the midst of the fire, he said:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">There, as he stood in the heart of the fire, Azarias found utterance, and thus made his prayer:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Benedictus es, Domine Deus patrum nostrorum, et laudabile, et gloriosum nomen tuum in sæcula:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Blessed art thou, O Lord, the God of our fathers, and thy name is worthy of praise, and glorious for ever:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Blessed art thou, Lord God of our fathers, renowned and glorious is thy name for ever!</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">quia justus es in omnibus, quæ fecisti nobis, et universa opera tua vera, et viæ tuæ rectæ, et omnia judicia tua vera.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">For thou art just in all that thou hast done to us, and all thy works are true, and thy ways right, and all thy judgments true.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">In all thy dealings with us, thou hast right on thy side; so true to thy promises, so unswerving in thy course, so just in thy awards!</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Judicia enim vera fecisti juxta omnia, quæ induxisti super nos, et super civitatem sanctam patrum nostrorum Jerusalem: quia in veritate et in judicio induxisti omnia hæc propter peccata nostra.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">For thou hast executed true judgments in all the things that thou hast brought upon us, and upon Jerusalem the holy city of our fathers: for according to truth and judgment, thou hast brought all these things upon us for our sins.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">No punishment thou hast inflicted upon us, or upon Jerusalem, holy city of our fathers, but was deserved; for sins of ours, faithfulness and justice that stroke laid on.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Peccavimus enim, et inique egimus recedentes a te, et deliquimus in omnibus:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">For we have sinned, and committed iniquity, departing from thee: and we have trespassed in all things:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Sinners we were, that had wronged and forsaken thee, all was amiss with us;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">et præcepta tua non audivimus, nec observavimus, nec fecimus sicut præceperas nobis ut bene nobis esset.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">And we have not hearkened to thy commandments, nor have we observed nor done as thou hadst commanded us, that it might go well with us.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">unheard thy commandments, or else unheeded, thy will neglected, and with it, our own well-being!</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Omnia ergo, quæ induxisti super nos, et universa quæ fecisti nobis, in vero judicio fecisti;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Wherefore all that thou hast brought upon us, and every thing that thou hast done to us, thou hast done in true judgment:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Nothing we had not deserved, pillage of thy contriving, plague of thy sending,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">et tradidisti nos in manibus inimicorum nostrorum iniquorum, et pessimorum, prævaricatorumque, et regi injusto, et pessimo ultra omnem terram.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">And thou hast delivered us into the hands of our enemies that are unjust, and most wicked, and prevaricators, and to a king unjust, and most wicked beyond all that are upon the earth.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">and at last the foul domination of godless foes, of a tyrant that has no equal on earth!</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">Et nunc non possumus aperire os: confusio, et opprobrium facti sumus servis tuis, et his qui colunt te.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">And now we cannot open our mouths: we are become a shame and reproach to thy servants, and to them that worship thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">Tongue-tied we stand, that have brought disgrace on the livery of thy true worship.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Ne, quæsumus, tradas nos in perpetuum propter nomen tuum, et ne dissipes testamentum tuum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Deliver us not up for ever, we beseech thee, for thy name’s sake, and abolish not thy covenant.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">For thy own honour, we entreat thee not to abandon us eternally. Do not annul thy covenant, and deprive us of thy mercy.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">neque auferas misericordiam tuam a nobis, propter Abraham, dilectum tuum, et Isaac, servum tuum, et Israël, sanctum tuum,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">And take not away thy mercy from us for the sake of Abraham thy beloved, and Isaac thy servant, and Israel thy holy one:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Think of Abraham that was thy friend, of thy servant Isaac, of Jacob whom thou didst set apart for thyself;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">quibus locutus es pollicens quod multiplicares semen eorum sicut stellas cæli, et sicut arenam quæ est in littore maris;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">To whom thou hast spoken, promising that thou wouldst multiply their seed as the stars of heaven, and as the sand that is on the sea shore.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">the men to whom thou didst promise that thou wouldst increase their posterity, till it was countless as the stars in heaven, or the sand by the sea-shore.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">quia, Domine, imminuti sumus plus quam omnes gentes, sumusque humiles in universa terra hodie propter peccata nostra.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">For we, O Lord, are diminished more than any nation, and are brought low in all the earth this day for our sins.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Whereas now, Lord, we are of all nations the most insignificant; all the world over, men see us humbled for our sins.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Et non est in tempore hoc princeps, et dux, et propheta, neque holocaustum, neque sacrificium, neque oblatio, neque incensum, neque locus primitiarum coram te,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Neither is there at this time prince, or leader, or prophet, or holocaust, or sacrifice, or oblation, or incense, or place of firstfruits before thee,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">In these days we are without prince or leader or prophet, we have no burnt-sacrifice, no victim, no offering; for us no incense burns, no first-fruits can be brought into thy presence</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">ut possimus invenire misericordiam tuam, sed in animo contrito, et spiritu humilitatis suscipiamur.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">That we may find thy mercy: nevertheless in a contrite heart and humble spirit let us be accepted.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">and win thy favour. But oh, accept us still, hearts that are crushed, spirits bowed down by adversity;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">Sicut in holocausto arietum, et taurorum, et sicut in millibus agnorum pinguium, sic fiat sacrificium nostrum in conspectu tuo hodie, ut placeat tibi, quoniam non est confusio confidentibus in te.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">As in holocausts of rams, and bullocks, and as in thousands of fat lambs: so let our sacrifice be made in thy sight this day, that it may please thee: for there is no confusion to them that trust in thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">look kindly on the sacrifice we offer thee this day, as it had been burnt-sacrifice of rams and bullocks, thousands of fattened lambs; who ever trusted in thee and was disappointed?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">Et nunc sequimur te in toto corde; et timemus te, et quærimus faciem tuam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">And now we follow thee with all our heart, and we fear thee, and seek thy face.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">With all our hearts, now, we choose thy will, we reverence thee, we long after thy presence;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Nec confundas nos, sed fac nobiscum juxta mansuetudinem tuam, et secundum multitudinem misericordiæ tuæ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Put us not to confusion, but deal with us according to thy meekness, and according to the multitude of thy mercies.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">for that clemency, that abundant mercy of thine must we hope in vain?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">Et erue nos in mirabilibus tuis, et da gloriam nomini tuo, Domine;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">And deliver us according to thy wonderful works, and give glory to thy name, O Lord:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">By some wondrous deliverance vindicate thy own renown;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">et confundantur omnes qui ostendunt servis tuis mala: confundantur in omni potentia tua, et robur eorum conteratur:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">And let all them be confounded that shew evils to thy servants, let them be confounded in all thy might, and let their strength be broken.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">theirs be the vain hope, that would do thy servants an injury. Fools, that would match themselves with omnipotence! Crush down their might;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">et sciant quia tu es Dominus Deus solus, et gloriosus super orbem terrarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">And let them know that thou art the Lord, the only God, and glorious over all the world.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">teach them that in all the world Lord there is none, God there is none, glorified as thou.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">Et non cessabant qui miserant eos ministri regis succendere fornacem, naphtha, et stuppa, et pice, et malleolis,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">Now the king’s servants that had cast them in, ceased not to heat the furnace with brimstone, and tow, and pitch, and dry sticks,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">Meanwhile, their tormentors were not idle; naphtha and tow, pitch and tinder must be heaped on the furnace,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">et effundebatur flamma super fornacem cubitis quadraginta novem:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">And the flame mounted up above the furnace nine and forty cubits:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">till the flame rose forty-nine cubits above the furnace itself,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">et erupit, et incendit quos reperit juxta fornacem de Chaldæis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">And it broke forth, and burnt such of the Chaldeans as it found near the furnace.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">breaking out and burning such Chaldaeans as stood near it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">Angelus autem Domini descendit cum Azaria, et sociis ejus in fornacem: et excussit flammam ignis de fornace,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">But the angel of the Lord went down with Azarias and his companions into the furnace: and he drove the flame of the fire out of the furnace,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">But an angel of the Lord had gone down into the furnace with Azarias and his companions; and he drove the flames away from it,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">et fecit medium fornacis quasi ventum roris flantem, et non tetigit eos omnino ignis, neque contristavit, nec quidquam molestiæ intulit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">And made the midst of the furnace like the blowing of a wind bringing dew, and the fire touched them not at all, nor troubled them, nor did them any harm.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">making a wind blow in the heart of the furnace, like the wind that brings the dew. So that these three were untouched, and the fire brought them neither pain nor discomfort.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">Tunc hi tres quasi ex uno ore laudabant, et glorificabant, et benedicebant Deum in fornace, dicentes:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">Then these three as with one mouth praised, and glorified, and blessed God in the furnace, saying:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">Whereupon all of them, as with one mouth, began to give praise and glory and blessing to God, there in the furnace, in these words that follow:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">Benedictus es, Domine Deus patrum nostrorum: et laudabilis, et gloriosus, et superexaltatus in sæcula. Et benedictum nomen gloriæ tuæ sanctum: et laudabile, et superexaltatum in omnibus sæculis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">Blessed art thou, O Lord the God of our fathers: and worthy to be praised, and glorified, and exalted above all for ever: and blessed is the holy name of thy glory: and worthy to be praised, and exalted above all in all ages.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">Blessed art thou, Lord God of our fathers, praised above all, renowned above all for ever; blessed is thy holy and glorious name, praised above all, renowned above all for ever.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">Benedictus es in templo sancto gloriæ tuæ: et superlaudabilis, et supergloriosus in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">Blessed art thou in the holy temple of thy glory: and exceedingly to be praised, and exceeding glorious for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">Blessed art thou, whose glory fills thy holy temple, praised above all, renowned above all for ever;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">Benedictus es in throno regni tui: et superlaudabilis, et superexaltatus in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">Blessed art thou on the throne of thy Kingdom, and exceedingly to be praised, and exalted above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">blessed art thou, who reignest on thy kingly throne, praised above all, renowned above all for ever.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">Benedictus es, qui intueris abyssos, et sedes super cherubim: et laudabilis, et superexaltatus in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">Blessed art thou, that beholdest the depths, and sittest upon the cherubims: and worthy to be praised and exalted above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">Blessed art thou, who art throned above the cherubim, and gazest down into the depths, praised above all, renowned above all for ever.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">Benedictus es in firmamento cæli: et laudabilis et gloriosus in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">Blessed art thou in the firmament of heaven: and worthy of praise, and glorious for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">Blessed art thou, high in the vault of heaven, praised above all, renowned above all for ever.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">Benedicite, omnia opera Domini, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">All ye works of the Lord, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">Then they cried out upon all things the Lord had made, to bless him, and praise him, and extol his name for ever. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">Benedicite, angeli Domini, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">O ye angels of the Lord, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">Bless the Lord they should, the Lord’s angels;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">Benedicite, cæli, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">O ye heavens, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">bless him they should, the heavens,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">Benedicite, aquæ omnes, quæ super cælos sunt, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">O all ye waters that are above the heavens, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">and the waters above the heavens;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">Benedicite, omnes virtutes Domini, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">O all ye powers of the Lord, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">bless him they should, all the Lord’s powers.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">Benedicite, sol et luna, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">O ye sun and moon, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">Bless him they should, sun and moon,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">Benedicite, stellæ cæli, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">O ye stars of heaven, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">stars of heaven,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">64</div> <div class="vers-content">Benedicite, omnis imber et ros, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">64</div> <div class="vers-content">O every shower and dew, bless ye the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">64</div> <div class="vers-content">each drop of rain and moisture,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">65</div> <div class="vers-content">Benedicite, omnes spiritus Dei, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">65</div> <div class="vers-content">O all ye spirits of God, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">65</div> <div class="vers-content">and all the winds of God.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">66</div> <div class="vers-content">Benedicite, ignis et æstus, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">66</div> <div class="vers-content">O ye fire and heat, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">66</div> <div class="vers-content">Bless him they should, fire and heat,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">67</div> <div class="vers-content">Benedicite, frigus et æstus, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">67</div> <div class="vers-content">O ye cold and heat, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">67</div> <div class="vers-content">winter cold and summer drought,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">68</div> <div class="vers-content">Benedicite, rores et pruina, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">68</div> <div class="vers-content">O ye dews and hoar frosts, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">68</div> <div class="vers-content">dew and rime at morning,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">69</div> <div class="vers-content">Benedicite, gelu et frigus, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">69</div> <div class="vers-content">O ye frost and cold, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">69</div> <div class="vers-content">frost and the cold air.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">70</div> <div class="vers-content">Benedicite, glacies et nives, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">70</div> <div class="vers-content">O ye ice and snow, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">70</div> <div class="vers-content">Bless him they should, ice and snow,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">71</div> <div class="vers-content">Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">71</div> <div class="vers-content">O ye nights and days, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">71</div> <div class="vers-content">day-time and night-time,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">72</div> <div class="vers-content">Benedicite, lux et tenebræ, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">72</div> <div class="vers-content">O ye light and darkness, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">72</div> <div class="vers-content">light and darkness,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">73</div> <div class="vers-content">Benedicite, fulgura et nubes, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">73</div> <div class="vers-content">O ye lightnings and clouds, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">73</div> <div class="vers-content">lightnings and storm-clouds.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">74</div> <div class="vers-content">Benedicat terra Dominum: laudet et superexaltet eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">74</div> <div class="vers-content">O let the earth bless the Lord: let it praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">74</div> <div class="vers-content">And earth in its turn should bless the Lord, praise him, and extol his name for ever.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">75</div> <div class="vers-content">Benedicite, montes et colles, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">75</div> <div class="vers-content">O ye mountains and hills, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">75</div> <div class="vers-content">Bless the Lord they should, mountains and hills,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">76</div> <div class="vers-content">Benedicite, universa germinantia in terra, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">76</div> <div class="vers-content">O all ye things that spring up in the earth, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">76</div> <div class="vers-content">every growing thing that earth yields,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">77</div> <div class="vers-content">Benedicite, fontes, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">77</div> <div class="vers-content">O ye fountains, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">77</div> <div class="vers-content">flowing fountains,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">78</div> <div class="vers-content">Benedicite, maria et flumina, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">78</div> <div class="vers-content">O ye seas and rivers, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">78</div> <div class="vers-content">seas and rivers.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">79</div> <div class="vers-content">Benedicite, cete, et omnia quæ moventur in aquis, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">79</div> <div class="vers-content">O ye whales, and all that move in the waters, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">79</div> <div class="vers-content">Bless him they should, sea-monsters and all life that is bred in the waters,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">80</div> <div class="vers-content">Benedicite, omnes volucres cæli, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">80</div> <div class="vers-content">O all ye fowls of the air, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">80</div> <div class="vers-content">all the birds that fly in heaven,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">81</div> <div class="vers-content">Benedicite, omnes bestiæ et pecora, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">81</div> <div class="vers-content">O all ye beasts and cattle, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">81</div> <div class="vers-content">wild beasts and tame,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">82</div> <div class="vers-content">Benedicite, filii hominum, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">82</div> <div class="vers-content">O ye sons of men, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">82</div> <div class="vers-content">and the sons of men.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">83</div> <div class="vers-content">Benedicat Israël Dominum: laudet et superexaltet eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">83</div> <div class="vers-content">O let Israel bless the Lord: let them praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">83</div> <div class="vers-content">Bless him Israel should,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">84</div> <div class="vers-content">Benedicite, sacerdotes Domini, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">84</div> <div class="vers-content">O ye priests of the Lord, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">84</div> <div class="vers-content">priests of the Lord bless him,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">85</div> <div class="vers-content">Benedicite, servi Domini, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">85</div> <div class="vers-content">O ye servants of the Lord, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">85</div> <div class="vers-content">servants of the Lord bless him;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">86</div> <div class="vers-content">Benedicite, spiritus et animæ justorum, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">86</div> <div class="vers-content">O ye spirits and souls of the just, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">86</div> <div class="vers-content">bless him they should, spirits and souls of all faithful men;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">87</div> <div class="vers-content">Benedicite, sancti et humiles corde, Domino: laudate et superexaltate eum in sæcula.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">87</div> <div class="vers-content">O ye holy and humble of heart, bless the Lord: praise and exalt him above all for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">87</div> <div class="vers-content">bless him they should, dedicated and humble hearts.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">88</div> <div class="vers-content">Benedicite, Anania, Azaria, Misaël, Domino: laudate et superexaltate eum in sæcula: quia eruit nos de inferno, et salvos fecit de manu mortis: et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">88</div> <div class="vers-content">O Ananias, Azarias, and Misael, bless ye the Lord: praise and exalt him above all for ever. For he hath delivered us from hell, and saved us out of the hand of death, and delivered us out of the midst of the burning flame, and saved us out of the midst of the fire.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">88</div> <div class="vers-content">And for Ananias, Azarias and Misael, well might they bless the Lord, praise him and extol his name for ever; here was the grave spoiled, death robbed of its prey, and ever they were kept safe from the furnace, let its flames rage as they would.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">89</div> <div class="vers-content">Confitemini Domino, quoniam bonus: quoniam in sæculum misericordia ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">89</div> <div class="vers-content">O give thanks to the Lord, because he is good: because his mercy endureth for ever and ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">89</div> <div class="vers-content">Give thanks to the Lord, they cried, the Lord is gracious; his mercy is eternal!</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">90</div> <div class="vers-content">Benedicite, omnes religiosi, Domino Deo deorum: laudate et confitemini ei, quia in omnia sæcula misericordia ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">90</div> <div class="vers-content">O all ye religious, bless the Lord the God of gods: praise him and give him thanks, because his mercy endureth for ever and ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">90</div> <div class="vers-content">Bless the Lord, you that are his worshippers; he is God above all gods; praise him and give him thanks, whose mercy is eternal.  </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">91</div> <div class="vers-content">Tunc Nabuchodonosor rex obstupuit, et surrexit propere, et ait optimatibus suis: Nonne tres viros misimus in medium ignis compeditos? Qui respondentes regi, dixerunt: Vere, rex.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">91</div> <div class="vers-content">Then Nabuchodonosor the king was astonished, and rose up in haste, and said to his nobles: Did we not cast three men bound into the midst of the fire? They answered the king, and said: True, O king.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">91</div> <div class="vers-content">Sore amazed was king Nabuchodonosor, and started to his feet; Tell me, he said to his courtiers, did we not cast three men into yonder furnace, all closely bound? And when they answered, Sire, past doubt,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">92</div> <div class="vers-content">Respondit, et ait: Ecce ego video quatuor viros solutos, et ambulantes in medio ignis, et nihil corruptionis in eis est, et species quarti similis filio Dei.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">92</div> <div class="vers-content">He answered, and said: Behold I see four men loose, and walking in the midst of the fire, and there is no hurt in them, and the form of the fourth is like the Son of God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">92</div> <div class="vers-content">he told them what he had seen; here were four men, that bonds wore none, walking to and fro in the heart of the fire, and never the worse. And such an aspect he wore, the fourth of them, as it had been a son of God.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">93</div> <div class="vers-content">Tunc accessit Nabuchodonosor ad ostium fornacis ignis ardentis, et ait: Sidrach, Misach, et Abdenago, servi Dei excelsi, egredimini, et venite. Statimque egressi sunt Sidrach, Misach, et Abdenago de medio ignis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">93</div> <div class="vers-content">Then Nabuchodonosor came to the door of the burning fiery furnace, and said: Sidrach, Misach, and Abdenago, ye servants of the most high God, go ye forth, and come. And immediately Sidrach, Misach, and Abdenago went out from the midst of the fire.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">93</div> <div class="vers-content">With that, close went Nabuchodonosor to the furnace door, and cried, Come forth, Sidrach, Misach and Abdenago! Servants of the most high God, come out to me! So out came Sidrach, Misach and Abdenago, from the fire’s heart all of them;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">94</div> <div class="vers-content">Et congregati satrapæ, et magistratus, et judices, et potentes regis contemplabantur viros illos, quoniam nihil potestatis habuisset ignis in corporibus eorum, et capillus capitis eorum non esset adustus, et sarabala eorum non fuissent immutata, et odor ignis non transisset per eos.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">94</div> <div class="vers-content">And the nobles, and the magistrates, and the judges, and the great men of the king being gathered together, considered these men, that the fire had no power on their bodies, and that not a hair of their head had been singed, nor their garments altered, nor the smell of the fire had passed on them.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">94</div> <div class="vers-content">and with one accord governor and judge and courtier clustered round them to look. Plain it was, the heat had no power over them; never a hair singed, nor a coat shrivelled, nor any smell of burning marked its passage.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">95</div> <div class="vers-content">Et erumpens Nabuchodonosor, ait: Benedictus Deus eorum, Sidrach videlicet, Misach, et Abdenago: qui misit angelum suum, et eruit servos suos, qui crediderunt in eum: et verbum regis immutaverunt, et tradiderunt corpora sua ne servirent, et ne adorarent omnem deum, excepto Deo suo.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">95</div> <div class="vers-content">Then Nabuchodonosor breaking forth, said: Blessed be the God of them, to wit, of Sidrach, Misach, and Abdenago, who hath sent his angel, and delivered his servants that believed in him: and they changed the king’s word, and delivered up their bodies that they might not serve, nor adore any god, except their own God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">95</div> <div class="vers-content">And at that, Nabuchodonosor could contain himself no longer; Blessed be this God whom Sidrach, Misach and Abdenago worship! Here were servants of his that trusted in him, and defied a king’s edict, ready to put their lives in peril, so they might be free men, worshipping no God but their own; and he has sent an angel to deliver them.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">96</div> <div class="vers-content">A me ergo positum est hoc decretum: ut omnis populus, tribus, et lingua, quæcumque locuta fuerit blasphemiam contra Deum Sidrach, Misach, et Abdenago, dispereat, et domus ejus vastetur: neque enim est alius deus, qui possit ita salvare.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">96</div> <div class="vers-content">By me therefore this decree is made, that every people, tribe, and tongue, which shall speak blasphemy against the God of Sidrach, Misach, and Abdenago, shall be destroyed, and their houses laid waste: for there is no other God that can save in this manner.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">96</div> <div class="vers-content">Hereby, then, I enact that if anyone blasphemes against the God of Sidrach, Misach and Abdenago, come he of what people, what tribe, what race he may, he shall pay for it with his life, and his house be put to public use. God there is no other that can grant such deliverance as this!</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">97</div> <div class="vers-content">Tunc rex promovit Sidrach, Misach, et Abdenago in provincia Babylonis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">97</div> <div class="vers-content">Then the king promoted Sidrach, Misach, and Abdenago, in the province of Babylon.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">97</div> <div class="vers-content">And be sure he promoted them to high rank in Babylon province.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">98</div> <div class="vers-content">Nabuchodonosor rex, omnibus populis, gentibus, et linguis, qui habitant in universa terra, pax vobis multiplicetur.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">98</div> <div class="vers-content">Nabuchodonosor the king, to all peoples, nations, and tongues, that dwell in all the earth, peace be multiplied unto you.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">98</div> <div class="vers-content">King Nabuchodonosor to men of every race, tribe and tongue, dwell they where they will, all health!</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">99</div> <div class="vers-content">Signa, et mirabilia fecit apud me Deus excelsus. Placuit ergo mihi prædicare</div></div></td>
+																	<td><div class="vers"><div class="vers-no">99</div> <div class="vers-content">The most high God hath wrought signs and wonders towards me. It hath seemed good to me, therefore to publish</div></div></td>
+																	<td><div class="vers"><div class="vers-no">99</div> <div class="vers-content">Here be wondrous portents the most high God has been manifesting, and in my person.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">100</div> <div class="vers-content">signa ejus, quia magna sunt: et mirabilia ejus, quia fortia: et regnum ejus regnum sempiternum, et potestas ejus in generationem et generationem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">100</div> <div class="vers-content">His signs, because they are great: and his wonders, because they are mighty: and his kingdom is an everlasting kingdom, and his power to all generations.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">100</div> <div class="vers-content">And my will is to make them known, portents most weighty, wonders most compelling; such a reign as his lasts for ever, such power as his the ages cannot diminish.  </div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_2">&lt; prev</a></div>|
+					<div class="chapter">Chapter 3</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_4">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_1">1</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_2">2</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_3" class="active">3</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_4">4</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_5">5</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_6">6</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_7">7</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_8">8</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_9">9</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_10">10</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_11">11</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_12">12</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_13">13</a> <a href="https://web.archive.org/web/20211015202803/http://catholicbible.online/side_by_side/OT/Dan/ch_14">14</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20211015202803im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20211015202803/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20211015202803/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/OT/Dan/ch_3"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20211015202803/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20211015202803im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 20:28:03 Oct 15, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:17:02 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.291
+  exclusion.robots: 0.033
+  exclusion.robots.policy: 0.025
+  esindex: 0.014
+  cdx.remote: 9.142
+  LoadShardBlock: 465.174 (3)
+  PetaboxLoader3.datanode: 151.392 (4)
+  PetaboxLoader3.resolve: 366.816 (2)
+  load_resource: 94.306
+-->

@@ -1,0 +1,615 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app28.us.archive.org';v.server_ms=322;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/douay_rheims/OT/1_Mac/ch_5","20220128170309","https://web.archive.org/","web","/_static/",
+	      "1643389389");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20220128170309cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20220128170309cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20220128170309cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20220128170309js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220128170309js_/http://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220128170309js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220128170309js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220128170309js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220128170309js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20220128170309/http%3A//catholicbible.online/douay_rheims/OT/1_Mac/ch_5"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/douay_rheims/OT/1_Mac/ch_5" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20220128170309" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20220128170309*/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_5" title="See a list of every capture for this URL">2 captures</a>
+          <div class="r" title="Timespan for captures of this URL">28 Jan 2022 - 01 Jul 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap">Dec</td>
+            <td class="c" id="displayMonthEl" title="You are here: 17:03:09 Jan 28, 2022">JAN</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220701081739/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_5" title="01 Jul 2022"><strong>Jul</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" /></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 17:03:09 Jan 28, 2022">28</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220701081739/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_5" title="08:17:39 Jul 01, 2022"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap">2021</td>
+            <td class="c" id="displayYearEl" title="You are here: 17:03:09 Jan 28, 2022">2022</td>
+            <td class="f" nowrap="nowrap">2023</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20220128170309/http://web.archive.org/screenshot/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_5"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_5" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_5" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_5</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/douay_rheims/OT/1_Mac/ch_5","20220128170309",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<script>
+	var comments={
+	};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=45&amp;chapter_no=5" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=45&amp;chapter_no=5" class="menu-item active">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=45&amp;chapter_no=5" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=45&amp;chapter_no=5" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20220128170309/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">1 Machabees</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/Mal">Malachias</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/10203?vers_inline=1"><img src="https://web.archive.org/web/20220128170309im_/http://catholicbible.online/assets/img/para.jpg" alt=""/></a>					<a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/10203?comments_open=1"><img src="https://web.archive.org/web/20220128170309im_/http://catholicbible.online/assets/img/C-off.gif" alt=""/></a>				</div>
+				<div class="bible-name">The Holy Bible – Douay‐Rheims version</div>
+				<div class="book-name">The First Book of Machabees</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/10202">&lt; prev</a></div>|
+					<div class="chapter">Chapter 5</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/10204">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_1">1</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_2">2</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_3">3</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_4">4</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_5" class="active">5</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_6">6</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_7">7</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_8">8</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_9">9</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_10">10</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_11">11</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_12">12</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_13">13</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_14">14</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_15">15</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_16">16</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers232759" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">Now  it came to pass, when the nations round about heard that the altar and the sanctuary were built up as before, that they were exceeding angry.</div>
+					</div>
+									<div id="vers232760" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">And they thought to destroy the generation of Jacob that were among them, and they began to kill some of the people, and to persecute them.</div>
+					</div>
+									<div id="vers232761" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">Then Judas fought against the children of Esau in Idumea, and them that were in Acrabathane: because they beset the Israelites round about, and he made a great slaughter of them.</div>
+					</div>
+									<div id="vers232762" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">And he remembered the malice of the children of Bean: who were a snare and a stumblingblock to the people, by lying in wait for them in the way.</div>
+					</div>
+									<div id="vers232763" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">And they were shut up by him in towers, and he set upon them, and devoted them to utter destruction, and burnt their towers with fire, and all that were in them.</div>
+					</div>
+									<div id="vers232764" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">Then he passed over to the children of Ammon, where he found a mighty power, and much people, and Timotheus was their captain:</div>
+					</div>
+									<div id="vers232765" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">And he fought many battles with them, and they were discomfited in their sight, and he smote them:</div>
+					</div>
+									<div id="vers232766" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">And he took the city of Gazer and her towns, and returned into Judea.</div>
+					</div>
+									<div id="vers232767" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">And the Gentiles that were in Galaad, assembled themselves together against the Israelites that were in their quarters to destroy them: and they fled into the fortress of Datheman.</div>
+					</div>
+									<div id="vers232768" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">And they sent letters to Judas and his brethren, saying: The heathens that are round about are gathered together against us, to destroy us:</div>
+					</div>
+									<div id="vers232769" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">And they are preparing to come, and to take the fortress into which we are fled: and Timotheus is the captain of their host.</div>
+					</div>
+									<div id="vers232770" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">Now therefore come, and deliver us out of their hands, for many of us are slain.</div>
+					</div>
+									<div id="vers232771" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">And all our brethren that were in the places of Tubin, are killed: and they have carried away their wives, and their children, captives, and taken their spoils, and they have slain there almost a thousand men.</div>
+					</div>
+									<div id="vers232772" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">And while they were yet reading these letters, behold there came other messengers out of Galilee with their garments rent, who related according to these words:</div>
+					</div>
+									<div id="vers232773" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">Saying, that they of Ptolemais, and of Tyre, and of Sidon, were assembled against them, and all Galilee is filled with strangers, in order to consume us.</div>
+					</div>
+									<div id="vers232774" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">Now when Judas and the people heard these words, a great assembly met together to consider what they should do for their brethren that were in trouble, and were assaulted by them.</div>
+					</div>
+									<div id="vers232775" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">And Judas said to Simon his brother: Choose thee men, and go, and deliver thy brethren in Galilee: and I, and my brother Jonathan will go into the country of Galaad.</div>
+					</div>
+									<div id="vers232776" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">And he left Joseph the son of Zacharias, and Azarias captains of the people with the remnant of the army in Judea to keep it:</div>
+					</div>
+									<div id="vers232777" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">And he commanded them, saying: Take ye the charge of this people: but make no war against the heathens, till we return.</div>
+					</div>
+									<div id="vers232778" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">Now three thousand men were allotted to Simon, to go into Galilee: and eight thousand to Judas to go into the land of Galaad.</div>
+					</div>
+									<div id="vers232779" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">And Simon went into Galilee, and fought many battles with the heathens: and the heathens were discomfited before his face, and he pursued them even to the gate of Ptolemais.</div>
+					</div>
+									<div id="vers232780" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">And there fell of the heathens almost three thousand men, and he took the spoils of them,</div>
+					</div>
+									<div id="vers232781" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">And he took with him those that were in Galilee and in Arbatis with their wives, and children, and all that they had, and he brought them into Judea with great joy.</div>
+					</div>
+									<div id="vers232782" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">And Judas Machabeus, and Jonathan his brother passed over the Jordan, and went three days’ journey through the desert.</div>
+					</div>
+									<div id="vers232783" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">And the Nabutheans met them, and received them in a peaceable manner, and told them all that happened to their brethren in the land of Galaad,</div>
+					</div>
+									<div id="vers232784" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">And that many of them were shut up in Barasa, and in Bosor, and in Alima, and in Casphor, and in Mageth, and in Carnaim: all these strong and great cities.</div>
+					</div>
+									<div id="vers232785" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">Yea, and that they were kept shut up in the rest of the cities of Galaad, and that they had appointed to bring their army on the morrow near to these cities, and to take them and to destroy them all in one day.</div>
+					</div>
+									<div id="vers232786" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">Then Judas and his army suddenly turned their march into the desert, to Bosor, and took the city: and he slew every male by the edge of the sword, and took all their spoils, and burnt it with fire.</div>
+					</div>
+									<div id="vers232787" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">And they removed from thence by night, and went till they came to the fortress.</div>
+					</div>
+									<div id="vers232788" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">And it came to pass that early in the morning, when they lifted up their eyes, behold there were people without number, carrying ladders and engines to take the fortress, and assault them.</div>
+					</div>
+									<div id="vers232789" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">And Judas saw that the fight was begun, and the cry of the battle went up to heaven like a trumpet, and a great cry out of the city:</div>
+					</div>
+									<div id="vers232790" class="vers">
+												<div class="vers-no">32</div>
+						<div class="vers-content">And he said to his host: Fight ye today for your brethren.</div>
+					</div>
+									<div id="vers232791" class="vers">
+												<div class="vers-no">33</div>
+						<div class="vers-content">And he came with three companies behind them, and they sounded their trumpets, and cried out in prayer.</div>
+					</div>
+									<div id="vers232792" class="vers">
+												<div class="vers-no">34</div>
+						<div class="vers-content">And the host of Timotheus understood that it was Machabeus, and they fled away before his face: and they made a great slaughter of them: and there fell of them in that day almost eight thousand men.</div>
+					</div>
+									<div id="vers232793" class="vers">
+												<div class="vers-no">35</div>
+						<div class="vers-content">And Judas turned aside to Maspha, and assaulted, and took it, and he slew every male thereof, and took the spoils thereof, and burnt it with fire.</div>
+					</div>
+									<div id="vers232794" class="vers">
+												<div class="vers-no">36</div>
+						<div class="vers-content">From thence he marched, and took Casbon, and Mageth, and Bosor, and the rest of the cities of Galaad.</div>
+					</div>
+									<div id="vers232795" class="vers">
+												<div class="vers-no">37</div>
+						<div class="vers-content">But after this Timotheus gathered another army, and camped over against Raphon beyond the torrent.</div>
+					</div>
+									<div id="vers232796" class="vers">
+												<div class="vers-no">38</div>
+						<div class="vers-content">And Judas sent men to view the army: and they brought him word, saying: All the nations, that are round about us, are assembled unto him an army exceeding great:</div>
+					</div>
+									<div id="vers232797" class="vers">
+												<div class="vers-no">39</div>
+						<div class="vers-content">And they have hired the Arabians to help them, and they have pitched their tents beyond the torrent, ready to come to fight against thee. And Judas went to meet them.</div>
+					</div>
+									<div id="vers232798" class="vers">
+												<div class="vers-no">40</div>
+						<div class="vers-content">And Timotheus said to the captains of his army: When Judas and his army come near the torrent of water, if he pass over unto us first, we shall not be able to withstand him: for he will certainly prevail over us.</div>
+					</div>
+									<div id="vers232799" class="vers">
+												<div class="vers-no">41</div>
+						<div class="vers-content">But if he be afraid to pass over, and camp on the other side of the river, we will pass over to them and shall prevail against him.</div>
+					</div>
+									<div id="vers232800" class="vers">
+												<div class="vers-no">42</div>
+						<div class="vers-content">Now when Judas came near the torrent of water, he set the scribes of the people by the torrent, and commanded them, saying: Suffer no man to stay behind: but let all come to the battle.</div>
+					</div>
+									<div id="vers232801" class="vers">
+												<div class="vers-no">43</div>
+						<div class="vers-content">And he passed over to them first, and all the people after him, and all the heathens were discomfited before them, and they threw away their weapons, and fled to the temple that was in Carnaim.</div>
+					</div>
+									<div id="vers232802" class="vers">
+												<div class="vers-no">44</div>
+						<div class="vers-content">And he took that city, and the temple he burnt with fire, with all things that were therein: and Carnaim was subdued, and could not stand against the face of Judas.</div>
+					</div>
+									<div id="vers232803" class="vers">
+												<div class="vers-no">45</div>
+						<div class="vers-content">And Judas gathered together all the Israelites that were in the land of Galaad, from the least even to the greatest, and their wives, and children, and an army exceeding great, to come into the land of Juda.</div>
+					</div>
+									<div id="vers232804" class="vers">
+												<div class="vers-no">46</div>
+						<div class="vers-content">And they came as far as Ephron: now this was a great city situate in the way, strongly fortified, and there was no means to turn from it on the right hand or on the left, but the way was through the midst of it.</div>
+					</div>
+									<div id="vers232805" class="vers">
+												<div class="vers-no">47</div>
+						<div class="vers-content">And they that were in the city, shut themselves in, and stopped up the gates with stones: and Judas sent to them with peaceable words,</div>
+					</div>
+									<div id="vers232806" class="vers">
+												<div class="vers-no">48</div>
+						<div class="vers-content">Saying: Let us pass through your land, to go into our own country: and no man shall hurt you: we will only pass through on foot. But they would not open to them.</div>
+					</div>
+									<div id="vers232807" class="vers">
+												<div class="vers-no">49</div>
+						<div class="vers-content">Then Judas commanded proclamation to be made in the camp, that they should make an assault every man in the place where he was.</div>
+					</div>
+									<div id="vers232808" class="vers">
+												<div class="vers-no">50</div>
+						<div class="vers-content">And the men of the army drew near, and he assaulted that city all the day, and all the night, and the city was delivered into his hands:</div>
+					</div>
+									<div id="vers232809" class="vers">
+												<div class="vers-no">51</div>
+						<div class="vers-content">And they slew every male with the edge of the sword, and he razed the city, and took the spoils thereof, and passed through all the city over them that were slain.</div>
+					</div>
+									<div id="vers232810" class="vers">
+												<div class="vers-no">52</div>
+						<div class="vers-content">Then they passed over the Jordan to the great plain that is over against Bethsan.</div>
+					</div>
+									<div id="vers232811" class="vers">
+												<div class="vers-no">53</div>
+						<div class="vers-content">And Judas gathered together the hindmost, and he exhorted the people all the way through, till they came into the land of Juda.</div>
+					</div>
+									<div id="vers232812" class="vers">
+												<div class="vers-no">54</div>
+						<div class="vers-content">And they went up to mount Sion with joy and gladness, and offered holocausts, because not one of them was slain, till they had returned in peace.</div>
+					</div>
+									<div id="vers232813" class="vers">
+												<div class="vers-no">55</div>
+						<div class="vers-content">Now in the days that Judas and Jonathan were in the land of Galaad, and Simon his brother in Galilee before Ptolemais,</div>
+					</div>
+									<div id="vers232814" class="vers">
+												<div class="vers-no">56</div>
+						<div class="vers-content">Joseph the son of Zacharias, and Azarias captain of the soldiers, heard of the good success, and the battles that were fought.</div>
+					</div>
+									<div id="vers232815" class="vers">
+												<div class="vers-no">57</div>
+						<div class="vers-content">And he said: Let us also get us a name, and let us go fight against the Gentiles that are round about us.</div>
+					</div>
+									<div id="vers232816" class="vers">
+												<div class="vers-no">58</div>
+						<div class="vers-content">And he gave charge to them that were in his army, and they went towards Jamnia.</div>
+					</div>
+									<div id="vers232817" class="vers">
+												<div class="vers-no">59</div>
+						<div class="vers-content">And Gorgias and his men went out of the city, to give them battle.</div>
+					</div>
+									<div id="vers232818" class="vers">
+												<div class="vers-no">60</div>
+						<div class="vers-content">And Joseph and Azarias were put to flight, and were pursued unto the borders of Judea: and there fell, on that day, of the people of Israel about two thousand men, and there was a great overthrow of the people:</div>
+					</div>
+									<div id="vers232819" class="vers">
+												<div class="vers-no">61</div>
+						<div class="vers-content">Because they did not hearken to Judas, and his brethren, thinking that they should do manfully.</div>
+					</div>
+									<div id="vers232820" class="vers">
+												<div class="vers-no">62</div>
+						<div class="vers-content">But they were not of the seed of those men by whom salvation was brought to Israel.</div>
+					</div>
+									<div id="vers232821" class="vers">
+												<div class="vers-no">63</div>
+						<div class="vers-content">And the men of Juda were magnified exceedingly in the sight of all Israel, and of all the nations where their name was heard.</div>
+					</div>
+									<div id="vers232822" class="vers">
+												<div class="vers-no">64</div>
+						<div class="vers-content">And the people assembled to them with joyful acclamations.</div>
+					</div>
+									<div id="vers232823" class="vers">
+												<div class="vers-no">65</div>
+						<div class="vers-content">Then Judas and his brethren went forth and attacked the children of Esau, in the land toward the south, and he took Chebron, and her towns: and he burnt the walls thereof and the towers all round it.</div>
+					</div>
+									<div id="vers232824" class="vers">
+												<div class="vers-no">66</div>
+						<div class="vers-content">And he removed his camp to go into the land of the aliens, and he went through Samaria.</div>
+					</div>
+									<div id="vers232825" class="vers">
+												<div class="vers-no">67</div>
+						<div class="vers-content">In that day some priests fell in battle, while desiring to do manfully they went out unadvisedly to fight.</div>
+					</div>
+									<div id="vers232826" class="vers">
+												<div class="vers-no">68</div>
+						<div class="vers-content">And Judas turned to Azotus into the land of the strangers, and he threw down their altars, and he burnt the statues of their gods with fire: and he took the spoils of the cities, and returned into the land of Juda.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_4">&lt; prev</a></div>|
+					<div class="chapter">Chapter 5</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_6">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_1">1</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_2">2</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_3">3</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_4">4</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_5" class="active">5</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_6">6</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_7">7</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_8">8</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_9">9</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_10">10</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_11">11</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_12">12</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_13">13</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_14">14</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_15">15</a> <a href="https://web.archive.org/web/20220128170309/http://catholicbible.online/douay_rheims/OT/1_Mac/ch_16">16</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20220128170309im_/http://catholicbible.online/assets/img/douay.jpg" alt="" width="130" height="210"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br/>
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br/>
+        Flexible Cover</span></p>
+	<p><a href="https://web.archive.org/web/20220128170309/https://www.baroniuspress.com/category.php?wid=58&amp;cid=1" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20220128170309/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/douay_rheims/OT/1_Mac/ch_5"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20220128170309/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20220128170309im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 17:03:09 Jan 28, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:38:54 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.394
+  exclusion.robots: 0.055
+  exclusion.robots.policy: 0.04
+  esindex: 0.015
+  cdx.remote: 9.719
+  LoadShardBlock: 95.596 (3)
+  PetaboxLoader3.datanode: 128.775 (4)
+  load_resource: 176.54
+  PetaboxLoader3.resolve: 117.251
+-->

@@ -1,0 +1,30 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use File::Slurp;
+
+my $dir = '.';
+
+for my $line (read_file("$dir/index")) {
+    if ($line =~ m{<a href="(\d+\.htm)">(\d+\.htm)</a>}) {
+        my ($ancher, $file) = ($1,$2);
+        die "ancher missmatch: $line" if $ancher ne $file;
+        my $url = "https://www.drbo.org/chapter/$file";
+        #next unless $file =~ /^\d+.htm$/;
+        if (-f "$file") {
+            print "====> SKIP: $file\n";
+            next;
+        }
+        my @cmd = ('curl', '-o', $file, $url);
+        print "====> RUNNING: ". join(' ', @cmd) ."\n";
+        system(@cmd);
+        die "Error $? $!, Stopped," if $?;
+
+
+    } else {
+        1; #print "$line";
+    }
+}
+

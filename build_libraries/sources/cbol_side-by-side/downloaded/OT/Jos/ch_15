@@ -1,0 +1,536 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app225.us.archive.org';v.server_ms=4992;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online:80/side_by_side/OT/Jos/ch_15","20200219204716","https://web.archive.org/","web","/_static/",
+	      "1582145236");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20200219204716cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20200219204716cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20200219204716cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20200219204716js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200219204716js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200219204716js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200219204716js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200219204716js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20200219204716/http%3A//catholicbible.online/side_by_side/OT/Jos/ch_15"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/OT/Jos/ch_15" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20200219204716" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20200219204716*/http://catholicbible.online/side_by_side/OT/Jos/ch_15" title="See a list of every capture for this URL">16 captures</a>
+          <div class="r" title="Timespan for captures of this URL">13 Mar 2017 - 19 Feb 2020</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20191221053235/http://catholicbible.online:80/side_by_side/OT/Jos/ch_15" title="21 Dec 2019"><strong>Dec</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 20:47:16 Feb 19, 2020">FEB</td>
+            <td class="f" nowrap="nowrap">Mar</td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20200120135108/http://catholicbible.online:80/side_by_side/OT/Jos/ch_15" title="13:51:08 Jan 20, 2020"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 20:47:16 Feb 19, 2020">19</td>
+            <td class="f" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0" /></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20190213193538/http://catholicbible.online:80/side_by_side/OT/Jos/ch_15" title="13 Feb 2019"><strong>2019</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 20:47:16 Feb 19, 2020">2020</td>
+            <td class="f" nowrap="nowrap">2021</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20200219204716/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/OT/Jos/ch_15"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20200219204716/http://catholicbible.online:80/side_by_side/OT/Jos/ch_15" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20200219204716/http://catholicbible.online:80/side_by_side/OT/Jos/ch_15" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20200219204716/http://catholicbible.online:80/side_by_side/OT/Jos/ch_15</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/OT/Jos/ch_15","20200219204716",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=6&amp;chapter_no=15" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=6&amp;chapter_no=15" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=6&amp;chapter_no=15" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=6&amp;chapter_no=15" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20200219204716/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Joshua</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Book of Joshua — Liber Josue </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_14">&lt; prev</a></div>|
+					<div class="chapter">Chapter 15</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_16">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_1">1</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_2">2</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_3">3</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_4">4</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_5">5</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_6">6</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_7">7</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_8">8</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_9">9</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_10">10</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_11">11</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_12">12</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_13">13</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_14">14</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_15" class="active">15</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_16">16</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_17">17</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_18">18</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_19">19</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_20">20</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_21">21</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_22">22</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_23">23</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_24">24</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_15?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_15?act_indx=1&amp;act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_15?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_15?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Igitur sors filiorum Judæ per cognationes suas ista fuit: a termino Edom, desertum Sin, contra meridiem, et usque ad extremam partem australis plagæ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Now  the lot of the children of Juda by their kindreds was this: From the frontier of Edom, to the desert of Sin southward, and to the uttermost part of the south coast.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Meanwhile the clans descended from Juda had their territory marked out thus. It marched with Edom, with the desert of Sin that stretches out towards the midday sun, at the southernmost point of all.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Initium ejus a summitate maris salsissimi, et a lingua ejus, quæ respicit meridiem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Its beginning was from the top of the most salt sea, and from the bay thereof, that looketh to the south.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Beginning at the end of the Salt Sea, that is, at its southern bay,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Egrediturque contra ascensum Scorpionis, et pertransit in Sina: ascenditque in Cadesbarne, et pervenit in Esron, ascendens ad Addar, et circuiens Carcaa,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">And it goeth out towards the ascent of the Scorpion, and passeth on to Sina: and ascendeth into Cadesbarne, and reacheth into Esron, going up to Addar, and compassing Carcaa.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">the frontier followed the Scorpion Pass till it crossed over to Sina, then climbed up to Cades-Barne, and so reached Esron. Then it climbed up to Addar, and curved round Carcaa;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">atque inde pertransiens in Asemona, et perveniens ad torrentem Ægypti: eruntque termini ejus mare magnum. Hic erit finis meridianæ plagæ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">And from thence passing along into Asemona, and reaching the torrent of Egypt: and the bounds thereof shall be the great sea, this shall be the limit of the south coast.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">from which point it crossed over to Asemona, and so reached the brook of Egypt, coming to an end at the open sea. These were to be the limits of the southern frontier;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Ab oriente vero erit initium, mare salsissimum usque ad extrema Jordanis: et ea quæ respiciunt ad aquilonem, a lingua maris usque ad eumdem Jordanis fluvium.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">But on the east side the beginning shall be the most salt sea even to the end of the Jordan: and towards the north, from the bay of the sea unto the same river Jordan.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">on the east, Juda was bounded by the Salt Sea, right up to the mouth of Jordan. From the extreme bay of the Salt Sea up to Jordan the frontier went northwards;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Ascenditque terminus in Beth Hagla, et transit ab aquilone in Beth Araba, ascendens ad lapidem Boën filii Ruben:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">And the border goeth up into BethHagla, and passeth by the north into Beth-Araba: going up to the stone of Boen the son of Ruben.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">then it climbed up to Beth-Hagla, turned north to Beth-Araba, and went up to the Stone of Boen, son of Ruben.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">et tendens usque ad terminos Debera de valle Achor, contra aquilonem respiciens Galgala, quæ est ex adverso ascensionis Adommim, ab australi parte torrentis: transitque aquas, quæ vocantur fons solis: et erunt exitus ejus ad fontem Rogel.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">And reaching as far as the borders of Debara from the valley of Achor, and so northward looking towards Galgal, which is opposite to the ascent of Adommin, on the south side of the torrent: and the border passeth the waters that are called the fountain of the sun: and the goings out thereof shall be at the fountain Rogel.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">From the Valley of Achor it stretched to the borders of Debera, leaving Galgala on the north so as to climb up to Adommim on the south side of the valley; it crossed the water-course that is called the Spring of the Sun, and made its way on to the Spring of Rogel.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Ascenditque per convallem filii Ennom ex latere Jebusæi ad meridiem, hæc est Jerusalem: et inde se erigens ad verticem montis, qui est contra Geennom ad occidentem in summitate vallis Raphaim contra aquilonem:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">And it goeth up by the valley of the son of Ennom on the side of the Jebusite towards the south, the same is Jerusalem: and thence ascending to the top of the mountain, which is over against Geennom to the west in the end of the valley of Raphaim, northward.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Then it went up the valley of the Son of Ennom by its southern or Jebusite side, that is by Jerusalem; and thence stretched across to the mountain summit which faces Geennom from the west, and stands at the southern end of the Valley of Raphaim.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">pertransitque a vertice montis usque ad fontem aquæ Nephtoa: et pervenit usque ad vicos montis Ephron: inclinaturque in Baala, quæ est Cariathiarim, id est, urbs silvarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">And it passeth on from the top of the mountain to the fountain of the water of Nephtoa: and reacheth to the towns of mount Ephron: and it bendeth towards Baala, which is Cariathiarim, that is to say, the city of the woods.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">From that summit it crossed to the well of Nephtoa, and reached as far as the villages on mount Ephron; then it curved round to Baala, which is also called Cariathiarim, the City of the Woods;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Et circuit de Baala contra occidentem, usque ad montem Seir: transitque juxta latus montis Jarim ad aquilonem in Cheslon: et descendit in Bethsames, transitque in Thamna.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">And it compasseth from Baala westward unto mount Seir: and passeth by the side of mount Jarim to the north into Cheslon: and goeth down into Bethsames, and passeth into Thamna.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">and from Baala it went westwards as far as mount Seir, northwards to Cheslon along the side of mount Jarim, and so down to Bethsames and across to Thamma.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Et pervenit contra aquilonem partis Accaron ex latere: inclinaturque Sechrona, et transit montem Baala: pervenitque in Jebneel, et magni maris contra occidentem fine concluditur.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">And it reacheth northward to a part of Accaron at the side: and bendeth to Sechrona, and passeth mount Baala: and cometh into Jebneel, and is bounded westward with the great sea.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Then northward along the slopes in the direction of Accaron, and round to Sechrona, and across mount Baala, and at last it reached Jebneel, and found its western end at the open sea.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Hi sunt termini filiorum Juda per circuitum in cognationibus suis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">These are the borders round about of the children of Juda in their kindreds.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Such were the bounds within which the clans of Juda were to dwell.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Caleb vero filio Jephone dedit partem in medio filiorum Juda, sicut præceperat ei Dominus: Cariath Arbe patris Enac, ipsa est Hebron.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">But to Caleb the son of Jephone he gave a portion in the midst of the children of Juda, as the Lord had commanded him: Cariath-Arbe the father of Enac, which is Hebron.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">(Hebron, then called Cariath-Arbe after the father of Enac, which was assigned at the Lord’s command to Caleb, son of Jephone, was in the very heart of Juda.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Delevitque ex ea Caleb tres filios Enac, Sesai et Ahiman et Tholmai de stirpe Enac.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">And Caleb destroyed out of it the three sons of Enac, Sesai and Ahiman, and Tholmai of the race of Enac.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Three of the Enacim he rooted out of it, Sesai and Ahiman and Tholmai, of Enac’s true breed;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Atque inde conscendens venit ad habitatores Dabir, quæ prius vocabatur Cariath Sepher, id est, civitas litterarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">And going up from thence he came to the inhabitants of Dabir, which before was called Cariath-Sepher, that is to say, the city of letters.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">then he attacked Dabir, which in old days was called Cariath-Sepher, the city of Writings.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Dixitque Caleb: Qui percusserit Cariath Sepher, et ceperit eam, dabo ei Axam filiam meam uxorem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">And Caleb said: He that shall smite Cariath-Sepher, and take it, I will give him Axa my daughter to wife.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">He had promised that whoever defeated and took Cariath-Sepher should have the hand of his daughter Axa in marriage;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Cepitque eam Othoniel filius Cenez frater Caleb junior: deditque ei Axam filiam suam uxorem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">And Othoniel the son of Cenez, the younger brother of Caleb, took it: and he gave him Axa his daughter to wife.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">and it was taken by his own younger brother, Othoniel, son of Cenez, to whom he wedded his daughter Axa accordingly.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Quæ, cum pergerent simul, suasa est a viro suo ut peteret a patre suo agrum. Suspiravitque ut sedebat in asino: cui Caleb: Quid habes? inquit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">And as they were going together, she was moved by her husband to ask a field of her father, and she sighed as she sat on her ass. And Caleb said to her: What aileth thee?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">One day he heard her sighing as she rode on her ass in his company, and asked what ailed her. She had been urged by her husband to win him a grant of land from her father.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">At illa respondit: Da mihi benedictionem: terram australem et arentem dedisti mihi; junge et irriguam. Dedit itaque ei Caleb irriguum superius et inferius.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">But she answered: Give me a blessing: thou hast given me a southern and dry land, give me also a land that is watered. And Caleb gave her the upper and the nether watery ground.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">So her answer was, Grant me a favour; the portion thou hast given me is southern land and dry, give me well-watered land too. So he gave her the High Springs and the Low Springs both together.  )</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Hæc est possessio tribus filiorum Juda per cognationes suas.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">This is the possession of the tribe of the children of Juda by their kindreds.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">The clans of Juda, then, had their lands assigned to them;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Erantque civitates ab extremis partibus filiorum Juda juxta terminos Edom a meridie: Cabseel et Eder et Jagur,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">And the cities from the uttermost parts of the children of Juda by the borders of Edom to the south, were Cabseel and Eder and Jagur,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">and these are the names of the cities they had. On the south, where Juda marched with Edom, Cabseel, Eder, Jagur,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">et Cyna et Dimona et Adada,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">And Cina and Dimona and Adada,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Cina, Dimona, Adada,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">et Cades et Asor et Jethnam,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">And Cades and Asor and Jethnam,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Cades, Asor, Jethnam,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Ziph et Telem et Baloth,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Ziph and Telem and Baloth,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Ziph, Telem, Baloth,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Asor nova et Carioth, Hesron, hæc est Asor;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">New Asor and Carioth, Hesron, which is Asor.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">New Asor (or Cariath-Hesron, which is the same as Asor),</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Amam, Sama, et Molada,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Amam, Sama and Molada,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Amam, Sama, Molada,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">et Asergadda et Hassemon et Bethphelet,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">And Asergadda and Hassemon and Bethphelet,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">Asergadda, Hassemon, Bethphelet,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">et Hasersual et Bersabee et Baziothia,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">And Hasersual and Bersabee and Baziothia,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Hasersual, Bersabes, Baziothia,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">et Baala et Jim et Esem,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">And Baala and Jim and Esem,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Baala, Jim, Esem,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">et Eltholad et Cesil et Harma,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">And Eltholad and Cesil and Harma,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Eltholad, Cesil, Harma,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">et Siceleg et Medemena et Sensenna,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">And Siceleg and Medemena and Sensenna,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Siceleg, Medemena, Sensenna,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">Lebaoth et Selim et Aën et Remon. Omnes civitates viginti novem, et villæ earum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">Lebaoth and Selim and Aen and Remmon: all the cities twenty-nine, and their villages.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">Lebaoth, Selim, Aen, and Remmon, twenty-nine cities in all.  </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">In campestribus vero: Estaol et Sarea et Asena,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">But in the plains: Estaol and Sarea and Asena,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">In the lowlands, Estaol, Sarea, Asena,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">et Zanoë et Ængannim et Taphua et Enaim,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">And Zanoe and Engannim and Taphua and Enaim,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Zanoe, Aengannim, Taphua, Enaim,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">et Jerimoth et Adullam, Socho et Azeca,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">And Jerimoth and Adullam, Socho and Azeca,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Jerimoth, Adullam, Socho, Azeca,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">et Saraim et Adithaim et Gedera et Gederothaim: urbes quatuordecim, et villæ earum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">And Saraim and Adithaim and Gedera and Gederothaim: fourteen cities, and their villages.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Saraim, Adithaim, Gedera and Gederothaim, fourteen in all.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Sanan et Hadassa et Magdalgad,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Sanan and Hadassa and Magdalgad,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">West of these, Sanan, Hadassa, Magdalgad,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Delean et Masepha et Jecthel,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Delean and Masepha and Jecthel,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Delean, Masepha, Jecthel,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Lachis et Bascath et Eglon,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Lachis and Bascath and Eglon,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Lachis, Bascath, Eglon,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">Chebbon et Leheman et Cethlis,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">Chebbon and Leheman and Cethlis,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">Chebbon, Leheman, Cethlis,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">et Gideroth et Bethdagon et Naama et Maceda: civitates sedecim, et villæ earum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">And Gideroth and Bethdagon and Naama and Maceda: sixteen cities, and their villages.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">Gideroth, Bethdagon, Naama and Maceda, sixteen in all.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Labana et Ether et Asan,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Labana and Ether and Asan,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">North of these, Labana, Ether, Asan,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">Jephtha et Esna et Nesib,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">Jephtha and Esna and Nesib,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">Jephtha, Esna, Nesib,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">et Ceila et Achzib et Maresa: civitates novem, et villæ earum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">And Ceila and Achzib and Maresa: nine cities, and their villages.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">Ceila, Achzib and Maresa, nine in all.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">Accaron cum vicis et villulis suis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">Accaron with the towns and villages thereof.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">And below these, Accaron with its townships and villages,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">Ab Accaron usque ad mare: omnia quæ vergunt ad Azotum et viculos ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">From Accaron even to the sea: all places that lie towards Azotus and the villages thereof.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">the part between Accaron and the sea, and the approaches to the region of Azotus;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">Azotus cum vicis et villulis suis. Gaza cum vicis et villulis suis, usque ad torrentem Ægypti, et mare magnum terminus ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">Azotus with its towns and villages. Gaza with its towns and villages, even to the torrent of Egypt, and the great sea that is the border thereof.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">Azotus with its townships and villages, Gaza with its townships and villages, and so down to the brook of Egypt, with the open sea for frontier.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">Et in monte: Samir et Jether et Socoth</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">And in the mountain Samir and Jether and Socoth,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">In the hill-country, Samir, Jether, Socoth,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">et Danna et Cariathsenna, hæc est Dabir:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">And Danna and Cariath-senna, this is Dabir:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">Danna, Cariath-Senna (or Dabir),</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">Anab et Istemo et Anim,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">Anab and Istemo and Anim,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">Anab, Istemo, Anim,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">Gosen et Olon et Gilo: civitates undecim et villæ earum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">Gosen and Olon and Gilo: eleven cities and their villages.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">Gosen, Olon and Gilo, eleven in all.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">Arab et Ruma et Esaan,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">Arab and Ruma and Esaan,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">Arab, Ruma, Esaan,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">et Janum et Beththaphua et Apheca,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">And Janum and Beththaphua and Apheca,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">Janum, Beththaphua, Apheca,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">Athmatha, et Cariath Arbe, hæc est Hebron, et Sior: civitates novem, et villæ earum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">Athmatha and Cariath-Arbe, this is Hebron and Sior: nine cities and their villages.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">Athmatha, Cariath-Arbe (or Hebron) and Sior, nine in all.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">Maon et Carmel et Ziph et Jota,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">Maon and Carmel and Ziph and Jota,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">Maon, Carmel, Ziph, Jota,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">Jezraël et Jucadam et Zanoë,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">Jezrael and Jucadam and Zanoe,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">Jezrael, Jucadam, Zanoe,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">Accain, Gabaa et Thamna: civitates decem et villæ earum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">Accain, Gabaa and Thamna: ten cities and their villages.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">Accain, Gabaa and Thamna, ten in all.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">Halhul, et Besur, et Gedor,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">Halhul, and Bessur, and Gedor,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">Halhul, Bessur, Gedor,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">Mareth, et Bethanoth, et Eltecon: civitates sex et villæ earum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">Mareth, and Bethanoth, and Eltecon: six cities and their villages.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">Mareth, Bethanoth, Eltecon, six in all.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">Cariathbaal, hæc est Cariathiarim urbs silvarum, et Arebba: civitates duæ, et villæ earum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">Cariathbaal, the same is Cariathiarim, the city of woods, and Arebba: two cities and their villages.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">And two cities besides, Cariath-Baal (or Cariathiarim), the City of the Woods, and Arebba.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">In deserto Betharaba, Meddin, et Sachacha,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">In the desert Betharaba, Meddin and Sachacha,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">And in the desert by the Salt Sea, Betharaba, Meddin, Sachacha,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">et Nebsan, et civitas salis, et Engaddi: civitates sex, et villæ earum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">And Nebsan, and the city of salt, and Engaddi: six cities and their villages.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">Nebsan, and the City of Salt, and Engaddi, six in all. And with each city went the villages that surrounded it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">Jebusæum autem habitatorem Jerusalem non potuerunt filii Juda delere: habitavitque Jebusæus cum filiis Juda in Jerusalem usque in præsentem diem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">But the children of Juda could not destroy the Jebusite that dwelt in Jerusalem: and the Jebusite dwelt with the children of Juda in Jerusalem until this present day.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">But the Jebusites that dwelt in Jerusalem the sons of Juda could never exterminate, so there are Jebusites living in Jerusalem side by side with the men of Juda to this day.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_14">&lt; prev</a></div>|
+					<div class="chapter">Chapter 15</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_16">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_1">1</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_2">2</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_3">3</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_4">4</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_5">5</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_6">6</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_7">7</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_8">8</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_9">9</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_10">10</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_11">11</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_12">12</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_13">13</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_14">14</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_15" class="active">15</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_16">16</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_17">17</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_18">18</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_19">19</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_20">20</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_21">21</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_22">22</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_23">23</a> <a href="https://web.archive.org/web/20200219204716/http://catholicbible.online/side_by_side/OT/Jos/ch_24">24</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20200219204716im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20200219204716/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20200219204716/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/OT/Jos/ch_15"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20200219204716/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20200219204716im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 20:47:16 Feb 19, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:04:48 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.49
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.016
+  esindex: 0.011
+  cdx.remote: 14.884
+  LoadShardBlock: 139.779 (3)
+  PetaboxLoader3.datanode: 4717.023 (4)
+  load_resource: 4800.511
+  PetaboxLoader3.resolve: 178.622
+-->

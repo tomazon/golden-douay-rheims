@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Latin Vulgate Bible â Biblia Sacra Vulgata</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online â Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+	};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Vulgate</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=1&book_no=6&chapter_no=1" class="menu-item active">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=1&book_no=6&chapter_no=1" class="menu-item ">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=1&book_no=6&chapter_no=1" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=1&book_no=6&chapter_no=1" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Josue</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/vulgate/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/vulgate/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Gn">Genesis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Lv">Leviticus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Nm">Numeri</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Dt">Deuteronomium</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/vulgate/OT/Jos">Josue</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Jdc">Judicum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Rt">Ruth</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/1Rg">Regum I</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/2Rg">Regum II</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/3Rg">Regum III</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/4Rg">Regum IV</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/1Par">Paralipomenon I</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/2Par">Paralipomenon II</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Esr">EsdrÃ¦</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Neh">NehemiÃ¦</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Tob">TobiÃ¦</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ps">Psalmi</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Pr">Proverbia</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ecl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ct">Canticum Canticorum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Sap">Sapientia</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Sir">Ecclesiasticus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Is">Isaias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Jr">Jeremias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Lam">Lamentationes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ez">Ezechiel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Dn">Daniel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Joel">JoÃ«l</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Mch">MichÃ¦a</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Soph">Sophonias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Agg">AggÃ¦us</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Zach">Zacharias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/1Mcc">MachabÃ¦orum I</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/2Mcc">MachabÃ¦orum II</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/vulgate/OT/Jos/2668?vers_inline=1"><img src="https://catholicbible.online/assets/img/para.jpg" alt="" /></a>									</div>
+				<div class="bible-name">Biblia Sacra Vulgata</div>
+				<div class="book-name">Liber Josue </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"></div>|
+					<div class="chapter">Capitulum 1</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/vulgate/OT/Jos/2671">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/vulgate/OT/Jos/ch_1" class="active">1</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_2">2</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_3">3</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_4">4</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_5">5</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_6">6</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_7">7</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_8">8</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_9">9</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_10">10</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_11">11</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_12">12</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_13">13</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_14">14</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_15">15</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_16">16</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_17">17</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_18">18</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_19">19</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_20">20</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_21">21</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_22">22</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_23">23</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_24">24</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers73952" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">Et factum est post mortem Moysi servi Domini, ut loqueretur Dominus ad Josue filium Nun, ministrum Moysi, et diceret ei:</div>
+					</div>
+									<div id="vers73955" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">Moyses servus meus mortuus est: surge, et transi Jordanem istum tu, et omnis populus tecum, in terram quam ego dabo filiis IsraÃ«l.</div>
+					</div>
+									<div id="vers73958" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">Omnem locum, quem calcaverit vestigium pedis vestri, vobis tradam, sicut locutus sum Moysi.</div>
+					</div>
+									<div id="vers73961" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">A deserto et Libano usque ad fluvium magnum Euphraten, omnis terra HethÃ¦orum usque ad mare magnum contra solis occasum erit terminus vester.</div>
+					</div>
+									<div id="vers73964" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">Nullus poterit vobis resistere cunctis diebus vitÃ¦ tuÃ¦: sicut fui cum Moyse, ita ero tecum: non dimittam, nec derelinquam te.</div>
+					</div>
+									<div id="vers73967" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">Confortare, et esto robustus: tu enim sorte divides populo huic terram, pro qua juravi patribus suis, ut traderem eam illis.</div>
+					</div>
+									<div id="vers73970" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">Confortare igitur, et esto robustus valde, ut custodias, et facias omnem legem, quam prÃ¦cepit tibi Moyses servus meus: ne declines ab ea ad dexteram vel ad sinistram, ut intelligas cuncta quÃ¦ agis.</div>
+					</div>
+									<div id="vers73973" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">Non recedat volumen legis hujus ab ore tuo: sed meditaberis in eo diebus ac noctibus, ut custodias et facias omnia quÃ¦ scripta sunt in eo: tunc diriges viam tuam, et intelliges eam.</div>
+					</div>
+									<div id="vers73976" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">Ecce prÃ¦cipio tibi: confortare, et esto robustus. Noli metuere, et noli timere: quoniam tecum est Dominus Deus tuus in omnibus ad quÃ¦cumque perrexeris.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers73979" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">PrÃ¦cepitque Josue principibus populi, dicens: Transite per medium castrorum, et imperate populo, ac dicite:</div>
+					</div>
+									<div id="vers73982" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">PrÃ¦parate vobis cibaria: quoniam post diem tertium transibitis Jordanem, et intrabitis ad possidendam terram quam Dominus Deus vester daturus est vobis.</div>
+					</div>
+									<div id="vers73985" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">Rubenitis quoque et Gaditis, et dimidiÃ¦ tribui Manasse, ait:</div>
+					</div>
+									<div id="vers73988" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">Mementote sermonis, quem prÃ¦cepit vobis Moyses famulus Domini, dicens: Dominus Deus vester dedit vobis requiem, et omnem terram.</div>
+					</div>
+									<div id="vers73991" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">Uxores vestrÃ¦, et filii, ac jumenta manebunt in terra, quam tradidit vobis Moyses trans Jordanem: vos autem transite armati ante fratres vestros, omnes fortes manu, et pugnate pro eis,</div>
+					</div>
+									<div id="vers73994" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">donec det Dominus requiem fratribus vestris sicut et vobis dedit, et possideant ipsi quoque terram quam Dominus Deus vester daturus est eis: et sic revertimini in terram possessionis vestrÃ¦, et habitabitis in ea, quam vobis dedit Moyses famulus Domini trans Jordanem contra solis ortum.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers73997" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">Responderuntque ad Josue, atque dixerunt: Omnia quÃ¦ prÃ¦cepisti nobis, faciemus: et quocumque miseris, ibimus.</div>
+					</div>
+									<div id="vers74000" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">Sicut obedivimus in cunctis Moysi, ita obediemus et tibi: tantum sit Dominus Deus tuus tecum, sicut fuit cum Moyse.</div>
+					</div>
+									<div id="vers74003" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">Qui contradixerit ori tuo, et non obedierit cunctis sermonibus, quos prÃ¦ceperis ei, moriatur. Tu tantum confortare, et viriliter age.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"></div>|
+					<div class="chapter">Capitulum 1</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/vulgate/OT/Jos/ch_2">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/vulgate/OT/Jos/ch_1" class="active">1</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_2">2</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_3">3</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_4">4</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_5">5</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_6">6</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_7">7</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_8">8</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_9">9</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_10">10</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_11">11</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_12">12</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_13">13</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_14">14</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_15">15</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_16">16</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_17">17</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_18">18</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_19">19</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_20">20</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_21">21</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_22">22</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_23">23</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_24">24</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="144" height="220" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br />
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-clementina-vulgata.html" class="btn">SHOP NOW</a> </p>
+</div>
+</div>
+<script>
+	var openAllComments = 0;
+</script>		<div class="copyright">2015 - 2024 Â© CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/vulgate/OT/Jos/ch_1"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>

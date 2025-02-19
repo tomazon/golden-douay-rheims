@@ -1,0 +1,602 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app210.us.archive.org';v.server_ms=685;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/side_by_side/OT/Num/ch_7","20210726225914","https://web.archive.org/","web","/_static/",
+	      "1627340354");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20210726225914cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20210726225914cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20210726225914cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20210726225914js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210726225914js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210726225914js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210726225914js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210726225914js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20210726225914/http%3A//catholicbible.online/side_by_side/OT/Num/ch_7"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/OT/Num/ch_7" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20210726225914" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20210726225914*/http://catholicbible.online/side_by_side/OT/Num/ch_7" title="See a list of every capture for this URL">5 captures</a>
+          <div class="r" title="Timespan for captures of this URL">13 Mar 2017 - 02 Mar 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20210425160036/http://catholicbible.online/side_by_side/OT/Num/ch_7" title="25 Apr 2021"><strong>Apr</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 22:59:14 Jul 26, 2021">JUL</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20211019204456/http://catholicbible.online/side_by_side/OT/Num/ch_7" title="19 Oct 2021"><strong>Oct</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20210425160036/http://catholicbible.online/side_by_side/OT/Num/ch_7" title="16:00:36 Apr 25, 2021"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 22:59:14 Jul 26, 2021">26</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20211019204456/http://catholicbible.online/side_by_side/OT/Num/ch_7" title="20:44:56 Oct 19, 2021"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170313230849/http://catholicbible.online/side_by_side/OT/Num/ch_7" title="13 Mar 2017"><strong>2017</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 22:59:14 Jul 26, 2021">2021</td>
+            <td class="f" nowrap="nowrap">2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20210726225914/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/OT/Num/ch_7"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_7" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_7" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/wikipedia-eventstream)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/wikipedia-eventstream" target="_new"><span class="wm-title">Wikipedia Eventstream</span></a></div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_7</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/OT/Num/ch_7","20210726225914",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=4&amp;chapter_no=7" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=4&amp;chapter_no=7" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=4&amp;chapter_no=7" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=4&amp;chapter_no=7" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20210726225914/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Numbers</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Lev">Leviticus</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Book of Numbers — Liber Numeri </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_6">&lt; prev</a></div>|
+					<div class="chapter">Chapter 7</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_8">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_1">1</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_2">2</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_3">3</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_4">4</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_5">5</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_6">6</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_7" class="active">7</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_8">8</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_9">9</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_10">10</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_11">11</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_12">12</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_13">13</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_14">14</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_15">15</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_16">16</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_17">17</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_18">18</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_19">19</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_20">20</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_21">21</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_22">22</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_23">23</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_24">24</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_25">25</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_26">26</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_27">27</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_28">28</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_29">29</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_30">30</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_31">31</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_32">32</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_33">33</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_34">34</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_35">35</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_36">36</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_7?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_7?act_indx=1&amp;act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_7?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_7?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Factum est autem in die qua complevit Moyses tabernaculum, et erexit illud, unxitque et sanctificavit cum omnibus vasis suis, altare similiter et omnia vasa ejus:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">And  it came to pass in the day that Moses had finished the tabernacle, and set it up, and had anointed and sanctified it with all its vessels, the altar likewise and all the vessels thereof,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">At the time when Moses finished the tabernacle and set it up, anointing and hallowing both the tabernacle and altar with all their appurtenances,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">obtulerunt principes Israël et capita familiarum, qui erant per singulas tribus, præfectique eorum, qui numerati fuerant,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">The princes of Israel and the heads of the families, in every tribe, who were the rulers of them who had been numbered, offered</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">an offering was made by the chieftains of Israel, the heads of families, who were in charge, each for his own tribe, of the registering.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">munera coram Domino sex plaustra tecta cum duodecim bobus. Unum plaustrum obtulere duo duces, et unum bovem singuli, obtuleruntque ea in conspectu tabernaculi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Their gifts before the Lord, six wagons covered, and twelve oxen. Two princes offered one wagon, and each one an ox, and they offered them before the tabernacle.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">They gave to the Lord six covered waggons and twelve oxen, one waggon for every two of the chieftains, and one ox for every one of them. When they presented these before the tabernacle,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Ait autem Dominus ad Moysen:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">And the Lord said to Moses:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">the Lord said to Moses,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Suscipe ab eis ut serviant in ministerio tabernaculi, et trades ea Levitis juxta ordinem ministerii sui.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Receive them from them to serve in the ministry of the tabernacle, and thou shalt deliver them to the Levites according to the order of their ministry.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Accept these gifts for the service of the tabernacle, and make them over to the Levites, for the better carrying out of their various duties.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Itaque cum suscepisset Moyses plaustra et boves, tradidit eos Levitis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Moses therefore receiving the wagons and the oxen, delivered them to the Levites.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Moses, therefore, accepted the waggons and the oxen, and gave them to the Levites,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Duo plaustra et quatuor boves dedit filiis Gerson, juxta id quod habebant necessarium.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Two wagons and four oxen he gave to the sons of Gerson, according to their necessity.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">assigning two waggons and four oxen to the sons of Gerson for their needs,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Quatuor alia plaustra et octo boves dedit filiis Merari secundum officia et cultum suum, sub manu Ithamar filii Aaron sacerdotis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">The other four wagons, and eight oxen he gave to the sons of Merari, according to their offices and service, under the hand of Ithamar the son of Aaron the priest.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">and the remaining four waggons and eight oxen to Ithamar, son of the high priest Aaron, for the needs of the Merarites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Filiis autem Caath non dedit plaustra et boves: quia in sanctuario serviunt, et onera propriis portant humeris.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">But to the sons of Caath he gave no wagons or oxen: because they serve in the sanctuary and carry their burdens upon their own shoulders.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">No waggons or oxen were given to the sons of Caath, because their business was with the sanctuary, and every burden must be carried on their own shoulders.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Igitur obtulerunt duces in dedicationem altaris, die qua unctum est, oblationem suam ante altare.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">And the princes offered for the dedication of the altar on the day when it was anointed, their oblation before the altar.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">And when the altar was to be anointed, the chieftains had their dedication gifts to bring before it;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Dixitque Dominus ad Moysen: Singuli duces per singulos dies offerant munera in dedicationem altaris.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">And the Lord said to Moses: Let each of the princes one day after another offer their gifts for the dedication of the altar.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">so the Lord said to Moses, Let the chieftains bring their dedication gifts on successive days.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Primo die obtulit oblationem suam Nahasson filius Aminadab de tribu Juda:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">The first day Nahasson the son of Aminadab of the tribe of Juda offered his offering:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">The first day, Nahasson son of Aminadab, of Juda, made his offering;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">fueruntque in ea acetabulum argenteum pondo centum triginta siclorum, phiala argentea habens septuaginta siclos, juxta pondus sanctuarii, utrumque plenum simila conspersa oleo in sacrificium:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">And his offering was a silver dish weighing one hundred and thirty sicles, a silver bowl of seventy sicles according to the weight of the sanctuary, both full of flour tempered with oil for a sacrifice:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">a silver dish of a hundred and thirty, and a silver bowl of seventy sicles’ weight, by sanctuary reckoning, both full of flour kneaded with oil for sacrifice;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">mortariolum ex decem siclis aureis plenum incenso:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">A little mortar of ten sicles of gold full of incense:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">a gold saucer weighing ten sicles, full of incense;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">bovem de armento, et arietem, et agnum anniculum in holocaustum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">An ox of the herd, and a ram, and a lamb of a year old for a holocaust:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">a bullock, a ram, and a yearling he-lamb for burnt-sacrifice;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">hircumque pro peccato:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">And a buck goat for sin:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">a goat to make amends for fault;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">et in sacrificio pacificorum boves duos, arietes quinque, hircos quinque, agnos anniculos quinque. Hæc est oblatio Nahasson filii Aminadab.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">And for the sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of a year old. This was the offering of Nahasson the son of Aminadab.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">and for a welcome-offering, two oxen, five rams, five goats, and five yearling he-lambs. Such was the gift of Nahasson son of Aminadab,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Secundo die obtulit Nathanaël filius Suar, dux de tribu Issachar,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">The second day Nathanael the son of Suar, prince of the tribe of Issachar, made his offering,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">and next day Nathanael son of Suar gave</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">acetabulum argenteum appendens centum triginta siclos, phialam argenteam habentem septuaginta siclos, juxta pondus sanctuarii, utrumque plenum simila conspersa oleo in sacrificium:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">A silver dish weighing one hundred and thirty sicles, a silver bowl of seventy sicles, according to the weight of the sanctuary, both full of flour tempered with oil for a sacrifice:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">dish and bowl</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">mortariolum aureum habens decem siclos plenum incenso:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">A little mortar of gold weighing ten sicles full of incense:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">and saucer, of the like workmanship and with the like contents,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">bovem de armento, et arietem, et agnum anniculum in holocaustum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">An ox of the herd, and a ram, and a lamb of a year old for a holocaust:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">and the same burnt-sacrifice,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">hircumque pro peccato:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">And a buck goat for sin:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">transgression-victim,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">et in sacrificio pacificorum boves duos, arietes quinque, hircos quinque, agnos anniculos quinque. Hæc fuit oblatio Nathanaël filii Suar.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">And for the sacrifice of peace offerings, two oxen, five rams, five buck goats, five lambs of a year old. This was the offering of Nathanael the son of Suar.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">and welcome-offering for Issachar.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Tertio die princeps filiorum Zabulon, Eliab filius Helon,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">The third day the prince of the sons of Zabulon, Eliab the son of Helon,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">On the third day it was the turn of Eliab, son of Helon,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">obtulit acetabulum argenteum appendens centum triginta siclos, phialam argenteam habentem septuaginta siclos, ad pondus sanctuarii, utrumque plenum simila conspersa oleo in sacrificium:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Offered a silver dish weighing one hundred and thirty sicles, a silver bowl of seventy sicles by the weight of the sanctuary, both full of flour tempered with oil for a sacrifice:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">to give dish and bowl</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">mortariolum aureum appendens decem siclos, plenum incenso:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">A little mortar of gold weighing ten sicles full of incense:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">and saucer,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">bovem de armento, et arietem, et agnum anniculum in holocaustum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">An ox of the herd, and a ram, and a lamb of a year old for a holocaust:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">and the same burnt-sacrifice,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">hircumque pro peccato:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">And a buck goat for sin:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">transgression-victim,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">et in sacrificio pacificorum boves duos, arietes quinque, hircos quinque, agnos anniculos quinque. Hæc est oblatio Eliab filii Helon.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">And for the sacrifice of peace offerings, two oxen, five rams, five buck goats, five lambs of a year old. This is the oblation of Eliab the son of Helon.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">and welcome-offering for Zabulon.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Die quarto princeps filiorum Ruben, Elisur filius Sedeur,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">The fourth day the prince of the sons of Ruben, Elisur the son of Sedeur,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">On the fourth day Elisur, son of Sedeur,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">obtulit acetabulum argenteum appendens centum triginta siclos, phialam argenteam habentem septuaginta siclos, ad pondus sanctuarii, utrumque plenum simila conspersa oleo in sacrificum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Offered a silver dish weighing one hundred and thirty sicles, a silver bowl of seventy sicles according to the weight of the sanctuary, both full of flour tempered with oil for a sacrifice:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">gave dish and bowl</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">mortariolum aureum appendens decem siclos, plenum incenso:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">A little mortar of gold weighing ten sicles full of incense:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">and saucer,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">bovem de armento, et arietem, et agnum anniculum in holocaustum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">An ox of the herd, and a ram, and a lamb of a year old, for a holocaust:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">and the same burnt-sacrifice,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">hircumque pro peccato:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">And a buck goat for sin:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">transgression-victim</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">et in hostias pacificorum boves duos, arietes quinque, hircos quinque, agnos anniculos quinque. Hæc fuit oblatio Elisur filii Sedeur.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">And for victims of peace offerings two oxen, five rams, five buck goats, five lambs of a year old. This was the offering of Elisur the son of Sedeur.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">and welcome-offering for Ruben.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Die quinto princeps filiorum Simeon, Salamiel filius Surisaddai,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">The fifth day the prince of the sons of Simeon, Salamiel the son of Surisaddai,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">On the fifth day Salamiel, son of Surisaddai,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">obtulit acetabulum argenteum appendens centum triginta siclos, phialam argenteam habentem septuaginta siclos, ad pondus sanctuarii, utrumque plenum simila conspersa oleo in sacrificum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Offered a silver dish weighing one hundred and thirty sicles, a silver bowl of seventy sicles after the weight of the sanctuary, both full of flour tempered with oil for a sacrifice:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">gave dish and bowl</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">mortariolum aureum appendens decem siclos, plenum incenso:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">A little mortar of gold weighing ten sicles full of incense:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">and saucer,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">bovem de armento, et arietem, et agnum anniculum in holocaustum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">An ox of the herd, and a ram, and a lamb of a year old for a holocaust:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">and the same burnt-sacrifice,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">hircumque pro peccato:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">And a buck goat for sin:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">transgression-victim,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">et in hostias pacificorum boves duos, arietes quinque, hircos quinque, agnos anniculos quinque. Hæc fuit oblatio Salamiel filii Surisaddai.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">And for sacrifices of peace offerings, two oxen, five rams, five buck goats, five lambs of a year old. This was the offering of Salamiel the son of Surisaddai.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">and welcome-offering for Simeon.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Die sexto princeps filiorum Gad, Eliasaph filius Duel,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">The sixth day the prince of the sons of Gad, Eliasaph the son of Duel,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">On the sixth day Eliasaph, son of Duel,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">obtulit acetabulum argenteum appendens centum triginta siclos, phialam argenteam habentem septuaginta siclos, ad pondus sanctuarii, utrumque plenum simila conspersa oleo in sacrificum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">Offered a silver dish weighing a hundred and thirty sicles, a silver bowl of seventy sicles by the weight of the sanctuary, both full of flour tempered with oil for a sacrifice:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">gave dish and bowl</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">mortariolum aureum appendens decem siclos, plenum incenso:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">A little mortar of gold weighing ten sicles full of incense:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">and saucer,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">bovem de armento, et arietem, et agnum anniculum in holocaustum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">An ox of the herd, and a ram, and a lamb of a year old for a holocaust:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">and the same burnt-sacrifice,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">hircumque pro peccato:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">And a buck goat for sin:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">transgression-victim,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">et in hostias pacificorum boves duos, arietes quinque, hircos quinque, agnos anniculos quinque. Hæc fuit oblatio Eliasaph filii Duel.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">And for sacrifices of peace offerings, two oxen, five rams, five buck goats, five lambs of a year old. This was the offering of Eliasaph the son of Duel.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">and welcome-offering for Gad.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">Die septimo princeps filiorum Ephraim, Elisama filius Ammiud,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">The seventh day the prince of the sons of Ephraim, Elisama the son of Ammiud,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">On the seventh day Elisama, son of Ammiud,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">obtulit acetabulum argenteum appendens centum triginta siclos, phialam argenteam habentem septuaginta siclos, ad pondus sanctuarii, utrumque plenum simila conspersa oleo in sacrificum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">Offered a silver dish weighing a hundred and thirty sicles, a silver bowl of seventy sicles according to the weight of the sanctuary, both full of flour tempered with oil for a sacrifice:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">gave dish and bowl</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">mortariolum aureum appendens decem siclos, plenum incenso:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">A little mortar of gold weighing ten sicles full of incense:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">and saucer,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">bovem de armento, et arietem, et agnum anniculum in holocaustum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">An ox of the herd, and a ram, and a lamb of a year old for a holocaust:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">and the same burnt-sacrifice,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">hircumque pro peccato:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">And a buck goat for sin:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">transgression-victim</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">et in hostias pacificorum boves duos, arietes quinque, hircos quinque, agnos anniculos quinque. Hæc fuit oblatio Elisama filii Ammiud.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">And for sacrifices of peace offerings, two oxen, five rams, five buck goats, five lambs of a year old. This was the offering of Elisama the son of Ammiud.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">and welcome-offering for Ephraim.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">Die octavo, princeps filiorum Manasse, Gamaliel filius Phadassur,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">The eighth day the prince of the sons of Manasses, Gamaliel the son of Phadassur,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">On the eighth day Gamaliel, son of Phadassur,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">obtulit acetabulum argenteum appendens centum triginta siclos, phialam argenteam habentem septuaginta siclos, ad pondus sanctuarii, utrumque plenum simila conspersa oleo in sacrificum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">Offered a silver dish weighing a hundred and thirty sicles, a silver bowl of seventy sicles, according to the weight of the sanctuary, both full of flour tempered with oil for a sacrifice:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">gave dish and bowl</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">mortariolum aureum appendens decem siclos, plenum incenso:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">A little mortar of gold weighing ten sicles full of incense:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">and saucer,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">bovem de armento, et arietem, et agnum anniculum in holocaustum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">An ox of the herd, and a ram, and a lamb of a year old for a holocaust:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">and the same burnt-sacrifice,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">hircumque pro peccato:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">And a buck goat for sin:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">transgression-victim,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">et in hostias pacificorum boves duos, arietes quinque, hircos quinque, agnos anniculos quinque. Hæc fuit oblatio Gamaliel filii Phadassur.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">And for sacrifices of peace offerings, two oxen, five rams, five buck goats, five lambs of a year old. This was the offering of Gamaliel the son of Phadassur.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">and welcome-offering for Manasses.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">Die nono princeps filiorum Benjamin, Abidan filius Gedeonis,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">The ninth day the prince of the sons of Benjamin, Abidan the son of Gedeon,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">On the ninth day Abidan, son of Gedeon,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">obtulit acetabulum argenteum appendens centum triginta siclos, phialam argenteam habentem septuaginta siclos, ad pondus sanctuarii, utrumque plenum simila conspersa oleo in sacrificum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">Offered a silver dish weighing a hundred and thirty sicles, a silver bowl of seventy sicles by the weight of the sanctuary, both full of flour tempered with oil for a sacrifice:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">gave dish and bowl</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">et mortariolum aureum appendens decem siclos, plenum incenso:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">A little mortar of gold weighing ten sicles full of incense:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">and saucer,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">bovem de armento, et arietem, et agnum anniculum in holocaustum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">An ox of the herd, and a ram, and a lamb of a year old for a holocaust:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">and the same burnt-sacrifice,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">64</div> <div class="vers-content">hircumque pro peccato:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">64</div> <div class="vers-content">And a buck goat for sin:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">64</div> <div class="vers-content">transgression-victim,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">65</div> <div class="vers-content">et in hostias pacificorum boves duos, arietes quinque, hircos quinque, agnos anniculos quinque. Hæc fuit oblatio Abidan filii Gedeonis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">65</div> <div class="vers-content">And for sacrifices of peace offerings, two oxen, five rams, five buck goats, five lambs of a year old. This was the offering of Abidan the son of Gedeon.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">65</div> <div class="vers-content">and welcome-offering for Benjamin.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">66</div> <div class="vers-content">Die decimo princeps filiorum Dan, Ahiezer filius Ammisaddai,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">66</div> <div class="vers-content">The tenth day the prince of the sons of Dan, Ahiezer the son of Ammisaddai,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">66</div> <div class="vers-content">On the tenth day Ahiezer, son of Ammisaddai,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">67</div> <div class="vers-content">obtulit acetabulum argenteum appendens centum triginta siclos, phialam argenteam habentem septuaginta siclos, ad pondus sanctuarii, utrumque plenum simila conspersa oleo in sacrificum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">67</div> <div class="vers-content">Offered a silver dish weighing a hundred and thirty sicles, a silver bowl of seventy sicles, according to the weight of the sanctuary, both full of flour tempered with oil for a sacrifice:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">67</div> <div class="vers-content">gave dish and bowl</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">68</div> <div class="vers-content">mortariolum aureum appendens decem siclos, plenum incenso:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">68</div> <div class="vers-content">A little mortar of gold weighing ten sicles full of incense:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">68</div> <div class="vers-content">and saucer,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">69</div> <div class="vers-content">bovem de armento, et arietem, et agnum anniculum in holocaustum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">69</div> <div class="vers-content">An ox of the herd, and a ram, and a lamb of a year old for a holocaust:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">69</div> <div class="vers-content">and the same burnt-sacrifice,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">70</div> <div class="vers-content">hircumque pro peccato:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">70</div> <div class="vers-content">And a buck goat for sin:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">70</div> <div class="vers-content">transgression-victim,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">71</div> <div class="vers-content">et in hostias pacificorum boves duos, arietes quinque, hircos quinque, agnos anniculos quinque. Hæc fuit oblatio Ahiezer filii Ammisaddai.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">71</div> <div class="vers-content">And for sacrifices of peace offerings, two oxen, five rams, five buck goats, five lambs of a year old. This was the offering of Ahiezer the son of Ammisaddai.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">71</div> <div class="vers-content">and welcome-offering for Dan.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">72</div> <div class="vers-content">Die undecimo princeps filiorum Aser, Phegiel filius Ochran,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">72</div> <div class="vers-content">The eleventh day the prince of the sons of Aser, Phegiel the son of Ochran,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">72</div> <div class="vers-content">On the eleventh day Phegiel, son of Ochran,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">73</div> <div class="vers-content">obtulit acetabulum argenteum appendens centum triginta siclos, phialam argenteam habentem septuaginta siclos, ad pondus sanctuarii, utrumque plenum simila conspersa oleo in sacrificum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">73</div> <div class="vers-content">Offered a silver dish weighing a hundred and thirty sicles, a silver bowl of seventy sicles, according to the weight of the sanctuary, both full of flour tempered with oil for a sacrifice:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">73</div> <div class="vers-content">gave dish and bowl</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">74</div> <div class="vers-content">mortariolum aureum appendens decem siclos, plenum incenso:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">74</div> <div class="vers-content">A little mortar of gold weighing ten sicles full of incense:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">74</div> <div class="vers-content">and saucer,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">75</div> <div class="vers-content">bovem de armento, et arietem, et agnum anniculum in holocaustum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">75</div> <div class="vers-content">An ox of the herd, and a ram, and a lamb of a year old for a holocaust:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">75</div> <div class="vers-content">and the same burnt-sacrifice,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">76</div> <div class="vers-content">hircumque pro peccato:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">76</div> <div class="vers-content">And a buck goat for sin:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">76</div> <div class="vers-content">transgression-victim,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">77</div> <div class="vers-content">et in hostias pacificorum boves duos, arietes quinque, hircos quinque, agnos anniculos quinque. Hæc fuit oblatio Phegiel filii Ochran.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">77</div> <div class="vers-content">And for sacrifices of peace offerings, two oxen, five rams, five buck goats, five lambs of a year old. This was the offering of Phegiel the son of Ochran.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">77</div> <div class="vers-content">and welcome-offering for Aser.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">78</div> <div class="vers-content">Die duodecimo princeps filiorum Nephthali, Ahira filius Enan,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">78</div> <div class="vers-content">The twelfth day the prince of the sons of Nephtali, Ahira the son of Enan,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">78</div> <div class="vers-content">On the twelfth day Ahira, son of Enan,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">79</div> <div class="vers-content">obtulit acetabulum argenteum appendens centum triginta siclos, phialam argenteam habentem septuaginta siclos, ad pondus sanctuarii, utrumque plenum simila oleo conspersa in sacrificum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">79</div> <div class="vers-content">Offered a silver dish weighing a hundred and thirty sicles, a silver bowl of seventy sicles, according to the weight of the sanctuary, both full of flour tempered with oil for a sacrifice:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">79</div> <div class="vers-content">gave dish and bowl</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">80</div> <div class="vers-content">mortariolum aureum appendens decem siclos, plenum incenso:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">80</div> <div class="vers-content">A little mortar of gold weighing ten sicles full of incense:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">80</div> <div class="vers-content">and saucer,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">81</div> <div class="vers-content">bovem de armento, et arietem, et agnum anniculum in holocaustum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">81</div> <div class="vers-content">An ox of the herd, and a ram, and a lamb of a year old for a holocaust:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">81</div> <div class="vers-content">and the same burnt-sacrifice,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">82</div> <div class="vers-content">hircumque pro peccato:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">82</div> <div class="vers-content">And a buck goat for sin:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">82</div> <div class="vers-content">transgression-victim,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">83</div> <div class="vers-content">et in hostias pacificorum boves duos, arietes quinque, hircos quinque, agnos anniculos quinque. Hæc fuit oblatio Ahira filii Enan.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">83</div> <div class="vers-content">And for sacrifices of peace offerings, two oxen, five rams, five buck goats, five lambs of a year old. This was the offering of Ahira the son of Enan.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">83</div> <div class="vers-content">and welcome-offering for Nephthali.  </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">84</div> <div class="vers-content">Hæc in dedicatione altaris oblata sunt a principibus Israël, in die qua consecratum est: acetabula argentea duodecim: phialæ argenteæ duodecim: mortariola aurea duodecim:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">84</div> <div class="vers-content">These were the offerings made by the princes of Israel in the dedication of the altar, in the day wherein it was consecrated. Twelve dishes of silver: twelve silver bowls: twelve little mortars of gold:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">84</div> <div class="vers-content">All these dedication gifts were offered by the chieftains of Israel at the time when the altar was hallowed. There were twelve silver dishes, twelve silver bowls and twelve saucers of gold.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">85</div> <div class="vers-content">ita ut centum triginta siclos argenti haberet unum acetabulum, et septuaginta siclos haberet una phiala: id est, in commune vasorum omnium ex argento sicli duo millia quadringenti, pondere sanctuarii:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">85</div> <div class="vers-content">Each dish weighing a hundred and thirty sicles of silver, and each bowl seventy sicles: that is, putting all the vessels of silver together, two thousand four hundred sicles, by the weight of the sanctuary.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">85</div> <div class="vers-content">A hundred and thirty sicles of silver went to each dish, seventy to each bowl, making two thousand four hundred sicles of silver in all, by sanctuary weight.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">86</div> <div class="vers-content">mortariola aurea duodecim plena incenso, denos siclos appendentia pondere sanctuarii: id est, simul auri sicli centum viginti:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">86</div> <div class="vers-content">Twelve little mortars of gold full of incense, weighing ten sicles apiece, by the weight of the sanctuary: that is, in all a hundred and twenty sicles of gold.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">86</div> <div class="vers-content">And the twelve golden saucers with incense in them weighed ten sicles each, by sanctuary weight, making a hundred and twenty sicles of gold altogether.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">87</div> <div class="vers-content">boves de armento in holocaustum duodecim, arietes duodecim, agni anniculi duodecim, et libamenta eorum: hirci duodecim pro peccato.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">87</div> <div class="vers-content">Twelve oxen out of the herd for a holocaust, twelve rams, twelve lambs of a year old, and their libations: twelve buck goats for sin.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">87</div> <div class="vers-content">For burnt-sacrifice, there were twelve bullocks, twelve rams, and twelve yearling he-lambs, with the bread-offering proper to them; in amends for fault, twelve goats;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">88</div> <div class="vers-content">In hostias pacificorum, boves viginti quatuor, arietes sexaginta, hirci sexaginta, agni anniculi sexaginta. Hæc oblata sunt in dedicatione altaris, quando unctum est.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">88</div> <div class="vers-content">And for sacrifices of peace offerings, oxen twenty-four, rams sixty, buck goats sixty, lambs of a year old sixty. These things were offered in the dedication of the altar, when it was anointed.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">88</div> <div class="vers-content">for welcome-offering, twenty-four oxen, sixty rams, sixty goats, and sixty yearling he-lambs. Such were the gifts made, when the altar was hallowed and anointed.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">89</div> <div class="vers-content">Cumque ingrederetur Moyses tabernaculum fœderis, ut consuleret oraculum, audiebat vocem loquentis ad se de propitiatorio quod erat super arcam testimonii inter duos cherubim, unde et loquebatur ei.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">89</div> <div class="vers-content">And when Moses entered into the tabernacle of the covenant, to consult the oracle, he heard the voice of one speaking to him from the propitiatory, that was over the ark between the two cherubims, and from this place he spoke to him.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">89</div> <div class="vers-content">Whenever Moses went into the tabernacle that attested God’s covenant, to consult the oracle there, he heard a voice speaking to him from the shrine between the two cherubs, standing above the ark; there it was that God spoke to him.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_6">&lt; prev</a></div>|
+					<div class="chapter">Chapter 7</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_8">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_1">1</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_2">2</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_3">3</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_4">4</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_5">5</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_6">6</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_7" class="active">7</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_8">8</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_9">9</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_10">10</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_11">11</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_12">12</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_13">13</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_14">14</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_15">15</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_16">16</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_17">17</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_18">18</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_19">19</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_20">20</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_21">21</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_22">22</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_23">23</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_24">24</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_25">25</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_26">26</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_27">27</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_28">28</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_29">29</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_30">30</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_31">31</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_32">32</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_33">33</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_34">34</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_35">35</a> <a href="https://web.archive.org/web/20210726225914/http://catholicbible.online/side_by_side/OT/Num/ch_36">36</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20210726225914im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20210726225914/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20210726225914/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/OT/Num/ch_7"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20210726225914/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20210726225914im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 22:59:14 Jul 26, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:19:23 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.588
+  exclusion.robots: 0.03
+  exclusion.robots.policy: 0.018
+  esindex: 0.012
+  cdx.remote: 8.05
+  LoadShardBlock: 361.19 (3)
+  PetaboxLoader3.datanode: 166.522 (5)
+  PetaboxLoader3.resolve: 345.768 (3)
+  load_resource: 261.229 (2)
+-->

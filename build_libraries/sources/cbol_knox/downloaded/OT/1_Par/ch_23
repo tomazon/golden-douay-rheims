@@ -1,0 +1,325 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Knox Bible</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online â Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+			606: {
+				id_comment: 606,
+				source_str: 'â»',
+				caption: '',
+				content: "It is not clear where this other Semei comes in the genealogy."
+			},
+					607: {
+				id_comment: 607,
+				source_str: 'â»',
+				caption: '',
+				content: "In verses 29 and 30 the words in brackets do not occur in the Hebrew text, or in the Septuagint Greek."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Knox Bible</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=1&book_no=13&chapter_no=23" class="menu-item ">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=1&book_no=13&chapter_no=23" class="menu-item ">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=1&book_no=13&chapter_no=23" class="menu-item active">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=1&book_no=13&chapter_no=23" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">1 Paralipomena</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/knox/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/knox/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Jos">Josue</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/knox/OT/1_Par">1 Paralipomena</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/2_Par">2 Paralipomena</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Neh">2 Esdras (Nehemias)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Cant">Song of Songs</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Eccle">Ecclesiasticus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Mic">Michaeas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Agg">Aggaeus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/knox/OT/1_Par/7199?vers_inline=0"><img src="https://catholicbible.online/assets/img/verses.jpg" alt="" /></a>					<a href="https://catholicbible.online/knox/OT/1_Par/7199?comments_open=0"><img src="https://catholicbible.online/assets/img/C-on.gif" alt="" /></a>				</div>
+				<div class="bible-name">The Holy Bible â Knox Translation</div>
+				<div class="book-name">The First Book of Paralipomena </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/knox/OT/1_Par/7198">&lt; prev</a></div>|
+					<div class="chapter">Chapter 23</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/knox/OT/1_Par/7200">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/knox/OT/1_Par/ch_1">1</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_2">2</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_3">3</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_4">4</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_5">5</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_6">6</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_7">7</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_8">8</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_9">9</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_10">10</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_11">11</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_12">12</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_13">13</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_14">14</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_15">15</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_16">16</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_17">17</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_18">18</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_19">19</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_20">20</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_21">21</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_22">22</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_23" class="active">23</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_24">24</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_25">25</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_26">26</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_27">27</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_28">28</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_29">29</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers155380" class="vers vers-inline">
+												<div class="vers-no">1</div>
+						<div class="vers-content">David was already an old man, and near his end, and had already designated his son Solomon as king of Israel,</div>
+					</div>
+									<div id="vers155381" class="vers vers-inline">
+												<div class="vers-no">2</div>
+						<div class="vers-content">when he held this muster of the rulers, priests and Levites.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers155382" class="vers vers-inline">
+												<div class="vers-no">3</div>
+						<div class="vers-content">There were thirty-eight thousand Levites over the age of thirty;</div>
+					</div>
+									<div id="vers155383" class="vers vers-inline">
+												<div class="vers-no">4</div>
+						<div class="vers-content">twenty-four thousand of these were appointed to carry out various duties in the Lordâs house; of the rest, six thousand were rulers and judges,</div>
+					</div>
+									<div id="vers155384" class="vers vers-inline">
+												<div class="vers-no">5</div>
+						<div class="vers-content">four thousand were porters, and as many more were musicians, to sound the Lordâs praises with the instruments David had made for psalmody.</div>
+					</div>
+									<div id="vers155385" class="vers vers-inline">
+												<div class="vers-no">6</div>
+						<div class="vers-content">It was David who prescribed courses of service for the various Levite families, all coming down from Gerson, Caath, and Merari.</div>
+					</div>
+									<div id="vers155386" class="vers vers-inline">
+												<div class="vers-no">7</div>
+						<div class="vers-content">From Gerson came Leedan and Semei,<a href="" class="inline-comment" data-comment-id="606">â»</a></div>
+					</div>
+									<div id="vers155387" class="vers vers-inline">
+												<div class="vers-no">8</div>
+						<div class="vers-content">from Leedan Jahiel, Zethan and Joel,</div>
+					</div>
+									<div id="vers155388" class="vers vers-inline">
+												<div class="vers-no">9</div>
+						<div class="vers-content">(from Semei Salomith, Hosiel and Aran; all these of Leedanâs race).</div>
+					</div>
+									<div id="vers155389" class="vers vers-inline">
+												<div class="vers-no">10</div>
+						<div class="vers-content">From Semei Leheth, Ziza, Jaus and Baria,</div>
+					</div>
+									<div id="vers155390" class="vers vers-inline">
+												<div class="vers-no">11</div>
+						<div class="vers-content">the first two taking rank separately, while Jaus and Baria counted as one family, so few were their descendants.</div>
+					</div>
+									<div id="vers155391" class="vers vers-inline">
+												<div class="vers-no">12</div>
+						<div class="vers-content">From Caath came Amram, Isaar, Hebron and Oziel,</div>
+					</div>
+									<div id="vers155392" class="vers vers-inline">
+												<div class="vers-no">13</div>
+						<div class="vers-content">from Amram Aaron and Moses. Aaron and his sons were set apart to serve in the inner sanctuary for all time, to make the Lord due offering of incense and pronounce eternal blessing in his name.</div>
+					</div>
+									<div id="vers155393" class="vers vers-inline">
+												<div class="vers-no">14</div>
+						<div class="vers-content">Moses, too, the man of Godâs choice, had descendants who were reckoned among the Levites;</div>
+					</div>
+									<div id="vers155394" class="vers vers-inline">
+												<div class="vers-no">15</div>
+						<div class="vers-content">from him came Gersom and Eliezer.</div>
+					</div>
+									<div id="vers155395" class="vers vers-inline">
+												<div class="vers-no">16</div>
+						<div class="vers-content">Gersomâs first-born son was Subuel,</div>
+					</div>
+									<div id="vers155396" class="vers vers-inline">
+												<div class="vers-no">17</div>
+						<div class="vers-content">and Eliezerâs Rohobia; Eliezer had no other sons, but he had many descendants through Rohobia.</div>
+					</div>
+									<div id="vers155397" class="vers vers-inline">
+												<div class="vers-no">18</div>
+						<div class="vers-content">Isaarâs first-born son was called Salomith.</div>
+					</div>
+									<div id="vers155398" class="vers vers-inline">
+												<div class="vers-no">19</div>
+						<div class="vers-content">From Hebron came Jeriau, Amarias, Jahaziel and Jecmaan,</div>
+					</div>
+									<div id="vers155399" class="vers vers-inline">
+												<div class="vers-no">20</div>
+						<div class="vers-content">from Oziel Micha and Jesia.</div>
+					</div>
+									<div id="vers155400" class="vers vers-inline">
+												<div class="vers-no">21</div>
+						<div class="vers-content">From Merari came Moholi and Musi, from Moholi Eleazar and Cis;</div>
+					</div>
+									<div id="vers155401" class="vers vers-inline">
+												<div class="vers-no">22</div>
+						<div class="vers-content">of these, Eleazar died without male issue, but his daughters married their cousins, the sons of Cis.</div>
+					</div>
+									<div id="vers155402" class="vers vers-inline">
+												<div class="vers-no">23</div>
+						<div class="vers-content">Musiâs sons were Moholi, Eder and Jerimoth.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers155403" class="vers vers-inline">
+												<div class="vers-no">24</div>
+						<div class="vers-content">Clan and family of the Levites, their courses named after these clan chieftains, used to do duty in the Lordâs house after reaching the age of twenty;</div>
+					</div>
+									<div id="vers155404" class="vers vers-inline">
+												<div class="vers-no">25</div>
+						<div class="vers-content">the Lord God of Israel, thought David, has given his people a resting-place, and made Jerusalem their home for ever;</div>
+					</div>
+									<div id="vers155405" class="vers vers-inline">
+												<div class="vers-no">26</div>
+						<div class="vers-content">no more need of Levites to carry the tabernacle and all its furniture this way and that.</div>
+					</div>
+									<div id="vers155406" class="vers vers-inline">
+												<div class="vers-no">27</div>
+						<div class="vers-content">It was by Davidâs last dispositions that the Levites were registered as soon as they reached the age of twenty.</div>
+					</div>
+									<div id="vers155407" class="vers vers-inline">
+												<div class="vers-no">28</div>
+						<div class="vers-content">They were to assist the sons of Aaron in the care of the Lordâs temple, in court and chamber, wash-house and shrine, wherever their service was needed.</div>
+					</div>
+									<div id="vers155408" class="vers vers-inline">
+												<div class="vers-no">29</div>
+						<div class="vers-content">There was work (for the priests)<a href="" class="inline-comment" data-comment-id="607">â»</a> to do in setting out the consecrated loaves, looking after the unleavened cakes, the frying and the roasting, the weights and the measures.</div>
+					</div>
+									<div id="vers155409" class="vers vers-inline">
+												<div class="vers-no">30</div>
+						<div class="vers-content">There was work to do (for the Levites) in waiting upon the Lord with songs of praise morning and evening;</div>
+					</div>
+									<div id="vers155410" class="vers vers-inline">
+												<div class="vers-no">31</div>
+						<div class="vers-content">there was burnt-sacrifice to be offered on sabbaths, and at the new moon, and on all other days of solemnity; every occasion had its due ceremonies that must still be carried out in the Lordâs presence.</div>
+					</div>
+									<div id="vers155411" class="vers vers-inline">
+												<div class="vers-no">32</div>
+						<div class="vers-content">The tabernacle with its usages, the sanctuary with its worship, the needs of their brethren, the sons of Aaron, as they ministered in the Lordâs house, were all in the Levitesâ charge.<span class="content-paragraph"><br><br></span></div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/knox/OT/1_Par/ch_22">&lt; prev</a></div>|
+					<div class="chapter">Chapter 23</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/knox/OT/1_Par/ch_24">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/knox/OT/1_Par/ch_1">1</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_2">2</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_3">3</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_4">4</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_5">5</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_6">6</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_7">7</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_8">8</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_9">9</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_10">10</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_11">11</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_12">12</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_13">13</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_14">14</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_15">15</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_16">16</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_17">17</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_18">18</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_19">19</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_20">20</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_21">21</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_22">22</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_23" class="active">23</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_24">24</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_25">25</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_26">26</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_27">27</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_28">28</a> <a href="https://catholicbible.online/knox/OT/1_Par/ch_29">29</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/knox-bible-flexible.png" alt="" width="130" height="210" /></p>
+	<p><span class="advert-text"><strong>The Holy Bible </strong> <br />
+          Knox Translation</span><br />
+	</p>
+	<p><span class="advert-text">Flexible Cover</span></p>
+	<p><a href="https://www.baronius.com/knox-bible-flexible-cover.html" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = 1;
+</script>		<div class="copyright">2015 - 2024 Â© CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/knox/OT/1_Par/ch_23"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>

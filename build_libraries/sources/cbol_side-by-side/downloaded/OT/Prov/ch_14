@@ -1,0 +1,452 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app221.us.archive.org';v.server_ms=368;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online:80/side_by_side/OT/Prov/ch_14","20200217203938","https://web.archive.org/","web","/_static/",
+	      "1581971978");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20200217203938cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20200217203938cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20200217203938cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20200217203938js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200217203938js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200217203938js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200217203938js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200217203938js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20200217203938/http%3A//catholicbible.online/side_by_side/OT/Prov/ch_14"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/OT/Prov/ch_14" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20200217203938" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20200217203938*/http://catholicbible.online/side_by_side/OT/Prov/ch_14" title="See a list of every capture for this URL">12 captures</a>
+          <div class="r" title="Timespan for captures of this URL">13 Mar 2017 - 17 Feb 2020</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20191219150449/http://catholicbible.online:80/side_by_side/OT/Prov/ch_14" title="19 Dec 2019"><strong>Dec</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 20:39:38 Feb 17, 2020">FEB</td>
+            <td class="f" nowrap="nowrap">Mar</td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20191219150449/http://catholicbible.online:80/side_by_side/OT/Prov/ch_14" title="15:04:49 Dec 19, 2019"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 20:39:38 Feb 17, 2020">17</td>
+            <td class="f" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0" /></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20181222020603/http://catholicbible.online:80/side_by_side/OT/Prov/ch_14" title="22 Dec 2018"><strong>2018</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 20:39:38 Feb 17, 2020">2020</td>
+            <td class="f" nowrap="nowrap">2021</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20200217203938/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/OT/Prov/ch_14"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20200217203938/http://catholicbible.online:80/side_by_side/OT/Prov/ch_14" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20200217203938/http://catholicbible.online:80/side_by_side/OT/Prov/ch_14" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20200217203938/http://catholicbible.online:80/side_by_side/OT/Prov/ch_14</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/OT/Prov/ch_14","20200217203938",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=22&amp;chapter_no=14" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=22&amp;chapter_no=14" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=22&amp;chapter_no=14" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=22&amp;chapter_no=14" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20200217203938/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Proverbs</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Ps">Psalms</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Book of Proverbs — Liber Proverbiorum </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_13">&lt; prev</a></div>|
+					<div class="chapter">Chapter 14</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_15">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_1">1</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_2">2</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_3">3</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_4">4</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_5">5</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_6">6</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_7">7</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_8">8</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_9">9</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_10">10</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_11">11</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_12">12</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_13">13</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_14" class="active">14</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_15">15</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_16">16</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_17">17</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_18">18</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_19">19</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_20">20</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_21">21</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_22">22</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_23">23</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_24">24</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_25">25</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_26">26</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_27">27</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_28">28</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_29">29</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_30">30</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_31">31</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_14?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_14?act_indx=1&amp;act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_14?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_14?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Sapiens mulier ædificat domum suam; insipiens exstructam quoque manibus destruet.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">A  WISE woman buildeth her house: but the foolish will pull down with her hands that also which is built.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">It is by woman’s wisdom a home thrives; a foolish wife pulls it down about her ears.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Ambulans recto itinere, et timens Deum, despicitur ab eo qui infami graditur via.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">He that walketh in the right way, and feareth God, is despised by him that goeth by an infamous way.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Does a man fear the Lord? He holds an even course; the knave has little regard for him.  </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">In ore stulti virga superbiæ; labia autem sapientium custodiunt eos.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">In the mouth of a fool is the rod of pride: but the lips of the wise preserve them.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Pride burgeons from the lips of fools; in modesty of speech the wise find safety.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Ubi non sunt boves, præsepe vacuum est; ubi autem plurimæ segetes, ibi manifesta est fortitudo bovis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Where there are no oxen, the crib is empty: but where there is much corn, there the strength of the ox is manifest.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">No need for a full crib, where oxen are none; yet ever rich harvest tells of the ox at work.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Testis fidelis non mentitur; profert autem mendacium dolosus testis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">A faithful witness will not lie: but a deceitful witness uttereth a lie.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">It is a faithful witness that never lies; the perjurer breathes out lies continually.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Quærit derisor sapientiam, et non invenit; doctrina prudentium facilis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">A scorner seeketh wisdom, and findeth it not: the learning of the wise is easy.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Vainly the rash aspire to wisdom; the discerning come by their knowledge with little pains.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Vade contra virum stultum, et nescit labia prudentiæ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Go against a foolish man, and he knoweth not the lips of prudence.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Go thy way, and let the fool go his; good sense is a strange language to him.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Sapientia callidi est intelligere viam suam, et imprudentia stultorum errans.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">The wisdom of a discreet man is to understand his way: and the imprudence of fools erreth.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Prudence picks its way wisely; the fool blunders and is lost.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Stultus illudet peccatum, et inter justos morabitur gratia.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">A fool will laugh at sin, but among the just grace shall abide.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Fools make light of the guilt that needs atonement, and leave honest men to enjoy the Lord’s favour.  </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Cor quod novit amaritudinem animæ suæ, in gaudio ejus non miscebitur extraneus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">The heart that knoweth the bitterness of his own soul, in his joy the stranger shall not intermeddle.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Heart’s bitterness none may know but the heart that feels it; no prying stranger can tell when it finds relief.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Domus impiorum delebitur: tabernacula vero justorum germinabunt.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">The house of the wicked shall be destroyed: but the tabernacles of the just shall flourish.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Fall it must, the house of the wicked; where the upright dwell, all is increase.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Est via quæ videtur homini justa, novissima autem ejus deducunt ad mortem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">There is a way which seemeth just to a man: but the ends thereof lead to death.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">The right road in a man’s thinking may be one whose goal is death.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Risus dolore miscebitur, et extrema gaudii luctus occupat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Laughter shall be mingled with sorrow, and mourning taketh hold of the end of joy.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Joy blends with grief, and laughter marches with tears.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Viis suis replebitur stultus, et super eum erit vir bonus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">A fool shall be filled with his own ways, and the good man shall be above him.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">The incorrigible shall have a taste of his own ill-doings, and honest men shall have the better of him.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Innocens credit omni verbo; astutus considerat gressus suos. Filio doloso nihil erit boni; servo autem sapienti prosperi erunt actus, et dirigetur via ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">The innocent believeth every word: the discreet man considereth his steps. No good shall come to the deceitful son: but the wise servant shall prosper in his dealings, and his way shall be made straight.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">The simpleton takes all on trust; wisdom considers each step. (A treacherous son no part shall have; better shall a wise servant thrive and prosper.  )</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Sapiens timet, et declinat a malo; stultus transilit, et confidit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">A wise man feareth and declineth from evil: the fool leapeth over and is confident.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Caution teaches the wise to shun danger; the fool is carried away by rash confidence.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Impatiens operabitur stultitiam, et vir versutus odiosus est.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">The impatient man shall work folly: and the crafty man is hateful.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">The impatient man blunders, as surely as the schemer makes enemies.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Possidebunt parvuli stultitiam, et exspectabunt astuti scientiam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">The childish shall possess folly, and the prudent shall look for knowledge.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Folly is the simpleton’s heirloom; skill crowns the wise.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Jacebunt mali ante bonos, et impii ante portas justorum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">The evil shall fall down before the good: and the wicked before the gates of the just.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Vice lies prostrate before virtue, the sinner at the gates of the just.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Etiam proximo suo pauper odiosus erit: amici vero divitum multi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">The poor man shall be hateful even to his own neighbour: but the friends of the rich are many.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Of the beggar, his own neighbours grow weary; wealth never lacks friends.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Qui despicit proximum suum peccat; qui autem miseretur pauperis beatus erit. Qui credit in Domino misericordiam diligit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">He that despiseth his neighbour, sinneth: but he that sheweth mercy to the poor, shall be blessed. He that believeth in the Lord, loveth mercy.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Shame on the man who holds his neighbour in contempt; mercy to the poor brings a blessing. (Mercy he loves, who puts his trust in the Lord.  )</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Errant qui operantur malum; misericordia et veritas præparant bona.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">They err that work evil: but mercy and truth prepare good things.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">They follow a false path, that plot mischief; mercy and faithfulness mercy and faith shall find.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">In omni opere erit abundantia; ubi autem verba sunt plurima, ibi frequenter egestas.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">In much work there shall be abundance: but where there are many words, there is oftentimes want.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Hard work is sure wealth; of chattering comes only poverty.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Corona sapientium divitiæ eorum; fatuitas stultorum imprudentia.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">The crown of the wise is their riches: the folly of fools, imprudence.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Made rich, the wise are crowned, the folly of the thoughtless will be folly yet.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Liberat animas testis fidelis, et profert mendacia versipellis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">A faithful witness delivereth souls: and the double dealer uttereth lies.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Men owe their lives to truthful witnesses; the very breath of the perjurer is treason.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">In timore Domini fiducia fortitudinis, et filiis ejus erit spes.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">In the fear of the Lord is confidence of strength, and there shall be hope for his children.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">The fear of the Lord gives strong confidence, bequeaths hope from the father to the children.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">Timor Domini fons vitæ, ut declinent a ruina mortis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">The fear of the Lord is a fountain of life, to decline from the ruin of death.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">The fear of the Lord is a fountain where men may drink life, far removed from all mortal peril.  </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">In multitudine populi dignitas regis, et in paucitate plebis ignominia principis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">In the multitude of people is the dignity of the king: and in the small number of people the dishonour of the prince.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Great people, great king; it is for want of men crowns are lost.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Qui patiens est multa gubernatur prudentia; qui autem impatiens est exaltat stultitiam suam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">He that is patient, is governed with much wisdom: but he that is impatient, exalteth his folly.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Patience comes of sovereign prudence, impatience of unchecked folly.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Vita carnium sanitas cordis; putredo ossium invidia.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Soundness of heart is the life of the flesh: but envy is the rottenness of the bones.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Peace of mind is health of body; more than all else, envy wastes the frame.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Qui calumniatur egentem exprobrat factori ejus; honorat autem eum qui miseretur pauperis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">He that oppresseth the poor, upbraideth his Maker: but he that hath pity on the poor, honoureth him.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">He who oppresses the poor, insults man’s Maker; him if thou wouldst honour, take pity on human need.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">In malitia sua expelletur impius: sperat autem justus in morte sua.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">The wicked man shall be driven out in his wickedness: but the just hath hope in his death.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">When the wicked is paid in his own coin, there is an end of him; at death’s door, the just still hope.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">In corde prudentis requiescit sapientia, et indoctos quosque erudiet.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">In the heart of the prudent resteth wisdom, and it shall instruct all the ignorant.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">In the discerning heart, wisdom finds a resting-place; even among fools it can impart learning.  </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Justitia elevat gentem; miseros autem facit populos peccatum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Justice exalteth a nation: but sin maketh nations miserable.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Duty well done, a whole nation becomes great; suffer whole peoples for guilt incurred.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Acceptus est regi minister intelligens; iracundiam ejus inutilis sustinebit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">A wise servant is acceptable to the king: he that is good for nothing shall feel his anger.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">A king shews favour to a wise servant; disappoint him, and thou shalt feel his anger.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_13">&lt; prev</a></div>|
+					<div class="chapter">Chapter 14</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_15">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_1">1</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_2">2</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_3">3</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_4">4</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_5">5</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_6">6</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_7">7</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_8">8</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_9">9</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_10">10</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_11">11</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_12">12</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_13">13</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_14" class="active">14</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_15">15</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_16">16</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_17">17</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_18">18</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_19">19</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_20">20</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_21">21</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_22">22</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_23">23</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_24">24</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_25">25</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_26">26</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_27">27</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_28">28</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_29">29</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_30">30</a> <a href="https://web.archive.org/web/20200217203938/http://catholicbible.online/side_by_side/OT/Prov/ch_31">31</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20200217203938im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20200217203938/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20200217203938/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/OT/Prov/ch_14"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20200217203938/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20200217203938im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 20:39:38 Feb 17, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:08:55 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.48
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.014
+  esindex: 0.009
+  cdx.remote: 9.679
+  LoadShardBlock: 159.328 (3)
+  PetaboxLoader3.datanode: 249.553 (4)
+  load_resource: 171.991
+  PetaboxLoader3.resolve: 63.897
+-->

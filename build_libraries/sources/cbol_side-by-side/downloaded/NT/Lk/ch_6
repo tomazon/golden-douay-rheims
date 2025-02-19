@@ -1,0 +1,475 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app215.us.archive.org';v.server_ms=212;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online:80/side_by_side/NT/Lk/ch_6","20191021123629","https://web.archive.org/","web","/_static/",
+	      "1571661389");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20191021123629cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20191021123629cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20191021123629cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20191021123629js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20191021123629js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20191021123629js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20191021123629js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20191021123629js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20191021123629/http%3A//catholicbible.online/side_by_side/NT/Lk/ch_6"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/NT/Lk/ch_6" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20191021123629" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20191021123629*/http://catholicbible.online/side_by_side/NT/Lk/ch_6" title="See a list of every capture for this URL">16 captures</a>
+          <div class="r" title="Timespan for captures of this URL">28 Sep 2017 - 06 Dec 2021</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20190725121146/http://catholicbible.online:80/side_by_side/NT/Lk/ch_6" title="25 Jul 2019"><strong>Jul</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 12:36:29 Oct 21, 2019">OCT</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20191220191217/http://catholicbible.online:80/side_by_side/NT/Lk/ch_6" title="20 Dec 2019"><strong>Dec</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20190924231107/http://catholicbible.online:80/side_by_side/NT/Lk/ch_6" title="23:11:07 Sep 24, 2019"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 12:36:29 Oct 21, 2019">21</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20191220191217/http://catholicbible.online:80/side_by_side/NT/Lk/ch_6" title="19:12:17 Dec 20, 2019"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20180914193101/http://catholicbible.online:80/side_by_side/NT/Lk/ch_6" title="14 Sep 2018"><strong>2018</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 12:36:29 Oct 21, 2019">2019</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20210620041658/https://catholicbible.online/side_by_side/NT/Lk/ch_6" title="20 Jun 2021"><strong>2021</strong></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20191021123629/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/NT/Lk/ch_6"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20191021123629/http://catholicbible.online:80/side_by_side/NT/Lk/ch_6" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20191021123629/http://catholicbible.online:80/side_by_side/NT/Lk/ch_6" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20191021123629/http://catholicbible.online:80/side_by_side/NT/Lk/ch_6</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/NT/Lk/ch_6","20191021123629",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/vulgate?bible_part_no=2&amp;book_no=3&amp;chapter_no=6" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/douay_rheims?bible_part_no=2&amp;book_no=3&amp;chapter_no=6" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/knox?bible_part_no=2&amp;book_no=3&amp;chapter_no=6" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side?bible_part_no=2&amp;book_no=3&amp;chapter_no=6" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20191021123629/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Luke</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Mk">Mark</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk">Luke</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Holy Gospel of Jesus Christ according to St. Luke — Evangelium Secundum Lucam</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_5">&lt; prev</a></div>|
+					<div class="chapter">Chapter 6</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_7">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_1">1</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_2">2</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_3">3</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_4">4</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_5">5</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_6" class="active">6</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_7">7</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_8">8</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_9">9</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_10">10</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_11">11</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_12">12</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_13">13</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_14">14</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_15">15</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_16">16</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_17">17</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_18">18</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_19">19</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_20">20</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_21">21</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_22">22</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_23">23</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_24">24</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_6?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_6?act_indx=1&amp;act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_6?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_6?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Factum est autem in sabbato secundo, primo, cum transiret per sata, vellebant discipuli ejus spicas, et manducabant confricantes manibus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">And  it came to pass on the second first sabbath, that as he went through the corn fields, his disciples plucked the ears, and did eat, rubbing them in their hands.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">It happened that on the next sabbath but one he was walking through the corn-fields; and his disciples were plucking the ears of corn and eating them, rubbing them between their hands.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Quidam autem pharisæorum, dicebant illis: Quid facitis quod non licet in sabbatis?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">And some of the Pharisees said to them: Why do you that which is not lawful on the sabbath days?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">And some of the Pharisees said to them, Why are you doing what it is not lawful to do on the sabbath?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Et respondens Jesus ad eos, dixit: Nec hoc legistis quod fecit David, cum esurisset ipse, et qui cum illo erant?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">And Jesus answering them, said: Have you not read so much as this, what David did, when himself was hungry, and they that were with him:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Whereupon Jesus answered them, Why, have you never read of what David did, when he and his followers were hungry? </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">quomodo intravit in domum Dei, et panes propositionis sumpsit, et manducavit, et dedit his qui cum ipso erant: quos non licet manducare nisi tantum sacerdotibus?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">How he went into the house of God, and took and ate the bread of proposition, and gave to them that were with him, which is not lawful to eat but only for the priests?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">How he went into the tabernacle, and ate the loaves set forth there before God, and gave them to his followers, although it is not lawful for anyone except the priests to eat them?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Et dicebat illis: Quia dominus est Filius hominis etiam sabbati.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">And he said to them: The Son of man is Lord also of the sabbath.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">And he told them, The Son of Man has even the sabbath at his disposal. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Factum est autem in alio sabbato, ut intraret in synagogam, et doceret. Et erat ibi homo, et manus ejus dextra erat arida.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">And it came to pass also on another sabbath, that he entered into the synagogue, and taught. And there was a man, whose right hand was withered.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">And on another sabbath day it happened that he went into the synagogue to teach, when there was a man there who had his right hand withered.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Observabant autem scribæ et pharisæi si in sabbato curaret, ut invenirent unde accusarent eum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">And the scribes and Pharisees watched if he would heal on the sabbath; that they might find an accusation against him.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">The scribes and Pharisees were watching him, to see whether he would restore health on the sabbath, so that they might have a charge to bring against him.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Ipse vero sciebat cogitationes eorum: et ait homini qui habebat manum aridam: Surge, et sta in medium. Et surgens stetit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">But he knew their thoughts; and said to the man who had the withered hand: Arise, and stand forth in the midst. And rising he stood forth.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">He knew their secret thoughts, and said to the man who had his hand withered, Rise up, and come forward; whereupon he rose to his feet.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Ait autem ad illos Jesus: Interrogo vos si licet sabbatis benefacere, an male: animam salvam facere, an perdere?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Then Jesus said to them: I ask you, if it be lawful on the sabbath days to do good, or to do evil; to save life, or to destroy?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Then Jesus said to them, I have a question to ask you; which is right, to do good on the sabbath day, or to do harm? To save life, or to make away with it?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Et circumspectis omnibus dixit homini: Extende manum tuam. Et extendit: et restituta est manus ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">And looking round about on them all, he said to the man: Stretch forth thy hand. And he stretched it forth: and his hand was restored.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">And he looked round on them all, and said to him, Stretch out thy hand. And he did so, and his hand was restored to him.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Ipsi autem repleti sunt insipientia, et colloquebantur ad invicem, quidnam facerent Jesu.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">And they were filled with madness; and they talked one with another, what they might do to Jesus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">And they were overcome with fury, debating with one another what they could do to Jesus.  </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Factum est autem in illis diebus, exiit in montem orare, et erat pernoctans in oratione Dei.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">And it came to pass in those days, that he went out into a mountain to pray, and he passed the whole night in the prayer of God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">It was at this time that he went out on to the mountain-side, and passed the whole night offering prayer to God,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Et cum dies factus esset, vocavit discipulos suos: et elegit duodecim ex ipsis (quos et apostolos nominavit):</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">And when day was come, he called unto him his disciples; and he chose twelve of them (whom also he named apostles):</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">and when day dawned, he called his disciples to him, choosing out twelve of them; these he called his apostles.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Simonem, quem cognominavit Petrum, et Andream fratrem ejus, Jacobum, et Joannem, Philippum, et Bartholomæum,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Simon, whom he surnamed Peter, and Andrew his brother, James and John, Philip and Bartholomew,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Their names were, Simon, whom he also called Peter, his brother Andrew, James and John, Philip and Bartholomew,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Matthæum, et Thomam, Jacobum Alphæi, et Simonem, qui vocatur Zelotes,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Matthew and Thomas, James the son of Alpheus, and Simon who is called Zelotes,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Matthew and Thomas, James the son of Alphaeus, and Simon who is called the Zealot,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">et Judam Jacobi, et Judam Iscariotem, qui fuit proditor.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">And Jude, the brother of James, and Judas Iscariot, who was the traitor.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Jude the brother of James, and Judas Iscariot, the man who turned traitor. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Et descendens cum illis, stetit in loco campestri, et turba discipulorum ejus, et multitudo copiosa plebis ab omni Judæa, et Jerusalem, et maritima, et Tyri, et Sidonis,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">And coming down with them, he stood in a plain place, and the company of his disciples, and a very great multitude of people from all Judea and Jerusalem, and the sea coast both of Tyre and Sidon,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">With them he went down and stood on a level place; a multitude of his disciples was there, and a great gathering of the people from all Judaea, and Jerusalem, and the sea-coast of Tyre and Sidon.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">qui venerant ut audirent eum, et sanarentur a languoribus suis. Et qui vexabantur a spiritibus immundis, curabantur.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Who were come to hear him, and to be healed of their diseases. And they that were troubled with unclean spirits, were cured.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">These had come there to listen to him, and to be healed of their diseases; and those who were troubled by unclean spirits were also cured;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Et omnis turba quærebat eum tangere: quia virtus de illo exibat, et sanabat omnes.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">And all the multitude sought to touch him, for virtue went out from him, and healed all.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">so that all the multitude was eager to touch him, because power went out from him, and healed them all.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Et ipse elevatis oculis in discipulis suis, dicebat: Beati pauperes, quia vestrum est regnum Dei.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">And he, lifting up his eyes on his disciples, said: Blessed are ye poor, for yours is the kingdom of God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Then he lifted up his eyes towards his disciples, and said; Blessed are you who are poor; the kingdom of God is yours.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Beati qui nunc esuritis, quia saturabimini. Beati qui nunc fletis, quia ridebitis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Blessed are ye that hunger now: for you shall be filled. Blessed are ye that weep now: for you shall laugh.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Blessed are you who are hungry now; you will have your fill. Blessed are you who weep now; you will laugh for joy.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Beati eritis cum vos oderint homines, et cum separaverint vos, et exprobraverint, et ejicerint nomen vestrum tamquam malum propter Filium hominis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Blessed shall you be when men shall hate you, and when they shall separate you, and shall reproach you, and cast out your name as evil, for the Son of man’s sake.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Blessed are you, when men hate you and cast you off and revile you, when they reject your name as something evil, for the Son of Man’s sake.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Gaudete in illa die, et exsultate: ecce enim merces vestra multa est in cælo: secundum hæc enim faciebant prophetis patres eorum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Be glad in that day and rejoice; for behold, your reward is great in heaven. For according to these things did their fathers to the prophets.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">When that day comes, rejoice and exult over it; for behold, a rich reward awaits you in heaven; their fathers treated the prophets no better.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Verumtamen væ vobis divitibus, quia habetis consolationem vestram.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">But woe to you that are rich: for you have your consolation.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">But woe upon you who are rich; you have your comfort already.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Væ vobis, qui saturati estis: quia esurietis. Væ vobis, qui ridetis nunc: quia lugebitis et flebitis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Woe to you that are filled: for you shall hunger. Woe to you that now laugh: for you shall mourn and weep.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Woe upon you who are filled full; you shall be hungry. Woe upon you who laugh now; you shall mourn and weep.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Væ cum benedixerint vobis homines: secundum hæc enim faciebant pseudoprophetis patres eorum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Woe to you when men shall bless you: for according to these things did their fathers to the false prophets.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Woe upon you, when all men speak well of you; their fathers treated the false prophets no worse.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">Sed vobis dico, qui auditis: diligite inimicos vestros, benefacite his qui oderunt vos.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">But I say to you that hear: Love your enemies, do good to them that hate you.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">And now I say to you who are listening to me, Love your enemies, do good to those who hate you;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Benedicite maledicentibus vobis, et orate pro calumniantibus vos.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Bless them that curse you, and pray for them that calumniate you.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">bless those who curse you, and pray for those who treat you insultingly.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Et qui te percutit in maxillam, præbe et alteram. Et ab eo qui aufert tibi vestimentum, etiam tunicam noli prohibere.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">And to him that striketh thee on the one cheek, offer also the other. And him that taketh away from thee thy cloak, forbid not to take thy coat also.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">If a man strikes thee on the cheek, offer him the other cheek too; if a man would take away thy cloak, do not grudge him thy coat along with it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Omni autem petenti te, tribue: et qui aufert quæ tua sunt, ne repetas.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Give to every one that asketh thee, and of him that taketh away thy goods, ask them not again.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Give to every man who asks, and if a man takes what is thine, do not ask him to restore it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Et prout vultis ut faciant vobis homines, et vos facite illis similiter.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">And as you would that men should do to you, do you also to them in like manner.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">As you would have men treat you, you are to treat them; no otherwise.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">Et si diligitis eos qui vos diligunt, quæ vobis est gratia? nam et peccatores diligentes se diligunt.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">And if you love them that love you, what thanks are to you? for sinners also love those that love them.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">Why, what credit is it to you, if you love those who love you? Even sinners love those who love them.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">Et si benefeceritis his qui vobis benefaciunt, quæ vobis est gratia? siquidem et peccatores hoc faciunt.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">And if you do good to them who do good to you, what thanks are to you? for sinners also do this.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">What credit is it to you, if you do good to those who do good to you? Even sinners do as much.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Et si mutuum dederitis his a quibus speratis recipere, quæ gratia est vobis? nam et peccatores peccatoribus fœnerantur, ut recipiant æqualia.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">And if you lend to them of whom you hope to receive, what thanks are to you? for sinners also lend to sinners, for to receive as much.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">What credit is it to you, if you lend to those from whom you expect repayment? Even sinners lend to sinners, to receive as much in exchange.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Verumtamen diligite inimicos vestros: benefacite, et mutuum date, nihil inde sperantes: et erit merces vestra multa, et eritis filii Altissimi, quia ipse benignus est super ingratos et malos.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">But love ye your enemies: do good, and lend, hoping for nothing thereby: and your reward shall be great, and you shall be the sons of the Highest; for he is kind to the unthankful, and to the evil.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">No, it is your enemies you must love, and do them good, and lend to them, without any hope of return; then your reward will be a rich one, and you will be true sons of the most High, generous like him towards the thankless and unjust.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Estote ergo misericordes sicut et Pater vester misericors est.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Be ye therefore merciful, as your Father also is merciful.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Be merciful, then, as your Father is merciful.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Nolite judicare, et non judicabimini: nolite condemnare, et non condemnabimini. Dimitte, et dimittemini.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Judge not, and you shall not be judged. Condemn not, and you shall not be condemned. Forgive, and you shall be forgiven.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Judge nobody, and you will not be judged; condemn nobody, and you will not be condemned; forgive, and you will be forgiven.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Date, et dabitur vobis: mensuram bonam, et confertam, et coagitatam, et supereffluentem dabunt in sinum vestrum. Eadem quippe mensura, qua mensi fueritis, remetietur vobis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Give, and it shall be given to you: good measure and pressed down and shaken together and running over shall they give into your bosom. For with the same measure that you shall mete withal, it shall be measured to you again.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Give, and gifts will be yours; good measure, pressed down and shaken up and running over, will be poured into your lap; the measure you award to others is the measure that will be awarded to you.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Dicebat autem illis et similitudinem: Numquid potest cæcus cæcum ducere? nonne ambo in foveam cadunt?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">And he spoke also to them a similitude: Can the blind lead the blind? do they not both fall into the ditch?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">And he told them this parable, Can one blind man lead another? Will not both fall into the ditch together?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">Non est discipulus super magistrum: perfectus autem omnis erit, si sit sicut magister ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">The disciple is not above his master: but every one shall be perfect, if he be as his master.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">A disciple is no better than his master; he will be fully perfect if he is as his master is.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">Quid autem vides festucam in oculo fratris tui, trabem autem, quæ in oculo tuo est, non consideras?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">And why seest thou the mote in thy brother’s eye: but the beam that is in thy own eye thou considerest not?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">How is it that thou canst see the speck of dust which is in thy brother’s eye, and art not aware of the beam which is in thy own?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">aut quomodo potes dicere fratri tuo: Frater, sine ejiciam festucam de oculo tuo: ipse in oculo tuo trabem non videns? Hypocrita, ejice primum trabem de oculo tuo: et tunc perspicies ut educas festucam de oculo fratris tui.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Or how canst thou say to thy brother: Brother, let me pull the mote out of thy eye, when thou thyself seest not the beam in thy own eye? Hypocrite, cast first the beam out of thy own eye; and then shalt thou see clearly to take out the mote from thy brother’s eye.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">By what right wilt thou say to thy brother, Brother, let me rid thy eye of that speck, when thou canst not see the beam that is in thy own? Thou hypocrite, take the beam out of thy own eye first, and so thou shalt have clear sight to rid thy brother’s of the speck.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">Non est enim arbor bona, quæ facit fructus malos: neque arbor mala, faciens fructum bonum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">For there is no good tree that bringeth forth evil fruit; nor an evil tree that bringeth forth good fruit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">There is no sound tree that will yield withered fruit, no withered tree that will yield sound fruit.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">Unaquæque enim arbor de fructu suo cognoscitur. Neque enim de spinis colligunt ficus: neque de rubo vindemiant uvam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">For every tree is known by its fruit. For men do not gather figs from thorns; nor from a bramble bush do they gather the grape.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">Each tree is known by its proper fruit; figs are not plucked from thorns, nor grapes gathered from brier bushes.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">Bonus homo de bono thesauro cordis sui profert bonum: et malus homo de malo thesauro profert malum. Ex abundantia enim cordis os loquitur.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">A good man out of the good treasure of his heart bringeth forth that which is good: and an evil man out of the evil treasure bringeth forth that which is evil. For out of the abundance of the heart the mouth speaketh.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">A good man utters what is good from his heart’s store of goodness; the wicked man, from his heart’s store of wickedness, can utter nothing but what is evil; it is from the heart’s overflow that the mouth speaks.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">Quid autem vocatis me Domine, Domine: et non facitis quæ dico?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">And why call you me, Lord, Lord; and do not the things which I say?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">How is it that you call me, Master, Master, and will not do what I bid you?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">Omnis qui venit ad me, et audit sermones meos, et facit eos, ostendam vobis cui similis sit:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">Every one that cometh to me, and heareth my words, and doth them, I will shew you to whom he is like.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">If anyone comes to me and listens to my commandments and carries them out, I will tell you what he is like;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">similis est homini ædificanti domum, qui fodit in altum, et posuit fundamentum super petram: inundatione autem facta, illisum est flumen domui illi, et non potuit eam movere: fundata enim erat super petram.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">He is like to a man building a house, who digged deep, and laid the foundation upon a rock. And when a flood came, the stream beat vehemently upon that house, and it could not shake it; for it was founded on a rock.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">he is like a man that would build a house, who dug, dug deep, and laid his foundation on rock. Then a flood came, and the river broke upon that house, but could not stir it; it was founded upon rock.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">Qui autem audit, et non facit, similis est homini ædificanti domum suam super terram sine fundamento: in quam illisus est fluvius, et continuo cecidit: et facta est ruina domus illius magna.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">But he that heareth, and doth not, is like to a man building his house upon the earth without a foundation: against which the stream beat vehemently, and immediately it fell, and the ruin of that house was great.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">But the man who listens to what I say and does not carry it out is like a man who built his house in the earth without foundation; when the river broke upon it, it fell at once, and great was that house’s ruin.  </div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_5">&lt; prev</a></div>|
+					<div class="chapter">Chapter 6</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_7">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_1">1</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_2">2</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_3">3</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_4">4</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_5">5</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_6" class="active">6</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_7">7</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_8">8</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_9">9</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_10">10</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_11">11</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_12">12</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_13">13</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_14">14</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_15">15</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_16">16</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_17">17</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_18">18</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_19">19</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_20">20</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_21">21</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_22">22</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_23">23</a> <a href="https://web.archive.org/web/20191021123629/http://catholicbible.online/side_by_side/NT/Lk/ch_24">24</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20191021123629im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20191021123629/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20191021123629/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/NT/Lk/ch_6"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20191021123629/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20191021123629im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 12:36:29 Oct 21, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:49:10 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.122
+  exclusion.robots: 0.053
+  exclusion.robots.policy: 0.031
+  esindex: 0.019
+  cdx.remote: 22.297
+  LoadShardBlock: 81.427 (3)
+  PetaboxLoader3.datanode: 95.472 (4)
+  load_resource: 60.129
+  PetaboxLoader3.resolve: 22.057
+-->

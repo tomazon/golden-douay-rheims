@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online â Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+	};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=2&book_no=22&chapter_no=3" class="menu-item ">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=2&book_no=22&chapter_no=3" class="menu-item active">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=2&book_no=22&chapter_no=3" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=2&book_no=22&chapter_no=3" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">2 Peter</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Lk">Luke</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/douay_rheims/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/douay_rheims/NT/2_Pet/10398?vers_inline=0"><img src="https://catholicbible.online/assets/img/verses.jpg" alt="" /></a>					<a href="https://catholicbible.online/douay_rheims/NT/2_Pet/10398?comments_open=0"><img src="https://catholicbible.online/assets/img/C-on.gif" alt="" /></a>				</div>
+				<div class="bible-name">The Holy Bible â DouayâRheims version</div>
+				<div class="book-name">The Second Epistle of St. Peter the Apostle</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/NT/2_Pet/10397">&lt; prev</a></div>|
+					<div class="chapter">Chapter 3</div>
+					|<div class="next-chapter"></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/NT/2_Pet/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/NT/2_Pet/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/NT/2_Pet/ch_3" class="active">3</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers238650" class="vers vers-inline">
+												<div class="vers-no">1</div>
+						<div class="vers-content">Behold  this second epistle I write to you, my dearly beloved, in which I stir up by way of admonition your sincere mind:</div>
+					</div>
+									<div id="vers238651" class="vers vers-inline">
+												<div class="vers-no">2</div>
+						<div class="vers-content">That you may be mindful of those words which I told you before from the holy prophets, and of your apostles, of the precepts of the Lord and Saviour.</div>
+					</div>
+									<div id="vers238652" class="vers vers-inline">
+												<div class="vers-no">3</div>
+						<div class="vers-content">Knowing this first, that in the last days there shall come deceitful scoffers, walking after their own lusts,</div>
+					</div>
+									<div id="vers238653" class="vers vers-inline">
+												<div class="vers-no">4</div>
+						<div class="vers-content">Saying: Where is his promise or his coming? for since the time that the fathers slept, all things continue as they were from the beginning of the creation.</div>
+					</div>
+									<div id="vers238654" class="vers vers-inline">
+												<div class="vers-no">5</div>
+						<div class="vers-content">For this they are wilfully ignorant of, that the heavens were before, and the earth out of water, and through water, consisting by the word of God,</div>
+					</div>
+									<div id="vers238655" class="vers vers-inline">
+												<div class="vers-no">6</div>
+						<div class="vers-content">Whereby the world that then was, being overflowed with water, perished.</div>
+					</div>
+									<div id="vers238656" class="vers vers-inline">
+												<div class="vers-no">7</div>
+						<div class="vers-content">But the heavens and the earth which are now, by the same word are kept in store, reserved unto fire against the day of judgment and perdition of the ungodly men.</div>
+					</div>
+									<div id="vers238657" class="vers vers-inline">
+												<div class="vers-no">8</div>
+						<div class="vers-content">But of this one thing be not ignorant, my beloved, that one day with the Lord is as a thousand years, and a thousand years as one day.</div>
+					</div>
+									<div id="vers238658" class="vers vers-inline">
+												<div class="vers-no">9</div>
+						<div class="vers-content">The Lord delayeth not his promise, as some imagine, but dealeth patiently for your sake, not willing that any should perish, but that all should return to penance,</div>
+					</div>
+									<div id="vers238659" class="vers vers-inline">
+												<div class="vers-no">10</div>
+						<div class="vers-content">But the day of the Lord shall come as a thief, in which the heavens shall pass away with great violence, and the elements shall be melted with heat, and the earth and the works which are in it, shall be burnt up.</div>
+					</div>
+									<div id="vers238660" class="vers vers-inline">
+												<div class="vers-no">11</div>
+						<div class="vers-content">Seeing then that all these things are to be dissolved, what manner of people ought you to be in holy conversation and godliness?</div>
+					</div>
+									<div id="vers238661" class="vers vers-inline">
+												<div class="vers-no">12</div>
+						<div class="vers-content">Looking for and hasting unto the coming of the day of the Lord, by which the heavens being on fire shall be dissolved, and the elements shall melt with the burning heat?</div>
+					</div>
+									<div id="vers238662" class="vers vers-inline">
+												<div class="vers-no">13</div>
+						<div class="vers-content">But we look for new heavens and a new earth according to his promises, in which justice dwelleth.</div>
+					</div>
+									<div id="vers238663" class="vers vers-inline">
+												<div class="vers-no">14</div>
+						<div class="vers-content">Wherefore, dearly beloved, waiting for these things, be diligent that you may be found before him unspotted and blameless in peace,</div>
+					</div>
+									<div id="vers238664" class="vers vers-inline">
+												<div class="vers-no">15</div>
+						<div class="vers-content">And account the longsuffering of our Lord, salvation; as also our most dear brother Paul, according to the wisdom given him, hath written to you:</div>
+					</div>
+									<div id="vers238665" class="vers vers-inline">
+												<div class="vers-no">16</div>
+						<div class="vers-content">As also in all his epistles, speaking in them of these things; in which are certain things hard to be understood, which the unlearned and unstable wrest, as they do also the other scriptures, to their own destruction.</div>
+					</div>
+									<div id="vers238666" class="vers vers-inline">
+												<div class="vers-no">17</div>
+						<div class="vers-content">You therefore, brethren, knowing these things before, take heed, lest being led aside by the error of the unwise, you fall from your own steadfastness.</div>
+					</div>
+									<div id="vers238667" class="vers vers-inline">
+												<div class="vers-no">18</div>
+						<div class="vers-content">But grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ. To him be glory both now and unto the day of eternity. Amen.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/NT/2_Pet/ch_2">&lt; prev</a></div>|
+					<div class="chapter">Chapter 3</div>
+					|<div class="next-chapter"></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/NT/2_Pet/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/NT/2_Pet/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/NT/2_Pet/ch_3" class="active">3</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="130" height="210" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br />
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br />
+        Flexible Cover</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-bible.html" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = 1;
+</script>		<div class="copyright">2015 - 2024 Â© CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/douay_rheims/NT/2_Pet/ch_3"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>

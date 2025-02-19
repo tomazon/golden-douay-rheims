@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Knox Bible</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+			3179: {
+				id_comment: 3179,
+				source_str: '✻',
+				caption: '',
+				content: "Some commentators would translate here, ‘Not a different gospel, no; it is only that certain people are causing disquiet’."
+			},
+					3180: {
+				id_comment: 3180,
+				source_str: '✻',
+				caption: '',
+				content: "This may mean three years after St Paul’s return to Damascus, or three years after his conversion. See Ac. 9.26."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Knox Bible</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=2&book_no=9&chapter_no=1" class="menu-item ">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=2&book_no=9&chapter_no=1" class="menu-item ">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=2&book_no=9&chapter_no=1" class="menu-item active">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=2&book_no=9&chapter_no=1" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Galatians</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/knox/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/knox/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Lk">Luke</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/knox/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/knox/NT/Gal/8075?vers_inline=1"><img src="https://catholicbible.online/assets/img/para.jpg" alt="" /></a>					<a href="https://catholicbible.online/knox/NT/Gal/8075?comments_open=1"><img src="https://catholicbible.online/assets/img/C-off.gif" alt="" /></a>				</div>
+				<div class="bible-name">The Holy Bible – Knox Translation</div>
+				<div class="book-name">The Epistle of the Blessed Apostle Paul to the Galatians </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"></div>|
+					<div class="chapter">Chapter 1</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/knox/NT/Gal/8076">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/knox/NT/Gal/ch_1" class="active">1</a> <a href="https://catholicbible.online/knox/NT/Gal/ch_2">2</a> <a href="https://catholicbible.online/knox/NT/Gal/ch_3">3</a> <a href="https://catholicbible.online/knox/NT/Gal/ch_4">4</a> <a href="https://catholicbible.online/knox/NT/Gal/ch_5">5</a> <a href="https://catholicbible.online/knox/NT/Gal/ch_6">6</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers178163" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">Paul, an apostle not holding his commission from men, not appointed by man’s means, but by Jesus Christ, and God the Father who raised him from the dead,</div>
+					</div>
+									<div id="vers178164" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">sends his greeting, and greeting from all the brethren who are with him, to the churches of Galatia.</div>
+					</div>
+									<div id="vers178165" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">Grace and peace be yours from God the Father, and from our Lord Jesus Christ.</div>
+					</div>
+									<div id="vers178166" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">He it is who has given himself up for our sins, to rescue us from the evil world that surrounds us, according to the will of God, who is our Father;</div>
+					</div>
+									<div id="vers178167" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">to him be glory for ever and ever, Amen.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers178168" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">I am astounded that you should be so quick to desert one who called you to the grace of Christ, and go over to another gospel;</div>
+					</div>
+									<div id="vers178169" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">this can only mean, that certain people are causing disquiet among you, in their eagerness to pervert the gospel of Christ.<a href="" class="inline-comment" data-comment-id="3179">✻</a></div>
+					</div>
+									<div id="vers178170" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">Friends, though it were we ourselves, though it were an angel from heaven that should preach to you a gospel other than the gospel we preached to you, a curse upon him!</div>
+					</div>
+									<div id="vers178171" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">I repeat now the warning we gave you before it happened, if anyone preaches to you what is contrary to the tradition you received, a curse upon him!</div>
+					</div>
+									<div id="vers178172" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">Do you think it is man’s favour, or God’s, that I am trying to win now? Shall I be told, now, that I am courting the good will of men? If, after all these years, I were still courting the favour of men, I should not be what I am, the slave of Christ.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers178173" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">Let me tell you this, brethren; the gospel I preached to you is not a thing of man’s dictation;</div>
+					</div>
+									<div id="vers178174" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">it was not from man that I inherited or learned it, it came to me by a revelation from Jesus Christ.</div>
+					</div>
+									<div id="vers178175" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">You have been told how I bore myself in my Jewish days, how I persecuted God’s Church beyond measure and tried to destroy it,</div>
+					</div>
+									<div id="vers178176" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">going further in my zeal as a Jew than many of my own age and race, so fierce a champion was I of the traditions handed down by my forefathers.</div>
+					</div>
+									<div id="vers178177" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">And then, he who had set me apart from the day of my birth, and called me by his grace, saw fit</div>
+					</div>
+									<div id="vers178178" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">to make his Son known in me, so that I could preach his gospel among the Gentiles. My first thought was not to hold any consultations with any human creature;</div>
+					</div>
+									<div id="vers178179" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">I did not go up to Jerusalem to see those who had been apostles longer than myself; no, I went off into Arabia, and when I came back, it was to Damascus.</div>
+					</div>
+									<div id="vers178180" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">Then, when three years had passed, I did go up to Jerusalem, to visit Peter, and I stayed a fortnight there in his company;<a href="" class="inline-comment" data-comment-id="3180">✻</a></div>
+					</div>
+									<div id="vers178181" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">but I did not see any of the other apostles, except James, the Lord’s brother.</div>
+					</div>
+									<div id="vers178182" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">Such is my history; as God sees me, I am telling you the plain truth.</div>
+					</div>
+									<div id="vers178183" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">Afterwards, I travelled into other parts of the world, Syria and Cilicia;</div>
+					</div>
+									<div id="vers178184" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">and all the time I was not even known by sight to the Christian churches of Judaea;</div>
+					</div>
+									<div id="vers178185" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">they only knew by hearsay, The man who used to persecute us is now preaching the faith he once tried to destroy,</div>
+					</div>
+									<div id="vers178186" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">and they praised God for what he had done in me.<span class="content-paragraph"><br><br></span></div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"></div>|
+					<div class="chapter">Chapter 1</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/knox/NT/Gal/ch_2">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/knox/NT/Gal/ch_1" class="active">1</a> <a href="https://catholicbible.online/knox/NT/Gal/ch_2">2</a> <a href="https://catholicbible.online/knox/NT/Gal/ch_3">3</a> <a href="https://catholicbible.online/knox/NT/Gal/ch_4">4</a> <a href="https://catholicbible.online/knox/NT/Gal/ch_5">5</a> <a href="https://catholicbible.online/knox/NT/Gal/ch_6">6</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/knox-bible-flexible.png" alt="" width="130" height="210" /></p>
+	<p><span class="advert-text"><strong>The Holy Bible </strong> <br />
+          Knox Translation</span><br />
+	</p>
+	<p><span class="advert-text">Flexible Cover</span></p>
+	<p><a href="https://www.baronius.com/knox-bible-flexible-cover.html" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2015 - 2024 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/knox/NT/Gal/ch_1"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>

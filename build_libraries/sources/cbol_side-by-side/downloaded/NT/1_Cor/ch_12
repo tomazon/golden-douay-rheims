@@ -1,0 +1,421 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app212.us.archive.org';v.server_ms=427;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_12","20200223170650","https://web.archive.org/","web","/_static/",
+	      "1582477610");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20200223170650cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20200223170650cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20200223170650cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20200223170650js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200223170650js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200223170650js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200223170650js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200223170650js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20200223170650/http%3A//catholicbible.online/side_by_side/NT/1_Cor/ch_12"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/NT/1_Cor/ch_12" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20200223170650" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20200223170650*/http://catholicbible.online/side_by_side/NT/1_Cor/ch_12" title="See a list of every capture for this URL">15 captures</a>
+          <div class="r" title="Timespan for captures of this URL">06 Jul 2017 - 26 Jun 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20191225132422/http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_12" title="25 Dec 2019"><strong>Dec</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 17:06:50 Feb 23, 2020">FEB</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20210727120032/http://catholicbible.online/side_by_side/NT/1_Cor/ch_12" title="27 Jul 2021"><strong>Jul</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20191225132422/http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_12" title="13:24:22 Dec 25, 2019"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 17:06:50 Feb 23, 2020">23</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20210727120032/http://catholicbible.online/side_by_side/NT/1_Cor/ch_12" title="12:00:32 Jul 27, 2021"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20190122172551/http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_12" title="22 Jan 2019"><strong>2019</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 17:06:50 Feb 23, 2020">2020</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20210727120032/http://catholicbible.online/side_by_side/NT/1_Cor/ch_12" title="27 Jul 2021"><strong>2021</strong></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20200223170650/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/NT/1_Cor/ch_12"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20200223170650/http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_12" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20200223170650/http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_12" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20200223170650/http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_12</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/NT/1_Cor/ch_12","20200223170650",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/vulgate?bible_part_no=2&amp;book_no=7&amp;chapter_no=12" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/douay_rheims?bible_part_no=2&amp;book_no=7&amp;chapter_no=12" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/knox?bible_part_no=2&amp;book_no=7&amp;chapter_no=12" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side?bible_part_no=2&amp;book_no=7&amp;chapter_no=12" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20200223170650/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">1 Corinthians</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Lk">Luke</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Rom">Romans</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The First Epistle of St. Paul to the Corinthians — Epistola B. Pauli Apostoli ad Corinthios Prima </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_11">&lt; prev</a></div>|
+					<div class="chapter">Chapter 12</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_13">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_1">1</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_2">2</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_3">3</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_4">4</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_5">5</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_6">6</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_7">7</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_8">8</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_9">9</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_10">10</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_11">11</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_12" class="active">12</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_13">13</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_14">14</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_15">15</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_16">16</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_12?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_12?act_indx=1&amp;act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_12?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_12?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">De spiritualibus autem, nolo vos ignorare fratres.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Now  concerning spiritual things, my brethren, I would not have you ignorant.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">And now about spiritual gifts; I would not willingly leave you in doubt about these.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Scitis quoniam cum gentes essetis, ad simulacra muta prout ducebamini euntes.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">You know that when you were heathens, you went to dumb idols, according as you were led.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">While you were still heathen, as you can remember well enough, you let yourselves be led away wherever men would lead you, to worship false gods that gave no utterance.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Ideo notum vobis facio, quod nemo in Spiritu Dei loquens, dicit anathema Jesu. Et nemo potest dicere, Dominus Jesus, nisi in Spiritu Sancto.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Wherefore I give you to understand, that no man, speaking by the Spirit of God, saith Anathema to Jesus. And no man can say the Lord Jesus, but by the Holy Ghost.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">That is why I am telling you of this. Just as no one can be speaking through God’s Spirit if he calls Jesus accursed, so it is only through the Holy Spirit that anyone can say, Jesus is the Lord;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Divisiones vero gratiarum sunt, idem autem Spiritus:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Now there are diversities of graces, but the same Spirit;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">and yet there are different kinds of gifts, though it is the same Spirit who gives them,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">et divisiones ministrationum sunt, idem autem Dominus:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">And there are diversities of ministries, but the same Lord;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">just as there are different kinds of service, though it is the same Lord we serve,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">et divisiones operationum sunt, idem vero Deus qui operatur omnia in omnibus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">And there are diversities of operations, but the same God, who worketh all in all.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">and different manifestations of power, though it is the same God who manifests his power everywhere in all of us.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Unicuique autem datur manifestatio Spiritus ad utilitatem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">And the manifestation of the Spirit is given to every man unto profit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">The revelation of the Spirit is imparted to each, to make the best advantage of it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Alii quidem per Spiritum datur sermo sapientiæ: alii autem sermo scientiæ secundum eumdem Spiritum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">To one indeed, by the Spirit, is given the word of wisdom: and to another, the word of knowledge, according to the same Spirit;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">One learns to speak with wisdom, by the power of the Spirit, another to speak with knowledge, with the same Spirit for his rule;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">alteri fides in eodem Spiritu: alii gratia sanitatum in uno Spiritu:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">To another, faith in the same spirit; to another, the grace of healing in one Spirit:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">one, through the same Spirit, is given faith; another, through the same Spirit, powers of healing;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">alii operatio virtutum, alii prophetia, alii discretio spirituum, alii genera linguarum, alii interpretatio sermonum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">To another, the working of miracles; to another, prophecy; to another, the discerning of spirits; to another, diverse kinds of tongues; to another, interpretation of speeches.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">one can perform miracles, one can prophesy, another can test the spirit of the prophets; one can speak in different tongues, another can interpret the tongues;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Hæc autem omnia operatur unus atque idem Spiritus, dividens singulis prout vult.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">But all these things one and the same Spirit worketh, dividing to every one according as he will.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">but all this is the work of one and the same Spirit, who distributes his gifts as he will to each severally.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Sicut enim corpus unum est, et membra habet multa, omnia autem membra corporis cum sint multa, unum tamen corpus sunt: ita et Christus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">For as the body is one, and hath many members; and all the members of the body, whereas they are many, yet are one body, so also is Christ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">A man’s body is all one, though it has a number of different organs; and all this multitude of organs goes to make up one body; so it is with Christ.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Etenim in uno Spiritu omnes nos in unum corpus baptizati sumus, sive Judæi, sive gentiles, sive servi, sive liberi: et omnes in uno Spiritu potati sumus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">For in one Spirit were we all baptized into one body, whether Jews or Gentiles, whether bond or free; and in one Spirit we have all been made to drink.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">We too, all of us, have been baptized into a single body by the power of a single Spirit, Jews and Greeks, slaves and free men alike; we have all been given drink at a single source, the one Spirit. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Nam et corpus non est unum membrum, sed multa.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">For the body also is not one member, but many.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">The body, after all, consists not of one organ but of many;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Si dixerit pes: Quoniam non sum manus, non sum de corpore: num ideo non est de corpore?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">If the foot should say, because I am not the hand, I am not of the body; is it therefore not of the body?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">if the foot should say, I am not the hand, and therefore I do not belong to the body, does it belong to the body any the less for that?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Et si dixerit auris: Quoniam non sum oculus, non sum de corpore: num ideo est de corpore?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">And if the ear should say, because I am not the eye, I am not of the body; is it therefore not of the body?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">If the ear should say, I am not the eye, and therefore I do not belong to the body, does it belong to the body any the less for that?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Si totum corpus oculus: ubi auditus? Si totum auditus: ubi odoratus?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">If the whole body were the eye, where would be the hearing? If the whole were hearing, where would be the smelling?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Where would the power of hearing be, if the body were all eye? Or the power of smell, if the body were all ear?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Nunc autem posuit Deus membra, unumquodque eorum in corpore sicut voluit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">But now God hath set the members every one of them in the body as it hath pleased him.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">As it is, God has given each one of them its own position in the body, as he would.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Quod si essent omnia unum membrum, ubi corpus?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">And if they all were one member, where would be the body?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">If the whole were one single organ, what would become of the body?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Nunc autem multa quidem membra, unum autem corpus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">But now there are many members indeed, yet one body.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Instead of that, we have a multitude of organs, and one body.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Non potest autem oculus dicere manui: Opera tua non indigeo: aut iterum caput pedibus: Non estis mihi necessarii.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">And the eye cannot say to the hand: I need not thy help; nor again the head to the feet: I have no need of you.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">The eye cannot say to the hand, I have no need of thee, or the head to the feet, I have no need of you.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Sed multo magis quæ videntur membra corporis infirmiora esse, necessariora sunt:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Yea, much more those that seem to be the more feeble members of the body, are more necessary</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">On the contrary, it is those parts of our body which seem most contemptible that are necessary to it;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">et quæ putamus ignobiliora membra esse corporis, his honorem abundantiorem circumdamus: et quæ inhonesta sunt nostra, abundantiorem honestatem habent.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">And such as we think to be the less honourable members of the body, about these we put more abundant honour; and those that are our uncomely parts, have more abundant comeliness.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">what seems base in our bodies, we surround with special honour, treating with special seemliness that which is unseemly in us,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Honesta autem nostra nullius egent: sed Deus temperavit corpus, ei cui deerat, abundantiorem tribuendo honorem,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">But our comely parts have no need: but God hath tempered the body together, giving to that which wanted the more abundant honour.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">whereas that which is seemly in us has no need of it. Thus God has established a harmony in the body, giving special honour to that which needed it most.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">ut non sit schisma in corpore, sed idipsum pro invicem sollicita sint membra.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">That there might be no schism in the body; but the members might be mutually careful one for another.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">There was to be no want of unity in the body; all the different parts of it were to make each other’s welfare their common care.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Et si quid patitur unum membrum, compatiuntur omnia membra: sive gloriatur unum membrum, congaudent omnia membra.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">And if one member suffer any thing, all the members suffer with it; or if one member glory, all the members rejoice with it.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">If one part is suffering, all the rest suffer with it; if one part is treated with honour, all the rest find pleasure in it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">Vos autem estis corpus Christi, et membra de membro.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">Now you are the body of Christ, and members of member.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">And you are Christ’s body, organs of it depending upon each other. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Et quosdam quidem posuit Deus in ecclesia primum apostolos, secundo prophetas, exinde doctores, deinde virtutes, exinde gratias curationum, opitulationes, gubernationes, genera linguarum, interpretationes sermonum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">And God indeed hath set some in the church; first apostles, secondly prophets, thirdly doctors; after that miracles; then the graces of healings, helps, governments, kinds of tongues, interpretations of speeches.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">God has given us different positions in the church; apostles first, then prophets, and thirdly teachers; then come miraculous powers, then gifts of healing, works of mercy, the management of affairs, speaking with different tongues, and interpreting prophecy.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Numquid omnes apostoli? numquid omnes prophetæ? numquid omnes doctores?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Are all apostles? Are all prophets? Are all doctors?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Are all of us apostles, all prophets, all teachers?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">numquid omnes virtutes? numquid omnes gratiam habent curationum? numquid omnes linguis loquuntur? numquid omnes interpretantur?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Are all workers of miracles? Have all the grace of healing? Do all speak with tongues? Do all interpret?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Have all miraculous powers, or gifts of healing? Can all speak with tongues, can all interpret?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Æmulamini autem charismata meliora. Et adhuc excellentiorem viam vobis demonstro.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">But be zealous for the better gifts. And I shew unto you yet a more excellent way.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Prize the best gifts of heaven. Meanwhile, I can shew you a way which is better than any other.  </div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_11">&lt; prev</a></div>|
+					<div class="chapter">Chapter 12</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_13">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_1">1</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_2">2</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_3">3</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_4">4</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_5">5</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_6">6</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_7">7</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_8">8</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_9">9</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_10">10</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_11">11</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_12" class="active">12</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_13">13</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_14">14</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_15">15</a> <a href="https://web.archive.org/web/20200223170650/http://catholicbible.online/side_by_side/NT/1_Cor/ch_16">16</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20200223170650im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20200223170650/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20200223170650/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/NT/1_Cor/ch_12"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20200223170650/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20200223170650im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 17:06:50 Feb 23, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:32:33 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.827
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.015
+  esindex: 0.008
+  cdx.remote: 19.512
+  LoadShardBlock: 233.419 (3)
+  PetaboxLoader3.datanode: 159.946 (4)
+  PetaboxLoader3.resolve: 197.03 (2)
+  load_resource: 146.854
+-->

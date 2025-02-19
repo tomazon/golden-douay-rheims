@@ -1,0 +1,536 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app214.us.archive.org';v.server_ms=412;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/douay_rheims/NT/Jn/ch_12","20211201031832","https://web.archive.org/","web","/_static/",
+	      "1638328712");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20211201031832cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20211201031832cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20211201031832cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20211201031832js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211201031832js_/http://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211201031832js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211201031832js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211201031832js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211201031832js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20211201031832/http%3A//catholicbible.online/douay_rheims/NT/Jn/ch_12"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/douay_rheims/NT/Jn/ch_12" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20211201031832" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20211201031832*/http://catholicbible.online/douay_rheims/NT/Jn/ch_12" title="See a list of every capture for this URL">2 captures</a>
+          <div class="r" title="Timespan for captures of this URL">01 Dec 2021 - 16 May 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap">Nov</td>
+            <td class="c" id="displayMonthEl" title="You are here: 03:18:32 Dec 01, 2021">DEC</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220516213912/http://catholicbible.online/douay_rheims/NT/Jn/ch_12" title="16 May 2022"><strong>May</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" /></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 03:18:32 Dec 01, 2021">01</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220516213912/http://catholicbible.online/douay_rheims/NT/Jn/ch_12" title="21:39:12 May 16, 2022"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap">2020</td>
+            <td class="c" id="displayYearEl" title="You are here: 03:18:32 Dec 01, 2021">2021</td>
+            <td class="f" nowrap="nowrap">2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20211201031832/http://web.archive.org/screenshot/http://catholicbible.online/douay_rheims/NT/Jn/ch_12"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_12" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_12" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_12</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/douay_rheims/NT/Jn/ch_12","20211201031832",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<script>
+	var comments={
+			5280: {
+				id_comment: 5280,
+				source_str: 'me you have not always',
+				caption: 'Me you have not always.',
+				content: "Viz., in a visible manner, as when conversant here on earth; and as we have the poor, whom we may daily assist and relieve."
+			},
+					5281: {
+				id_comment: 5281,
+				source_str: 'they could not believe',
+				caption: 'They could not believe.',
+				content: "Because they would not, saith St. Augustine, Tract. 33, in Joan. See the annotation, St. Mark 4. 12."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/vulgate?bible_part_no=2&amp;book_no=4&amp;chapter_no=12" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims?bible_part_no=2&amp;book_no=4&amp;chapter_no=12" class="menu-item active">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/knox?bible_part_no=2&amp;book_no=4&amp;chapter_no=12" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/side_by_side?bible_part_no=2&amp;book_no=4&amp;chapter_no=12" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20211201031832/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">John</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Lk">Luke</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/10572?vers_inline=1"><img src="https://web.archive.org/web/20211201031832im_/http://catholicbible.online/assets/img/para.jpg" alt=""/></a>					<a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/10572?comments_open=1"><img src="https://web.archive.org/web/20211201031832im_/http://catholicbible.online/assets/img/C-off.gif" alt=""/></a>				</div>
+				<div class="bible-name">The Holy Bible – Douay‐Rheims version</div>
+				<div class="book-name">The Holy Gospel of Jesus Christ according to St. John</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/10571">&lt; prev</a></div>|
+					<div class="chapter">Chapter 12</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/10573">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_1">1</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_2">2</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_3">3</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_4">4</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_5">5</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_6">6</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_7">7</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_8">8</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_9">9</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_10">10</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_11">11</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_12" class="active">12</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_13">13</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_14">14</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_15">15</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_16">16</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_17">17</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_18">18</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_19">19</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_20">20</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_21">21</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers244161" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">Jesus  therefore, six days before the pasch, came to Bethania, where Lazarus had been dead, whom Jesus raised to life.</div>
+					</div>
+									<div id="vers244162" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">And they made him a supper there: and Martha served: but Lazarus was one of them that were at table with him.</div>
+					</div>
+									<div id="vers244163" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">Mary therefore took a pound of ointment of right spikenard, of great price, and anointed the feet of Jesus, and wiped his feet with her hair; and the house was filled with the odour of the ointment.</div>
+					</div>
+									<div id="vers244164" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">Then one of his disciples, Judas Iscariot, he that was about to betray him, said:</div>
+					</div>
+									<div id="vers244165" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">Why was not this ointment sold for three hundred pence, and given to the poor?</div>
+					</div>
+									<div id="vers244166" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">Now he said this, not because he cared for the poor; but because he was a thief, and having the purse, carried the things that were put therein.</div>
+					</div>
+									<div id="vers244167" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">Jesus therefore said: Let her alone, that she may keep it against the day of my burial.</div>
+					</div>
+									<div id="vers244168" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">For the poor you have always with you; but <a href="" class="inline-comment" data-comment-id="5280">me you have not always</a>.</div>
+					</div>
+									<div id="vers244169" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">A great multitude therefore of the Jews knew that he was there; and they came, not for Jesus’ sake only, but that they might see Lazarus, whom he had raised from the dead.</div>
+					</div>
+									<div id="vers244170" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">But the chief priests thought to kill Lazarus also:</div>
+					</div>
+									<div id="vers244171" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">Because many of the Jews, by reason of him, went away, and believed in Jesus.</div>
+					</div>
+									<div id="vers244172" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">And on the next day, a great multitude that was come to the festival day, when they had heard that Jesus was coming to Jerusalem,</div>
+					</div>
+									<div id="vers244173" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">Took branches of palm trees, and went forth to meet him, and cried: Hosanna, blessed is he that cometh in the name of the Lord, the king of Israel.</div>
+					</div>
+									<div id="vers244174" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">And Jesus found a young ass, and sat upon it, as it is written:</div>
+					</div>
+									<div id="vers244175" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">Fear not, daughter of Sion: behold, thy king cometh, sitting on an ass’s colt.</div>
+					</div>
+									<div id="vers244176" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">These things his disciples did not know at the first; but when Jesus was glorified, then they remembered that these things were written of him, and that they had done these things to him.</div>
+					</div>
+									<div id="vers244177" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">The multitude therefore gave testimony, which was with him, when he called Lazarus out of the grave, and raised him from the dead.</div>
+					</div>
+									<div id="vers244178" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">For which reason also the people came to meet him, because they heard that he had done this miracle.</div>
+					</div>
+									<div id="vers244179" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">The Pharisees therefore said among themselves: Do you see that we prevail nothing? behold, the whole world is gone after him.</div>
+					</div>
+									<div id="vers244180" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">Now there were certain Gentiles among them, who came up to adore on the festival day.</div>
+					</div>
+									<div id="vers244181" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">These therefore came to Philip, who was of Bethsaida of Galilee, and desired him, saying: Sir, we would see Jesus.</div>
+					</div>
+									<div id="vers244182" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">Philip cometh, and telleth Andrew. Again Andrew and Philip told Jesus.</div>
+					</div>
+									<div id="vers244183" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">But Jesus answered them, saying: The hour is come, that the Son of man should be glorified.</div>
+					</div>
+									<div id="vers244184" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">Amen, amen I say to you, unless the grain of wheat falling into the ground die,</div>
+					</div>
+									<div id="vers244185" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">Itself remaineth alone. But if it die, it bringeth forth much fruit. He that loveth his life shall lose it; and he that hateth his life in this world, keepeth it unto life eternal.</div>
+					</div>
+									<div id="vers244186" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">If any man minister to me, let him follow me; and where I am, there also shall my minister be. If any man minister to me, him will my Father honour.</div>
+					</div>
+									<div id="vers244187" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">Now is my soul troubled. And what shall I say? Father, save me from this hour. But for this cause I came unto this hour.</div>
+					</div>
+									<div id="vers244188" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">Father, glorify thy name. A voice therefore came from heaven: I have both glorified it, and will glorify it again.</div>
+					</div>
+									<div id="vers244189" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">The multitude therefore that stood and heard, said that it thundered. Others said: An angel spoke to him.</div>
+					</div>
+									<div id="vers244190" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">Jesus answered, and said: This voice came not because of me, but for your sakes.</div>
+					</div>
+									<div id="vers244191" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">Now is the judgment of the world: now shall the prince of this world be cast out.</div>
+					</div>
+									<div id="vers244192" class="vers">
+												<div class="vers-no">32</div>
+						<div class="vers-content">And I, if I be lifted up from the earth, will draw all things to myself.</div>
+					</div>
+									<div id="vers244193" class="vers">
+												<div class="vers-no">33</div>
+						<div class="vers-content">(Now this he said, signifying what death he should die.)</div>
+					</div>
+									<div id="vers244194" class="vers">
+												<div class="vers-no">34</div>
+						<div class="vers-content">The multitude answered him: We have heard out of the law, that Christ abideth for ever; and how sayest thou: The Son of man must be lifted up? Who is this Son of man?</div>
+					</div>
+									<div id="vers244195" class="vers">
+												<div class="vers-no">35</div>
+						<div class="vers-content">Jesus therefore said to them: Yet a little while, the light is among you. Walk whilst you have the light, that the darkness overtake you not. And he that walketh in darkness, knoweth not whither be goeth.</div>
+					</div>
+									<div id="vers244196" class="vers">
+												<div class="vers-no">36</div>
+						<div class="vers-content">Whilst you have the light, believe in the light, that you may be the children of light. These things Jesus spoke; and he went away, and hid himself from them.</div>
+					</div>
+									<div id="vers244197" class="vers">
+												<div class="vers-no">37</div>
+						<div class="vers-content">And whereas he had done so many miracles before them, they believed not in him:</div>
+					</div>
+									<div id="vers244198" class="vers">
+												<div class="vers-no">38</div>
+						<div class="vers-content">That the saying of Isaias the prophet might be fulfilled, which he said: Lord, who hath believed our hearing? and to whom hath the arm of the Lord been revealed?</div>
+					</div>
+									<div id="vers244199" class="vers">
+												<div class="vers-no">39</div>
+						<div class="vers-content">Therefore <a href="" class="inline-comment" data-comment-id="5281">they could not believe</a>, because Isaias said again:</div>
+					</div>
+									<div id="vers244200" class="vers">
+												<div class="vers-no">40</div>
+						<div class="vers-content">He hath blinded their eyes, and hardened their heart, that they should not see with their eyes, nor understand with their heart, and be converted, and I should heal them.</div>
+					</div>
+									<div id="vers244201" class="vers">
+												<div class="vers-no">41</div>
+						<div class="vers-content">These things said Isaias, when he saw his glory, and spoke of him.</div>
+					</div>
+									<div id="vers244202" class="vers">
+												<div class="vers-no">42</div>
+						<div class="vers-content">However, many of the chief men also believed in him; but because of the Pharisees they did not confess him, that they might not be cast out of the synagogue.</div>
+					</div>
+									<div id="vers244203" class="vers">
+												<div class="vers-no">43</div>
+						<div class="vers-content">For they loved the glory of men more than the glory of God.</div>
+					</div>
+									<div id="vers244204" class="vers">
+												<div class="vers-no">44</div>
+						<div class="vers-content">But Jesus cried, and said: He that believeth in me, doth not believe in me, but in him that sent me.</div>
+					</div>
+									<div id="vers244205" class="vers">
+												<div class="vers-no">45</div>
+						<div class="vers-content">And he that seeth me, seeth him that sent me.</div>
+					</div>
+									<div id="vers244206" class="vers">
+												<div class="vers-no">46</div>
+						<div class="vers-content">I am come a light into the world; that whosoever believeth in me, may not remain in darkness.</div>
+					</div>
+									<div id="vers244207" class="vers">
+												<div class="vers-no">47</div>
+						<div class="vers-content">And if any man hear my words, and keep them not, I do not judge him: for I came not to judge the world, but to save the world.</div>
+					</div>
+									<div id="vers244208" class="vers">
+												<div class="vers-no">48</div>
+						<div class="vers-content">He that despiseth me, and receiveth not my words, hath one that judgeth him; the word that I have spoken, the same shall judge him in the last day.</div>
+					</div>
+									<div id="vers244209" class="vers">
+												<div class="vers-no">49</div>
+						<div class="vers-content">For I have not spoken of myself; but the Father who sent me, he gave me commandment what I should say, and what I should speak.</div>
+					</div>
+									<div id="vers244210" class="vers">
+												<div class="vers-no">50</div>
+						<div class="vers-content">And I know that his commandment is life everlasting. The things therefore that I speak, even as the Father said unto me, so do I speak.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_11">&lt; prev</a></div>|
+					<div class="chapter">Chapter 12</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_13">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_1">1</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_2">2</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_3">3</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_4">4</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_5">5</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_6">6</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_7">7</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_8">8</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_9">9</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_10">10</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_11">11</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_12" class="active">12</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_13">13</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_14">14</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_15">15</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_16">16</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_17">17</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_18">18</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_19">19</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_20">20</a> <a href="https://web.archive.org/web/20211201031832/http://catholicbible.online/douay_rheims/NT/Jn/ch_21">21</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20211201031832im_/http://catholicbible.online/assets/img/douay.jpg" alt="" width="130" height="210"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br/>
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br/>
+        Flexible Cover</span></p>
+	<p><a href="https://web.archive.org/web/20211201031832/https://www.baroniuspress.com/category.php?wid=58&amp;cid=1" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20211201031832/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/douay_rheims/NT/Jn/ch_12"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20211201031832/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20211201031832im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 03:18:32 Dec 01, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:13:17 Nov 11, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.52
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.015
+  esindex: 0.011
+  cdx.remote: 10.697
+  LoadShardBlock: 225.107 (3)
+  PetaboxLoader3.datanode: 203.253 (4)
+  PetaboxLoader3.resolve: 105.438 (2)
+  load_resource: 144.787
+-->

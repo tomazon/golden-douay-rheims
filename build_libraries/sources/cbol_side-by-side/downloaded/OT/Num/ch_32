@@ -1,0 +1,461 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app220.us.archive.org';v.server_ms=505;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/side_by_side/OT/Num/ch_32","20210726225917","https://web.archive.org/","web","/_static/",
+	      "1627340357");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20210726225917cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20210726225917cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20210726225917cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20210726225917js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210726225917js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210726225917js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210726225917js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210726225917js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20210726225917/http%3A//catholicbible.online/side_by_side/OT/Num/ch_32"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/OT/Num/ch_32" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20210726225917" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20210726225917*/http://catholicbible.online/side_by_side/OT/Num/ch_32" title="See a list of every capture for this URL">4 captures</a>
+          <div class="r" title="Timespan for captures of this URL">13 Mar 2017 - 27 Jun 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170313191415/http://catholicbible.online/side_by_side/OT/Num/ch_32" title="13 Mar 2017"><strong>Mar</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 22:59:17 Jul 26, 2021">JUL</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220302201510/http://catholicbible.online/side_by_side/OT/Num/ch_32" title="02 Mar 2022"><strong>Mar</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170313191415/http://catholicbible.online/side_by_side/OT/Num/ch_32" title="19:14:15 Mar 13, 2017"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 22:59:17 Jul 26, 2021">26</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220302201510/http://catholicbible.online/side_by_side/OT/Num/ch_32" title="20:15:10 Mar 02, 2022"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170313191415/http://catholicbible.online/side_by_side/OT/Num/ch_32" title="13 Mar 2017"><strong>2017</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 22:59:17 Jul 26, 2021">2021</td>
+            <td class="f" nowrap="nowrap">2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20210726225917/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/OT/Num/ch_32"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_32" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_32" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/wikipedia-eventstream)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/wikipedia-eventstream" target="_new"><span class="wm-title">Wikipedia Eventstream</span></a></div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_32</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/OT/Num/ch_32","20210726225917",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=4&amp;chapter_no=32" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=4&amp;chapter_no=32" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=4&amp;chapter_no=32" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=4&amp;chapter_no=32" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20210726225917/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Numbers</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Lev">Leviticus</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Book of Numbers — Liber Numeri </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_31">&lt; prev</a></div>|
+					<div class="chapter">Chapter 32</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_33">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_1">1</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_2">2</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_3">3</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_4">4</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_5">5</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_6">6</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_7">7</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_8">8</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_9">9</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_10">10</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_11">11</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_12">12</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_13">13</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_14">14</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_15">15</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_16">16</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_17">17</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_18">18</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_19">19</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_20">20</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_21">21</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_22">22</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_23">23</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_24">24</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_25">25</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_26">26</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_27">27</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_28">28</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_29">29</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_30">30</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_31">31</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_32" class="active">32</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_33">33</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_34">34</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_35">35</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_36">36</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Douay-Rheims<a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_32?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_32?act_indx=1&amp;act=-1" class="left">&lt;</a>Vulgate<a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_32?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_32?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">And  the sons of Ruben and Gad had many flocks of cattle, and their substance in beasts was infinite. And when they saw the lands of Jazer and Galaad fit for feeding cattle,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Filii autem Ruben et Gad habebant pecora multa, et erat illis in jumentis infinita substantia. Cumque vidissent Jazer et Galaad aptas animalibus alendis terras,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">The tribes of Ruben and Gad were rich in flocks, and their herds were past all reckoning. And now, seeing how well fitted were the lands of Jazer and Galaad to feed beasts,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">They came to Moses and Eleazar the priest, and the princes of the multitude, and said:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">venerunt ad Moysen, et ad Elezarum sacerdotem, et principes multitudinis, atque dixerunt:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">they brought a petition to Moses, and the high priest Eleazar, and the rulers of the people.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Ataroth, and Dibon, and Jazer, and Nemra, Hesebon, and Eleale, and Saban, and Nebo, and Beon,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Ataroth, et Dibon, et Jazer, et Nemra, Hesebon, et Eleale, et Saban, et Nebo, et Beon,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Here is Ataroth, they said, here are Dibon, and Jazer, and Nemra, and Hesebon, and Eleale, and Saban, and Nebo, and Beon,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">The land, which the Lord hath conquered in the sight of the children of Israel, is a very fertile soil for the feeding of beasts: and we thy servants have very much cattle:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">terra, quam percussit Dominus in conspectu filiorum Israël, regio uberrima est ad pastum animalium: et nos servi tui habemus jumenta plurima,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">all given over by the Lord into the hands of Israel at the first onslaught; and all of this is good grazing land. My lord, we have many beasts to feed,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">And we pray thee, if we have found favour in thy sight, that thou give it to us thy servants in possession, and make us not pass over the Jordan.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">precamurque si invenimus gratiam coram te, ut des nobis famulis tuis eam in possessionem, nec facias nos transire Jordanem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">and we would ask a favour of thee; grant us this land for our portion, instead of making us cross the Jordan to win it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">And Moses answered them: What, shall your brethren go to fight, and will you sit here?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Quibus respondit Moyses: Numquid fratres vestri ibunt ad pugnam, et vos hic sedebitis?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">What, answered Moses, are your brethren to go and fight while you sit idle here?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Why do ye overturn the minds of the children of Israel, that they may not dare to pass into the place which the Lord hath given them?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">cur subvertitis mentes filiorum Israël, ne transire audeant in locum, quem eis daturus est Dominus?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Would you daunt the spirits of the Israelites, so that they have not the courage to cross over into the land which the Lord means to give them?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Was it not thus your fathers did, when I sent from Cadesbarne to view the land?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Nonne ita egerunt patres vestri, quando misi de Cadesbarne ad explorandam terram?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Why, this was what your fathers did, when I sent them from Cades-Barne to bring back a report of the land;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">And when they were come as far as the valley of the cluster, having viewed all the country, they overturned the hearts of the children of Israel, that they should not enter into the coasts, which the Lord gave them.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">cumque venissent usque ad Vallem botri, lustrata omni regione, subverterunt cor filiorum Israël, ut non intrarent fines, quos eis Dominus dedit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">they passed through the whole extent of it, until they reached the Valley of Grapes, and came back to daunt the spirits of their fellow-Israelites, so that none of them ever entered the territory which the Lord had assigned to them.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">And he swore in his anger, saying:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Qui iratus juravit, dicens:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">So angry was he that he bound himself by an oath,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">If these men, that came up out of Egypt, from twenty years old and upward, shall see the land, which I promised with an oath to Abraham, Isaac, and Jacob: because they would not follow me,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Si videbunt homines isti, qui ascenderunt ex Ægypto a viginti annis et supra, terram, quam sub juramento pollicitus sum Abraham, Isaac, et Jacob: et noluerunt sequi me,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">None of the men who made their way out of Egypt and then would not follow me, men of twenty years and more, shall ever see the land which was my promised gift to Abraham, Isaac, and Jacob.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Except Caleb the son of Jephone the Cenezite, and Josue the son of Nun: these have fulfilled my will.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">præter Caleb filium Jephone Cenezæum, et Josue filium Nun: isti impleverunt voluntatem meam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">None of them, except Caleb the son of Jephone and Josue the son of Nun, the men who carried out my will.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">And the Lord being angry against Israel, led them about through the desert forty years, until the whole generation, that had done evil in his sight, was consumed.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Iratusque Dominus adversum Israël, circumduxit eum per desertum quadraginta annis, donec consumeretur universa generatio, quæ fecerat malum in conspectu ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Still angry, he led us this way and that through the desert, till the generation that had offended him died out.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">And behold, said he, you are risen up instead of your fathers, the increase and offspring of sinful men, to augment the fury of the Lord against Israel.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Et ecce, inquit, vos surrexistis pro patribus vestris, incrementa et alumni hominum peccatorum, ut augeretis furorem Domini contra Israël.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">And now you come forward in the spirit of your fathers, the heirs and scions of their guilt, to make the Lord more angry with Israel than ever.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">For if you will not follow him, he will leave the people in the wilderness, and you shall be the cause of the destruction of all.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Quod si nolueritis sequi eum, in solitudine populum derelinquet, et vos causa eritis necis omnium.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Refuse to follow him, and he will leave his people here in the desert so you will be the death of us all.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">But they coming near, said: We will make sheepfolds, and stalls for our cattle, and strong cities for our children:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">At illi prope accedentes, dixerunt: Caulas ovium fabricabimus, et stabula jumentorum, parvulis quoque nostris urbes munitas:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">But still they came closer, and would have their say; We mean only to build folds for our sheep, byres for our cattle, and cities where our children can dwell in safety;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">And we ourselves will go armed and ready for battle before the children of Israel, until we bring them in unto their places. Our little ones, and all we have, shall be in walled cities, for fear of the ambushes of the inhabitants.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">nos autem ipsi armati et accincti pergemus ad prælium ante filios Israël, donec introducamus eos ad loca sua. Parvuli nostri, et quidquid habere possumus, erunt in urbibus muratis, propter habitatorum insidias.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">then we will go forward, armed and girded for battle, in the van of Israel, until we have won them their territory. We must have walled cities to protect our children and our possessions from sudden attack by our neighbours;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">We will not return into our houses until the children of Israel possess their inheritance:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Non revertemur in domos nostras, usque dum possideant filii Israël hæreditatem suam:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">but we will not go back to these homes of ours till the other Israelites have won their inheritance;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Neither will we seek any thing beyond the Jordan, because we have already our possession on the east side thereof,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">nec quidquam quæremus trans Jordanem, quia jam habemus nostram possessionem in orientali ejus plaga.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">and we will not demand any lands on the further side of Jordan, our portion once secured to us on the east of it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">And Moses said to them: If you do what you promise, go on well appointed for war before the Lord:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Quibus Moyses ait: Si facitis quod promittitis, expediti pergite coram Domino ad pugnam:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Be as good as your word, then, Moses said; arm yourselves to do battle under the Lord’s eye,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">And let every fighting man pass over the Jordan, until the Lord overthrow his enemies:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">et omnis vir bellator armatus Jordanem transeat, donec subvertat Dominus inimicos suos,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">and cross over Jordan in battle array, all of you that are fighting men, till the Lord has overthrown his enemies</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">And all the land be brought under him, then shall you be blameless before the Lord and before Israel, and you shall obtain the countries that you desire, before the Lord.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">et subjiciatur ei omnis terra: tunc eritis inculpabiles apud Dominum et apud Israël, et obtinebitis regiones, quas vultis, coram Domino.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">and won the whole land for himself. So neither the Lord nor Israel will have any fault to find with you, and you shall hold, under the eye of the Lord’s favour, the territory of your choice.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">But if you do not what you say, no man can doubt but you sin against God: and know ye, that your sin shall overtake you.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Sin autem quod dicitis, non feceritis, nulli dubium est quin peccetis in Deum: et scitote quoniam peccatum vestrum apprehendet vos.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">If you do not make good your word, you will be sinning openly against God; and be sure that your sin will not go unpunished.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Build therefore cities for your children, and folds and stalls for your sheep and beasts, and accomplish what you have promised.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Ædificate ergo urbes parvulis vestris, et caulas, et stabula ovibus ac jumentis: et quod polliciti estis, implete.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Build cities for your families, byres and folds for your sheep and cattle, and then fulfil your promise.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">And the children of Gad and Ruben said to Moses: We are thy servants, we will do what my lord commandeth.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Dixeruntque filii Gad et Ruben ad Moysen: Servi tui sumus: faciemus quod jubet dominus noster.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">We are thy servants, the men of Gad and Ruben said to Moses, and will do as our master bids;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">We will leave our children, and our wives and sheep and cattle in the cities of Galaad:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Parvulos nostros, et mulieres, et pecora, ac jumenta relinquemus in urbibus Galaad:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">leave children and wives, sheep and cattle in the cities of Galaad,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">And we thy servants all well appointed will march on to the war, as thou, my lord, speakest.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">nos autem famuli tui omnes expediti pergemus ad bellum, sicut tu, domine, loqueris.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">and go out ourselves, armed for battle, as servants at their master’s command.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Moses therefore commanded Eleazar the priest, and Josue the son of Nun, and the princes of the families of all the tribes of Israel, and said to them:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Præcepit ergo Moyses Eleazaro sacerdoti, et Josue filio Nun, et principibus familiarum per tribus Israël, et dixit ad eos:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">So Moses gave the word to the high priest Eleazar, and Josue the son of Nun, and the heads of all the clans in Israel,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">If the children of Gad, and the children of Ruben pass with you over the Jordan, all armed for war before the Lord, and the land be made subject to you: give them Galaad in possession.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Si transierint filii Gad et filii Ruben vobiscum Jordanem omnes armati ad bellum coram Domino, et vobis fuerit terra subjecta, date eis Galaad in possessionem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">that the tribes of Ruben and Gad were to receive Galaad as their portion once the whole land was conquered, if they would consent to let all their armed men cross the Jordan and do battle under the Lord’s eye with the rest.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">But if they will not pass armed with you into the land of Chanaan, let them receive places to dwell in among you.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Sin autem noluerint transire armati vobiscum in terram Chanaan, inter vos habitandi accipiant loca.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">If they would not undertake to help carry the war into Chanaan on those terms, then they must wait and win their portion among the other tribes. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">And the children of Gad, and the children of Ruben answered: As the Lord hath spoken to his servants, so will we do:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Responderuntque filii Gad et filii Ruben: Sicut locutus est Dominus servis suis, ita faciemus:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">But Ruben and Gad protested that they were willing to yield the Lord the service he asked of them;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">We will go armed before the Lord into the land of Chanaan, and we confess that we have already received our possession beyond the Jordan.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">ipsi armati pergemus coram Domino in terram Chanaan, et possessionem jam suscepisse nos confitemur trans Jordanem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">to invade Chanaan under his eye, and still be content with the portion granted them on the further side of Jordan.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">Moses therefore gave to the children of Gad and of Ruben, and to the half tribe of Manasses the son of Joseph, the kingdom of Sehon king of the Amorrhites, and the kingdom of Og king of Basan, and their land and the cities thereof round about.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">Dedit itaque Moyses filiis Gad et Ruben, et dimidiæ tribui Manasse filii Joseph, regnum Sehon regis Amorrhæi, et regnum Og regis Basan, et terram eorum cum urbibus suis per circuitum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">So Moses gave the dominions of Sehon, that had been king of the Amorrhites, and Og, the king of Basan, with all the cities that were contained in the whole region, to Gad and to Ruben and to half the tribe of Manasses, that were descended from Joseph’s son.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">And the sons of Gad built Dibon, and Ataroth, and Aroer,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Igitur exstruxerunt filii Gad, Dibon, et Ataroth, et Aroër,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">And the men of Gad rebuilt Dibon, Ataroth, Aroer,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">And Etroth, and Sophan, and Jazer, and Jegbaa,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">et Etroth, et Sophan, et Jazer, et Jegbaa,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Etroth, Sophan, Jazer, Jegbaa,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">And Bethnemra, and Betharan, fenced cities, and folds for their cattle.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">et Bethnemra, et Betharan, urbes munitas, et caulas pecoribus suis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Bethnemra and Betharan, all fortified cities, and folds, too, for their sheep.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">But the children of Ruben built Hesebon, and Eleale, and Cariathaim,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Filii vero Ruben ædificaverunt Hesebon, et Eleale, et Cariathaim,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">The men of Ruben rebuilt Hesebon, Eleale, Cariathaim,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">And Nabo, and Baalmeon (their names being changed) and Sabama: giving names to the cities which they had built.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">et Nabo, et Baalmeon versis nominibus, Sabama quoque: imponentes vocabula urbibus, quas exstruxerunt.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Nabo and Baalmeon, under other names,  and Sabama too; they gave names of their own to these cities when they rebuilt them.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Moreover the children of Machir, the son of Manasses, went into Galaad, and wasted it, cutting off the Amorrhites, the inhabitants thereof.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Porro filii Machir filii Manasse, perrexerunt in Galaad, et vastaverunt eam interfecto Amorrhæo habitatore ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Meanwhile the descendants of Machir, that was Manasses’ son, had made their way into Galaad and plundered it, slaughtering the Amorrhites who dwelt there;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">And Moses gave the land of Galaad to Machir the son of Manasses, and he dwelt in it.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">Dedit ergo Moyses terram Galaad Machir filio Manasse, qui habitavit in ea.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">so Moses gave Galaad to the clan of Manasses’ son Machir, and there they took up their abode.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">And Jair the son of Manasses went, and took the villages thereof, and he called them Havoth Jair, that is to say, the villages of Jair.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">Jair autem filius Manasse abiit, et occupavit vicos ejus, quos appellavit Havoth Jair, id est, Villas Jair.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">Other Amorrhite towns were taken by Jair, a tribesman of Manasses, who called them Havoth-Jair, that is, Jair’s villages;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Nobe also went, and took Canath with the villages thereof: and he called it by his own name, Nobe.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Nobe quoque perrexit, et apprehendit Chanath cum viculis suis: vocavitque eam ex nomine suo Nobe.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">and Nobe, who invaded and captured Chanath with its daughter-towns, called this after his own name, Nobe.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_31">&lt; prev</a></div>|
+					<div class="chapter">Chapter 32</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_33">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_1">1</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_2">2</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_3">3</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_4">4</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_5">5</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_6">6</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_7">7</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_8">8</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_9">9</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_10">10</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_11">11</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_12">12</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_13">13</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_14">14</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_15">15</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_16">16</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_17">17</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_18">18</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_19">19</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_20">20</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_21">21</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_22">22</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_23">23</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_24">24</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_25">25</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_26">26</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_27">27</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_28">28</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_29">29</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_30">30</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_31">31</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_32" class="active">32</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_33">33</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_34">34</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_35">35</a> <a href="https://web.archive.org/web/20210726225917/http://catholicbible.online/side_by_side/OT/Num/ch_36">36</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20210726225917im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20210726225917/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20210726225917/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/OT/Num/ch_32"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20210726225917/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20210726225917im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 22:59:17 Jul 26, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:23:48 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.588
+  exclusion.robots: 0.032
+  exclusion.robots.policy: 0.021
+  esindex: 0.01
+  cdx.remote: 59.189
+  LoadShardBlock: 86.305 (3)
+  PetaboxLoader3.datanode: 111.664 (4)
+  load_resource: 307.058
+  PetaboxLoader3.resolve: 272.237
+-->

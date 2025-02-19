@@ -1,0 +1,467 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app217.us.archive.org';v.server_ms=588;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online:80/side_by_side/OT/Judg/ch_6","20200219150218","https://web.archive.org/","web","/_static/",
+	      "1582124538");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20200219150218cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20200219150218cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20200219150218cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20200219150218js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200219150218js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200219150218js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200219150218js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200219150218js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20200219150218/http%3A//catholicbible.online/side_by_side/OT/Judg/ch_6"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/OT/Judg/ch_6" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20200219150218" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20200219150218*/http://catholicbible.online/side_by_side/OT/Judg/ch_6" title="See a list of every capture for this URL">7 captures</a>
+          <div class="r" title="Timespan for captures of this URL">13 Mar 2017 - 29 Jun 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20191221065618/http://catholicbible.online:80/side_by_side/OT/Judg/ch_6" title="21 Dec 2019"><strong>Dec</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 15:02:18 Feb 19, 2020">FEB</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20210918103746/http://catholicbible.online/side_by_side/OT/Judg/ch_6" title="18 Sep 2021"><strong>Sep</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20191221065618/http://catholicbible.online:80/side_by_side/OT/Judg/ch_6" title="06:56:18 Dec 21, 2019"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 15:02:18 Feb 19, 2020">19</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20210918103746/http://catholicbible.online/side_by_side/OT/Judg/ch_6" title="10:37:46 Sep 18, 2021"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170313181418/http://catholicbible.online/side_by_side/OT/Judg/ch_6" title="13 Mar 2017"><strong>2017</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 15:02:18 Feb 19, 2020">2020</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20210918103746/http://catholicbible.online/side_by_side/OT/Judg/ch_6" title="18 Sep 2021"><strong>2021</strong></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20200219150218/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/OT/Judg/ch_6"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20200219150218/http://catholicbible.online:80/side_by_side/OT/Judg/ch_6" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20200219150218/http://catholicbible.online:80/side_by_side/OT/Judg/ch_6" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20200219150218/http://catholicbible.online:80/side_by_side/OT/Judg/ch_6</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/OT/Judg/ch_6","20200219150218",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=7&amp;chapter_no=6" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=7&amp;chapter_no=6" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=7&amp;chapter_no=6" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=7&amp;chapter_no=6" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20200219150218/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Judges</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Jos">Joshua</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Book of Judges — Liber Judicum </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_5">&lt; prev</a></div>|
+					<div class="chapter">Chapter 6</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_7">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_1">1</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_2">2</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_3">3</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_4">4</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_5">5</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_6" class="active">6</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_7">7</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_8">8</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_9">9</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_10">10</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_11">11</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_12">12</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_13">13</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_14">14</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_15">15</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_16">16</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_17">17</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_18">18</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_19">19</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_20">20</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_21">21</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_6?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_6?act_indx=1&amp;act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_6?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_6?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Fecerunt autem filii Israël malum in conspectu Domini: qui tradidit illos in manu Madian septem annis,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">And  the children of Israel again did evil in the sight of the Lord: and he delivered them into the hand of Madian seven years.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">After this, the sons of Israel defied the Lord again, and for seven years he left them at the mercy of the Madianites,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">et oppressi sunt valde ab eis. Feceruntque sibi antra et speluncas in montibus, et munitissima ad repugnandum loca.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">And they were grievously oppressed by them. And they made themselves dens and caves in the mountains, and strong holds to resist.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">who crushed them down unsparingly; so that they were fain to take refuge in caverns and shafts and mountain fastnesses.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Cumque sevisset Israël, ascendebat Madian et Amalec, ceterique orientalium nationum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">And when Israel had sown, Madian and Amalec, and the rest of the eastern nations came up:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">The men of Israel would sow their lands, and then Madian and Amalec and the tribes east of them would invade the country;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">et apud eos figentes tentoria, sicut erant in herbis cuncta vastabant usque ad introitum Gazæ: nihilque omnino ad vitam pertinens relinquebant in Israël, non oves, non boves, non asinos.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">And pitching their tents among them, wasted all things as they were in the blade even to the entrance of Gaza: and they left nothing at all in Israel for sustenance of life, nor sheep, nor oxen, nor asses.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">encamping there, they destroyed all the growing crops right up to Gaza, till there was no food left in the land of Israel for ox or sheep or ass.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Ipsi enim et universi greges eorum veniebant cum tabernaculis suis, et instar locustarum universa complebant, innumera multitudo hominum et camelorum, quidquid tetigerant devastantes.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">For they and all their flocks came with their tents, and like locusts filled all places, an innumerable multitude of men, and of camels, wasting whatsoever they touched.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Carrying their tents and driving their cattle before them, they came in and spread over the country-side, hordes of men everywhere and trains of camels, like a swarm of locusts, destroying all that lay in their path.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Humiliatusque est Israël valde in conspectu Madian.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">And Israel was humbled exceedingly in the sight of Madian.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Thus Madian brought the Israelites into great need,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Et clamavit ad Dominum postulans auxilium contra Madianitas.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">And he cried to the Lord desiring help against the Madianites.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">and they cried out to the Lord for redress.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Qui misit ad eos virum prophetam, et locutus est: Hæc dicit Dominus Deus Israël: Ego vos feci conscendere de Ægypto, et eduxi vos de domo servitutis,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">And he sent unto them a prophet, and he spoke: Thus saith the Lord the God of Israel: I made you to come up out of Egypt, and brought you out of the house of bondage,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">But he, through a prophet, sent them this message from the Lord God of Israel: I recalled you from Egypt, rescued you from your prison there,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">et liberavi de manu Ægyptiorum, et omnium inimicorum qui affligebant vos: ejecique eos ad introitum vestrum, et tradidi vobis terram eorum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">And delivered you out of the hands of the Egyptians, and of all the enemies that afflicted you: and I cast them out at your coming in, and gave you their land.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">defended you, not only against the Egyptians, but against all the hostile nations that were dispossessed of their lands to make room for you.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Et dixi: Ego Dominus Deus vester: ne timeatis deos Amorrhæorum, in quorum terra habitatis. Et noluistis audire vocem meam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">And I said: I am the Lord your God, fear not the gods of the Amorrhites, in whose land you dwell. And you would not hear my voice.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">And I told you, I am the Lord your God; you must pay no reverence to the gods of the Amorrhites, in whose land you dwell; but my command went unheeded.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Venit autem angelus Domini, et sedit sub quercu, quæ erat in Ephra, et pertinebat ad Joas patrem familiæ Ezri. Cumque Gedeon filius ejus excuteret atque purgaret frumenta in torculari, ut fugeret Madian,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">And an angel of the Lord came, and sat under an oak, that was in Ephra, and belonged to Joas the father of the family of Ezri. And when Gedeon his son was threshing and cleansing wheat by the winepress, to flee from Madian,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">And now an angel of the Lord came and waited by the oak-tree at Ephra, which then belonged to Joas, of the family of Abiezer. His son Gedeon had gone out to the wine-press, so as to thresh his wheat there unobserved by the Madianites,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">apparuit ei angelus Domini, et ait: Dominus tecum, virorum fortissime.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">The angel of the Lord appeared to him, and said: The Lord is with thee, O most valiant of men.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">and suddenly the Lord’s angel appeared to him, and said, The Lord be with thee, courageous heart!</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Dixitque ei Gedeon: Obsecro, mi domine, si Dominus nobiscum est, cur apprehenderunt nos hæc omnia? ubi sunt mirabilia ejus, quæ narraverunt patres nostri, atque dixerunt: De Ægypto eduxit nos Dominus? nunc autem dereliquit nos Dominus, et tradidit in manu Madian.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">And Gedeon said to him: I beseech thee, my lord, if the Lord be with us, why have these evils fallen upon us? Where are his miracles, which our fathers have told us of, saying: The Lord brought us out of Egypt? but now the Lord hath forsaken us, and delivered us into the hand of Madian.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Ah, Sir, replied Gedeon, but tell me this; if the Lord is with us, how is it that such ill fortune has overtaken us? Not for us, now, those miracles of his that were on our fathers’ lips, when they told us how he rescued them from Egypt. The Lord has forsaken us now, and lets the Madianites have their will with us.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Respexitque ad eum Dominus, et ait: Vade in hac fortitudine tua, et liberabis Israël de manu Madian: scito quod miserim te.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">And the Lord looked upon him, and said: Go in this thy strength, and thou shalt deliver Israel out of the hand of Madian: know that I have sent thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Then the Lord looked at him, and said, Thou hast strength; go and set Israel free from the power of Madian.  Such is the mission I have for thee.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Qui respondens ait: Obsecro, mi domine, in quo liberabo Israël? ecce familia mea infima est in Manasse, et ego minimus in domo patris mei.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">He answered and said: I beseech thee, my lord, wherewith shall I deliver Israel? Behold my family is the meanest in Manasses, and I am the least in my father’s house.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">What, Lord! said he, I deliver Israel? Why, my clan is the poorest in all Manasses, and in all my father’s house none counts for so little as I.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Dixitque ei Dominus: Ego ero tecum: et percuties Madian quasi unum virum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">And the Lord said to him: I will be with thee: and thou shalt cut off Madian as one man.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">I will be at thy side, the Lord told him, and thou shalt smite Madian down as though but one man stood in thy path.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Et ille: Si inveni, inquit, gratiam coram te, da mihi signum quod tu sis qui loqueris ad me:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">And he said: If I have found grace before thee, give me a sign that it is thou that speakest to me,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Hereupon Gedeon answered, As thou lovest me, give me some proof this is thy word that comes to me.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">nec recedas hinc, donec revertar ad te, portans sacrificium, et offerens tibi. Qui respondit: Ego præstolabor adventum tuum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">And depart not hence, till I return to thee, and bring a sacrifice, and offer it to thee. And he answered: I will wait thy coming.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">And first, do not leave this spot till I come back here with a sacrifice to offer thee. I will await thy coming, he said.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Ingressus est itaque Gedeon, et coxit hædum, et de farinæ modio azymos panes: carnesque ponens in canistro, et jus carnium mittens in ollam, tulit omnia sub quercu, et obtulit ei.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">So Gedeon went in, and boiled a kid, and made unleavened loaves of a measure of flour: and putting the flesh in a basket, and the broth of the flesh into a pot, he carried all under the oak, and presented to him.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">So Gedeon went in and cooked a goat, took a bushel of flour and made unleavened bread, put the meat in a basket and the broth from the meat into a pot, and brought them all out, there beneath the oak, to make his offering.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Cui dixit angelus Domini: Tolle carnes et azymos panes, et pone supra petram illam, et jus desuper funde. Cumque fecisset ita,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">And the angel of the Lord said to him: Take the flesh and the unleavened loaves, and lay them upon that rock, and pour out the broth thereon. And when he had done so,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Take the meat and the loaves, the angel of the Lord said, and lay them down on yonder rock, and pour out the broth over them. So he obeyed,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">extendit angelus Domini summitatem virgæ, quam tenebat in manu, et tetigit carnes et panes azymos: ascenditque ignis de petra, et carnes azymosque panes consumpsit: angelus autem Domini evanuit ex oculis ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">The angel of the Lord put forth the tip of the rod, which he held in his hand, and touched the flesh and the unleavened loaves: and there arose a fire from the rock, and consumed the flesh and the unleavened loaves: and the angel of the Lord vanished out of his sight.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">and with that the angel of the Lord held out the staff he carried, and touched meat and unleavened bread with the tip of it; whereupon fire blazed out from the rock, and all was consumed. And he looked, and the angel of the Lord was there no longer.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Vidensque Gedeon quod esset angelus Domini, ait: Heu mi Domine Deus: quia vidi angelum Domini facie ad faciem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">And Gedeon seeing that it was the angel of the Lord, said: Alas, my Lord God: for I have seen the angel of the Lord face to face.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Then Gedeon knew that this was an angel of the Lord, and he cried out, An ill day for me, O Lord my God; I have seen the Lord’s angel face to face.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Dixitque ei Dominus: Pax tecum: ne timeas, non morieris.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">And the Lord said to him: Peace be with thee: fear not, thou shalt not die.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">But the Lord’s word came to him, Be at peace, and have no fear; thou shalt not die.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Ædificavit ergo ibi Gedeon altare Domino, vocavitque illud, Domini pax, usque in præsentem diem. Cumque adhuc esset in Ephra, quæ est familiæ Ezri,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">And Gedeon built there an altar to the Lord, and called it the Lord’s peace, until this present day. And when he was yet in Ephra, which is of the family of Ezri,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">So Gedeon built an altar there and called it the Peace of the Lord; it stands there to this day.This, then, was Gedeon’s home, in Ephra, that belongs to the clan of Abiezer.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">nocte illa dixit Dominus ad eum: Tolle taurum patris tui, et alterum taurum annorum septem, destruesque aram Baal, quæ est patris tui, et nemus, quod circa aram est, succide.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">That night the Lord said to him: Take a bullock of thy father’s, and another bullock of seven years, and thou shalt destroy the altar of Baal, which is thy father’s: and cut down the grove that is about the altar:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">And that night the Lord said to him, Take with thee two bulls, the one that belongs to thy father, and another of seven years old, and overthrow Baal’s altar that stands on thy father’s land, cutting down the sacred wood around it. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Et ædificabis altare Domino Deo tuo in summitate petræ hujus, super quam ante sacrificium posuisti: tollesque taurum secundum, et offeres holocaustum super struem lignorum, quæ de nemore succideris.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">And thou shalt build an altar to the Lord thy God in the top of this rock, whereupon thou didst lay the sacrifice before: and thou shalt take the second bullock, and shalt offer a holocaust upon a pile of the wood, which thou shalt cut down out of the grove.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Then, on the top of this rock on which thou didst lay thy sacrifice to me, build an altar to the Lord thy God; and there offer the second bull in burnt sacrifice, over a fire made from the wood thou hast cut down.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">Assumptis ergo Gedeon decem viris de servis suis, fecit sicut præceperat ei Dominus. Timens autem domum patris sui, et homines illius civitatis, per diem noluit id facere, sed omnia nocte complevit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">Then Gedeon taking ten men of his servants, did as the Lord had commanded him. But fearing his father’s house, and the men of that city, he would not do it by day, but did all by night.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">So Gedeon did as the Lord bade him, with ten servants of his father’s to help him, at dead of night; he would not do it by day for fear of his kindred and his fellow-citizens.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Cumque surrexissent viri oppidi ejus mane, viderunt destructam aram Baal, lucumque succisum, et taurum alterum impositum super altare, quod tunc ædificatum erat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">And when the men of that town were risen in the morning, they saw the altar of Baal destroyed, and the grove cut down, and the second bullock laid upon the altar, which then was built.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">And when these citizens awoke next day, there was Baal’s altar destroyed, and the wood about it cut down, and a second altar built, with the dead bull lying on it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Dixeruntque ad invicem: Quis hoc fecit? Cumque perquirerent auctorem facti, dictum est: Gedeon filius Joas fecit hæc omnia.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">And they said one to another: Who hath done this? And when they inquired for the author of the fact, it was said: Gedeon the son of Joas did all this.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Who had done it? They made enquiry, and were told that it was Gedeon son of Joas.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Et dixerunt ad Joas: Produc filium tuum huc, ut moriatur: quia destruxit aram Baal, et succidit nemus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">And they said to Joas: Bring out thy son hither, that he may die: because he hath destroyed the altar of Baal, and hath cut down his grove.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Whereupon they would have Joas bring out his son to pay the death-penalty for overthrowing Baal’s altar, and cutting down his sacred wood;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Quibus ille respondit: Numquid ultores estis Baal, ut pugnetis pro eo? qui adversarius est ejus, moriatur antequam lux crastina veniat: si deus est, vindicet se de eo, qui suffodit aram ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">He answered them: Are you the avengers of Baal, that you fight for him? he that is his adversary, let him die before to morrow light appear: if he be a god, let him revenge himself on him that hath cast down his altar.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">but his answer was, What, does Baal need champions such as you to vindicate him? Nay, let the man who is his adversary be struck dead before to-morrow’s light, if he is indeed a god; let him take his own vengeance on the man who destroyed his altar. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">Ex illo die vocatus est Gedeon Jerobaal, eo quod dixisset Joas: Ulciscatur se de eo Baal, qui suffodit aram ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">From that day Gedeon was called Jerobaal, because Joas had said: Let Baal revenge himself on him that hath cast down his altar.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">And from this saying of Joas, that Baal ought to punish the destroyer of his own altar, Gedeon from that day onwards was called Jerobaal, Let Baal defend his own cause.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">Igitur omnis Madian, et Amalec, et orientales populi, congregati sunt simul: et transeuntes Jordanem, castrametati sunt in valle Jezraël.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">Now all Madian, and Amalec, and the eastern people were gathered together, and passing over the Jordan, camped in the valley of Jezrael.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">When next Madian and Amalec and the peoples of the east crossed the Jordan together, and encamped in the plain of Jezrael,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Spiritus autem Domini induit Gedeon, qui clangens buccina convocavit domum Abiezer, ut sequeretur se.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">But the spirit of the Lord came upon Gedeon, and he sounded the trumpet and called together the house of Abiezer, to follow him.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">the Spirit of the Lord wrapped Gedeon round. One blast of his horn rallied Abiezer’s clan behind him;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Misitque nuntios in universum Manassen, qui et ipse secutus est eum: et alios nuntios in Aser et Zabulon et Nephthali, qui occurrerunt ei.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">And he sent messengers into all Manasses, and they also followed him: and other messengers into Aser and Zabulon and Nephtali, and they came to meet him.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">then he sent messengers out all through Manasses, and Manasses, too, were of his company; then other messengers to Aser, Zabulon and Nephthali, and these came out to meet him.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Dixitque Gedeon ad Deum: Si salvum facis per manum meam Israël, sicut locutus es,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">And Gedeon said to God: If thou wilt save Israel by my hand, as thou hast said,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">And Gedeon asked for a sign from God: If thou meanest to fulfil thy promise, and make use of me to deliver Israel, let me have proof of it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">ponam hoc vellus lanæ in area: si ros in solo vellere fuerit, et in omni terra siccitas, sciam quod per manum meam, sicut locutus es, liberabis Israël.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">I will put this fleece of wool on the floor: if there be dew on the fleece only, and it be dry on all the ground beside, I shall know that by my hand, as thou hast said, thou wilt deliver Israel.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">This fleece shall lie on the threshing-floor; fall the dew on the fleece only, and let the ground be dry, I shall know that thy promise holds good; I am to be the means of Israel’s deliverance.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Factumque est ita. Et de nocte consurgens expresso vellere, concham rore implevit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">And it was so. And rising before day wringing the fleece, he filled a vessel with the dew.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">And so it was; when he awoke next morning, he wrung it out, and filled a tankard with the dew.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Dixitque rursus ad Deum: Ne irascatur furor tuus contra me si adhuc semel tentavero, signum quærens in vellere. Oro ut solum vellus siccum sit, et omnis terra rore madens.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">And he said again to God: Let not thy wrath be kindled against me if I try once more, seeking a sign in the fleece. I pray that the fleece only may be dry, and all the ground wet with dew.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">But he pleaded once again, Do not be angry with me if I put thee to one more test, still with the fleece for my proof. This time, let the fleece remain dry, while the rest of the ground is wet with dew.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">Fecitque Deus nocte illa ut postulaverat: et fuit siccitas in solo vellere, et ros in omni terra.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">And God did that night as he had requested: and it was dry on the fleece only, and there was dew on all the ground.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">And that night, God granted his prayer; dew lay all over the ground about it, and the fleece alone was dry.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_5">&lt; prev</a></div>|
+					<div class="chapter">Chapter 6</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_7">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_1">1</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_2">2</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_3">3</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_4">4</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_5">5</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_6" class="active">6</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_7">7</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_8">8</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_9">9</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_10">10</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_11">11</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_12">12</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_13">13</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_14">14</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_15">15</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_16">16</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_17">17</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_18">18</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_19">19</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_20">20</a> <a href="https://web.archive.org/web/20200219150218/http://catholicbible.online/side_by_side/OT/Judg/ch_21">21</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20200219150218im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20200219150218/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20200219150218/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/OT/Judg/ch_6"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20200219150218/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20200219150218im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 15:02:18 Feb 19, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:04:05 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.5
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.014
+  esindex: 0.009
+  cdx.remote: 7.089
+  LoadShardBlock: 460.205 (3)
+  PetaboxLoader3.datanode: 141.152 (4)
+  PetaboxLoader3.resolve: 390.046 (2)
+  load_resource: 87.717
+-->

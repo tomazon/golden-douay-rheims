@@ -1,0 +1,82 @@
+#! /usr/bin/perl
+
+
+use strict;
+use warnings;
+
+use File::Slurp;
+use YAML::Safe;
+
+
+my $old_file = "$ENV{HOME}/Projects/Parallel_Bible/downloads/catholicbible_online/book_ids.yaml";
+my $order_file = "../../etc/book_order.yaml";
+
+my $old   = YAML::Safe::LoadFile($old_file);
+my $order = YAML::Safe::LoadFile($order_file);
+
+
+# my $ver = 'douay_rheims';
+# my $in = $old->{USFM_names}->{$ver};
+# my $rev = {reverse(%{$in})};
+
+# $rev->{DAG} = $rev->{DAN};
+# $rev->{ESG} = $rev->{EST};
+
+my %file_name = (
+    douay_rheims =>  'cbol_douay-rheims',
+    knox =>          'cbol_knox', 
+    vulgate =>       'cbol_vulgate',
+);
+
+
+for my $source (qw( douay_rheims knox vulgate )) {
+    my $by_id = '';
+    my $by_file = '';
+    my $by_path = '';
+
+    print "  SOURCE: $source\n";
+
+    my $in = $old->{USFM_names}->{$source};
+    my $rev = {reverse(%{$in})};
+
+    $rev->{DAG} = $rev->{DAN};
+    $rev->{ESG} = $rev->{EST};
+
+
+    for my $part (qw( OT NT )) {
+        for my $book_id (@{$order->{$part}}) {
+            my $file = $rev->{$book_id};
+            #print "  '$part/${file}':  $book_id\n";
+
+            my $temp = "    USMF_id:  $book_id\n"
+                    .  "    section:  $part\n"
+                    .  "    file:     $file\n"
+                    .  "    path:     $part/$file\n";
+
+            $by_id .=  "  $book_id:\n$temp";
+            $by_file .=  "  $file:\n$temp";
+
+
+        }
+    }
+
+    my $fname = $file_name{$source};
+    my $path = '';
+
+    $path = "../$fname/etc/$fname.by_id.yaml";
+    print "    Writing: $path\n";
+    write_file($path, $by_id);
+
+    $path = "../$fname/etc/$fname.by_file.yaml";
+    print "    Writing: $path\n";
+    write_file($path, $by_file);
+
+    # print "    Writing: $file_name{$source}.by_id.yaml\n";
+    # write_file("../$file_name{$source}.by_id.yaml",   $by_id);
+    # print "    Writing: $file_name{$source}.by_file.yaml\n";
+    # write_file("$file_name{$source}.by_file.yaml", $by_file);
+}
+
+         
+# print YAML::Safe::Dump($in);
+

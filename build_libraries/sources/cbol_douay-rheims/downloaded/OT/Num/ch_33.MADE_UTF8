@@ -1,0 +1,415 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+			3888: {
+				id_comment: 3888,
+				source_str: 'the mansions',
+				caption: 'The mansions.',
+				content: "These mansions, or journeys of the children of Israel from Egypt to the land of promise, were figures, according to the fathers, of the steps and degrees by which Christians leaving sin are to advance from virtue to virtue, till they come to the heavenly mansions, after this life, to see and enjoy God."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=1&book_no=4&chapter_no=33" class="menu-item ">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=1&book_no=4&chapter_no=33" class="menu-item active">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=1&book_no=4&chapter_no=33" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=1&book_no=4&chapter_no=33" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Numbers</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Lev">Leviticus</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/douay_rheims/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/douay_rheims/OT/Num/9397?vers_inline=1"><img src="https://catholicbible.online/assets/img/para.jpg" alt="" /></a>					<a href="https://catholicbible.online/douay_rheims/OT/Num/9397?comments_open=1"><img src="https://catholicbible.online/assets/img/C-off.gif" alt="" /></a>				</div>
+				<div class="bible-name">The Holy Bible – Douay‐Rheims version</div>
+				<div class="book-name">The Book of Numbers</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Num/9396">&lt; prev</a></div>|
+					<div class="chapter">Chapter 33</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Num/9398">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/OT/Num/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_3">3</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_4">4</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_5">5</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_6">6</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_7">7</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_8">8</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_9">9</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_10">10</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_11">11</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_12">12</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_13">13</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_14">14</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_15">15</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_16">16</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_17">17</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_18">18</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_19">19</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_20">20</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_21">21</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_22">22</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_23">23</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_24">24</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_25">25</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_26">26</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_27">27</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_28">28</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_29">29</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_30">30</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_31">31</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_32">32</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_33" class="active">33</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_34">34</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_35">35</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_36">36</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers213423" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">These  are <a href="" class="inline-comment" data-comment-id="3888">the mansions</a> of the children of Israel, who went out of Egypt by their troops under the conduct of Moses and Aaron,</div>
+					</div>
+									<div id="vers213424" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">Which Moses wrote down according to the places of their encamping, which they changed by the commandment of the Lord.</div>
+					</div>
+									<div id="vers213425" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">Now the children of Israel departed from Ramesses the first month, on the fifteenth day of the first month, the day after the phase, with a mighty hand, in the sight of all the Egyptians,</div>
+					</div>
+									<div id="vers213426" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">Who were burying their firstborn, whom the Lord had slain (upon their gods also he had executed vengeance,)</div>
+					</div>
+									<div id="vers213427" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">And they camped in Soccoth.</div>
+					</div>
+									<div id="vers213428" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">And from Soccoth they came into Etham, which is in the uttermost borders of the wilderness.</div>
+					</div>
+									<div id="vers213429" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">Departing from thence they came over against Phihahiroth, which looketh towards Beelsephon, and they camped before Magdalum.</div>
+					</div>
+									<div id="vers213430" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">And departing from Phihahiroth, they passed through the midst of the sea into the wilderness: and having marched three days through the desert of Etham, they camped in Mara.</div>
+					</div>
+									<div id="vers213431" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">And departing from Mara, they came into Elim, where there were twelve fountains of waters, and seventy palm trees: and there they camped.</div>
+					</div>
+									<div id="vers213432" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">But departing from thence also, they pitched their tents by the Red Sea. And departing from the Red Sea,</div>
+					</div>
+									<div id="vers213433" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">They camped in the desert of Sin.</div>
+					</div>
+									<div id="vers213434" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">And they removed from thence, and came to Daphca.</div>
+					</div>
+									<div id="vers213435" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">And departing from Daphca, they camped in Alus.</div>
+					</div>
+									<div id="vers213436" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">And departing from Alus, they pitched their tents in Raphidim, where the people wanted water to drink.</div>
+					</div>
+									<div id="vers213437" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">And departing from Raphidim, they camped in the desert of Sinai.</div>
+					</div>
+									<div id="vers213438" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">But departing also from the desert of Sinai, they came to the graves of lust.</div>
+					</div>
+									<div id="vers213439" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">And departing from the graves of lust, they camped in Haseroth.</div>
+					</div>
+									<div id="vers213440" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">And from Haseroth they came to Rethma.</div>
+					</div>
+									<div id="vers213441" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">And departing from Rethma, they camped in Remmomphares.</div>
+					</div>
+									<div id="vers213442" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">And they departed from thence and came to Lebna.</div>
+					</div>
+									<div id="vers213443" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">Removing from Lebna they camped in Ressa.</div>
+					</div>
+									<div id="vers213444" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">And departing from Ressa, they came to Ceelatha.</div>
+					</div>
+									<div id="vers213445" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">And they removed from thence and camped in the mountain Sepher.</div>
+					</div>
+									<div id="vers213446" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">Departing from the mountain Sepher, they came to Arada.</div>
+					</div>
+									<div id="vers213447" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">From thence they went and camped in Maceloth.</div>
+					</div>
+									<div id="vers213448" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">And departing from Maceloth, they came to Thahath.</div>
+					</div>
+									<div id="vers213449" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">Removing from Thahath they camped in Thare.</div>
+					</div>
+									<div id="vers213450" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">And they departed from thence, and pitched their tents in Methca.</div>
+					</div>
+									<div id="vers213451" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">And removing from Methca, they camped in Hesmona.</div>
+					</div>
+									<div id="vers213452" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">And departing from Hesmona, they came to Moseroth.</div>
+					</div>
+									<div id="vers213453" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">And removing from Moseroth, they camped in Benejaacan.</div>
+					</div>
+									<div id="vers213454" class="vers">
+												<div class="vers-no">32</div>
+						<div class="vers-content">And departing from Benejaacan, they came to mount Gadgad.</div>
+					</div>
+									<div id="vers213455" class="vers">
+												<div class="vers-no">33</div>
+						<div class="vers-content">From thence they went and camped in Jetebatha.</div>
+					</div>
+									<div id="vers213456" class="vers">
+												<div class="vers-no">34</div>
+						<div class="vers-content">And from Jetebatha they came to Hebrona.</div>
+					</div>
+									<div id="vers213457" class="vers">
+												<div class="vers-no">35</div>
+						<div class="vers-content">And departing from Hebrona, they camped in Asiongaber.</div>
+					</div>
+									<div id="vers213458" class="vers">
+												<div class="vers-no">36</div>
+						<div class="vers-content">They removed from thence and came into the desert of Sin, which is Cades.</div>
+					</div>
+									<div id="vers213459" class="vers">
+												<div class="vers-no">37</div>
+						<div class="vers-content">And departing from Cades, they camped in mount Hor, in the uttermost borders of the land of Edom.</div>
+					</div>
+									<div id="vers213460" class="vers">
+												<div class="vers-no">38</div>
+						<div class="vers-content">And Aaron the priest went up into mount Hor at the commandment of the Lord: and there he died in the fortieth year of the coming forth of the children of Israel out of Egypt, the fifth month, the first day of the month,</div>
+					</div>
+									<div id="vers213461" class="vers">
+												<div class="vers-no">39</div>
+						<div class="vers-content">When he was a hundred and twenty-three years old.</div>
+					</div>
+									<div id="vers213462" class="vers">
+												<div class="vers-no">40</div>
+						<div class="vers-content">And king Arad the Chanaanite, who dwelt towards the south, heard that the children of Israel were come to the land of Chanaan.</div>
+					</div>
+									<div id="vers213463" class="vers">
+												<div class="vers-no">41</div>
+						<div class="vers-content">And they departed from mount Hor, and camped in Salmona.</div>
+					</div>
+									<div id="vers213464" class="vers">
+												<div class="vers-no">42</div>
+						<div class="vers-content">From whence they removed and came to Phunon.</div>
+					</div>
+									<div id="vers213465" class="vers">
+												<div class="vers-no">43</div>
+						<div class="vers-content">And departing from Phunon, they camped in Oboth.</div>
+					</div>
+									<div id="vers213466" class="vers">
+												<div class="vers-no">44</div>
+						<div class="vers-content">And from Oboth they came to Ijeabarim, which is in the borders of the Moabites.</div>
+					</div>
+									<div id="vers213467" class="vers">
+												<div class="vers-no">45</div>
+						<div class="vers-content">And departing from Ijeabarim they pitched their tents in Dibongab.</div>
+					</div>
+									<div id="vers213468" class="vers">
+												<div class="vers-no">46</div>
+						<div class="vers-content">From thence they went and camped in Helmondeblathaim.</div>
+					</div>
+									<div id="vers213469" class="vers">
+												<div class="vers-no">47</div>
+						<div class="vers-content">And departing from Helmondeblathaim, they came to the mountains of Abarim over against Nabo.</div>
+					</div>
+									<div id="vers213470" class="vers">
+												<div class="vers-no">48</div>
+						<div class="vers-content">And departing from the mountains of Abarim, they passed to the plains of Moab, by the Jordan, over against Jericho.</div>
+					</div>
+									<div id="vers213471" class="vers">
+												<div class="vers-no">49</div>
+						<div class="vers-content">And there they camped from Bethsimoth even to Ablesatim in the plains of the Moabites,</div>
+					</div>
+									<div id="vers213472" class="vers">
+												<div class="vers-no">50</div>
+						<div class="vers-content">Where the Lord said to Moses:</div>
+					</div>
+									<div id="vers213473" class="vers">
+												<div class="vers-no">51</div>
+						<div class="vers-content">Command the children of Israel, and say to them: When you shall have passed over the Jordan, entering into the land of Chanaan,</div>
+					</div>
+									<div id="vers213474" class="vers">
+												<div class="vers-no">52</div>
+						<div class="vers-content">Destroy all the inhabitants of that land: Beat down their pillars, and break in pieces their statues, and waste all their high places,</div>
+					</div>
+									<div id="vers213475" class="vers">
+												<div class="vers-no">53</div>
+						<div class="vers-content">Cleansing the land, and dwelling in it. For I have given it you for a possession.</div>
+					</div>
+									<div id="vers213476" class="vers">
+												<div class="vers-no">54</div>
+						<div class="vers-content">And you shall divide it among you by lot. To the more you shall give a larger part, and to the fewer a lesser. To every one as the lot shall fall, so shall the inheritance be given. The possession shall be divided by the tribes and the families.</div>
+					</div>
+									<div id="vers213477" class="vers">
+												<div class="vers-no">55</div>
+						<div class="vers-content">But if you will not kill the inhabitants of the land: they that remain, shall be unto you as nails in your eyes, and spears in your sides, and they shall be your adversaries in the land of your habitation.</div>
+					</div>
+									<div id="vers213478" class="vers">
+												<div class="vers-no">56</div>
+						<div class="vers-content">And whatsoever I had thought to do to them, I will do to you.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Num/ch_32">&lt; prev</a></div>|
+					<div class="chapter">Chapter 33</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Num/ch_34">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/OT/Num/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_3">3</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_4">4</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_5">5</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_6">6</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_7">7</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_8">8</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_9">9</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_10">10</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_11">11</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_12">12</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_13">13</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_14">14</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_15">15</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_16">16</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_17">17</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_18">18</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_19">19</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_20">20</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_21">21</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_22">22</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_23">23</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_24">24</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_25">25</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_26">26</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_27">27</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_28">28</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_29">29</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_30">30</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_31">31</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_32">32</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_33" class="active">33</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_34">34</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_35">35</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_36">36</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="130" height="210" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br />
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br />
+        Flexible Cover</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-bible.html" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = 0;
+</script>		<div class="copyright">2015 - 2024 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/douay_rheims/OT/Num/ch_33"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>HASH(0x12680c020)

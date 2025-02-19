@@ -1,0 +1,514 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app200.us.archive.org';v.server_ms=583;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/knox/NT/Rom/ch_3","20211025063847","https://web.archive.org/","web","/_static/",
+	      "1635143927");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Knox Bible</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20211025063847cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20211025063847cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20211025063847cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20211025063847js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211025063847js_/http://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211025063847js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211025063847js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211025063847js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211025063847js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20211025063847/http%3A//catholicbible.online/knox/NT/Rom/ch_3"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/knox/NT/Rom/ch_3" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20211025063847" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20211025063847*/http://catholicbible.online/knox/NT/Rom/ch_3" title="See a list of every capture for this URL">30 captures</a>
+          <div class="r" title="Timespan for captures of this URL">16 Feb 2017 - 25 Oct 2021</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20210803085803/https://catholicbible.online/knox/NT/Rom/ch_3" title="03 Aug 2021"><strong>Aug</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 06:38:47 Oct 25, 2021">OCT</td>
+            <td class="f" nowrap="nowrap">Nov</td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20210803085803/https://catholicbible.online/knox/NT/Rom/ch_3" title="08:58:03 Aug 03, 2021"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 06:38:47 Oct 25, 2021">25</td>
+            <td class="f" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0" /></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20201008064049/http://catholicbible.online/knox/NT/Rom/ch_3" title="08 Oct 2020"><strong>2020</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 06:38:47 Oct 25, 2021">2021</td>
+            <td class="f" nowrap="nowrap">2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20211025063847/http://web.archive.org/screenshot/http://catholicbible.online/knox/NT/Rom/ch_3"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_3" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_3" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_3</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/knox/NT/Rom/ch_3","20211025063847",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<script>
+	var comments={
+			2925: {
+				id_comment: 2925,
+				source_str: '✻',
+				caption: '',
+				content: "Ps. 50.4."
+			},
+					2926: {
+				id_comment: 2926,
+				source_str: '✻',
+				caption: '',
+				content: "‘Has either side the advantage?’; the Greek word here may mean ‘Do we excel them?’ or ‘Are we excelled by them?’ Nor are commentators agreed whether ‘we’ refers to the Jews or to the Gentiles. But the general sense remains clear."
+			},
+					2927: {
+				id_comment: 2927,
+				source_str: '✻',
+				caption: '',
+				content: "vv. 10-12: Ps. 13.2, 3."
+			},
+					2928: {
+				id_comment: 2928,
+				source_str: '✻',
+				caption: '',
+				content: "Ps. 5.10; Ps. 139.3."
+			},
+					2929: {
+				id_comment: 2929,
+				source_str: '✻',
+				caption: '',
+				content: "Ps. 9 (second part), 7."
+			},
+					2930: {
+				id_comment: 2930,
+				source_str: '✻',
+				caption: '',
+				content: "vv. 15-17: Is. 59.7, 8."
+			},
+					2931: {
+				id_comment: 2931,
+				source_str: '✻',
+				caption: '',
+				content: "Ps. 35.1."
+			},
+					2932: {
+				id_comment: 2932,
+				source_str: '✻',
+				caption: '',
+				content: "‘The law’ seems to be used here, as often, for the Old Testament generally."
+			},
+					2933: {
+				id_comment: 2933,
+				source_str: '✻',
+				caption: '',
+				content: "‘God’s praise’; some translate ‘the glory of God’, but it seems simplest to understand the words here as in Jn. 12.43, as referring to the praise which God bestows."
+			},
+					2934: {
+				id_comment: 2934,
+				source_str: '✻',
+				caption: '',
+				content: "The Greek text here can be, and commonly is, translated thus: ‘he has also vindicated his (God’s) holiness, here and now, as one who is himself holy, and imparts holiness to those who take their stand upon faith in Jesus Christ’. The other interpretation is, apparently, that of the Latin translators."
+			},
+					2935: {
+				id_comment: 2935,
+				source_str: '✻',
+				caption: '',
+				content: "As in verse 19 above, ‘the law’ seems to indicate the Old Testament generally, since the considerations here introduced relate to the story of Abraham."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Knox Bible</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/vulgate?bible_part_no=2&amp;book_no=6&amp;chapter_no=3" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/douay_rheims?bible_part_no=2&amp;book_no=6&amp;chapter_no=3" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox?bible_part_no=2&amp;book_no=6&amp;chapter_no=3" class="menu-item active">Knox Bible</a>
+					<a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/side_by_side?bible_part_no=2&amp;book_no=6&amp;chapter_no=3" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20211025063847/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Romans</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Lk">Luke</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/8032?vers_inline=1"><img src="https://web.archive.org/web/20211025063847im_/http://catholicbible.online/assets/img/para.jpg" alt=""/></a>					<a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/8032?comments_open=1"><img src="https://web.archive.org/web/20211025063847im_/http://catholicbible.online/assets/img/C-off.gif" alt=""/></a>				</div>
+				<div class="bible-name">The Holy Bible – Knox Translation</div>
+				<div class="book-name">The Epistle of the Blessed Apostle Paul to the Romans </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/8031">&lt; prev</a></div>|
+					<div class="chapter">Chapter 3</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/8033">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_1">1</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_2">2</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_3" class="active">3</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_4">4</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_5">5</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_6">6</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_7">7</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_8">8</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_9">9</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_10">10</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_11">11</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_12">12</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_13">13</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_14">14</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_15">15</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_16">16</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers177099" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">Of what use is it, then, to be a Jew? What value was there in circumcision?</div>
+					</div>
+									<div id="vers177100" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">Much, I answer, in every respect; chiefly because the Jews had the words of God entrusted to them.</div>
+					</div>
+									<div id="vers177101" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">Some, to be sure, shewed unfaithfulness on their side; but can we suppose that unfaithfulness on their part will dispense God from his promise? It is not to be thought of;</div>
+					</div>
+									<div id="vers177102" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">God must prove true to his word, though all men should play him false; so it is written, Thy dealings were just, and if thou art called in question, thou hast right on thy side.<a href="" class="inline-comment" data-comment-id="2925">✻</a></div>
+					</div>
+									<div id="vers177103" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">Thus our fault only serves to bring God’s integrity to light. (Does that mean that God does wrong in punishing us for it?</div>
+					</div>
+									<div id="vers177104" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">Impossible again, even according to our human standards; that would mean that God has no right to judge the world;</div>
+					</div>
+									<div id="vers177105" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">it would mean that because my deceitfulness has promoted God’s glory by giving scope to his truthfulness, I on my side do not deserve to be condemned as a sinner.</div>
+					</div>
+									<div id="vers177106" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">If so, why should we not do evil so that good may come of it? That is what we are accused of preaching by some of our detractors; and their condemnation of it is just.)<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers177107" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">Well then, has either side the advantage? In no way. Jews and Gentiles, as we have before alleged, are alike convicted of sin.<a href="" class="inline-comment" data-comment-id="2926">✻</a></div>
+					</div>
+									<div id="vers177108" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">Thus, it is written, There is not an innocent man among them, no, not one.</div>
+					</div>
+									<div id="vers177109" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">There is nobody who reflects, and searches for God;</div>
+					</div>
+									<div id="vers177110" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">all alike are on the wrong course, all are wasted lives; not one of them acts honourably, no, not one.<a href="" class="inline-comment" data-comment-id="2927">✻</a></div>
+					</div>
+									<div id="vers177111" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">Their mouths are gaping tombs, they use their tongues to flatter. Under their lips the venom of asps is hidden.<a href="" class="inline-comment" data-comment-id="2928">✻</a></div>
+					</div>
+									<div id="vers177112" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">Their talk overflows with curses and calumny.<a href="" class="inline-comment" data-comment-id="2929">✻</a></div>
+					</div>
+									<div id="vers177113" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">They run hot-foot to shed blood;</div>
+					</div>
+									<div id="vers177114" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">havoc and ruin follow in their path;<a href="" class="inline-comment" data-comment-id="2930">✻</a></div>
+					</div>
+									<div id="vers177115" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">the way of peace is unknown to them.</div>
+					</div>
+									<div id="vers177116" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">They do not keep the fear of God before their eyes.<a href="" class="inline-comment" data-comment-id="2931">✻</a></div>
+					</div>
+									<div id="vers177117" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">So the law says, and we know that the words of the law are meant for the law’s own subjects; it is determined that no one shall have anything to say for himself, that the whole world shall own itself liable to God’s judgements.<a href="" class="inline-comment" data-comment-id="2932">✻</a></div>
+					</div>
+									<div id="vers177118" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">No human creature can become acceptable in his sight by observing the law; what the law does is to give us the full consciousness of sin.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers177119" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">But, in these days, God’s way of justification has at last been brought to light; one which was attested by the law and the prophets, but stands apart from the law;</div>
+					</div>
+									<div id="vers177120" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">God’s way of justification through faith in Jesus Christ, meant for everybody and sent down upon everybody without distinction, if he has faith.</div>
+					</div>
+									<div id="vers177121" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">All alike have sinned, all alike are unworthy of God’s praise.<a href="" class="inline-comment" data-comment-id="2933">✻</a></div>
+					</div>
+									<div id="vers177122" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">And justification comes to us as a free gift from his grace, through our redemption in Christ Jesus.</div>
+					</div>
+									<div id="vers177123" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">God has offered him to us as a means of reconciliation, in virtue of faith, ransoming us with his blood. Thus God has vindicated his own holiness, shewing us why he overlooked our former sins</div>
+					</div>
+									<div id="vers177124" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">in the days of his forbearance; and he has also vindicated the holiness of Jesus Christ, here and now, as one who is himself holy, and imparts holiness to those who take their stand upon faith in him.<a href="" class="inline-comment" data-comment-id="2934">✻</a></div>
+					</div>
+									<div id="vers177125" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">What has become, then, of thy pride? No room has been left for it. On what principle? The principle which depends on observances? No, the principle which depends on faith;</div>
+					</div>
+									<div id="vers177126" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">our contention is, that a man is justified by faith apart from the observances of the law.</div>
+					</div>
+									<div id="vers177127" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">Is God the God of the Jews only? Is he not the God of the Gentiles too? Of the Gentiles too, assuredly;</div>
+					</div>
+									<div id="vers177128" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">there is only one God, who will justify the circumcised man if he learns to believe, and the Gentile because he believes.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers177129" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">Does that mean that we are using faith to rob the law of its force? No, we are setting the law on its right footing.<a href="" class="inline-comment" data-comment-id="2935">✻</a> <span class="content-paragraph"><br><br></span></div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_2">&lt; prev</a></div>|
+					<div class="chapter">Chapter 3</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_4">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_1">1</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_2">2</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_3" class="active">3</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_4">4</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_5">5</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_6">6</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_7">7</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_8">8</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_9">9</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_10">10</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_11">11</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_12">12</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_13">13</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_14">14</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_15">15</a> <a href="https://web.archive.org/web/20211025063847/http://catholicbible.online/knox/NT/Rom/ch_16">16</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20211025063847im_/http://catholicbible.online/assets/img/knox.jpg" alt="" width="130" height="210"/></p>
+	<p><span class="advert-text"><strong>The Holy Bible </strong> <br/>
+          Knox Translation</span><br/>
+	</p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20211025063847/https://www.baroniuspress.com/book.php?wid=56&amp;bid=60#tab=tab-1" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20211025063847/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/knox/NT/Rom/ch_3"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20211025063847/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20211025063847im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 06:38:47 Oct 25, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:23:18 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.798
+  exclusion.robots: 0.059
+  exclusion.robots.policy: 0.043
+  esindex: 0.014
+  cdx.remote: 5.634
+  LoadShardBlock: 252.325 (3)
+  PetaboxLoader3.datanode: 153.809 (4)
+  PetaboxLoader3.resolve: 352.836 (2)
+  load_resource: 296.266
+-->

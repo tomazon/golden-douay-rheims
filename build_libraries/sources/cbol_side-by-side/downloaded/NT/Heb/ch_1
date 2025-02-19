@@ -1,0 +1,370 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app210.us.archive.org';v.server_ms=335;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online:80/side_by_side/NT/Heb/ch_1","20170924200905","https://web.archive.org/","web","/_static/",
+	      "1506283745");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20170924200905cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20170924200905cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20170924200905cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20170924200905js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20170924200905js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20170924200905js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20170924200905js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20170924200905js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20170924200905/http%3A//catholicbible.online/side_by_side/NT/Heb/ch_1"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/NT/Heb/ch_1" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20170924200905" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20170924200905*/http://catholicbible.online/side_by_side/NT/Heb/ch_1" title="See a list of every capture for this URL">4 captures</a>
+          <div class="r" title="Timespan for captures of this URL">25 Jul 2017 - 20 Aug 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170725042820/http://catholicbible.online:80/side_by_side/NT/Heb/ch_1" title="25 Jul 2017"><strong>Jul</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 20:09:05 Sep 24, 2017">SEP</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220118140748/http://catholicbible.online/side_by_side/NT/Heb/ch_1" title="18 Jan 2022"><strong>Jan</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170725042820/http://catholicbible.online:80/side_by_side/NT/Heb/ch_1" title="04:28:20 Jul 25, 2017"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 20:09:05 Sep 24, 2017">24</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220118140748/http://catholicbible.online/side_by_side/NT/Heb/ch_1" title="14:07:48 Jan 18, 2022"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap">2016</td>
+            <td class="c" id="displayYearEl" title="You are here: 20:09:05 Sep 24, 2017">2017</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220118140748/http://catholicbible.online/side_by_side/NT/Heb/ch_1" title="18 Jan 2022"><strong>2022</strong></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20170924200905/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/NT/Heb/ch_1"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20170924200905/http://catholicbible.online:80/side_by_side/NT/Heb/ch_1" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20170924200905/http://catholicbible.online:80/side_by_side/NT/Heb/ch_1" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20170924200905/http://catholicbible.online:80/side_by_side/NT/Heb/ch_1</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/NT/Heb/ch_1","20170924200905",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/vulgate?bible_part_no=2&amp;book_no=19&amp;chapter_no=1" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/douay_rheims?bible_part_no=2&amp;book_no=19&amp;chapter_no=1" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/knox?bible_part_no=2&amp;book_no=19&amp;chapter_no=1" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side?bible_part_no=2&amp;book_no=19&amp;chapter_no=1" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20170924200905/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Hebrews</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Lk">Luke</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Phm">Philemon</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Epistle of St. Paul to the Hebrews — Epistola B. Pauli Apostoli ad Hebræos </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"></div>|
+					<div class="chapter">Chapter 1</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_2">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_1" class="active">1</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_2">2</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_3">3</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_4">4</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_5">5</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_6">6</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_7">7</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_8">8</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_9">9</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_10">10</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_11">11</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_12">12</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_13">13</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_1?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_1?act_indx=1&amp;act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_1?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_1?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Multifariam, multisque modis olim Deus loquens patribus in prophetis:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">God,  who, at sundry times and in divers manners, spoke in times past to the fathers by the prophets, last of all,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">In old days, God spoke to our fathers in many ways and by many means,  through the prophets; now at last</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">novissime, diebus istis locutus est nobis in Filio, quem constituit hæredem universorum, per quem fecit et sæcula:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">In these days hath spoken to us by his Son, whom he hath appointed heir of all things, by whom also he made the world.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">in these times he has spoken to us with a Son to speak for him; a Son, whom he has appointed to inherit all things, just as it was through him that he created this world of time;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">qui cum sit splendor gloriæ, et figura substantiæ ejus, portansque omnia verbo virtutis suæ, purgationem peccatorum faciens, sedet ad dexteram majestatis in excelsis:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Who being the brightness of his glory, and the figure of his substance, and upholding all things by the word of his power, making purgation of sins, sitteth on the right hand of the majesty on high.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">a Son, who is the radiance of his Father’s splendour, and the full expression of his being;  all creation depends, for its support, on his enabling word. Now, making atonement for our sins, he has taken his place on high, at the right hand of God’s majesty,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">tanto melior angelis effectus, quanto differentius præ illis nomen hæreditavit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Being made so much better than the angels, as he hath inherited a more excellent name than they.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">superior to the angels in that measure in which the name he has inherited is more excellent than theirs. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Cui enim dixit aliquando angelorum: Filius meus es tu, ego hodie genui te? Et rursum: Ego ero illi in patrem, et ipse erit mihi in filium?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">For to which of the angels hath he said at any time, Thou art my Son, to day have I begotten thee? And again, I will be to him a Father, and he shall be to me a Son?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Did God ever say to one of the angels, Thou art my Son, I have begotten thee this day? And again, He shall find in me a Father, and I in him a Son? </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Et cum iterum introducit primogenitum in orbem terræ, dicit: Et adorent eum omnes angeli Dei.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">And again, when he bringeth in the first begotten into the world, he saith: And let all the angels of God adore him.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Why, when the time comes for bringing his first-born into the world anew, then, he says, Let all the angels of God worship before him. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Et ad angelos quidem dicit: Qui facit angelos suos spiritus, et ministros suos flammam ignis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">And to the angels indeed he saith: He that maketh his angels spirits, and his ministers a flame of fire.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">What does he say of the angels? He will have his angels be like the winds, the servants that wait on him like a flame of fire. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Ad Filium autem: Thronus tuus Deus in sæculum sæculi: virga æquitatis, virga regni tui.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">But to the Son: Thy throne, O God, is for ever and ever: a sceptre of justice is the sceptre of thy kingdom.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">And what of the Son? Thy throne, O God, stands firm for ever and ever; the sceptre of thy kingship is a rod that rules true.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Dilexisti justitiam, et odisti iniquitatem: propterea unxit te Deus, Deus tuus, oleo exultationis præ participibus tuis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Thou hast loved justice, and hated iniquity: therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Thou hast been a friend to right, an enemy to wrong; and God, thy own God, has given thee an unction to bring thee pride, as none else of thy fellows. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Et: Tu in principio, Domine, terram fundasti: et opera manuum tuarum sunt cæli.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">And: Thou in the beginning, O Lord, didst found the earth: and the works of thy hands are the heavens.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">And elsewhere: Lord, thou hast laid the foundations of the earth at its beginning, and the heavens are the work of thy hands.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Ipsi peribunt, tu autem permanebis, et omnes ut vestimentum veterascent:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">They shall perish, but thou shalt continue: and they shall all grow old as a garment.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">They will perish, but thou wilt remain; they will all be like a cloak that grows threadbare,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">et velut amictum mutabis eos, et mutabuntur: tu autem idem ipse es, et anni tui non deficient.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">And as a vesture shalt thou change them, and they shall be changed: but thou art the selfsame, and thy years shall not fail.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">and thou wilt lay them aside, like a garment, and exchange them for new; but thou art he who never changes, thy years will not come to an end. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Ad quem autem angelorum dixit aliquando: Sede a dextris meis, quoadusque ponam inimicos tuos scabellum pedum tuorum?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">But to which of the angels said he at any time: Sit on my right hand, until I make thy enemies thy footstool?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Did he ever say to one of the angels, Sit on my right hand, while I make thy enemies a footstool under thy feet? </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Nonne omnes sunt administratorii spiritus, in ministerium missi propter eos, qui hæreditatem capient salutis?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Are they not all ministering spirits, sent to minister for them, who shall receive the inheritance of salvation?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">What are they, all of them, but spirits apt for service, whom he sends out when the destined heirs of eternal salvation have need of them?</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"></div>|
+					<div class="chapter">Chapter 1</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_2">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_1" class="active">1</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_2">2</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_3">3</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_4">4</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_5">5</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_6">6</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_7">7</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_8">8</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_9">9</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_10">10</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_11">11</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_12">12</a> <a href="https://web.archive.org/web/20170924200905/http://catholicbible.online/side_by_side/NT/Heb/ch_13">13</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20170924200905im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20170924200905/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20170924200905/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/NT/Heb/ch_1"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20170924200905/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20170924200905im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 20:09:05 Sep 24, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:33:57 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.038
+  exclusion.robots: 0.076
+  exclusion.robots.policy: 0.039
+  esindex: 0.014
+  cdx.remote: 14.833
+  LoadShardBlock: 69.603 (3)
+  PetaboxLoader3.datanode: 125.933 (4)
+  load_resource: 213.386
+  PetaboxLoader3.resolve: 120.176
+-->

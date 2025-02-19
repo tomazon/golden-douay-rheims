@@ -1,0 +1,505 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app219.us.archive.org';v.server_ms=291;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online:80/side_by_side/NT/Jn/ch_8","20191019232551","https://web.archive.org/","web","/_static/",
+	      "1571527551");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20191019232551cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20191019232551cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20191019232551cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20191019232551js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20191019232551js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20191019232551js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20191019232551js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20191019232551js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20191019232551/http%3A//catholicbible.online/side_by_side/NT/Jn/ch_8"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/NT/Jn/ch_8" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20191019232551" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20191019232551*/http://catholicbible.online/side_by_side/NT/Jn/ch_8" title="See a list of every capture for this URL">27 captures</a>
+          <div class="r" title="Timespan for captures of this URL">15 Apr 2017 - 24 Dec 2023</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20190824133608/http://catholicbible.online:80/side_by_side/NT/Jn/ch_8" title="24 Aug 2019"><strong>Aug</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 23:25:51 Oct 19, 2019">OCT</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20191219062206/http://catholicbible.online:80/side_by_side/NT/Jn/ch_8" title="19 Dec 2019"><strong>Dec</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20190824133608/http://catholicbible.online:80/side_by_side/NT/Jn/ch_8" title="13:36:08 Aug 24, 2019"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 23:25:51 Oct 19, 2019">19</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20191219062206/http://catholicbible.online:80/side_by_side/NT/Jn/ch_8" title="06:22:06 Dec 19, 2019"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20180821082054/http://catholicbible.online:80/side_by_side/NT/Jn/ch_8" title="21 Aug 2018"><strong>2018</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 23:25:51 Oct 19, 2019">2019</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20211015213837/http://catholicbible.online/side_by_side/NT/Jn/ch_8" title="15 Oct 2021"><strong>2021</strong></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20191019232551/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/NT/Jn/ch_8"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20191019232551/http://catholicbible.online:80/side_by_side/NT/Jn/ch_8" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20191019232551/http://catholicbible.online:80/side_by_side/NT/Jn/ch_8" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20191019232551/http://catholicbible.online:80/side_by_side/NT/Jn/ch_8</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/NT/Jn/ch_8","20191019232551",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/vulgate?bible_part_no=2&amp;book_no=4&amp;chapter_no=8" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/douay_rheims?bible_part_no=2&amp;book_no=4&amp;chapter_no=8" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/knox?bible_part_no=2&amp;book_no=4&amp;chapter_no=8" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side?bible_part_no=2&amp;book_no=4&amp;chapter_no=8" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20191019232551/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">John</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Lk">Luke</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Holy Gospel of Jesus Christ according to St. John — Evangelium secundum Joannem </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_7">&lt; prev</a></div>|
+					<div class="chapter">Chapter 8</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_9">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_1">1</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_2">2</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_3">3</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_4">4</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_5">5</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_6">6</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_7">7</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_8" class="active">8</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_9">9</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_10">10</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_11">11</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_12">12</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_13">13</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_14">14</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_15">15</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_16">16</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_17">17</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_18">18</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_19">19</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_20">20</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_21">21</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_8?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_8?act_indx=1&amp;act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_8?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_8?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Jesus autem perrexit in montem Oliveti:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">And  Jesus went unto mount Olivet.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Jesus meanwhile went to the mount of Olives.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">et diluculo iterum venit in templum, et omnis populus venit ad eum, et sedens docebat eos.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">And early in the morning he came again into the temple, and all the people came to him, and sitting down he taught them.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">And at early morning he appeared again in the temple; all the common folk came to him, and he sat down there and began to teach them.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Adducunt autem scribæ et pharisæi mulierem in adulterio deprehensam: et statuerunt eam in medio,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">And the scribes and Pharisees bring unto him a woman taken in adultery: and they set her in the midst,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">And now the scribes and Pharisees brought to him a woman who had been found committing adultery, and made her stand there in full view;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">et dixerunt ei: Magister, hæc mulier modo deprehensa est in adulterio.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">And said to him: Master, this woman was even now taken in adultery.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Master, they said, this woman has been caught in the act of adultery.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">In lege autem Moyses mandavit nobis hujusmodi lapidare. Tu ergo quid dicis?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Now Moses in the law commanded us to stone such a one. But what sayest thou?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Moses, in his law, prescribed that such persons should be stoned to death; what of thee? What is thy sentence? </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Hoc autem dicebant tentantes eum, ut possent accusare eum. Jesus autem inclinans se deorsum, digito scribebat in terra.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">And this they said tempting him, that they might accuse him. But Jesus bowing himself down, wrote with his finger on the ground.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">They said this to put him to the test, hoping to find a charge to bring against him. But Jesus bent down, and began writing on the ground with his finger.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Cum ergo perseverarent interrogantes eum, erexit se, et dixit eis: Qui sine peccato est vestrum, primus in illam lapidem mittat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">When therefore they continued asking him, he lifted up himself, and said to them: He that is without sin among you, let him first cast a stone at her.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">When he found that they continued to question him, he looked up and said to them, Whichever of you is free from sin shall cast the first stone at her.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Et iterum se inclinans, scribebat in terra.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">And again stooping down, he wrote on the ground.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Then he bent down again, and went on writing on the ground.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Audientes autem unus post unum exibant, incipientes a senioribus: et remansit solus Jesus, et mulier in medio stans.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">But they hearing this, went out one by one, beginning at the eldest. And Jesus alone remained, and the woman standing in the midst.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">And they began to go out one by one, beginning with the eldest, till Jesus was left alone with the woman, still standing in full view.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Erigens autem se Jesus, dixit ei: Mulier, ubi sunt qui te accusabant? nemo te condemnavit?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Then Jesus lifting up himself, said to her: Woman, where are they that accused thee? Hath no man condemned thee?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Then Jesus looked up, and asked her, Woman, where are thy accusers? Has no one condemned thee?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Quæ dixit: Nemo, Domine. Dixit autem Jesus: Nec ego te condemnabo: vade, et jam amplius noli peccare.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Who said: No man, Lord. And Jesus said: Neither will I condemn thee. Go, and now sin no more.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">No one, Lord, she said. And Jesus said to her, I will not condemn thee either. Go, and do not sin again henceforward.  </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Iterum ergo locutus est eis Jesus, dicens: Ego sum lux mundi: qui sequitur me, non ambulat in tenebris, sed habebit lumen vitæ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Again therefore, Jesus spoke to them, saying: I am the light of the world. He that followeth me, walketh not in darkness, but shall have the light of life.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">And now once more Jesus spoke to them, I am the light of the world, he said. He who follows me can never walk in darkness; he will possess the light which is life.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Dixerunt ergo ei pharisæi: Tu de teipso testimonium perhibes; testimonium tuum non est verum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">The Pharisees therefore said to him: Thou givest testimony of thyself: thy testimony is not true.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Whereupon the Pharisees told him, Thou art testifying on thy own behalf, thy testimony is worth nothing.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Respondit Jesus, et dixit eis: Et si ego testimonium perhibeo de meipso, verum est testimonium meum: quia scio unde veni et quo vado; vos autem nescitis unde venio aut quo vado.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Jesus answered, and said to them: Although I give testimony of myself, my testimony is true: for I know whence I came, and whither I go: but you know not whence I come, or whither I go.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Jesus answered them, My testimony is trustworthy, even when I testify on my own behalf; I know whence I have come, and where I am going; you do not know whence I have come, you do not know where I am going.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Vos secundum carnem judicatis: ego non judico quemquam;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">You judge according to the flesh: I judge not any man.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">You set yourselves up to judge, after your earthly fashion; I do not set myself up to judge anybody.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">et si judico ego, judicium meum verum est, quia solus non sum: sed ego et qui misit me, Pater.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">And if I do judge, my judgment is true: because I am not alone, but I and the Father that sent me.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">And what if I should judge? My judgement is judgement indeed; it is not I alone, my Father who sent me is with me.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Et in lege vestra scriptum est, quia duorum hominum testimonium verum est.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">And in your law it is written, that the testimony of two men is true.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Just so it is prescribed in your law, The testimony of two men is trustworthy;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Ego sum qui testimonium perhibeo de meipso, et testimonium perhibet de me qui misit me, Pater.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">I am one that give testimony of myself: and the Father that sent me giveth testimony of me.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">well, one is myself, testifying in my own behalf, and my Father who sent me testifies in my behalf too.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Dicebant ergo ei: Ubi est Pater tuus? Respondit Jesus: Neque me scitis, neque Patrem meum: si me sciretis, forsitan et Patrem meum sciretis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">They said therefore to him: Where is thy Father? Jesus answered: Neither me do you know, nor my Father: if you did know me, perhaps you would know my Father also.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Hereupon they said to him, Where is this Father of thine? And Jesus answered, You have no knowledge, either of me or of my Father; had you knowledge of me, you would have knowledge of my Father as well.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Hæc verba locutus est Jesus in gazophylacio, docens in templo: et nemo apprehendit eum, quia necdum venerat hora ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">These words Jesus spoke in the treasury, teaching in the temple: and no man laid hands on him, because his hour was not yet come.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">All this Jesus said at the Treasury, while he was teaching in the temple; and no one seized him, because his time had not yet come.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Dixit ergo iterum eis Jesus: Ego vado, et quæretis me, et in peccato vestro moriemini. Quo ego vado, vos non potestis venire.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Again therefore Jesus said to them: I go, and you shall seek me, and you shall die in your sin. Whither I go, you cannot come.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">And he said to them again, I am going away, and you will look for me, but you will have to die with your sins upon you; where I am going is where you cannot come.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Dicebant ergo Judæi: Numquid interficiet semetipsum, quia dixit: Quo ego vado, vos non potestis venire?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">The Jews therefore said: Will he kill himself, because he said: Whither I go, you cannot come?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">At this, the Jews began to ask, Will he kill himself? Is that what he means by, Where I am going is where you cannot come?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Et dicebat eis: Vos de deorsum estis, ego de supernis sum. Vos de mundo hoc estis, ego non sum de hoc mundo.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">And he said to them: You are from beneath, I am from above. You are of this world, I am not of this world.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">But he went on to say, You belong to earth, I to heaven; you to this world, I to another.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Dixi ergo vobis quia moriemini in peccatis vestris: si enim non credideritis quia ego sum, moriemini in peccato vestro.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Therefore I said to you, that you shall die in your sins. For if you believe not that I am he, you shall die in your sin.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">That is why I have been telling you that you will die with your sins upon you; you will die with your sins upon you unless you come to believe that it is myself you look for. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Dicebant ergo ei: Tu quis es? Dixit eis Jesus: Principium, qui et loquor vobis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">They said therefore to him: Who art thou? Jesus said to them: The beginning, who also speak unto you.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Who art thou, then? they asked. Jesus said to them, What, that I should be speaking to you at all? </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Multa habeo de vobis loqui, et judicare; sed qui me misit, verax est; et ego quæ audivi ab eo, hæc loquor in mundo.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Many things I have to speak and to judge of you. But he that sent me, is true: and the things I have heard of him, these same I speak in the world.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">There is much I could say of you, many judgements I could pass on you; but what I tell the world is only what I have learned from him who sent me, because he cannot deceive.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">Et non cognoverunt quia Patrem ejus dicebat Deum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">And they understood not, that he called God his Father.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">And they could not understand that he was calling God his Father.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Dixit ergo eis Jesus: Cum exaltaveritis Filium hominis, tunc cognoscetis quia ego sum, et a meipso facio nihil, sed sicut docuit me Pater, hæc loquor:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Jesus therefore said to them: When you shall have lifted up the Son of man, then shall you know, that I am he, and that I do nothing of myself, but as the Father hath taught me, these things I speak:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Then Jesus said to them, When you have lifted up the Son of Man, you will recognize that it is myself you look for, and that I do not do anything on my own authority, but speak as my Father has instructed me to speak.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">et qui me misit, mecum est, et non reliquit me solum: quia ego quæ placita sunt ei, facio semper.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">And he that sent me, is with me, and he hath not left me alone: for I do always the things that please him.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">And he who sent me is with me; he has not left me all alone, since what I do is always what pleases him.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Hæc illo loquente, multi crediderunt in eum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">When he spoke these things, many believed in him.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">While he spoke thus, many of the Jews learned to believe in him.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Dicebat ergo Jesus ad eos, qui crediderunt ei, Judæos: Si vos manseritis in sermone meo, vere discipuli mei eritis,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Then Jesus said to those Jews, who believed him: If you continue in my word, you shall be my disciples indeed.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">And now Jesus said to those among the Jews who believed in him, If you continue faithful to my word, you are my disciples in earnest;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">et cognoscetis veritatem, et veritas liberabit vos.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">And you shall know the truth, and the truth shall make you free.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">so you will come to know the truth, and the truth will set you free.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">Responderunt ei: Semen Abrahæ sumus, et nemini servivimus umquam: quomodo tu dicis: Liberi eritis?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">They answered him: We are the seed of Abraham, and we have never been slaves to any man: how sayest thou: you shall be free?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">They answered him, We are of Abraham’s breed, nobody ever enslaved us yet; what dost thou mean by saying, You shall become free? </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Respondit eis Jesus: Amen, amen dico vobis: quia omnis qui facit peccatum, servus est peccati.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Jesus answered them: Amen, amen I say unto you: that whosoever committeth sin, is the servant of sin.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">And Jesus answered them, Believe me when I tell you this; everyone who acts sinfully is the slave of sin,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Servus autem non manet in domo in æternum: filius autem manet in æternum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Now the servant abideth not in the house for ever; but the son abideth for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">and the slave cannot make his home in the house for ever. To make his home in the house for ever, is for the Son.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Si ergo vos filius liberaverit, vere liberi eritis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">If therefore the son shall make you free, you shall be free indeed.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Why then, if it is the Son who makes you free men, you will have freedom in earnest.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Scio quia filii Abrahæ estis: sed quæritis me interficere, quia sermo meus non capit in vobis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">I know that you are the children of Abraham: but you seek to kill me, because my word hath no place in you.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Yes, I know you are of Abraham’s breed; yet you design to kill me, because my word does not find any place in you.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Ego quod vidi apud Patrem meum, loquor: et vos quæ vidistis apud patrem vestrum, facitis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">I speak that which I have seen with my Father: and you do the things that you have seen with your father.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">My words are what I have learned in the house of my Father, and your actions, it seems, are what you have learned in the school of your father.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Responderunt, et dixerunt ei: Pater noster Abraham est. Dicit eis Jesus: Si filii Abrahæ estis, opera Abrahæ facite.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">They answered, and said to him: Abraham is our father. Jesus saith to them: If you be the children of Abraham, do the works of Abraham.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Our father? they answered him; Abraham is our father. Jesus said to them, If you are Abraham’s true children, it is for you to follow Abraham’s example;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">Nunc autem quæritis me interficere, hominem, qui veritatem vobis locutus sum, quam audivi a Deo: hoc Abraham non fecit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">But now you seek to kill me, a man who have spoken the truth to you, which I have heard of God. This Abraham did not.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">as it is, you are designing to kill me, who tell you the truth as I have heard it from God; this was not Abraham’s way.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">Vos facitis opera patris vestri. Dixerunt itaque ei: Nos ex fornicatione non sumus nati: unum patrem habemus Deum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">You do the works of your father. They said therefore to him: We are not born of fornication: we have one Father, even God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">No, it is your father’s example you follow. And now they said to him, We are no bastard children; God, and he only, is the Father we recognize.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Dixit ergo eis Jesus: Si Deus pater vester esset, diligeretis utique et me; ego enim ex Deo processi, et veni: neque enim a meipso veni, sed ille me misit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Jesus therefore said to them: If God were your Father, you would indeed love me. For from God I proceeded, and came; for I came not of myself, but he sent me:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Jesus told them, If you were children of God, you would welcome me gladly; it was from God I took my origin, from him I have come. I did not come on my own errand, it was he who sent me.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">Quare loquelam meam non cognoscitis? Quia non potestis audire sermonem meum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">Why do you not know my speech? Because you cannot hear my word.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">Why is it that you cannot understand the language I talk? It is because you have no ear for the message I bring.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">Vos ex patre diabolo estis: et desideria patris vestri vultis facere. Ille homicida erat ab initio, et in veritate non stetit: quia non est veritas in eo: cum loquitur mendacium, ex propriis loquitur, quia mendax est, et pater ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">You are of your father the devil, and the desires of your father you will do. He was a murderer from the beginning, and he stood not in the truth; because truth is not in him. When he speaketh a lie, he speaketh of his own: for he is a liar, and the father thereof.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">You belong to your father, that is, the devil, and are eager to gratify the appetites which are your father’s. He, from the first, was a murderer; and as for truth, he has never taken his stand upon that; there is no truth in him. When he utters falsehood, he is only uttering what is natural to him; he is all false, and it was he who gave falsehood its birth.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">Ego autem si veritatem dico, non creditis mihi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">But if I say the truth, you believe me not.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">And if you do not believe me, it is precisely because I am speaking the truth.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">Quis ex vobis arguet me de peccato? si veritatem dico vobis, quare non creditis mihi?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">Which of you shall convince me of sin? If I say the truth to you, why do you not believe me:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">Can any of you convict me of sin? If not, why is it that you do not believe me when I tell you the truth?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">Qui ex Deo est, verba Dei audit. Propterea vos non auditis, quia ex Deo non estis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">He that is of God, heareth the words of God. Therefore you hear them not, because you are not of God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">The man who belongs to God listens to God’s words; it is because you do not belong to God that you will not listen to me.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">Responderunt ergo Judæi, et dixerunt ei: Nonne bene dicimus nos quia Samaritanus es tu, et dæmonium habes?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">The Jews therefore answered, and said to him: Do not we say well that thou art a Samaritan, and hast a devil?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">Hereupon the Jews answered him, We are right, surely, in saying that thou art a Samaritan, and art possessed?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">Respondit Jesus: Ego dæmonium non habeo: sed honorifico Patrem meum, et vos inhonorastis me.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">Jesus answered: I have not a devil: but I honour my Father, and you have dishonoured me.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">I am not possessed, Jesus answered; it is because I reverence my Father that you have no reverence for me.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">Ego autem non quæro gloriam meam: est qui quærat, et judicet.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">But I seek not my own glory: there is one that seeketh and judgeth.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">Not that I am looking to my own reputation; there is another who will look to it, and be the judge.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">Amen, amen dico vobis: si quis sermonem meum servaverit, mortem non videbit in æternum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">Amen, amen I say to you: If any man keep my word, he shall not see death for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">Believe me when I tell you this; if a man is true to my word, to all eternity he will never see death.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">Dixerunt ergo Judæi: Nunc cognovimus quia dæmonium habes. Abraham mortuus est, et prophetæ; et tu dicis: Si quis sermonem meum servaverit, non gustabit mortem in æternum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">The Jews therefore said: Now we know that thou hast a devil. Abraham is dead, and the prophets; and thou sayest: If any man keep my word, he shall not taste death for ever.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">And the Jews said to him, Now we are certain that thou art possessed. What of Abraham and the prophets? They are dead; and thou sayest that a man will never taste death to all eternity, if he is true to thy word.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">Numquid tu major es patre nostro Abraham, qui mortuus est? et prophetæ mortui sunt. Quem teipsum facis?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">Art thou greater than our father Abraham, who is dead? and the prophets are dead. Whom dost thou make thyself?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">Art thou greater than our father Abraham? He is dead, and the prophets are dead. What dost thou claim to be?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">Respondit Jesus: Si ego glorifico meipsum, gloria mea nihil est: est Pater meus, qui glorificat me, quem vos dicitis quia Deus vester est,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">Jesus answered: If I glorify myself, my glory is nothing. It is my Father that glorifieth me, of whom you say that he is your God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">If I should speak in my own honour, Jesus answered, such honour goes for nothing. Honour must come to me from my Father, from him whom you claim as your God;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">et non cognovistis eum: ego autem novi eum. Et si dixero quia non scio eum, ero similis vobis, mendax. Sed scio eum, et sermonem ejus servo.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">And you have not known him, but I know him. And if I shall say that I know him not, I shall be like to you, a liar. But I do know him, and do keep his word.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">although you cannot recognize him. But I have knowledge of him; if I should say I have not, I should be what you are, a liar. Yes, I have knowledge of him, and I am true to his word.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">Abraham pater vester exsultavit ut videret diem meum: vidit, et gavisus est.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">Abraham your father rejoiced that he might see my day: he saw it, and was glad.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">As for your father Abraham, his heart was proud to see the day of my coming; he saw, and rejoiced to see it. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">Dixerunt ergo Judæi ad eum: Quinquaginta annos nondum habes, et Abraham vidisti?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">The Jews therefore said to him: Thou art not yet fifty years old, and hast thou seen Abraham?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">Then the Jews asked him, Hast thou seen Abraham, thou, who art not yet fifty years old?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">Dixit eis Jesus: Amen, amen dico vobis, antequam Abraham fieret, ego sum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">Jesus said to them: Amen, amen I say to you, before Abraham was made, I am.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">And Jesus said to them, Believe me, before ever Abraham came to be, I am. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">Tulerunt ergo lapides, ut jacerent in eum: Jesus autem abscondit se, et exivit de templo.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">They took up stones therefore to cast at him. But Jesus hid himself, and went out of the temple.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">Whereupon they took up stones to throw at him; but Jesus hid himself, and went out of the temple.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_7">&lt; prev</a></div>|
+					<div class="chapter">Chapter 8</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_9">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_1">1</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_2">2</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_3">3</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_4">4</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_5">5</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_6">6</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_7">7</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_8" class="active">8</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_9">9</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_10">10</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_11">11</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_12">12</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_13">13</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_14">14</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_15">15</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_16">16</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_17">17</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_18">18</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_19">19</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_20">20</a> <a href="https://web.archive.org/web/20191019232551/http://catholicbible.online/side_by_side/NT/Jn/ch_21">21</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20191019232551im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20191019232551/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20191019232551/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/NT/Jn/ch_8"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20191019232551/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20191019232551im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 23:25:51 Oct 19, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:45:39 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.704
+  exclusion.robots: 0.033
+  exclusion.robots.policy: 0.02
+  esindex: 0.014
+  cdx.remote: 6.635
+  LoadShardBlock: 118.756 (3)
+  PetaboxLoader3.datanode: 115.579 (4)
+  PetaboxLoader3.resolve: 113.654 (2)
+  load_resource: 126.762
+-->

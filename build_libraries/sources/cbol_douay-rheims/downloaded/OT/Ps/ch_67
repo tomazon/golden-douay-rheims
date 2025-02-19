@@ -1,0 +1,631 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app202.us.archive.org';v.server_ms=275;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/douay_rheims/OT/Ps/ch_67","20211021122833","https://web.archive.org/","web","/_static/",
+	      "1634819313");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20211021122833cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20211021122833cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20211021122833cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20211021122833js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211021122833js_/http://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211021122833js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211021122833js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211021122833js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211021122833js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20211021122833/http%3A//catholicbible.online/douay_rheims/OT/Ps/ch_67"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/douay_rheims/OT/Ps/ch_67" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20211021122833" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20211021122833*/http://catholicbible.online/douay_rheims/OT/Ps/ch_67" title="See a list of every capture for this URL">2 captures</a>
+          <div class="r" title="Timespan for captures of this URL">21 Oct 2021 - 13 Aug 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap">Sep</td>
+            <td class="c" id="displayMonthEl" title="You are here: 12:28:33 Oct 21, 2021">OCT</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220813040653/http://catholicbible.online/douay_rheims/OT/Ps/ch_67" title="13 Aug 2022"><strong>Aug</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" /></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 12:28:33 Oct 21, 2021">21</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220813040653/http://catholicbible.online/douay_rheims/OT/Ps/ch_67" title="04:06:53 Aug 13, 2022"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap">2020</td>
+            <td class="c" id="displayYearEl" title="You are here: 12:28:33 Oct 21, 2021">2021</td>
+            <td class="f" nowrap="nowrap">2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20211021122833/http://web.archive.org/screenshot/http://catholicbible.online/douay_rheims/OT/Ps/ch_67"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_67" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_67" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_67</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/douay_rheims/OT/Ps/ch_67","20211021122833",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<script>
+	var comments={
+			4339: {
+				id_comment: 4339,
+				source_str: 'who ascendeth upon the west',
+				caption: 'Who ascendeth upon the west.',
+				content: "<I>Super occasum.</I> St. Gregory understands it of Christ, who after his going down, like the sun, in the west, by his passion and death, ascended more glorious, and carried all before him. St. Jerome renders it, <I>who ascendeth,</I> or cometh up, <I>through the deserts.</I>"
+			},
+					4340: {
+				id_comment: 4340,
+				source_str: 'of one manner',
+				caption: 'Of one manner.',
+				content: "That is, agreeing in faith, unanimous in love, and following the same manner of discipline. It is verified in the servants of God, living together in his <I>house,</I> which is the church. 1 Tim. 3. 15."
+			},
+					4341: {
+				id_comment: 4341,
+				source_str: 'them that were bound',
+				caption: 'Them that were bound, &c.',
+				content: "The power and mercy of God appears in his bringing out of their captivity those that were strongly <I>bound</I> in their sins: and in restoring to his grace those whose behaviour had been most <I>provoking;</I> and who by their evil habits were not only dead, but buried in their sepulchres."
+			},
+					4342: {
+				id_comment: 4342,
+				source_str: 'a free rain',
+				caption: 'A free rain.',
+				content: "The manna, which rained plentifully from heaven, in favour of God’s <I>inheritance,</I> that is, of his people Israel: which <I>was weakened</I> indeed under a variety of afflictions, but was <I>made perfect</I> by God; that is, was still supported by divine providence, and brought on to the promised land. It agrees particularly to the church of Christ, his true <I>inheritance,</I> which is plentifully watered with the <I>free rain</I> of heavenly grace; and through many <I>infirmities,</I> that is, crosses and tribulations, is <I>made perfect,</I> and fitted for eternal glory."
+			},
+					4343: {
+				id_comment: 4343,
+				source_str: 'In it',
+				caption: 'In it, &c.',
+				content: "That is, in this church, which is thy fold and thy <I>inheritance, shall thy animals,</I> thy sheep, <I>dwell:</I> where thou hast plentifully provided for them."
+			},
+					4344: {
+				id_comment: 4344,
+				source_str: 'to them that preach good tidings',
+				caption: 'To them that preach good tidings.',
+				content: "<I>Evangelizantibus.</I> That is, to the preachers of the gospel; who receiving the <I>word</I> from the Lord, shall with great power and efficacy preach throughout the world the glad tidings of a Saviour, and of eternal salvation through him."
+			},
+					4345: {
+				id_comment: 4345,
+				source_str: 'The king of powers',
+				caption: 'The king of powers.',
+				content: "That is, the mighty King, the Lord of hosts, is <I>of the beloved, of the beloved;</I> that is, is on the side of Christ, <I>his most beloved</I> son: and his <I>beautiful house, viz., the church, in which God dwells forever, shall by her spiritual conquests <I>divide the spoils</I> of many nations. The Hebrew (as it now stands pointed) is thus rendered, <I>The kings of armies have fled, they have fled, and she that dwells at home (or the beauty of the house) shall divide the spoils.</I>"
+			},
+					4346: {
+				id_comment: 4346,
+				source_str: 'If you sleep among the midst of lots',
+				caption: 'If you sleep among the midst of lots',
+				content: "(<I>intermedios cleros,</I> &c.), viz., In such dangers and persecutions, as if your enemies were casting <I>lots</I> for your goods and persons: or in the midst of the <I>lots,</I> (<I>intermedios terminos,</I> as St. Jerome renders it,) that is, upon the very bounds or borders of the dominions of your enemies: you shall be secure nevertheless under the divine protection; and shall be enabled to fly away, like a dove, with glittering wings and feathers shining like the palest and most precious gold; that is, with great increase of virtue, and glowing with the fervour of charity."
+			},
+					4347: {
+				id_comment: 4347,
+				source_str: 'kings over her',
+				caption: 'Kings over her.',
+				content: "That is, pastors and rulers over his church, viz., the apostles and their successors. Then by their ministry shall men be made whiter than the snow which lies on the top of the high mountain Selmon."
+			},
+					4348: {
+				id_comment: 4348,
+				source_str: 'The mountain of God',
+				caption: 'The mountain of God.',
+				content: "The church, which, Isa. 2. 2, is called <I>The mountain of the house of the Lord upon the top of mountains.</I> It is here called <I>a fat</I> and <I>a curdled mountain;</I> that is to say, most fruitful, and enriched by the spiritual gifts and graces of the Holy Ghost."
+			},
+					4349: {
+				id_comment: 4349,
+				source_str: 'Why suspect, ye curdled mountains?',
+				caption: 'Why suspect, ye curdled mountains?',
+				content: "Why do you suppose or imagine there may be any other such curdled mountains? You are mistaken: the mountain thus favoured by God is but one; and this same he has chosen for his dwelling for ever."
+			},
+					4350: {
+				id_comment: 4350,
+				source_str: 'The chariot of God',
+				caption: 'The chariot of God,',
+				content: "descending to give his law on mount Sina: as also of Jesus Christ his Son, ascending into heaven, to send from thence the Holy Ghost, to publish his new law, is attended with ten thousands, that is, with an innumerable multitude of joyful angels."
+			},
+					4351: {
+				id_comment: 4351,
+				source_str: 'led captivity captive',
+				caption: 'Led captivity captive.',
+				content: "Carrying away with thee to heaven those who before had been the captives of Satan; and receiving from God the Father gifts to be distributed to men; even to those who were before unbelievers."
+			},
+					4352: {
+				id_comment: 4352,
+				source_str: 'the issues from death',
+				caption: 'The issues from death.',
+				content: "The Lord alone is master of the <I>issues,</I> by which we may escape <I>from death.</I>"
+			},
+					4353: {
+				id_comment: 4353,
+				source_str: 'I will turn them from Basan',
+				caption: 'I will turn them from Basan, &c.',
+				content: "I will <I>cast out my enemies</I> from their rich possessions, signified by <I>Basan,</I> a fruitful country; and I will drive them <I>into the depth of the sea:</I> and make such a slaughter of them, that the feet of my servants may be dyed in their blood, &c."
+			},
+					4354: {
+				id_comment: 4354,
+				source_str: 'thy goings',
+				caption: 'Thy goings.',
+				content: "Thy ways, thy proceedings, by which thou didst formerly take possession of the promised land in favour of thy people; and shalt afterwards of the whole world, which thou shalt subdue to thy Son."
+			},
+					4355: {
+				id_comment: 4355,
+				source_str: 'Princes',
+				caption: 'Princes.',
+				content: "The apostles, the first converters of nations; attended by numbers of perfect souls, singing the divine praises, and virgins consecrated to God."
+			},
+					4356: {
+				id_comment: 4356,
+				source_str: 'Princes',
+				caption: 'Princes.',
+				content: "The apostles, the first converters of nations; attended by numbers of perfect souls, singing the divine praises, and virgins consecrated to God."
+			},
+					4357: {
+				id_comment: 4357,
+				source_str: 'from the fountains of Israel',
+				caption: 'from the fountains of Israel.',
+				content: "From whom both Christ and his apostles sprung. By Benjamin, the holy fathers on this place understand St. Paul, who was of that tribe, named here <I>a youth,</I> because he was the last called to the apostleship. By the princes of Juda, Zabulon, and Nephthali, we may understand the other apostles, who were of the tribe of Juda; or of the tribes of Zabulon, and Nephthali, where our Lord began to preach, Matt. 4. 13, &c."
+			},
+					4358: {
+				id_comment: 4358,
+				source_str: 'Command thy strength',
+				caption: 'Command thy strength.',
+				content: "Give orders that thy strength may be always with us."
+			},
+					4359: {
+				id_comment: 4359,
+				source_str: 'Rebuke the wild beasts of the reeds,',
+				caption: 'Rebuke the wild beasts of the reeds:',
+				content: "or <I>the wild beasts,</I> which lie hid in the <I>reeds.</I> That is, the devils, who hide themselves in order to surprise their prey. Or by <I>wild beasts,</I> are here understood persecutors, who, for all their attempts against the Church, are but as <I>weak reeds,</I> which cannot prevail against them who are supported by the strength of the Almighty. The same are also called <I>the congregation of bulls</I> (from their rage against the Church) who assemble together all their <I>kine,</I> that is, the people their subjects, to exclude if they can, from Christ and his inheritance, his constant confessors, who are like silver tried by fire."
+			},
+					4360: {
+				id_comment: 4360,
+				source_str: 'ambassadors shall come',
+				caption: 'Ambassadors shall come, &c.',
+				content: "It is a prophecy of the conversion of the Gentiles, and by name of the Egyptians and Ethiopians."
+			},
+					4361: {
+				id_comment: 4361,
+				source_str: 'to the east',
+				caption: 'To the east.',
+				content: "From mount Olivet, which is on the east side of Jerusalem."
+			},
+					4362: {
+				id_comment: 4362,
+				source_str: 'the voice of power',
+				caption: 'The voice of power.',
+				content: "That is, he will make <I>his voice to be a powerful voice:</I> by calling from death to life, such as were dead in mortal sin: as at the last day he will by the power of his voice call all the dead from their graves."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=21&amp;chapter_no=67" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=21&amp;chapter_no=67" class="menu-item active">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=21&amp;chapter_no=67" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=21&amp;chapter_no=67" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20211021122833/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Psalms</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Job">Job</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/9736?vers_inline=1"><img src="https://web.archive.org/web/20211021122833im_/http://catholicbible.online/assets/img/para.jpg" alt=""/></a>					<a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/9736?comments_open=1"><img src="https://web.archive.org/web/20211021122833im_/http://catholicbible.online/assets/img/C-off.gif" alt=""/></a>				</div>
+				<div class="bible-name">The Holy Bible – Douay‐Rheims version</div>
+				<div class="book-name">The Book of Psalms</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/9735">&lt; prev</a></div>|
+					<div class="chapter">Psalm 67</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/9737">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_1">1-50</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_51">51</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_52">52</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_53">53</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_54">54</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_55">55</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_56">56</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_57">57</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_58">58</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_59">59</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_60">60</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_61">61</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_62">62</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_63">63</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_64">64</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_65">65</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_66">66</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_67" class="active">67</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_68">68</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_69">69</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_70">70</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_71">71</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_72">72</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_73">73</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_74">74</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_75">75</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_76">76</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_77">77</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_78">78</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_79">79</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_80">80</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_81">81</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_82">82</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_83">83</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_84">84</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_85">85</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_86">86</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_87">87</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_88">88</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_89">89</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_90">90</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_91">91</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_92">92</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_93">93</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_94">94</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_95">95</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_96">96</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_97">97</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_98">98</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_99">99</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_100">100</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_101">101-150</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers221792" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content"><span class="firstverse">Unto the end, a psalm of a canticle for David himself.</span><span class="content-newline"><br></span>  </div>
+					</div>
+									<div id="vers221793" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">Let God arise, and let his enemies be scattered: and let them that hate him flee from before his face.</div>
+					</div>
+									<div id="vers221794" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">As smoke vanisheth, so let them vanish away: as wax melteth before the fire, so let the wicked perish at the presence of God.</div>
+					</div>
+									<div id="vers221795" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">And let the just feast, and rejoice before God: and be delighted with gladness.</div>
+					</div>
+									<div id="vers221796" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">Sing ye to God, sing a psalm to his name, make a way for him <a href="" class="inline-comment" data-comment-id="4339">who ascendeth upon the west</a>: the Lord is his name. Rejoice ye before him: but the wicked shall be troubled at his presence,</div>
+					</div>
+									<div id="vers221797" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">who is the father of orphans, and the judge of widows. God in his holy place:</div>
+					</div>
+									<div id="vers221798" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">God who maketh men <a href="" class="inline-comment" data-comment-id="4340">of one manner</a> to dwell in a house: Who bringeth out <a href="" class="inline-comment" data-comment-id="4341">them that were bound</a> in strength; in like manner them that provoke, that dwell in sepulchres.</div>
+					</div>
+									<div id="vers221799" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">O God, when thou didst go forth in the sight of thy people, when thou didst pass through the desert:</div>
+					</div>
+									<div id="vers221800" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">The earth was moved, and the heavens dropped at the presence of the God of Sina, at the presence of the God of Israel.</div>
+					</div>
+									<div id="vers221801" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">Thou shalt set aside for thy inheritance <a href="" class="inline-comment" data-comment-id="4342">a free rain</a>, O God: and it was weakened, but thou hast made it perfect.</div>
+					</div>
+									<div id="vers221802" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content"><a href="" class="inline-comment" data-comment-id="4343">In it</a> shall thy animals dwell; in thy sweetness, O God, thou hast provided for the poor.</div>
+					</div>
+									<div id="vers221803" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">The Lord shall give the word <a href="" class="inline-comment" data-comment-id="4344">to them that preach good tidings</a> with great power.</div>
+					</div>
+									<div id="vers221804" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content"><a href="" class="inline-comment" data-comment-id="4345">The king of powers</a> is of the beloved, of the beloved; and the beauty of the house shall divide spoils.</div>
+					</div>
+									<div id="vers221805" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content"><a href="" class="inline-comment" data-comment-id="4346">If you sleep among the midst of lots</a>, you shall be as the wings of a dove covered with silver, and the hinder parts of her back with the paleness of gold.</div>
+					</div>
+									<div id="vers221806" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">When he that is in heaven appointeth <a href="" class="inline-comment" data-comment-id="4347">kings over her</a>, they shall be whited with snow in Selmon.</div>
+					</div>
+									<div id="vers221807" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content"><a href="" class="inline-comment" data-comment-id="4348">The mountain of God</a> is a fat mountain. A curdled mountain, a fat mountain.</div>
+					</div>
+									<div id="vers221808" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content"><a href="" class="inline-comment" data-comment-id="4349">Why suspect, ye curdled mountains?</a> A mountain in which God is well pleased to dwell: for there the Lord shall dwell unto the end.</div>
+					</div>
+									<div id="vers221809" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content"><a href="" class="inline-comment" data-comment-id="4350">The chariot of God</a> is attended by ten thousands; thousands of them that rejoice: the Lord is among them in Sina, in the holy place.</div>
+					</div>
+									<div id="vers221810" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">Thou hast ascended on high, thou hast <a href="" class="inline-comment" data-comment-id="4351">led captivity captive</a>; thou hast received gifts in men. Yea for those also that do not believe, the dwelling of the Lord God.</div>
+					</div>
+									<div id="vers221811" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">Blessed be the Lord day by day: the God of our salvation will make our journey prosperous to us.</div>
+					</div>
+									<div id="vers221812" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">Our God is the God of salvation: and of the Lord, of the Lord are <a href="" class="inline-comment" data-comment-id="4352">the issues from death</a>.</div>
+					</div>
+									<div id="vers221813" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">But God shall break the heads of his enemies: the hairy crown of them that walk on in their sins.</div>
+					</div>
+									<div id="vers221814" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">The Lord said: <a href="" class="inline-comment" data-comment-id="4353">I will turn them from Basan</a>, I will turn them into the depth of the sea:</div>
+					</div>
+									<div id="vers221815" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">That thy foot may be dipped in the blood of thy enemies; the tongue of thy dogs be red with the same.</div>
+					</div>
+									<div id="vers221816" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">They have seen <a href="" class="inline-comment" data-comment-id="4354">thy goings</a>, O God, the goings of my God: of my king who is in his sanctuary.</div>
+					</div>
+									<div id="vers221817" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content"><a href="" class="inline-comment" data-comment-id="4355">Princes</a> went before joined with singers, in the midst of young damsels playing on timbrels.</div>
+					</div>
+									<div id="vers221818" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">In the churches bless ye God the Lord, <a href="" class="inline-comment" data-comment-id="4357">from the fountains of Israel</a>.</div>
+					</div>
+									<div id="vers221819" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">There is Benjamin a youth, in ecstasy of mind. The princes of Juda are their leaders: the princes of Zabulon, the princes of Nephthali.</div>
+					</div>
+									<div id="vers221820" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content"><a href="" class="inline-comment" data-comment-id="4358">Command thy strength</a>, O God: confirm, O God, what thou hast wrought in us.</div>
+					</div>
+									<div id="vers221821" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">From thy temple in Jerusalem, kings shall offer presents to thee.</div>
+					</div>
+									<div id="vers221822" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content"><a href="" class="inline-comment" data-comment-id="4359">Rebuke the wild beasts of the reeds,</a> the congregation of bulls with the kine of the people; who seek to exclude them who are tried with silver. Scatter thou the nations that delight in wars:</div>
+					</div>
+									<div id="vers221823" class="vers">
+												<div class="vers-no">32</div>
+						<div class="vers-content"><a href="" class="inline-comment" data-comment-id="4360">ambassadors shall come</a> out of Egypt: Ethiopia shall soon stretch out her hands to God.</div>
+					</div>
+									<div id="vers221824" class="vers">
+												<div class="vers-no">33</div>
+						<div class="vers-content">Sing to God, ye kingdoms of the earth: sing ye to the Lord: Sing ye to God,</div>
+					</div>
+									<div id="vers221825" class="vers">
+												<div class="vers-no">34</div>
+						<div class="vers-content">who mounteth above the heaven of heavens, <a href="" class="inline-comment" data-comment-id="4361">to the east</a>. Behold he will give to his voice <a href="" class="inline-comment" data-comment-id="4362">the voice of power</a>:</div>
+					</div>
+									<div id="vers221826" class="vers">
+												<div class="vers-no">35</div>
+						<div class="vers-content">give ye glory to God for Israel, his magnificence, and his power is in the clouds.</div>
+					</div>
+									<div id="vers221827" class="vers">
+												<div class="vers-no">36</div>
+						<div class="vers-content">God is wonderful in his saints: the God of Israel is he who will give power and strength to his people. Blessed be God.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_66">&lt; prev</a></div>|
+					<div class="chapter">Psalm 67</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_68">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_1">1-50</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_51">51</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_52">52</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_53">53</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_54">54</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_55">55</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_56">56</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_57">57</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_58">58</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_59">59</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_60">60</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_61">61</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_62">62</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_63">63</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_64">64</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_65">65</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_66">66</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_67" class="active">67</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_68">68</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_69">69</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_70">70</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_71">71</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_72">72</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_73">73</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_74">74</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_75">75</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_76">76</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_77">77</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_78">78</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_79">79</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_80">80</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_81">81</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_82">82</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_83">83</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_84">84</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_85">85</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_86">86</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_87">87</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_88">88</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_89">89</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_90">90</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_91">91</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_92">92</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_93">93</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_94">94</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_95">95</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_96">96</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_97">97</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_98">98</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_99">99</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_100">100</a> <a href="https://web.archive.org/web/20211021122833/http://catholicbible.online/douay_rheims/OT/Ps/ch_101">101-150</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20211021122833im_/http://catholicbible.online/assets/img/douay.jpg" alt="" width="130" height="210"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br/>
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br/>
+        Flexible Cover</span></p>
+	<p><a href="https://web.archive.org/web/20211021122833/https://www.baroniuspress.com/category.php?wid=58&amp;cid=1" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20211021122833/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/douay_rheims/OT/Ps/ch_67"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20211021122833/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20211021122833im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 12:28:33 Oct 21, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:11:18 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.769
+  exclusion.robots: 0.056
+  exclusion.robots.policy: 0.041
+  esindex: 0.014
+  cdx.remote: 5.115
+  LoadShardBlock: 100.738 (3)
+  PetaboxLoader3.datanode: 131.674 (4)
+  load_resource: 133.542
+  PetaboxLoader3.resolve: 42.393
+-->

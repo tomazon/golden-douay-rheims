@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Latin Vulgate Bible – Biblia Sacra Vulgata</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+	};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Vulgate</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=1&book_no=6&chapter_no=10" class="menu-item active">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=1&book_no=6&chapter_no=10" class="menu-item ">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=1&book_no=6&chapter_no=10" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=1&book_no=6&chapter_no=10" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Josue</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/vulgate/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/vulgate/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Gn">Genesis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Lv">Leviticus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Nm">Numeri</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Dt">Deuteronomium</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/vulgate/OT/Jos">Josue</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Jdc">Judicum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Rt">Ruth</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/1Rg">Regum I</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/2Rg">Regum II</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/3Rg">Regum III</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/4Rg">Regum IV</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/1Par">Paralipomenon I</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/2Par">Paralipomenon II</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Esr">Esdræ</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Neh">Nehemiæ</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Tob">Tobiæ</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ps">Psalmi</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Pr">Proverbia</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ecl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ct">Canticum Canticorum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Sap">Sapientia</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Sir">Ecclesiasticus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Is">Isaias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Jr">Jeremias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Lam">Lamentationes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ez">Ezechiel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Dn">Daniel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Joel">Joël</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Mch">Michæa</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Soph">Sophonias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Agg">Aggæus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Zach">Zacharias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/1Mcc">Machabæorum I</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/2Mcc">Machabæorum II</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/vulgate/OT/Jos/2695?vers_inline=1"><img src="https://catholicbible.online/assets/img/para.jpg" alt="" /></a>									</div>
+				<div class="bible-name">Biblia Sacra Vulgata</div>
+				<div class="book-name">Liber Josue </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/vulgate/OT/Jos/2692">&lt; prev</a></div>|
+					<div class="chapter">Capitulum 10</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/vulgate/OT/Jos/2698">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/vulgate/OT/Jos/ch_1">1</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_2">2</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_3">3</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_4">4</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_5">5</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_6">6</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_7">7</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_8">8</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_9">9</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_10" class="active">10</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_11">11</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_12">12</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_13">13</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_14">14</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_15">15</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_16">16</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_17">17</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_18">18</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_19">19</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_20">20</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_21">21</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_22">22</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_23">23</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_24">24</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers74597" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">Quæ cum audisset Adonisedec rex Jerusalem, quod scilicet cepisset Josue Hai, et subvertisset eam (sicut enim fecerat Jericho et regi ejus, sic fecit Hai et regi illius), et quod transfugissent Gabaonitæ ad Israël, et essent fœderati eorum,</div>
+					</div>
+									<div id="vers74600" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">timuit valde. Urbs enim magna erat Gabaon, et una civitatum regalium, et major oppido Hai, omnesque bellatores ejus fortissimi.</div>
+					</div>
+									<div id="vers74603" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">Misit ergo Adonisedec rex Jerusalem ad Oham regem Hebron, et ad Pharam regem Jerimoth, ad Japhia quoque regem Lachis, et ad Dabir regem Eglon, dicens:</div>
+					</div>
+									<div id="vers74606" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">Ad me ascendite, et ferte præsidium, ut expugnemus Gabaon, quare transfugerit ad Josue, et ad filios Israël.</div>
+					</div>
+									<div id="vers74609" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">Congregati igitur ascenderunt quinque reges Amorrhæorum: rex Jerusalem, rex Hebron, rex Jerimoth, rex Lachis, rex Eglon, simul cum exercitibus suis: et castrametati sunt circa Gabaon, oppugnantes eam.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers74612" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">Habitatores autem Gabaon urbis obsessæ miserunt ad Josue, qui tunc morabatur in castris apud Galgalam, et dixerunt ei: Ne retrahas manus tuas ab auxilio servorum tuorum: ascende cito, et libera nos, ferque præsidium: convenerunt enim adversum nos omnes reges Amorrhæorum, qui habitant in montanis.</div>
+					</div>
+									<div id="vers74615" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">Ascenditque Josue de Galgalis, et omnis exercitus bellatorum cum eo, viri fortissimi.</div>
+					</div>
+									<div id="vers74618" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">Dixitque Dominus ad Josue: Ne timeas eos: in manus enim tuas tradidi illos: nullus ex eis tibi resistere poterit.</div>
+					</div>
+									<div id="vers74621" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">Irruit itaque Josue super eos repente, tota nocte ascendens de Galgalis.</div>
+					</div>
+									<div id="vers74624" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">Et conturbavit eos Dominus a facie Israël: contrivitque plaga magna in Gabaon, ac persecutus est eos per viam ascensus Bethoron, et percussit usque Azeca et Maceda.</div>
+					</div>
+									<div id="vers74627" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">Cumque fugerent filios Israël, et essent in descensu Bethoron, Dominus misit super eos lapides magnos de cælo usque ad Azeca: et mortui sunt multo plures lapidibus grandinis, quam quos gladio percusserant filii Israël.</div>
+					</div>
+									<div id="vers74630" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">Tunc locutus est Josue Domino, in die qua tradidit Amorrhæum in conspectu filiorum Israël, dixitque coram eis: <span class="content-newline"><br></span>Sol, contra Gabaon ne movearis,<span class="content-newline"><br></span> et luna contra vallem Ajalon.<span class="content-newline"><br></span></div>
+					</div>
+									<div id="vers74633" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">Steteruntque sol et luna,<span class="content-newline"><br></span> donec ulcisceretur se gens de inimicis suis. Nonne scriptum est hoc in libro justorum? Stetit itaque sol in medio cæli, et non festinavit occumbere spatio unius diei.</div>
+					</div>
+									<div id="vers74636" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">Non fuit antea nec postea tam longa dies, obediente Domino voci hominis, et pugnante pro Israël.</div>
+					</div>
+									<div id="vers74639" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">Reversusque est Josue cum omni Israël in castra Galgalæ.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers74642" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">Fugerant enim quinque reges et se absconderant in spelunca urbis Maceda.</div>
+					</div>
+									<div id="vers74645" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">Nuntiatumque est Josue quod inventi essent quinque reges latentes in spelunca urbis Maceda.</div>
+					</div>
+									<div id="vers74648" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">Qui præcepit sociis, et ait: Volvite saxa ingentia ad os speluncæ, et ponite viros industrios, qui clausos custodiant:</div>
+					</div>
+									<div id="vers74651" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">vos autem nolite stare, sed persequimini hostes, et extremos quosque fugientium cædite: nec dimittatis eos urbium suarum intrare præsidia, quos tradidit Dominus Deus in manus vestras.</div>
+					</div>
+									<div id="vers74654" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">Cæsis ergo adversariis plaga magna, et usque ad internecionem pene consumptis, hi qui Israël effugere potuerunt, ingressi sunt civitates munitas.</div>
+					</div>
+									<div id="vers74657" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">Reversusque est omnis exercitus ad Josue in Maceda, ubi tunc erant castra, sani et integro numero: nullusque contra filios Israël mutire ausus est.</div>
+					</div>
+									<div id="vers74660" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">Præcepitque Josue, dicens: Aperite os speluncæ, et producite ad me quinque reges, qui in ea latitant.</div>
+					</div>
+									<div id="vers74663" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">Feceruntque ministri ut sibi fuerat imperatum: et eduxerunt ad eum quinque reges de spelunca, regem Jerusalem, regem Hebron, regem Jerimoth, regem Lachis, regem Eglon.</div>
+					</div>
+									<div id="vers74666" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">Cumque educti essent ad eum, vocavit omnes viros Israël, et ait ad principes exercitus qui secum erant: Ite, et ponite pedes super colla regum istorum. Qui cum perrexissent, et subjectorum colla pedibus calcarent,</div>
+					</div>
+									<div id="vers74669" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">rursum ait ad eos: Nolite timere, nec paveatis: confortamini, et estote robusti: sic enim faciet Dominus cunctis hostibus vestris, adversum quos dimicatis.</div>
+					</div>
+									<div id="vers74672" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">Percussitque Josue, et interfecit eos, atque suspendit super quinque stipites: fueruntque suspensi usque ad vesperum.</div>
+					</div>
+									<div id="vers74675" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">Cumque occumberet sol, præcepit sociis ut deponerent eos de patibulis. Qui depositos projecerunt in speluncam in qua latuerant, et posuerunt super os ejus saxa ingentia, quæ permanent usque in præsens.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers74678" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">Eodem quoque die, Macedam cepit Josue, et percussit eam in ore gladii, regemque illius interfecit, et omnes habitatores ejus: non dimisit in ea saltem parvas reliquias. Fecitque regi Maceda sicut fecerat regi Jericho.</div>
+					</div>
+									<div id="vers74681" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">Transivit autem cum omni Israël de Maceda in Lebna, et pugnabat contra eam:</div>
+					</div>
+									<div id="vers74684" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">quam tradidit Dominus cum rege suo in manus Israël: percusseruntque urbem in ore gladii, et omnes habitatores ejus: non dimiserunt in ea ullas reliquias. Feceruntque regi Lebna sicut fecerant regi Jericho.</div>
+					</div>
+									<div id="vers74687" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">De Lebna transivit in Lachis cum omni Israël: et exercitu per gyrum disposito, oppugnabat eam.</div>
+					</div>
+									<div id="vers74690" class="vers">
+												<div class="vers-no">32</div>
+						<div class="vers-content">Tradiditque Dominus Lachis in manus Israël, et cepit eam die altero, atque percussit in ore gladii, omnemque animam quæ fuerat in ea, sicut fecerat Lebna.</div>
+					</div>
+									<div id="vers74693" class="vers">
+												<div class="vers-no">33</div>
+						<div class="vers-content">Eo tempore ascendit Horam rex Gazer, ut auxiliaretur Lachis: quem percussit Josue cum omni populo ejus usque ad internecionem.</div>
+					</div>
+									<div id="vers74696" class="vers">
+												<div class="vers-no">34</div>
+						<div class="vers-content">Transivitque de Lachis in Eglon, et circumdedit,</div>
+					</div>
+									<div id="vers74699" class="vers">
+												<div class="vers-no">35</div>
+						<div class="vers-content">atque expugnavit eam eadem die: percussitque in ore gladii omnes animas quæ erant in ea, juxta omnia quæ fecerat Lachis.</div>
+					</div>
+									<div id="vers74702" class="vers">
+												<div class="vers-no">36</div>
+						<div class="vers-content">Ascendit quoque cum omni Israël de Eglon in Hebron, et pugnavit contra eam:</div>
+					</div>
+									<div id="vers74705" class="vers">
+												<div class="vers-no">37</div>
+						<div class="vers-content">cepit eam, et percussit in ore gladii, regem quoque ejus, et omnia oppida regionis illius, universasque animas quæ in ea fuerant commoratæ: non reliquit in ea ullas reliquias: sicut fecerat Eglon, sic fecit et Hebron, cuncta quæ in ea reperit consumens gladio.</div>
+					</div>
+									<div id="vers74708" class="vers">
+												<div class="vers-no">38</div>
+						<div class="vers-content">Inde reversus in Dabir,</div>
+					</div>
+									<div id="vers74711" class="vers">
+												<div class="vers-no">39</div>
+						<div class="vers-content">cepit eam atque vastavit: regem quoque ejus atque omnia per circuitum oppida percussit in ore gladii: non dimisit in ea ullas reliquias: sicut fecerat Hebron et Lebna et regibus earum, sic fecit Dabir et regi illius.</div>
+					</div>
+									<div id="vers74714" class="vers">
+												<div class="vers-no">40</div>
+						<div class="vers-content">Percussit itaque Josue omnem terram montanam et meridianam atque campestrem, et Asedoth, cum regibus suis: non dimisit in ea ullas reliquias, sed omne quod spirare poterat interfecit, sicut præceperat ei Dominus Deus Israël,</div>
+					</div>
+									<div id="vers74717" class="vers">
+												<div class="vers-no">41</div>
+						<div class="vers-content">a Cadesbarne usque Gazam. Omnem terram Gosen usque Gabaon,</div>
+					</div>
+									<div id="vers74720" class="vers">
+												<div class="vers-no">42</div>
+						<div class="vers-content">universosque reges, et regiones eorum uno impetu cepit atque vastavit: Dominus enim Deus Israël pugnavit pro eo.</div>
+					</div>
+									<div id="vers74723" class="vers">
+												<div class="vers-no">43</div>
+						<div class="vers-content">Reversusque est cum omni Israël ad locum castrorum in Galgala.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/vulgate/OT/Jos/ch_9">&lt; prev</a></div>|
+					<div class="chapter">Capitulum 10</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/vulgate/OT/Jos/ch_11">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/vulgate/OT/Jos/ch_1">1</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_2">2</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_3">3</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_4">4</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_5">5</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_6">6</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_7">7</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_8">8</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_9">9</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_10" class="active">10</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_11">11</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_12">12</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_13">13</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_14">14</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_15">15</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_16">16</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_17">17</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_18">18</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_19">19</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_20">20</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_21">21</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_22">22</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_23">23</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_24">24</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="144" height="220" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br />
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-clementina-vulgata.html" class="btn">SHOP NOW</a> </p>
+</div>
+</div>
+<script>
+	var openAllComments = 0;
+</script>		<div class="copyright">2015 - 2024 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/vulgate/OT/Jos/ch_10"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>HASH(0x12680c020)

@@ -1,0 +1,388 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Latin Vulgate Bible – Biblia Sacra Vulgata</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+	};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Vulgate</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=1&book_no=6&chapter_no=19" class="menu-item active">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=1&book_no=6&chapter_no=19" class="menu-item ">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=1&book_no=6&chapter_no=19" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=1&book_no=6&chapter_no=19" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Josue</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/vulgate/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/vulgate/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Gn">Genesis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Lv">Leviticus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Nm">Numeri</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Dt">Deuteronomium</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/vulgate/OT/Jos">Josue</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Jdc">Judicum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Rt">Ruth</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/1Rg">Regum I</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/2Rg">Regum II</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/3Rg">Regum III</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/4Rg">Regum IV</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/1Par">Paralipomenon I</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/2Par">Paralipomenon II</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Esr">Esdræ</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Neh">Nehemiæ</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Tob">Tobiæ</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ps">Psalmi</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Pr">Proverbia</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ecl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ct">Canticum Canticorum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Sap">Sapientia</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Sir">Ecclesiasticus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Is">Isaias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Jr">Jeremias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Lam">Lamentationes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Ez">Ezechiel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Dn">Daniel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Joel">Joël</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Mch">Michæa</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Soph">Sophonias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Agg">Aggæus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Zach">Zacharias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/1Mcc">Machabæorum I</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/vulgate/OT/2Mcc">Machabæorum II</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/vulgate/OT/Jos/2722?vers_inline=1"><img src="https://catholicbible.online/assets/img/para.jpg" alt="" /></a>									</div>
+				<div class="bible-name">Biblia Sacra Vulgata</div>
+				<div class="book-name">Liber Josue </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/vulgate/OT/Jos/2719">&lt; prev</a></div>|
+					<div class="chapter">Capitulum 19</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/vulgate/OT/Jos/2725">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/vulgate/OT/Jos/ch_1">1</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_2">2</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_3">3</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_4">4</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_5">5</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_6">6</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_7">7</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_8">8</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_9">9</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_10">10</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_11">11</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_12">12</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_13">13</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_14">14</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_15">15</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_16">16</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_17">17</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_18">18</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_19" class="active">19</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_20">20</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_21">21</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_22">22</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_23">23</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_24">24</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers75368" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">Et egressa est sors secunda filiorum Simeon per cognationes suas: fuitque hæreditas</div>
+					</div>
+									<div id="vers75371" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">eorum in medio possessionis filiorum Juda: Bersabee et Sabee et Molada</div>
+					</div>
+									<div id="vers75374" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">et Hasersual, Bala et Asem</div>
+					</div>
+									<div id="vers75377" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">et Eltholad, Bethul et Harma</div>
+					</div>
+									<div id="vers75380" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">et Siceleg et Bethmarchaboth et Hasersusa</div>
+					</div>
+									<div id="vers75383" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">et Bethlebaoth et Sarohen: civitates tredecim, et villæ earum.</div>
+					</div>
+									<div id="vers75386" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">Ain et Remmon et Athar et Asan: civitates quatuor, et villæ earum:</div>
+					</div>
+									<div id="vers75389" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">omnes viculi per circuitum urbium istarum usque ad Baalath Beer Ramath contra australem plagam. Hæc est hæreditas filiorum Simeon juxta cognationes suas,</div>
+					</div>
+									<div id="vers75392" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">in possessione et funiculo filiorum Juda: quia major erat, et idcirco filii Simeon possederunt in medio hæreditatis eorum.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers75395" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">Ceciditque sors tertia filiorum Zabulon per cognationes suas: factus est terminus possessionis eorum usque Sarid.</div>
+					</div>
+									<div id="vers75398" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">Ascenditque de mari et Merala, et pervenit in Debbaseth, usque ad torrentem qui est contra Jeconam.</div>
+					</div>
+									<div id="vers75401" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">Et revertitur de Sared contra orientem in fines Ceseleththabor: et egreditur ad Dabereth, ascenditque contra Japhie.</div>
+					</div>
+									<div id="vers75404" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">Et inde pertransit usque ad orientalem plagam Gethepher et Thacasin: et egreditur in Remmon, Amthar et Noa.</div>
+					</div>
+									<div id="vers75407" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">Et circuit ad aquilonem Hanathon: suntque egressus ejus vallis Jephthaël,</div>
+					</div>
+									<div id="vers75410" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">et Cateth et Naalol et Semeron et Jerala et Bethlehem: civitates duodecim, et villæ earum.</div>
+					</div>
+									<div id="vers75413" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">Hæc est hæreditas tribus filiorum Zabulon per cognationes suas, urbes et viculi earum.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers75416" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">Issachar egressa est sors quarta per cognationes suas:</div>
+					</div>
+									<div id="vers75419" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">fuitque ejus hæreditas Jezraël et Casaloth et Sunem</div>
+					</div>
+									<div id="vers75422" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">et Hapharaim et Seon, et Anaharath</div>
+					</div>
+									<div id="vers75425" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">et Rabboth et Cesion, Abes,</div>
+					</div>
+									<div id="vers75428" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">et Rameth, et Engannim, et Enhadda et Bethpheses.</div>
+					</div>
+									<div id="vers75431" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">Et pervenit terminus ejus usque Thabor et Sehesima et Bethsames, eruntque exitus ejus Jordanis: civitates sedecim, et villæ earum.</div>
+					</div>
+									<div id="vers75434" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">Hæc est possessio filiorum Issachar per cognationes suas, urbes et viculi earum.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers75437" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">Ceciditque sors quinta tribui filiorum Aser per cognationes suas:</div>
+					</div>
+									<div id="vers75440" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">fuitque terminus eorum Halcath et Chali et Beten et Axaph</div>
+					</div>
+									<div id="vers75443" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">et Elmelech et Amaad et Messal: et pervenit usque ad Carmelum maris et Sihor et Labanath,</div>
+					</div>
+									<div id="vers75446" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">ac revertitur contra orientem Bethdagon: et pertransit usque Zabulon et vallem Jephthaël contra aquilonem in Bethemec et Nehiel. Egrediturque ad lævam Cabul,</div>
+					</div>
+									<div id="vers75449" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">et Abran et Rohob et Hamon et Cana, usque ad Sidonem magnam.</div>
+					</div>
+									<div id="vers75452" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">Revertiturque in Horma usque ad civitatem munitissimam Tyrum, et usque Hosa: eruntque exitus ejus in mare de funiculo Achziba:</div>
+					</div>
+									<div id="vers75455" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">et Amma et Aphec et Rohob: civitates viginti duæ, et villæ earum.</div>
+					</div>
+									<div id="vers75458" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">Hæc est possessio filiorum Aser per cognationes suas, urbesque et viculi earum.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers75461" class="vers">
+												<div class="vers-no">32</div>
+						<div class="vers-content">Filiorum Nephthali sexta sors cecidit per familias suas:</div>
+					</div>
+									<div id="vers75464" class="vers">
+												<div class="vers-no">33</div>
+						<div class="vers-content">et cœpit terminus de Heleph et Elon in Saananim, et Adami, quæ est Neceb, et Jebnaël usque Lecum: et egressus eorum usque ad Jordanem:</div>
+					</div>
+									<div id="vers75467" class="vers">
+												<div class="vers-no">34</div>
+						<div class="vers-content">revertiturque terminus contra occidentem in Azanotthabor, atque inde egreditur in Hucuca, et pertransit in Zabulon contra meridiem, et in Aser contra occidentem, et in Juda ad Jordanem contra ortum solis:</div>
+					</div>
+									<div id="vers75470" class="vers">
+												<div class="vers-no">35</div>
+						<div class="vers-content">civitates munitissimæ, Assedim, Ser, et Emath, et Reccath et Cenereth,</div>
+					</div>
+									<div id="vers75473" class="vers">
+												<div class="vers-no">36</div>
+						<div class="vers-content">et Edema et Arama, Asor</div>
+					</div>
+									<div id="vers75476" class="vers">
+												<div class="vers-no">37</div>
+						<div class="vers-content">et Cedes et Edrai, Enhasor,</div>
+					</div>
+									<div id="vers75479" class="vers">
+												<div class="vers-no">38</div>
+						<div class="vers-content">et Jeron et Magdalel, Horem et Bethanath et Bethsames: civitates decem et novem, et villæ earum.</div>
+					</div>
+									<div id="vers75482" class="vers">
+												<div class="vers-no">39</div>
+						<div class="vers-content">Hæc est possessio tribus filiorum Nephthali per cognationes suas, urbes et viculi earum.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers75485" class="vers">
+												<div class="vers-no">40</div>
+						<div class="vers-content">Tribui filiorum Dan per familias suas egressa est sors septima:</div>
+					</div>
+									<div id="vers75488" class="vers">
+												<div class="vers-no">41</div>
+						<div class="vers-content">et fuit terminus possessionis ejus Sara et Esthaol, et Hirsemes, id est, civitas solis.</div>
+					</div>
+									<div id="vers75491" class="vers">
+												<div class="vers-no">42</div>
+						<div class="vers-content">Selebin et Ajalon et Jethela,</div>
+					</div>
+									<div id="vers75494" class="vers">
+												<div class="vers-no">43</div>
+						<div class="vers-content">Elon et Themna et Acron,</div>
+					</div>
+									<div id="vers75497" class="vers">
+												<div class="vers-no">44</div>
+						<div class="vers-content">Elthece, Gebbethon et Balaath,</div>
+					</div>
+									<div id="vers75500" class="vers">
+												<div class="vers-no">45</div>
+						<div class="vers-content">et Jud et Bane et Barach et Gethremmon:</div>
+					</div>
+									<div id="vers75503" class="vers">
+												<div class="vers-no">46</div>
+						<div class="vers-content">et Mejarcon et Arecon, cum termino qui respicit Joppen,</div>
+					</div>
+									<div id="vers75506" class="vers">
+												<div class="vers-no">47</div>
+						<div class="vers-content">et ipso fine concluditur. Ascenderuntque filii Dan, et pugnaverunt contra Lesem, ceperuntque eam: et percusserunt eam in ore gladii, et possederunt, et habitaverunt in ea, vocantes nomen ejus Lesem Dan, ex nomine Dan patris sui.</div>
+					</div>
+									<div id="vers75509" class="vers">
+												<div class="vers-no">48</div>
+						<div class="vers-content">Hæc est possessio tribus filiorum Dan, per cognationes suas, urbes et viculi earum.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers75512" class="vers">
+												<div class="vers-no">49</div>
+						<div class="vers-content">Cumque complesset sorte dividere terram singulis per tribus suas, dederunt filii Israël possessionem Josue filio Nun in medio sui,</div>
+					</div>
+									<div id="vers75515" class="vers">
+												<div class="vers-no">50</div>
+						<div class="vers-content">juxta præceptum Domini, urbem quam postulavit Thamnath Saraa in monte Ephraim: et ædificavit civitatem, habitavitque in ea.</div>
+					</div>
+									<div id="vers75518" class="vers">
+												<div class="vers-no">51</div>
+						<div class="vers-content">Hæ sunt possessiones, quas sorte diviserunt Eleazar sacerdos, et Josue filius Nun, et principes familiarum ac tribuum filiorum Israël in Silo, coram Domino ad ostium tabernaculi testimonii: partitique sunt terram.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/vulgate/OT/Jos/ch_18">&lt; prev</a></div>|
+					<div class="chapter">Capitulum 19</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/vulgate/OT/Jos/ch_20">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/vulgate/OT/Jos/ch_1">1</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_2">2</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_3">3</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_4">4</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_5">5</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_6">6</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_7">7</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_8">8</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_9">9</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_10">10</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_11">11</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_12">12</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_13">13</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_14">14</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_15">15</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_16">16</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_17">17</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_18">18</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_19" class="active">19</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_20">20</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_21">21</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_22">22</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_23">23</a> <a href="https://catholicbible.online/vulgate/OT/Jos/ch_24">24</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="144" height="220" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br />
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-clementina-vulgata.html" class="btn">SHOP NOW</a> </p>
+</div>
+</div>
+<script>
+	var openAllComments = 0;
+</script>		<div class="copyright">2015 - 2024 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/vulgate/OT/Jos/ch_19"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>HASH(0x12680c020)

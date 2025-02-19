@@ -1,0 +1,309 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online â Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+	};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=1&book_no=4&chapter_no=28" class="menu-item ">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=1&book_no=4&chapter_no=28" class="menu-item active">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=1&book_no=4&chapter_no=28" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=1&book_no=4&chapter_no=28" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Numbers</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Lev">Leviticus</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/douay_rheims/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/douay_rheims/OT/Num/9392?vers_inline=1"><img src="https://catholicbible.online/assets/img/para.jpg" alt="" /></a>					<a href="https://catholicbible.online/douay_rheims/OT/Num/9392?comments_open=1"><img src="https://catholicbible.online/assets/img/C-off.gif" alt="" /></a>				</div>
+				<div class="bible-name">The Holy Bible â DouayâRheims version</div>
+				<div class="book-name">The Book of Numbers</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Num/9391">&lt; prev</a></div>|
+					<div class="chapter">Chapter 28</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Num/9393">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/OT/Num/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_3">3</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_4">4</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_5">5</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_6">6</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_7">7</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_8">8</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_9">9</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_10">10</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_11">11</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_12">12</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_13">13</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_14">14</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_15">15</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_16">16</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_17">17</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_18">18</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_19">19</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_20">20</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_21">21</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_22">22</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_23">23</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_24">24</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_25">25</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_26">26</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_27">27</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_28" class="active">28</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_29">29</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_30">30</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_31">31</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_32">32</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_33">33</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_34">34</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_35">35</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_36">36</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers213240" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">The  Lord also said to Moses:</div>
+					</div>
+									<div id="vers213241" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">Command the children of Israel, and thou shalt say to them: Offer ye my oblation and my bread, and burnt sacrifice of most sweet odour, in their due seasons.</div>
+					</div>
+									<div id="vers213242" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">These are the sacrifices which you shall offer: Two lambs of a year old without blemish every day for the perpetual holocaust:</div>
+					</div>
+									<div id="vers213243" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">One you shall offer in the morning, and the other in the evening:</div>
+					</div>
+									<div id="vers213244" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">And the tenth part of an ephi of flour, which shall be tempered with the purest oil, of the measure of the fourth part of a hin.</div>
+					</div>
+									<div id="vers213245" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">It is the continual holocaust which you offered in mount Sinai for a most sweet odour of a sacrifice by fire to the Lord.</div>
+					</div>
+									<div id="vers213246" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">And for a libation you shall offer of wine the fourth part of a hin for every lamb in the sanctuary of the Lord.</div>
+					</div>
+									<div id="vers213247" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">And you shall offer the other lamb in like manner in the evening according to all the rites of the morning sacrifice, and of the libations thereof, an oblation of most sweet odour to the Lord.</div>
+					</div>
+									<div id="vers213248" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">And on the sabbath day you shall offer two lambs of a year old without blemish, and two tenths of flour tempered with oil in sacrifice, and the libations,</div>
+					</div>
+									<div id="vers213249" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">Which regularly are poured out every sabbath for the perpetual holocaust.</div>
+					</div>
+									<div id="vers213250" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">And on the first day of the month you shall offer a holocaust to the Lord, two calves of the herd, one ram, and seven lambs of a year old, without blemish,</div>
+					</div>
+									<div id="vers213251" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">And three tenths of flour tempered with oil in sacrifice for every calf: and two tenths of flour tempered with oil for every ram:</div>
+					</div>
+									<div id="vers213252" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">And the tenth of a tenth of flour tempered with oil in sacrifice for every lamb. It is a holocaust of most sweet odour and an offering by fire to the Lord.</div>
+					</div>
+									<div id="vers213253" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">And these shall be the libations of wine that are to be poured out for every victim: Half a hin for every calf, a third for a ram, and a fourth for a lamb. This shall be the holocaust for every month, as they succeed one another in the course of the year.</div>
+					</div>
+									<div id="vers213254" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">A buck goat also shall be offered to the Lord for a sin offering over and above the perpetual holocaust with its libations.</div>
+					</div>
+									<div id="vers213255" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">And in the first month, on the fourteenth day of the month, shall be the phase of the Lord,</div>
+					</div>
+									<div id="vers213256" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">And on the fifteenth day the solemn feast: seven days shall they eat unleavened bread.</div>
+					</div>
+									<div id="vers213257" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">And the first day of them shall be venerable and holy: you shall not do any servile work therein.</div>
+					</div>
+									<div id="vers213258" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">And you shall offer a burnt sacrifice a holocaust to the Lord, two calves of the herd, one ram, seven lambs of a year old, without blemish:</div>
+					</div>
+									<div id="vers213259" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">And for the sacrifices of every one three tenths of flour which shall be tempered with oil to every calf, and two tenths to every ram,</div>
+					</div>
+									<div id="vers213260" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">And the tenth of a tenth, to every lamb, that is to say, to all the seven lambs:</div>
+					</div>
+									<div id="vers213261" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">And one buck goat for sin, to make atonement for you,</div>
+					</div>
+									<div id="vers213262" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">Besides the morning holocaust which you shall always offer.</div>
+					</div>
+									<div id="vers213263" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">So shall you do every day of the seven days for the food of the fire, and for a most sweet odour to the Lord, which shall rise from the holocaust, and from the libations of each.</div>
+					</div>
+									<div id="vers213264" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">The seventh day also shall be most solemn and holy unto you: you shall do no servile work therein.</div>
+					</div>
+									<div id="vers213265" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">The day also of firstfruits, when after the weeks are accomplished, you shall offer new fruits to the Lord, shall be venerable and holy: you shall do no servile work therein.</div>
+					</div>
+									<div id="vers213266" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">And you shall offer a holocaust for a most sweet odour to the Lord, two calves of the herd, one ram, and seven lambs of a year old, without blemish:</div>
+					</div>
+									<div id="vers213267" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">And in the sacrifices of them three tenths of flour tempered with oil to every calf, two to every ram,</div>
+					</div>
+									<div id="vers213268" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">The tenth of a tenth to every lamb, which in all are seven lambs: a buck goat also,</div>
+					</div>
+									<div id="vers213269" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">Which is slain for expiation: besides the perpetual holocaust and the libations thereof.</div>
+					</div>
+									<div id="vers213270" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">You shall offer them all without blemish with their libations.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Num/ch_27">&lt; prev</a></div>|
+					<div class="chapter">Chapter 28</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Num/ch_29">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/OT/Num/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_3">3</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_4">4</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_5">5</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_6">6</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_7">7</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_8">8</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_9">9</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_10">10</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_11">11</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_12">12</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_13">13</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_14">14</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_15">15</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_16">16</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_17">17</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_18">18</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_19">19</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_20">20</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_21">21</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_22">22</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_23">23</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_24">24</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_25">25</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_26">26</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_27">27</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_28" class="active">28</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_29">29</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_30">30</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_31">31</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_32">32</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_33">33</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_34">34</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_35">35</a> <a href="https://catholicbible.online/douay_rheims/OT/Num/ch_36">36</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="130" height="210" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br />
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br />
+        Flexible Cover</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-bible.html" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = 0;
+</script>		<div class="copyright">2015 - 2024 Â© CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/douay_rheims/OT/Num/ch_28"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>

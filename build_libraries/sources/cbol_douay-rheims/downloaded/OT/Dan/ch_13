@@ -1,0 +1,609 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app217.us.archive.org';v.server_ms=545;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/douay_rheims/OT/Dan/ch_13","20210119085255","https://web.archive.org/","web","/_static/",
+	      "1611046375");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20210119085255cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20210119085255cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20210119085255cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20210119085255js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210119085255js_/http://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210119085255js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210119085255js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210119085255js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210119085255js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20210119085255/http%3A//catholicbible.online/douay_rheims/OT/Dan/ch_13"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/douay_rheims/OT/Dan/ch_13" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20210119085255" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20210119085255*/http://catholicbible.online/douay_rheims/OT/Dan/ch_13" title="See a list of every capture for this URL">3 captures</a>
+          <div class="r" title="Timespan for captures of this URL">08 Aug 2020 - 25 Sep 2023</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20200808210227/http://catholicbible.online/douay_rheims/OT/Dan/ch_13" title="08 Aug 2020"><strong>Aug</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 08:52:55 Jan 19, 2021">JAN</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20230925002412/http://catholicbible.online/douay_rheims/OT/Dan/ch_13" title="25 Sep 2023"><strong>Sep</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20200808210227/http://catholicbible.online/douay_rheims/OT/Dan/ch_13" title="21:02:27 Aug 08, 2020"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 08:52:55 Jan 19, 2021">19</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20230925002412/http://catholicbible.online/douay_rheims/OT/Dan/ch_13" title="00:24:12 Sep 25, 2023"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap">2020</td>
+            <td class="c" id="displayYearEl" title="You are here: 08:52:55 Jan 19, 2021">2021</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20230925002412/http://catholicbible.online/douay_rheims/OT/Dan/ch_13" title="25 Sep 2023"><strong>2023</strong></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20210119085255/http://web.archive.org/screenshot/http://catholicbible.online/douay_rheims/OT/Dan/ch_13"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_13" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_13" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_13</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/douay_rheims/OT/Dan/ch_13","20210119085255",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<script>
+	var comments={
+			4866: {
+				id_comment: 4866,
+				source_str: 'Susanna',
+				caption: '',
+				content: "This history of Susanna, in all the ancient Greek and Latin Bibles, was placed in the beginning of the book of Daniel: till St. Jerome, in his translation, detached it from thence; because he did not find it in the Hebrew: which is also the case of the history of Bel and the Dragon. But both the one and the other are received by the Catholic Church: and were from the very beginning a part of the Christian Bible."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=32&amp;chapter_no=13" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=32&amp;chapter_no=13" class="menu-item active">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=32&amp;chapter_no=13" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=32&amp;chapter_no=13" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20210119085255/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Daniel</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Eze">Ezechiel</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/10130?vers_inline=1"><img src="https://web.archive.org/web/20210119085255im_/http://catholicbible.online/assets/img/para.jpg" alt=""/></a>					<a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/10130?comments_open=1"><img src="https://web.archive.org/web/20210119085255im_/http://catholicbible.online/assets/img/C-off.gif" alt=""/></a>				</div>
+				<div class="bible-name">The Holy Bible – Douay‐Rheims version</div>
+				<div class="book-name">The Prophecy of Daniel</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/10129">&lt; prev</a></div>|
+					<div class="chapter">Chapter 13</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/10131">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_1">1</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_2">2</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_3">3</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_4">4</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_5">5</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_6">6</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_7">7</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_8">8</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_9">9</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_10">10</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_11">11</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_12">12</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_13" class="active">13</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_14">14</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers231348" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">Now  there was a man that dwelt in Babylon, and his name was Joakim:</div>
+					</div>
+									<div id="vers231349" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">And he took a wife whose name was <a href="" class="inline-comment" data-comment-id="4866">Susanna</a>, the daughter of Helcias, a very beautiful woman, and one that feared God.</div>
+					</div>
+									<div id="vers231350" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">For her parents being just, had instructed their daughter according to the law of Moses.</div>
+					</div>
+									<div id="vers231351" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">Now Joakim was very rich, and had an orchard near his house: and the Jews resorted to him, because he was the most honourable of them all.</div>
+					</div>
+									<div id="vers231352" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">And there were two of the ancients of the people appointed judges that year, of whom the Lord said: Iniquity came out from Babylon from the ancient judges, that seemed to govern the people.</div>
+					</div>
+									<div id="vers231353" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">These men frequented the house of Joakim, and all that had any matters of judgment came to them.</div>
+					</div>
+									<div id="vers231354" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">And when the people departed away at noon, Susanna went in, and walked in her husband’s orchard.</div>
+					</div>
+									<div id="vers231355" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">And the old men saw her going in every day, and walking: and they were inflamed with lust towards her:</div>
+					</div>
+									<div id="vers231356" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">And they perverted their own mind and turned away their eyes that they might not look unto heaven, nor remember just judgments.</div>
+					</div>
+									<div id="vers231357" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">So they were both wounded with the love of her, yet they did not make known their grief one to the other:</div>
+					</div>
+									<div id="vers231358" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">For they were ashamed to declare to one another their lust, being desirous to have to do with her.</div>
+					</div>
+									<div id="vers231359" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">And they watched carefully every day to see her. And one said to the other:</div>
+					</div>
+									<div id="vers231360" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">Let us now go home, for it is dinner time. So going out they departed one from another.</div>
+					</div>
+									<div id="vers231361" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">And turning back again, they came both to the same place: and asking one another the cause, they acknowledged their lust; and then they agreed upon a time, when they might find her alone.</div>
+					</div>
+									<div id="vers231362" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">And it fell out, as they watched a fit day, she went in on a time, as yesterday and the day before, with two maids only, and was desirous to wash herself in the orchard: for it was hot weather.</div>
+					</div>
+									<div id="vers231363" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">And there was nobody there, but the two old men that had hid themselves and were beholding her.</div>
+					</div>
+									<div id="vers231364" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">So she said to the maids: Bring me oil, and washing balls, and shut the doors of the orchard, that I may wash me.</div>
+					</div>
+									<div id="vers231365" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">And they did as she bade them: and they shut the doors of the orchard, and went out by a back door to fetch what she had commanded them, and they knew not that the elders were hid within.</div>
+					</div>
+									<div id="vers231366" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">Now when the maids were gone forth, the two elders arose, and ran to her, and said:</div>
+					</div>
+									<div id="vers231367" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">Behold the doors of the orchard are shut, and nobody seeth us, and we are in love with thee: wherefore consent to us, and lie with us.</div>
+					</div>
+									<div id="vers231368" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">But if thou wilt not, we will bear witness against thee, that a young man was with thee, and therefore thou didst send away thy maids from thee.</div>
+					</div>
+									<div id="vers231369" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">Susanna sighed, and said: I am straitened on every side: for if I do this thing, it is death to me: and if I do it not, I shall not escape your hands.</div>
+					</div>
+									<div id="vers231370" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">But it is better for me to fall into your hands without doing it, than to sin in the sight of the Lord.</div>
+					</div>
+									<div id="vers231371" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">With that Susanna cried out with a loud voice: and the elders also cried out against her.</div>
+					</div>
+									<div id="vers231372" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">And one of them ran to the door of the orchard, and opened it.</div>
+					</div>
+									<div id="vers231373" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">So when the servants of the house heard the cry in the orchard, they rushed in by the back door to see what was the matter.</div>
+					</div>
+									<div id="vers231374" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">But after the old men had spoken, the servants were greatly ashamed: for never had there been any such word said of Susanna. And on the next day,</div>
+					</div>
+									<div id="vers231375" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">When the people were come to Joakim her husband, the two elders also came full of wicked device against Susanna, to put her to death.</div>
+					</div>
+									<div id="vers231376" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">And they said before the people: Send to Susanna daughter of Helcias the wife of Joakim. And presently they sent.</div>
+					</div>
+									<div id="vers231377" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">And she came with her parents, and children, and all her kindred.</div>
+					</div>
+									<div id="vers231378" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">Now Susanna was exceeding delicate, and beautiful to behold.</div>
+					</div>
+									<div id="vers231379" class="vers">
+												<div class="vers-no">32</div>
+						<div class="vers-content">But those wicked men commanded that her face should be uncovered, (for she was covered,) that so at least they might be satisfied with her beauty.</div>
+					</div>
+									<div id="vers231380" class="vers">
+												<div class="vers-no">33</div>
+						<div class="vers-content">Therefore her friends and all her acquaintance wept.</div>
+					</div>
+									<div id="vers231381" class="vers">
+												<div class="vers-no">34</div>
+						<div class="vers-content">But the two elders rising up in the midst of the people, laid their hands upon her head.</div>
+					</div>
+									<div id="vers231382" class="vers">
+												<div class="vers-no">35</div>
+						<div class="vers-content">And she weeping looked up to heaven, for her heart had confidence in the Lord.</div>
+					</div>
+									<div id="vers231383" class="vers">
+												<div class="vers-no">36</div>
+						<div class="vers-content">And the elders said: As we walked in the orchard alone, this woman came in with two maids, and shut the doors of the orchard, and sent away the maids from her.</div>
+					</div>
+									<div id="vers231384" class="vers">
+												<div class="vers-no">37</div>
+						<div class="vers-content">Then a young man that was there hid came to her, and lay with her.</div>
+					</div>
+									<div id="vers231385" class="vers">
+												<div class="vers-no">38</div>
+						<div class="vers-content">But we that were in a corner of the orchard, seeing this wickedness, ran up to them, and we saw them lie together.</div>
+					</div>
+									<div id="vers231386" class="vers">
+												<div class="vers-no">39</div>
+						<div class="vers-content">And him indeed we could not take, because he was stronger than us, and opening the doors he leaped out:</div>
+					</div>
+									<div id="vers231387" class="vers">
+												<div class="vers-no">40</div>
+						<div class="vers-content">But having taken this woman, we asked who the young man was, but she would not tell us: of this thing we are witnesses.</div>
+					</div>
+									<div id="vers231388" class="vers">
+												<div class="vers-no">41</div>
+						<div class="vers-content">The multitude believed them as being the elders and the judges of the people, and they condemned her to death.</div>
+					</div>
+									<div id="vers231389" class="vers">
+												<div class="vers-no">42</div>
+						<div class="vers-content">Then Susanna cried out with a loud voice, and said: O eternal God, who knowest hidden things, who knowest all things before they come to pass,</div>
+					</div>
+									<div id="vers231390" class="vers">
+												<div class="vers-no">43</div>
+						<div class="vers-content">Thou knowest that they have borne false witness against me: and behold I must die, whereas I have done none of these things, which these men have maliciously forged against me.</div>
+					</div>
+									<div id="vers231391" class="vers">
+												<div class="vers-no">44</div>
+						<div class="vers-content">And the Lord heard her voice.</div>
+					</div>
+									<div id="vers231392" class="vers">
+												<div class="vers-no">45</div>
+						<div class="vers-content">And when she was led to be put to death, the Lord raised up the holy spirit of a young boy, whose name was Daniel.</div>
+					</div>
+									<div id="vers231393" class="vers">
+												<div class="vers-no">46</div>
+						<div class="vers-content">And he cried out with a loud voice: I am clear from the blood of this woman.</div>
+					</div>
+									<div id="vers231394" class="vers">
+												<div class="vers-no">47</div>
+						<div class="vers-content">Then all the people turning themselves towards him, said: What meaneth this word that thou hast spoken?</div>
+					</div>
+									<div id="vers231395" class="vers">
+												<div class="vers-no">48</div>
+						<div class="vers-content">But he standing in the midst of them, said: Are ye so foolish, ye children of Israel, that without examination or knowledge of the truth, you have condemned a daughter of Israel?</div>
+					</div>
+									<div id="vers231396" class="vers">
+												<div class="vers-no">49</div>
+						<div class="vers-content">Return to judgment, for they have borne false witness against her.</div>
+					</div>
+									<div id="vers231397" class="vers">
+												<div class="vers-no">50</div>
+						<div class="vers-content">So all the people turned again in haste, and the old men said to him: Come, and sit thou down among us, and shew it us: seeing God hath given thee the honour of old age.</div>
+					</div>
+									<div id="vers231398" class="vers">
+												<div class="vers-no">51</div>
+						<div class="vers-content">And Daniel said to the people: Separate these two far from one another, and I will examine them.</div>
+					</div>
+									<div id="vers231399" class="vers">
+												<div class="vers-no">52</div>
+						<div class="vers-content">So when they were put asunder one from the other, he called one of them, and said to him: O thou that art grown old in evil days, now are thy sins come out, which thou hast committed before:</div>
+					</div>
+									<div id="vers231400" class="vers">
+												<div class="vers-no">53</div>
+						<div class="vers-content">In judging unjust judgments, oppressing the innocent, and letting the guilty to go free, whereas the Lord saith: The innocent and the just thou shalt not kill.</div>
+					</div>
+									<div id="vers231401" class="vers">
+												<div class="vers-no">54</div>
+						<div class="vers-content">Now then, if thou sawest her, tell me under what tree thou sawest them conversing together. He said: Under a mastic tree.</div>
+					</div>
+									<div id="vers231402" class="vers">
+												<div class="vers-no">55</div>
+						<div class="vers-content">And Daniel said: Well hast thou lied against thy own head: for behold the angel of God having received the sentence of him, shall cut thee in two.</div>
+					</div>
+									<div id="vers231403" class="vers">
+												<div class="vers-no">56</div>
+						<div class="vers-content">And having put him aside, he commanded that the other should come, and he said to him: O thou seed of Chanaan, and not of Juda, beauty hath deceived thee, and lust hath perverted thy heart:</div>
+					</div>
+									<div id="vers231404" class="vers">
+												<div class="vers-no">57</div>
+						<div class="vers-content">Thus did you do to the daughters of Israel, and they for fear conversed with you: but a daughter of Juda would not abide your wickedness.</div>
+					</div>
+									<div id="vers231405" class="vers">
+												<div class="vers-no">58</div>
+						<div class="vers-content">Now therefore tell me, under what tree didst thou take them conversing together. And he answered: Under a holm tree.</div>
+					</div>
+									<div id="vers231406" class="vers">
+												<div class="vers-no">59</div>
+						<div class="vers-content">And Daniel said to him: Well hast thou also lied against thy own head: for the angel of the Lord waiteth with a sword to cut thee in two, and to destroy you.</div>
+					</div>
+									<div id="vers231407" class="vers">
+												<div class="vers-no">60</div>
+						<div class="vers-content">With that all the assembly cried out with a loud voice, and they blessed God, who saveth them that trust in him.</div>
+					</div>
+									<div id="vers231408" class="vers">
+												<div class="vers-no">61</div>
+						<div class="vers-content">And they rose up against the two elders, (for Daniel had convicted them of false witness by their own mouth,) and they did to them as they had maliciously dealt against their neighbour,</div>
+					</div>
+									<div id="vers231409" class="vers">
+												<div class="vers-no">62</div>
+						<div class="vers-content">To fulfil the law of Moses: and they put them to death, and innocent blood was saved in that day.</div>
+					</div>
+									<div id="vers231410" class="vers">
+												<div class="vers-no">63</div>
+						<div class="vers-content">But Helcias and his wife praised God, for their daughter Susanna, with Joakim her husband, and all her kindred, because there was no dishonesty found in her.</div>
+					</div>
+									<div id="vers231411" class="vers">
+												<div class="vers-no">64</div>
+						<div class="vers-content">And Daniel became great in the sight of the people from that day, and thenceforward.</div>
+					</div>
+									<div id="vers231412" class="vers">
+												<div class="vers-no">65</div>
+						<div class="vers-content">And king Astyages was gathered to his fathers, and Cyrus the Persian received his kingdom.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_12">&lt; prev</a></div>|
+					<div class="chapter">Chapter 13</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_14">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_1">1</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_2">2</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_3">3</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_4">4</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_5">5</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_6">6</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_7">7</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_8">8</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_9">9</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_10">10</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_11">11</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_12">12</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_13" class="active">13</a> <a href="https://web.archive.org/web/20210119085255/http://catholicbible.online/douay_rheims/OT/Dan/ch_14">14</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20210119085255im_/http://catholicbible.online/assets/img/douay.jpg" alt="" width="130" height="210"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br/>
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br/>
+        Flexible Cover</span></p>
+	<p><a href="https://web.archive.org/web/20210119085255/https://www.baroniuspress.com/category.php?wid=58&amp;cid=1" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20210119085255/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/douay_rheims/OT/Dan/ch_13"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20210119085255/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20210119085255im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 08:52:55 Jan 19, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:21:39 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.532
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.016
+  esindex: 0.012
+  cdx.remote: 15.401
+  LoadShardBlock: 62.343 (3)
+  PetaboxLoader3.datanode: 72.975 (4)
+  load_resource: 441.261
+  PetaboxLoader3.resolve: 100.416
+-->

@@ -1,0 +1,324 @@
+#! /usr/bin/perl
+
+use strict;
+use warnings;
+
+use File::Basename;
+use File::Slurp;
+use File::stat;
+use IPC::Run3;
+use POSIX qw(strftime);
+use String::Trim;
+use utf8;
+#use YAML::Safe;
+use YAML;
+
+
+my $books_list_file = './etc/drbo_books.yaml';
+my $in_dir = "./downloaded";
+my $out_dir = "./out";
+
+my %color = (
+    red          => "\e[0;31m",
+    green        => "\e[0;32m",
+    yellow       => "\e[0;33m",
+    blue         => "\e[0;34m",
+    bright_red   => "\e[1;31m",
+    bright_green => "\e[1;32m",
+    on_red       => "\e[1;41m",
+    on_green     => "\e[1;42m",
+    reset        => "\e[0m",
+);
+
+
+my $books_list = YAML::LoadFile($books_list_file);
+my @files = read_dir($in_dir);
+
+my $out = "";
+my $book_name = "";
+my $last_book_name = "";
+my $book_id = "";
+my $book = {};
+# my $chap_num = 0;
+# my $chap_tag = '';
+
+for my $file (sort @files) {
+    next unless $file =~ /^\d\d\d\d\d\.htm$/;
+    my $in_file = "$in_dir/$file";
+    my $seen_title = 0;
+    my $seen_chapter = 0;
+    my $chap;
+    my $chap_num = 0;
+    my $chap_tag = '';
+    my $last_verse = 0;
+
+
+    for my $line (read_html_file($in_file)) {
+        $line =~ s/\s+$//;
+
+        #$line =~ s/<a href=[^>]+>\[([^\]]+)\]<\/a>/{REF $1}/g;
+        $line =~ s/\(\{REF (Matt 27:56)\}, \{REF (John 19:25)\}\)/{REF $1 & $2}/;
+        $line =~ s/,\s+\{REF /{REF /g;
+        $line =~ s/s+\{REF /{REF /g;
+
+        my $old_line = $line;
+        $line =~ s{<font class=ast>\*</font>}{};
+
+        if (!$seen_title && $line =~ m{<td class="bookname">([^<]+)</td>}) {
+            die "Double titles in $file\n" if $seen_title;
+
+            $book_name = $1;
+            $book_name =~ s/\s+$//;
+            if ($book_name ne $last_book_name) {
+                write_book_file() if defined ($book->{book_id});
+                my $book_id = $books_list->{$book_name}  || print "Unknown title: $book_name\n";
+                $book = {
+                    'book_id'    => $book_id,
+                    'book_name'  => $book_name,
+                    'book_title' => $book_name,
+                    'chapters'   => {},
+                };
+                print "IN $book->{book_id} -- $book_name\n";
+            }
+            $seen_title++;
+        # } elsif ($line =~ /class="bookname"/) {
+        #     print ">>> B $file -- $seen_title -> $line\n";
+        } elsif (!$seen_chapter && $line =~ m{<td class="chapname">([^<]+)</td>}) {
+            $chap_num = $1;
+            if ($chap_num =~ s/^Chapter (\d+)$/$1/) {
+                $chap_tag = "$book->{book_id}:$chap_num";
+            } elsif ($chap_num =~ s/^Psalm (\d+)$/$1/) {
+                $chap_tag = "$book->{book_id}:$chap_num";
+            } else {
+                die "Bad chapter name in $file: $line\n";
+            }
+            print "    Chapter $chap_tag ($file)\n";
+            $seen_chapter++;
+            $book->{chapters}->{"c:".num_to_3digits($chap_num)} = {
+                verses => {},
+                footnotes => {},
+                intro => "",
+                break_after_verses => {},
+                provenance => [],
+            };
+            $chap = \$book->{chapters}->{"c:".num_to_3digits($chap_num)};
+            $$chap->{provenance} = gen_provenance($in_dir, $file);
+
+            #$$chap->{verses} = {};
+            #$
+            $last_verse = 0;
+            #print "        $chapter_name -- $in_file\n";
+        #} elsif ($line =~ m{^<a class="?vn"? href="/cgi-bin/d\?b=drb&amp;bk=(\d+)&amp;ch=(\d+)&amp;l=(\d+)-#x">&nbsp;(\d+)&nbsp;</a>(.+)}) {
+        } elsif ($line =~ m{^<a class="?vn"? href="/cgi-bin/d\?b=drb&amp;bk=(\d+)&amp;ch=(\d+)&amp;l=(\d+)-#x">&nbsp;(\d+)&nbsp;</a>(.+)}) {
+            my ($bk,$ch,$l,$v,$text) = ($1,$2,$3,$4,$5);
+            #print "HAHA - $bk - $ch - $l - $v - $text\n";
+            die "l ne v, Stopped" if $l ne $v;
+
+            # $v = $v - 100 + 21 if $chap_tag eq 'PSA:9' && $v >= 100;
+            # $v = $v - 9 if $chap_tag eq 'PSA:115';
+            # $v = $v - 11 if $chap_tag eq 'PSA:147';
+            my $display_v = $v;
+            $v = adjust_verse_number($chap_tag, $v);
+
+            die "$chap_tag unexpected chap_num: $ch != $chap_num -- $file -- $line\n" if $ch ne $chap_num;
+            die "$chap_tag verse hopping: $last_verse -> $v\n" if $v != ($last_verse + 1);
+
+            print "$chap_tag:{$v} ODD CHAR $text\n" if ($text =~ m/[0\{\}\&\@\#\$\%\^\*]/);
+ 
+            $text =~ s/,?\s*\[([^\]]+)\]/{REF $1}/g;
+            # $text =~ s/,\s+\{REF /{REF /g;
+            # $text =~ s/s+\{REF /{REF /g;
+
+            if ($text =~ s/<\/p>\s*$//) {
+                $$chap->{break_after_verses}->{"v:".num_to_3digits($v)} = 1;
+            }
+
+            $text =~ s/<\/?u>//g;
+
+            my $entry = join(' | ', "$chap_tag:$v", $v, $display_v, $text );
+            $$chap->{verses}->{"v:".num_to_3digits($v)} = $entry;
+            $last_verse = $v;
+        } elsif ($line =~ /class="vn"/) {
+            print "$chap_tag ($file) Failed to load verse: $line\n";
+        } elsif ($line =~ m{<p class="?desc"?>(.+?)(</p>)?$}) {
+            my $text = $1;
+            trim($text);
+            die "$chap_tag Already has an intro" if $$chap->{intro};
+            $$chap->{intro} = $text;
+        } elsif ($line =~ m{<p class="note">\[(\d+)\] <u>"([^"]+)"</u>: (.+)(</p>)?}) {
+            my ($ver, $quote, $note) = ($1,$2,$3);
+            $note =~ s/\s*<\/p>//;
+            $ver = adjust_verse_number($chap_tag, $ver);
+            push(@{$$chap->{footnotes}->{"v:".num_to_3digits($ver)}}, {
+                quote => $quote,
+                note => $note,
+            });
+            1;
+        } elsif ($line =~ m{class="?note}) {
+            die "$chap_tag unhandled note: $line";
+        } elsif ($line =~ m{^<[^>]+>$}) {
+            1; # SKIP SOLO TAGS;
+        } elsif ($line =~ m{^<p class="?k888"?>([A-Z]+)</p>}) {
+            $$chap->{hebrew_letter}->{"v:".num_to_3digits($last_verse + 1)} = $1;
+        } elsif ($line =~ m{^<p class="?k999"?>(.+)</p>}) {
+            $$chap->{after_verse_comment}->{"v:".num_to_3digits($last_verse)} = $1;
+        } elsif (ignore_line($line)) {
+            # IGNORE
+        } else {
+            print "???: |$line|\n";
+        }
+        $last_book_name = $book_name;
+    }
+    die "No title in $file\n" unless $seen_title;
+        #  <a class=vn href="/cgi-bin/d?b=drb&bk=1&ch=1&l=1-#x">&nbsp;1&nbsp;</a>In the beginning God created heaven, and earth.
+        # <td class="bookname">Book of Genesis</td>
+        # <td class="next"> <a href="02001.htm">next ></a></td>
+        # </tr>
+        # <tr>
+        # <td class="prev">< prev</td>
+        # <td class="chapname">Chapter 1</td>
+}
+write_book_file();
+
+################################################################################
+
+sub _blue   {$color{blue}   . $_[0] . $color{reset}}
+sub _yellow {$color{yellow} . $_[0] . $color{reset}}
+
+
+sub adjust_verse_number {
+    my ($chap_tag, $v) = @_;
+
+    $v = $v - 100 + 21 if $chap_tag eq 'PSA:9' && $v >= 100;
+    $v = $v - 9 if $chap_tag eq 'PSA:115';
+    $v = $v - 11 if $chap_tag eq 'PSA:147';
+
+    $v;
+}
+
+
+sub num_to_3digits {
+    sprintf("%03d", $_[0]);
+}
+
+sub write_book_file {
+    my $book_id = $book->{book_id};
+    my $out_file = "$out_dir/$book_id.yaml";
+
+    print "    $color{blue}Writing: $out_file$color{reset}\n";
+    YAML::DumpFile($out_file, $book);
+    $book = {};
+}
+
+sub tidy {
+    my ($mode, $content) = @_;
+    my $out = '';
+    my $err = 'HI';
+    my @cmd = ('tidy', '-w', '0', $mode , '-q');
+
+    #print "RUNNING: ". join(' ', @cmd) ."\n";
+
+    run3 (\@cmd, \$content, \$out, \$err)
+       || die "Error running `tidy`: $?  / $!\n";
+    if ($? == 0) {
+        die "ERROR: $err\n$?, Stopped ";
+    }
+    return($out);
+}
+
+sub read_html_file {
+    my ($path) = @_;
+
+    my $file = basename($path);
+    my $cache_path = "/tmp/cache_$file";
+
+    if (! -f $cache_path) {
+        my $content = read_file($path, {binmode=>":raw"});
+        $content = tidy('-utf8', $content);
+        $content =~ s{<p>}{\n<p>}g;
+        $content =~ s{<p }{\n<p }g;
+        $content =~ s{<a }{\n<a }g;
+
+        $content =~ s{<font class="?ast"?>\*</font>}{}g;
+        $content =~ s/\n<a href=[^>]+>\[([^\]]+)\]<\/a>/{REF $1}/g;
+
+        $content =~ s/\x{2019}/'/g;  # Right Single Quotation Mark
+
+        $content =~ s{<script (.+?)</script>}{\n}sg;
+        $content =~ s{<script>(.+?)</script>}{\n}sg;
+        $content =~ s{<noscript (.+?)</noscript>}{\n}sg;
+        $content =~ s{<noscript>(.+?)</noscript>}{\n}sg;
+        $content =~ s{<!--.*?-->}{}sg;
+        $content =~ s/\n\s+b \{ color:.+?\n\s+}//sg;
+
+        my $timestamp = time2iso(time());
+        write_file($cache_path, "<CACHED $timestamp>\n$content\n<CACHED $timestamp>\n");
+    }
+
+    my $content = read_file($cache_path, {binmode=>":raw"});
+    return split(/\n+/, $content);
+}
+
+
+sub time2iso {
+    my ($time) = @_;
+
+    strftime('%Y-%m-%dT%H:%M:%SZ', gmtime($time));
+}
+
+sub file_mtime {
+    my ($file) = @_;
+    my $st = stat($file) or die "No $file: $!";
+    $st->mtime;
+}
+
+sub gen_provenance {
+    my ($dir, $file) = @_;
+    my @out = ();
+    my $file_time = time2iso(file_mtime("$dir/$file"));
+    my $now_time = time2iso(time());
+
+    push(@out, "$file_time - Downloaded from https://www.drbo.org/chapter/$file");
+    push(@out, "$now_time - Extracted by program $0");
+
+    \@out;
+}
+
+sub ignore_line {
+    my ($line) = @_;
+
+    my %skip_classes = (
+        chapnum => 1,
+        chapname => 1,
+        head5 => 1,
+        chapnum => 1,
+        spacer => 1,
+        topmenu => 1,
+        topmenua => 1,
+        topmenuy => 1,
+        bookname => 1,
+        prev => 1,
+        next => 1,
+        titlebox => 1,
+        searchbox => 1,
+        imglink => 1,
+        statcounter => 1,
+
+    );
+
+    for my $key (keys %skip_classes) {
+        return 1 if  $line =~ /$key/;
+    }
+
+    return 1 if $line =~ m{<td width="30">&nbsp;</td>};
+    return 1 if $line =~ m{<td></td>};
+    return 1 if $line =~ m{<title>.+?</title>};
+    return 1 if $line =~ m{hr size="1"></td>};
+    return 1 if $line =~ m{ href="#"};
+    return 1 if $line !~ /\S/;
+
+
+
+
+    0;
+}

@@ -1,0 +1,445 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app223.us.archive.org';v.server_ms=420;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online:80/side_by_side/NT/Heb/ch_10","20170905182857","https://web.archive.org/","web","/_static/",
+	      "1504636137");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20170905182857cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20170905182857cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20170905182857cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20170905182857js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20170905182857js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20170905182857js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20170905182857js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20170905182857js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20170905182857/http%3A//catholicbible.online/side_by_side/NT/Heb/ch_10"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/NT/Heb/ch_10" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20170905182857" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20170905182857*/http://catholicbible.online/side_by_side/NT/Heb/ch_10" title="See a list of every capture for this URL">11 captures</a>
+          <div class="r" title="Timespan for captures of this URL">25 Jul 2017 - 20 Aug 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170805111619/http://catholicbible.online:80/side_by_side/NT/Heb/ch_10" title="05 Aug 2017"><strong>Aug</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 18:28:57 Sep 05, 2017">SEP</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20171006184956/http://catholicbible.online:80/side_by_side/NT/Heb/ch_10" title="06 Oct 2017"><strong>Oct</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170805111619/http://catholicbible.online:80/side_by_side/NT/Heb/ch_10" title="11:16:19 Aug 05, 2017"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 18:28:57 Sep 05, 2017">05</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20171006184956/http://catholicbible.online:80/side_by_side/NT/Heb/ch_10" title="18:49:56 Oct 06, 2017"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap">2016</td>
+            <td class="c" id="displayYearEl" title="You are here: 18:28:57 Sep 05, 2017">2017</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220118141144/http://catholicbible.online/side_by_side/NT/Heb/ch_10" title="18 Jan 2022"><strong>2022</strong></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20170905182857/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/NT/Heb/ch_10"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20170905182857/http://catholicbible.online:80/side_by_side/NT/Heb/ch_10" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20170905182857/http://catholicbible.online:80/side_by_side/NT/Heb/ch_10" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20170905182857/http://catholicbible.online:80/side_by_side/NT/Heb/ch_10</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/NT/Heb/ch_10","20170905182857",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/vulgate?bible_part_no=2&amp;book_no=19&amp;chapter_no=10" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/douay_rheims?bible_part_no=2&amp;book_no=19&amp;chapter_no=10" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/knox?bible_part_no=2&amp;book_no=19&amp;chapter_no=10" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side?bible_part_no=2&amp;book_no=19&amp;chapter_no=10" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20170905182857/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Hebrews</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Lk">Luke</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Phm">Philemon</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Epistle of St. Paul to the Hebrews — Epistola B. Pauli Apostoli ad Hebræos </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_9">&lt; prev</a></div>|
+					<div class="chapter">Chapter 10</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_11">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_1">1</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_2">2</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_3">3</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_4">4</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_5">5</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_6">6</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_7">7</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_8">8</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_9">9</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_10" class="active">10</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_11">11</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_12">12</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_13">13</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_10?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_10?act_indx=1&amp;act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_10?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_10?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Umbram enim habens lex futurorum bonorum, non ipsam imaginem rerum: per singulos annos, eisdem ipsis hostiis quas offerunt indesinenter, numquam potest accedentes perfectos facere:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">For  the law having a shadow of the good things to come, not the very image of the things; by the selfsame sacrifices which they offer continually every year, can never make the comers thereunto perfect:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">What the law contains is only the shadow of those blessings which were still to come, not the full expression of their reality. The same sacrifices are offered year after year without intermission, and still the worshippers can never reach, through the law, their full growth.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">alioquin cessassent offerri: ideo quod nullam haberent ultra conscientiam peccati, cultores semel mundati:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">For then they would have ceased to be offered: because the worshippers once cleansed should have no conscience of sin any longer:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">If they could, must not the offerings have ceased before now? There would be no guilt left to reproach the consciences of those who come to worship; they would have been cleansed once for all.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">sed in ipsis commemoratio peccatorum per singulos annos fit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">But in them there is made a commemoration of sins every year.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">No, what these offerings bring with them, year by year, is only the remembrance of sins;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Impossibile enim est sanguine taurorum et hircorum auferri peccata.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">For it is impossible that with the blood of oxen and goats sin should be taken away.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">that sins should be taken away by the blood of bulls and goats is impossible.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Ideo ingrediens mundum dicit: Hostiam et oblationem noluisti: corpus autem aptasti mihi:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Wherefore when he cometh into the world, he saith: Sacrifice and oblation thou wouldest not: but a body thou hast fitted to me:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">As Christ comes into the world, he says, No sacrifice, no offering was thy demand; thou hast endowed me, instead, with a body.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">holocautomata pro peccato non tibi placuerunt.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Holocausts for sin did not please thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Thou hast not found any pleasure in burnt-sacrifices, in sacrifices for sin.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Tunc dixi: Ecce venio: in capite libri scriptum est de me: Ut faciam, Deus, voluntatem tuam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Then said I: Behold I come: in the head of the book it is written of me: that I should do thy will, O God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">See then, I said, I am coming to fulfil what is written of me, where the book lies unrolled; to do thy will, O my God. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Superius dicens: Quia hostias, et oblationes, et holocautomata pro peccato noluisti, nec placita sunt tibi, quæ secundum legem offeruntur,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">In saying before, Sacrifices, and oblations, and holocausts for sin thou wouldest not, neither are they pleasing to thee, which are offered according to the law.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">First he says, Thou didst not demand victim or offering, the burnt-sacrifice, the sacrifice for sin, nor hast thou found any pleasure in them; in anything, that is, which the law has to offer,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">tunc dixi: Ecce venio, ut faciam, Deus, voluntatem tuam: aufert primum, ut sequens statuat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Then said I: Behold, I come to do thy will, O God: he taketh away the first, that he may establish that which followeth.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">and then:—I said, See, my God, I am coming to do thy will. He must clear the ground first, so as to build up afterwards.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">In qua voluntate sanctificati sumus per oblationem corporis Jesu Christi semel.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">In the which will, we are sanctified by the oblation of the body of Jesus Christ once.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">In accordance with this divine will we have been sanctified by an offering made once for all, the body of Jesus Christ.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Et omnis quidem sacerdos præsto est quotidie ministrans, et easdem sæpe offerens hostias, quæ numquam possunt auferre peccata:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">And every priest indeed standeth daily ministering, and often offering the same sacrifices, which can never take away sins.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">One high priest after another must stand there, day after day, offering again and again the same sacrifices, which can never take away our sins;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">hic autem unam pro peccatis offerens hostiam, in sempiternum sedet in dextera Dei,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">But this man offering one sacrifice for sins, for ever sitteth on the right hand of God,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">whereas he sits for ever at the right hand of God, offering for our sins a sacrifice that is never repeated. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">de cetero exspectans donec ponantur inimici ejus scabellum pedum ejus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">From henceforth expecting, until his enemies be made his footstool.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">He only waits, until all his enemies are made a footstool under his feet; </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Una enim oblatione, consummavit in sempiternum sanctificatos.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">For by one oblation he hath perfected for ever them that are sanctified.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">by a single offering he has completed his work, for all time, in those whom he sanctifies.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Contestatur autem nos et Spiritus Sanctus. Postquam enim dixit:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">And the Holy Ghost also doth testify this to us. For after that he said:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">And here the Holy Spirit adds his testimony. He has been saying,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Hoc autem testamentum, quod testabor ad illos post dies illos, dicit Dominus, dando leges meas in cordibus eorum, et in mentibus eorum superscribam eas:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">And this is the testament which I will make unto them after those days, saith the Lord. I will give my laws in their hearts, and on their minds will I write them:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">This is the covenant I will grant them, the Lord says, when that time comes; I will implant my laws in their hearts, engrave them in their innermost thoughts. And what follows?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">et peccatorum, et iniquitatum eorum jam non recordabor amplius.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">And their sins and iniquities I will remember no more.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">I will not remember their sins and their transgressions any more. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Ubi autem horum remissio: jam non est oblatio pro peccato.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Now where there is a remission of these, there is no more an oblation for sin.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Where they are so remitted, there is no longer any room for a sin-offering.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Habentes itaque, fratres, fiduciam in introitu sanctorum in sanguine Christi,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Having therefore, brethren, a confidence in the entering into the holies by the blood of Christ;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Why then, brethren, we can enter the sanctuary with confidence through the blood of Christ.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">quam initiavit nobis viam novam, et viventem per velamen, id est, carnem suam,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">A new and living way which he hath dedicated for us through the veil, that is to say, his flesh,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">He has opened up for us a new, a living approach, by way of the veil, I mean, his mortality. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">et sacerdotem magnum super domum Dei:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">And a high priest over the house of God:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">A great priest is ours, who has dominion over God’s house.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">accedamus cum vero corde in plenitudine fidei, aspersi corda a conscientia mala, et abluti corpus aqua munda,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Let us draw near with a true heart in fulness of faith, having our hearts sprinkled from an evil conscience, and our bodies washed with clean water.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Let us come forward with sincere hearts in the full assurance of the faith, our guilty consciences purified by sprinkling, our bodies washed clean in hallowed water. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">teneamus spei nostræ confessionem indeclinabilem (fidelis enim est qui repromisit),</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Let us hold fast the confession of our hope without wavering (for he is faithful that hath promised),</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Do not let us waver in acknowledging the hope we cherish; we have a promise from one who is true to his word.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">et consideremus invicem in provocationem caritatis, et bonorum operum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">And let us consider one another, to provoke unto charity and to good works:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Let us keep one another in mind, always ready with incitements to charity and to acts of piety,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">non deserentes collectionem nostram, sicut consuetudinis est quibusdam, sed consolantes, et tanto magis quanto videritis appropinquantem diem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Not forsaking our assembly, as some are accustomed; but comforting one anther, and so much the more as you see the day approaching.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">not abandoning, as some do, our common assembly, but encouraging one another; all the more, as you see the great day drawing nearer.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Voluntarie enim peccantibus nobis post acceptam notitiam veritatis, jam non relinquitur pro peccatis hostia,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">For if we sin wilfully after having the knowledge of the truth, there is now left no sacrifice for sins,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">If we go on sinning wilfully, when once the full knowledge of the truth has been granted to us, we have no further sacrifice for sin to look forward to; </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">terribilis autem quædam exspectatio judicii, et ignis æmulatio, quæ consumptura est adversarios.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">But a certain dreadful expectation of judgment, and the rage of a fire which shall consume the adversaries.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">nothing but a terrible expectation of judgement, a fire that will eagerly consume the rebellious.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Irritam quis faciens legem Moysi, sine ulla miseratione duobus vel tribus testibus moritur:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">A man making void the law of Moses, dieth without any mercy under two or three witnesses:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Let a man be convicted by two or three witnesses of defying the law of Moses, and he dies, without hope of mercy. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">quanto magis putatis deteriora mereri supplicia qui Filium Dei conculcaverit, et sanguinem testamenti pollutum duxerit, in quo sanctificatus est, et spiritui gratiæ contumeliam fecerit?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">How much more, do you think he deserveth worse punishments, who hath trodden under foot the Son of God, and hath esteemed the blood of the testament unclean, by which he was sanctified, and hath offered an affront to the Spirit of grace?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">What of the man who has trampled the Son of God under foot, who has reckoned the blood of the covenant, that blood which sanctified him, as a thing unclean, mocked at the Spirit that brought him grace? Will not he incur a punishment much more severe?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Scimus enim qui dixit: Mihi vindicta, et ego retribuam. Et iterum: Quia judicabit Dominus populum suum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">For we know him that hath said: Vengeance belongeth to me, and I will repay. And again: The Lord shall judge his people.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">It is one we know well, who has told us, Vengeance is for me, I will repay; and again, The Lord will judge his people. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Horrendum est incidere in manus Dei viventis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">It is a fearful thing to fall into the hands of the living God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">It is a fearful thing to fall into the hands of the living God.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">Rememoramini autem pristinos dies, in quibus illuminati, magnum certamen sustinuistis passionum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">But call to mind the former days, wherein, being illuminated, you endured a great fight of afflictions.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">Remember those early days, when the light first came to you, and the hard probation of suffering you went through.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">et in altero quidem opprobriis et tribulationibus spectaculum facti: in altero autem socii taliter conversantium effecti.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">And on the one hand indeed, by reproaches and tribulations, were made a gazingstock; and on the other, became companions of them that were used in such sort.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">There were times when you yourselves were publicly exposed to calumny and persecution; there was a time when you took part with those who had the same path to tread.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Nam et vinctis compassi estis, et rapinam bonorum vestrorum cum gaudio suscepistis, cognoscentes vos habere meliorem et manentem substantiam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">For you both had compassion on them that were in bands, and took with joy the being stripped of your own goods, knowing that you have a better and a lasting substance.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">You shewed your sympathy with those who were in bonds; and when you were robbed of your goods you took it cheerfully, as men who knew that a higher, a more lasting good was yours.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Nolite itaque amittere confidentiam vestram, quæ magnam habet remunerationem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Do not therefore lose your confidence, which hath a great reward.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Do not throw away that confidence of yours, with its rich hope of reward;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Patientia enim vobis necessaria est: ut voluntatem Dei facientes, reportetis promissionem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">For patience is necessary for you; that, doing the will of God, you may receive the promise.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">you still need endurance, if you are to attain the prize God has promised to those who do his will.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Adhuc enim modicum aliquantulum, qui venturus est, veniet, et non tardabit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">For yet a little and a very little while, and he that is to come, will come, and will not delay.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Only a brief moment, now, before he who is coming will be here; he will not linger on the way.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Justus autem meus ex fide vivit: quod si subtraxerit se, non placebit animæ meæ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">But my just man liveth by faith; but if he withdraw himself, he shall not please my soul.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">It is faith that brings life to the man whom I accept as justified; if he shrinks back, he shall win no favour with me. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Nos autem non sumus subtractionis filii in perditionem, sed fidei in acquisitionem animæ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">But we are not the children of withdrawing unto perdition, but of faith to the saving of the soul.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Not for us to shrink away, and be lost; it is for us to have faith, and save our souls.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_9">&lt; prev</a></div>|
+					<div class="chapter">Chapter 10</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_11">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_1">1</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_2">2</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_3">3</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_4">4</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_5">5</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_6">6</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_7">7</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_8">8</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_9">9</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_10" class="active">10</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_11">11</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_12">12</a> <a href="https://web.archive.org/web/20170905182857/http://catholicbible.online/side_by_side/NT/Heb/ch_13">13</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20170905182857im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20170905182857/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20170905182857/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/NT/Heb/ch_10"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20170905182857/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20170905182857im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 18:28:57 Sep 05, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:35:26 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.566
+  exclusion.robots: 0.029
+  exclusion.robots.policy: 0.019
+  esindex: 0.009
+  cdx.remote: 9.873
+  LoadShardBlock: 181.003 (3)
+  PetaboxLoader3.datanode: 191.223 (4)
+  PetaboxLoader3.resolve: 163.35 (2)
+  load_resource: 200.296
+-->

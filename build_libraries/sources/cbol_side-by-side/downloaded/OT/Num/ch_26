@@ -1,0 +1,530 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app221.us.archive.org';v.server_ms=549;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/side_by_side/OT/Num/ch_26","20210727120009","https://web.archive.org/","web","/_static/",
+	      "1627387209");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20210727120009cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20210727120009cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20210727120009cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20210727120009js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210727120009js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210727120009js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210727120009js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20210727120009js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20210727120009/http%3A//catholicbible.online/side_by_side/OT/Num/ch_26"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/OT/Num/ch_26" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20210727120009" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20210727120009*/http://catholicbible.online/side_by_side/OT/Num/ch_26" title="See a list of every capture for this URL">5 captures</a>
+          <div class="r" title="Timespan for captures of this URL">13 Mar 2017 - 27 Jun 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20210422221359/http://catholicbible.online/side_by_side/OT/Num/ch_26" title="22 Apr 2021"><strong>Apr</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 12:00:09 Jul 27, 2021">JUL</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220302204331/http://catholicbible.online/side_by_side/OT/Num/ch_26" title="02 Mar 2022"><strong>Mar</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20210422221359/http://catholicbible.online/side_by_side/OT/Num/ch_26" title="22:13:59 Apr 22, 2021"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 12:00:09 Jul 27, 2021">27</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220302204331/http://catholicbible.online/side_by_side/OT/Num/ch_26" title="20:43:31 Mar 02, 2022"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170313175914/http://catholicbible.online/side_by_side/OT/Num/ch_26" title="13 Mar 2017"><strong>2017</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 12:00:09 Jul 27, 2021">2021</td>
+            <td class="f" nowrap="nowrap">2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20210727120009/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/OT/Num/ch_26"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_26" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_26" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/wikipedia-eventstream)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/wikipedia-eventstream" target="_new"><span class="wm-title">Wikipedia Eventstream</span></a></div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_26</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/OT/Num/ch_26","20210727120009",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=4&amp;chapter_no=26" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=4&amp;chapter_no=26" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=4&amp;chapter_no=26" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=4&amp;chapter_no=26" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20210727120009/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Numbers</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Lev">Leviticus</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Book of Numbers — Liber Numeri </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_25">&lt; prev</a></div>|
+					<div class="chapter">Chapter 26</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_27">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_1">1</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_2">2</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_3">3</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_4">4</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_5">5</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_6">6</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_7">7</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_8">8</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_9">9</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_10">10</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_11">11</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_12">12</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_13">13</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_14">14</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_15">15</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_16">16</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_17">17</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_18">18</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_19">19</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_20">20</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_21">21</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_22">22</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_23">23</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_24">24</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_25">25</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_26" class="active">26</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_27">27</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_28">28</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_29">29</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_30">30</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_31">31</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_32">32</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_33">33</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_34">34</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_35">35</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_36">36</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_26?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_26?act_indx=1&amp;act=-1" class="left">&lt;</a>Knox Bible<a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_26?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_26?act_indx=2&amp;act=-1" class="left">&lt;</a>Douay-Rheims</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Postquam noxiorum sanguis effusus est, dixit Dominus ad Moysen et Eleazarum filium Aaron sacerdotem:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">When this toll of guilty blood had been taken, the Lord said to Moses and to the new high priest, Aaron’s son Eleazar,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">After  the blood of the guilty was shed, the Lord said to Moses and to Eleazar the son of Aaron, the priest:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Numerate omnem summam filiorum Israël a viginti annis et supra, per domos et cognationes suas, cunctos qui possunt ad bella procedere.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Make a register, by households and families, of all the Israelites that have reached the age of twenty; that is, all the fighting men.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Number the whole sum of the children of Israel from twenty years old and upward, by their houses and kindreds, all that are able to go forth to war.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Locuti sunt itaque Moyses et Eleazar sacerdos, in campestribus Moab super Jordanem contra Jericho, ad eos qui erant</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">So, in the plains of Moab, across the Jordan opposite Jericho, Moses and the high priest Eleazar summoned them all,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Moses therefore and Eleazar the priest, being in the plains of Moab upon the Jordan over against Jericho, spoke to them that were</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">a viginti annis et supra, sicut Dominus imperaverat, quorum iste est numerus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">the men of twenty years old or more, and passed the Lord’s command on to them. And the register was as follows:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">From twenty years old and upward, as the Lord had commanded: and this is the number of them:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Ruben primogenitus Israël: hujus filius, Henoch, a quo familia Henochitarum: et Phallu, a quo familia Phalluitarum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">The sons of Ruben, Israel’s first-born, were called Henoch, Phallu,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Ruben the firstborn of Israel. His sons were Henoch, of whom is the family of the Henochites: and Phallu, of whom is the family of the Phalluites:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">et Hesron, a quo familia Hesronitarum: et Charmi, a quo familia Charmitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Hesron and Charmi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">And Hesron, of whom is the family of the Hesronites: and Charmi, of whom is the family of the Charmites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Hæ sunt familiæ de stirpe Ruben: quarum numerus inventus est quadraginta tria millia, et septingenti triginta.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">These gave their names to the clans of Ruben, which counted forty-three thousand seven hundred and thirty men.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">These are the families of the stock of Ruben: whose number was found to be forty-three thousand seven hundred and thirty.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Filius Phallu, Eliab:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Phallu had a son called Eliab,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">The son of Phallu was Eliab.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">hujus filii, Namuel et Dathan et Abiron: isti sunt Dathan et Abiron principes populi, qui surrexerunt contra Moysen et Aaron in seditione Core, quando adversus Dominum rebellaverunt:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">who was the father of Namuel, Dathan, and Abiron. (It was these two chiefs, Dathan and Abiron, that made head against Moses and Aaron at the time of Core’s rebellion, setting the Lord at defiance.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">His sons, were Namuel and Dathan and Abiron. These are Dathan and Abiron the princes of the people, that rose against Moses and Aaron in the sedition of Core, when they rebelled against the Lord:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">et aperiens terra os suum devoravit Core, morientibus plurimis, quando combussit ignis ducentos quinquaginta viros. Et factum est grande miraculum,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">The earth gaped open, and Core was swallowed up; many of the Israelites were killed, two hundred and fifty of them by fire, and it was a great miracle</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">And the earth opening her mouth swallowed up Core, many others dying, when the fire burned two hundred and fifty men. And there was a great miracle wrought,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">ut, Core pereunte, filii illius non perirent.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">that when Core perished, his sons did not perish with him.)</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">That when Core perished, his sons did not perish.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Filii Simeon per cognationes suas: Namuel, ab hoc familia Namuelitarum: Jamin, ab hoc familia Jaminitarum: Jachin, ab hoc familia Jachinitarum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">The clans of Simeon were named after his sons, Namuel, Jamin, Jachin,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">The sons of Simeon by their kindreds: Namuel, of him is the family of the Namuelites: Jamin, of him is the family of the Jaminites: Jachin, of him is the family of the Jachinites:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Zare, ab hoc familia Zareitarum: Saul, ab hoc familia Saulitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Zare and Saul;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Zare, of him is the family of the Zarites: Saul, of him is the family of the Saulites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Hæ sunt familiæ de stirpe Simeon, quarum omnis numerus fuit viginti duo millia ducenti.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">they counted twenty-two thousand two hundred.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">These are the families of the stock of Simeon, of which the whole number was twenty-two thousand two hundred.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Filii Gad per cognationes suas: Sephon, ab hoc familia Sephonitarum: Aggi, ab hoc familia Aggitarum: Suni, ab hoc familia Sunitarum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">And the clans of Gad were named after his sons, Sephon, Aggi, Suni,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">The sons of Gad by their kindreds: Sephon, of him is the family of the Sephonites: Aggi, of him is the family of the Aggites: Suni, of him is the family of the Sunites:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Ozni, ab hoc familia Oznitarum: Her, ab hoc familia Heritarum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Ozni, Her,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Ozni, of him is the family of the Oznites: Her, of him is the family of the Herites:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Arod, ab hoc familia Aroditarum: Ariel, ab hoc familia Arielitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Arod and Ariel;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Arod, of him is the family of the Arodites: Ariel, of him is the family of the Arielites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Istæ sunt familiæ Gad, quarum omnis numerus fuit quadraginta millia quingenti.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">they counted forty thousand five hundred.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">These are the families of Gad, of which the whole number was forty thousand five hundred.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Filii Juda, Her et Onan, qui ambo mortui sunt in terra Chanaan.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Juda had two sons, Her and Onan, who died in the land of Chanaan;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">The sons of Juda, Her and Onan, who both died in the land of Chanaan.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Fueruntque filii Juda per cognationes suas: Sela, a quo familia Selaitarum: Phares, a quo familia Pharesitarum: Zare, a quo familia Zareitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">his other sons gave their names to clans, Sela, Phares, and Zara.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">And the sons of Juda by their kindreds were: Sela, of whom is the family of the Selaites: Phares, of whom is the family of the Pharesites: Zare, of whom is the family of the Zarites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Porro filii Phares: Hesron, a quo familia Hesronitarum: et Hamul, a quo familia Hamulitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">(This Phares had two sons, who gave their names to the Hesronites and the Hamulites.)</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Moreover the sons of Phares were: Hesron, of whom is the family of the Hesronites: and Hamul, of whom is the family of the Hamulites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Istæ sunt familiæ Juda, quarum omnis numerus fuit septuaginta sex millia quingenti.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Juda counted seventy-six thousand five hundred.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">These are the families of Juda, of which the whole number was seventy-six thousand five hundred.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Filii Issachar per cognationes suas: Thola, a quo familia Tholaitarum: Phua, a quo familia Phuaitarum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">The clans of Issachar were named after his sons, Thola, Phua,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">The sons of Issachar, by their kindreds: Thola, of whom is the family of the Tholaites: Phua, of whom is the family of the Phuaites:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Jasub, a quo familia Jasubitarum: Semran, a quo familia Semranitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Jasub and Semran;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Jasub, of whom is the family of the Jasubites: Semran, of whom is the family of the Semranites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Hæ sunt cognationes Issachar, quarum numerus fuit sexaginta quatuor millia trecenti.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">they counted sixty-four thousand three hundred.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">These are the kindreds of Issachar, whose number was sixty-four thousand three hundred.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Filii Zabulon per cognationes suas: Sared, a quo familia Sareditarum: Elon, a quo familia Elonitarum: Jalel, a quo familia Jalelitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">The clans of Zabulon were named after his sons, Sared, Elon and Jalel;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">The sons of Zabulon by their kindreds: Sared, of whom is the family of the Saredites: Elon, of whom is the family of the Elonites: Jalel, of whom is the family of the Jalelites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">Hæ sunt cognationes Zabulon, quarum numerus fuit sexaginta millia quingenti.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">they counted sixty thousand five hundred.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">These are the kindreds of Zabulon, whose number was sixty thousand five hundred.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Filii Joseph per cognationes suas, Manasse et Ephraim.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">The clans of Joseph were descended from his two sons, Manasses and Ephraim.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">The sons of Joseph by their kindred, Manasses and Ephraim.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">De Manasse ortus est Machir, a quo familia Machiritarum. Machir genuit Galaad, a quo familia Galaaditarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Manasses’ son Machir gave his name to the Machirites and Machir’s son Galaad to the Galaadites;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Of Manasses was born Machir, of whom is the family of the Machirites. Machir begot Galaad, of whom is the family of the Galaadites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Galaad habuit filios: Jezer, a quo familia Jezeritarum: et Helec, a quo familia Helecitarum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">and the clans of Galaad were named after his sons, Jezer, Helec,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">Galaad had sons: Jezer, of whom is the family of the Jezerites: and Helec, of whom is the family of the Helecites:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">et Asriel, a quo familia Asrielitarum: et Sechem, a quo familia Sechemitarum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">Asriel, Sechem,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">And Asriel, of whom is the family of the Asrielites: and Sechem, of whom is the family of the Sechemites:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">et Semida, a quo familia Semidaitarum: et Hepher, a quo familia Hepheritarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">Semida and Hepher.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">And Semida, of whom is the family of the Semidaites: and Hepher, of whom is the family of the Hepherites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">Fuit autem Hepher pater Salphaad, qui filios non habebat, sed tantum filias: quarum ista sunt nomina: Maala, et Noa, et Hegla, et Melcha, et Thersa.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">(Hepher was the father of Salphaad, who had no sons, but five daughters, Maala, Noa, Hegla, Melcha and Thersa.)</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">And Hepher was the father of Salphaad, who had no sons, but only daughters, whose names are these: Maala, and Noa, and Hegla, and Melcha, and Thersa.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Hæ sunt familiæ Manasse, et numerus earum quinquaginta duo millia septingenti.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Manasses counted fifty-two thousand seven hundred.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">These are the families of Manasses, and the number of them fifty-two thousand seven hundred.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Filii autem Ephraim per cognationes suas fuerunt hi: Suthala, a quo familia Suthalaitarum: Becher, a quo familia Becheritarum: Thehen, a quo familia Thehenitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">The clans of Ephraim were named after his sons Suthala, Becher and Thenen.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">And the sons of Ephraim by their kindreds were these: Suthala, of whom is the family of the Suthalaites: Becher, of whom is the family of the Becherites: Thehen, of whom is the family of the Thehenites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Porro filius Suthala fuit Heran, a quo familia Heranitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">(Heran, the founder of the Heranites, was Suthala’s son.)</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Now the son of Suthala was Heran, of whom is the family of the Heranites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Hæ sunt cognationes filiorum Ephraim: quarum numerus fuit triginta duo millia quingenti.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Ephraim counted thirty-two thousand five hundred.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">These are the kindreds of the sons of Ephraim: whose number was thirty-two thousand five hundred.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Isti sunt filii Joseph per familias suas. Filii Benjamin in cognationibus suis: Bela, a quo familia Belaitarum: Asbel, a quo familia Asbelitarum: Ahiram, a quo familia Ahiramitarum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">All these were the descendants of Joseph. The clans of Benjamin were named after his sons, Bela, Asbel, Ahiram,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">These are the sons of Joseph by their families. The sons of Benjamin in their kindreds: Bela, of whom is the family of the Belaites: Asbel, of whom is the family of the Asbelites: Ahiram, of whom is the family of the Ahiramites:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Supham, a quo familia Suphamitarum: Hupham, a quo familia Huphamitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Supham and Hupham.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Supham, of whom is the family of the Suphamites: Hupham, of whom is the family of the Huphamites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">Filii Bela: Hered, et Noëman. De Hered, familia Hereditarum: de Noëman, familia Noëmanitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">(Bela’s sons gave their names to the Heredites and the Noemanites.)</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">The sons of Bela: Hered, and Noeman. Of Hered, is the family of the Heredites: of Noeman, the family of the Noemanites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">Hi sunt filii Benjamin per cognationes suas: quorum numerus fuit quadraginta quinque millia sexcenti.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">Benjamin counted forty-five thousand six hundred.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">41</div> <div class="vers-content">These are the sons of Benjamin by their kindreds, whose number was forty-five thousand six hundred.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Filii Dan per cognationes suas: Suham, a quo familia Suhamitarum. Hæ sunt cognationes Dan per familias suas.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">Dan had no sons but Suham, the founder of the Suhamites; all the clans descended from Dan</div></div></td>
+																	<td><div class="vers"><div class="vers-no">42</div> <div class="vers-content">The sons of Dan by their kindreds: Suham, of whom is the family of the Suhamites: These are the kindreds of Dan by their families.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">Omnes fuere Suhamitæ, quorum numerus erat sexaginta quatuor millia quadringenti.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">were Suhamites, counting sixty-four thousand four hundred.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">43</div> <div class="vers-content">All were Suhamites, whose number was sixty-four thousand four hundred.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">Filii Aser per cognationes suas: Jemna, a quo familia Jemnaitarum: Jessui, a quo familia Jessuitarum: Brie, a quo familia Brieitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">The clans of Aser were named after his sons, Jemna, Jessui and Brie.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">44</div> <div class="vers-content">The sons of Aser by their kindreds: Jemna, of whom is the family of the Jemnaites: Jessui, of whom is the family of the Jessuites: Brie, of whom is the family of the Brieites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">Filii Brie: Heber, a quo familia Heberitarum: et Melchiel, a quo familia Melchielitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">(Brie had two sons, who gave their names to the Heberites and the Melchielites.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">45</div> <div class="vers-content">The sons of Brie: Heber, of whom is the family of the Heberites: and Melchiel, of whom is the family of the Melchielites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">Nomen autem filiæ Aser fuit Sara.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">Aser had also a daughter called Sara.)</div></div></td>
+																	<td><div class="vers"><div class="vers-no">46</div> <div class="vers-content">And the name of the daughter of Aser, was Sara.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">Hæ cognationes filiorum Aser, et numerus eorum quinquaginta tria millia quadringenti.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">Aser counted fifty-three thousand four hundred.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">47</div> <div class="vers-content">These are the kindreds of the sons of Aser, and their number fifty-three thousand four hundred.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">Filii Nephthali per cognationes suas: Jesiel, a quo familia Jesielitarum: Guni, a quo familia Gunitarum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">And the clans of Nephthali were called after his sons, Jesiel, Guni,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">48</div> <div class="vers-content">The sons of Nephtali by their kindreds: Jesiel, of whom is the family of the Jesielites: Guni, of whom is the family of the Gunites:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">Jeser, a quo familia Jeseritarum: Sellem, a quo familia Sellemitarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">Jeser and Sellem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">49</div> <div class="vers-content">Jeser, of whom is the family of the Jeserites: Sellem, of whom is the family of the Sellemites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">Hæ sunt cognationes filiorum Nephthali per familias suas: quorum numerus quadraginta quinque millia quadringenti.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">Nephthali counted forty-five thousand four hundred.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">50</div> <div class="vers-content">These are the kindreds of the sons of Nephtali by their families: whose number was forty-five thousand four hundred.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">Ista est summa filiorum Israël, qui recensiti sunt, sexcenta millia, et mille septingenti triginta.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">Thus the whole muster-roll of the Israelites contained six hundred and one thousand, seven hundred and thirty names.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">51</div> <div class="vers-content">This is the sum of the children of Israel, that were reckoned up, six hundred and one thousand seven hundred and thirty.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">Locutusque est Dominus ad Moysen, dicens:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">And the Lord told Moses,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">52</div> <div class="vers-content">And the Lord spoke to Moses, saying:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">Istis dividetur terra juxta numerum vocabulorum in possessiones suas.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">The land must be divided up under these names, one portion for each. </div></div></td>
+																	<td><div class="vers"><div class="vers-no">53</div> <div class="vers-content">To these shall the land be divided for their possessions according to the number of names.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">Pluribus majorem partem dabis, et paucioribus minorem: singulis, sicut nunc recensiti sunt, tradetur possessio:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">A large portion where they are many, a small portion where they are few; their inheritance is to be assigned to them according to this present register;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">54</div> <div class="vers-content">To the greater number thou shalt give a greater portion, and to the fewer a less: to every one, as they have now been reckoned up, shall a possession be delivered:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">ita dumtaxat ut sors terram tribubus dividat et familiis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">but always lots must be used to decide between tribe and tribe, between clan and clan.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">55</div> <div class="vers-content">Yet so that by lot the land be divided to the tribe and families.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">Quidquid sorte contigerit, hoc vel plures accipiant, vel pauciores.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">Great or small, they must be content with what the lot gives them.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">56</div> <div class="vers-content">Whatsoever shall fall by lot, that shall be taken by the more, or the fewer.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">Hic quoque est numerus filiorum Levi per familias suas: Gerson, a quo familia Gersonitarum: Caath, a quo familia Caathitarum: Merari, a quo familia Meraritarum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">The Levites, too, were divided into clans, named after Levi’s sons, Gerson, Caath and Merari.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">57</div> <div class="vers-content">This also is the number of the sons of Levi by their families: Gerson, of whom is the family of the Gersonites: Caath, of whom is the family of the Caathites: Merari, of whom is the family of the Merarites.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">Hæ sunt familiæ Levi: familia Lobni, familia Hebroni, familia Moholi, familia Musi, familia Core. At vero Caath genuit Amram:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">(These are sub-divided into the Levite clans named after Lobni, Hebroni, Moholi, Musi and Core.  ) Caath was father of Amram,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">58</div> <div class="vers-content">These are the families of Levi: The family of Lobni, the family of Hebroni, the family of Moholi, the family of Musi, the family of Core. Now Caath begot Amram:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">qui habuit uxorem Jochabed filiam Levi, quæ nata est ei in Ægypto. Hæc genuit Amram viro suo filios, Aaron, et Moysen, et Mariam sororem eorum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">who married Jochabed, a daughter of Levi, born to him in Egypt; the children she bore to Amram were Aaron and Moses and their sister Mary.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">59</div> <div class="vers-content">Who had to wife Jochabed the daughter of Levi, who was born to him in Egypt. She bore to her husband Amram sons, Aaron and Moses, and Mary their sister.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">De Aaron orti sunt Nadab et Abiu, et Eleazar et Ithamar:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">Aaron’s sons were called Nadab, Abiu, Eleazar and Ithamar;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">60</div> <div class="vers-content">Of Aaron were born Nadab and Abiu, and Eleazar and Ithamar:</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">quorum Nadab et Abiu mortui sunt, cum obtulissent ignem alienum coram Domino.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">but of these, Nadab and Abiu were punished with death for offering the Lord unhallowed fire.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">61</div> <div class="vers-content">Of whom Nadab and Abiu died, when they had offered the strange fire before the Lord.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">Fueruntque omnes qui numerati sunt, viginti tria millia generis masculini ab uno mense et supra: quia non sunt recensiti inter filios Israël, nec eis cum ceteris data possessio est.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">Of the Levites altogether, twenty-three thousand were registered; males all of them, but counting all those who were more than a month old. They were not reckoned in the muster-roll of Israel, nor did they receive lands like the rest.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">62</div> <div class="vers-content">And all that were numbered, were twenty-three thousand males from one month old and upward: for they were not reckoned up among the children of Israel, neither was a possession given to them with the rest.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">Hic est numerus filiorum Israël, qui descripti sunt a Moyse et Eleazaro sacerdote, in campestribus Moab supra Jordanem contra Jericho:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">Such was the register of the Israelites made by Moses and the high priest Eleazar, when they reached the plains of Moab, by the Jordan opposite Jericho.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">63</div> <div class="vers-content">This is the number of the children of Israel, that were enrolled by Moses and Eleazar the priest, in the plains of Moab upon the Jordan, over against Jericho.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">64</div> <div class="vers-content">inter quos, nullus fuit eorum qui ante numerati sunt a Moyse et Aaron in deserto Sinai:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">64</div> <div class="vers-content">Of these, not one had been among those registered by Moses and Aaron in the desert of Sinai,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">64</div> <div class="vers-content">Among whom there was not one of them that were numbered before by Moses and Aaron in the desert of Sinai.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">65</div> <div class="vers-content">prædixerat enim Dominus quod omnes morerentur in solitudine. Nullusque remansit ex eis, nisi Caleb filius Jephone, et Josue filius Nun.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">65</div> <div class="vers-content">and afterwards doomed by the Lord to die in the wilderness; none of those now remained, except Caleb, son of Jephone, and Josue, son of Nun.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">65</div> <div class="vers-content">For the Lord had foretold that they should die in the wilderness. And none remained of them, but Caleb the son of Jephone, and Josue the son of Nun.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_25">&lt; prev</a></div>|
+					<div class="chapter">Chapter 26</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_27">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_1">1</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_2">2</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_3">3</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_4">4</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_5">5</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_6">6</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_7">7</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_8">8</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_9">9</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_10">10</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_11">11</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_12">12</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_13">13</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_14">14</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_15">15</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_16">16</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_17">17</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_18">18</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_19">19</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_20">20</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_21">21</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_22">22</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_23">23</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_24">24</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_25">25</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_26" class="active">26</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_27">27</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_28">28</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_29">29</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_30">30</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_31">31</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_32">32</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_33">33</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_34">34</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_35">35</a> <a href="https://web.archive.org/web/20210727120009/http://catholicbible.online/side_by_side/OT/Num/ch_36">36</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20210727120009im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20210727120009/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20210727120009/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/OT/Num/ch_26"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20210727120009/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20210727120009im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 12:00:09 Jul 27, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:22:37 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.819
+  exclusion.robots: 0.041
+  exclusion.robots.policy: 0.024
+  esindex: 0.014
+  cdx.remote: 7.362
+  LoadShardBlock: 343.97 (3)
+  PetaboxLoader3.resolve: 379.852 (4)
+  PetaboxLoader3.datanode: 78.893 (4)
+  load_resource: 142.116
+-->

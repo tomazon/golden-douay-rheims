@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Knox Bible</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online â Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+			450: {
+				id_comment: 450,
+				source_str: 'â»',
+				caption: '',
+				content: "âWorks at the distaff like a womanâ; some understand the Hebrew text as meaning âleaning on a staffâ; that is, a cripple."
+			},
+					451: {
+				id_comment: 451,
+				source_str: 'â»',
+				caption: '',
+				content: "âThe ignobleâ; the Latin word used here may mean either âidleâ or âcowardlyâ. The corresponding word in the Hebrew text has the sense of recklessness, and usually implies defiance of the Divine law."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Knox Bible</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=1&book_no=10&chapter_no=3" class="menu-item ">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=1&book_no=10&chapter_no=3" class="menu-item ">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=1&book_no=10&chapter_no=3" class="menu-item active">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=1&book_no=10&chapter_no=3" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">2 Kings</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/knox/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/knox/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Jos">Josue</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/knox/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/1_Par">1 Paralipomena</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/2_Par">2 Paralipomena</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Neh">2 Esdras (Nehemias)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Cant">Song of Songs</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Eccle">Ecclesiasticus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Mic">Michaeas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Agg">Aggaeus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/knox/OT/2_Kgs/7108?vers_inline=0"><img src="https://catholicbible.online/assets/img/verses.jpg" alt="" /></a>					<a href="https://catholicbible.online/knox/OT/2_Kgs/7108?comments_open=0"><img src="https://catholicbible.online/assets/img/C-on.gif" alt="" /></a>				</div>
+				<div class="bible-name">The Holy Bible â Knox Translation</div>
+				<div class="book-name">The Second Book of Kings </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/knox/OT/2_Kgs/7107">&lt; prev</a></div>|
+					<div class="chapter">Chapter 3</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/knox/OT/2_Kgs/7109">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/knox/OT/2_Kgs/ch_1">1</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_2">2</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_3" class="active">3</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_4">4</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_5">5</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_6">6</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_7">7</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_8">8</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_9">9</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_10">10</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_11">11</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_12">12</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_13">13</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_14">14</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_15">15</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_16">16</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_17">17</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_18">18</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_19">19</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_20">20</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_21">21</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_22">22</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_23">23</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_24">24</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers152479" class="vers vers-inline">
+												<div class="vers-no">1</div>
+						<div class="vers-content">It was a long struggle between Saulâs line and Davidâs; but ever the fortunes and power of David grew, while the cause of Saul became daily weaker.</div>
+					</div>
+									<div id="vers152480" class="vers vers-inline">
+												<div class="vers-no">2</div>
+						<div class="vers-content">Six sons were born to David, there in Hebron; Amnon, his first-born, by Achinoam of Jezrahel,</div>
+					</div>
+									<div id="vers152481" class="vers vers-inline">
+												<div class="vers-no">3</div>
+						<div class="vers-content">then Cheleab, by Abigail, that had been Nabalâs wife at Carmel, then Absalom, by Maacha, daughter to Tholmai, king of Gessur.</div>
+					</div>
+									<div id="vers152482" class="vers vers-inline">
+												<div class="vers-no">4</div>
+						<div class="vers-content">The fourth was Adonias, son of Haggith, the fifth Saphathia, son of Abital,</div>
+					</div>
+									<div id="vers152483" class="vers vers-inline">
+												<div class="vers-no">5</div>
+						<div class="vers-content">the sixth Jethraam, that Davidâs wife Egla bore him; of all these Hebron was the birth-place.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers152484" class="vers vers-inline">
+												<div class="vers-no">6</div>
+						<div class="vers-content">As long as war lasted between the two dynasties, Abner the son of Ner was the head of Saulâs party.</div>
+					</div>
+									<div id="vers152485" class="vers vers-inline">
+												<div class="vers-no">7</div>
+						<div class="vers-content">But Saul had left a concubine, Respha the daughter of Aia; and of her Isboseth said to Abner,</div>
+					</div>
+									<div id="vers152486" class="vers vers-inline">
+												<div class="vers-no">8</div>
+						<div class="vers-content">What, wouldst thou mate with my fatherâs concubine? And he, greatly angered by Isbosethâs words, cried out, I have made all Juda shun me like a carrion-dog, by befriending the line of thy father Saul, his kindred and his court, instead of giving thee up to David; and am I to be called to account this day over a woman?</div>
+					</div>
+									<div id="vers152487" class="vers vers-inline">
+												<div class="vers-no">9</div>
+						<div class="vers-content">God punish Abner as he deserves and more than he deserves, if I do not fulfil the promise which the Lord made to David;</div>
+					</div>
+									<div id="vers152488" class="vers vers-inline">
+												<div class="vers-no">10</div>
+						<div class="vers-content">the kingship shall be taken away from Saulâs line, and David shall reign over Israel and Juda alike, from Dan to Bersabee!</div>
+					</div>
+									<div id="vers152489" class="vers vers-inline">
+												<div class="vers-no">11</div>
+						<div class="vers-content">Never a word did Isboseth say in answer, so greatly did he fear him.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers152490" class="vers vers-inline">
+												<div class="vers-no">12</div>
+						<div class="vers-content">Then Abner sent a message to David, claiming that the land lay in his own power; League thyself with me, the message ran, and I will help thee, and reduce all Israel to thy obedience.</div>
+					</div>
+									<div id="vers152491" class="vers vers-inline">
+												<div class="vers-no">13</div>
+						<div class="vers-content">And David answered, Well said; I am ready to make a league with thee, but one thing first. Thou canst not be admitted to my presence unless thou bringest Michol, Saulâs daughter, with thee; so only shalt thou find audience.</div>
+					</div>
+									<div id="vers152492" class="vers vers-inline">
+												<div class="vers-no">14</div>
+						<div class="vers-content">At the same time, he sent a message to Isboseth, that was heir to king Saul, Give me back my wife Michol, the bride I won with the foreskins of a hundred Philistines.</div>
+					</div>
+									<div id="vers152493" class="vers vers-inline">
+												<div class="vers-no">15</div>
+						<div class="vers-content">So Isboseth sent and had her taken away from her husband Phaltiel, son of Lais,</div>
+					</div>
+									<div id="vers152494" class="vers vers-inline">
+												<div class="vers-no">16</div>
+						<div class="vers-content">who followed her, weeping, all the way to Bahurim. But Abner bade him turn and go back, and go back he did.</div>
+					</div>
+									<div id="vers152495" class="vers vers-inline">
+												<div class="vers-no">17</div>
+						<div class="vers-content">Meanwhile, Abner sent the word round among the elders of Israel, It was but yesterday you were eager to have David for your king.</div>
+					</div>
+									<div id="vers152496" class="vers vers-inline">
+												<div class="vers-no">18</div>
+						<div class="vers-content">It is time now, to fulfil the promise the Lord made to David; by Davidâs hand I will rid my people Israel of the Philistines, and of all their enemies.</div>
+					</div>
+									<div id="vers152497" class="vers vers-inline">
+												<div class="vers-no">19</div>
+						<div class="vers-content">Even among the men of Benjamin Abner sent the word out. Then he went to tell David, at Hebron, of the resolve made by Israel, and by the tribe of Benjamin at large.</div>
+					</div>
+									<div id="vers152498" class="vers vers-inline">
+												<div class="vers-no">20</div>
+						<div class="vers-content">He came to Hebron with twenty men, and there David made a feast for him and his companions.</div>
+					</div>
+									<div id="vers152499" class="vers vers-inline">
+												<div class="vers-no">21</div>
+						<div class="vers-content">And now, said Abner, I will go and rally all Israel to thy cause, my lord king. By this league of ours, they shall be thy subjects, loyal to thy will. So David took leave of him, and he went on his way in peace.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers152500" class="vers vers-inline">
+												<div class="vers-no">22</div>
+						<div class="vers-content">Soon Davidâs men, with Joab at their head, came home from an attack on the freebooters, loaded with spoil. They did not find Abner in Hebron; David had but now sent him on his way in peace;</div>
+					</div>
+									<div id="vers152501" class="vers vers-inline">
+												<div class="vers-no">23</div>
+						<div class="vers-content">they came too late, Joab and his men. But Joab was told how Abner, son of Ner, had visited the king, and of their friendly parting;</div>
+					</div>
+									<div id="vers152502" class="vers vers-inline">
+												<div class="vers-no">24</div>
+						<div class="vers-content">so he went at once into the royal presence, and cried, What is this? Abner with thee, and thou hast let him slip through thy hands, gone, free as air!</div>
+					</div>
+									<div id="vers152503" class="vers vers-inline">
+												<div class="vers-no">25</div>
+						<div class="vers-content">Dost thou know Abner so little? He did but come here to play thee false, spying upon thy comings and goings, learning of all thou dost.</div>
+					</div>
+									<div id="vers152504" class="vers vers-inline">
+												<div class="vers-no">26</div>
+						<div class="vers-content">And Joab left the royal presence to send messengers after Abner, summoning him back, without Davidâs knowledge, from the Pool of Sira.</div>
+					</div>
+									<div id="vers152505" class="vers vers-inline">
+												<div class="vers-no">27</div>
+						<div class="vers-content">No sooner had Abner come back to Hebron than Joab took him aside, there in the gates, under pretence of speaking with him, and smote him in the groin, avenging by that death the death of his brother Asael.</div>
+					</div>
+									<div id="vers152506" class="vers vers-inline">
+												<div class="vers-no">28</div>
+						<div class="vers-content">It was all over when David heard of it, and he cried, Never shall I or my kingdom be held answerable for Abnerâs death!</div>
+					</div>
+									<div id="vers152507" class="vers vers-inline">
+												<div class="vers-no">29</div>
+						<div class="vers-content">On Joabâs head let the guilt fall, and on all his line; let the line of Joab never want a man that has a running at the reins, or is a leper, or works at the distaff like a woman, or falls in battle, or begs his bread.<a href="" class="inline-comment" data-comment-id="450">â»</a> <span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers152508" class="vers vers-inline">
+												<div class="vers-no">30</div>
+						<div class="vers-content">Thus Joab and his brother Abisai murdered Abner, who had slain their brother Asael in the fighting at Gabaon.</div>
+					</div>
+									<div id="vers152509" class="vers vers-inline">
+												<div class="vers-no">31</div>
+						<div class="vers-content">As for David, he bade Joab and his men tear their garments and put on sackcloth, and go mourning at Abnerâs funeral; he himself followed the bier,</div>
+					</div>
+									<div id="vers152510" class="vers vers-inline">
+												<div class="vers-no">32</div>
+						<div class="vers-content">and wept aloud over Abnerâs tomb at Hebron, where they buried him; all the people, too, were in tears.</div>
+					</div>
+									<div id="vers152511" class="vers vers-inline">
+												<div class="vers-no">33</div>
+						<div class="vers-content">And this was the dirge with which he lamented him: Died Abner as the ignoble die?<a href="" class="inline-comment" data-comment-id="451">â»</a></div>
+					</div>
+									<div id="vers152512" class="vers vers-inline">
+												<div class="vers-no">34</div>
+						<div class="vers-content">No bond tied thy hands, no gyves thy feet; thou didst fall as men fall when cruel wrong assails them. And all the people took up the refrain as they mourned.</div>
+					</div>
+									<div id="vers152513" class="vers vers-inline">
+												<div class="vers-no">35</div>
+						<div class="vers-content">Then, while it was still full day, they came together to eat, and would have David eat with them; but he took an oath, The Lord punish me as I deserve, and more than I deserve, if I taste bread or any other food before set of sun!</div>
+					</div>
+									<div id="vers152514" class="vers vers-inline">
+												<div class="vers-no">36</div>
+						<div class="vers-content">This all the folk heard, and more than ever they applauded the kingâs doings;</div>
+					</div>
+									<div id="vers152515" class="vers vers-inline">
+												<div class="vers-no">37</div>
+						<div class="vers-content">among all that multitude, and in all Israel, there was not a man that blamed David for the slaying of Abner, son of Ner.</div>
+					</div>
+									<div id="vers152516" class="vers vers-inline">
+												<div class="vers-no">38</div>
+						<div class="vers-content">Past all doubt, said the king to his servants, Israel has lost, this day, the greatest of its chieftains.</div>
+					</div>
+									<div id="vers152517" class="vers vers-inline">
+												<div class="vers-no">39</div>
+						<div class="vers-content">Alas, they have anointed a weakling to be their king; not mine to curb these sons of Sarvia. May the Lord punish the wrong-doer for the wrong done!<span class="content-paragraph"><br><br></span></div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/knox/OT/2_Kgs/ch_2">&lt; prev</a></div>|
+					<div class="chapter">Chapter 3</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/knox/OT/2_Kgs/ch_4">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/knox/OT/2_Kgs/ch_1">1</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_2">2</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_3" class="active">3</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_4">4</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_5">5</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_6">6</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_7">7</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_8">8</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_9">9</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_10">10</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_11">11</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_12">12</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_13">13</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_14">14</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_15">15</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_16">16</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_17">17</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_18">18</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_19">19</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_20">20</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_21">21</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_22">22</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_23">23</a> <a href="https://catholicbible.online/knox/OT/2_Kgs/ch_24">24</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/knox-bible-flexible.png" alt="" width="130" height="210" /></p>
+	<p><span class="advert-text"><strong>The Holy Bible </strong> <br />
+          Knox Translation</span><br />
+	</p>
+	<p><span class="advert-text">Flexible Cover</span></p>
+	<p><a href="https://www.baronius.com/knox-bible-flexible-cover.html" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = 1;
+</script>		<div class="copyright">2015 - 2024 Â© CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/knox/OT/2_Kgs/ch_3"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>

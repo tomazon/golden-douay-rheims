@@ -1,0 +1,475 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app203.us.archive.org';v.server_ms=461;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/knox/OT/Ex/ch_6","20220118142201","https://web.archive.org/","web","/_static/",
+	      "1642515721");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Knox Bible</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20220118142201cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20220118142201cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20220118142201cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20220118142201js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220118142201js_/http://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220118142201js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220118142201js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220118142201js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20220118142201js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20220118142201/http%3A//catholicbible.online/knox/OT/Ex/ch_6"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/knox/OT/Ex/ch_6" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20220118142201" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20220118142201*/http://catholicbible.online/knox/OT/Ex/ch_6" title="See a list of every capture for this URL">4 captures</a>
+          <div class="r" title="Timespan for captures of this URL">28 Jul 2017 - 18 Jan 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20210805154857/https://catholicbible.online/knox/OT/Ex/ch_6" title="05 Aug 2021"><strong>Aug</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 14:22:01 Jan 18, 2022">JAN</td>
+            <td class="f" nowrap="nowrap">Feb</td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20210805154857/https://catholicbible.online/knox/OT/Ex/ch_6" title="15:48:57 Aug 05, 2021"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 14:22:01 Jan 18, 2022">18</td>
+            <td class="f" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0" /></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170729235604/http://catholicbible.online:80/knox/OT/Ex/ch_6" title="29 Jul 2017"><strong>2017</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 14:22:01 Jan 18, 2022">2022</td>
+            <td class="f" nowrap="nowrap">2023</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20220118142201/http://web.archive.org/screenshot/http://catholicbible.online/knox/OT/Ex/ch_6"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_6" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_6" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_6</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/knox/OT/Ex/ch_6","20220118142201",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<script>
+	var comments={
+			97: {
+				id_comment: 97,
+				source_str: '✻',
+				caption: '',
+				content: "‘Adonai’; rather, as the Hebrew text shews, ‘Yahweh’. The Latin here, confusingly has substituted another divine title, which has the literal meaning of ‘the Lord’; see note on 3.14 above."
+			},
+					98: {
+				id_comment: 98,
+				source_str: '✻',
+				caption: '',
+				content: "‘A man so tongue-tied’; literally, ‘a man of uncircumcised lips’, and so in verse 29 below."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Knox Bible</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/vulgate?bible_part_no=1&amp;book_no=2&amp;chapter_no=6" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/douay_rheims?bible_part_no=1&amp;book_no=2&amp;chapter_no=6" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox?bible_part_no=1&amp;book_no=2&amp;chapter_no=6" class="menu-item active">Knox Bible</a>
+					<a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/side_by_side?bible_part_no=1&amp;book_no=2&amp;chapter_no=6" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20220118142201/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Exodus</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Gen">Genesis</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Jos">Josue</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/1_Par">1 Paralipomena</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/2_Par">2 Paralipomena</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Neh">2 Esdras (Nehemias)</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Cant">Song of Songs</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Eccle">Ecclesiasticus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Mic">Michaeas</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Agg">Aggaeus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/6894?vers_inline=1"><img src="https://web.archive.org/web/20220118142201im_/http://catholicbible.online/assets/img/para.jpg" alt=""/></a>					<a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/6894?comments_open=1"><img src="https://web.archive.org/web/20220118142201im_/http://catholicbible.online/assets/img/C-off.gif" alt=""/></a>				</div>
+				<div class="bible-name">The Holy Bible – Knox Translation</div>
+				<div class="book-name">The Book of Exodus </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/6893">&lt; prev</a></div>|
+					<div class="chapter">Chapter 6</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/6895">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_1">1</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_2">2</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_3">3</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_4">4</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_5">5</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_6" class="active">6</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_7">7</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_8">8</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_9">9</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_10">10</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_11">11</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_12">12</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_13">13</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_14">14</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_15">15</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_16">16</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_17">17</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_18">18</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_19">19</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_20">20</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_21">21</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_22">22</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_23">23</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_24">24</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_25">25</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_26">26</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_27">27</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_28">28</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_29">29</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_30">30</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_31">31</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_32">32</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_33">33</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_34">34</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_35">35</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_36">36</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_37">37</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_38">38</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_39">39</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_40">40</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers146072" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">But the Lord said to Moses, Thou hast yet to see what I have in store for Pharao, such constraint as will make him let them go; he shall have no choice but to drive them away out of his country.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers146073" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">And now the Lord sent his word to Moses: I am the same Lord</div>
+					</div>
+									<div id="vers146074" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">who revealed myself to Abraham, Isaac and Jacob; but although I revealed myself as God the Almighty, my name Adonai I did not make known to them.<a href="" class="inline-comment" data-comment-id="97">✻</a></div>
+					</div>
+									<div id="vers146075" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">And the covenant I made with them was that I would give them the land of Chanaan, their dwelling-place then, but not their home.</div>
+					</div>
+									<div id="vers146076" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">And now the complaints of the Israelites under their Egyptian oppressors have reached my ears, and I am reminded of this covenant.</div>
+					</div>
+									<div id="vers146077" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">Tell the sons of Israel, I am the Lord, and I mean to release you from your prison-house in Egypt, to set you free from your slavery, to buy you back for myself, with my arm uplifted in signal acts of redress.</div>
+					</div>
+									<div id="vers146078" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">Then I will make you my own people, and will be your God; you will learn to acclaim the Lord as your God, that Lord who has brought you out of your Egyptian prison-house,</div>
+					</div>
+									<div id="vers146079" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">that Lord who made good his promise to Abraham, Isaac and Jacob, led you back to your dwelling-place, and made it your home.</div>
+					</div>
+									<div id="vers146080" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">All this Moses repeated to the Israelites, but they, in their bitterness of heart and the misery of their bondage, would not listen to him.</div>
+					</div>
+									<div id="vers146081" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">And when the Lord sent Moses</div>
+					</div>
+									<div id="vers146082" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">to bid Pharao, king of Egypt, let the sons of Israel go,</div>
+					</div>
+									<div id="vers146083" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">Moses told the Lord to his face, The Israelites will not listen to me; what hope is there that Pharao will listen to me? A man, moreover, so tongue-tied.<a href="" class="inline-comment" data-comment-id="98">✻</a> <span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers146084" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">When the Lord spoke to Moses and Aaron, giving them a message to the Israelites and to the Egyptian king, Pharao, and bidding them lead the sons of Israel away out of Egypt,</div>
+					</div>
+									<div id="vers146085" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">these were the heads of families that had left their names to clans. From Ruben, Israel’s first-born, came Henoch, Phallu, Hesron and Charmi.</div>
+					</div>
+									<div id="vers146086" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">From Simeon came Jamuel, Jamin, Ahod, Jachin, Soar, and Saul (the son of a Chanaanite woman).</div>
+					</div>
+									<div id="vers146087" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">From Levi came the three clans of Gerson, Caath, and Merari. (Levi lived to the age of a hundred and thirty-seven.)</div>
+					</div>
+									<div id="vers146088" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">From Gerson, the two families of Lobni and Semei.</div>
+					</div>
+									<div id="vers146089" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">From Caath, Amram, Isaar, Hebron and Oziel. (Caath lived to the age of a hundred and thirty-three.)</div>
+					</div>
+									<div id="vers146090" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">From Merari, Moholi and Musi. Such were the families descended from Levi.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers146091" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">Amram married a kinswoman of his called Jochabed, who bore him two sons, Aaron and Moses. (Amram lived to the age of a hundred and thirty-seven.)</div>
+					</div>
+									<div id="vers146092" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">From Isaar came Core, Nepheg, and Zechri,</div>
+					</div>
+									<div id="vers146093" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">from Oziel, Misael, Elisaphan and Sethri.</div>
+					</div>
+									<div id="vers146094" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">Aaron’s wife was Elisabeth, daughter to Aminadab and sister to Nahasson, and the sons she bore him were called Nadab, Abiu, Eleazar and Ithamar.</div>
+					</div>
+									<div id="vers146095" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">And Core’s sons were called Aser, Elcana and Abiasaph; those were the divisions of the Corite clan.</div>
+					</div>
+									<div id="vers146096" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">Meanwhile Aaron’s son Eleazar married one of the daughters of Phutiel, and become the father of Phineës. Such were the heads of the Levite families that gave their names to clans.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers146097" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">It was these two, Aaron and Moses, who had orders from the Lord to lead the Israelites away, in their full muster, out of Egypt;</div>
+					</div>
+									<div id="vers146098" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">and it was these two, Moses and Aaron, who bade Pharao, king of Egypt, let them leave his country, at the time we are speaking of.</div>
+					</div>
+									<div id="vers146099" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">It was to Moses the Lord said, there in Egypt,</div>
+					</div>
+									<div id="vers146100" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">I am the Lord, repeat to Pharao king of Egypt all this message of mine,</div>
+					</div>
+									<div id="vers146101" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">but Moses hung back and asked the Lord to his face, How should Pharao listen to me, tongue-tied as I am?<span class="content-paragraph"><br><br></span></div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_5">&lt; prev</a></div>|
+					<div class="chapter">Chapter 6</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_7">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_1">1</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_2">2</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_3">3</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_4">4</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_5">5</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_6" class="active">6</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_7">7</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_8">8</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_9">9</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_10">10</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_11">11</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_12">12</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_13">13</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_14">14</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_15">15</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_16">16</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_17">17</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_18">18</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_19">19</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_20">20</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_21">21</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_22">22</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_23">23</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_24">24</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_25">25</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_26">26</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_27">27</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_28">28</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_29">29</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_30">30</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_31">31</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_32">32</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_33">33</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_34">34</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_35">35</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_36">36</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_37">37</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_38">38</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_39">39</a> <a href="https://web.archive.org/web/20220118142201/http://catholicbible.online/knox/OT/Ex/ch_40">40</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20220118142201im_/http://catholicbible.online/assets/img/knox.jpg" alt="" width="130" height="210"/></p>
+	<p><span class="advert-text"><strong>The Holy Bible </strong> <br/>
+          Knox Translation</span><br/>
+	</p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20220118142201/https://www.baroniuspress.com/book.php?wid=56&amp;bid=60#tab=tab-1" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20220118142201/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/knox/OT/Ex/ch_6"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20220118142201/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20220118142201im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 14:22:01 Jan 18, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:47:07 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.512
+  exclusion.robots: 0.028
+  exclusion.robots.policy: 0.017
+  esindex: 0.01
+  cdx.remote: 14.88
+  LoadShardBlock: 340.349 (3)
+  PetaboxLoader3.datanode: 355.456 (4)
+  load_resource: 78.681
+  PetaboxLoader3.resolve: 32.306
+-->

@@ -1,0 +1,448 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app216.us.archive.org';v.server_ms=283;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_7","20200203134808","https://web.archive.org/","web","/_static/",
+	      "1580737688");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20200203134808cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20200203134808cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20200203134808cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20200203134808js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200203134808js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200203134808js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200203134808js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20200203134808js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20200203134808/http%3A//catholicbible.online/side_by_side/NT/1_Cor/ch_7"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/side_by_side/NT/1_Cor/ch_7" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20200203134808" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20200203134808*/http://catholicbible.online/side_by_side/NT/1_Cor/ch_7" title="See a list of every capture for this URL">27 captures</a>
+          <div class="r" title="Timespan for captures of this URL">06 Jul 2017 - 06 Dec 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20191202011730/http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_7" title="02 Dec 2019"><strong>Dec</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 13:48:08 Feb 03, 2020">FEB</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20201111231933/http://catholicbible.online/side_by_side/NT/1_Cor/ch_7" title="11 Nov 2020"><strong>Nov</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20191202011730/http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_7" title="01:17:30 Dec 02, 2019"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 13:48:08 Feb 03, 2020">03</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20201111231933/http://catholicbible.online/side_by_side/NT/1_Cor/ch_7" title="23:19:33 Nov 11, 2020"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20190123103654/http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_7" title="23 Jan 2019"><strong>2019</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 13:48:08 Feb 03, 2020">2020</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20210727120758/http://catholicbible.online/side_by_side/NT/1_Cor/ch_7" title="27 Jul 2021"><strong>2021</strong></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20200203134808/http://web.archive.org/screenshot/http://catholicbible.online/side_by_side/NT/1_Cor/ch_7"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20200203134808/http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_7" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20200203134808/http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_7" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20200203134808/http://catholicbible.online:80/side_by_side/NT/1_Cor/ch_7</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/side_by_side/NT/1_Cor/ch_7","20200203134808",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/vulgate?bible_part_no=2&amp;book_no=7&amp;chapter_no=7" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/douay_rheims?bible_part_no=2&amp;book_no=7&amp;chapter_no=7" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/knox?bible_part_no=2&amp;book_no=7&amp;chapter_no=7" class="menu-item ">Knox Bible</a>
+					<a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side?bible_part_no=2&amp;book_no=7&amp;chapter_no=7" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20200203134808/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">1 Corinthians</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Lk">Luke</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Rom">Romans</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The First Epistle of St. Paul to the Corinthians — Epistola B. Pauli Apostoli ad Corinthios Prima </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_6">&lt; prev</a></div>|
+					<div class="chapter">Chapter 7</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_8">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_1">1</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_2">2</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_3">3</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_4">4</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_5">5</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_6">6</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_7" class="active">7</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_8">8</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_9">9</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_10">10</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_11">11</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_12">12</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_13">13</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_14">14</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_15">15</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_16">16</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_7?act_indx=0&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_7?act_indx=1&amp;act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_7?act_indx=1&amp;act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_7?act_indx=2&amp;act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">De quibus autem scripsistis mihi: Bonum est homini mulierem non tangere:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Now  concerning the things whereof you wrote to me: It is good for a man not to touch a woman.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">As for the questions raised in your letter; a man does well to abstain from all commerce with women.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">propter fornicationem autem unusquisque suam uxorem habeat, et unaquæque suum virum habeat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">But for fear of fornication, let every man have his own wife, and let every woman have her own husband.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">But, to avoid the danger of fornication, let every man keep his own wife, and every woman her own husband.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Uxori vir debitum reddat: similiter autem et uxor viro.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Let the husband render the debt to his wife, and the wife also in like manner to the husband.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Let every man give his wife what is her due, and every woman do the same by her husband;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Mulier sui corporis potestatem non habet, sed vir. Similiter autem et vir sui corporis potestatem non habet, sed mulier.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">The wife hath not power of her own body, but the husband. And in like manner the husband also hath not power of his own body, but the wife.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">he, not she, claims the right over her body, as she, not he, claims the right over his.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Nolite fraudare invicem, nisi forte ex consensu ad tempus, ut vacetis orationi: et iterum revertimini in idipsum, ne tentet vos Satanas propter incontinentiam vestram.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Defraud not one another, except, perhaps, by consent, for a time, that you may give yourselves to prayer; and return together again, lest Satan tempt you for your incontinency.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Do not starve one another, unless perhaps you do so for a time, by mutual consent, to have more freedom for prayer; come together again, or Satan will tempt you, weak as you are.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Hoc autem dico secundum indulgentiam, non secundum imperium.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">But I speak this by indulgence, not by commandment.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">I say this by way of concession; I am not imposing a rule on you.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Volo enim omnes vos esse sicut meipsum: sed unusquisque proprium donum habet ex Deo: alius quidem sic, alius vero sic.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">For I would that all men were even as myself: but every one hath his proper gift from God; one after this manner, and another after that.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">I wish you were all in the same state as myself; but each of us has his own endowment from God, one to live in this way, another in that.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Dico autem non nuptis, et viduis: bonum est illis si sic permaneant, sicut et ego.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">But I say to the unmarried, and to the widows: It is good for them if they so continue, even as I.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">To the unmarried, and to the widows, I would say that they will do well to remain in the same state as myself,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Quod si non se continent, nubant. Melius est enim nubere, quam uri.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">But if they do not contain themselves, let them marry. For it is better to marry than to be burnt.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">but if they have not the gift of continence, let them marry; better to marry than to feel the heat of passion.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">Iis autem qui matrimonio juncti sunt, præcipio non ego, sed Dominus, uxorem a viro non discedere:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">But to them that are married, not I but the Lord commandeth, that the wife depart not from her husband.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">For those who have married already, the precept holds which is the Lord’s precept, not mine; the wife is not to leave her husband, </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">quod si discesserit, manere innuptam, aut viro suo reconciliari. Et vir uxorem non dimittat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">And if she depart, that she remain unmarried, or be reconciled to her husband. And let not the husband put away his wife.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">(if she has left him, she must either remain unmarried, or go back to her own husband again), and the husband is not to put away his wife.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Nam ceteris ego dico, non Dominus. Si quis frater uxorem habet infidelem, et hæc consentit habitare cum illo, non dimittat illam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">For to the rest I speak, not the Lord. If any brother hath a wife that believeth not, and she consent to dwell with him, let him not put her away.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">To those others, I give my own instructions, not the Lord’s. If any of the brethren has a wife, not a believer, who is well content to live with him, there is no reason why he should put her away,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Et si qua mulier fidelis habet virum infidelem, et hic consentit habitare cum illa, non dimittat virum:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">And if any woman hath a husband that believeth not, and he consent to dwell with her, let her not put away her husband.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">nor is there any reason for a woman to part with her husband, not a believer, if he is content to live with her.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">sanctificatus est enim vir infidelis per mulierem fidelem, et sanctificata est mulier infidelis per virum fidelem: alioquin filii vestri immundi essent, nunc autem sancti sunt.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">For the unbelieving husband is sanctified by the believing wife; and the unbelieving wife is sanctified by the believing husband: otherwise your children should be unclean; but now they are holy.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">The unbelieving husband has shared in his wife’s consecration, and the unbelieving wife has shared in the consecration of one who is a brother. Were it otherwise, their offspring would be born under a stain, whereas in fact it is holy. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">Quod si infidelis discedit, discedat: non enim servituti subjectus est frater, aut soror in hujusmodi: in pace autem vocavit nos Deus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">But if the unbeliever depart, let him depart. For a brother or sister is not under servitude in such cases. But God hath called us in peace.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">15</div> <div class="vers-content">On the other hand, if the unbelieving partner is for separating, let them separate; in such a case, the brother or the sister is under no compulsion. It is in a spirit of peace that God’s call has come to us. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">Unde enim scis mulier, si virum salvum facies? aut unde scis vir, si mulierem salvam facies?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">For how knowest thou, O wife, whether thou shalt save thy husband? Or how knowest thou, O man, whether thou shalt save thy wife?</div></div></td>
+																	<td><div class="vers"><div class="vers-no">16</div> <div class="vers-content">There is no knowing whether thou, the wife, wilt save thy husband, whether thou, the husband, wilt save thy wife. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">Nisi unicuique sicut divisit Dominus, unumquemque sicut vocavit Deus, ita ambulet, et sicut in omnibus ecclesiis doceo.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">But as the Lord hath distributed to every one, as God hath called every one, so let him walk: and so in all churches I teach.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">17</div> <div class="vers-content">No, the part which God has assigned, the vocation which God has bestowed, is to be the rule in each case. That is the direction which I am giving all through the churches.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Circumcisus aliquis vocatus est? non adducat præputium. In præputio aliquis vocatus est? non circumcidatur.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">Is any man called, being circumcised? let him not procure uncircumcision. Is any man called in uncircumcision? let him not be circumcised.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">18</div> <div class="vers-content">If a man is already circumcised when he is called, he is not to disguise it; if he is uncircumcised, he is not to undergo circumcision.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Circumcisio nihil est, et præputium nihil est: sed observatio mandatorum Dei.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">Circumcision is nothing, and uncircumcision is nothing: but the observance of the commandments of God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">19</div> <div class="vers-content">There is no virtue either in circumcision or in the want of it; it is keeping the commandments of God that signifies.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Unusquisque in qua vocatione vocatus est, in ea permaneat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Let every man abide in the same calling in which he was called.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">20</div> <div class="vers-content">Everyone has his own vocation, in which he has been called; let him keep to it.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Servus vocatus es? non sit tibi curæ: sed et si potes fieri liber, magis utere.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Wast thou called, being a bondman? Care not for it; but if thou mayest be made free, use it rather.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">21</div> <div class="vers-content">Hast thou been called as a slave? Do not let it trouble thee; and if thou hast the means to become free, make all the more use of thy opportunity. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">Qui enim in Domino vocatus est servus, libertus est Domini: similiter qui liber vocatus est, servus est Christi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">For he that is called in the Lord, being a bondman, is the freeman of the Lord. Likewise he that is called, being free, is the bondman of Christ.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">22</div> <div class="vers-content">If a slave is called to enter Christ’s service, he is Christ’s freedman; just as the free man, when he is called, becomes the slave of Christ. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">Pretio empti estis: nolite fieri servi hominum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">You are bought with a price; be not made the bondslaves of men.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">23</div> <div class="vers-content">A price was paid to redeem you; do not enslave yourselves to human masters.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Unusquisque in quo vocatus est, fratres, in hoc permaneat apud Deum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Brethren, let every man, wherein he was called, therein abide with God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">24</div> <div class="vers-content">Each of you is to remain, brethren, in the condition in which he was called.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">De virginibus autem præceptum Domini non habeo: consilium autem do, tamquam misericordiam consecutus a Domino, ut sim fidelis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">Now concerning virgins, I have no commandment of the Lord; but I give counsel, as having obtained mercy of the Lord, to be faithful.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">25</div> <div class="vers-content">About virgins, I have no command from the Lord; but I give you my opinion, as one who is, under the Lord’s mercy, a true counsellor.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">Existimo ergo hoc bonum esse propter instantem necessitatem, quoniam bonum est homini sic esse.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">I think therefore that this is good for the present necessity, that it is good for a man so to be.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">26</div> <div class="vers-content">This, then, I hold to be the best counsel in such times of stress, that this is the best condition for man to be in. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">Alligatus es uxori? noli quærere solutionem. Solutus es ab uxore? noli quærere uxorem.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">Art thou bound to a wife? seek not to be loosed. Art thou loosed from a wife? seek not a wife.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">27</div> <div class="vers-content">Art thou yoked to a wife? Then, do not go about to free thyself. Art thou free of wedlock? Then do not go about to find a wife.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Si autem acceperis uxorem, non peccasti. Et si nupserit virgo, non peccavit: tribulationem tamen carnis habebunt hujusmodi. Ego autem vobis parco.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">But if thou take a wife, thou hast not sinned. And if a virgin marry, she hath not sinned: nevertheless, such shall have tribulation of the flesh. But I spare you.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">28</div> <div class="vers-content">Not that thou dost commit sin if thou marriest; nor, if she marries, has the virgin committed sin. It is only that those who do so will meet with outward distress. But I leave you your freedom. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Hoc itaque dico, fratres: tempus breve est: reliquum est, ut et qui habent uxores, tamquam non habentes sint:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">This therefore I say, brethren; the time is short; it remaineth, that they also who have wives, be as if they had none;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">29</div> <div class="vers-content">Only, brethren, I would say this; the time is drawing to an end; nothing remains, but for those who have wives to behave as though they had none;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">et qui flent, tamquam non flentes: et qui gaudent, tamquam non gaudentes: et qui emunt, tamquam non possidentes:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">And they that weep, as though they wept not; and they that rejoice, as if they rejoiced not; and they that buy, as though they possessed not;</div></div></td>
+																	<td><div class="vers"><div class="vers-no">30</div> <div class="vers-content">those who weep must forget their tears, and those who rejoice their rejoicing, and those who buy must renounce possession;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">et qui utuntur hoc mundo, tamquam non utantur: præterit enim figura hujus mundi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">And they that use this world, as if they used it not: for the fashion of this world passeth away.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">31</div> <div class="vers-content">and those who take advantage of what the world offers must not take full advantage of it; the fashion of this world is soon to pass away.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">Volo autem vos sine sollicitudine esse. Qui sine uxore est, sollicitus est quæ Domini sunt, quomodo placeat Deo.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">But I would have you to be without solicitude. He that is without a wife, is solicitous for the things that belong to the Lord, how he may please God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">32</div> <div class="vers-content">And I would have you free from concern. He who is unmarried is concerned with God’s claim, asking how he is to please God;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">Qui autem cum uxore est, sollicitus est quæ sunt mundi, quomodo placeat uxori, et divisus est.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">But he that is with a wife, is solicitous for the things of the world, how he may please his wife: and he is divided.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">33</div> <div class="vers-content">whereas the married man is concerned with the world’s claim, asking how he is to please his wife; and thus he is at issue with himself.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">Et mulier innupta, et virgo, cogitat quæ Domini sunt, ut sit sancta corpore, et spiritu. Quæ autem nupta est, cogitat quæ sunt mundi, quomodo placeat viro.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">And the unmarried woman and the virgin thinketh on the things of the Lord, that she may be holy both in body and in spirit. But she that is married thinketh on the things of the world, how she may please her husband.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">34</div> <div class="vers-content">So a woman who is free of wedlock, or a virgin, is concerned with the Lord’s claim, intent on holiness, bodily and spiritual; whereas the married woman is concerned with the world’s claim, asking how she is to please her husband.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">Porro hoc ad utilitatem vestram dico: non ut laqueum vobis injiciam, sed ad id, quod honestum est, et quod facultatem præbeat sine impedimento Dominum obsecrandi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">And this I speak for your profit: not to cast a snare upon you; but for that which is decent, and which may give you power to attend upon the Lord, without impediment.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">35</div> <div class="vers-content">I am thinking of your own interest when I say this. It is not that I would hold you in a leash; I am thinking of what is suitable for you, and how you may best attend on the Lord without distraction.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">Si quis autem turpem se videri existimat super virgine sua, quod sit superadulta, et ita oportet fieri: quod vult faciat: non peccat, si nubat.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">But if any man think that he seemeth dishonoured, with regard to his virgin, for that she is above the age, and it must so be: let him do what he will; he sinneth not, if she marry.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">36</div> <div class="vers-content">And if anyone considers that he is behaving unsuitably towards the girl who is in his charge, on the ground that she is now past her prime, and there is no way of avoiding it, why, let him please himself; there is nothing sinful in it; let her marry. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Nam qui statuit in corde suo firmus, non habens necessitatem, potestatem autem habens suæ voluntatis, et hoc judicavit in corde suo, servare virginem suam, bene facit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">For he that hath determined being steadfast in his heart, having no necessity, but having power of his own will; and hath judged this in his heart, to keep his virgin, doth well.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">37</div> <div class="vers-content">Whereas, if a man remains fixed in his resolution, and makes up his mind to keep the girl who is in his charge unwed, although there is no necessity for it, and he is free to choose for himself, such a man is well advised.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Igitur et qui matrimonio jungit virginem suam, bene facit: et qui non jungit, melius facit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Therefore, both he that giveth his virgin in marriage, doth well; and he that giveth her not, doth better.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">38</div> <div class="vers-content">Thus, a man is well advised to give his ward in marriage, and still better advised not to give her in marriage.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">Mulier alligata est legi quanto tempore vir ejus vivit, quod si dormierit vir ejus, liberata est: cui vult nubat, tantum in Domino.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">A woman is bound by the law as long as her husband liveth; but if her husband die, she is at liberty: let her marry to whom she will; only in the Lord.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">39</div> <div class="vers-content">As for a wife, she is yoked to her husband as long as he lives; if her husband is dead, she is free to marry anyone she will, so long as she marries in the Lord.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">Beatior autem erit si sic permanserit secundum meum consilium: puto autem quod et ego Spiritum Dei habeam.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">But more blessed shall she be, if she so remain, according to my counsel; and I think that I also have the spirit of God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">40</div> <div class="vers-content">But more blessed is she, if she remains as she is, in my judgement; and I, too, claim to have the Spirit of God.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_6">&lt; prev</a></div>|
+					<div class="chapter">Chapter 7</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_8">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_1">1</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_2">2</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_3">3</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_4">4</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_5">5</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_6">6</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_7" class="active">7</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_8">8</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_9">9</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_10">10</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_11">11</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_12">12</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_13">13</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_14">14</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_15">15</a> <a href="https://web.archive.org/web/20200203134808/http://catholicbible.online/side_by_side/NT/1_Cor/ch_16">16</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20200203134808im_/http://catholicbible.online/assets/img/vulgate.jpg" alt="" width="144" height="220"/></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br/>
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20200203134808/https://www.baroniuspress.com/book.php?wid=56&amp;bid=50#tab=tab-1" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20200203134808/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/side_by_side/NT/1_Cor/ch_7"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20200203134808/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20200203134808im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 13:48:08 Feb 03, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:31:47 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.456
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.013
+  esindex: 0.009
+  cdx.remote: 6.396
+  LoadShardBlock: 84.332 (3)
+  PetaboxLoader3.datanode: 117.586 (4)
+  load_resource: 163.664
+  PetaboxLoader3.resolve: 87.094
+-->

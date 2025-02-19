@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Vulgate - Douay-Rheims - Knox Bible side by side</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Side-by-Side</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=2&book_no=25&chapter_no=1" class="menu-item ">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=2&book_no=25&chapter_no=1" class="menu-item ">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=2&book_no=25&chapter_no=1" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=2&book_no=25&chapter_no=1" class="menu-item active">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">3 John</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/side_by_side/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/side_by_side/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Lk">Luke</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/2_Jn">2 John</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/side_by_side/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/side_by_side/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="book-name">The Third Epistle of St. John the Apostle — Epistola B. Joannis Apostoli Tertia </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"></div>|
+					<div class="chapter">Chapter 1</div>
+					|<div class="next-chapter"></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/side_by_side/NT/3_Jn/ch_1" class="active">1</a> 				</div>
+			</div>
+			<div class="side-by-side">
+				<table>
+					<thead>
+						<tr>
+							<th class="span_1_3">Vulgate<a href="https://catholicbible.online/side_by_side/NT/3_Jn/ch_1?act_indx=0&act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://catholicbible.online/side_by_side/NT/3_Jn/ch_1?act_indx=1&act=-1" class="left">&lt;</a>Douay-Rheims<a href="https://catholicbible.online/side_by_side/NT/3_Jn/ch_1?act_indx=1&act=1" class="right">&gt;</a></th><th class="span_1_3"><a href="https://catholicbible.online/side_by_side/NT/3_Jn/ch_1?act_indx=2&act=-1" class="left">&lt;</a>Knox Bible</th>						</tr>
+					</thead>
+					<tbody>
+						<tr>									<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Senior Gajo carissimo, quem ego diligo in veritate.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">The  ancient to the dearly beloved Gaius, whom I love in truth.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">1</div> <div class="vers-content">Greetings from the presbyter to Gaius, his most dear friend in the truth. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Carissime, de omnibus orationem facio prospere te ingredi, et valere sicut prospere agit anima tua.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Dearly beloved, concerning all things I make it my prayer that thou mayest proceed prosperously, and fare well as thy soul doth prosperously.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">2</div> <div class="vers-content">Beloved, my prayer is that all goes well with thee, and that thou art in health; with thy soul, all goes well.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">Gavisus sum valde venientibus fratribus, et testimonium perhibentibus veritati tuæ, sicut tu in veritate ambulas.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">I was exceedingly glad when the brethren came and gave testimony to the truth in thee, even as thou walkest in the truth.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">3</div> <div class="vers-content">What happiness it gave me, when the brethren who came here bore witness of thy loyalty to the truth, the loyalty thou shewest in all thy dealings!</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">Majorem horum non habeo gratiam, quam ut audiam filios meos in veritate ambulare.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">I have no greater grace than this, to hear that my children walk in truth.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">4</div> <div class="vers-content">I have no greater cause for thankfulness, than when I hear that my children are following the way of truth.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Carissime, fideliter facis quidquid operaris in fratres, et hoc in peregrinos,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Dearly beloved, thou dost faithfully whatever thou dost for the brethren, and that for strangers,</div></div></td>
+																	<td><div class="vers"><div class="vers-no">5</div> <div class="vers-content">Beloved, thou art playing a faithful man’s part in shewing such kindness to the brethren, even when they are strangers to thee.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">qui testimonium reddiderunt caritati tuæ in conspectu ecclesiæ: quos, benefaciens, deduces digne Deo.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">Who have given testimony to thy charity in the sight of the church: whom thou shalt do well to bring forward on their way in a manner worthy of God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">6</div> <div class="vers-content">They have borne public witness before the church of thy charity, and thou wilt do well to set them forward on their journey in such a manner as befits God’s service;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Pro nomine enim ejus profecti sunt, nihil accipientes a gentibus.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">Because, for his name they went out, taking nothing of the Gentiles.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">7</div> <div class="vers-content">it was undertaken for love of his name, the heathen contributed nothing to it. </div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Nos ergo debemus suscipere hujusmodi, ut cooperatores simus veritatis.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">We therefore ought to receive such, that we may be fellow helpers of the truth.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">8</div> <div class="vers-content">Yes, it is our duty to help on the cause of truth by giving welcome to such men as these.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">Scripsissem forsitan ecclesiæ: sed is qui amat primatum gerere in eis, Diotrephes, non recipit nos:</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">I had written perhaps to the church: but Diotrephes, who loveth to have the pre-eminence among them, doth not receive us.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">9</div> <div class="vers-content">I might have sent this message to the church at large, were it not that Diotrephes, ever eager to take a leading part among them, refuses to acknowledge us,</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">propter hoc si venero, commonebo ejus opera, quæ facit, verbis malignis garriens in nos: et quasi non ei ista sufficiant, neque ipse suscipit fratres: et eos qui suscipiunt, prohibet, et de ecclesia ejicit.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">For this cause, if I come, I will advertise his works which he doth, with malicious words prating against us. And as if these things were not enough for him, neither doth he himself receive the brethren, and them that do receive them he forbiddeth, and casteth out of the church.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">10</div> <div class="vers-content">If I should pay you a visit, be sure I will tax him with his ill conduct. He maligns us with his foolish gossip; is not that enough for him, without refusing to acknowledge our brethren, and putting restraint on those who would, by expelling them from the church?</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Carissime, noli imitari malum, sed quod bonum est. Qui benefacit, ex Deo est: qui malefacit, non vidit Deum.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Dearly beloved, follow not that which is evil, but that which is good. He that doth good, is of God: he that doth evil, hath not seen God.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">11</div> <div class="vers-content">Beloved, choose the right pattern, not the wrong, to imitate. He who does right is a child of God; the wrong-doer has caught no glimpse of him.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Demetrio testimonium redditur ab omnibus, et ab ipsa veritate, sed et nos testimonium perhibemus: et nosti quoniam testimonium nostrum verum est.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">To Demetrius testimony is given by all, and by the truth itself, yea and we also give testimony: and thou knowest that our testimony is true.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">12</div> <div class="vers-content">Demetrius is one whom all speak well of, and the truth itself is his warrant; we, too, commend him, and thou knowest that our commendation is true.</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">Multa habui tibi scribere: sed nolui per atramentum et calamum scribere tibi.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">I had many things to write unto thee: but I would not by ink and pen write to thee.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">13</div> <div class="vers-content">I have much to tell thee, but I have no mind to convey the message with paper and ink;</div></div></td>
+								</tr><tr>									<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">Spero autem protinus te videre, et os ad os loquemur. Pax tibi. Salutant te amici. Saluta amicos nominatim.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">But I hope speedily to see thee, and we will speak mouth to mouth. Peace be to thee. Our friends salute thee. Salute the friends by name.</div></div></td>
+																	<td><div class="vers"><div class="vers-no">14</div> <div class="vers-content">I hope to see thee before long, and we will converse by word of mouth. Peace be with thee. Thy friends here greet thee. Give our friends, each of them by name, our greeting.</div></div></td>
+								</tr>					</tbody>
+				</table>
+			</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"></div>|
+					<div class="chapter">Chapter 1</div>
+					|<div class="next-chapter"></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/side_by_side/NT/3_Jn/ch_1" class="active">1</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="144" height="220" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims &amp; Clementina Vulgata </strong> <br />
+        [side-by-side]</span></p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-clementina-vulgata.html" class="btn">SHOP NOW</a> </p>
+</div>
+</div>		<div class="copyright">2015 - 2024 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/side_by_side/NT/3_Jn/ch_1"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>

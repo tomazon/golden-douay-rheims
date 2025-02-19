@@ -1,0 +1,351 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+			4201: {
+				id_comment: 4201,
+				source_str: 'Beria',
+				caption: 'Beria.',
+				content: "This name signifies <I>in evil,</I> or <I>in affliction</I>."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=1&book_no=13&chapter_no=7" class="menu-item ">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=1&book_no=13&chapter_no=7" class="menu-item active">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=1&book_no=13&chapter_no=7" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=1&book_no=13&chapter_no=7" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">1 Paralipomenon</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/douay_rheims/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ps">Psalms</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/douay_rheims/OT/1_Par/9513?vers_inline=1"><img src="https://catholicbible.online/assets/img/para.jpg" alt="" /></a>					<a href="https://catholicbible.online/douay_rheims/OT/1_Par/9513?comments_open=1"><img src="https://catholicbible.online/assets/img/C-off.gif" alt="" /></a>				</div>
+				<div class="bible-name">The Holy Bible – Douay‐Rheims version</div>
+				<div class="book-name">The First Book of Paralipomenon</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/OT/1_Par/9512">&lt; prev</a></div>|
+					<div class="chapter">Chapter 7</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/douay_rheims/OT/1_Par/9514">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_3">3</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_4">4</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_5">5</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_6">6</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_7" class="active">7</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_8">8</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_9">9</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_10">10</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_11">11</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_12">12</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_13">13</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_14">14</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_15">15</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_16">16</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_17">17</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_18">18</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_19">19</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_20">20</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_21">21</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_22">22</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_23">23</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_24">24</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_25">25</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_26">26</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_27">27</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_28">28</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_29">29</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers217036" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">Now  the sons of Issachar were Thola, and Phua, Jasub and Simeron, four.</div>
+					</div>
+									<div id="vers217037" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">The sons of Thola: Ozi and Raphaia, and Jeriel, and Jemai, and Jebsem, and Samuel, chiefs of the houses of their kindreds. Of the posterity of Thola were numbered in the days of David, two and twenty thousand six hundred most valiant men.</div>
+					</div>
+									<div id="vers217038" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">The sons of Ozi: Izrahia, of whom were born Michael, and Obadia, and Joel, and Jesia, five all great men.</div>
+					</div>
+									<div id="vers217039" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">And there were with them by their families and peoples, six and thirty thousand most valiant men ready for war: for they had many wives and children.</div>
+					</div>
+									<div id="vers217040" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">Their brethren also throughout all the house of Issachar, were numbered fourscore and seven thousand most valiant men for war.</div>
+					</div>
+									<div id="vers217041" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">The sons of Benjamin were Bela, and Bechor, and Jadihel, three.</div>
+					</div>
+									<div id="vers217042" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">The sons of Bela: Esbon, and Ozi, and Ozial, and Jerimoth and Urai, five chiefs of their families, and most valiant warriors, and their number was twenty-two thousand and thirty-four.</div>
+					</div>
+									<div id="vers217043" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">And the sons of Bechor were Zamira, and Joas, and Eliezer, and Elioenai, and Amai, and Jerimoth, and Abia, and Anathoth, and Almath: all these were the sons of Bechor.</div>
+					</div>
+									<div id="vers217044" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">And they were numbered by the families, heads of their kindreds, most valiant men for war, twenty thousand and two hundred.</div>
+					</div>
+									<div id="vers217045" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">And the son of Jadihel: Balan. And the sons of Balan: Jehus and Benjamin and Aod, and Chanana, and Zethan and Tharsis, and Ahisahar.</div>
+					</div>
+									<div id="vers217046" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">All these were sons of Jadihel, heads of their kindreds, most valiant men, seventeen thousand and two hundred fit to go out to war.</div>
+					</div>
+									<div id="vers217047" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">Sepham also and Hapham the sons of Hir: and Hasim the sons of Aher.</div>
+					</div>
+									<div id="vers217048" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">And the sons of Nephtali were Jasiel, and Guni, and Jezer, and Sellum, sons of Bala.</div>
+					</div>
+									<div id="vers217049" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">And the son of Manasses, Ezriel: and his concubine the Syrian bore Machir the father of Galaad.</div>
+					</div>
+									<div id="vers217050" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">And Machir took wives for his sons Happhim, and Saphan: and he had a sister named Maacha: the name of the second was Salphaad, and Salphaad had daughters.</div>
+					</div>
+									<div id="vers217051" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">And Maacha the wife of Machir bore a son, and she called his name Phares: and the name of his brother was Sares: and his sons were Ulam and Recen.</div>
+					</div>
+									<div id="vers217052" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">And the son of Ulam, Baden. These are the sons of Galaad, the son of Machir, the son of Manasses.</div>
+					</div>
+									<div id="vers217053" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">And his sister named Queen bore Goodlyman, and Abiezer, and Mohola.</div>
+					</div>
+									<div id="vers217054" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">And the sons of Semida were Ahiu, and Sechem, and Leci and Aniam.</div>
+					</div>
+									<div id="vers217055" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">And the sons of Ephraim were Suthala, Bared his son, Thahath his son, Elada his son, Thahath his son, and his son Zabad,</div>
+					</div>
+									<div id="vers217056" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">And his son Suthala, and his son Ezer, and Elad: and the men of Geth born in the land slew them, because they came down to invade their possessions.</div>
+					</div>
+									<div id="vers217057" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">And Ephraim their father mourned many days, and his brethren came to comfort him.</div>
+					</div>
+									<div id="vers217058" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">And he went in to his wife: and she conceived and bore a son, and he called his name <a href="" class="inline-comment" data-comment-id="4201">Beria</a>, because he was born when it went evil with his house:</div>
+					</div>
+									<div id="vers217059" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">And his daughter was Sara, who built Bethoron, the nether and the upper, and Ozensara.</div>
+					</div>
+									<div id="vers217060" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">And Rapha was his son, and Reseph, and Thale, of whom was born Thaan,</div>
+					</div>
+									<div id="vers217061" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">Who begot Laadan: and his son was Ammiud, who begot Elisama,</div>
+					</div>
+									<div id="vers217062" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">Of whom was born Nun, who had Josue for his son.</div>
+					</div>
+									<div id="vers217063" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">And their possessions and habitations were Bethel with her daughters, and eastward Noran, and westward Gazer and her daughters, Sichem also with her daughters, as far as Asa with her daughters.</div>
+					</div>
+									<div id="vers217064" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">And by the borders of the sons of Manasses Bethsan and her daughters, Thanach and her daughters, Mageddo and her daughters: Dor and her daughters: in these dwelt the children of Joseph, the son of Israel.</div>
+					</div>
+									<div id="vers217065" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">The children of Aser were Jemna, and Jesua, and Jessui, and Baria, and Sara their sister.</div>
+					</div>
+									<div id="vers217066" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">And the sons of Baria: Haber, and Melchiel: he is the father of Barsaith.</div>
+					</div>
+									<div id="vers217067" class="vers">
+												<div class="vers-no">32</div>
+						<div class="vers-content">And Heber begot Jephlat, and Somer, and Hotham, and Suaa their sister.</div>
+					</div>
+									<div id="vers217068" class="vers">
+												<div class="vers-no">33</div>
+						<div class="vers-content">The sons of Jephlat: Phosech, and Chamaal, and Asoth: these are the sons of Jephlat.</div>
+					</div>
+									<div id="vers217069" class="vers">
+												<div class="vers-no">34</div>
+						<div class="vers-content">And the sons of Somer: Ahi, and Roaga, and Haba, and Aram.</div>
+					</div>
+									<div id="vers217070" class="vers">
+												<div class="vers-no">35</div>
+						<div class="vers-content">And the sons of Helem his brother: Supha, and Jemna, and Selles, and Amal.</div>
+					</div>
+									<div id="vers217071" class="vers">
+												<div class="vers-no">36</div>
+						<div class="vers-content">The sons of Supha: Sue, Hernapher, and Sual, and Beri, and Jamra.</div>
+					</div>
+									<div id="vers217072" class="vers">
+												<div class="vers-no">37</div>
+						<div class="vers-content">Bosor and Hod, and Samma, and Salusa, and Jethran, and Bera.</div>
+					</div>
+									<div id="vers217073" class="vers">
+												<div class="vers-no">38</div>
+						<div class="vers-content">The sons of Jether: Jephone, and Phaspha, and Ara.</div>
+					</div>
+									<div id="vers217074" class="vers">
+												<div class="vers-no">39</div>
+						<div class="vers-content">And the sons of Olla: Aree, and Haniel, and Resia.</div>
+					</div>
+									<div id="vers217075" class="vers">
+												<div class="vers-no">40</div>
+						<div class="vers-content">All these were sons of Aser, heads of their families, choice and most valiant captains of captains: and the number of them that were of the age that was fit for war, was six and twenty thousand.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_6">&lt; prev</a></div>|
+					<div class="chapter">Chapter 7</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_8">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_3">3</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_4">4</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_5">5</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_6">6</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_7" class="active">7</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_8">8</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_9">9</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_10">10</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_11">11</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_12">12</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_13">13</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_14">14</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_15">15</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_16">16</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_17">17</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_18">18</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_19">19</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_20">20</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_21">21</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_22">22</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_23">23</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_24">24</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_25">25</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_26">26</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_27">27</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_28">28</a> <a href="https://catholicbible.online/douay_rheims/OT/1_Par/ch_29">29</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="130" height="210" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br />
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br />
+        Flexible Cover</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-bible.html" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = 0;
+</script>		<div class="copyright">2015 - 2024 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/douay_rheims/OT/1_Par/ch_7"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>HASH(0x12680c020)

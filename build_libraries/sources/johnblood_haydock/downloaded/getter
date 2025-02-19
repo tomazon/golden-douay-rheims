@@ -1,0 +1,80 @@
+#! /usr/bin/perl
+
+use strict;
+use warnings;
+
+use File::Slurp;
+
+
+wget("https://johnblood.gitlab.io/haydock/index.html", "NT_index.html");
+wget("https://johnblood.gitlab.io/haydock/id330.html", "OT_index.html");
+wget("https://johnblood.gitlab.io/haydock/id1.html",   "About.html");
+wget("https://johnblood.gitlab.io/haydock/id533.html", "Commentators.html");
+wget("https://johnblood.gitlab.io/haydock/id16.html",  "Transcribers_Notes.html");
+wget("https://johnblood.gitlab.io/haydock/id3.html",   "Contact_Us.html");
+#wget("", ".html");
+
+
+
+
+my @targets = ();
+for my $part (qw( OT NT )) {
+    my $index = read_file("${part}_index.html");
+    $index =~ s{<a }{\n<a }ig;
+    $index =~ s{<font [^>]+>}{}ig;
+    $index =~ s{</font>}{}ig ; 
+    $index =~ s{^\s+}{}g;
+
+    print "$index\n";
+
+    for my $line (split(/\n/, $index)) {
+        push(@targets, $1) if $line =~ /href="(id\d+\.html)"/;
+    }
+}
+
+for my $t (sort @targets) {
+    next if -f $t;
+    my $url = "https://johnblood.gitlab.io/haydock/$t";
+    wget($url, $t);
+}
+
+sub wget {
+    my ($url, $file) = @_;
+
+    return if -f $file;
+
+    my @cmd = ('curl', '-o', $file, $url);
+    print "====> RUNNING: ". join(' ', @cmd) ."\n";
+    system(@cmd);
+    die "Error $? $!, Stopped," if $?;
+}
+
+
+__END__
+
+NOTES:
+
+#cat ?T_index.html | perl -pe 's{<a }{\n<a }ig ; s{<font [^>]+>}{}ig; s{</font>}{}ig ; s{^\s+}{}g' | perl -ne 'print "$1\n" if /href="(id\d+\.html)"/'
+
+
+#curl -o NT_index.html https://johnblood.gitlab.io/haydock/index.html
+#curl -o OT_index.html https://johnblood.gitlab.io/haydock/id330.html
+
+
+# catalog:
+# cat ?T_index.html | perl -pe 's{<a }{\n<a }ig ; s{<font [^>]+>}{}ig; s{</font>}{}ig ; s{^\s+}{}g' | grep -i strong
+
+cat OT_index.html NT_index.html  | perl -pe 's{<a }{\n<a }ig ; s{<font [^>]+>}{}ig; s{</font>}{}ig ; s{^\s+}{}g' | perl -ne 'print "$1\n" if m{<strong>(.+)</strong>}i' | wc -l
+
+Shows 225 entries
+minus 150 for Pslam chapters
+minus 2 for "THE BOOKS OF THE OLD TESTAMENT" and "THE NEW TESTAMENT"
+equals 73 (what we expect)
+
+
+====   not in utf-8
+
+cat id143.html | grep 'Afranius Burrus'  # show garbage in Pr__torium
+cat id143.html | iconv -f CP1252 -t UTF-8 | grep 'Afranius Burrus  # show an ae ligature in Praetorium
+cat id143.html | iconv -f iso-8859-1 -t UTF-8 | grep 'Afranius Burrus' # also words and matches the content type
+#### <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">

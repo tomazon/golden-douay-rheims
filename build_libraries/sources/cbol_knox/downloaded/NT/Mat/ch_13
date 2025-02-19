@@ -1,0 +1,598 @@
+<!doctype html>
+<html>
+<head><!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app200.us.archive.org';v.server_ms=400;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online/knox/NT/Mat/ch_13","20211027032711","https://web.archive.org/","web","/_static/",
+	      "1635305231");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8">
+	<title>Knox Bible</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20211027032711cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20211027032711cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20211027032711cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20211027032711js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211027032711js_/http://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211027032711js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211027032711js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211027032711js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20211027032711js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20211027032711/http%3A//catholicbible.online/knox/NT/Mat/ch_13"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/knox/NT/Mat/ch_13" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20211027032711" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20211027032711*/http://catholicbible.online/knox/NT/Mat/ch_13" title="See a list of every capture for this URL">18 captures</a>
+          <div class="r" title="Timespan for captures of this URL">10 Sep 2017 - 18 May 2022</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20200219102634/http://catholicbible.online:80/knox/NT/Mat/ch_13" title="19 Feb 2020"><strong>Feb</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 03:27:11 Oct 27, 2021">OCT</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220518224336/http://catholicbible.online/knox/NT/Mat/ch_13" title="18 May 2022"><strong>May</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20200219102634/http://catholicbible.online:80/knox/NT/Mat/ch_13" title="10:26:34 Feb 19, 2020"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 03:27:11 Oct 27, 2021">27</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220518224336/http://catholicbible.online/knox/NT/Mat/ch_13" title="22:43:36 May 18, 2022"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20200219102634/http://catholicbible.online:80/knox/NT/Mat/ch_13" title="19 Feb 2020"><strong>2020</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 03:27:11 Oct 27, 2021">2021</td>
+            <td class="f" nowrap="nowrap">2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20211027032711/http://web.archive.org/screenshot/http://catholicbible.online/knox/NT/Mat/ch_13"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_13" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_13" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_13</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/knox/NT/Mat/ch_13","20211027032711",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<script>
+	var comments={
+			2387: {
+				id_comment: 2387,
+				source_str: '✻',
+				caption: '',
+				content: "vv. 14, 15: Is. 6.9. Our Lord seems to tone down the language of this prophecy, perhaps for fear it might seem that the failure of the Jews to grasp his message was due to some arbitrary decree of heaven, not to their own fault."
+			},
+					2388: {
+				id_comment: 2388,
+				source_str: '✻',
+				caption: '',
+				content: "vv. 1-23: Mk. 4.1; Lk. 8.4."
+			},
+					2389: {
+				id_comment: 2389,
+				source_str: '✻',
+				caption: '',
+				content: "Cf. Mk. 4.30; Lk. 13.18."
+			},
+					2390: {
+				id_comment: 2390,
+				source_str: '✻',
+				caption: '',
+				content: "Ps. 77.2."
+			},
+					2391: {
+				id_comment: 2391,
+				source_str: '✻',
+				caption: '',
+				content: "Wis. 3.7."
+			},
+					2392: {
+				id_comment: 2392,
+				source_str: '✻',
+				caption: '',
+				content: "Perhaps in the sense that he must learn, on the principles laid down in the foregoing parables, the difference between the old Church of the Jews and the new Church of Christ."
+			},
+					2393: {
+				id_comment: 2393,
+				source_str: '✻',
+				caption: '',
+				content: "vv. 54-58: Mk. 6.1; Lk. 4.16; Jn. 6.42."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Knox Bible</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/vulgate?bible_part_no=2&amp;book_no=1&amp;chapter_no=13" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/douay_rheims?bible_part_no=2&amp;book_no=1&amp;chapter_no=13" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox?bible_part_no=2&amp;book_no=1&amp;chapter_no=13" class="menu-item active">Knox Bible</a>
+					<a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/side_by_side?bible_part_no=2&amp;book_no=1&amp;chapter_no=13" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20211027032711/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Matthew</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item active"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Lk">Luke</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/7925?vers_inline=1"><img src="https://web.archive.org/web/20211027032711im_/http://catholicbible.online/assets/img/para.jpg" alt=""/></a>					<a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/7925?comments_open=1"><img src="https://web.archive.org/web/20211027032711im_/http://catholicbible.online/assets/img/C-off.gif" alt=""/></a>				</div>
+				<div class="bible-name">The Holy Bible – Knox Translation</div>
+				<div class="book-name">The Holy Gospel of Jesus Christ According to Matthew </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/7924">&lt; prev</a></div>|
+					<div class="chapter">Chapter 13</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/7926">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_1">1</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_2">2</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_3">3</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_4">4</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_5">5</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_6">6</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_7">7</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_8">8</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_9">9</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_10">10</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_11">11</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_12">12</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_13" class="active">13</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_14">14</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_15">15</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_16">16</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_17">17</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_18">18</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_19">19</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_20">20</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_21">21</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_22">22</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_23">23</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_24">24</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_25">25</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_26">26</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_27">27</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_28">28</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers172652" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">That day, leaving the house, Jesus had sat down by the sea-shore,</div>
+					</div>
+									<div id="vers172653" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">and great multitudes gathered about him, so that he went on board a ship and sat there instead, while the whole multitude remained standing on the beach.</div>
+					</div>
+									<div id="vers172654" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">And he spoke to them long, in parables; Here, he began, is the sower gone out to sow.</div>
+					</div>
+									<div id="vers172655" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">And as he sowed, there were grains that fell beside the path, so that all the birds came and ate them up.</div>
+					</div>
+									<div id="vers172656" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">And others fell on rocky land, where the soil was shallow; they sprang up all at once, because they had not sunk deep in the ground;</div>
+					</div>
+									<div id="vers172657" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">but as soon as the sun rose they were parched; they had taken no root, and so they withered away.</div>
+					</div>
+									<div id="vers172658" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">Some fell among briers, so that the briers grew up, and smothered them.</div>
+					</div>
+									<div id="vers172659" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">But others fell where the soil was good, and these yielded a harvest, some a hundredfold, some sixtyfold, some thirtyfold.</div>
+					</div>
+									<div id="vers172660" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">Listen, you that have ears to hear with.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers172661" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">And his disciples came to him, and said, Why dost thou speak to them in parables?</div>
+					</div>
+									<div id="vers172662" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">Because, he answered, it is granted to you to understand the secrets of God’s kingdom, but not to these others.</div>
+					</div>
+									<div id="vers172663" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">If a man is rich, gifts will be made to him, and his riches will abound; if he is poor, even the little he has will be taken from him.</div>
+					</div>
+									<div id="vers172664" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">And if I talk to them in parables, it is because, though they have eyes, they cannot see, and though they have ears, they cannot hear or understand.</div>
+					</div>
+									<div id="vers172665" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">Indeed, in them the prophecy of Isaias is fulfilled, You will listen and listen, but for you there is no understanding; you will watch and watch, but for you there is no perceiving.</div>
+					</div>
+									<div id="vers172666" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">The heart of this people has become dull, their ears are slow to listen, and they keep their eyes shut, so that they may never see with those eyes, or hear with those ears, or understand with that heart, and turn back to me, and win healing from me.<a href="" class="inline-comment" data-comment-id="2387">✻</a> <span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers172667" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">But blessed are your eyes, for they have sight; blessed are your ears, for they have hearing.</div>
+					</div>
+									<div id="vers172668" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">And, believe me, there have been many prophets and just men who have longed to see what you see, and never saw it, to hear what you hear, and never heard it.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers172669" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">The parable of the sower, then, is for your hearing.</div>
+					</div>
+									<div id="vers172670" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">Wherever a man hears the word by which the kingdom is preached, but does not grasp it, the evil one comes and carries off what was sown in his heart; his was the wayside sowing.</div>
+					</div>
+									<div id="vers172671" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">The man who took in the seed in rocky ground is the man who hears the word and at once entertains it gladly;</div>
+					</div>
+									<div id="vers172672" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">but there is no root in him, and he does not last long; no sooner does tribulation or persecution arise over the word, than his faith is shaken.</div>
+					</div>
+									<div id="vers172673" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">And the man who took in the seed in the midst of briers is the man who hears the word, but allows the cares of this world and the false charms of riches to stifle it, so that it remains fruitless.</div>
+					</div>
+									<div id="vers172674" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">Whereas the man who took in the seed in good soil is the man who both hears and grasps it; such men are fruitful, one grain yielding a hundredfold, one sixtyfold, one thirtyfold.<a href="" class="inline-comment" data-comment-id="2388">✻</a> <span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers172675" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">And he put before them another parable; Here is an image, he said, of the kingdom of heaven. There was a man who sowed his field with clean seed;</div>
+					</div>
+									<div id="vers172676" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">but while all the world was asleep, an enemy of his came and scattered tares among the wheat, and was gone.</div>
+					</div>
+									<div id="vers172677" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">So, when the blade had sprung up and come into ear, the tares, too, came to light;</div>
+					</div>
+									<div id="vers172678" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">and the farmer’s men went to him and said, Sir, was it not clean seed thou didst sow in thy field? How comes it, then, that there are tares in it?</div>
+					</div>
+									<div id="vers172679" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">He said, An enemy has done it. And his men asked him, Wouldst thou then have us go and gather them up?</div>
+					</div>
+									<div id="vers172680" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">But he said, No; or perhaps while you are gathering the tares you will root up the wheat with them.</div>
+					</div>
+									<div id="vers172681" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">Leave them to grow side by side till harvest, and when harvest-time comes I will give the word to the reapers, Gather up the tares first, and tie them in bundles to be burned, and store the wheat in my barn.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers172682" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">Then he put before them another parable. The kingdom of heaven, he said, is like a grain of mustard seed, that a man has taken and sowed in his ground;</div>
+					</div>
+									<div id="vers172683" class="vers">
+												<div class="vers-no">32</div>
+						<div class="vers-content">of all seeds, none is so little, but when it grows up it is greater than any garden herb; it grows into a tree, so that all the birds come and settle in its branches.<a href="" class="inline-comment" data-comment-id="2389">✻</a></div>
+					</div>
+									<div id="vers172684" class="vers">
+												<div class="vers-no">33</div>
+						<div class="vers-content">And he told them still another parable, The kingdom of heaven is like leaven, that a woman has taken and buried away in three measures of meal, enough to leaven the whole batch.</div>
+					</div>
+									<div id="vers172685" class="vers">
+												<div class="vers-no">34</div>
+						<div class="vers-content">All this Jesus said to the multitude in parables, and would say it in parables only,</div>
+					</div>
+									<div id="vers172686" class="vers">
+												<div class="vers-no">35</div>
+						<div class="vers-content">so fulfilling the words which were spoken by the prophet, I will speak my mind in parables, I will give utterance to things which have been kept secret from the beginning of the world.<a href="" class="inline-comment" data-comment-id="2390">✻</a> <span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers172687" class="vers">
+												<div class="vers-no">36</div>
+						<div class="vers-content">Then he sent the multitude away, and went back into the house. There his disciples came to him, and said, Explain to us the parable of the tares in the field.</div>
+					</div>
+									<div id="vers172688" class="vers">
+												<div class="vers-no">37</div>
+						<div class="vers-content">He answered, It is the Son of Man that sows the good seed.</div>
+					</div>
+									<div id="vers172689" class="vers">
+												<div class="vers-no">38</div>
+						<div class="vers-content">The field is the world, and the sons of the kingdom are the good seed; the sons of the wicked one are the tares.</div>
+					</div>
+									<div id="vers172690" class="vers">
+												<div class="vers-no">39</div>
+						<div class="vers-content">The enemy that sowed them is the devil, and the end of the world is the harvest; it is reaped by the angels.</div>
+					</div>
+									<div id="vers172691" class="vers">
+												<div class="vers-no">40</div>
+						<div class="vers-content">The tares were gathered together and burned in the fire, and so it will be when the world is brought to an end;</div>
+					</div>
+									<div id="vers172692" class="vers">
+												<div class="vers-no">41</div>
+						<div class="vers-content">the Son of Man will give charge to his angels, and they will gather up all that gives offence in his kingdom, all those who do wickedly in it,</div>
+					</div>
+									<div id="vers172693" class="vers">
+												<div class="vers-no">42</div>
+						<div class="vers-content">and will cast them into the furnace of fire, where there will be weeping, and gnashing of teeth.</div>
+					</div>
+									<div id="vers172694" class="vers">
+												<div class="vers-no">43</div>
+						<div class="vers-content">Then, at last, the just will shine out, clear as the sun, in their Father’s kingdom.<a href="" class="inline-comment" data-comment-id="2391">✻</a> Listen, you that have ears to hear with.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers172695" class="vers">
+												<div class="vers-no">44</div>
+						<div class="vers-content">The kingdom of heaven is like a treasure hidden in a field; a man has found it and hidden it again, and now, for the joy it gives him, is going home to sell all that he has and buy that field.</div>
+					</div>
+									<div id="vers172696" class="vers">
+												<div class="vers-no">45</div>
+						<div class="vers-content">Again, the kingdom of heaven is as if a trader were looking for rare pearls:</div>
+					</div>
+									<div id="vers172697" class="vers">
+												<div class="vers-no">46</div>
+						<div class="vers-content">and now he has found one pearl of great cost, and has sold all that he had and bought it.</div>
+					</div>
+									<div id="vers172698" class="vers">
+												<div class="vers-no">47</div>
+						<div class="vers-content">Again, the kingdom of heaven is like a net that was cast into the sea, and enclosed fish of every kind at once;</div>
+					</div>
+									<div id="vers172699" class="vers">
+												<div class="vers-no">48</div>
+						<div class="vers-content">when it was full, the fishermen drew it up, and sat down on the beach, where they stored all that was worth keeping in their buckets, and threw the useless kind away.</div>
+					</div>
+									<div id="vers172700" class="vers">
+												<div class="vers-no">49</div>
+						<div class="vers-content">So it will be when the world is brought to an end; the angels will go out and separate the wicked from the just,</div>
+					</div>
+									<div id="vers172701" class="vers">
+												<div class="vers-no">50</div>
+						<div class="vers-content">and will cast them into the furnace of fire, where there will be weeping, and gnashing of teeth.</div>
+					</div>
+									<div id="vers172702" class="vers">
+												<div class="vers-no">51</div>
+						<div class="vers-content">Have you grasped all this? Yes, Lord, they said to him.</div>
+					</div>
+									<div id="vers172703" class="vers">
+												<div class="vers-no">52</div>
+						<div class="vers-content">And he said to them, Every scholar, then, whose learning is of the kingdom of heaven must be like a rich man, who knows how to bring both new and old things out of his treasure-house.<a href="" class="inline-comment" data-comment-id="2392">✻</a> <span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers172704" class="vers">
+												<div class="vers-no">53</div>
+						<div class="vers-content">Afterwards, when he had finished these parables, Jesus journeyed on,</div>
+					</div>
+									<div id="vers172705" class="vers">
+												<div class="vers-no">54</div>
+						<div class="vers-content">and came to his own country-side, where he taught them in their synagogue; so that they said in astonishment, How did he come by this wisdom, and these strange powers?</div>
+					</div>
+									<div id="vers172706" class="vers">
+												<div class="vers-no">55</div>
+						<div class="vers-content">Is not this the carpenter’s son, whose mother is called Mary, and his brethren James and Joseph and Simon and Judas?</div>
+					</div>
+									<div id="vers172707" class="vers">
+												<div class="vers-no">56</div>
+						<div class="vers-content">And do not his sisters, all of them, live near us? How is it that all this has come to him?</div>
+					</div>
+									<div id="vers172708" class="vers">
+												<div class="vers-no">57</div>
+						<div class="vers-content">And they had no confidence in him. But Jesus told them, It is only in his own country, in his own home, that a prophet goes unhonoured.</div>
+					</div>
+									<div id="vers172709" class="vers">
+												<div class="vers-no">58</div>
+						<div class="vers-content">Nor did he do many miracles there, because of their unbelief.<a href="" class="inline-comment" data-comment-id="2393">✻</a> <span class="content-paragraph"><br><br></span></div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_12">&lt; prev</a></div>|
+					<div class="chapter">Chapter 13</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_14">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_1">1</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_2">2</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_3">3</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_4">4</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_5">5</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_6">6</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_7">7</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_8">8</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_9">9</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_10">10</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_11">11</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_12">12</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_13" class="active">13</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_14">14</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_15">15</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_16">16</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_17">17</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_18">18</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_19">19</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_20">20</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_21">21</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_22">22</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_23">23</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_24">24</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_25">25</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_26">26</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_27">27</a> <a href="https://web.archive.org/web/20211027032711/http://catholicbible.online/knox/NT/Mat/ch_28">28</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20211027032711im_/http://catholicbible.online/assets/img/knox.jpg" alt="" width="130" height="210"/></p>
+	<p><span class="advert-text"><strong>The Holy Bible </strong> <br/>
+          Knox Translation</span><br/>
+	</p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20211027032711/https://www.baroniuspress.com/book.php?wid=56&amp;bid=60#tab=tab-1" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20211027032711/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/knox/NT/Mat/ch_13"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20211027032711/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20211027032711im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html><!--
+     FILE ARCHIVED ON 03:27:11 Oct 27, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:35:22 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.394
+  exclusion.robots: 0.029
+  exclusion.robots.policy: 0.022
+  esindex: 0.007
+  cdx.remote: 4.518
+  LoadShardBlock: 113.744 (3)
+  PetaboxLoader3.datanode: 121.691 (4)
+  load_resource: 258.917
+  PetaboxLoader3.resolve: 165.249
+-->

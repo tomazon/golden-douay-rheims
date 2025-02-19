@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Knox Bible</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+			3551: {
+				id_comment: 3551,
+				source_str: '✻',
+				caption: '',
+				content: "‘The Saviour’; the name ‘Jesus’ is here used in the Vulgate, apparently, to designate the God who brought Israel out of Egypt. Some Greek manuscripts have ‘the Lord’."
+			},
+					3552: {
+				id_comment: 3552,
+				source_str: '✻',
+				caption: '',
+				content: "vv. 8, 9: See II Pet. 2.10-11, and notes there. The tradition of a dispute over the body of Moses seems to have been preserved also in the apocryphal book called The Assumption of Moses, of which only a fragment survives."
+			},
+					3553: {
+				id_comment: 3553,
+				source_str: '✻',
+				caption: '',
+				content: "See II Pet. 2.15."
+			},
+					3554: {
+				id_comment: 3554,
+				source_str: '✻',
+				caption: '',
+				content: "vv. 12, 13: See II Pet. 2.13 and 17, and p. 251, note 5."
+			},
+					3555: {
+				id_comment: 3555,
+				source_str: '✻',
+				caption: '',
+				content: "vv. 14, 15: These words are found in the apocryphal Book of Enoch, which is supposed by scholars to have been written in the second and first centuries before Christ."
+			},
+					3556: {
+				id_comment: 3556,
+				source_str: '✻',
+				caption: '',
+				content: "vv. 17, 18: See II Pet. 3.2-4."
+			},
+					3557: {
+				id_comment: 3557,
+				source_str: '✻',
+				caption: '',
+				content: "‘While you shun them’; literally, ‘in fear’. Some Greek manuscripts only give two classes of men here, instead of three. ‘The outward fringe of what the flesh has defiled’; literally, ‘the garment defiled by the flesh’."
+			},
+					3558: {
+				id_comment: 3558,
+				source_str: '✻',
+				caption: '',
+				content: "The words ‘when our Lord Jesus Christ comes’ are not in our Greek text."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Knox Bible</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=2&book_no=26&chapter_no=1" class="menu-item ">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=2&book_no=26&chapter_no=1" class="menu-item ">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=2&book_no=26&chapter_no=1" class="menu-item active">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=2&book_no=26&chapter_no=1" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Jude</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/knox/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/knox/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Lk">Luke</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/3_Jn">3 John</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/knox/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/knox/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/knox/NT/Jud/8150?vers_inline=1"><img src="https://catholicbible.online/assets/img/para.jpg" alt="" /></a>					<a href="https://catholicbible.online/knox/NT/Jud/8150?comments_open=1"><img src="https://catholicbible.online/assets/img/C-off.gif" alt="" /></a>				</div>
+				<div class="bible-name">The Holy Bible – Knox Translation</div>
+				<div class="book-name">The Universal Epistle of the Blessed Apostle Jude </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"></div>|
+					<div class="chapter">Chapter 1</div>
+					|<div class="next-chapter"></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/knox/NT/Jud/ch_1" class="active">1</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers179776" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">Jude, a servant of Jesus Christ, and brother of James, to those who have met with loving-kindness from God the Father, those whom he has set apart for Jesus Christ, and called them;</div>
+					</div>
+									<div id="vers179777" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">Mercy and peace and love be yours, in full measure.</div>
+					</div>
+									<div id="vers179778" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">Beloved, as one who is ever ready to write to you about that salvation which is your common concern, I am compelled to send you this letter of warning; you have a battle to fight over the faith that was handed down, once for all, to the saints.</div>
+					</div>
+									<div id="vers179779" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">Godless men, long since destined thus to incur condemnation, have found their way secretly into your company, and are perverting the life of grace our God has bestowed on us into a life of wantonness; they even deny Jesus Christ, our one Lord and Master.</div>
+					</div>
+									<div id="vers179780" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">Learn one lesson, and you know all. Let me remind you, how the Saviour who had rescued his people from Egypt went on to destroy those who had proved unfaithful.<a href="" class="inline-comment" data-comment-id="3551">✻</a></div>
+					</div>
+									<div id="vers179781" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">The angels, too, who left the place assigned to them, instead of keeping their due order, he has imprisoned in eternal darkness, to await their judgement when the great day comes.</div>
+					</div>
+									<div id="vers179782" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">So with Sodom and Gomorrha and the cities round them, which fell into the same debauchery as their neighbours and pursued unnatural lust; they bear, for our warning, their sentence of eternal fire.</div>
+					</div>
+									<div id="vers179783" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">And so it is with these as it was with those others; they pollute nature, they defy authority, they insult august names.</div>
+					</div>
+									<div id="vers179784" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">(And yet, when the archangel Michael held debate with the devil, in their dispute over the body of Moses, he did not venture to accuse him insultingly; he was content to say, May the Lord rebuke thee.)<a href="" class="inline-comment" data-comment-id="3552">✻</a> <span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers179785" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">Such men sneer at the things they cannot understand; like the brute beasts they derive knowledge only from their senses, and it serves to corrupt them.</div>
+					</div>
+									<div id="vers179786" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">Woe betide them, they have followed in the path of Cain; greed, that led Balaam astray, has been their ruin; they have taken part in the fatal rebellion of Core.<a href="" class="inline-comment" data-comment-id="3553">✻</a></div>
+					</div>
+									<div id="vers179787" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">What defilement there is in their banquets, as they fare sumptuously at your side, shepherds that feed themselves without scruple! They are clouds with no water in them, driven before the winds, autumn trees that bear no fruit, given over anew to death, plucked up by the roots;</div>
+					</div>
+									<div id="vers179788" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">they are fierce waves of the sea, with shame for their crests, wandering stars, with eternal darkness and storm awaiting them.<a href="" class="inline-comment" data-comment-id="3554">✻</a></div>
+					</div>
+									<div id="vers179789" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">Of these, among others, Enoch was speaking, Adam’s descendant in the seventh degree, when he prophesied, Behold, the Lord came with his saints in their thousands,</div>
+					</div>
+									<div id="vers179790" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">to carry out his sentence on all men, and to convict the godless. Godless and sinners, with how many ungodly acts they have defied God, with how many rebellious words have they blasphemed him!<a href="" class="inline-comment" data-comment-id="3555">✻</a></div>
+					</div>
+									<div id="vers179791" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">Such men go about whispering and complaining, and live by the rule of their own appetites; meanwhile, their mouths are ready with fine phrases, to flatter the great when it serves their ends.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers179792" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">But as for you, beloved, keep in mind the warnings given you long since by the apostles of our Lord Jesus Christ;</div>
+					</div>
+									<div id="vers179793" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">how they told you, that mocking spirits must needs appear in the last age, who would make their own ungodly appetites into a rule of life.<a href="" class="inline-comment" data-comment-id="3556">✻</a></div>
+					</div>
+									<div id="vers179794" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">Such are the men who now keep themselves apart; animal natures, without the life of the Spirit.</div>
+					</div>
+									<div id="vers179795" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">It is for you, beloved, to make your most holy faith the foundation of your lives, and to go on praying in the power of the Holy Spirit;</div>
+					</div>
+									<div id="vers179796" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">to maintain yourselves in the love of God, and wait for the mercy of our Lord Jesus Christ, with eternal life for your goal.</div>
+					</div>
+									<div id="vers179797" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">To some you must give a hearing, and confute them;</div>
+					</div>
+									<div id="vers179798" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">others you must pluck out of the fire, and rescue them; others again you can only pity, while you shun them; even the outward fringe of what the flesh has defiled must be hateful to you.<a href="" class="inline-comment" data-comment-id="3557">✻</a></div>
+					</div>
+									<div id="vers179799" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">There is one who can keep you clear of fault, and enable you to stand in the presence of his glory, triumphant and unreproved, when our Lord Jesus Christ comes;<a href="" class="inline-comment" data-comment-id="3558">✻</a></div>
+					</div>
+									<div id="vers179800" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">to him, who alone is God, to him, who gives us salvation through Jesus Christ our Lord, glory and majesty and power and domination are due, before time was, and now, and for all ages. Amen.<span class="content-paragraph"><br><br></span></div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"></div>|
+					<div class="chapter">Chapter 1</div>
+					|<div class="next-chapter"></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/knox/NT/Jud/ch_1" class="active">1</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/knox-bible-flexible.png" alt="" width="130" height="210" /></p>
+	<p><span class="advert-text"><strong>The Holy Bible </strong> <br />
+          Knox Translation</span><br />
+	</p>
+	<p><span class="advert-text">Flexible Cover</span></p>
+	<p><a href="https://www.baronius.com/knox-bible-flexible-cover.html" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2015 - 2024 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/knox/NT/Jud/ch_1"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>

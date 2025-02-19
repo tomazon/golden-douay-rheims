@@ -1,0 +1,317 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Douay-Rheims Bible with Challoner's notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catholic Bible Online â Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/libs/search_box/css/style.css?v=5" rel="stylesheet" type="text/css">
+		<link href="https://catholicbible.online/assets/css/style.css?v=5" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+	};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Douay-Rheims</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://catholicbible.online/vulgate?bible_part_no=1&book_no=22&chapter_no=15" class="menu-item ">Vulgate</a>
+					<a href="https://catholicbible.online/douay_rheims?bible_part_no=1&book_no=22&chapter_no=15" class="menu-item active">Douay-Rheims</a>
+					<a href="https://catholicbible.online/knox?bible_part_no=1&book_no=22&chapter_no=15" class="menu-item ">Knox Bible</a>
+					<a href="https://catholicbible.online/side_by_side?bible_part_no=1&book_no=22&chapter_no=15" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off" />
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">OT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">Proverbs</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption active span_1_2"><a href="https://catholicbible.online/douay_rheims/OT">OT</a></li>
+					<li class="sheet-caption span_1_2"><a href="https://catholicbible.online/douay_rheims/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Gen">Genesis</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ex">Exodus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Lev">Leviticus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Num">Numbers</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Dt">Deuteronomy</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jos">Joshua</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Judg">Judges</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ru">Ruth</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Kgs">1 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Kgs">2 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/3_Kgs">3 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/4_Kgs">4 Kings</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Par">1 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Par">2 Paralipomenon</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Esd">1 Esdras</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Neh">2 Esdras (Nehemiah)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Tob">Tobias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jdt">Judith</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Est">Esther</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Job">Job</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Ps">Psalms</a></li>
+					<li class="book-item active"><a href="https://catholicbible.online/douay_rheims/OT/Prov">Proverbs</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eccl">Ecclesiastes</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Cant">Canticle of Canticles</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Wis">Wisdom</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eccle">Sirach (Ecclesiasticus)</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Isa">Isaias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jer">Jeremias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Lam">Lamentations</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Bar">Baruch</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Eze">Ezechiel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Dan">Daniel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Os">Osee</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jo">Joel</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Am">Amos</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Abd">Abdias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Jon">Jonas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Mic">Micheas</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Nah">Nahum</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Hab">Habacuc</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Sop">Sophonias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Agg">Aggeus</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Zac">Zacharias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/Mal">Malachias</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/1_Mac">1 Machabees</a></li>
+					<li class="book-item"><a href="https://catholicbible.online/douay_rheims/OT/2_Mac">2 Machabees</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://catholicbible.online/douay_rheims/OT/Prov/9834?vers_inline=1"><img src="https://catholicbible.online/assets/img/para.jpg" alt="" /></a>					<a href="https://catholicbible.online/douay_rheims/OT/Prov/9834?comments_open=1"><img src="https://catholicbible.online/assets/img/C-off.gif" alt="" /></a>				</div>
+				<div class="bible-name">The Holy Bible â DouayâRheims version</div>
+				<div class="book-name">The Book of Proverbs</div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Prov/9833">&lt; prev</a></div>|
+					<div class="chapter">Chapter 15</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Prov/9835">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_3">3</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_4">4</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_5">5</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_6">6</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_7">7</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_8">8</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_9">9</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_10">10</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_11">11</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_12">12</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_13">13</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_14">14</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_15" class="active">15</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_16">16</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_17">17</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_18">18</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_19">19</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_20">20</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_21">21</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_22">22</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_23">23</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_24">24</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_25">25</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_26">26</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_27">27</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_28">28</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_29">29</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_30">30</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_31">31</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers223753" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">A  MILD answer breaketh wrath: but a harsh word stirreth up fury.</div>
+					</div>
+									<div id="vers223754" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">The tongue of the wise adorneth knowledge: but the mouth of fools bubbleth out folly.</div>
+					</div>
+									<div id="vers223755" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">The eyes of the Lord in every place behold the good and the evil.</div>
+					</div>
+									<div id="vers223756" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">A peaceable tongue is a tree of life: but that which is immoderate, shall crush the spirit.</div>
+					</div>
+									<div id="vers223757" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">A fool laugheth at the instruction of his father: but he that regardeth reproofs shall become prudent. In abundant justice there is the greatest strength: but the devices of the wicked shall be rooted out.</div>
+					</div>
+									<div id="vers223758" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">The house of the just is very much strength: and in the fruits of the wicked is trouble.</div>
+					</div>
+									<div id="vers223759" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">The lips of the wise shall disperse knowledge: the heart of fools shall be unlike.</div>
+					</div>
+									<div id="vers223760" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">The victims of the wicked are abominable to the Lord: the vows of the just are acceptable.</div>
+					</div>
+									<div id="vers223761" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">The way of the wicked is an abomination to the Lord: he that followeth justice is beloved by him.</div>
+					</div>
+									<div id="vers223762" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">Instruction is grievous to him that forsaketh the way of life: he that hateth reproof shall die.</div>
+					</div>
+									<div id="vers223763" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">Hell and destruction are before the Lord: how much more the hearts of the children of men?</div>
+					</div>
+									<div id="vers223764" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">A corrupt man loveth not one that reproveth him: nor will he go to the wise.</div>
+					</div>
+									<div id="vers223765" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">A glad heart maketh a cheerful countenance: but by grief of mind the spirit is cast down.</div>
+					</div>
+									<div id="vers223766" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">The heart of the wise seeketh instruction: and the mouth of fools feedeth on foolishness.</div>
+					</div>
+									<div id="vers223767" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">All the days of the poor are evil: a secure mind is like a continual feast.</div>
+					</div>
+									<div id="vers223768" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">Better is a little with the fear of the Lord, than great treasures without content.</div>
+					</div>
+									<div id="vers223769" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">It is better to be invited to herbs with love, than to a fatted calf with hatred.</div>
+					</div>
+									<div id="vers223770" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">A passionate man stirreth up strifes: he that is patient appeaseth those that are stirred up.</div>
+					</div>
+									<div id="vers223771" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">The way of the slothful is as a hedge of thorns; the way of the just is without offence.</div>
+					</div>
+									<div id="vers223772" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">A wise son maketh a father joyful: but the foolish man despiseth his mother.</div>
+					</div>
+									<div id="vers223773" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">Folly is joy to the fool: and the wise man maketh straight his steps.</div>
+					</div>
+									<div id="vers223774" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">Designs are brought to nothing where there is no counsel: but where there are many counsellors, they are established.</div>
+					</div>
+									<div id="vers223775" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">A man rejoiceth in the sentence of his mouth: and a word in due time is best.</div>
+					</div>
+									<div id="vers223776" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">The path of life is above for the wise, that he may decline from the lowest hell.</div>
+					</div>
+									<div id="vers223777" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">The Lord will destroy the house of the proud: and will strengthen the borders of the widow.</div>
+					</div>
+									<div id="vers223778" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">Evil thoughts are an abomination to the Lord: and pure words most beautiful shall be confirmed by him.</div>
+					</div>
+									<div id="vers223779" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">He that is greedy of gain troubleth his own house: but he that hateth bribes shall live. By mercy and faith sins are purged away: and by the fear of the Lord every one declineth from evil.</div>
+					</div>
+									<div id="vers223780" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">The mind of the just studieth obedience: the mouth of the wicked overfloweth with evils.</div>
+					</div>
+									<div id="vers223781" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">The Lord is far from the wicked: and he will hear the prayers of the just.</div>
+					</div>
+									<div id="vers223782" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">The light of the eyes rejoiceth the soul: a good name maketh the bones fat.</div>
+					</div>
+									<div id="vers223783" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">The ear that heareth the reproofs of life, shall abide in the midst of the wise.</div>
+					</div>
+									<div id="vers223784" class="vers">
+												<div class="vers-no">32</div>
+						<div class="vers-content">He that rejecteth instruction, despiseth his own soul: but he that yieldeth to reproof possesseth understanding.</div>
+					</div>
+									<div id="vers223785" class="vers">
+												<div class="vers-no">33</div>
+						<div class="vers-content">The fear of the Lord is the lesson of wisdom: and humility goeth before glory.</div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_14">&lt; prev</a></div>|
+					<div class="chapter">Chapter 15</div>
+					|<div class="next-chapter"><a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_16">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_1">1</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_2">2</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_3">3</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_4">4</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_5">5</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_6">6</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_7">7</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_8">8</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_9">9</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_10">10</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_11">11</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_12">12</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_13">13</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_14">14</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_15" class="active">15</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_16">16</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_17">17</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_18">18</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_19">19</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_20">20</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_21">21</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_22">22</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_23">23</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_24">24</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_25">25</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_26">26</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_27">27</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_28">28</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_29">29</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_30">30</a> <a href="https://catholicbible.online/douay_rheims/OT/Prov/ch_31">31</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://catholicbible.online/assets/img/douay-vulgate-bible.jpg" alt="" width="130" height="210" /></p>
+	<p><span class="advert-text"><strong>Douay-Rheims Bible</strong></span><br />
+	</p>
+	<p><span class="advert-text">Leather Hardback or <br />
+        Flexible Cover</span></p>
+	<p><a href="https://www.baronius.com/douay-rheims-bible.html" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = 0;
+</script>		<div class="copyright">2015 - 2024 Â© CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="https://catholicbible.online/douay_rheims/OT/Prov/ch_15"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>

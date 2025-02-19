@@ -1,0 +1,856 @@
+
+<!-- is_embed=False -->
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log('%o', entry);
+    })
+  });
+  observer.observe({type: "navigation", buffered: true});
+</script>
+<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app201.us.archive.org';v.server_ms=406;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://catholicbible.online:80/knox/NT/Jn/ch_11","20180429155346","https://web.archive.org/","web","/_static/",
+	      "1525017226");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20180429155346/http%3A//catholicbible.online/knox/NT/Jn/ch_11"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://catholicbible.online/knox/NT/Jn/ch_11" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20180429155346" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20180429155346*/http://catholicbible.online/knox/NT/Jn/ch_11" title="See a list of every capture for this URL">14 captures</a>
+          <div class="r" title="Timespan for captures of this URL">29 Apr 2018 - 26 Jan 2021</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="725" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap">Mar</td>
+            <td class="c" id="displayMonthEl" title="You are here: 15:53:46 Apr 29, 2018">APR</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20180813084759/http://catholicbible.online:80/knox/NT/Jn/ch_11" title="13 Aug 2018"><strong>Aug</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" /></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 15:53:46 Apr 29, 2018">29</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20180813084759/http://catholicbible.online:80/knox/NT/Jn/ch_11" title="08:47:59 Aug 13, 2018"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap">2017</td>
+            <td class="c" id="displayYearEl" title="You are here: 15:53:46 Apr 29, 2018">2018</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20190615132004/http://catholicbible.online:80/knox/NT/Jn/ch_11" title="15 Jun 2019"><strong>2019</strong></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20180429155346/http://web.archive.org/screenshot/http://catholicbible.online/knox/NT/Jn/ch_11"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20180429155346/http://catholicbible.online:80/knox/NT/Jn/ch_11" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20180429155346/http://catholicbible.online:80/knox/NT/Jn/ch_11" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20180429155346/http://catholicbible.online:80/knox/NT/Jn/ch_11</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://catholicbible.online/knox/NT/Jn/ch_11","20180429155346",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  fopen(/home/baronius/catholicbible.online/sessions/ci_session0f9a31d8aac2e9b8c80d45c422dd2b339492a980): failed to open stream: Disk quota exceeded</p>
+<p>Filename: drivers/Session_files_driver.php</p>
+<p>Line Number: 156</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/baronius/catholicbible.online/application/libraries/Auth.php<br/>
+			Line: 23<br/>
+			Function: library			</p>
+
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/baronius/catholicbible.online/application/core/MY_Controller.php<br/>
+			Line: 33<br/>
+			Function: library			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/baronius/catholicbible.online/application/controllers/Bibles.php<br/>
+			Line: 16<br/>
+			Function: __construct			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/baronius/catholicbible.online/index.php<br/>
+			Line: 292<br/>
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/baronius/catholicbible.online/system/core/Exceptions.php:272)</p>
+<p>Filename: Session/Session.php</p>
+<p>Line Number: 140</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/baronius/catholicbible.online/application/libraries/Auth.php<br/>
+			Line: 23<br/>
+			Function: library			</p>
+
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/baronius/catholicbible.online/application/core/MY_Controller.php<br/>
+			Line: 33<br/>
+			Function: library			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/baronius/catholicbible.online/application/controllers/Bibles.php<br/>
+			Line: 16<br/>
+			Function: __construct			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/baronius/catholicbible.online/index.php<br/>
+			Line: 292<br/>
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/baronius/catholicbible.online/system/core/Exceptions.php:272)</p>
+<p>Filename: Session/Session.php</p>
+<p>Line Number: 140</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/baronius/catholicbible.online/application/libraries/Auth.php<br/>
+			Line: 23<br/>
+			Function: library			</p>
+
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/baronius/catholicbible.online/application/core/MY_Controller.php<br/>
+			Line: 33<br/>
+			Function: library			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/baronius/catholicbible.online/application/controllers/Bibles.php<br/>
+			Line: 16<br/>
+			Function: __construct			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/baronius/catholicbible.online/index.php<br/>
+			Line: 292<br/>
+			Function: require_once			</p>
+
+		
+	
+
+</div><!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Knox Bible</title>
+	<meta name="description" content="Catholic Bible Online – Douay-Rheims, Latin Vulgate, Knox Bible. Compare translations side-by-side or read the full text with notes.">
+	<meta name="keywords" content="side by side, catholic, douay, rheims, vulgate, knox, online, Ronald Knox, bible, scriptures, old testament, new testament, parallel, compare">
+	<meta name="author" content="Catholic Bible Online">
+	<meta name="copyright" content="Baronius Press Ltd">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="3 month">
+		<link href="https://web.archive.org/web/20180429155346cs_/http://catholicbible.online/assets/libs/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20180429155346cs_/http://catholicbible.online/assets/libs/search_box/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20180429155346cs_/http://catholicbible.online/assets/css/style.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="https://web.archive.org/web/20180429155346js_/http://catholicbible.online/assets/js/jquery-1.11.3.min.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20180429155346js_/http://catholicbible.online/assets/js/comments.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20180429155346js_/http://catholicbible.online/assets/js/common.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20180429155346js_/http://catholicbible.online/assets/libs/search_box/js/search_box.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20180429155346js_/http://catholicbible.online/assets/js/move-top.js"></script>
+					<script type="text/javascript" src="https://web.archive.org/web/20180429155346js_/http://catholicbible.online/assets/js/easing.js"></script>
+		</head>
+<body>
+<script>
+	var comments={
+			2750: {
+				id_comment: 2750,
+				source_str: '✻',
+				caption: '',
+				content: "Since St John only mentions this incident in the chapter which follows, this verse perhaps implies that he assumed his readers to be familiar with the other gospels. (Mt. 26.6; Mk. 14.3). Cf. also Lk. 7.36 sqq."
+			},
+					2751: {
+				id_comment: 2751,
+				source_str: '✻',
+				caption: '',
+				content: "The most probable explanation of this allegory is that our Lord compares the predestined length of his own life-time with the hours of daylight; there is no danger for him in Judaea yet, because the hour of darkness (Lk. 22.53) has not yet come. Cf. 9.4 above."
+			},
+					2752: {
+				id_comment: 2752,
+				source_str: '✻',
+				caption: '',
+				content: "The Jewish high priests were not elected annually, but held the office for life. The Romans were continually interfering to make changes in the high-priestly succession, and St John may be thinking of a slightly later period. He may, however, mean that Caiphas was high priest in that all-important year which witnessed the world’s redemption; or possibly that in this year Caiphas still held the office, from which he was in fact deposed by the Romans not many years afterwards."
+			},
+			};
+</script>
+<header class="main-header">
+	<div class="header-left">
+		<div class="main-caption">
+			<span class="main-caption-bigger">C</span>ATHOLIC<span class="main-caption-bigger">B</span>IBLE.<span class="main-caption-bigger">O</span>NLINE
+		</div>
+		<div class="menu">
+						<div class="dropdown-menu">
+				<a href="#" class="menu-main-caption dropdown" data-target="menu-main">Knox Bible</a>
+			</div>
+			<div class="menu-main collapsable-menu collapsed">
+					<a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/vulgate?bible_part_no=2&amp;book_no=4&amp;chapter_no=11" class="menu-item ">Vulgate</a>
+					<a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/douay_rheims?bible_part_no=2&amp;book_no=4&amp;chapter_no=11" class="menu-item ">Douay-Rheims</a>
+					<a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox?bible_part_no=2&amp;book_no=4&amp;chapter_no=11" class="menu-item active">Knox Bible</a>
+					<a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/side_by_side?bible_part_no=2&amp;book_no=4&amp;chapter_no=11" class="menu-item ">Side-by-Side</a>
+					</div>
+			<form action="https://web.archive.org/web/20180429155346/http://catholicbible.online/search" id="ui_element" class="sb_wrapper">
+				<div class="sb_inputs">
+					<input class="sb_input" type="text" name="search_text" value="" autocomplete="off"/>
+					<input class="sb_search" type="submit" value=""/>
+				</div>
+				<ul class="sb_dropdown" style="display:none;">
+											<li><input id="search-bible-1" type="checkbox" name="search_bibles[]" value="1" checked="checked"><label for="search-bible-1">Vulgate</label></li>
+											<li><input id="search-bible-2" type="checkbox" name="search_bibles[]" value="2" checked="checked"><label for="search-bible-2">Douay-Rheims</label></li>
+											<li><input id="search-bible-3" type="checkbox" name="search_bibles[]" value="3" checked="checked"><label for="search-bible-3">Knox Bible</label></li>
+									</ul>
+			</form>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="clearfix"> </div>
+</header><div class="page-content">
+	<div class="side-menu">
+	<div class="dropdown-menu">
+		<a href="#" class="selected-sheet-caption dropdown" data-target="sheet-list">NT</a>
+		<a href="#" class="selected-book dropdown" data-target="item-list">John</a>
+	</div>
+	<ul class="sheet-list collapsable-menu collapsed">
+					<li class="sheet-caption span_1_2"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/OT">OT</a></li>
+					<li class="sheet-caption active span_1_2"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT">NT</a></li>
+			</ul>
+	<ul class="item-list collapsable-menu collapsed">
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Mat">Matthew</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Mk">Mark</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Lk">Luke</a></li>
+					<li class="book-item active"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn">John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Act">Acts of Apostles</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Rom">Romans</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/1_Cor">1 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/2_Cor">2 Corinthians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Gal">Galatians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Eph">Ephesians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Phl">Philippians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Col">Colossians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/1_Th">1 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/2_Th">2 Thessalonians</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/1_Tim">1 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/2_Tim">2 Timothy</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Tit">Titus</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Phm">Philemon</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Heb">Hebrews</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jas">James</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/1_Pet">1 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/2_Pet">2 Peter</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/1_Jn">1 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/2_Jn">2 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/3_Jn">3 John</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jud">Jude</a></li>
+					<li class="book-item"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Apoc">Apocalypse</a></li>
+			</ul>
+</div>
+	<div class="main">
+		<div class="main-content">
+			<div class="book-header">
+				<div class="vers-view-type">
+					<a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/7991?vers_inline=1"><img src="https://web.archive.org/web/20180429155346im_/http://catholicbible.online/assets/img/para.jpg" alt=""/></a>					<a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/7991?comments_open=1"><img src="https://web.archive.org/web/20180429155346im_/http://catholicbible.online/assets/img/C-off.gif" alt=""/></a>				</div>
+				<div class="bible-name">The Holy Bible – Knox Translation</div>
+				<div class="book-name">The Holy Gospel of Jesus Christ According to John </div>
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/7990">&lt; prev</a></div>|
+					<div class="chapter">Chapter 11</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/7992">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_1">1</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_2">2</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_3">3</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_4">4</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_5">5</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_6">6</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_7">7</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_8">8</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_9">9</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_10">10</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_11" class="active">11</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_12">12</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_13">13</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_14">14</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_15">15</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_16">16</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_17">17</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_18">18</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_19">19</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_20">20</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_21">21</a> 				</div>
+			</div>
+						<div class="verses">
+									<div id="vers175635" class="vers">
+												<div class="vers-no">1</div>
+						<div class="vers-content">There was a man called Lazarus, of Bethany, who had fallen sick. Bethany was the name of the village where Mary lived, with her sister Martha;</div>
+					</div>
+									<div id="vers175636" class="vers">
+												<div class="vers-no">2</div>
+						<div class="vers-content">and this Mary, whose brother Lazarus had now fallen sick, was the woman who anointed the Lord with ointment and wiped his feet with her hair.<a href="" class="inline-comment" data-comment-id="2750">✻</a></div>
+					</div>
+									<div id="vers175637" class="vers">
+												<div class="vers-no">3</div>
+						<div class="vers-content">The sisters sent a message to him, to say, Lord, he whom thou lovest lies here sick.</div>
+					</div>
+									<div id="vers175638" class="vers">
+												<div class="vers-no">4</div>
+						<div class="vers-content">And Jesus said, on hearing it, The end of this sickness is not death; it is meant for God’s honour, to bring honour to the Son of God.</div>
+					</div>
+									<div id="vers175639" class="vers">
+												<div class="vers-no">5</div>
+						<div class="vers-content">Jesus loved Martha, and her sister, and Lazarus.</div>
+					</div>
+									<div id="vers175640" class="vers">
+												<div class="vers-no">6</div>
+						<div class="vers-content">At the time, then, after hearing the news, he waited for two days in the place where he was;</div>
+					</div>
+									<div id="vers175641" class="vers">
+												<div class="vers-no">7</div>
+						<div class="vers-content">and then, after that interval, he said to his disciples, Let us go back into Judaea.</div>
+					</div>
+									<div id="vers175642" class="vers">
+												<div class="vers-no">8</div>
+						<div class="vers-content">Master, his disciples said to him, the Jews were but now threatening to stone thee; art thou for Judaea again?</div>
+					</div>
+									<div id="vers175643" class="vers">
+												<div class="vers-no">9</div>
+						<div class="vers-content">Jesus answered, Are there not just twelve hours of daylight? A man can walk in the day-time without stumbling, with this world’s light to see by;<a href="" class="inline-comment" data-comment-id="2751">✻</a></div>
+					</div>
+									<div id="vers175644" class="vers">
+												<div class="vers-no">10</div>
+						<div class="vers-content">he only stumbles if he walks by night, because then the light cannot reach him.</div>
+					</div>
+									<div id="vers175645" class="vers">
+												<div class="vers-no">11</div>
+						<div class="vers-content">So much he said, and then he told them, Our friend Lazarus is at rest now; I am going there to awake him.</div>
+					</div>
+									<div id="vers175646" class="vers">
+												<div class="vers-no">12</div>
+						<div class="vers-content">But, Lord, the disciples said to him, if he is rested, his life will be saved.</div>
+					</div>
+									<div id="vers175647" class="vers">
+												<div class="vers-no">13</div>
+						<div class="vers-content">Jesus had been telling them of his death; but they supposed he meant the rest which comes with sleep.</div>
+					</div>
+									<div id="vers175648" class="vers">
+												<div class="vers-no">14</div>
+						<div class="vers-content">So now Jesus told them openly, Lazarus is dead.</div>
+					</div>
+									<div id="vers175649" class="vers">
+												<div class="vers-no">15</div>
+						<div class="vers-content">And for your sakes, I am glad I was not there; it will help you to believe. But come, let us make our way to him.</div>
+					</div>
+									<div id="vers175650" class="vers">
+												<div class="vers-no">16</div>
+						<div class="vers-content">Thereupon Thomas, who is also called Didymus, said to his fellow-disciples, Let us go too, and be killed along with him.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers175651" class="vers">
+												<div class="vers-no">17</div>
+						<div class="vers-content">When Jesus arrived, he found that Lazarus had already been four days in the grave.</div>
+					</div>
+									<div id="vers175652" class="vers">
+												<div class="vers-no">18</div>
+						<div class="vers-content">Since Bethany was near Jerusalem, about fifteen furlongs away,</div>
+					</div>
+									<div id="vers175653" class="vers">
+												<div class="vers-no">19</div>
+						<div class="vers-content">many of the Jews had gone out there to comfort Martha and Mary over the loss of their brother.</div>
+					</div>
+									<div id="vers175654" class="vers">
+												<div class="vers-no">20</div>
+						<div class="vers-content">Martha, when she heard that Jesus had come, went out to meet him, while Mary sat on in the house.</div>
+					</div>
+									<div id="vers175655" class="vers">
+												<div class="vers-no">21</div>
+						<div class="vers-content">Lord, said Martha to Jesus, if thou hadst been here, my brother would not have died;</div>
+					</div>
+									<div id="vers175656" class="vers">
+												<div class="vers-no">22</div>
+						<div class="vers-content">and I know well that even now God will grant whatever thou wilt ask of him.</div>
+					</div>
+									<div id="vers175657" class="vers">
+												<div class="vers-no">23</div>
+						<div class="vers-content">Thy brother, Jesus said to her, will rise again.</div>
+					</div>
+									<div id="vers175658" class="vers">
+												<div class="vers-no">24</div>
+						<div class="vers-content">Martha said to him, I know well enough that he will rise again at the resurrection, when the last day comes.</div>
+					</div>
+									<div id="vers175659" class="vers">
+												<div class="vers-no">25</div>
+						<div class="vers-content">Jesus said to her, I am the resurrection and life; he who believes in me, though he is dead, will live on,</div>
+					</div>
+									<div id="vers175660" class="vers">
+												<div class="vers-no">26</div>
+						<div class="vers-content">and whoever has life, and has faith in me, to all eternity cannot die. Dost thou believe this?</div>
+					</div>
+									<div id="vers175661" class="vers">
+												<div class="vers-no">27</div>
+						<div class="vers-content">Yes, Lord, she told him, I have learned to believe that thou art the Christ; thou art the Son of the living God; it is for thy coming the world has waited.</div>
+					</div>
+									<div id="vers175662" class="vers">
+												<div class="vers-no">28</div>
+						<div class="vers-content">And with that she went back and called her sister Mary aside; The Master is here, she said, and bids thee come.</div>
+					</div>
+									<div id="vers175663" class="vers">
+												<div class="vers-no">29</div>
+						<div class="vers-content">She rose up at once on hearing it, and went to him.</div>
+					</div>
+									<div id="vers175664" class="vers">
+												<div class="vers-no">30</div>
+						<div class="vers-content">(Jesus had not yet reached the village; he was still at the place where Martha had gone out to meet him.)</div>
+					</div>
+									<div id="vers175665" class="vers">
+												<div class="vers-no">31</div>
+						<div class="vers-content">And so the Jews who were in the house with Mary, comforting her, when they saw how quickly she rose up and went out, followed her; She has gone to the grave, they said, to weep there.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers175666" class="vers">
+												<div class="vers-no">32</div>
+						<div class="vers-content">So Mary reached the place where Jesus was; and when she saw him, she fell at his feet; Lord, she said, if thou hadst been here, my brother would not have died.</div>
+					</div>
+									<div id="vers175667" class="vers">
+												<div class="vers-no">33</div>
+						<div class="vers-content">And Jesus, when he saw her in tears, and the tears of the Jews who accompanied her, sighed deeply, and distressed himself over it;</div>
+					</div>
+									<div id="vers175668" class="vers">
+												<div class="vers-no">34</div>
+						<div class="vers-content">Where have you buried him? he asked. Lord, they said to him, come and see.</div>
+					</div>
+									<div id="vers175669" class="vers">
+												<div class="vers-no">35</div>
+						<div class="vers-content">Then Jesus wept.</div>
+					</div>
+									<div id="vers175670" class="vers">
+												<div class="vers-no">36</div>
+						<div class="vers-content">See, said the Jews, how he loved him;</div>
+					</div>
+									<div id="vers175671" class="vers">
+												<div class="vers-no">37</div>
+						<div class="vers-content">and some of them asked, Could not he, who opened the blind man’s eyes, have prevented this man’s death?</div>
+					</div>
+									<div id="vers175672" class="vers">
+												<div class="vers-no">38</div>
+						<div class="vers-content">So Jesus, once more sighing to himself, came to the tomb; it was a cave, and a stone had been put over the mouth of it.</div>
+					</div>
+									<div id="vers175673" class="vers">
+												<div class="vers-no">39</div>
+						<div class="vers-content">Take away the stone, Jesus told them. And Martha, the dead man’s sister, said to him, Lord, the air is foul by now; he has been four days dead.</div>
+					</div>
+									<div id="vers175674" class="vers">
+												<div class="vers-no">40</div>
+						<div class="vers-content">Why, Jesus said to her, have I not told thee that if thou hast faith, thou wilt see God glorified?</div>
+					</div>
+									<div id="vers175675" class="vers">
+												<div class="vers-no">41</div>
+						<div class="vers-content">So they took the stone away; and Jesus lifted his eyes to heaven, Father, he said, I thank thee for hearing my prayer.</div>
+					</div>
+									<div id="vers175676" class="vers">
+												<div class="vers-no">42</div>
+						<div class="vers-content">For myself, I know that thou hearest me at all times, but I say this for the sake of the multitude which is standing round, that they may learn to believe it is thou who hast sent me.</div>
+					</div>
+									<div id="vers175677" class="vers">
+												<div class="vers-no">43</div>
+						<div class="vers-content">And with that he cried in a loud voice, Come out, Lazarus, to my side.</div>
+					</div>
+									<div id="vers175678" class="vers">
+												<div class="vers-no">44</div>
+						<div class="vers-content">Whereupon the dead man came out, his feet and hands tied with linen strips, and his face muffled in a veil. Loose him, said Jesus, and let him go free.<span class="content-paragraph"><br><br></span></div>
+					</div>
+									<div id="vers175679" class="vers">
+												<div class="vers-no">45</div>
+						<div class="vers-content">Many of these Jews who had visited Martha and Mary, and seen what Jesus did, learned to believe in him,</div>
+					</div>
+									<div id="vers175680" class="vers">
+												<div class="vers-no">46</div>
+						<div class="vers-content">but some went off to the Pharisees, and reported to them all Jesus had done.</div>
+					</div>
+									<div id="vers175681" class="vers">
+												<div class="vers-no">47</div>
+						<div class="vers-content">So the chief priests and Pharisees summoned a council; What are we about? they said. This man is performing many miracles,</div>
+					</div>
+									<div id="vers175682" class="vers">
+												<div class="vers-no">48</div>
+						<div class="vers-content">and if we leave him to his own devices, he will find credit everywhere. Then the Romans will come, and make an end of our city and our race.</div>
+					</div>
+									<div id="vers175683" class="vers">
+												<div class="vers-no">49</div>
+						<div class="vers-content">And one of them, Caiphas, who held the high priesthood in that year,<a href="" class="inline-comment" data-comment-id="2752">✻</a> said to them, You have no perception at all;</div>
+					</div>
+									<div id="vers175684" class="vers">
+												<div class="vers-no">50</div>
+						<div class="vers-content">you do not reflect that it is best for us if one man is put to death for the sake of the people, to save a whole nation from destruction.</div>
+					</div>
+									<div id="vers175685" class="vers">
+												<div class="vers-no">51</div>
+						<div class="vers-content">It was not of his own impulse that he said this; holding the high priesthood as he did in that year, he was able to prophesy that Jesus was to die for the sake of the nation;</div>
+					</div>
+									<div id="vers175686" class="vers">
+												<div class="vers-no">52</div>
+						<div class="vers-content">and not only for that nation’s sake, but so as to bring together into one all God’s children, scattered far and wide.</div>
+					</div>
+									<div id="vers175687" class="vers">
+												<div class="vers-no">53</div>
+						<div class="vers-content">From that day forward, then, they plotted his death;</div>
+					</div>
+									<div id="vers175688" class="vers">
+												<div class="vers-no">54</div>
+						<div class="vers-content">and Jesus no longer went about openly among the Jews, but retired to a city called Ephrem, in the country which borders on the desert, and waited there with his disciples.</div>
+					</div>
+									<div id="vers175689" class="vers">
+												<div class="vers-no">55</div>
+						<div class="vers-content">The paschal feast which the Jews keep was now close at hand, and there were many from the country who went up to Jerusalem to purify themselves before paschal time began;</div>
+					</div>
+									<div id="vers175690" class="vers">
+												<div class="vers-no">56</div>
+						<div class="vers-content">so they looked out for Jesus, and said to one another as they stood there in the temple, What is your way of it? Will he come up to the feast? And the chief priests and Pharisees had given orders that anyone who knew where he was should report it to them, so that they could arrest him.<span class="content-paragraph"><br><br></span></div>
+					</div>
+							</div>
+			<div class="book-footer">
+				<div class="act-chapter">
+					<div class="prev-chapter"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_10">&lt; prev</a></div>|
+					<div class="chapter">Chapter 11</div>
+					|<div class="next-chapter"><a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_12">next &gt;</a></div>
+				</div>
+				<div class="chapters">
+					<a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_1">1</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_2">2</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_3">3</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_4">4</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_5">5</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_6">6</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_7">7</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_8">8</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_9">9</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_10">10</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_11" class="active">11</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_12">12</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_13">13</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_14">14</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_15">15</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_16">16</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_17">17</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_18">18</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_19">19</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_20">20</a> <a href="https://web.archive.org/web/20180429155346/http://catholicbible.online/knox/NT/Jn/ch_21">21</a> 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advert">
+	<p><img src="https://web.archive.org/web/20180429155346im_/http://catholicbible.online/assets/img/knox.jpg" alt="" width="130" height="210"/></p>
+	<p><span class="advert-text"><strong>The Holy Bible </strong> <br/>
+          Knox Translation</span><br/>
+	</p>
+	<p><span class="advert-text">Leather Hardback</span></p>
+	<p><a href="https://web.archive.org/web/20180429155346/https://www.baroniuspress.com/book.php?wid=56&amp;bid=60#tab=tab-1" class="btn">SHOP NOW</a></p>
+</div>
+</div>
+<script>
+	var openAllComments = null;
+</script>		<div class="copyright">2016 © CatholicBible.online, Baronius Press</div>
+		<div class="report-problem"><form action="https://web.archive.org/web/20180429155346/http://catholicbible.online/report_problem" method="post"><input type="hidden" name="url" value="http://catholicbible.online/knox/NT/Jn/ch_11"><a href="#" class="report-problem-action">Report a Problem</a></form></div>
+		<script>
+			$(document).ready(function(){
+				$('.report-problem-action').click(function(e){
+					e.preventDefault();
+					$(this).closest('form').submit();
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//web.archive.org/web/20180429155346/http://www.catholicbible.online/wiyvi86163eb/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//web.archive.org/web/20180429155346im_/http://www.catholicbible.online/wiyvi86163eb/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+	<!-- End Piwik Code -->
+	</body>
+</html>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  rewind() expects parameter 1 to be resource, boolean given</p>
+<p>Filename: drivers/Session_files_driver.php</p>
+<p>Line Number: 188</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /home/baronius/catholicbible.online/sessions/ci_session0f9a31d8aac2e9b8c80d45c422dd2b339492a980</p>
+<p>Filename: drivers/Session_files_driver.php</p>
+<p>Line Number: 192</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+
+</div><!--
+     FILE ARCHIVED ON 15:53:46 Apr 29, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:28:05 Nov 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.535
+  exclusion.robots: 0.036
+  exclusion.robots.policy: 0.025
+  esindex: 0.011
+  cdx.remote: 16.549
+  LoadShardBlock: 288.921 (3)
+  PetaboxLoader3.datanode: 240.161 (4)
+  PetaboxLoader3.resolve: 113.146 (2)
+  load_resource: 76.375
+-->
