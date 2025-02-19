@@ -13,8 +13,8 @@ Project Status
 | LUK | 4145 | 421 | 1345 | 27 | 586 | DONE | DONE | 1PASS |  |  |
 | JHN | 3207 | 322 | 1060 | 22 | 421 | DONE | DONE | 1PASS |  |  |
 | ACT | 3332 | 411 | 1227 | 29 | 27 | DONE | DONE | 1PASS |  |  |
-| 1CO | 1353 | 169 | 506 | 1 | 2 | DONE | DONE |  |  |  |
-| 2CO | 805 | 100 | 300 | 4 | 1 | DONE | DONE |  |  |  |
+| 1CO | 1353 | 169 | 506 | 1 | 2 | DONE | DONE | 1PASS |  |  |
+| 2CO | 805 | 100 | 300 | 4 | 1 | DONE | DONE | 1PASS |  |  |
 | REV | 2381 | 378 | 779 | 0 | 67 | DONE | DONE |  |  |  |
 
 ## Torah
