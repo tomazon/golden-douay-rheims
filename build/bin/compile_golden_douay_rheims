@@ -28,22 +28,25 @@ $|++;
 
 $::ok = fetch_okays();
 
+my $paths = YAML::LoadFile("./etc/paths.yaml");
+
 my $book_order_file = './etc/book_order.yaml';
-my $top_out_dir = "./library";
-my $golden_out_dir = "$top_out_dir/golden-douay-rheims";
+#my $top_out_dir = "./library";
+#my $golden_out_dir = "$top_out_dir/golden-douay-rheims";
+my $golden_out_dir = $paths->{generated}->{golden_douay_rheims_d};
 
 my %source_dirs = (
-    'johnblood' => './sources/johnblood_haydock/out',
+    'johnblood'         => './sources/johnblood_haydock/out',
     'pg1581'            => './sources/pg1581/out',
     'drbo'              => './sources/drbo/out',
     'cbol'              => './sources/cbol_douay-rheims/out',
     'vulsearch'         => './sources/vulsearch_vulgate/out',
-    'pg8300_info'       => './sources/pg8300/etc/by_id.yaml',
-    'vscodes_count'     => './sources/vulsearch_vulgate/out_vscode_counts',
-    'match_of_drbo_or_pg1581'  => './etc/diff_sheets',
+    #'pg8300_info'       => './sources/pg8300/etc/by_id.yaml',
+    #?'vscodes_count'     => './sources/vulsearch_vulgate/out_vscode_counts',
+    #'match_of_drbo_or_pg1581'  => './etc/diff_sheets',
     'cache'                    => '/tmp/gold_douay_cache',
-    'overlay_manual_edits.psv'  => './etc/overlay_manual_edits.psv',
-    'overlay_italics_d' => './etc/overlay_italics',
+    #_edits.psv'  => './etc/overlay_manual_edits.psv',
+    #'overlay_italics_d' => './etc/overlay_italics',
 );
 
 my @steps = (qw(
@@ -60,17 +63,19 @@ my @steps = (qw(
 mkdir($source_dirs{cache});
 
 
-my %programs = (
-    'check_match_drbo_or_pg1581' => './bin/check_diff_sheet'
-);
+# my %programs = (
+#     'check_match_drbo_or_pg1581' => './bin/check_diff_sheet'
+# );
 
 
-my $drbo_dir = $source_dirs{drbo};
-my $pg1581_dir = $source_dirs{pg1581};
+# my $drbo_dir = $source_dirs{drbo};
+# my $pg1581_dir = $source_dirs{pg1581};
+my $drbo_dir   = $paths->{source_out_d}->{drbo};
+my $pg1581_dir = $paths->{source_out_d}->{pg1581};
 
 
 my $choices = {};
-my @books = book_list($book_order_file, qw( OT NT ));
+my @books = book_list($paths->{book_order_yaml}, qw( OT NT ));
 
 
 
@@ -177,7 +182,8 @@ sub is_num {
 sub step_overlay_manual_edits {
     my ($book, $book_id, $source_dirs, $pg1581, $drbo) = @_;
     my @chapter_list = (combined_keys($drbo->{chapters}, $pg1581->{chapters}));
-    my $file = $source_dirs->{'overlay_manual_edits.psv'};
+    #my $file = $source_dirs->{'overlay_manual_edits.psv'};
+    my $file = "$paths->{overlay_d}->{manual_edits}/manual_edits.psv";
     my $line_num = 0;
     for my $line (read_file($file)) {
         $line_num++;
@@ -212,8 +218,9 @@ sub step_overlay_manual_edits {
 sub step_overlay_italics {
     my ($book, $book_id, $source_dirs, $pg1581, $drbo) = @_;
     my @chapter_list = (combined_keys($drbo->{chapters}, $pg1581->{chapters}));
-    my $dir = $source_dirs->{'overlay_italics_d'};
-    my $file = "$dir/$book_id";
+    #my $dir = $source_dirs->{'overlay_italics_d'};
+    #my $file = "$dir/$book_id";
+    my $file = "$paths->{overlay_d}->{italics}/$book_id.italics";
 
     if (! -f $file) {
         say "  skip -- no such file: $file";
@@ -267,8 +274,9 @@ sub chapter_overlay_TAN_match_of_drbo_or_pg1581 {
 
     #say "=== overlay_TAN_match_of_drbo_or_pg158";
 
-    my $dir = $source_dirs{'match_of_drbo_or_pg1581'};
-    my $file = "$dir/$book->{book_id}.dif";
+    #my $dir = $source_dirs{'match_of_drbo_or_pg1581'};
+    #my $file = "$dir/$book->{book_id}.dif";
+    my $file = "$paths->{overlay_d}->{diff_sheets}/$book->{book_id}.dif";
 
     my $want_c = $c_index;
     $want_c =~ s/c:0*//;
@@ -363,10 +371,8 @@ sub bcv2tag {
 sub check_match_drbo_or_pg1581 {
     my ($book_id) = @_;
 
-    my $pgm = $programs{check_match_drbo_or_pg1581};
+    my $pgm = $paths->{pgm}->{check_diff_sheet};
     run_cmd({}, $pgm, $book_id);
-
-
 }
 
 
@@ -623,7 +629,7 @@ sub make_footnote_tags {
 
 
 
-sub apply_vscodes {
+sub OLD_apply_vscodes {
     my ($text, $vscodes_count, $c_index, $v_index) = @_;
     my $counts = $vscodes_count->{chapters}->{$c_index}->{verses}->{$v_index};
     if (defined $counts) {
@@ -742,7 +748,7 @@ sub format_footnotes {
     \@out;
 }
 
-sub copy_vulsearsh_files {
+sub TO_MOVE_copy_vulsearsh_files { ## TODO: Move out
     my ($in_dir, $out_dir) = @_;
     print "Copying VulSearch (Vulgate) files:\n";
     for my $file (read_dir($in_dir)) {
@@ -762,7 +768,7 @@ sub tag_to_num {
     $tag
 }
 
-sub get_titles {
+sub TO_MOVE_get_titles { 
     my ($source_dirs, $book_id) = @_;
     my $titles = {};
     my $names = {};

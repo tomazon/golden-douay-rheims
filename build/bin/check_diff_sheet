@@ -24,11 +24,11 @@ my $args = {
 };
 
 my $book_id = shift() || die $usage;
+my $paths = YAML::LoadFile("./etc/paths.yaml");
 
-
-my $diff_file = "./etc/diff_sheets/$book_id.dif";
-my $drbo_file = "./sources/drbo/out/$book_id.yaml";
-my $pg1581_file = "./sources/pg1581/out/$book_id.yaml";
+my $diff_file   = "$paths->{overlay_d}->{diff_sheets}/$book_id.dif";
+my $drbo_file   = "$paths->{source_out_d}->{drbo}/$book_id.yaml";
+my $pg1581_file = "$paths->{source_out_d}->{pg1581}/$book_id.yaml";
 
 my $drbo   = YAML::LoadFile($drbo_file);
 my $pg1581 = YAML::LoadFile($pg1581_file);

@@ -1,0 +1,23 @@
+---
+
+book_order_yaml:     ../etc/book_order.yaml
+status_yaml:         ../etc/status.yaml
+
+overlay_d:
+    red_letters:     ./overlays/red_letters
+    italics:         ./overlays/italics
+    vs_formatting:   ./overlays/vs_formatting
+    diff_sheets:     ./overlays/diff_sheets
+    manual_edits:    ./overlays/manual_edits
+
+pgm:
+    check_diff_sheet:    ./bin/check_diff_sheet
+    diff_yamldirs:       ./bin/diff_yamldirs
+
+source_out_d:
+    drbo:        ./sources/drbo/out
+    pg1581:      ./sources/pg1581/out
+
+generated:
+    progress_markdown:      ../generated/Progress.md
+    golden_douay_rheims_d:  ../generated/golden-douay-rheims
