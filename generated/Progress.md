@@ -21,9 +21,9 @@ Project Status
 | BookID | Weight<br>of<br>Effort | # of<br>Diff<br>Splits<br> | # of<br>Audit<br>Diffs<br> | # of<br>format<br>codes | # of<br>red<br>lines | Split<br>Diffs | Which<br>Matches<br>1971-TAN | Apply<br>italics | Apply<br>format<br>Codes | Apply<br>Red<br>Codes | 
 | :---: |  ---: |  ---: |  ---: |  ---: |  ---: | :---: | :---: | :---: | :---: | :---: | 
 | GEN | 2169 | 124 | 936 | 49 | 0 | DONE | DONE | 1PASS |  |  |
-| EXO | 1823 | 143 | 757 | 23 | 0 | DONE |  |  |  |  |
-| LEV | 1771 | 199 | 686 | 1 | 0 | DONE |  |  |  |  |
-| NUM | 329 | 10 | 130 | 49 | 0 | DONE |  |  |  |  |
+| EXO | 1825 | 143 | 758 | 23 | 0 | DONE | WIP |  |  |  |
+| LEV | 1771 | 199 | 686 | 1 | 0 | DONE | WIP |  |  |  |
+| NUM | 329 | 10 | 130 | 49 | 0 | DONE | WIP |  |  |  |
 | DEU | 282 | 4 | 94 | 86 | 0 | DONE | DONE | 1PASS |  |  |
 
 ## Other New Testament books (ordered by effort weight)
