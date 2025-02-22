@@ -1,4 +1,4 @@
-| Book<br>ID | Verse<br>Count | Verses<br>with<br>Diffs | Diff<br>matched<br>drbo | Diff<br>matched<br>pg1581 | Diff<br>matched<br>other | Diff<br>match<br>pending | Manual<br>edits | Percent<br>with<br>Diffs | Percent<br>matched<br>drbo | Percent<br>Diffs<br>matched<br>drbo |
+| Book<br>ID | Verse<br>Count | Verses<br>with<br>Diffs | Diff<br>matched<br>drbo | Diff<br>matched<br>pg1581 | Diff<br>matched<br>other | Diff<br>match<br>pending | Manual<br>edits | Percent<br>with<br>Diffs | Percent<br>Verses<br>matched<br>drbo | Percent<br>Diffs<br>matched<br>drbo |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 |  GEN  | 1530  |  655  |  630  |   10  |   15  |       |    5  | 42%  | 98.4%  | 96%  |
 |  EXO  | 1211  |  504  |  422  |   43  |   26  |   13  |    1  | 41%  | 93.2%  | 83%  |
@@ -33,4 +33,3 @@
 |  3JN  |   14  |    9  |    9  |       |       |       |       | 64%  | 100.0%  | 100%  |
 |  JUD  |   25  |   17  |   17  |       |       |       |       | 68%  | 100.0%  | 100%  |
 |  REV  |  405  |  340  |  333  |    3  |    4  |       |       | 83%  | 98.3%  | 97%  |
-

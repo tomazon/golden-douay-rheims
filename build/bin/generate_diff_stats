@@ -10,6 +10,7 @@ use YAML;
 use feature "say";
 
 my $paths = YAML::LoadFile("./etc/paths.yaml");
+my $out_file = $paths->{generated}->{markdown}->{diff_stats};
 
 
 my $counts = {};
@@ -18,8 +19,10 @@ count_verses($counts);
 count_diff_sheets($counts);
 count_manual_edits($counts);
 
-#say YAML::Dump($counts);
-say counts_table($counts);
+my $pgm_out = counts_table($counts);
+
+say "Writing: $out_file";
+write_file($out_file, $pgm_out);
 
 
 ##################################################################################
@@ -68,12 +71,12 @@ sub counts_table {
                 }
 
             } elsif ($field eq 'percent_verses_matched_A') {
-                my $total = $counts->{$book_id}->{verse_count};
-                my $misses = $counts->{$book_id}->{diffs_matched_B}
-                            + $counts->{$book_id}->{diffs_matched_other}
-                            + $counts->{$book_id}->{diffs_matched_pending};
-                if (defined($total) && defined($misses)) {
-                    $out .= sprintf(" | %4.1f%% ", (($total-$misses)/$total)*100 );
+                my $total   = $counts->{$book_id}->{verse_count};
+                my $diffs   = $counts->{$book_id}->{verses_with_diffs};
+                my $match_A = $counts->{$book_id}->{diffs_matched_A};
+
+                if (defined($total) && defined($diffs) && defined($match_A)) {
+                    $out .= sprintf(" | %4.1f%% ", (($total - $diffs + $match_A)/$total)*100);
                 } else {
                     $out .= "|     ";
                 }

@@ -73,7 +73,8 @@ out table('sort', '',  @other_ot);
 #say "=============";
 #say $::pgm_out;
 
-my $out_file = $paths->{generated}->{progress_markdown};
+my $out_file = $paths->{generated}->{markdown}->{progress};
+say "Writing: $out_file";
 write_file($out_file, $::pgm_out);
 
 exit();

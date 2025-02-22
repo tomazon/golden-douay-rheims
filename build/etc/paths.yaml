@@ -19,5 +19,7 @@ source_out_d:
     pg1581:      ./sources/pg1581/out
 
 generated:
-    progress_markdown:      ../generated/Progress.md
+    markdown:
+        progress:               ../generated/Progress.md
+        diff_stats:             ../generated/Diff_Stats.md
     golden_douay_rheims_d:  ../generated/golden-douay-rheims
