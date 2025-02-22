@@ -1,5 +1,5 @@
 | Book<br>ID | Verse<br>Count | Verses<br>with<br>Diffs | Percent<br>with<br>Diffs | Diff<br>matched<br>drbo | Percent<br>matched<br>drbo | Percent<br>Diffs<br>matched<br>drbo | Diff<br>matched<br>pg1581 | Diff<br>matched<br>other | Diff<br>match<br>pending | Manual<br>edits |
-| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 |  GEN  | 1530  |  655  | 42%  |  630  | 98.4%  | 96%  |   10  |   15  |       |    5  |
 |  EXO  | 1211  |  504  | 41%  |  422  | 93.2%  | 83%  |   43  |   26  |   13  |    1  |
 |  LEV  |  858  |  458  | 53%  |  434  | 97.2%  | 94%  |    5  |   11  |    8  |       |
