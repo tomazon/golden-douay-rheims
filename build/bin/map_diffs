@@ -32,14 +32,14 @@ sub counts_table {
         '| Book<br>ID',
         'Verse<br>Count',
         'Verses<br>with<br>Diffs',
-        'Percent<br>with<br>Diffs',
         'Diff<br>matched<br>drbo',
-        'Percent<br>matched<br>drbo',
-        'Percent<br>Diffs<br>matched<br>drbo',
         'Diff<br>matched<br>pg1581',
         'Diff<br>matched<br>other',
         'Diff<br>match<br>pending',
         'Manual<br>edits',
+        'Percent<br>with<br>Diffs',
+        'Percent<br>matched<br>drbo',
+        'Percent<br>Diffs<br>matched<br>drbo',
     ) . " |\n";
     $out .= "| ---: " x 11 ."|\n";
     for my $book_id (book_ids_in_order()) {
@@ -47,7 +47,7 @@ sub counts_table {
         $out .= '| ';
 
         $out .= " $book_id ";
-        for my $field (qw( verse_count  verses_with_diffs percent_with_diffs diffs_matched_A percent_verses_matched_A percent_diffs_matched_A diffs_matched_B diffs_matched_other diffs_matched_pending manual_edits )) {
+        for my $field (qw( verse_count  verses_with_diffs  diffs_matched_A diffs_matched_B diffs_matched_other diffs_matched_pending manual_edits   percent_with_diffs percent_verses_matched_A percent_diffs_matched_A )) {
             if ($field eq 'percent_with_diffs') {
                 my $total = $counts->{$book_id}->{verse_count};
                 my $diffs = $counts->{$book_id}->{verses_with_diffs};
