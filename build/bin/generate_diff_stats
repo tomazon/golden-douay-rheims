@@ -179,7 +179,7 @@ sub list_books {
         }
     }
 
-    push(@out, qw( GEN EXO DEU LEV NUM ));
+    push(@out, qw( GEN EXO DEU LEV NUM PSA ));
 
     @out;
 }
