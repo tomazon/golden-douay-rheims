@@ -41,7 +41,7 @@ sub counts_table {
         'Diff<br>match<br>pending',
         'Manual<br>edits',
     ) . " |\n";
-    $out .= "| ---: " x 10 ."|\n";
+    $out .= "| ---: " x 11 ."|\n";
     for my $book_id (book_ids_in_order()) {
         next unless defined ($counts->{$book_id});
         $out .= '| ';
