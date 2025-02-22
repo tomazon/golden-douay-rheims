@@ -1,0 +1,182 @@
+#! /usr/bin/perl
+
+use strict;
+use warnings;
+
+use Data::Dumper;
+use File::Slurp;
+use YAML;
+
+use feature "say";
+
+my $paths = YAML::LoadFile("./etc/paths.yaml");
+
+
+my $counts = {};
+
+count_verses($counts);
+count_diff_sheets($counts);
+count_manual_edits($counts);
+
+#say YAML::Dump($counts);
+say counts_table($counts);
+
+
+##################################################################################
+
+sub counts_table {
+    my ($counts) = @_;
+    my $out = '';
+
+    $out .= join(' | ',
+        '| Book<br>ID',
+        'Verse<br>Count',
+        'Verses<br>with<br>Diffs',
+        'Percent<br>with<br>Diffs',
+        'Diff<br>matched<br>drbo',
+        'Percent<br>matched<br>drbo',
+        'Diff<br>matched<br>pg1581',
+        'Diff<br>matched<br>other',
+        'Diff<br>match<br>pending',
+        'Manual<br>edits',
+    ) . " |\n";
+    $out .= "| ---: " x 10 ."|\n";
+    for my $book_id (book_ids_in_order()) {
+        next unless defined ($counts->{$book_id});
+        $out .= '| ';
+
+        $out .= " $book_id ";
+        for my $field (qw( verse_count  verses_with_diffs percent_with_diffs diffs_matched_A percent_matched_A diffs_matched_B diffs_matched_other diffs_matched_pending manual_edits )) {
+            if ($field eq 'percent_with_diffs') {
+                my $total = $counts->{$book_id}->{verse_count};
+                my $diffs = $counts->{$book_id}->{verses_with_diffs};
+                if (defined($total) && defined($diffs)) {
+                    $out .= sprintf(" | %2d%% ", ($diffs/$total)*100 );
+                } else {
+                    $out .= "|     ";
+                }
+
+            } elsif ($field eq 'percent_matched_A') {
+                my $total = $counts->{$book_id}->{verses_with_diffs};
+                my $diffs = $counts->{$book_id}->{diffs_matched_A};
+
+                if (defined($total) && defined($diffs)) {
+                    $out .= sprintf(" | %2d%% ", ($diffs/$total)*100 );
+                } else {
+                    $out .= "|     ";
+                }
+            } else {
+                my $value  = $counts->{$book_id}->{$field};
+                $value ||= '';
+                $out .= sprintf(" | %4s ", $value);
+
+            }
+        }
+        $out .= " |\n";
+    }
+
+    $out;
+}
+
+
+sub count_verses {
+    my ($counts) = @_;
+    my $dir = "/tmp/gold_douay_cache/step_05_-_overlay_italics";
+
+    for my $book_id (list_books()) {
+        my $book = YAML::LoadFile("$dir/$book_id.yaml");
+        my $verse_count = 0;
+        for my $c_index (keys %{$book->{chapters}}) {
+            $verse_count += int(keys %{$book->{chapters}->{$c_index}->{verses}});
+        }
+        $counts->{$book_id}->{verse_count} = $verse_count;
+    }
+}
+
+sub count_manual_edits {
+    my ($counts) = @_;
+    my $file = "$paths->{overlay_d}->{manual_edits}/manual_edits.psv";
+
+    # for my $book_id (list_books()) {
+    #     $counts->{$book_id}->{manual_edits} = 0;
+    # }
+    for my $line (read_file($file)) {
+        if ($line =~ /^([1-3A-Z]{3}):/) {
+            my $book_id = $1;
+            $counts->{$book_id}->{manual_edits}++;
+        }
+    }
+}
+
+sub count_diff_sheets {
+    my ($counts) = @_;
+    my $dir = $paths->{overlay_d}->{diff_sheets};
+
+    for my $book_id (list_books()) {
+        my %letter_map = ();
+        my $file = "$dir/$book_id.dif";
+        my $line_num = 0;
+        for my $line (read_file($file)) {
+            $line_num++;
+            next if $line =~ /^#/;
+            chomp($line);
+            my @cols = split(/\s*\|\s*/, $line);
+            if (defined($cols[1]) && $cols[1] eq 'which') {
+                my $tag = $cols[0];
+                if ($cols[2] =~ /^1971-Tan:(\S)$/) {
+                    my $letter = $1;
+                    #say "$tag -- $letter";
+                    if ($letter eq 'A' || $letter eq 'B') {
+                        if (!defined($letter_map{$tag})) {
+                            $letter_map{$tag} = $letter;
+                        } elsif ($letter ne $letter_map{$tag}) {
+                            $letter_map{$tag} = 'other';
+                        }
+                    } elsif ($letter eq 'C' || $letter eq 'D') {
+                        $letter_map{$tag} = 'other';
+                    } elsif ($letter eq '_' || $letter eq 'Z') {
+                        $letter_map{$tag} = 'pending';
+                    } else {
+                        die "${file}[$line_num]: Bad letter: $cols[2] ";
+                    }
+                } else {
+                    die "${file}[$line_num]: Bad col: $cols[2] ";
+                }
+            }
+        }
+        for my $tag (keys %letter_map) {
+            my $letter = $letter_map{$tag};
+            $counts->{$book_id}->{"diffs_matched_$letter"}++;
+            $counts->{$book_id}->{"verses_with_diffs"}++;
+        }
+    }
+}
+
+
+sub list_books {
+    my $books = YAML::LoadFile($paths->{book_order_yaml});
+    my @out = ();
+
+    for my $sec (qw( NT )) {
+        for my $book_id (@{$books->{$sec}}) {
+            push (@out, $book_id);
+        }
+    }
+
+    push(@out, qw( GEN EXO DEU LEV NUM ));
+
+    @out;
+}
+
+sub book_ids_in_order {
+    my $books = YAML::LoadFile($paths->{book_order_yaml});
+    my @out = ();
+
+    for my $sec (qw( OT NT )) {
+        for my $book_id (@{$books->{$sec}}) {
+            push (@out, $book_id);
+        }
+    }
+
+    @out;
+}
