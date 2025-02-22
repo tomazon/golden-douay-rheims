@@ -38,7 +38,7 @@ sub counts_table {
         'Diff<br>match<br>pending',
         'Manual<br>edits',
         'Percent<br>with<br>Diffs',
-        'Percent<br>matched<br>drbo',
+        'Percent<br>Verses<br>matched<br>drbo',
         'Percent<br>Diffs<br>matched<br>drbo',
     ) . " |\n";
     $out .= "| ---: " x 11 ."|\n";
