@@ -1,0 +1,52 @@
+#! /usr/bin/perl
+
+use strict;
+use warnings;
+
+use File::Slurp;
+use YAML;
+
+use feature "say";
+
+my $usage = "$0 book_id";
+my $book_id = shift() || die "No book_id\n$usage\n";
+
+my $paths = YAML::LoadFile("./etc/paths.yaml");
+
+
+my $file = "$paths->{overlay_d}->{diff_sheets}/$book_id.dif";
+
+
+my $line_num = 0;
+my %count = ();
+for my $line (read_file($file)) {
+    $line_num++;
+    next if $line =~ /^#/;
+    chomp($line);
+    my @cols = split(/\s*\|\s*/, $line);
+    if (defined($cols[1]) && $cols[1] eq 'which') {
+        if ($cols[2] =~ /^1971-Tan:(\S)$/) {
+            my $letter = $1;
+            $count{$letter}++;
+            $count{'tot'}++;
+            $count{'set'}++ if is_in ($letter, qw( A B C D ));
+        } else {
+            die "ADD LINE: ${file}[$line_num]: $line\n";
+        }
+    }
+}
+
+for my $key (sort keys %count) {
+    #next if $key eq 'tot';
+    print"       -----\n" if $key eq 'set';
+    print"       =====\n" if $key eq 'tot';
+    printf(" %3s : %5d  -- %3d%%\n", $key, $count{$key}, (($count{$key}/$count{tot})*100));
+}
+# print"       =====\n";
+# printf("       %5d\n", $count{tot});
+
+sub is_in {
+    my ($val, @list) = @_;
+
+    grep(/^$val$/, @list);
+}

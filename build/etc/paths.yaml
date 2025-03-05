@@ -3,12 +3,20 @@
 book_order_yaml:     ../etc/book_order.yaml
 status_yaml:         ../etc/status.yaml
 
+
+build_cache_d:
+    top:                  /tmp/gold_douay_cache
+    overlay_italics:      /tmp/gold_douay_cache/step_05_-_overlay_italics
+    overlay_manual_edits: /tmp/gold_douay_cache/step_04_-_overlay_manual_edits
+
+
 overlay_d:
-    red_letters:     ./overlays/red_letters
-    italics:         ./overlays/italics
-    vs_formatting:   ./overlays/vs_formatting
-    diff_sheets:     ./overlays/diff_sheets
-    manual_edits:    ./overlays/manual_edits
+    red_letters:      ./overlays/red_letters
+    italics:          ./overlays/italics
+    vs_formatting:    ./overlays/vs_formatting
+    diff_sheets:      ./overlays/diff_sheets
+    manual_edits:     ./overlays/manual_edits
+    psalm_formatting: ./overlays/psalm_formatting
 
 pgm:
     check_diff_sheet:    ./bin/check_diff_sheet
@@ -22,4 +30,5 @@ generated:
     markdown:
         progress:               ../generated/Progress.md
         diff_stats:             ../generated/Diff_Stats.md
-    golden_douay_rheims_d:  ../generated/golden-douay-rheims
+    golden_douay_rheims_d:      ../generated/golden-douay-rheims
+    vulsearch_vulgate_d:        ../generated/vulsearch_vulgate
