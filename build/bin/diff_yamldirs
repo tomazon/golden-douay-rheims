@@ -26,6 +26,7 @@ my $output_store = '';
 my $args = {
     do_verses => 1,
     hilite => 'ansi-colors',
+    show_headers => 1,
     strip_punc => 1,
     squish => 1,
     squish_keep_size => 20,
@@ -35,12 +36,14 @@ my $args = {
 };
 
 GetOptions (
-    "do-verses!"  => sub{$args->{do_verses} = $_[1]},
-    "strip-punc!" => sub{$args->{strip_punc} = $_[1]},
-    "squish!"     => sub{$args->{squish} = $_[1]},
-    "hilite=s"    => sub{$args->{hilite} = $_[1]},
-    "output-as=s" => sub{$args->{output_as} = $_[1]},
-    "title=s"     => sub{$args->{output_as} = $_[1]},
+    "do-verses!"    => sub{$args->{do_verses} = $_[1]},
+    "strip-punc!"   => sub{$args->{strip_punc} = $_[1]},
+    "squish!"       => sub{$args->{squish} = $_[1]},
+    "hilite=s"      => sub{$args->{hilite} = $_[1]},
+    "output-as=s"   => sub{$args->{output_as} = $_[1]},
+    "show-headers!" => sub{$args->{show_headers} = $_[1]},
+    "title=s"       => sub{$args->{output_as} = $_[1]},
+
 ) || die("Error in command line arguments\n");
 
 if ($args->{output_as} =~ /^pdf/) {
@@ -84,7 +87,7 @@ my @books = book_list($book_order_file);
 
 my ($b_limit, $c, $v) = split_limit($limit);
 
-say join(':', $b_limit, $c, $v);
+say join(':', $b_limit, $c, $v) if $args->{show_headers};
 
 for my $book (@books) {
     next if $limit and $book ne $b_limit;
@@ -139,10 +142,12 @@ sub do_diff {
     my $data_a = YAML::LoadFile($file_a);
     my $data_b = YAML::LoadFile($file_b);
 
-    output (_header("=========================================================="));
-    output ("@ < $data_a->{book_title}");
-    output ("@ > $data_b->{book_title}");
-    output ("");
+    if ($args->{show_headers}) {
+        output (_header("=========================================================="));
+        output ("@ < $data_a->{book_title}") if defined($data_a->{book_title});
+        output ("@ > $data_b->{book_title}") if defined($data_b->{book_title});
+        output ("");
+    }
 
     for my $c_num (combined_keys($data_a->{chapters}, $data_b->{chapters})) {
         $c = $c_num;

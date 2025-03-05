@@ -5,6 +5,7 @@
 We use the three character abreviations accoording to:
 
 * https://ubsicap.github.io/usfm/identification/books.html
+* USFM User Reference -- https://paratext.org/files/documentation/usfmReference2_4.pdf
 
 Other sources of names:
 

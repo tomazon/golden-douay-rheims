@@ -1,0 +1,28 @@
+#! /usr/bin/perl
+
+use strict;
+use warnings;
+
+use Storable qw( dclone );
+use YAML;
+
+use feature 'say';
+
+my $file = './overlays/psalm_formatting/psalm_formatting.yaml';
+
+my $data = YAML::LoadFile($file);
+my $pgm_out = {};
+
+
+for my $c_index (sort keys %{$data}) {
+    for my $pri_key (sort keys %{$data->{$c_index}}) {
+        for my $sec_key (sort keys %{$data->{$c_index}->{$pri_key}}) {
+            next if $sec_key eq 'changed';
+            my $key = $sec_key;
+            $key = 'aaaaa' if $key eq 'latin';
+            $pgm_out->{$c_index}->{$key} = $data->{$c_index}->{$pri_key}->{$sec_key};
+        }
+    }
+}
+
+print YAML::Dump($pgm_out);

@@ -1,0 +1,98 @@
+#! /usr/bin/perl
+
+use strict;
+use warnings;
+
+use Storable qw/dclone/;
+use YAML;
+use feature 'say';
+
+my $paths = YAML::LoadFile("./etc/paths.yaml");
+my $pgm_out = {};
+
+my $drbo   = YAML::LoadFile("$paths->{source_out_d}->{drbo}/PSA.yaml");
+my $pg1581 = YAML::LoadFile("$paths->{source_out_d}->{pg1581}/PSA.yaml");
+my $tan    = YAML::LoadFile("$paths->{build_cache_d}->{overlay_italics}/PSA.yaml");
+
+my @known_drbo = qw( footnotes verses intro provenance break_after_verses  after_verse_comment hebrew_letter );
+my @known_pg1581 = qw( footnotes verses intro comment_after_verse chapter_number );
+
+my @copy_from_drbo   = qw( after_verse_comment hebrew_letter );
+my @copy_from_pg1581 = qw( comment_after_verse );
+
+for my $c_num (1 .. 150) {
+    my $c_out = {};
+    my $c_index = sprintf("c:%03d", $c_num);
+    my $c_drbo   = $drbo->{chapters}->{$c_index};
+    my $c_pg1581 = $pg1581->{chapters}->{$c_index};
+    my $c_tan    = $tan->{chapters}->{$c_index};
+    #say "=== $c_index";
+    # for my $k (sort keys %{$c_drbo}) {
+    #     $c_out->{zzz}->{source}->{drbo}->{$k} = $c_drbo->{$k} if is_in($k, @copy_from_drbo);
+    # }
+    # for my $k (sort keys %{$c_pg1581}) {
+    #     $c_out->{zzz}->{source}->{pg1581}->{$k} = $c_pg1581->{$k} if is_in($k, @copy_from_pg1581);
+    # }
+    
+    # $c_out->{zzz}->{source}->{drbo}->{verses}->{"v:001"} = verse_text($c_drbo, "v:001");
+    # $c_out->{zzz}->{source}->{drbo}->{verses}->{"v:002"} = verse_text($c_drbo, "v:002");
+    # $c_out->{zzz}->{source}->{pg1581}->{verses}->{"v:001"} = verse_text($c_pg1581, "v:001");
+    # $c_out->{zzz}->{source}->{pg1581}->{verses}->{"v:002"} = verse_text($c_pg1581, "v:002");
+    # $c_out->{text}->{"v:001"} = verse_text($c_tan, "v:001");
+    # $c_out->{text}->{"v:001"} = verse_text($c_tan, "v:002");
+
+    #$c_out->{break_after_verses} = dclone($c_drbo->{break_after_verses});
+    $c_out->{aaaaa} = $c_drbo->{intro};
+    $c_out->{intro} = $c_drbo->{intro};
+    #$c_out->{changed} = '';
+    #$c_out->{layout}->{drbo_break_after_verses} = [];
+    $c_out->{no_break_after_verses} = [];
+    $c_out->{no_num_before_verses} = [];
+
+
+    $c_out->{intro} =~ s/^[^\.]+. //;
+    $c_out->{aaaaa} =~ s/^([^\.]+.) .*$/$1/;
+
+    $c_out->{"v:001"} = verse_text($c_tan, "v:001");
+    $c_out->{"v:002"} = verse_text($c_tan, "v:002");
+    if (is_in($c_num, qw( 50 51 53 59 ))) {
+        $c_out->{"v:003"} = verse_text($c_tan, "v:003");
+    }
+
+
+
+
+
+
+    # for my $i (sort keys %{$c_drbo->{break_after_verses}}) {
+    #     $i =~ s/v:0*//;
+    #     push(@{$c_out->{layout}->{drbo_break_after_verses}}, $i);
+    # }
+    #say YAML::Dump($c_out);
+    if ($c_index eq 'c:009') {
+        $c_out->{intro} =~ s/\s+\[.*$//;
+    }
+    if ($c_out->{intro} ne $c_pg1581->{intro}) {
+        $c_out->{inalt} = $c_pg1581->{intro};
+    }
+
+    $pgm_out->{$c_index} = dclone($c_out);
+}
+
+say YAML::Dump($pgm_out);
+
+################################################################################\
+
+sub verse_text {
+    my ($c, $v_index) = @_;
+
+    my $entry = $c->{verses}->{$v_index};
+
+    (split(/\s+\|\s+/, $entry))[3];
+}
+
+
+sub is_in {
+    my ($field, @list) = @_;
+    return grep(/^$field$/, @list);
+}

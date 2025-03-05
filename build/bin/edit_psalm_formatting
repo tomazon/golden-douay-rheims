@@ -1,0 +1,257 @@
+#! /usr/bin/perl
+
+use strict;
+use warnings;
+
+
+use File::Slurp;
+use Storable qw/dclone/;
+use String::ShellQuote;
+use String::Trim;
+use utf8;
+use YAML;
+
+use feature 'say';
+
+binmode *STDOUT, ':utf8';
+$::DEBUG = 0;
+
+
+my $paths = read_YAML_file("./etc/paths.yaml");
+my $pgm_out = {};
+
+my $data_file = "$paths->{overlay_d}->{psalm_formatting}/psalm_formatting.yaml";
+
+my $last_verse_num = 0;
+while (1) {
+    my $verse_num = '';
+    print "Action? ";
+    my $action = (<>);
+    trim($action);
+    if ($action =~ /^(\d+)$/) {
+        $verse_num = $1;
+    } elsif ($action eq 'n') {
+        $verse_num = $last_verse_num + 1;
+    } elsif ($action eq 'p') {
+        $verse_num = $last_verse_num;
+    } elsif ($action eq 'q') {
+        last;
+    } else {
+        say "???";
+        next;
+    }
+    my $c_index = sprintf("c:%03d", $verse_num);
+    edit_chapter_info($paths,$data_file, $c_index);
+    $last_verse_num = $verse_num;
+}
+
+################################################################################
+################################################################################
+
+sub show_diff {
+    my ($paths, $data_file, $c_index) = @_;
+
+    my $pgm    = $paths->{pgm}->{diff_yamldirs};
+    my $drbo   = $paths->{source_out_d}->{drbo};
+    my $pg1581 = $paths->{source_out_d}->{pg1581};
+    my $post_edits = $paths->{build_cache_d}->{overlay_manual_edits};
+
+    #(my $c_num = $c_index) =~ s/^c:0*//;
+    my $c_num = $c_index;
+    $c_num  =~ s/^c:0*//;
+
+    my $ansi_yellow = "\e[0;33m";
+    my $ansi_reset  = "\e[0m";
+
+    for my $pair ( [ $drbo, $post_edits ], [ $drbo, $pg1581 ] ) {
+        my ($dir_a, $dir_b) = @{$pair};
+        say $ansi_yellow . "="x70 . $ansi_reset;
+        say "@ < $dir_a/PSA.yaml";
+        say "@ > $dir_b/PSA.yaml";
+        for my $v (qw( 1 2 3 )) {
+            my @cmd = (
+                $paths->{pgm}->{diff_yamldirs},
+                '--no-strip-punc',
+                '--no-show-headers',
+                $dir_a,
+                $dir_b,
+                "PSA:${c_num}:$v"
+            );
+            say "Running: ". shell_quote(@cmd) if $::DEBUG;
+            system(@cmd);
+        }
+    }
+
+
+}
+
+sub show_vulsearch {
+    my ($paths, $data_file, $c_index) = @_;
+
+
+    my $vul = read_YAML_file("$paths->{generated}->{vulsearch_vulgate_d}/PSA.yaml");
+
+    my $ansi_yellow = "\e[0;33m";
+    my $ansi_reset  = "\e[0m";
+
+    say $ansi_yellow . "="x70 . $ansi_reset;
+    # for my $v_index (qw( v:001 v:002)) {
+    #     my $entry = $vul->{chapters}->{$c_index}->{verses}->{$v_index};
+    #     my @cols = split(/\s*\|\s*/, $entry);
+    #     say "  $cols[0]  $cols[3]";
+    # }
+    my $chap = $vul->{chapters}->{$c_index};
+    my $dosent_end_with_br = "";
+    my $internal_br = "";
+    for my $v_index (sort keys %{$chap->{verses}}) {
+        (my $v_num = $v_index) =~ s/^v:0*//;
+        my $entry = $vul->{chapters}->{$c_index}->{verses}->{$v_index};
+        my @cols = split(/\s*\|\s*/, $entry);
+        if ($v_num <= 2 || $entry =~ /\{VS:VERSE:BEGIN}/ ) {
+            say "  $cols[0]  $cols[3]";
+        }
+        if ($entry !~ /\{VS:BR\}$/ && $entry !~ /\{VS:VERSE:END\}$/) {
+            $dosent_end_with_br .= "$v_num ";
+        }
+        if ($entry =~ /\{VS:BR\}.*\S/) {
+            $internal_br .= "$v_num ";
+        }
+
+    }
+    say "Doesn't end in BR: $dosent_end_with_br";
+    say "internal BR: $internal_br";
+
+
+}
+
+
+sub edit_chapter_info {
+    my ($paths, $data_file, $c_index) = @_;
+
+    my $chap_data = get_chapter_data($paths, $data_file, $c_index);
+    my $support_info = get_chapter_support_info($paths, $data_file, $c_index);
+    
+    show_diff($paths, $data_file, $c_index);
+    show_vulsearch($paths, $data_file, $c_index);
+
+    my $pack = "# CHAP: $c_index\n"
+             . YAML::Dump($chap_data);
+            #  . "###############################################################"
+            #  . YAML::Dump($support_info);
+
+    $pack = edit_text($pack);
+    $pack =~ s/\n#############+---\n.*$/\n/s;
+    say "-=-=-=-=";
+    say $pack;
+
+    $chap_data = YAML::Load($pack);
+
+    update_with_chapter_data($paths, $data_file, $c_index, $chap_data);
+}
+
+
+sub update_with_chapter_data {
+    my ($paths, $data_file, $c_index, $chap_data) = @_;
+    my $data = read_YAML_file($data_file);
+
+    # say "####  CD";
+    # say YAML::Dump($chap_data);
+
+
+    $data->{$c_index} = $chap_data;
+    # say "####  D->{$c_index}";
+    # say YAML::Dump($data->{$c_index});
+
+    # say "####";
+    #write_YAML_file("/tmp/jkl.yaml", $data);
+    write_YAML_file($data_file, $data);
+
+}
+
+sub edit_text {
+    my ($content) = @_;
+    my $file = "/tmp/edit_text.txt";
+
+    write_file($file, $content);
+    system("code", $file);
+    print "\nDone editing? ";
+    (<>);
+    read_file($file)
+}
+
+
+sub get_chapter_data {
+    my ($paths, $data_file, $c_index) = @_;
+
+    my $data = read_YAML_file($data_file);
+    $data->{$c_index};
+}
+
+sub get_chapter_support_info {
+    my ($paths, $data_file, $c_index) = @_;
+    my $out = {};
+
+    my @copy_from_drbo   = qw( after_verse_comment hebrew_letter );
+    my @copy_from_pg1581 = qw( comment_after_verse );
+
+    my $drbo   = read_YAML_file("$paths->{source_out_d}->{drbo}/PSA.yaml");
+    my $pg1581 = read_YAML_file("$paths->{source_out_d}->{pg1581}/PSA.yaml");
+    my $tan    = read_YAML_file("$paths->{build_cache_d}->{overlay_italics}/PSA.yaml");
+    my $c_drbo   = $drbo->{chapters}->{$c_index};
+    my $c_pg1581 = $pg1581->{chapters}->{$c_index};
+    my $c_tan    = $pg1581->{chapters}->{$c_index};
+
+    for my $k (sort keys %{$c_drbo}) {
+        $out->{drbo}->{$k} = $c_drbo->{$k} if is_in($k, @copy_from_drbo);
+    }
+    for my $k (sort keys %{$c_pg1581}) {
+        $out->{pg1581}->{$k} = $c_pg1581->{$k} if is_in($k, @copy_from_pg1581);
+    }
+
+    $out->{drbo}->{"v:001"} = verse_text($c_drbo, "v:001");
+    $out->{drbo}->{"v:002"} = verse_text($c_drbo, "v:002");
+    $out->{pg1581}->{"v:001"} = verse_text($c_pg1581, "v:001");
+    $out->{pg1581}->{"v:002"} = verse_text($c_pg1581, "v:002");
+    # $out->{text}->{"v:001"} = verse_text($c_tan, "v:001");
+    # $out->{text}->{"v:002"} = verse_text($c_tan, "v:002");
+    if (is_in("$c_index", qw( c:050 c:051 c:053 c:059 ))) {
+        $out->{drbo}->{"v:003"} = verse_text($c_drbo, "v:003");
+        $out->{pg1581}->{"v:003"} = verse_text($c_pg1581, "v:003");
+    }
+
+    $out;
+}
+
+
+################################################################################\
+
+
+sub is_in {
+    my ($field, @list) = @_;
+    return grep(/^$field$/, @list);
+}
+
+
+sub read_YAML_file {
+    my ($file) = @_;
+
+    say "Reading: $file" if $::DEBUG;
+    YAML::LoadFile($file);
+}
+
+
+sub write_YAML_file {
+    my ($file, $data) = @_;
+
+    say "Writing: $file";
+    YAML::DumpFile($file, $data);
+}
+
+
+sub verse_text {
+    my ($c, $v_index) = @_;
+
+    my $entry = $c->{verses}->{$v_index};
+
+    (split(/\s+\|\s+/, $entry))[3];
+}
