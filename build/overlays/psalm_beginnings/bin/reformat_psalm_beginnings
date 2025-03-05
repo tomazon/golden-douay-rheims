@@ -8,7 +8,7 @@ use YAML;
 
 use feature 'say';
 
-my $file = './overlays/psalm_formatting/psalm_formatting.yaml';
+my $file = './overlays/psalm_beginnings/psalm_beginnings.yaml';
 
 my $data = YAML::LoadFile($file);
 my $pgm_out = {};

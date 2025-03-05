@@ -20,7 +20,7 @@ $::DEBUG = 0;
 my $paths = read_YAML_file("./etc/paths.yaml");
 my $pgm_out = {};
 
-my $data_file = "$paths->{overlay_d}->{psalm_formatting}/psalm_formatting.yaml";
+my $data_file = "$paths->{overlay_d}->{psalm_beginnings}/psalm_beginnings.yaml";
 
 my $last_verse_num = 0;
 while (1) {
@@ -69,6 +69,7 @@ sub show_diff {
         say "@ < $dir_a/PSA.yaml";
         say "@ > $dir_b/PSA.yaml";
         for my $v (qw( 1 2 3 )) {
+            next if $v eq "3" && !is_in("$c_num", qw( 50 51 53 59 ));
             my @cmd = (
                 $paths->{pgm}->{diff_yamldirs},
                 '--no-strip-punc',
@@ -139,6 +140,7 @@ sub edit_chapter_info {
             #  . "###############################################################"
             #  . YAML::Dump($support_info);
 
+    #say "vvvvvv\n$pack\n^^^^^^";
     $pack = edit_text($pack);
     $pack =~ s/\n#############+---\n.*$/\n/s;
     say "-=-=-=-=";

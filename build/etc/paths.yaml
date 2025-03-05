@@ -16,7 +16,7 @@ overlay_d:
     vs_formatting:    ./overlays/vs_formatting
     diff_sheets:      ./overlays/diff_sheets
     manual_edits:     ./overlays/manual_edits
-    psalm_formatting: ./overlays/psalm_formatting
+    psalm_beginnings: ./overlays/psalm_beginnings
 
 pgm:
     check_diff_sheet:    ./bin/check_diff_sheet
