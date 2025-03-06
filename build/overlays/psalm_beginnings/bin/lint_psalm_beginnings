@@ -1,0 +1,45 @@
+#! /usr/bin/perl
+
+use strict;
+use warnings;
+
+use Storable qw/dclone/;
+use utf8;
+use YAML;
+
+use feature 'say';
+
+binmode *STDOUT, ':utf8';
+
+my $paths = YAML::LoadFile("./etc/paths.yaml");
+my $pgm_out = {};
+
+my $data_file = "$paths->{overlay_d}->{psalm_beginnings}/psalm_beginnings.yaml";
+my $data = YAML::LoadFile($data_file);
+
+# say YAML::Dump($data);
+
+my @known_fields = (qw(
+    aaaaa
+    intro
+    intro_2
+    no_break_before_verses
+    no_num_before_verses
+    v:001
+    v:002
+    v:003
+));
+
+for (my $c_num=1 ; $c_num<=150 ; $c_num++) {
+    my $c_index = sprintf("c:%03d", $c_num);
+    say "### $c_index #####################################";
+    my $c_data = dclone($data->{$c_index});
+    for my $key (sort keys %{$c_data}) {
+        say "Unknown field: $c_index : $key " if !is_in($key, @known_fields);
+    }
+}
+
+sub is_in {
+    my ($field, @list) = @_;
+    grep(/^$field$/, @list);
+}

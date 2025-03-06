@@ -4,6 +4,7 @@ use strict;
 use warnings;
 
 use Data::Dumper;
+use File::Basename;
 use File::Copy;
 use File::Slurp;
 use Getopt::Long;
@@ -920,10 +921,16 @@ sub put_verse_into_choices {
 
 sub write_step_cache_file {
     my ($caches_dir, $step_index, $step, $book_id, $book) = @_;
-    my $cache_dir = sprintf("%s/step_%02d_-_%s", $caches_dir, $step_index, $step);
+    # my $cache_dir = sprintf("%s/step_%02d_-_%s", $caches_dir, $step_index, $step);
+    # my $cache_file = "$cache_dir/$book_id.yaml";
+
+
+    my $cache_dir = sprintf("%s/step_-_%s", $caches_dir, $step);
+    my $symlink   = sprintf("%s/step_%02d", $caches_dir, $step_index);
     my $cache_file = "$cache_dir/$book_id.yaml";
 
     mkdir($cache_dir);
+    symlink("./". basename($cache_dir), $symlink);
     YAML::DumpFile($cache_file, $book);
 }
 

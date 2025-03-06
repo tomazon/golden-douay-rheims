@@ -6,8 +6,8 @@ status_yaml:         ../etc/status.yaml
 
 build_cache_d:
     top:                  /tmp/gold_douay_cache
-    overlay_italics:      /tmp/gold_douay_cache/step_05_-_overlay_italics
-    overlay_manual_edits: /tmp/gold_douay_cache/step_04_-_overlay_manual_edits
+    overlay_italics:      /tmp/gold_douay_cache/step_-_overlay_italics
+    overlay_manual_edits: /tmp/gold_douay_cache/step_-_overlay_manual_edits
 
 
 overlay_d:
