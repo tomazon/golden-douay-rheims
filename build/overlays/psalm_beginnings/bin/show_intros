@@ -1,0 +1,89 @@
+#! /usr/bin/perl
+
+use strict;
+use warnings;
+
+use Storable qw/dclone/;
+use Text::Wrap;
+use utf8;
+use YAML;
+
+use feature 'say';
+
+binmode *STDOUT, ':utf8';
+
+my $paths = YAML::LoadFile("./etc/paths.yaml");
+my $pgm_out = {};
+
+my $data_file = "$paths->{overlay_d}->{psalm_beginnings}/psalm_beginnings.yaml";
+my $data = YAML::LoadFile($data_file);
+
+show_em($data, 37);
+
+################################################################################
+
+sub show_em {
+    my ($data, $max_width) = @_;
+    my @field_order = (qw( intro intro_2 v:001 v:002 v:003 ));
+    my %field_prefix = (
+        'intro' => '~',
+        'intro_2' => '|',
+        'v:001' => '1',
+        'v:002' => '2',
+        'v:003' => '3',
+    );
+
+    for (my $c_num=1 ; $c_num<=150 ; $c_num++) {
+        my $c_index = sprintf("c:%03d", $c_num);
+        say "$c_index -------------";
+        my $c_data = dclone($data->{$c_index});
+        my $verse_started = 0;
+        for my $field (@field_order) {
+            if (defined($c_data->{$field})) {
+                my $field_prefix = $field_prefix{$field};
+                my $text = $c_data->{$field};
+                #say "$field: $text" if $field eq 'intro_2';
+                if ($text =~ s/\{\^.+$//) {
+                    $verse_started = 1;
+                }
+                if ($text && is_in($field_prefix, qw( 1 2 3 ))) {
+                    $text = "$field_prefix. $text";
+                }
+                for my $line (split(m<\{/}>, $text)) {
+                    my $length = length($line);
+                    my $indent = ' 'x10;
+                    if ($length > $max_width) {
+                        #say "$field_prefix{$field}${indent}${line}";
+                        for my $sub_line (split_wrap($line, $max_width)) {
+                            say "$field_prefix$indent|= ". center($sub_line, $max_width);
+                        }
+                    } else {
+                            say "$field_prefix$indent  ". center($line, $max_width);
+                    }
+                }
+            }
+            last if $verse_started
+        }
+    }
+}
+
+
+sub center {
+    my ($text, $max_width) = @_;
+    my $length = length($text);
+    my $pad = int(($max_width - $length) / 2);
+
+    " "x$pad . $text;
+}
+
+sub is_in {
+    my ($field, @list) = @_;
+    grep { $field eq $_ } @list;
+}
+
+sub split_wrap {
+    my ($text, $max_width) = @_;
+    $Text::Wrap::columns = $max_width;
+    my $out = wrap("", "", $text);
+    split(/\n/, $out);
+}

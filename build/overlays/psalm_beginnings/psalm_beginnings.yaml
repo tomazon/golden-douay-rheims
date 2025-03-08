@@ -2,7 +2,7 @@
 c:001:
   aaaaa: Beatus vir.
   intro: The happiness of the just and the evil state of the wicked.
-  no_break_before_verses: []
+  no_break_before_verses: ~
   no_num_before_verses: 1
   v:001: '{^Blessed} is the man who hath not walked in the counsel of the ungodly, nor stood in the way of sinners, nor sat in the chair of pestilence.'
   v:002: 'But his will is in the law of the Lord, and on his law he shall meditate day and night.'
@@ -18,49 +18,49 @@ c:003:
   intro: "The prophet's danger and delivery from his son Absalom: mystically, the passion and resurrection of Christ."
   no_break_before_verses: ~
   no_num_before_verses: ~
-  v:001: 'The psalm of David when he fled from the face of his son Absalom. [2 Kings 15.]'
+  v:001: 'The psalm of David{/}when he fled from the face of his son Absalom. [2 Kings 15.]'
   v:002: '{^Why,} O Lord, are they multiplied that afflict me? many are they who rise up against me.'
 c:004:
   aaaaa: Cum invocarem.
   intro: 'The prophet teacheth us to flee to God in tribulation, with confidence in him.'
   no_break_before_verses: ~
   no_num_before_verses: ~
-  v:001: 'Unto the end, in verses.{/}A psalm for David.'
+  v:001: 'Unto the end{/}in verses.{/}A psalm for David.'
   v:002: '{^When} I called upon him, the God of my justice heard me: when I was in distress, thou hast enlarged me. Have mercy on me: and hear my prayer.'
 c:005:
   aaaaa: Verba mea auribus.
   intro: A prayer to God against the iniquities of men.
   no_break_before_verses: ~
   no_num_before_verses: ~
-  v:001: 'Unto the end, for her that obtaineth the inheritance.{/}A psalm for David.'
+  v:001: 'Unto the end,{/}for her that obtaineth the inheritance.{/}A psalm for David.'
   v:002: '{^Give} ear, O Lord, to my words, understand my cry.'
 c:006:
   aaaaa: 'Domine, ne in furore.'
   intro: 'A prayer of a penitent sinner, under the scourge of God.{/}The first penitential psalm.'
   no_break_before_verses: ~
   no_num_before_verses: ~
-  v:001: 'Unto the end, in verses,{/}a psalm for David, for the octave.'
+  v:001: 'Unto the end,{/}in verses,{/}a psalm for David,{/}for the octave.'
   v:002: '{^O Lord,} rebuke me not in thy indignation, nor chastise me in thy wrath.'
 c:007:
   aaaaa: 'Domine, Deus meus.'
   intro: "David, trusting in the justice of his cause, prayeth for God's help against his enemies."
   no_break_before_verses: 8
   no_num_before_verses: ~
-  v:001: 'The psalm of David which he sung to the Lord, for the words of Chusi the son of Jemini. [2 Kings 16.]'
-  v:002: '{O Lord} my God, in thee have I put my trust: save me from all them that persecute me, and deliver me.'
+  v:001: 'The psalm of David{/}which he sung to the Lord, for the words of Chusi the son of Jemini. [2 Kings 16.]'
+  v:002: '{^O Lord} my God, in thee have I put my trust: save me from all them that persecute me, and deliver me.'
 c:008:
   aaaaa: 'Domine, Dominus noster.'
   intro: 'God is wonderful in his works; especially in mankind, singularly exalted by the incarnation of Christ.'
   no_break_before_verses: 7
   no_num_before_verses: ~
-  v:001: 'Unto the end, for the presses:{/}a psalm for David.'
+  v:001: 'Unto the end,{/}for the presses:{/}a psalm for David.'
   v:002: '{^O Lord} our Lord, how admirable is thy name in the whole earth! For thy magnificence is elevated above the heavens.'
 c:009:
   aaaaa: 'Confitebor tibi, Domine.'
   intro: The church praiseth God for his protection against her enemies.
   no_break_before_verses: 8 9
   no_num_before_verses: ~
-  v:001: 'Unto the end, for the hidden things of the Son.{/}A psalm for David.'
+  v:001: 'Unto the end,{/}for the hidden things of the Son.{/}A psalm for David.'
   v:002: '{^I will} give praise to thee, O Lord, with my whole heart: I will relate all thy wonders.'
 c:010:
   aaaaa: In Domino confido.
@@ -74,14 +74,14 @@ c:011:
   intro: The prophet calls for God's help against the wicked.
   no_break_before_verses: ~
   no_num_before_verses: ~
-  v:001: 'Unto the end; for the octave,{/}a psalm for David.'
+  v:001: 'Unto the end;{/}for the octave,{/}a psalm for David.'
   v:002: '{^Save me,} O Lord, for there is now no saint: truths are decayed from among the children of men.'
 c:012:
   aaaaa: 'Usquequo, Domine.'
   intro: A prayer in tribulation.
-  no_break_before_verses: ~
-  no_num_before_verses: 4 5 6
-  v:001: 'Unto the end,{/}a psalm for David. How long, O Lord, wilt thou forget me unto the end? how long dost thou turn away thy face from me?'
+  no_break_before_verses: 4 5 6
+  no_num_before_verses: ~
+  v:001: 'Unto the end,{/}a psalm for David.{/}How long, O Lord, wilt thou forget me unto the end? how long dost thou turn away thy face from me?'
   v:002: '{^How} long shall I take counsels in my soul, sorrow in my heart all the day?'
 c:013:
   aaaaa: Dixit insipiens.
@@ -116,7 +116,7 @@ c:017:
   intro: David's thanks to God for his delivery from all his enemies.
   no_break_before_verses: ~
   no_num_before_verses: ~
-  v:001: 'Unto the end, for David the servant of the Lord, who spoke to the Lord the words of this canticle, in the day that the Lord delivered him from the hands of all his enemies, and from the hand of Saul. [2 Kings 22.]'
+  v:001: 'Unto the end,{/}for David the servant of the Lord, who spoke to the Lord the words of this canticle, in the day that the Lord delivered him from the hands of all his enemies, and from the hand of Saul. [2 Kings 22.]'
   v:002: '{^I will} love thee, O Lord, my strength:'
 c:018:
   aaaaa: CÃ¦li enarrant.
@@ -144,7 +144,7 @@ c:021:
   intro: "Christ's passion: and the conversion of the Gentiles."
   no_break_before_verses: 11 12 18 19
   no_num_before_verses: ~
-  v:001: 'Unto the end, for the morning protection,{/}a psalm for David.'
+  v:001: 'Unto the end,{/}for the morning protection,{/}a psalm for David.'
   v:002: '{^O God} my God, look upon me: why hast thou forsaken me? Far from my salvation are the words of my sins.'
 c:022:
   aaaaa: Dominus regit me.
@@ -207,14 +207,14 @@ c:030:
   intro: A prayer of a just man under affliction.
   no_break_before_verses: 8 13 14 16 19
   no_num_before_verses: ~
-  v:001: 'Unto the end,{/}a psalm for David, in an ecstasy.'
+  v:001: 'Unto the end,{/}a psalm for David,{/}in an ecstasy.'
   v:002: '{^In} thee, O Lord, have I hoped, let me never be confounded: deliver me in thy justice.'
 c:031:
   aaaaa: Beati quorum.
   intro: The second penitential psalm.
   no_break_before_verses: ~
   no_num_before_verses: ~
-  v:001: 'To David himself, understanding. {^Blessed} are they whose iniquities are forgiven, and whose sins are covered.'
+  v:001: 'To David himself,{/}understanding. {^Blessed} are they whose iniquities are forgiven, and whose sins are covered.'
   v:002: 'Blessed is the man to whom the Lord hath not imputed sin, and in whose spirit there is no guile.'
 c:032:
   aaaaa: 'Exultate, justi.'
@@ -242,7 +242,7 @@ c:035:
   intro: 'The malice of sinners, and the goodness of God.'
   no_break_before_verses: 8
   no_num_before_verses: ~
-  v:001: 'Unto the end, for the servant of God, David himself.'
+  v:001: 'Unto the end,{/}for the servant of God, David himself.'
   v:002: '{^The} unjust hath said within himself, that he would sin: there is no fear of God before his eyes.'
 c:036:
   aaaaa: Noli aemulari.
@@ -253,7 +253,7 @@ c:036:
   v:002: 'For they shall shortly wither away as grass, and as the green herbs shall quickly fall.'
 c:037:
   aaaaa: 'Domine, ne in furore.'
-  intro: A prayer of a penitent for the remission of his sins. The third penitential psalm.
+  intro: A prayer of a penitent for the remission of his sins.{/}The third penitential psalm.
   no_break_before_verses: ~
   no_num_before_verses: ~
   v:001: 'A psalm for David,{/}for a remembrance of the sabbath.'
@@ -264,7 +264,7 @@ c:038:
   no_break_before_verses: 11 12
   no_num_before_verses: ~
   v:001: 'Unto the end,{/}for Idithun himself,{/}a canticle of David.'
-  v:002: 'I said: I will take heed to my ways: that I sin not with my tongue. I have set a guard to my mouth, when the sinner stood against me.'
+  v:002: '{^I said:} I will take heed to my ways: that I sin not with my tongue. I have set a guard to my mouth, when the sinner stood against me.'
 c:039:
   aaaaa: Expectans expectavi.
   intro: "Christ's coming, and redeeming mankind."
@@ -284,7 +284,7 @@ c:041:
   intro: 'The fervent desire of the just after God: hope in afflictions.'
   no_break_before_verses: 7 10
   no_num_before_verses: ~
-  v:001: 'Unto the end, understanding for the sons of Core.'
+  v:001: 'Unto the end,{/}understanding for the sons of Core.'
   v:002: '{^As} the hart panteth after the fountains of water; so my soul panteth after thee, O God.'
 c:042:
   aaaaa: 'Judica me, Deus.'
@@ -298,35 +298,35 @@ c:043:
   intro: 'The church commemorates former favours, and present afflictions; under which she prays for succour.'
   no_break_before_verses: ~
   no_num_before_verses: ~
-  v:001: 'Unto the end, for the sons of Core, to give understanding.'
+  v:001: 'Unto the end,{/}for the sons of Core, to give understanding.'
   v:002: '{^We} have heard, O God, with our ears: our fathers have declared to us, The work thou hast wrought in their days, and in the days of old.'
 c:044:
   aaaaa: Eructavit cor meum.
   intro: "The excellence of Christ's kingdom, and the endowments of his church."
   no_break_before_verses: 10 15
   no_num_before_verses: ~
-  v:001: 'Unto the end, for them that shall be changed, for the sons of Core, for understanding.{/}A canticle for the Beloved.'
+  v:001: 'Unto the end,{/}for them that shall be changed, for the sons of Core, for understanding.{/}A canticle for the Beloved.'
   v:002: '{^My} heart hath uttered a good word: I speak my works to the king: My tongue is the pen of a scrivener that writeth swiftly.'
 c:045:
   aaaaa: Deus noster refugium.
   intro: The church in persecution trusteth in the protection of God.
   no_break_before_verses: 10
   no_num_before_verses: ~
-  v:001: 'Unto the end, for the sons of Core, for the hidden.'
+  v:001: 'Unto the end,{/}for the sons of Core, for the hidden.'
   v:002: '{^Our} God is our refuge and strength: a helper in troubles, which have found us exceedingly.'
 c:046:
   aaaaa: 'Omnes gentes, plaudite.'
   intro: The Gentiles are invited to praise God for the establishment of the kingdom of Christ.
   no_break_before_verses: ~
   no_num_before_verses: ~
-  v:001: 'Unto the end, for the sons of Core.'
+  v:001: 'Unto the end,{/}for the sons of Core.'
   v:002: '{^O clap} your hands, all ye nations: shout unto God with the voice of joy,'
 c:047:
   aaaaa: Magnus Dominus.
   intro: God is greatly to be praised for the establishment of his church.
   no_break_before_verses: 7 8
   no_num_before_verses: ~
-  v:001: 'A psalm of a canticle, for the sons of Core, on the second day of the week.'
+  v:001: 'A psalm of a canticle,{/}for the sons of Core,{/}on the second day of the week.'
   v:002: '{^Great} is the Lord, and exceedingly to be praised in the city of our God, in his holy mountain.'
 c:048:
   aaaaa: 'Audite haec, omnes gentes.'
@@ -344,10 +344,10 @@ c:049:
   v:002: Out of Sion the loveliness of his beauty.
 c:050:
   aaaaa: Miserere.
-  intro: The repentance and confession of David after his sin. The fourth penitential psalm.
+  intro: The repentance and confession of David after his sin.{/}The fourth penitential psalm.
   no_break_before_verses: 2
   no_num_before_verses: ~
-  v:001: 'Unto the end, a psalm of David,'
+  v:001: 'Unto the end,{/}a psalm of David,'
   v:002: 'When Nathan the prophet came to him, after he had sinned with Bethsabee. [2 Kings 12.]'
   v:003: '{^Have} mercy on me, O God, according to thy great mercy. And according to the multitude of thy tender mercies blot out my iniquity.'
 c:051:
@@ -355,7 +355,7 @@ c:051:
   intro: 'David condemneth the wickedness of Doeg, and foretelleth his destruction.'
   no_break_before_verses: 2 9
   no_num_before_verses: ~
-  v:001: 'Unto the end, understanding for David,'
+  v:001: 'Unto the end,{/}understanding for David,'
   v:002: 'When Doeg the Edomite came and told Saul: David went to the house of Achimelech. [1 Kings 22.9.]'
   v:003: '{^Why} dost thou glory in malice, thou that art mighty in iniquity?'
 c:052:
@@ -363,14 +363,14 @@ c:052:
   intro: The general corruption of man before the coming of Christ.
   no_break_before_verses: ~
   no_num_before_verses: ~
-  v:001: 'Unto the end, for Maeleth, understandings to David. {^The} fool said in his heart: There is no God.'
+  v:001: 'Unto the end,{/}for Maeleth, understandings to David. {^The} fool said in his heart: There is no God.'
   v:002: 'They are corrupted, and become abominable in iniquities: there is none that doth good.'
 c:053:
   aaaaa: 'Deus, in nomine tuo.'
   intro: A prayer for help in distress.
   no_break_before_verses: 2
   no_num_before_verses: ~
-  v:001: 'Unto the end, in verses, understanding for David.'
+  v:001: 'Unto the end,{/}in verses,{/}understanding for David.'
   v:002: 'When the men of Ziph had come and said to Saul: Is not David hidden with us? [1 Kings 23. 19.]'
   v:003: '{^Save} me, O God, by thy name, and judge me in thy strength.'
 c:054:
@@ -378,42 +378,42 @@ c:054:
   intro: 'A prayer of a just man under persecution from the wicked. It agrees to Christ persecuted by the Jews, and betrayed by Judas.'
   no_break_before_verses: 3 4 12 21 22
   no_num_before_verses: ~
-  v:001: 'Unto the end, in verses, understanding for David.'
+  v:001: 'Unto the end,{/}in verses,{/}understanding for David.'
   v:002: '{^Hear,} O God, my prayer, and despise not my supplication:'
 c:055:
   aaaaa: 'Miserere mei, Deus.'
   intro: A prayer of David in danger and distress.
   no_break_before_verses: 8 9 10
   no_num_before_verses: ~
-  v:001: 'Unto the end, for a people that is removed at a distance from the sanctuary: for David, for an inscription of a title (or pillar) when the Philistines held him in Geth.'
+  v:001: 'Unto the end,{/}for a people that is removed at a distance from the sanctuary:{/}for David, for an inscription of a title (or pillar) when the Philistines held him in Geth.'
   v:002: '{^Have} mercy on me, O God, for man hath trodden me under foot; all the day long he hath afflicted me fighting against me.'
 c:056:
   aaaaa: 'Miserere mei, Deus.'
   intro: 'The prophet prays in his affliction, and praises God for his delivery.'
   no_break_before_verses: 5
   no_num_before_verses: ~
-  v:001: 'Unto the end, destroy not, for David, for an inscription of a title, when he fled from Saul into the cave. [1 Kings 24.]'
+  v:001: 'Unto the end, destroy not,{/}for David,{/}for an inscription of a title, when he fled from Saul into the cave. [1 Kings 24.]'
   v:002: '{^Have} mercy on me, O God, have mercy on me: for my soul trusteth in thee. And in the shadow of thy wings will I hope, until iniquity pass away.'
 c:057:
   aaaaa: Si vere utique.
   intro: 'David reproveth the wicked, and foretelleth their punishment.'
   no_break_before_verses: ~
   no_num_before_verses: ~
-  v:001: 'Unto the end, destroy not, for David, for an inscription of a title.'
+  v:001: 'Unto the end, destroy not,{/}for David, for an inscription of a title.'
   v:002: '{^If} in very deed you speak justice: judge right things, ye sons of men.'
 c:058:
   aaaaa: Eripe me.
   intro: "A prayer to be delivered from the wicked, with confidence in God's help and protection. It agrees to Christ and his enemies the Jews."
   no_break_before_verses: 11 14
   no_num_before_verses: ~
-  v:001: 'Unto the end, destroy not, for David for an inscription of a title, when Saul sent and watched his house to kill him. [1 Kings 19.]'
+  v:001: 'Unto the end, destroy not,{/}for David for an inscription of a title, when Saul sent and watched his house to kill him. [1 Kings 19.]'
   v:002: '{^Deliver} me from my enemies, O my God; and defend me from them that rise up against me.'
 c:059:
   aaaaa: 'Deus, repulisti nos.'
   intro: 'After many afflictions, the church of Christ shall prevail.'
   no_break_before_verses: 2 7 10
   no_num_before_verses: ~
-  v:001: 'Unto the end, for them that shall be changed, for the inscription of a title, to David himself, for doctrine,'
+  v:001: 'Unto the end,{/}for them that shall be changed, for the inscription of a title, to David himself, for doctrine,'
   v:002: 'When he set fire to Mesopotamia of Syria and Sobal; and Joab returned and slew of Edom, in the vale of the saltpits, twelve thousand men.'
   v:003: '{^O God,} thou hast cast us off, and hast destroyed us; thou hast been angry, and hast had mercy on us.'
 c:060:
@@ -421,20 +421,20 @@ c:060:
   intro: 'A prayer for the coming of the kingdom of Christ, which shall have no end.'
   no_break_before_verses: 4
   no_num_before_verses: ~
-  v:001: 'Unto the end, in hymns,{/}for David.'
+  v:001: 'Unto the end,{/}in hymns,{/}for David.'
   v:002: '{^Hear,} O God, my supplication: be attentive to my prayer.'
 c:061:
   aaaaa: Nonne Deo.
   intro: 'The prophet encourageth himself and all others to trust in God, and serve him.'
   no_break_before_verses: 13
   no_num_before_verses: ~
-  v:001: 'Unto the end, for Idithun, a psalm of David.'
+  v:001: 'Unto the end,{/}for Idithun,{/}a psalm of David.'
   v:002: '{^Shall} not my soul be subject to God? for from him is my salvation.'
 c:062:
   aaaaa: 'Deus Deus meus, ad te.'
   intro: The prophet aspireth after God.
   no_break_before_verses: 8 9
-  no_num_before_verses: []
+  no_num_before_verses: ~
   v:001: A psalm of David when he was in the desert of Edom.
   v:002: '{^O God,} my God, to thee do I watch at break of day. For thee my soul hath thirsted; for thee my flesh, O how many ways!'
 c:063:
@@ -463,7 +463,7 @@ c:066:
   intro: A prayer for the propagation of the church.
   no_break_before_verses: 7 8
   no_num_before_verses: ~
-  v:001: 'Unto the end,{/}in hymns,{/}a psalm of a canticle for David.'
+  v:001: 'Unto the end, in hymns,{/}a psalm of a canticle for David.'
   v:002: '{^May} God have mercy on us, and bless us: may he cause the light of his countenance to shine upon us, and may he have mercy on us.'
 c:067:
   aaaaa: Exurgat Deus.
@@ -475,15 +475,15 @@ c:067:
 c:068:
   aaaaa: 'Salvum me fac, Deus.'
   intro: 'Christ in his passion declareth the greatness of his sufferings, and the malice of his persecutors the Jews; and foretelleth their reprobation.'
-  no_break_before_verses: []
-  no_num_before_verses: []
+  no_break_before_verses: ~
+  no_num_before_verses: ~
   v:001: 'Unto the end,{/}for them that shall be changed;{/}for David.'
   v:002: '{^Save} me, O God: for the waters are come in even unto my soul.'
 c:069:
   aaaaa: Deus in adjutorium.
   intro: A prayer in persecution.
-  no_break_before_verses: []
-  no_num_before_verses: []
+  no_break_before_verses: ~
+  no_num_before_verses: ~
   v:001: 'Unto the end,{/}a psalm for David,{/}to bring to remembrance that the Lord saved him.'
   v:002: '{^O God,} come to my assistance; O Lord, make haste to help me.'
 c:070:
@@ -587,8 +587,8 @@ c:083:
 c:084:
   aaaaa: 'Benedixisti, Domine.'
   intro: 'The coming of Christ, to bring peace and salvation to man.'
-  no_break_before_verses: []
-  no_num_before_verses: []
+  no_break_before_verses: ~
+  no_num_before_verses: ~
   v:001: 'Unto the end,{/}for the sons of Core,{/}a psalm.'
   v:002: '{^Lord,} thou hast blessed thy land: thou hast turned away the captivity of Jacob.'
 c:085:
@@ -610,7 +610,7 @@ c:087:
   intro: 'A prayer of one under grievous affliction: it agrees to Christ in his passion, and alludes to his death and burial.'
   no_break_before_verses: 6 10
   no_num_before_verses: ~
-  v:001: 'A canticle of a psalm for the sons of Core: unto the end, for Maheleth, to answer understanding of Eman the Ezrahite.'
+  v:001: 'A canticle of a psalm for the sons of Core:{/}unto the end, for Maheleth, to answer understanding of Eman the Ezrahite.'
   v:002: '{^O Lord,} the God of my salvation: I have cried in the day, and in the night before thee.'
 c:088:
   aaaaa: Misericordias Domini.
@@ -638,12 +638,12 @@ c:091:
   intro: God is to be praised for his wondrous works.
   no_break_before_verses: 9
   no_num_before_verses: ~
-  v:001: A psalm of a canticle on the sabbath day.
+  v:001: A psalm of a canticle{/}on the sabbath day.
   v:002: '{^It} is good to give praise to the Lord: and to sing to thy name, O most High.'
 c:092:
   aaaaa: Dominus regnavit.
-  intro: 'The glory and stability of the kingdom; that is, of the church of Christ. Praise in the way of a canticle, for David himself, on the day before the sabbath, when the earth was founded.'
-  intro_2: 'Praise in the way of a canticle, for David himself, on the day before the sabbath, when the earth was founded.'
+  intro: 'The glory and stability of the kingdom; that is, of the church of Christ.'
+  intro_2: 'Praise in the way of a canticle,{/}for David himself,{/}on the day before the sabbath,{/}when the earth was founded.'
   no_break_before_verses: 4
   no_num_before_verses: ~
   v:001: '{^The} Lord hath reigned, he is clothed with beauty: the Lord is clothed with strength, and hath girded himself. For he hath established the world which shall not be moved.'
@@ -652,8 +652,8 @@ c:093:
   aaaaa: Deus ultionum.
   intro: God shall judge and punish the oppressors of his people.
   intro_2: 'A psalm for David himself{/}on the fourth day of the week.'
-  no_break_before_verses: []
-  no_num_before_verses: []
+  no_break_before_verses: ~
+  no_num_before_verses: ~
   v:001: '{^The} Lord is the God to whom revenge belongeth: the God of revenge hath acted freely.'
   v:002: 'Lift up thyself, thou that judgest the earth: render a reward to the proud.'
 c:094:
@@ -668,7 +668,7 @@ c:095:
   aaaaa: Cantate Domino.
   intro: An exhortation to praise God for the coming of Christ and his kingdom.
   no_break_before_verses: 8 9 10 12 13
-  no_num_before_verses: []
+  no_num_before_verses: ~
   v:001: 'A canticle for David himself,{/}when the house was built after the captivity. Sing ye to the Lord a new canticle: sing to the Lord, all the earth.'
   v:002: '{^Sing} ye to the Lord and bless his name: shew forth his salvation from day to day.'
 c:096:
@@ -763,7 +763,7 @@ c:108:
   intro: 'David in the person of Christ, prayeth against his persecutors; more especially the traitor Judas: foretelling and approving his just punishment for his obstinacy in sin and final impenitence.'
   no_break_before_verses: 16 22
   no_num_before_verses: ~
-  v:001: 'Unto the end, a psalm for David.'
+  v:001: 'Unto the end,{/}a psalm for David.'
   v:002: '{^O God,} be not thou silent in my praise: for the mouth of the wicked and the mouth of the deceitful man is opened against me.'
 c:109:
   aaaaa: Dixit Dominus.
@@ -785,7 +785,7 @@ c:111:
   intro: The good man is happy.
   intro_2: 'Alleluia,{/}of the returning of Aggeus and Zacharias.'
   no_break_before_verses: 8
-  no_num_before_verses: []
+  no_num_before_verses: 1
   v:001: '{^Blessed} is the man that feareth the Lord: he shall delight exceedingly in his commandments.'
   v:002: 'His seed shall be mighty upon earth: the generation of the righteous shall be blessed.'
 c:112:
@@ -800,7 +800,7 @@ c:113:
   aaaaa: In exitu Israel.
   intro: 'God hath shewn his power in delivering his people: idols are vain. The Hebrews divide this into two psalms.'
   intro_2: Alleluia.
-  no_break_before_verses: []
+  no_break_before_verses: ~
   no_num_before_verses: 1
   v:001: '{^When} Israel went out of Egypt, the house of Jacob from a barbarous people:'
   v:002: 'Judea was made his sanctuary, Israel his dominion.'
@@ -817,7 +817,7 @@ c:115:
   intro: 'This in the Hebrew is joined with the foregoing psalm, and continues to express the faith and gratitude of the psalmist.'
   intro_2: Alleluia.
   no_break_before_verses: 6 8 10
-  no_num_before_verses: []
+  no_num_before_verses: ~
   v:001: '{^I have} believed, therefore have I spoken; but I have been humbled exceedingly.'
   v:002: 'I said in my excess: Every man is a liar.'
 c:116:
@@ -856,7 +856,7 @@ c:120:
   aaaaa: Levavi oculos.
   intro: God is the keeper of his servants.
   intro_2: A gradual canticle.
-  no_break_before_verses: []
+  no_break_before_verses: ~
   no_num_before_verses: 1
   v:001: '{^I have} lifted up my eyes to the mountains, from whence help shall come to me.'
   v:002: 'My help is from the Lord, who made heaven and earth.'
@@ -866,13 +866,13 @@ c:121:
   intro_2: A gradual canticle.
   no_break_before_verses: ~
   no_num_before_verses: 1
-  v:001: 'I rejoiced at the things that were said to me: We shall go into the house of the Lord.'
+  v:001: '{^I rejoiced} at the things that were said to me: We shall go into the house of the Lord.'
   v:002: 'Our feet were standing in thy courts, O Jerusalem.'
 c:122:
   aaaaa: Ad te levavi.
   intro: 'A prayer in affliction, with confidence in God.'
   intro_2: A gradual canticle.
-  no_break_before_verses: []
+  no_break_before_verses: ~
   no_num_before_verses: 1
   v:001: '{^To} thee have I lifted up my eyes, who dwellest in heaven.'
   v:002: 'Behold as the eyes of servants are on the hands of their masters, As the eyes of the handmaid are on the hands of her mistress: so are our eyes unto the Lord our God, until he have mercy on us.'
@@ -926,7 +926,7 @@ c:128:
   v:002: 'Often have they fought against me from my youth: but they could not prevail over me.'
 c:129:
   aaaaa: De profundis.
-  intro: 'A prayer of a sinner, trusting in the mercies of God. The sixth penitential psalm.'
+  intro: 'A prayer of a sinner,{/}trusting in the mercies of God.{/}The sixth penitential psalm.'
   intro_2: A gradual canticle.
   no_break_before_verses: 2 5
   no_num_before_verses: 1
@@ -954,7 +954,7 @@ c:132:
   intro_2: A gradual canticle of David.
   no_break_before_verses: 3
   no_num_before_verses: 1
-  v:001: 'Behold how good and how pleasant it is for brethren to dwell together in unity:'
+  v:001: '{^Behold} how good and how pleasant it is for brethren to dwell together in unity:'
   v:002: 'Like the precious ointment on the head, that ran down upon the beard, the beard of Aaron, Which ran down to the skirt of his garment:'
 c:133:
   aaaaa: Ecce nunc benedicite.
@@ -1007,7 +1007,7 @@ c:139:
   intro: A prayer to be delivered from the wicked.
   no_break_before_verses: 6
   no_num_before_verses: ~
-  v:001: 'Unto the end, a psalm of David.'
+  v:001: 'Unto the end,{/}a psalm of David.'
   v:002: '{^Deliver} me, O Lord, from the evil man: rescue me from the unjust man.'
 c:140:
   aaaaa: 'Domine, clamavi.'

@@ -34,8 +34,47 @@ for (my $c_num=1 ; $c_num<=150 ; $c_num++) {
     my $c_index = sprintf("c:%03d", $c_num);
     say "### $c_index #####################################";
     my $c_data = dclone($data->{$c_index});
+
+    check_unknown_fields($c_data, \@known_fields);
+    check_no_break_values($c_data);
+    check_no_num_vs_dropcap($c_data);
+}
+
+sub check_unknown_fields {
+    my ($c_data, $known_fields) = @_;
     for my $key (sort keys %{$c_data}) {
-        say "Unknown field: $c_index : $key " if !is_in($key, @known_fields);
+        say "Unknown field: $key " if !is_in($key, @{$known_fields});
+    }
+}
+
+sub check_no_break_values {
+    my ($c_data) = @_;
+
+    my @no_break_before_verses = split(/\s+/, ($c_data->{no_break_before_verses} || ''));
+    if (grep(/[^0-9]/, @no_break_before_verses)) {
+        say "Non-number in no_break_before_verses";
+    }
+}
+
+sub check_no_num_vs_dropcap {
+    my ($c_data) = @_;
+    my $no_nums = ($c_data->{no_num_before_verses} || '');
+    my $v1 = $c_data->{"v:001"};
+    my $v2 = $c_data->{"v:002"};
+    my $v3 = ($c_data->{"v:003"} || '');
+
+    if (($v1 !~ /\{\^/) && ($v2 !~ /\{\^/) && ($v3 !~ /\{\^/)) {
+        say "No dropcaps found";
+    } elsif ($no_nums eq '') {
+        # if ($v1 =~ /^\{^/) {
+        #     say "v:001 doesn't have a num, but none start with dropcap";
+        # }
+    } elsif($no_nums eq '1') {
+        if ($v1 =~ /^\{^/) {
+            say "v:001 doesn't have a num, but also starts with dropcap";
+        }
+    } else {
+        say "Unexpected value for no_num_before_verses";
     }
 }
 
