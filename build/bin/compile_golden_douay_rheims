@@ -184,7 +184,7 @@ sub step_overlay_manual_edits {
     my ($book, $book_id, $source_dirs, $pg1581, $drbo) = @_;
     my @chapter_list = (combined_keys($drbo->{chapters}, $pg1581->{chapters}));
     #my $file = $source_dirs->{'overlay_manual_edits.psv'};
-    my $file = "$paths->{overlay_d}->{manual_edits}/manual_edits.psv";
+    my $file = "$paths->{overlay_d}->{manual_edits}/etc/manual_edits.psv";
     my $line_num = 0;
     for my $line (read_file($file)) {
         $line_num++;
@@ -277,7 +277,7 @@ sub chapter_overlay_TAN_match_of_drbo_or_pg1581 {
 
     #my $dir = $source_dirs{'match_of_drbo_or_pg1581'};
     #my $file = "$dir/$book->{book_id}.dif";
-    my $file = "$paths->{overlay_d}->{diff_sheets}/$book->{book_id}.dif";
+    my $file = "$paths->{overlay_d}->{diff_sheets}/etc/$book->{book_id}.dif";
 
     my $want_c = $c_index;
     $want_c =~ s/c:0*//;

@@ -19,7 +19,7 @@ overlay_d:
     psalm_beginnings: ./overlays/psalm_beginnings
 
 pgm:
-    check_diff_sheet:    ./bin/check_diff_sheet
+    check_diff_sheet:    ./overlays/diff_sheets/bin/check_diff_sheet
     diff_yamldirs:       ./bin/diff_yamldirs
 
 source_out_d:
